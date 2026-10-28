@@ -1,0 +1,80 @@
+body {
+  background: #eef6fb;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 12px 24px;
+  color: #12303f;
+  text-align: center;
+}
+
+.thanhTren {
+  background: #075985;
+  color: #ffffff;
+  padding: 14px 10px;
+  position: sticky;
+  top: 0;
+  margin: 0 -12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  z-index: 10;
+}
+.tenApp { font-size: 19px; font-weight: bold; letter-spacing: 0.5px; }
+.tenCongTy { font-size: 12px; opacity: 0.85; margin-top: 3px; }
+
+.khoi {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 14px;
+  margin: 16px auto;
+  max-width: 560px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  text-align: left;
+}
+.khoi h2 { color: #075985; font-size: 19px; margin: 0 0 10px; }
+.khoi h3 { color: #0b6fa4; font-size: 16px; margin: 16px 0 8px; }
+
+.gioHienTai { font-size: 14px; color: #555; margin: 0 0 10px; }
+
+.theChuyen {
+  background: #075985;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px 0;
+  text-align: center;
+}
+.theChuyen .huong { font-size: 15px; opacity: 0.9; }
+.theChuyen .gioLon { font-size: 40px; font-weight: bold; margin: 4px 0; }
+.theChuyen .conLai { font-size: 14px; color: #ffe9a8; }
+
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { padding: 7px 6px; border-bottom: 1px solid #e2eef5; text-align: left; }
+th { color: #075985; }
+tr.sapChay td { background: #fff3c4; font-weight: bold; }
+.nhanNho {
+  background: #e8590c; color: #fff; font-size: 11px;
+  padding: 2px 7px; border-radius: 8px; white-space: nowrap;
+}
+
+.theThongBao {
+  border-left: 5px solid #e8590c;
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+.theThongBao.khan { border-left-color: #d6336c; background: #fff0f4; }
+.theThongBao .tieuDe { font-weight: bold; margin-bottom: 4px; }
+.theThongBao .ngay { font-size: 12px; color: #777; }
+
+.theGia {
+  display: flex; justify-content: space-between;
+  padding: 8px 2px; border-bottom: 1px solid #e2eef5; font-size: 15px;
+}
+.theGia .gia { font-weight: bold; color: #075985; }
+
+.ghiChuNho { font-size: 13px; color: #666; line-height: 1.5; }
+.chanTrang { text-align: center; }
+a.nutFB {
+  display: inline-block; background: #1877f2; color: #fff;
+  padding: 9px 16px; border-radius: 8px; text-decoration: none; margin: 4px 2px;
+}
