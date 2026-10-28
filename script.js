@@ -103,9 +103,9 @@ var tinThatLac = [
     noiDung: "Ngoài liên hệ bến phà, hành khách có thể đăng tìm trong các hội nhóm Facebook của khu vực Cát Hải ở mục dưới đây." }
 ];
 
-// Link cac group Facebook tim do (bo sung sau):
+// Link cac group Facebook (them dan khi co group moi):
 var nhomFacebook = [
-  // { ten: "Ten group", link: "https://facebook.com/groups/..." }
+  { ten: "Bến Phà Đồng Bài 1-3-2024", link: "https://www.facebook.com/share/g/19hTbSXEfV/" }
 ];
 
 // ===== CAC HAM HIEN THI =====
