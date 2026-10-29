@@ -111,7 +111,8 @@ var tinThatLac = [
 
 // Link cac group Facebook (them dan khi co group moi):
 var nhomFacebook = [
-  { ten: "Bến Phà Đồng Bài 1-3-2024", link: "https://www.facebook.com/share/g/19hTbSXEfV/" }
+  { ten: "Bến Phà Đồng Bài 1-3-2024", link: "https://www.facebook.com/share/g/19hTbSXEfV/" },
+  { ten: "Bến Phà Đồng Bài ( Cát Hải ) - Cái Viềng", link: "https://www.facebook.com/share/g/1dK15TUguy/" }
 ];
 
 // ===== CAC HAM HIEN THI =====
