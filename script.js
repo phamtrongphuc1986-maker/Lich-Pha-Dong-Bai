@@ -165,6 +165,15 @@ function veBangLich() {
     ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepDB.con + " phút nữa";
   document.getElementById("conCV").textContent = tiepCV.mai
     ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepCV.con + " phút nữa";
+  var mDB = document.getElementById("miniDB"), mCV = document.getElementById("miniCV");
+  if (mDB) {
+    mDB.textContent = tiepDB.gio;
+    document.getElementById("miniConDB").textContent = tiepDB.mai ? "mai" : tiepDB.con + " phút";
+  }
+  if (mCV) {
+    mCV.textContent = tiepCV.gio;
+    document.getElementById("miniConCV").textContent = tiepCV.mai ? "mai" : tiepCV.con + " phút";
+  }
 }
 
 function veTheDanhSach(ds, id, cauTrong) {
@@ -221,5 +230,57 @@ function veTatCa() {
 
 window.onload = function () {
   veTatCa();
+  khoiDongThoiTiet();
   setInterval(veBangLich, 30000); // cap nhat dem nguoc moi 30 giay
 };
+
+// ===== THOI TIET (du lieu Open-Meteo, mien phi, khong can tai khoan) =====
+// Mac dinh: khu vuc Ben Dong Bai - Cat Hai. Bam nut de xem theo vi tri hien tai.
+var VI_TRI_BEN = { lat: 20.815, lon: 106.887, ten: "Khu vực Bến Đồng Bài — Cát Hải" };
+
+function maThoiTiet(code) {
+  if (code === 0) return { txt: "Trời quang", icon: "☀️" };
+  if (code === 1) return { txt: "Nắng nhẹ", icon: "🌤️" };
+  if (code === 2) return { txt: "Có mây", icon: "⛅" };
+  if (code === 3) return { txt: "Nhiều mây", icon: "☁️" };
+  if (code === 45 || code === 48) return { txt: "Sương mù", icon: "🌫️" };
+  if (code >= 51 && code <= 57) return { txt: "Mưa phùn", icon: "🌦️" };
+  if (code === 61) return { txt: "Mưa nhỏ", icon: "🌧️" };
+  if (code === 63) return { txt: "Mưa vừa", icon: "🌧️" };
+  if (code === 65 || code === 66 || code === 67) return { txt: "Mưa to", icon: "🌧️" };
+  if ((code >= 71 && code <= 77) || code === 85 || code === 86) return { txt: "Có tuyết", icon: "❄️" };
+  if (code >= 80 && code <= 82) return { txt: "Mưa rào", icon: "🌦️" };
+  if (code === 95 || code === 96 || code === 99) return { txt: "Dông", icon: "⛈️" };
+  return { txt: "—", icon: "🌡️" };
+}
+
+function taiThoiTiet(lat, lon, tenNoi) {
+  var el = document.getElementById("thoiTietMini");
+  if (!el) return;
+  el.innerHTML = "<p class='ghiChuNho'>Đang tải…</p>";
+  var url = "https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon
+    + "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m&timezone=auto";
+  fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+    var c = d.current;
+    var tt = maThoiTiet(c.weather_code);
+    el.innerHTML = "<div class='ttDong1'><span class='ttIconM'>" + tt.icon + "</span>"
+      + "<span class='ttNhietM'>" + Math.round(c.temperature_2m) + "°</span></div>"
+      + "<div class='ttMoTaM'>" + tt.txt + " · 💨 " + Math.round(c.wind_speed_10m) + " km/h (giật " + Math.round(c.wind_gusts_10m) + ")</div>"
+      + "<div class='ttNoiM'>📍 " + tenNoi + "</div>";
+  }).catch(function () {
+    el.innerHTML = "<p class='ghiChuNho'>Không tải được. Kiểm tra mạng rồi mở lại trang.</p>";
+  });
+}
+
+function khoiDongThoiTiet() {
+  taiThoiTiet(VI_TRI_BEN.lat, VI_TRI_BEN.lon, VI_TRI_BEN.ten);
+  var nut = document.getElementById("nutViTri");
+  if (nut) nut.addEventListener("click", function () {
+    if (!navigator.geolocation) { alert("Thiết bị không hỗ trợ định vị."); return; }
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      taiThoiTiet(pos.coords.latitude.toFixed(3), pos.coords.longitude.toFixed(3), "Vị trí hiện tại của bạn");
+    }, function () {
+      alert("Chưa lấy được vị trí. Bạn kiểm tra đã bật Định vị và cho phép trình duyệt dùng vị trí chưa.");
+    }, { timeout: 10000 });
+  });
+}
