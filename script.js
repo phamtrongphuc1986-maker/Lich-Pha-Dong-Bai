@@ -224,6 +224,7 @@ window.onload = function () {
   veTatCa();
   khoiDongThoiTiet();
   taiTiGiaVang();
+  demLuotXem();
   setInterval(veBangLich, 30000); // cap nhat dem nguoc moi 30 giay
 };
 
@@ -308,4 +309,23 @@ function taiTiGiaVang() {
   }).catch(function () {
     el.innerHTML = "<p class='ghiChuNho'>Không tải được tỉ giá — giá vàng. Kiểm tra kết nối mạng rồi mở lại trang.</p>";
   });
+}
+
+// ===== LUOT XEM TRANG (bo dem mien phi Abacus - dem moi lan mo trang) =====
+function demLuotXem() {
+  var NS = "pha-dong-bai-bayview";
+  var d = new Date();
+  function haiSo(n) { return (n < 10 ? "0" : "") + n; }
+  var ngay = d.getFullYear() + "-" + haiSo(d.getMonth() + 1) + "-" + haiSo(d.getDate());
+  function gan(id, key) {
+    fetch("https://abacus.jasoncameron.dev/hit/" + NS + "/" + key)
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var el = document.getElementById(id);
+        if (el && typeof j.value === "number") el.textContent = j.value.toLocaleString("vi-VN");
+      })
+      .catch(function () { /* khong tai duoc thi giu nguyen dau — */ });
+  }
+  gan("tongXem", "tong-luot-xem");
+  gan("xemHomNay", "ngay-" + ngay);
 }
