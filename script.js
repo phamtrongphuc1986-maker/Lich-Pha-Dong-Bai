@@ -165,15 +165,6 @@ function veBangLich() {
     ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepDB.con + " phút nữa";
   document.getElementById("conCV").textContent = tiepCV.mai
     ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepCV.con + " phút nữa";
-  var mDB = document.getElementById("miniDB"), mCV = document.getElementById("miniCV");
-  if (mDB) {
-    mDB.textContent = tiepDB.gio;
-    document.getElementById("miniConDB").textContent = tiepDB.mai ? "mai" : tiepDB.con + " phút";
-  }
-  if (mCV) {
-    mCV.textContent = tiepCV.gio;
-    document.getElementById("miniConCV").textContent = tiepCV.mai ? "mai" : tiepCV.con + " phút";
-  }
 }
 
 function veTheDanhSach(ds, id, cauTrong) {
@@ -231,6 +222,7 @@ function veTatCa() {
 window.onload = function () {
   veTatCa();
   khoiDongThoiTiet();
+  taiTiGiaVang();
   setInterval(veBangLich, 30000); // cap nhat dem nguoc moi 30 giay
 };
 
@@ -282,5 +274,37 @@ function khoiDongThoiTiet() {
     }, function () {
       alert("Chưa lấy được vị trí. Bạn kiểm tra đã bật Định vị và cho phép trình duyệt dùng vị trí chưa.");
     }, { timeout: 10000 });
+  });
+}
+
+// ===== TI GIA + GIA VANG (tham khao thi truong quoc te) =====
+// Nguon: open.er-api.com (ti gia theo USD) + gold-api.com (vang the gioi, truc tiep).
+function dinhDangSo(n) { return Math.round(n).toLocaleString("vi-VN"); }
+
+function taiTiGiaVang() {
+  var el = document.getElementById("tiGiaVang");
+  if (!el) return;
+  var pFX = fetch("https://open.er-api.com/v6/latest/USD").then(function (r) { return r.json(); });
+  var pVang = fetch("https://api.gold-api.com/price/XAU").then(function (r) { return r.json(); });
+  Promise.all([pFX, pVang]).then(function (kq) {
+    var fx = kq[0], vang = kq[1], r = fx.rates, usdVnd = r.VND;
+    function sangVnd(code) { return usdVnd / r[code]; }
+    // 1 luong = 37.5g; 1 ounce troy = 31.1035g -> he so quy doi 1.20565
+    var vangLuong = Math.round(vang.price * usdVnd * 1.20565 / 1000) * 1000;
+    var html = ""
+      + "<div class='theGia'><span>🥇 Vàng thế giới</span><span class='gia'>" + dinhDangSo(vang.price) + " USD/oz</span></div>"
+      + "<div class='theGia'><span>🥇 Vàng quy đổi</span><span class='gia'>≈ " + dinhDangSo(vangLuong) + " đ/lượng</span></div>"
+      + "<div class='theGia'><span>🇺🇸 Đô la Mỹ (USD)</span><span class='gia'>" + dinhDangSo(usdVnd) + " đ</span></div>"
+      + "<div class='theGia'><span>🇪🇺 Euro (EUR)</span><span class='gia'>" + dinhDangSo(sangVnd("EUR")) + " đ</span></div>"
+      + "<div class='theGia'><span>🇨🇳 Nhân dân tệ (CNY)</span><span class='gia'>" + dinhDangSo(sangVnd("CNY")) + " đ</span></div>"
+      + "<div class='theGia'><span>🇬🇧 Bảng Anh (GBP)</span><span class='gia'>" + dinhDangSo(sangVnd("GBP")) + " đ</span></div>";
+    el.innerHTML = html;
+    var nguon = document.getElementById("nguonTiGia");
+    if (nguon) {
+      nguon.textContent = "Tỉ giá tham khảo thị trường quốc tế, cập nhật " + new Date(fx.time_last_update_utc).toLocaleDateString("vi-VN")
+        + ". Giá vàng là vàng thế giới quy đổi — không phải giá mua bán SJC tại quầy.";
+    }
+  }).catch(function () {
+    el.innerHTML = "<p class='ghiChuNho'>Không tải được tỉ giá — giá vàng. Kiểm tra kết nối mạng rồi mở lại trang.</p>";
   });
 }
