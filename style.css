@@ -150,3 +150,18 @@ a.nutFB {
   .ttPhai { padding-left: 9px; }
   .dongXem strong { font-size: 17px; }
 }
+
+/* Thuy trieu Hon Dau */
+.trieuDau { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 6px 0 2px; }
+.trieuNgay { text-align: center; }
+.trieuNgay strong { display: block; font-size: 16px; color: #075985; }
+.trieuNgay span { font-size: 12.5px; color: #666; }
+.nutTrieu { background: #e0f2fe; border: 1px solid #bae6fd; color: #075985; border-radius: 8px; padding: 7px 12px; font-size: 14px; }
+.nutTrieu[disabled] { opacity: .35; }
+.trieuCucTri { text-align: center; font-size: 14px; margin: 8px 0; color: #334155; }
+.trieuHang { display: flex; align-items: center; gap: 8px; padding: 2.5px 0; font-size: 13.5px; }
+.trieuHang .trieuGio { flex: 0 0 30px; text-align: right; color: #0369a1; font-weight: 600; }
+.trieuThanh { flex: 1 1 auto; background: #e8f3fa; border-radius: 4px; height: 15px; overflow: hidden; }
+.trieuMuc { height: 100%; background: repeating-linear-gradient(45deg, #0284c7 0 8px, #38bdf8 8px 16px); border-radius: 4px; }
+.trieuHang .trieuSo { flex: 0 0 40px; font-variant-numeric: tabular-nums; color: #0c4a6e; }
+.trieuHang.gioNay { background: #fef9c3; border-radius: 6px; }

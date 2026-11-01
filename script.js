@@ -225,6 +225,7 @@ window.onload = function () {
   khoiDongThoiTiet();
   taiTiGiaVang();
   taiGiaXangDau();
+  taiThuyTrieu();
   demLuotXem();
   setInterval(veBangLich, 30000); // cap nhat dem nguoc moi 30 giay
 };
@@ -390,4 +391,64 @@ function demLuotXem() {
   }
   gan("tongXem", "tong-luot-xem");
   gan("xemHomNay", "ngay-" + ngay);
+}
+
+// ===== THUY TRIEU HON DAU (du lieu tu tram gia.hialo.vn/thuy-trieu) =====
+var TRIEU = { ngay: [], chiSo: 0 };
+
+function dinhDangMuc(v) { return v.toFixed(1) + "m"; }
+
+function veThuyTrieu() {
+  var el = document.getElementById("thuyTrieu");
+  if (!el || !TRIEU.ngay.length) return;
+  var n = TRIEU.ngay[TRIEU.chiSo];
+  var gio = n.gio;
+  var cao = Math.max.apply(null, gio), thap = Math.min.apply(null, gio);
+  var gioCao = gio.indexOf(cao), gioThap = gio.indexOf(thap);
+  var d = new Date();
+  function haiSo(x) { return (x < 10 ? "0" : "") + x; }
+  var homNay = haiSo(d.getDate()) + "/" + haiSo(d.getMonth() + 1) + "/" + d.getFullYear();
+  var laHomNay = n.duong === homNay;
+  var html = "<div class='trieuDau'>"
+    + "<button type='button' class='nutTrieu' id='trieuTruoc'" + (TRIEU.chiSo <= 0 ? " disabled" : "") + ">‹ Trước</button>"
+    + "<div class='trieuNgay'><strong>" + (laHomNay ? "Hôm nay " : "") + n.duong + "</strong>"
+    + (n.am ? "<span>Âm lịch " + n.am + "</span>" : "") + "</div>"
+    + "<button type='button' class='nutTrieu' id='trieuSau'" + (TRIEU.chiSo >= TRIEU.ngay.length - 1 ? " disabled" : "") + ">Sau ›</button>"
+    + "</div>";
+  html += "<p class='trieuCucTri'>Đỉnh triều <strong>" + dinhDangMuc(cao) + "</strong> lúc " + gioCao + "h · Chân triều <strong>" + dinhDangMuc(thap) + "</strong> lúc " + gioThap + "h</p>";
+  html += "<div class='trieuBang'>";
+  for (var h = 0; h < 24; h++) {
+    var rong = Math.max(4, Math.round(gio[h] / 4.5 * 100));
+    html += "<div class='trieuHang" + (laHomNay && h === d.getHours() ? " gioNay" : "") + "'>"
+      + "<span class='trieuGio'>" + h + "h</span>"
+      + "<div class='trieuThanh'><div class='trieuMuc' style='width:" + rong + "%'></div></div>"
+      + "<span class='trieuSo'>" + dinhDangMuc(gio[h]) + "</span></div>";
+  }
+  html += "</div>";
+  el.innerHTML = html;
+  var bT = document.getElementById("trieuTruoc"), bS = document.getElementById("trieuSau");
+  if (bT) bT.onclick = function () { if (TRIEU.chiSo > 0) { TRIEU.chiSo--; veThuyTrieu(); } };
+  if (bS) bS.onclick = function () { if (TRIEU.chiSo < TRIEU.ngay.length - 1) { TRIEU.chiSo++; veThuyTrieu(); } };
+}
+
+function taiThuyTrieu() {
+  var el = document.getElementById("thuyTrieu");
+  if (!el) return;
+  fetch("https://gia.hialo.vn/thuy-trieu")
+    .then(function (r) { return r.json(); })
+    .then(function (kq) {
+      if (!kq || !kq.ok || !kq.ngay || !kq.ngay.length) throw new Error("du lieu khong hop le");
+      TRIEU.ngay = kq.ngay;
+      var d = new Date();
+      function haiSo(x) { return (x < 10 ? "0" : "") + x; }
+      var homNay = haiSo(d.getDate()) + "/" + haiSo(d.getMonth() + 1) + "/" + d.getFullYear();
+      TRIEU.chiSo = 0;
+      for (var i = 0; i < kq.ngay.length; i++) { if (kq.ngay[i].duong === homNay) { TRIEU.chiSo = i; break; } }
+      veThuyTrieu();
+      var nguon = document.getElementById("nguonThuyTrieu");
+      if (nguon) nguon.textContent = "Trạm Hòn Dấu (Hải Phòng) — nguồn: thegioimoicau.com. Mực nước theo giờ, đơn vị mét; xem được khoảng 2 tuần tới bằng nút Sau.";
+    })
+    .catch(function () {
+      el.innerHTML = "<p class='ghiChuNho'>Không tải được lịch thủy triều. Kiểm tra kết nối mạng rồi mở lại trang.</p>";
+    });
 }
