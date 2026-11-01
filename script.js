@@ -250,6 +250,14 @@ function maThoiTiet(code) {
   return { txt: "—", icon: "🌡️" };
 }
 
+// Doi toc do gio km/h -> m/s (dinh dang dau phay) va cap gio Beaufort
+function dangMs(kmh) { return (Math.round(kmh / 3.6 * 10) / 10).toString().replace(".", ","); }
+function capGio(ms) {
+  var nguong = [0.3, 1.6, 3.4, 5.5, 8.0, 10.8, 13.9, 17.2, 20.8, 24.5, 28.5, 32.7];
+  for (var i = nguong.length - 1; i >= 0; i--) { if (ms >= nguong[i]) return i + 1; }
+  return 0;
+}
+
 function taiThoiTiet(lat, lon, tenNoi) {
   var el = document.getElementById("thoiTietMini");
   if (!el) return;
@@ -261,7 +269,7 @@ function taiThoiTiet(lat, lon, tenNoi) {
     var tt = maThoiTiet(c.weather_code);
     el.innerHTML = "<div class='ttDong1'><span class='ttIconM'>" + tt.icon + "</span>"
       + "<span class='ttNhietM'>" + Math.round(c.temperature_2m) + "°</span></div>"
-      + "<div class='ttMoTaM'>" + tt.txt + " · 💨 " + Math.round(c.wind_speed_10m) + " km/h (giật " + Math.round(c.wind_gusts_10m) + ")</div>"
+      + "<div class='ttMoTaM'>" + tt.txt + " · 💨 " + dangMs(c.wind_speed_10m) + " m/s — gió cấp " + capGio(c.wind_speed_10m / 3.6) + " (giật " + dangMs(c.wind_gusts_10m) + " m/s)</div>"
       + "<div class='ttNoiM'>📍 " + tenNoi + "</div>";
   }).catch(function () {
     el.innerHTML = "<p class='ghiChuNho'>Không tải được. Kiểm tra mạng rồi mở lại trang.</p>";
