@@ -1,0 +1,2 @@
+# ads.txt cho benphadongbai.io.vn — SAU KHI tai khoan AdSense duoc duyet, thay XXXXXXXXXXXXXXXX bang ma pub- cua ban (chi giu phan so, bo chu "pub-")
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
