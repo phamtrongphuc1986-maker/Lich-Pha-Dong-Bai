@@ -281,11 +281,27 @@ function khoiDongThoiTiet() {
   var nut = document.getElementById("nutViTri");
   if (nut) nut.addEventListener("click", function () {
     if (!navigator.geolocation) { alert("Thiết bị không hỗ trợ định vị."); return; }
+    nut.textContent = "📍 Đang lấy vị trí…";
     navigator.geolocation.getCurrentPosition(function (pos) {
-      taiThoiTiet(pos.coords.latitude.toFixed(3), pos.coords.longitude.toFixed(3), "Vị trí hiện tại của bạn");
+      nut.textContent = "📍 Xem theo vị trí của tôi";
+      var lat = pos.coords.latitude, lon = pos.coords.longitude;
+      taiThoiTiet(lat.toFixed(3), lon.toFixed(3), "Vị trí hiện tại của bạn");
+      fetch("https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=" + lat + "&longitude=" + lon + "&localityLanguage=vi")
+        .then(function (r) { return r.json(); })
+        .then(function (g) {
+          var ten = g.locality || g.city || "";
+          var vung = g.principalSubdivision || "";
+          var nhan = ten ? ("Vị trí của bạn — " + ten + (vung && vung !== ten ? ", " + vung : "")) : "";
+          if (nhan) {
+            var elNoi = document.querySelector("#thoiTietMini .ttNoiM");
+            if (elNoi) elNoi.textContent = "📍 " + nhan;
+          }
+        })
+        .catch(function () { /* khong lay duoc ten noi thi giu nhan mac dinh */ });
     }, function () {
-      alert("Chưa lấy được vị trí. Bạn kiểm tra đã bật Định vị và cho phép trình duyệt dùng vị trí chưa.");
-    }, { timeout: 10000 });
+      nut.textContent = "📍 Xem theo vị trí của tôi";
+      alert("Chưa lấy được vị trí. Cách mở quyền: chạm biểu tượng ghim/ổ khóa ở đầu thanh địa chỉ của trình duyệt → Quyền (Permissions) → Vị trí (Location) → chọn Cho phép, rồi bấm lại nút này.");
+    }, { enableHighAccuracy: true, timeout: 20000, maximumAge: 60000 });
   });
 }
 
