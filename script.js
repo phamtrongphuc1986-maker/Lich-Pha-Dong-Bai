@@ -263,7 +263,7 @@ function taiThoiTiet(lat, lon, tenNoi) {
   if (!el) return;
   el.innerHTML = "<p class='ghiChuNho'>Đang tải…</p>";
   var url = "https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon
-    + "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m&timezone=auto";
+    + "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m&timezone=auto&models=icon_seamless";
   fetch(url).then(function (r) { return r.json(); }).then(function (d) {
     var c = d.current;
     var tt = maThoiTiet(c.weather_code);
