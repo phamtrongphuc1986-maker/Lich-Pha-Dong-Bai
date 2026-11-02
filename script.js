@@ -528,3 +528,95 @@ window.addEventListener("load", function () {
   capNhat();
   nut.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
 });
+
+// ===== TIM KIEM TRONG TRANG (kieu Google: go la goi y, bam la nhay toi muc) =====
+function boDauTiengViet(s) {
+  return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D");
+}
+var MUC_TIM_KIEM = [
+  { t: "⛴️ Chuyến tiếp theo", kw: "chuyen tiep theo pha sap chay con bao lau", muc: "mucChuyen" },
+  { t: "🕐 Lịch chạy trong ngày", kw: "lich chay bang gio gio pha dong bai cai vieng", muc: "mucLich" },
+  { t: "🎫 Giá vé phà", kw: "gia ve bang gia tien ve", muc: "mucGiaVe" },
+  { t: "🌦️ Thời tiết ở bến", kw: "thoi tiet gio cap gio mua nang nhiet do", muc: "mucThoiTiet" },
+  { t: "💰 Tỉ giá — Giá vàng", kw: "ti gia gia vang usd ngoai te vang", muc: "mucTiGia" },
+  { t: "⛽ Giá xăng – dầu & giá gạo", kw: "gia xang dau gao petrolimex ron", muc: "mucGiaXang" },
+  { t: "🌊 Thủy triều", kw: "thuy trieu muc nuoc dinh trieu chan trieu con nuoc", muc: "mucTrieu" },
+  { t: "🧧 Thông báo Lễ – Tết", kw: "le tet lich nghi", muc: "mucLeTet" },
+  { t: "⚠️ Thông báo của bến", kw: "thong bao su co tam dung bao gio dong ben", muc: "mucThongBao" },
+  { t: "🧳 Tìm đồ thất lạc", kw: "that lac roi do mat do tim do", muc: "mucThatLac" },
+  { t: "📱 Cài đặt ứng dụng", kw: "cai dat ung dung app man hinh chinh tai app", muc: "khoiCaiApp" }
+];
+var TRAM_TIM_KIEM = [
+  ["hon-dau", "Hòn Dấu"], ["hong-gai", "Hồng Gai"], ["cua-ong", "Cửa Ông"],
+  ["cua-viet", "Cửa Việt"], ["cua-hoi", "Cửa Hội"], ["cua-gianh", "Cửa Gianh"],
+  ["da-nang", "Đà Nẵng"], ["quy-nhon", "Quy Nhơn"], ["nha-trang", "Nha Trang"],
+  ["vung-tau", "Vũng Tàu"], ["can-gio", "Cần Giờ"], ["sai-gon", "Sài Gòn"],
+  ["dinh-an", "Định An"], ["ha-tien", "Hà Tiên"], ["truong-sa", "Trường Sa"]
+];
+
+function khoiDongTimKiem() {
+  var o = document.getElementById("oTimKiem");
+  var hop = document.getElementById("goiYTimKiem");
+  if (!o || !hop) return;
+  var mucGia = [];
+  if (typeof bangGiaVe !== "undefined") {
+    bangGiaVe.forEach(function (nhom) {
+      (nhom.muc || []).forEach(function (m) {
+        mucGia.push({ t: "🎫 " + m.loaiXe + " — " + m.gia, kw: "gia ve " + boDauTiengViet(m.loaiXe), muc: "mucGiaVe" });
+      });
+    });
+  }
+  var tatCa = MUC_TIM_KIEM.concat(mucGia).concat(TRAM_TIM_KIEM.map(function (c) {
+    return { t: "🌊 Thủy triều " + c[1], kw: "thuy trieu " + boDauTiengViet(c[1]), tram: c[0], muc: "mucTrieu" };
+  }));
+  function denMuc(m) {
+    hop.style.display = "none";
+    if (m.tram) {
+      var chon = document.getElementById("chonTramTrieu");
+      if (chon && chon.value !== m.tram) {
+        chon.value = m.tram;
+        chon.dispatchEvent(new Event("change"));
+      }
+    }
+    var el = document.getElementById(m.muc);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      setTimeout(function () { el.classList.add("mucNoiBat"); }, 350);
+      setTimeout(function () { el.classList.remove("mucNoiBat"); }, 3600);
+    }
+    o.blur();
+  }
+  function veGoiY() {
+    var q = boDauTiengViet(o.value.trim());
+    if (q.length < 2) { hop.style.display = "none"; return; }
+    var thay = tatCa.filter(function (m) {
+      return boDauTiengViet(m.t).indexOf(q) >= 0 || boDauTiengViet(m.kw).indexOf(q) >= 0;
+    }).slice(0, 8);
+    if (!thay.length) {
+      hop.innerHTML = "<div class='khongCo'>Không thấy kết quả — thử từ khóa khác.</div>";
+      hop.style.display = "block";
+      return;
+    }
+    hop.innerHTML = "";
+    thay.forEach(function (m) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = m.t;
+      b.addEventListener("click", function () { denMuc(m); });
+      hop.appendChild(b);
+    });
+    hop.style.display = "block";
+  }
+  o.addEventListener("input", veGoiY);
+  o.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      var b = hop.querySelector("button");
+      if (b) b.click();
+    }
+  });
+  document.addEventListener("click", function (e) {
+    if (!hop.contains(e.target) && e.target !== o) hop.style.display = "none";
+  });
+}
+window.addEventListener("load", khoiDongTimKiem);

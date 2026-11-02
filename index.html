@@ -14,7 +14,7 @@
   <div class="tenCongTy">CAT BA BAYVIEW COMPANY LIMITED</div>
 </div>
 
-<div class="hangWidget">
+<div class="hangWidget" id="mucThoiTiet">
   <div class="widgetTrai">
     <div class="ttTrai">
       <div class="wTieuDe">🌦️ Thời tiết</div>
@@ -29,7 +29,15 @@
   </div>
 </div>
 
-<div class="khoi">
+<div class="khoi timKiemKhoi">
+  <div class="timKiemHop">
+    <span class="timKiemKinh">🔍</span>
+    <input id="oTimKiem" type="search" placeholder="Tìm trong trang: giá vé, thủy triều, giờ chạy…" autocomplete="off">
+    <div id="goiYTimKiem" class="goiYTimKiem" style="display:none"></div>
+  </div>
+</div>
+
+<div class="khoi" id="mucChuyen">
   <h2>⛴️ Chuyến tiếp theo</h2>
   <p id="bayGio" class="gioHienTai"></p>
   <div class="theChuyen">
@@ -45,12 +53,12 @@
   <p class="ghiChuNho">Giờ mở bến: 05h00 hằng ngày. Giờ chạy có thể điều chỉnh theo thời tiết và lượng hành khách.</p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucThongBao">
   <h2>⚠️ Thông báo</h2>
   <div id="danhSachThongBao"></div>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucLich">
   <h2>🕐 Lịch chạy trong ngày</h2>
   <p class="ghiChuNho">Lịch áp dụng từ 01/9/2026 đến 31/12/2026. Dòng được tô màu là chuyến sắp chạy gần nhất. Lịch mùa hè (25/03–25/09) và mùa đông chi tiết sẽ cập nhật sau.</p>
   <h3>Từ Bến Đồng Bài</h3>
@@ -60,19 +68,19 @@
   <p class="ghiChuNho">Phà tự hành ≥180 tấn chạy các chuyến trong ngày. Riêng chuyến 14h00 từ Bến Đồng Bài (đánh dấu ★) là chuyến tăng cường chở xe xăng dầu, xe gas, hàng cháy nổ, hôi tanh. Phà tự hành 20 tấn bảo đảm an toàn giao thông khẩn cấp: 04 chuyến/ngày.</p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucGiaVe">
   <h2>🎫 Giá vé</h2>
   <div id="bangGia"></div>
   <p class="ghiChuNho">Mức giá đã bao gồm thuế VAT 8%. Căn cứ: Thông tư số 45/2024/TT-BTC ngày 01/7/2024 của Bộ Tài chính và Quyết định số 3701/QĐ-UBND ngày 12/9/2025 của Ủy ban nhân dân thành phố Hải Phòng về việc ban hành khung giá dịch vụ xe chở phà tại bến phà Đồng Bài – Cái Viềng.</p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucTiGia">
   <h2>💰 Tỉ giá — Giá vàng</h2>
   <div id="tiGiaVang"><p class="ghiChuNho">Đang tải tỉ giá và giá vàng…</p></div>
   <p class="ghiChuNho" id="nguonTiGia"></p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucGiaXang">
   <h2>⛽ Giá xăng – dầu &amp; giá gạo</h2>
   <div id="giaXangDau"><p class="ghiChuNho">Đang tải giá xăng dầu…</p></div>
   <p class="ghiChuNho" id="nguonGiaXang"></p>
@@ -84,7 +92,7 @@
   <p class="ghiChuNho">Giá gạo ghi nhận tại các chợ lẻ ngày 30/10/2026 — mỗi chợ, mỗi vùng có thể chênh lệch ít nhiều.</p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucTrieu">
   <h2>🌊 Thủy triều <span id="trieuTenTram">Hòn Dấu</span></h2>
   <p class="ghiChuNho trieuChonWrap"><label for="chonTramTrieu">Chọn trạm: </label><select id="chonTramTrieu" class="chonTram">
     <option value="hon-dau" selected>Hòn Dấu (Hải Phòng)</option>
@@ -107,12 +115,12 @@
   <p class="ghiChuNho" id="nguonThuyTrieu"></p>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucLeTet">
   <h2>🧧 Thông báo Lễ – Tết</h2>
   <div id="danhSachLeTet"></div>
 </div>
 
-<div class="khoi">
+<div class="khoi" id="mucThatLac">
   <h2>🧳 Tìm đồ thất lạc</h2>
   <div id="danhSachThatLac"></div>
   <h3>Hội nhóm Facebook tìm đồ tại Cát Hải</h3>
