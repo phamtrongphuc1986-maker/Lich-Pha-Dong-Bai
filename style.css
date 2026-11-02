@@ -195,9 +195,9 @@ a.nutFB {
 
 /* Menu luoi + the xep gon (accordion) */
 .menuLuoi { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
-.menuLuoi button { display:flex; flex-direction:column; align-items:center; gap:4px; padding:13px 4px 11px; background:#eef4fa; border:1px solid #d5e0ea; border-radius:12px; font-size:27px; cursor:pointer; }
-.menuLuoi button:active { background:#dcebf7; }
-.menuLuoi button span { font-size:13.5px; color:#14425f; font-weight:600; }
+.menuLuoi button, .menuLuoi a { display:flex; flex-direction:column; align-items:center; gap:4px; padding:13px 4px 11px; background:#eef4fa; border:1px solid #d5e0ea; border-radius:12px; font-size:27px; cursor:pointer; text-decoration:none; }
+.menuLuoi button:active, .menuLuoi a:active { background:#dcebf7; }
+.menuLuoi button span, .menuLuoi a span { font-size:13.5px; color:#14425f; font-weight:600; text-align:center; }
 .khoi > h2.dauGon { cursor:pointer; position:relative; padding-right:32px; }
 .khoi > h2.dauGon::after { content:"▾"; position:absolute; right:8px; top:50%; transform:translateY(-50%); color:#0b5fa5; font-size:21px; transition:transform .25s; }
 .khoi.dongGon > h2.dauGon::after { transform:translateY(-50%) rotate(-90deg); }
