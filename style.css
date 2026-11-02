@@ -177,3 +177,5 @@ a.nutFB {
 /* Nut ve dau trang */
 #nutVeDau { position:fixed; right:14px; bottom:16px; z-index:60; width:46px; height:46px; border-radius:50%; border:none; background:#0b5fa5; color:#fff; font-size:20px; box-shadow:0 3px 10px rgba(0,0,0,.3); cursor:pointer; display:none; }
 #nutVeDau:active { opacity:.85; }
+
+.dmcaDong { text-align:center; margin-top:10px; }
