@@ -27,6 +27,8 @@
     "Bãi tắm Lan Hạ": "Lan Ha Bay Beaches",
     "Vườn quốc gia Cát Bà": "Cat Ba National Park",
     "Hải sản & ẩm thực": "Seafood & Cuisine",
+    "Việt Hải": "Viet Hai Village",
+    "Vịnh Lan Hạ – Vịnh Hạ Long": "Lan Ha Bay – Ha Long Bay",
     "Chạm vào ô để mở tiện ích — các thẻ bên dưới chạm vào tiêu đề để thu gọn/mở ra.": "Tap a tile to open a utility — tap a card title below to collapse or expand it.",
     "⛴️ Chuyến tiếp theo": "⛴️ Next Ferry",
     "Chuyến đầu tiên ngày mai": "First ferry tomorrow",
