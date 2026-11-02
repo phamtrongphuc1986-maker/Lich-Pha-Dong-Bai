@@ -28,3 +28,12 @@ a { color:#0b5fa5; }
 .theBai { background:#fff; border-radius:14px; padding:16px 18px; margin:12px 0; box-shadow:0 1px 4px rgba(0,0,0,.06); }
 .theBai h2 { margin:2px 0 6px; font-size:19px; }
 .theBai p { color:#43536a; margin:4px 0; }
+
+/* Anh + video tu dung trong bai viet */
+figure.anhBai { margin:18px 0; }
+figure.anhBai img { width:100%; height:auto; border-radius:12px; display:block; }
+figure.anhBai figcaption { font-size:13.5px; color:#5b6b7c; margin-top:6px; text-align:center; }
+.videoBai { margin:20px 0; }
+.videoBai .videoTieuDe { font-weight:700; color:#0b3d66; margin:0 0 8px; }
+.videoBai video { width:100%; border-radius:12px; display:block; background:#000; }
+.videoBai .videoGhiChu { font-size:13px; color:#5b6b7c; text-align:center; margin-top:6px; }
