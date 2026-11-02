@@ -37,3 +37,8 @@ figure.anhBai figcaption { font-size:13.5px; color:#5b6b7c; margin-top:6px; text
 .videoBai .videoTieuDe { font-weight:700; color:#0b3d66; margin:0 0 8px; }
 .videoBai video { width:100%; border-radius:12px; display:block; background:#000; }
 .videoBai .videoGhiChu { font-size:13px; color:#5b6b7c; text-align:center; margin-top:6px; }
+
+/* Bo chon ngon ngu (dich qua Google Translate) */
+.doiNgonNgu{display:flex;align-items:center;gap:8px;justify-content:center;padding:8px 10px;background:#eaf4fb;border-bottom:1px solid #cfe3f2;font-size:15px;flex-wrap:wrap}
+.doiNgonNgu .nnNhan{font-weight:700;color:#0b5fa5}
+.nnSelect{font-size:15px;padding:7px 8px;border-radius:8px;border:1px solid #9cc3e5;background:#fff;color:#123;max-width:240px}
