@@ -545,7 +545,15 @@ var MUC_TIM_KIEM = [
   { t: "⚠️ Thông báo của bến", kw: "thong bao su co tam dung bao gio dong ben", muc: "mucThongBao" },
   { t: "🧳 Tìm đồ thất lạc", kw: "that lac roi do mat do tim do", muc: "mucThatLac" },
   { t: "📱 Cài đặt ứng dụng", kw: "cai dat ung dung app man hinh chinh tai app", muc: "khoiCaiApp" },
-  { t: "📍 HIALO — tìm người quanh đây (web liên kết)", kw: "hialo tim nguoi quanh day ket ban nhan tin goi video", href: "https://www.hialo.vn" }
+  { t: "📍 HIALO — tìm người quanh đây (web liên kết)", kw: "hialo tim nguoi quanh day ket ban nhan tin goi video", href: "https://www.hialo.vn" },
+  { t: "📰 Kinh nghiệm du lịch Cát Bà tự túc", kw: "du lich cat ba kinh nghiem lich trinh dao cat ba", href: "bai-viet/du-lich-cat-ba.html", cungTrang: true },
+  { t: "📰 Du lịch Hải Phòng: đi đâu, ăn gì, chơi gì", kw: "du lich hai phong an gi choi gi do son hon dau", href: "bai-viet/du-lich-hai-phong.html", cungTrang: true },
+  { t: "📰 Bến phà Đồng Bài: giờ chạy & giá vé (bài viết)", kw: "ben pha dong bai gio chay gia ve kinh nghiem", href: "bai-viet/ben-pha-dong-bai-cai-vieng.html", cungTrang: true },
+  { t: "📰 Bãi tắm đẹp nhất vịnh Lan Hạ", kw: "bai tam dep nhat vinh lan ha cat co dao khi ba trai dao", href: "bai-viet/bai-tam-dep-nhat-vinh-lan-ha.html", cungTrang: true },
+  { t: "📰 Đảo có bãi tắm đẹp nhất vịnh Hạ Long", kw: "dao bai tam dep nhat vinh ha long ti top soi sim", href: "bai-viet/dao-bai-tam-dep-nhat-vinh-ha-long.html", cungTrang: true },
+  { t: "📰 Vườn quốc gia Cát Bà", kw: "vuon quoc gia cat ba trekking ngu lam vooc", href: "bai-viet/vuon-quoc-gia-cat-ba.html", cungTrang: true },
+  { t: "📰 Pháo đài Thần Công Cát Bà", kw: "phao dai than cong hoang hon cao diem 177", href: "bai-viet/phao-dai-than-cong.html", cungTrang: true },
+  { t: "📰 Tất cả bài viết cẩm nang du lịch", kw: "bai viet cam nang tin tuc huong dan du lich", href: "bai-viet/", cungTrang: true }
 ];
 var TRAM_TIM_KIEM = [
   ["hon-dau", "Hòn Dấu"], ["hong-gai", "Hồng Gai"], ["cua-ong", "Cửa Ông"],
@@ -573,7 +581,11 @@ function khoiDongTimKiem() {
   function denMuc(m) {
     hop.style.display = "none";
     o.blur();
-    if (m.href) { window.open(m.href, "_blank", "noopener"); return; }
+    if (m.href) {
+      if (m.cungTrang) { window.location.href = m.href; }
+      else { window.open(m.href, "_blank", "noopener"); }
+      return;
+    }
     if (m.tram) {
       var chon = document.getElementById("chonTramTrieu");
       if (chon && chon.value !== m.tram) {

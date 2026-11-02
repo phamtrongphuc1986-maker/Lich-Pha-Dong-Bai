@@ -1,0 +1,30 @@
+/* Trang bai viet SEO - Ben pha Dong Bai */
+* { box-sizing: border-box; }
+body { margin:0; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background:#f2f6fa; color:#1c2733; line-height:1.65; }
+.thanhDau { background:#0b5fa5; color:#fff; padding:12px 16px; }
+.thanhDau a { color:#fff; text-decoration:none; font-weight:600; font-size:15px; }
+.thanhDau .phu { display:block; font-size:12.5px; opacity:.85; font-weight:400; margin-top:2px; }
+.khungBai { max-width:780px; margin:0 auto; padding:18px 16px 40px; }
+.bai { background:#fff; border-radius:14px; padding:22px 20px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+h1 { font-size:27px; line-height:1.3; color:#0b5fa5; margin:4px 0 8px; }
+h2 { font-size:21px; color:#0b5fa5; margin:26px 0 8px; line-height:1.35; }
+h3 { font-size:17px; color:#14425f; margin:18px 0 6px; }
+p { margin:8px 0; }
+ul, ol { margin:8px 0 8px 20px; padding:0; }
+li { margin:5px 0; }
+.ngayDang { color:#5b6b7c; font-size:13.5px; margin-bottom:6px; }
+.hopThongTin { background:#eef4fa; border:1px solid #d5e0ea; border-radius:10px; padding:12px 14px; margin:14px 0; }
+.hopThongTin p { margin:4px 0; }
+.keoVe { background:#eafaf0; border:1px solid #bfe6cd; border-radius:10px; padding:14px; margin:22px 0; text-align:center; }
+.keoVe a { display:inline-block; background:#0b5fa5; color:#fff; padding:11px 20px; border-radius:24px; text-decoration:none; font-weight:700; margin-top:8px; }
+.baiLienQuan { background:#fff; border-radius:14px; padding:16px 20px; margin-top:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.baiLienQuan h2 { margin-top:4px; font-size:18px; }
+.baiLienQuan li { margin:7px 0; }
+a { color:#0b5fa5; }
+.chanBai { text-align:center; color:#5b6b7c; font-size:13px; padding:18px 12px 30px; }
+.mucLuc { background:#f7fafc; border:1px dashed #c7d5e0; border-radius:10px; padding:12px 16px; margin:14px 0; }
+.mucLuc p { font-weight:700; margin:2px 0 6px; }
+.theKhuVuc { display:inline-block; background:#fff; border:1px solid #c7d5e0; border-radius:16px; padding:5px 13px; margin:3px 2px; font-size:14px; }
+.theBai { background:#fff; border-radius:14px; padding:16px 18px; margin:12px 0; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.theBai h2 { margin:2px 0 6px; font-size:19px; }
+.theBai p { color:#43536a; margin:4px 0; }
