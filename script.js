@@ -514,3 +514,17 @@ window.addEventListener("load", function () {
     }
   });
 });
+
+// ===== NUT VE DAU TRANG (BACK TO TOP) =====
+window.addEventListener("load", function () {
+  var nut = document.createElement("button");
+  nut.type = "button";
+  nut.id = "nutVeDau";
+  nut.innerHTML = "⬆";
+  nut.setAttribute("aria-label", "Về đầu trang");
+  document.body.appendChild(nut);
+  function capNhat() { nut.style.display = window.scrollY > 300 ? "block" : "none"; }
+  window.addEventListener("scroll", capNhat, { passive: true });
+  capNhat();
+  nut.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+});

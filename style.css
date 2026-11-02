@@ -173,3 +173,7 @@ a.nutFB {
 /* Bo chon tram thuy trieu */
 .chonTram { font-size:16px; padding:7px 10px; border-radius:8px; border:1px solid #b9c9d6; background:#fff; max-width:100%; }
 .trieuChonWrap { margin:2px 0 10px; }
+
+/* Nut ve dau trang */
+#nutVeDau { position:fixed; right:14px; bottom:16px; z-index:60; width:46px; height:46px; border-radius:50%; border:none; background:#0b5fa5; color:#fff; font-size:20px; box-shadow:0 3px 10px rgba(0,0,0,.3); cursor:pointer; display:none; }
+#nutVeDau:active { opacity:.85; }
