@@ -595,6 +595,7 @@ function khoiDongTimKiem() {
     }
     var el = document.getElementById(m.muc);
     if (el) {
+      el.classList.remove("dongGon");
       el.scrollIntoView({ behavior: "smooth", block: "start" });
       setTimeout(function () { el.classList.add("mucNoiBat"); }, 350);
       setTimeout(function () { el.classList.remove("mucNoiBat"); }, 3600);
@@ -644,3 +645,25 @@ function khoiDongTimKiem() {
   });
 }
 window.addEventListener("load", khoiDongTimKiem);
+
+// ===== MENU LUOI + THE XEP GON (trang ngan gon, cham la mo) =====
+var THE_GON_MAC_DINH = ["mucGiaVe", "mucTiGia", "mucGiaXang", "mucTrieu", "mucLeTet", "mucThatLac", "khoiCaiApp", "mucBaiViet"];
+function khoiDongGonThe() {
+  document.querySelectorAll(".khoi").forEach(function (the) {
+    var h2 = the.querySelector(":scope > h2");
+    if (!h2 || the.id === "mucChuyen") return;
+    h2.classList.add("dauGon");
+    if (THE_GON_MAC_DINH.indexOf(the.id) >= 0) the.classList.add("dongGon");
+    h2.addEventListener("click", function () { the.classList.toggle("dongGon"); });
+  });
+  document.querySelectorAll(".menuLuoi button[data-mo]").forEach(function (nut) {
+    nut.addEventListener("click", function () {
+      var el = document.getElementById(nut.getAttribute("data-mo"));
+      if (!el) return;
+      el.classList.remove("dongGon");
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", khoiDongGonThe);
+else khoiDongGonThe();
