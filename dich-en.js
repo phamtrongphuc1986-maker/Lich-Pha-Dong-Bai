@@ -5,7 +5,7 @@
   if (location.hostname.indexOf("translate.goog") > -1) return;
 
   var MAP = {
-    "🌐 Ngôn ngữ:": "🌐 Language:",
+    "🌐 Ngôn ngữ (Select Language):": "🌐 Language:",
     "LỊCH PHÀ ĐỒNG BÀI – CÁI VIỀNG": "DONG BAI – CAI VIENG FERRY SCHEDULE",
     "🌦️ Thời tiết": "🌦️ Weather",
     "🌦️ Thời tiết ở bến": "🌦️ Weather at the Terminal",
