@@ -476,3 +476,24 @@ function taiThuyTrieu() {
       el.innerHTML = "<p class='ghiChuNho'>Không tải được lịch thủy triều. Kiểm tra kết nối mạng rồi mở lại trang.</p>";
     });
 }
+
+// ===== CAI DAT UNG DUNG (PWA) =====
+var suKienCaiApp = null;
+window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); suKienCaiApp = e; });
+window.addEventListener("load", function () {
+  var khoi = document.getElementById("khoiCaiApp");
+  if (!khoi) return;
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) { khoi.style.display = "none"; return; }
+  var nut = document.getElementById("nutCaiApp");
+  var hd = document.getElementById("caiAppHd");
+  if (!nut) return;
+  nut.addEventListener("click", function () {
+    if (suKienCaiApp) {
+      suKienCaiApp.prompt();
+      suKienCaiApp.userChoice.then(function () { suKienCaiApp = null; });
+    } else if (hd) {
+      hd.style.display = "block";
+      hd.textContent = "Cách cài thủ công: chạm nút ⋮ ở góc phải trên của Chrome → chọn “Cài đặt ứng dụng” (hoặc “Thêm vào màn hình chính”) → Cài đặt. Trên iPhone: bấm nút Chia sẻ → “Thêm vào Màn hình chính”.";
+    }
+  });
+});

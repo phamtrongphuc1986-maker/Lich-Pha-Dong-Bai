@@ -165,3 +165,7 @@ a.nutFB {
 .trieuMuc { height: 100%; background: repeating-linear-gradient(45deg, #0284c7 0 8px, #38bdf8 8px 16px); border-radius: 4px; }
 .trieuHang .trieuSo { flex: 0 0 40px; font-variant-numeric: tabular-nums; color: #0c4a6e; }
 .trieuHang.gioNay { background: #fef9c3; border-radius: 6px; }
+
+/* Khoi cai dat ung dung (PWA) */
+.nutCaiApp { background:#0b5fa5; color:#fff; border:none; border-radius:10px; padding:12px 22px; font-size:16px; font-weight:700; cursor:pointer; margin-top:6px; }
+.nutCaiApp:active { opacity:.85; }
