@@ -7,6 +7,9 @@
   var MAP = {
     "🌐 Ngôn ngữ (Select Language):": "🌐 Language:",
     "🌙 Bến phà Đồng Bài về đêm": "🌙 Dong Bai Ferry Terminal at night",
+    "⛴️ Phà Bayview Cát Bà cập bến Đồng Bài": "⛴️ Bayview Cat Ba ferry docking at Dong Bai Terminal",
+    "⚓ Mặt bến Đồng Bài — lối xuống phà": "⚓ Dong Bai Terminal — the way down to the ferry",
+    "🚠 Tháp cáp treo Cát Bà nhìn từ bến Đồng Bài": "🚠 Cat Ba cable car towers seen from Dong Bai Terminal",
     "LỊCH PHÀ ĐỒNG BÀI – CÁI VIỀNG": "DONG BAI – CAI VIENG FERRY SCHEDULE",
     "🌦️ Thời tiết": "🌦️ Weather",
     "🌦️ Thời tiết ở bến": "🌦️ Weather at the Terminal",
