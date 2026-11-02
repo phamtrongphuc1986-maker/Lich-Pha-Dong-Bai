@@ -203,11 +203,7 @@ a.nutFB {
 .khoi.dongGon > h2.dauGon::after { transform:translateY(-50%) rotate(-90deg); }
 .khoi.dongGon > *:not(h2) { display:none !important; }
 
-/* Bo chon ngon ngu Google Translate */
+/* Bo chon ngon ngu (dich qua Google Translate) */
 .doiNgonNgu{display:flex;align-items:center;gap:8px;justify-content:center;padding:8px 10px;background:#eaf4fb;border-bottom:1px solid #cfe3f2;font-size:15px;flex-wrap:wrap}
 .doiNgonNgu .nnNhan{font-weight:700;color:#0b5fa5}
-.goog-te-banner-frame.skiptranslate{display:none!important}
-body{top:0!important}
-.goog-te-gadget{font-size:0!important;color:transparent!important;line-height:1}
-.goog-te-gadget select{font-size:15px!important;padding:6px 8px;border-radius:8px;border:1px solid #9cc3e5;background:#fff;color:#123;max-width:230px}
-.goog-te-gadget .goog-te-gadget-icon,.goog-logo-link{display:none!important}
+.nnSelect{font-size:15px;padding:7px 8px;border-radius:8px;border:1px solid #9cc3e5;background:#fff;color:#123;max-width:240px}
