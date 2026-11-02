@@ -417,8 +417,8 @@ function demLuotXem() {
   gan("xemHomNay", "ngay-" + ngay);
 }
 
-// ===== THUY TRIEU HON DAU (du lieu tu tram gia.hialo.vn/thuy-trieu) =====
-var TRIEU = { ngay: [], chiSo: 0 };
+// ===== THUY TRIEU NHIEU TRAM (du lieu tu tram gia.hialo.vn/thuy-trieu?tram=...) =====
+var TRIEU = { ngay: [], chiSo: 0, tram: "hon-dau", daGanChon: false };
 
 function dinhDangMuc(v) { return v.toFixed(1) + "m"; }
 
@@ -442,7 +442,7 @@ function veThuyTrieu() {
   html += "<p class='trieuCucTri'>Đỉnh triều <strong>" + dinhDangMuc(cao) + "</strong> lúc " + gioCao + "h · Chân triều <strong>" + dinhDangMuc(thap) + "</strong> lúc " + gioThap + "h</p>";
   html += "<div class='trieuBang'>";
   for (var h = 0; h < 24; h++) {
-    var rong = Math.max(4, Math.round(gio[h] / 4.5 * 100));
+    var rong = Math.max(4, Math.round(gio[h] / cao * 100));
     html += "<div class='trieuHang" + (laHomNay && h === d.getHours() ? " gioNay" : "") + "'>"
       + "<span class='trieuGio'>" + h + "h</span>"
       + "<div class='trieuThanh'><div class='trieuMuc' style='width:" + rong + "%'></div></div>"
@@ -458,7 +458,22 @@ function veThuyTrieu() {
 function taiThuyTrieu() {
   var el = document.getElementById("thuyTrieu");
   if (!el) return;
-  fetch("https://gia.hialo.vn/thuy-trieu")
+  var chon = document.getElementById("chonTramTrieu");
+  if (!TRIEU.daGanChon && chon) {
+    TRIEU.daGanChon = true;
+    try {
+      var daLuu = localStorage.getItem("pha_tram_trieu");
+      if (daLuu) { TRIEU.tram = daLuu; chon.value = daLuu; }
+    } catch (e) { /* trinh duyet chan localStorage thi bo qua */ }
+    chon.addEventListener("change", function () {
+      TRIEU.tram = chon.value;
+      try { localStorage.setItem("pha_tram_trieu", TRIEU.tram); } catch (e) { /* bo qua */ }
+      TRIEU.ngay = [];
+      el.innerHTML = "<p class='ghiChuNho'>Đang tải lịch thủy triều…</p>";
+      taiThuyTrieu();
+    });
+  }
+  fetch("https://gia.hialo.vn/thuy-trieu?tram=" + encodeURIComponent(TRIEU.tram))
     .then(function (r) { return r.json(); })
     .then(function (kq) {
       if (!kq || !kq.ok || !kq.ngay || !kq.ngay.length) throw new Error("du lieu khong hop le");
@@ -469,8 +484,10 @@ function taiThuyTrieu() {
       TRIEU.chiSo = 0;
       for (var i = 0; i < kq.ngay.length; i++) { if (kq.ngay[i].duong === homNay) { TRIEU.chiSo = i; break; } }
       veThuyTrieu();
+      var tenTram = document.getElementById("trieuTenTram");
+      if (tenTram && kq.tram) tenTram.textContent = kq.tram;
       var nguon = document.getElementById("nguonThuyTrieu");
-      if (nguon) nguon.textContent = "Trạm Hòn Dấu (Hải Phòng) — nguồn: thegioimoicau.com. Mực nước theo giờ, đơn vị mét; xem được khoảng 2 tuần tới bằng nút Sau.";
+      if (nguon) nguon.textContent = "Trạm " + (kq.tram || "") + " — nguồn: thegioimoicau.com. Mực nước theo giờ, đơn vị mét; xem được khoảng 2 tuần tới bằng nút Sau. Các quận, huyện của TP.HCM xem chung trạm Sài Gòn hoặc Cần Giờ.";
     })
     .catch(function () {
       el.innerHTML = "<p class='ghiChuNho'>Không tải được lịch thủy triều. Kiểm tra kết nối mạng rồi mở lại trang.</p>";

@@ -169,3 +169,7 @@ a.nutFB {
 /* Khoi cai dat ung dung (PWA) */
 .nutCaiApp { background:#0b5fa5; color:#fff; border:none; border-radius:10px; padding:12px 22px; font-size:16px; font-weight:700; cursor:pointer; margin-top:6px; }
 .nutCaiApp:active { opacity:.85; }
+
+/* Bo chon tram thuy trieu */
+.chonTram { font-size:16px; padding:7px 10px; border-radius:8px; border:1px solid #b9c9d6; background:#fff; max-width:100%; }
+.trieuChonWrap { margin:2px 0 10px; }
