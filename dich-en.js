@@ -50,6 +50,8 @@
     "I. Giá dịch vụ chung": "I. Standard Prices",
     "II. Áp dụng đối với người dân Đặc Khu Cát Hải": "II. Prices for Residents of the Cat Hai Special Zone",
     "Mức giá đã bao gồm thuế VAT 8%. Căn cứ: Thông tư số 45/2024/TT-BTC ngày 01/7/2024 của Bộ Tài chính và Quyết định số 3701/QĐ-UBND ngày 12/9/2025 của Ủy ban nhân dân thành phố Hải Phòng về việc ban hành khung giá dịch vụ xe chở phà tại bến phà Đồng Bài – Cái Viềng.": "Prices include 8% VAT. Basis: Circular No. 45/2024/TT-BTC dated 1 July 2024 of the Ministry of Finance and Decision No. 3701/QD-UBND dated 12 September 2025 of the Hai Phong People's Committee issuing the vehicle ferry service price framework at the Dong Bai – Cai Vieng ferry terminal.",
+    "Áp dụng cho mọi hành khách, gồm khách du lịch và người ngoài Đặc Khu Cát Hải. Giá xe tính theo xe, không kể khách ngồi trên xe.": "Applies to all passengers, including tourists and people from outside the Cat Hai Special Zone. Vehicle prices are per vehicle, regardless of the passengers on board.",
+    "Nhóm người dân Đặc Khu Cát Hải, TP. Hải Phòng được giảm giá (còn một nửa giá chung). Đơn vị tính theo bảng giá niêm yết tại bến.": "Residents of the Cat Hai Special Zone, Hai Phong City receive a discount (half the standard price). Units follow the price list posted at the terminal.",
     "Hành khách đi bộ": "Passenger on foot",
     "Hành khách đi xe đạp": "Passenger with a bicycle",
     "Hành khách đi xe máy": "Passenger with a motorbike",
