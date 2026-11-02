@@ -647,7 +647,7 @@ function khoiDongTimKiem() {
 window.addEventListener("load", khoiDongTimKiem);
 
 // ===== MENU LUOI + THE XEP GON (trang ngan gon, cham la mo) =====
-var THE_GON_MAC_DINH = ["mucGiaVe", "mucTiGia", "mucGiaXang", "mucTrieu", "mucLeTet", "mucThatLac", "khoiCaiApp", "mucBaiViet"];
+var THE_GON_MAC_DINH = ["mucGiaVe", "mucTiGia", "mucGiaXang", "mucTrieu", "mucLeTet", "mucThatLac", "khoiCaiApp"];
 function khoiDongGonThe() {
   document.querySelectorAll(".khoi").forEach(function (the) {
     var h2 = the.querySelector(":scope > h2");
