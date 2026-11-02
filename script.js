@@ -544,7 +544,8 @@ var MUC_TIM_KIEM = [
   { t: "🧧 Thông báo Lễ – Tết", kw: "le tet lich nghi", muc: "mucLeTet" },
   { t: "⚠️ Thông báo của bến", kw: "thong bao su co tam dung bao gio dong ben", muc: "mucThongBao" },
   { t: "🧳 Tìm đồ thất lạc", kw: "that lac roi do mat do tim do", muc: "mucThatLac" },
-  { t: "📱 Cài đặt ứng dụng", kw: "cai dat ung dung app man hinh chinh tai app", muc: "khoiCaiApp" }
+  { t: "📱 Cài đặt ứng dụng", kw: "cai dat ung dung app man hinh chinh tai app", muc: "khoiCaiApp" },
+  { t: "📍 HIALO — tìm người quanh đây (web liên kết)", kw: "hialo tim nguoi quanh day ket ban nhan tin goi video", href: "https://www.hialo.vn" }
 ];
 var TRAM_TIM_KIEM = [
   ["hon-dau", "Hòn Dấu"], ["hong-gai", "Hồng Gai"], ["cua-ong", "Cửa Ông"],
@@ -571,6 +572,8 @@ function khoiDongTimKiem() {
   }));
   function denMuc(m) {
     hop.style.display = "none";
+    o.blur();
+    if (m.href) { window.open(m.href, "_blank", "noopener"); return; }
     if (m.tram) {
       var chon = document.getElementById("chonTramTrieu");
       if (chon && chon.value !== m.tram) {
@@ -584,20 +587,21 @@ function khoiDongTimKiem() {
       setTimeout(function () { el.classList.add("mucNoiBat"); }, 350);
       setTimeout(function () { el.classList.remove("mucNoiBat"); }, 3600);
     }
-    o.blur();
   }
   function veGoiY() {
-    var q = boDauTiengViet(o.value.trim());
+    var tho = o.value.trim();
+    var q = boDauTiengViet(tho);
     if (q.length < 2) { hop.style.display = "none"; return; }
     var thay = tatCa.filter(function (m) {
       return boDauTiengViet(m.t).indexOf(q) >= 0 || boDauTiengViet(m.kw).indexOf(q) >= 0;
     }).slice(0, 8);
-    if (!thay.length) {
-      hop.innerHTML = "<div class='khongCo'>Không thấy kết quả — thử từ khóa khác.</div>";
-      hop.style.display = "block";
-      return;
-    }
     hop.innerHTML = "";
+    if (!thay.length) {
+      var kc = document.createElement("div");
+      kc.className = "khongCo";
+      kc.textContent = "Không thấy trong trang — tìm trên Google bên dưới:";
+      hop.appendChild(kc);
+    }
     thay.forEach(function (m) {
       var b = document.createElement("button");
       b.type = "button";
@@ -605,6 +609,14 @@ function khoiDongTimKiem() {
       b.addEventListener("click", function () { denMuc(m); });
       hop.appendChild(b);
     });
+    var bg = document.createElement("button");
+    bg.type = "button";
+    bg.textContent = "🌐 Tìm \u201C" + tho + "\u201D trên Google";
+    bg.addEventListener("click", function () {
+      hop.style.display = "none";
+      window.open("https://www.google.com/search?q=" + encodeURIComponent(tho), "_blank", "noopener");
+    });
+    hop.appendChild(bg);
     hop.style.display = "block";
   }
   o.addEventListener("input", veGoiY);
