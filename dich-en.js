@@ -6,6 +6,7 @@
 
   var MAP = {
     "🌐 Ngôn ngữ (Select Language):": "🌐 Language:",
+    "🌙 Bến phà Đồng Bài về đêm": "🌙 Dong Bai Ferry Terminal at night",
     "LỊCH PHÀ ĐỒNG BÀI – CÁI VIỀNG": "DONG BAI – CAI VIENG FERRY SCHEDULE",
     "🌦️ Thời tiết": "🌦️ Weather",
     "🌦️ Thời tiết ở bến": "🌦️ Weather at the Terminal",
