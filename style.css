@@ -203,10 +203,10 @@ a.nutFB {
 .khoi.dongGon > h2.dauGon::after { transform:translateY(-50%) rotate(-90deg); }
 .khoi.dongGon > *:not(h2) { display:none !important; }
 
-/* Slideshow anh dau trang (anh that tai ben Dong Bai do ben pha chup) */
+/* Slideshow anh dau trang (anh that tai ben Dong Bai do ben pha chup): chuoi anh troi qua lai 5 giay/lan */
 .anhDauTrang{position:relative;width:100%;aspect-ratio:2/1;max-height:430px;background:#0a1622;overflow:hidden}
-.slideDauTrang{position:absolute;inset:0;background-position:center center;background-size:cover;background-repeat:no-repeat;opacity:0;transition:opacity 1.2s ease}
-.slideDauTrang.dangXem{opacity:1}
+.duongTruot{display:flex;width:100%;height:100%;transition:transform 1.8s ease-in-out}
+.slideDauTrang{position:relative;flex:0 0 100%;height:100%;background-position:center center;background-size:cover;background-repeat:no-repeat}
 .anhDauTrangChu{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;color:#fff;font-size:15px;font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.8);background:linear-gradient(transparent,rgba(0,0,0,.55))}
 .chamDauTrang{position:absolute;right:10px;bottom:10px;display:flex;gap:6px;z-index:2}
 .chamDauTrang .cham{width:10px;height:10px;border-radius:50%;border:1px solid rgba(255,255,255,.9);background:rgba(255,255,255,.35);padding:0;cursor:pointer}
