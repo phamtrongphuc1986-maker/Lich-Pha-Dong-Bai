@@ -216,3 +216,12 @@ a.nutFB {
 .doiNgonNgu{display:flex;align-items:center;gap:8px;justify-content:center;padding:8px 10px;background:#eaf4fb;border-bottom:1px solid #cfe3f2;font-size:15px;flex-wrap:wrap}
 .doiNgonNgu .nnNhan{font-weight:700;color:#0b5fa5}
 .nnSelect{font-size:15px;padding:7px 8px;border-radius:8px;border:1px solid #9cc3e5;background:#fff;color:#123;max-width:240px}
+
+/* Man hinh chao khi mo web/app: khau hieu tren logo, website duoi logo */
+.manChao{position:fixed;inset:0;z-index:9999;background:linear-gradient(180deg,#0a6ebd 0%,#075985 60%,#064a6e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 20px;opacity:1;transition:opacity .45s ease}
+.manChaoAn{opacity:0;pointer-events:none}
+.manChaoKhauHieu{color:#ffd83d;font-size:clamp(24px,7vw,40px);font-weight:800;letter-spacing:.5px;line-height:1.25;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.manChaoPhu{color:#eaf6ff;font-size:clamp(14px,4vw,19px);font-weight:600;margin-top:10px}
+.manChaoLogo{width:min(52vw,240px);height:auto;margin:26px 0 20px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.manChaoWeb{color:#fff;font-size:clamp(19px,5.5vw,28px);font-weight:800;letter-spacing:.4px}
+.manChaoMuc{color:#bfe3f7;font-size:clamp(13px,3.8vw,17px);margin-top:8px}
