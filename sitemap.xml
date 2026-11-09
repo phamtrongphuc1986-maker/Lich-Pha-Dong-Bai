@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.benphadongbai.io.vn/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.benphadongbai.io.vn/bai-viet/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.benphadongbai.io.vn/tin-tuc.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.benphadongbai.io.vn/bai-viet/du-lich-cat-ba.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.benphadongbai.io.vn/bai-viet/du-lich-hai-phong.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.benphadongbai.io.vn/bai-viet/ben-pha-dong-bai-cai-vieng.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
