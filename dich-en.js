@@ -39,6 +39,7 @@
     "Chạm vào ô để mở tiện ích — các thẻ bên dưới chạm vào tiêu đề để thu gọn/mở ra.": "Tap a tile to open a utility — tap a card title below to collapse or expand it.",
     "⛴️ Chuyến tiếp theo": "⛴️ Next Ferry",
     "Chuyến đầu tiên ngày mai": "First ferry tomorrow",
+    "Chuyến đầu ngày": "First departure of the day",
     "Đồng Bài → Cái Viềng": "Dong Bai → Cai Vieng",
     "Cái Viềng → Đồng Bài": "Cai Vieng → Dong Bai",
     "Bến Đồng Bài": "Dong Bai Ferry Terminal",

@@ -186,12 +186,21 @@ function veBangLich() {
   document.getElementById("bayGio").textContent =
     "Bây giờ: " + bayGio.toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" }) +
     " — " + bayGio.toLocaleDateString("vi-VN", { weekday: "long", day: "2-digit", month: "2-digit", year: "numeric" });
-  document.getElementById("chuyenDB").textContent = tiepDB.gio;
-  document.getElementById("chuyenCV").textContent = tiepCV.gio;
-  document.getElementById("conDB").textContent = tiepDB.mai
-    ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepDB.con + " phút nữa";
-  document.getElementById("conCV").textContent = tiepCV.mai
-    ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepCV.con + " phút nữa";
+  if (dongBang) {
+    // Trang thai dong bang: khung Chuyen tiep theo dung o chuyen DAU ngay cua moi ben,
+    // nhan tinh "Chuyen dau ngay" thay cho dem nguoc theo gio that.
+    document.getElementById("chuyenDB").textContent = dsDB[0].gio;
+    document.getElementById("chuyenCV").textContent = dsCV[0].gio;
+    document.getElementById("conDB").textContent = "Chuyến đầu ngày";
+    document.getElementById("conCV").textContent = "Chuyến đầu ngày";
+  } else {
+    document.getElementById("chuyenDB").textContent = tiepDB.gio;
+    document.getElementById("chuyenCV").textContent = tiepCV.gio;
+    document.getElementById("conDB").textContent = tiepDB.mai
+      ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepDB.con + " phút nữa";
+    document.getElementById("conCV").textContent = tiepCV.mai
+      ? "Chuyến đầu tiên ngày mai" : "Còn khoảng " + tiepCV.con + " phút nữa";
+  }
 }
 
 function veTheDanhSach(ds, id, cauTrong) {
