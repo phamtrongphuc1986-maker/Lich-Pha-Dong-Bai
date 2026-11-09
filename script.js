@@ -38,20 +38,6 @@ var lichPha = [
 // ===== THONG BAO (sua danh sach nay khi co thong bao moi) =====
 // loai: "khan" = su co thoi tiet / thay doi lich; "thuong" = thong bao chung.
 var thongBao = [
-  { loai: "khan", ngay: "09/11/2026", dongBangLich: true,
-    tieuDe: "🌬️ Gió Đông Bắc mạnh lên tại Cát Hải",
-    noiDung: "<p style='margin:4px 0'>Theo bản tin của Đài Khí tượng thủy văn Hải Phòng và Trung tâm Dự báo Khí tượng Thủy văn Quốc gia, ngày 09/11/2026 khu vực Cát Hải chịu ảnh hưởng của đợt không khí lạnh, gió chuyển hướng Đông Bắc và mạnh lên.</p>" +
-      "<p style='margin:4px 0'><strong>Bến Đồng Bài – Cái Viềng:</strong> gió Đông Bắc cấp 4–5, có lúc cấp 6, gió giật có thể đạt cấp 7; sóng biển ven bờ khoảng 1–2 m.</p>" +
-      "<p style='margin:4px 0'><strong>Vùng biển Cát Hải – Vịnh Lan Hạ:</strong> gió Đông Bắc cấp 4–5, có lúc cấp 6. <strong>Vịnh Bắc Bộ:</strong> gió Đông Bắc cấp 7, có lúc cấp 8, biển động mạnh.</p>" +
-      "<p style='margin:4px 0'>Quy đổi cấp gió sang tốc độ:</p>" +
-      "<div class='theGia'><span>Cấp 4</span><span class='gia'>5,5–7,9 m/s</span></div>" +
-      "<div class='theGia'><span>Cấp 5</span><span class='gia'>8,0–10,7 m/s</span></div>" +
-      "<div class='theGia'><span>Cấp 6</span><span class='gia'>10,8–13,8 m/s</span></div>" +
-      "<div class='theGia'><span>Cấp 7</span><span class='gia'>13,9–17,1 m/s</span></div>" +
-      "<div class='theGia'><span>Cấp 8</span><span class='gia'>17,2–20,7 m/s</span></div>" +
-      "<p style='margin:4px 0'><strong>Lưu ý hành khách:</strong> gió cấp 4–5 cần chú ý sóng và điều kiện thời tiết; gió cấp 6 trở lên cần đặc biệt theo dõi thông báo điều hành của bến. Tuyến phà có thể chịu ảnh hưởng của gió ngang và sóng khi di chuyển qua luồng biển.</p>" +
-      "<p style='margin:4px 0'><em>Đây là cấp gió dự báo cho khu vực, không phải số đo trực tiếp tại bến. Việc phà chạy hay tạm dừng do ảnh hưởng thời tiết sẽ theo thông báo điều hành chính thức của bến — hành khách vui lòng theo dõi mục thông báo này để cập nhật.</em></p>" +
-      "<p style='margin:4px 0'>Nguồn: <a href='https://kttv.gov.vn/Kttv/vi-VN/1/hai-phong-w54.html' target='_blank' rel='noopener'>Khí tượng thủy văn Hải Phòng</a> · <a href='https://www.nchmf.gov.vn/kttv/vi-VN/1/thoi-tiet-bien-24h-s12h3-15.html' target='_blank' rel='noopener'>Dự báo thời tiết biển — NCHMF</a></p>" }
   // Vi du:
   // { loai: "khan", ngay: "28/10/2026", tieuDe: "Gio to", noiDung: "Cac chuyen chieu nay tam dung..." }
 ];
