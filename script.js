@@ -149,7 +149,8 @@ function chuyenTiepTheo(danhSachGio, bayGioPhut) {
 // (xem danhGiaDongBangTuDong ben duoi) dang bat. Khi dong bang: bang lich khong to
 // vang chuyen sap chay, khong dich vach theo gio hien tai — cac hang trang binh
 // thuong, lich dung o dau danh sach; khung Chuyen tiep theo dung o chuyen dau ngay.
-// Go thong bao (hoac gio giam duoi nguong) la lich tu tro lai hanh vi thuong ngay.
+// Go thong bao la lich tu tro lai hanh vi thuong ngay. Rieng co che tu dong:
+// chi mo lai khi gio lang lien tuc >= 30 phut (xem langLienTuc30Phut ben duoi).
 var dongBangTuDong = false;
 var thongBaoTuDong = null;
 
@@ -166,18 +167,62 @@ function dsThongBaoHienThi() {
 }
 
 // ===== DONG BANG TU DONG THEO GIO (du lieu the Thoi tiet, tram Ben Dong Bai) =====
-// Nguong user chot 09/11/2026: gio > 9 m/s, HOAC cap gio >= 5 va giat > 10,7 m/s
-// thi coi nhu dung chay pha vi gio lon: tu hien thong bao dung + dong bang toan bo.
+// Nguong BAT - user chot lai 09/11/2026 (don gian hoa): cu gio TREN cap 5 la thong
+// bao — tuc gio thuong HOAC gio giat vuot 10,7 m/s (tran cua cap 5) o mot trong
+// hai so thi coi nhu dung chay pha vi gio lon: tu hien thong bao dung + dong bang.
+// Nguong GO - user chot them 09/11/2026 (bat doi xung, chong nhap nhay): chi mo
+// lai khi gio LANG lien tuc du 30 phut: gio thuong cap 4 tro xuong (<= 7,9 m/s)
+// VA giat <= 8 m/s trong suot 30 phut gan nhat. Vung giua (da duoi nguong bat
+// nhung chua dat muc lang) thi VAN dong bang. "Lang lien tuc" suy tu chuoi du
+// lieu cua chinh nguon Open-Meteo (minutely_15, du phong hourly) — khong dung
+// localStorage cua tung khach lam can cu. Thieu du lieu chuoi thi giu dong bang
+// (an toan hon mo nham). Co thu cong dongBangLich van thang tuyet doi: ham
+// lichDangDongBang() OR co tay nen go tu dong cung khong mo duoc khi co tay bat.
 // Chi danh gia khi co du lieu thoi tiet MOI cua tram ben (mo trang / lam moi the
-// Thoi tiet); trang thai giu nguyen cho toi lan danh gia ke tiep co so duoi nguong.
-// Khong dung so gio theo vi tri cua khach (nut "vi tri cua toi") de tranh nham ben.
-function danhGiaDongBangTuDong(c) {
+// Thoi tiet). Khong dung so gio theo vi tri cua khach de tranh nham ben.
+
+// Mot diem do co "lang" theo muc user chot khong? (so vao tinh bang km/h)
+function soLang(gioKmh, giatKmh) {
+  return (gioKmh / 3.6 <= 7.9) && (giatKmh / 3.6 <= 8);
+}
+
+// Kiem tra 30 phut gan nhat (tinh toi thoi diem cua du lieu current) co lang
+// lien tuc khong, dua tren chuoi minutely_15 (buoc 15 phut) cua Open-Meteo;
+// neu khong co minutely_15 thi dung hourly (buoc 1 gio — chat hon: 2 diem lien
+// tiep lang = phu >= 60 phut). Moi diem trong cua so 30 phut phai lang; chi can
+// 1 diem pha muc lang la chua du (tuong duong dong ho 30 phut tinh lai tu do).
+function langLienTuc30Phut(c, d) {
+  if (!soLang(c.wind_speed_10m, c.wind_gusts_10m)) return false;
+  var tNow = Date.parse(c.time || "");
+  if (isNaN(tNow)) return false;
+  var nguon = null;
+  if (d && d.minutely_15 && d.minutely_15.time && d.minutely_15.wind_speed_10m) nguon = d.minutely_15;
+  else if (d && d.hourly && d.hourly.time && d.hourly.wind_speed_10m) nguon = d.hourly;
+  if (!nguon) return false;
+  var times = nguon.time, gio = nguon.wind_speed_10m, giat = nguon.wind_gusts_10m;
+  var iCuoi = -1;
+  for (var i = 0; i < times.length; i++) {
+    if (Date.parse(times[i]) <= tNow) iCuoi = i; else break;
+  }
+  if (iCuoi < 0) return false;
+  var tCuoi = Date.parse(times[iCuoi]);
+  var phuDu30 = false;
+  for (var j = iCuoi; j >= 0; j--) {
+    var tj = Date.parse(times[j]);
+    if (tCuoi - tj > 30 * 60 * 1000) break;
+    if (!soLang(gio[j], giat[j])) return false;
+    if (tCuoi - tj >= 30 * 60 * 1000) phuDu30 = true;
+  }
+  return phuDu30;
+}
+
+function danhGiaDongBangTuDong(c, d) {
   var gioMs = c.wind_speed_10m / 3.6;
   var giatMs = c.wind_gusts_10m / 3.6;
   var cap = capGio(gioMs);
-  var kichHoat = (gioMs > 9) || (cap >= 5 && giatMs > 10.7);
-  dongBangTuDong = kichHoat;
+  var kichHoat = (gioMs > 10.7) || (giatMs > 10.7);
   if (kichHoat) {
+    dongBangTuDong = true;
     var t = c.time || "";
     var gioCN = t.length >= 16 ? t.substring(11, 16) : "";
     var ngayCN = t.length >= 10 ? (t.substring(8, 10) + "/" + t.substring(5, 7) + "/" + t.substring(0, 4)) : "";
@@ -187,9 +232,14 @@ function danhGiaDongBangTuDong(c) {
       noiDung: "<p style='margin:4px 0'>Gió tại khu vực bến lúc " + gioCN + ": <strong>" + dangMs(c.wind_speed_10m) + " m/s — gió cấp " + cap + " (giật " + dangMs(c.wind_gusts_10m) + " m/s)</strong>. Số liệu cập nhật lúc " + gioCN + ".</p>" +
         "<p style='margin:4px 0'>Các chuyến phà tạm dừng hoạt động cho tới khi gió giảm dưới ngưỡng an toàn và có thông báo điều hành mới. Hành khách vui lòng theo dõi mục thông báo này để cập nhật.</p>"
     };
-  } else {
+  } else if (dongBangTuDong === true && langLienTuc30Phut(c, d)) {
+    // Lang lien tuc du 30 phut -> mo lai
+    dongBangTuDong = false;
     thongBaoTuDong = null;
   }
+  // Cac truong hop con lai: giu nguyen trang thai tu dong hien tai
+  // (chua tung dong bang thi khong lam gi; dang dong bang ma chua lang du
+  // 30 phut thi van dong bang, thong bao dung giu nguyen).
   // Ap dung ngay trang thai moi: ve lai muc Thong bao va bang lich
   veTheDanhSach(dsThongBaoHienThi(), "danhSachThongBao", "Hiện chưa có thông báo mới. Bến hoạt động bình thường theo lịch.");
   veBangLich();
@@ -338,7 +388,9 @@ function taiThoiTiet(lat, lon, tenNoi) {
   if (!el) return;
   el.innerHTML = "<p class='ghiChuNho'>Đang tải…</p>";
   var url = "https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon
-    + "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m&timezone=auto&models=icon_seamless";
+    + "&current=temperature_2m,weather_code,wind_speed_10m,wind_gusts_10m"
+    + "&minutely_15=wind_speed_10m,wind_gusts_10m&hourly=wind_speed_10m,wind_gusts_10m"
+    + "&timezone=auto&models=icon_seamless&forecast_days=1";
   fetch(url).then(function (r) { return r.json(); }).then(function (d) {
     var c = d.current;
     var tt = maThoiTiet(c.weather_code);
@@ -349,7 +401,7 @@ function taiThoiTiet(lat, lon, tenNoi) {
     // Chi danh gia dong bang tu dong theo so gio cua TRAM BEN mac dinh,
     // khong theo vi tri ca nhan cua khach.
     if (String(lat) === String(VI_TRI_BEN.lat) && String(lon) === String(VI_TRI_BEN.lon)) {
-      danhGiaDongBangTuDong(c);
+      danhGiaDongBangTuDong(c, d);
     }
   }).catch(function () {
     el.innerHTML = "<p class='ghiChuNho'>Không tải được. Kiểm tra mạng rồi mở lại trang.</p>";
