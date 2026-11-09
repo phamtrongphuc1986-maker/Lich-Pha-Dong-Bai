@@ -5,12 +5,26 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Hai 09/11/2026 — bản tin chiều",
+  capNhat: "Thứ Ba 10/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 ngày 2: năng lượng và giao thông lên bàn đàm phán, mục tiêu điện khí hóa '35 tới 35'",
+          baiViet: [
+            "Hôm nay 10/11, COP31 bước sang ngày làm việc thứ hai với chủ đề Năng lượng và Giao thông — hai lĩnh vực chiếm phần lớn lượng phát thải khí nhà kính toàn cầu. Tâm điểm trong ngày là Hội nghị Bộ trưởng Điện khí hóa toàn cầu (15:30–17:30) do Chủ tịch COP31 và liên minh Electrify Now đồng tổ chức, cùng phiên thảo luận về quá trình chuyển đổi năng lượng bền vững của Ukraine (11:00–12:00) do Ủy ban châu Âu và phía Ukraine chủ trì.",
+            "Chủ tịch COP31 Murat Kurum đặt mục tiêu điện khí hóa hơn một phần ba nền kinh tế toàn cầu tới năm 2035 — chương trình đối thoại '35 tới 35' — từ mức khoảng một phần năm hiện nay. Đây được coi là một trong những sáng kiến thực thi trọng tâm của kỳ họp, bên cạnh các phiên về vận tải biển xanh: hôm 9/11, Diễn đàn Hàng hải Toàn cầu đã tổ chức phiên về vai trò lãnh đạo của Úc và châu Á–Thái Bình Dương trong chuyển đổi năng lượng hàng hải, còn ngày chủ đề Đại dương, Biển, Thiên nhiên và Sử dụng đất sẽ diễn ra 17/11.",
+            "Ngày đầu tiên của hội nghị đã cho thấy mức độ khó khăn của đàm phán: tranh cãi về tài chính khí hậu khiến lễ khai mạc chậm tới 90 phút, trong khi báo cáo của Chương trình Môi trường LHQ cho thấy thế giới đã chắc chắn vượt ngưỡng tăng nhiệt 1,5 độ C. Ngày mai 11–12/11, Hội nghị thượng đỉnh các nhà lãnh đạo sẽ diễn ra với sự tham dự của Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan, Tổng thống Brazil Lula da Silva và Tổng thư ký LHQ António Guterres. Hội nghị kéo dài tới 20/11 với các ngày chủ đề tiếp theo về không rác thải, thành phố bền vững, tài chính–thương mại, thanh niên–giáo dục, khoa học–công nghệ và phát triển con người."
+          ],
+          nguon: [
+            { ten: "Daily Sabah", link: "https://www.dailysabah.com/turkiye/cop31-in-turkiye-answers-key-questions-on-climate-action/news" },
+            { ten: "Geneva Environment Network", link: "https://www.genevaenvironmentnetwork.org/resources/updates/climate-action-from-geneva-to-antalya-un-climate-change-conference-cop31/" },
+            { ten: "Ủy ban châu Âu — Energy events at COP31", link: "https://energy.ec.europa.eu/events/energy-events-cop31-2026-11-09_en?prefLang=hr" }
+          ],
+          gio: "Sáng 10/11"
+        },
         {
           tieuDe: "COP31 ngày đầu: tranh cãi tiền bạc khiến lễ khai mạc chậm 90 phút, Tổng thư ký LHQ kêu gọi 'hành động nghiêm túc'",
           baiViet: [
@@ -51,19 +65,6 @@ window.TIN_TUC = {
             { ten: "The Gaze (theo CNN, Reuters)", link: "https://thegaze.media/news/us-senate-moves-to-end-record-long-government-shutdown" }
           ],
           gio: "Sáng 09/11"
-        },
-        {
-          tieuDe: "Giá dầu thế giới giảm tuần thứ hai liên tiếp vì lo ngại dư cung",
-          baiViet: [
-            "Thị trường dầu mỏ toàn cầu vừa khép lại tuần giảm thứ hai liên tiếp. Giá dầu Brent dao động quanh 63,6–63,9 USD/thùng và dầu WTI của Mỹ quanh 59,8–59,9 USD/thùng; tính chung cả tuần, Brent mất khoảng 2,3% khi giới đầu tư ngày càng lo ngại nguồn cung vượt nhu cầu.",
-            "Áp lực giảm đến từ nhiều phía: tồn kho dầu thô tại Mỹ bất ngờ tăng 5,2 triệu thùng trong tuần, trong khi OPEC+ đã quyết định nâng sản lượng tháng 12 thêm 137.000 thùng/ngày. Ở chiều ngược lại, lệnh trừng phạt của phương Tây đối với hai tập đoàn dầu khí Nga Rosneft và Lukoil — với hạn chót 21/11 để các bên chấm dứt giao dịch — đang nâng đỡ giá ở mức nhất định vì nguy cơ gián đoạn dòng chảy dầu Nga.",
-            "Một diễn biến đáng chú ý là hãng giao dịch Gunvor đã rút lại đề xuất mua tài sản nước ngoài của Lukoil sau khi Bộ Tài chính Mỹ công khai phản đối thương vụ này — tín hiệu cho thấy Washington quyết tâm siết chặt trừng phạt. Trong khi đó, nhập khẩu dầu thô của Trung Quốc tháng 10 vẫn tăng 8,2% so với cùng kỳ, cho thấy nhu cầu tại nước nhập khẩu lớn nhất thế giới chưa suy yếu."
-          ],
-          nguon: [
-            { ten: "Reuters (qua EnergyNow)", link: "https://energynow.com/2025/11/oil-heads-for-second-weekly-loss-on-lingering-oversupply-concerns/" },
-            { ten: "Reuters (qua Hiru News)", link: "https://hirunews.lk/goldfmnews/430110/oil-slips-on-oversupply-worries-sanctions-risk-in-focus" }
-          ],
-          gio: "Sáng 09/11"
         }
       ]
     },
@@ -71,6 +72,20 @@ window.TIN_TUC = {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris bước sang ngày 2: phiên Ukraine với Ngoại trưởng Sybiha, đàm phán ba bên ở Abu Dhabi bắt đầu",
+          baiViet: [
+            "Ngoại trưởng các nước G7 tiếp tục ngày họp thứ hai 10/11 tại Paris, với phiên chuyên đề về Ukraine dự kiến diễn ra cuối buổi sáng cùng Ngoại trưởng Ukraine Andrii Sybiha. Trọng tâm của phiên này là tăng cường phòng không cho Kyiv, duy trì sức ép trừng phạt với Nga và bảo vệ tự do hàng hải ở Biển Đen. Cùng ngày, vòng đàm phán ba bên Mỹ–Nga–Ukraine do Washington làm trung gian cũng bắt đầu tại Abu Dhabi (10–11/11) với sự tham gia của hai đặc phái viên Steve Witkoff và Jared Kushner.",
+            "Ngày họp đầu tiên 9/11 cho thấy châu Âu đang gây sức ép mạnh lên Ngoại trưởng Mỹ Marco Rubio trên cả hai mặt trận: một giải pháp công bằng cho Ukraine và việc kiềm chế khả năng Mỹ tiến hành thêm các đòn tấn công quân sự nhằm vào Iran, kể cả địa điểm mà Washington gọi là 'Pickaxe Mountain' — nơi Tehran phủ nhận là cơ sở hạt nhân. Ngoại trưởng Đức Johann Wadephul nhấn mạnh châu Âu phải giữ một ghế tại bàn đàm phán, còn Ngoại trưởng Pháp Jean-Noël Barrot khẳng định trên đài RTL rằng châu Âu sẽ có đại diện và Pháp chắc chắn tham dự vòng đàm phán Abu Dhabi.",
+            "Về Iran, các ngoại trưởng châu Âu muốn tránh một vòng leo thang quân sự mới và khôi phục vận tải thương mại qua eo biển Hormuz, trong khi ông Rubio cho biết đàm phán với Tehran chưa gần đột phá. Phía Pháp cho biết kỳ họp này có thể không ra tuyên bố chung — dấu hiệu cho thấy khoảng cách quan điểm giữa các thành viên vẫn còn lớn. Đây là một trong những hoạt động cuối cùng của nhiệm kỳ chủ tịch G7 của Pháp; Mỹ sẽ tiếp quản ghế chủ tịch vào năm 2027."
+          ],
+          nguon: [
+            { ten: "Political.org", link: "https://political.org/2026/11/08/g7-foreign-ministers-meet-in-paris-to-gauge-whether-trumps-midterm-setback-changes-us-foreign-policy/" },
+            { ten: "Outlook India", link: "https://www.outlookindia.com/international/g7-paris-meeting-2026-ukraine-russia-war-peace-talks-us-iran-conflict-donald-trump-marco-rubio" },
+            { ten: "Focus News (Anh)", link: "https://focus-news.co.uk/rubio-deems-iran-talks-unproductive-amid-demands/" }
+          ],
+          gio: "Sáng 10/11"
+        },
         {
           tieuDe: "G7 họp Paris ngày đầu: châu Âu giành ghế tại đàm phán Abu Dhabi, chưa chắc có tuyên bố chung",
           baiViet: [
@@ -84,19 +99,6 @@ window.TIN_TUC = {
             { ten: "Zark News (theo Reuters, AFP)", link: "https://zarknews.com/g7-foreign-ministers-paris-ukraine-iran/" }
           ],
           gio: "Chiều 09/11"
-        },
-        {
-          tieuDe: "Pháp dẫn đầu gây quỹ sửa chữa mái vòm bảo vệ nhà máy điện hạt nhân Chernobyl",
-          baiViet: [
-            "Bên lề hội nghị G7 tại Paris, Pháp đang chủ trì nỗ lực vận động tài chính để sửa chữa mái vòm bảo vệ tại nhà máy điện hạt nhân Chernobyl (Ukraine). Công trình che chắn này bị hư hại sau một vụ tấn công bằng máy bay không người lái của Nga, làm dấy lên lo ngại về an toàn hạt nhân tại địa điểm từng xảy ra thảm họa năm 1986.",
-            "Theo Bộ Tài chính Pháp, tổng chi phí sửa chữa ước tính khoảng 500 triệu euro nhưng đến nay mới huy động được hơn một nửa; phần còn lại đặt mục tiêu hoàn tất vào mùa xuân 2027. Paris kỳ vọng hội nghị ngoại trưởng G7 lần này sẽ tạo thêm động lực để các nước đối tác cam kết đóng góp.",
-            "Vấn đề Chernobyl cũng cho thấy một mặt khác của cuộc chiến Ukraine: bên cạnh viện trợ quân sự và tài chính cho Kyiv, các nước G7 đang phải chi ngày càng nhiều cho việc bảo vệ hạ tầng năng lượng và hạt nhân của Ukraine trước các đợt tấn công liên tiếp."
-          ],
-          nguon: [
-            { ten: "The Hindu (theo AFP)", link: "https://www.thehindu.com/news/international/g7-in-paris-to-discuss-russias-war-against-ukraine/article70652621.ece" },
-            { ten: "AFP (qua Bangkok Post)", link: "https://www.bangkokpost.com/world/3351426/g7-ministers-meet-on-efforts-to-end-ukraine-conflict-halt-new-iran-war" }
-          ],
-          gio: "Sáng 09/11"
         }
       ]
     },
@@ -104,6 +106,20 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Nhật Bản: dự luật giảm thuế tiêu thụ thực phẩm lần đầu kể từ 1989 qua Hạ viện, Thượng viện thảo luận từ 11/11",
+          baiViet: [
+            "Dự luật giảm thuế tiêu thụ với thực phẩm từ 8% xuống 1% trong hai năm (từ tháng 4/2027) — cam kết tranh cử của Thủ tướng Sanae Takaichi — đã được Hạ viện Nhật Bản thông qua ngày 6/11 với đa số áp đảo. Đây là lần đầu tiên Nhật Bản cắt giảm thuế tiêu thụ kể từ khi áp dụng loại thuế này năm 1989 với mức khởi điểm 3%. Chính phủ cũng dự kiến gói trợ cấp cho người lao động thu nhập thấp và trung bình để giảm áp lực chi phí sinh hoạt do lạm phát.",
+            "Dự luật gây tranh cãi gay gắt ngay trong nội bộ đảng cầm quyền: bốn nghị sĩ Đảng Dân chủ Tự do — trong đó có cựu Thủ tướng Shigeru Ishiba — đã bỏ ra ngoài trước giờ bỏ phiếu để phản đối, và lãnh đạo đảng yêu cầu họ giải trình bằng văn bản trước trưa 9/11. Mối lo lớn nhất là nguồn bù đắp: dự luật tạo ra khoản hụt thu khoảng 5.000 tỷ yên mỗi năm (tương đương 31,6 tỷ USD), trong khi giới phân tích cho rằng chính phủ chưa đưa ra được phương án tài trợ ổn định thuyết phục; thị trường lo ngại Tokyo sẽ phải phát hành thêm trái phiếu, làm nặng thêm gánh nặng nợ công.",
+            "Thượng viện bắt đầu thảo luận dự luật từ 11/11, đặt mục tiêu hoàn tất trước khi kỳ họp Quốc hội kết thúc ngày 12/12. Liên minh cầm quyền nắm khoảng ba phần tư số ghế Hạ viện nhưng thiếu đa số tại Thượng viện, nên vẫn cần sự ủng hộ của một số nghị sĩ đối lập. Song song, bà Takaichi dự kiến dùng tiền thu từ việc Ngân hàng Trung ương Nhật Bản bán ETF — BOJ vừa nâng mức bán lên 860 tỷ yên mỗi năm từ 30/10 — cho chi tiêu an ninh kinh tế, và bà sẽ dự hội nghị ASEAN ở Philippines cùng hội nghị APEC tại Thâm Quyến trong tuần tới."
+          ],
+          nguon: [
+            { ten: "The Japan Times", link: "https://www.japantimes.co.jp/news/2026/11/09/japan/politics/food-tax-bill-abstain/" },
+            { ten: "Lianhe Zaobao (Singapore)", link: "https://www.zaobao.com.sg/en/news/world/takaichi-pushes-consumption-tax-cut-bill-through-lower-house-upper-house-hurdles-remain?ref=today-newsen-section-card-1" },
+            { ten: "Business News Malaysia (theo Reuters)", link: "https://businessnews.com.my/takaichi-boj-etf-proceeds-ai-rout/" }
+          ],
+          gio: "Sáng 10/11"
+        },
         {
           tieuDe: "Lula vừa tái đắc cử đã tới COP31: Brazil mang 'lá phiếu khí hậu' tới Antalya",
           baiViet: [
@@ -129,20 +145,6 @@ window.TIN_TUC = {
             { ten: "Reuters (qua The Asahi Shimbun)", link: "https://www.asahi.com/ajw/articles/16143510" },
             { ten: "AFP (qua The Daily Star)", link: "https://www.thedailystar.net/news/world/news/chinas-exports-fall-first-time-eight-months-4029186" },
             { ten: "Reuters (qua bdnews24)", link: "https://bdnews24.com/economy/09c8fa2f8507" }
-          ],
-          gio: "Sáng 09/11"
-        },
-        {
-          tieuDe: "Hàn Quốc tiến sát mốc xuất khẩu 1.000 tỷ USD nhờ cơn sốt chip AI",
-          baiViet: [
-            "Xuất khẩu của Hàn Quốc trong tháng 10 đạt kỷ lục 115,28 tỷ USD, tăng tới 93,7% so với cùng kỳ năm trước. Lũy kế 10 tháng, kim ngạch xuất khẩu lần đầu tiên vượt 900 tỷ USD, đạt 930 tỷ USD — chỉ còn cách cột mốc 1.000 tỷ USD khoảng 70 tỷ USD và được dự báo sẽ chạm mốc này ngay trong tháng 11.",
-            "Động lực chính là chất bán dẫn: xuất khẩu chip tháng 10 đạt 56,44 tỷ USD, tăng 259,4% so với cùng kỳ và là tháng thứ hai liên tiếp vượt 50 tỷ USD; riêng chip nhớ tăng 360,5% lên 50,14 tỷ USD nhờ làn sóng đầu tư hạ tầng trí tuệ nhân tạo toàn cầu. Chip hiện chiếm tới 49% tổng xuất khẩu của Hàn Quốc. Máy tính cũng tăng 496,6% nhờ nhu cầu máy chủ AI và ổ cứng SSD, còn ô tô tăng 18,1% lên 6,55 tỷ USD — kỷ lục cho tháng 10 — nhờ doanh số xe hybrid.",
-            "Nếu đạt mốc 1.000 tỷ USD, Hàn Quốc sẽ trở thành quốc gia thứ tư trong lịch sử cán mốc này sau Mỹ, Trung Quốc và Đức. Bộ trưởng Thương mại, Công nghiệp và Năng lượng Kim Jung-kwan khẳng định việc chạm mốc nghìn tỷ USD trong tháng 11 gần như chắc chắn nếu đà tăng hiện tại được duy trì."
-          ],
-          nguon: [
-            { ten: "Yonhap News Agency", link: "https://en.yna.co.kr/view/AEN20261101000952320" },
-            { ten: "Korea JoongAng Daily", link: "https://www.koreajoongangdaily.com/business/driven-by-ai-chip-boom-korea-poised-to-become-worlds-fourth-1-trillion-exporternbsp/12948785" },
-            { ten: "The Korea Herald", link: "https://www.koreaherald.com/article/print/10921544" }
           ],
           gio: "Sáng 09/11"
         }
