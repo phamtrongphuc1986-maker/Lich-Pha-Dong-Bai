@@ -5,12 +5,26 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Hai 09/11/2026 — bản tin sáng",
+  capNhat: "Thứ Hai 09/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 ngày đầu: tranh cãi tiền bạc khiến lễ khai mạc chậm 90 phút, Tổng thư ký LHQ kêu gọi 'hành động nghiêm túc'",
+          baiViet: [
+            "Lễ khai mạc COP31 tại Antalya đã bắt đầu muộn một tiếng rưỡi mà không có lời giải thích, sau khi các nhà đàm phán thức khuya đêm Chủ nhật để tranh cãi về việc đưa các khoản tài chính khí hậu vào chương trình nghị sự chính thức. Tổng thư ký Liên Hợp Quốc António Guterres kêu gọi các nhà lãnh đạo thế giới 'hành động nghiêm túc' trước khủng hoảng khí hậu, sau một năm thiên tai tàn khốc. Giám đốc điều hành khí hậu của LHQ Simon Stiell thì thẳng thắn hơn: tiến độ hiện tại 'còn lâu mới đủ nhanh'.",
+            "Bối cảnh của kỳ họp năm nay đặc biệt nặng nề: báo cáo của Chương trình Môi trường LHQ công bố tháng 10 cho thấy thế giới đã chắc chắn vượt ngưỡng tăng nhiệt 1,5 độ C so với thời tiền công nghiệp, và năm nay nằm trong nhóm 4 năm nóng nhất từng được ghi nhận, với hiện tượng El Niño mạnh. Châu Âu trải qua sóng nhiệt, Indonesia cháy rừng lớn, Nepal hứng lũ lụt thảm khốc. Chủ tịch COP31 Murat Kurum đặt mục tiêu điện khí hóa hơn một phần ba nền kinh tế toàn cầu tới năm 2035, từ mức khoảng một phần năm hiện nay. Ngày đầu tiên của hội nghị tập trung vào lương thực, nông nghiệp và sức khỏe, với Tổ chức Y tế Thế giới chủ trì các phiên về hệ thống y tế chống chịu khí hậu.",
+            "Tổng thống Brazil Luiz Inácio Lula da Silva, 81 tuổi, vừa tái đắc cử cuối tháng 10, dự kiến tới Antalya muộn tối thứ Hai và sẽ phát biểu trong Hội nghị thượng đỉnh các nhà lãnh đạo ngày 11–12/11. Phía Mỹ tiếp tục vắng mặt ở cấp chính quyền — Tổng thống Trump hoài nghi biến đổi khí hậu và đã rút khỏi Hiệp định Paris — nhưng một phái đoàn Quốc hội Mỹ sẽ tới Antalya sau chiến thắng của đảng Dân chủ ở bầu cử giữa kỳ. Hội nghị kéo dài tới 20/11; giới quan sát cho rằng khó có cam kết cắt giảm đột phá mới, trọng tâm sẽ là triển khai các thỏa thuận đã đạt được."
+          ],
+          nguon: [
+            { ten: "Kuwait Times (theo AFP)", link: "https://kuwaittimes.com/article/53287/world/cop31-opens-with-early-fight-over-climate-finance/" },
+            { ten: "Rappler (theo Reuters)", link: "https://www.rappler.com/world/global-affairs/cop31-leaders-urge-world-move-faster-climate-november-9-2026/" },
+            { ten: "The Jerusalem Post (theo Reuters)", link: "https://www.jpost.com/environment-and-climate-change/article-914309" }
+          ],
+          gio: "Chiều 09/11"
+        },
         {
           tieuDe: "COP31 khai mạc tại Antalya: tài chính khí hậu và nhiên liệu hóa thạch thành tâm điểm",
           baiViet: [
@@ -50,20 +64,6 @@ window.TIN_TUC = {
             { ten: "Reuters (qua Hiru News)", link: "https://hirunews.lk/goldfmnews/430110/oil-slips-on-oversupply-worries-sanctions-risk-in-focus" }
           ],
           gio: "Sáng 09/11"
-        },
-        {
-          tieuDe: "Quan chức kinh tế cấp cao Mỹ – Trung điện đàm, thúc đẩy thực thi thỏa thuận Busan",
-          baiViet: [
-            "Bộ trưởng Tài chính Mỹ Scott Bessent và Đại diện Thương mại Jamieson Greer vừa có cuộc điện đàm trực tuyến với Phó Thủ tướng Trung Quốc Hà Lập Phong, tập trung vào việc triển khai các cam kết trong thỏa thuận thương mại đạt được tại Busan (Hàn Quốc) hồi cuối tháng 10 giữa lãnh đạo hai nước.",
-            "Theo phía Mỹ, Washington hối thúc Bắc Kinh thực hiện đầy đủ và ngay lập tức các cam kết đã nêu, trong đó có việc mua nông sản Mỹ và các vấn đề liên quan khoáng sản chiến lược. Phía Trung Quốc bày tỏ quan ngại nghiêm trọng trước những biện pháp hạn chế thương mại gần đây của Mỹ nhằm vào hàng hóa Trung Quốc.",
-            "Hai bên nhất trí tiếp tục phát huy cơ chế tham vấn kinh tế — thương mại song phương, tăng cường hợp tác, xử lý thỏa đáng các bất đồng và thúc đẩy quan hệ thương mại phát triển ổn định. Cuộc điện đàm được giới quan sát xem là bước giữ nhịp đối thoại quan trọng trong bối cảnh thỏa thuận đình chiến thuế quan giữa hai nền kinh tế lớn nhất thế giới vẫn còn mong manh."
-          ],
-          nguon: [
-            { ten: "Tân Hoa Xã (qua Đại sứ quán Trung Quốc)", link: "https://www.facebook.com/permalink.php?story_fbid=pfbid02jVknFFrm6TbpvCeozL4mhTUQFUqVLqA8jrK8yhGUVknt2HYCHtGa45RGa5LxEZrml&id=100077993982184" },
-            { ten: "VOA tiếng Trung", link: "https://www.threads.com/@voachinese/post/DfaTM9KjydM" },
-            { ten: "MoneyDJ (Đài Loan)", link: "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=MB010000-2026-11-07-30057797-7c87-4eee-9a91-1050721e13cf&c=MB06" }
-          ],
-          gio: "Sáng 09/11"
         }
       ]
     },
@@ -72,18 +72,18 @@ window.TIN_TUC = {
       ten: "🔷 Tin G7",
       tin: [
         {
-          tieuDe: "Ngoại trưởng G7 họp tại Paris: châu Âu gây sức ép với Mỹ về Ukraine và Iran",
+          tieuDe: "G7 họp Paris ngày đầu: châu Âu giành ghế tại đàm phán Abu Dhabi, chưa chắc có tuyên bố chung",
           baiViet: [
-            "Ngoại trưởng các nước G7 bắt đầu hai ngày họp 9–10/11 tại Paris dưới nhiệm kỳ chủ tịch G7 của Pháp. Tâm điểm chú ý là Ngoại trưởng Mỹ Marco Rubio, người dự kiến dự đủ cả hai ngày họp — khác với kỳ họp tháng 3 khi ông chỉ dự một ngày. Đây cũng là một trong những hoạt động khép lại nhiệm kỳ chủ tịch G7 của Pháp, sau kỳ thượng đỉnh lãnh đạo tại Évian mùa hè vừa qua.",
-            "Các nước châu Âu dự định tranh thủ dịp này để hối thúc Washington theo đuổi một giải pháp công bằng cho Ukraine và kiềm chế khả năng Mỹ tiến hành thêm các đòn tấn công quân sự nhằm vào Iran. Cuộc họp diễn ra ngay trước vòng đàm phán Ukraine do Mỹ làm trung gian tại Abu Dhabi vào 10–11/11, nơi hai đặc phái viên Steve Witkoff và Jared Kushner sẽ đại diện Washington.",
-            "Ngoại trưởng Pháp Jean-Noël Barrot khẳng định trên đài RTL rằng phía châu Âu sẽ có đại diện tại Abu Dhabi và Pháp chắc chắn tham dự, trong bối cảnh châu Âu lo ngại Kyiv bị ép chấp nhận những điều kiện bất lợi. Ngoài Ukraine và Trung Đông, chương trình nghị sự còn gồm nhu cầu về năng lực, tài chính và năng lượng của Ukraine, cùng nỗ lực mở rộng và bảo vệ nguồn cung năng lượng toàn cầu."
+            "Ngoại trưởng các nước G7 mở hai ngày họp 9–10/11 tại Paris — địa điểm được chuyển gấp từ Marseille với lý do lịch trình — trong một trong những hoạt động cuối cùng của nhiệm kỳ chủ tịch G7 của Pháp; Mỹ sẽ tiếp quản ghế chủ tịch vào năm 2027. Ngoại trưởng Mỹ Marco Rubio dự đủ cả hai ngày, khác với kỳ họp tháng 3 khi ông chỉ dự một ngày, và đây là chuyến công du nước ngoài đầu tiên của ông sau bầu cử giữa kỳ.",
+            "Trọng tâm kép của kỳ họp là Ukraine và Iran. Các nước châu Âu muốn Washington theo đuổi một giải pháp công bằng cho Ukraine và kiềm chế khả năng Mỹ tiến hành thêm các đòn tấn công quân sự nhằm vào Iran, kể cả địa điểm mà Mỹ gọi là 'Pickaxe Mountain' — nơi Tehran phủ nhận là cơ sở hạt nhân. Cuộc họp diễn ra ngay trước vòng đàm phán do Mỹ làm trung gian tại Abu Dhabi vào 10–11/11 với hai đặc phái viên Steve Witkoff và Jared Kushner; Ngoại trưởng Pháp Jean-Noël Barrot khẳng định trên đài RTL rằng châu Âu sẽ có đại diện và Pháp chắc chắn tham dự, trong bối cảnh lo ngại Kyiv bị ép chấp nhận những điều kiện bất lợi.",
+            "Ngoại trưởng Ukraine Andrii Sybiha dự kiến tham gia phiên chuyên đề vào ngày thứ Ba, cùng các ngoại trưởng khách mời từ Ả Rập Xê Út, Ai Cập, Hàn Quốc và Brazil tham dự một số phiên. Phía Pháp cho biết kỳ họp này có thể không ra tuyên bố chung — dấu hiệu cho thấy khoảng cách quan điểm giữa các thành viên vẫn còn lớn."
           ],
           nguon: [
-            { ten: "France 24 / AFP (qua EuropeSays)", link: "https://www.europesays.com/ukraine/67891/" },
-            { ten: "AFP (qua Bangkok Post)", link: "https://www.bangkokpost.com/world/3351426/g7-ministers-meet-on-efforts-to-end-ukraine-conflict-halt-new-iran-war" },
-            { ten: "Reuters (qua 985 The River)", link: "https://985theriver.com/2026/11/08/europeans-will-join-ukraine-talks-in-abu-dhabi-french-foreign-minister-says/" }
+            { ten: "The Hindu (theo AFP)", link: "https://www.thehindu.com/news/international/g7-ministers-meeting-in-paris-russia-ukraine-conflict-us-israel-strikes-on-iran/article71681281.ece" },
+            { ten: "IOL (theo AFP)", link: "https://iol.co.za/news/world/2026-11-09-g7-ministers-meet-on-efforts-to-end-ukraine-conflict-and-avert-further-iran-strikes/" },
+            { ten: "Zark News (theo Reuters, AFP)", link: "https://zarknews.com/g7-foreign-ministers-paris-ukraine-iran/" }
           ],
-          gio: "Sáng 09/11"
+          gio: "Chiều 09/11"
         },
         {
           tieuDe: "Pháp dẫn đầu gây quỹ sửa chữa mái vòm bảo vệ nhà máy điện hạt nhân Chernobyl",
@@ -104,6 +104,20 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Lula vừa tái đắc cử đã tới COP31: Brazil mang 'lá phiếu khí hậu' tới Antalya",
+          baiViet: [
+            "Tổng thống Brazil Luiz Inácio Lula da Silva, 81 tuổi, dự kiến tới Antalya muộn tối thứ Hai 9/11 và sẽ phát biểu tại COP31 trong Hội nghị thượng đỉnh các nhà lãnh đạo ngày 11–12/11 — chỉ hai tuần sau khi ông thắng vòng hai bầu cử tổng thống ngày 25/10 trước ứng viên bảo thủ Flávio Bolsonaro. Các nhà hoạt động khí hậu coi chiến thắng tái cử của ông là tin tốt cho chương trình khí hậu toàn cầu.",
+            "Brazil là nước chủ nhà của COP30 năm ngoái tại Belém, giữa lòng rừng Amazon — kỳ họp kết thúc bằng một thỏa thuận không nhắc đích danh nhiên liệu hóa thạch sau khi các nước sản xuất dầu phản đối. Năm nay, với tư cách một trong những tiếng nói lớn của khối các nước đang phát triển trong G20, Brazil được kỳ vọng thúc đẩy yêu cầu tài chính khí hậu — đúng điểm gây tranh cãi ngay trong ngày khai mạc COP31.",
+            "Tháp tùng Tổng thống Lula có Bộ trưởng Y tế Alexandre Padilha. Sự hiện diện của ông tại Antalya cũng đặt Brazil vào vị trí trung tâm của cuộc tranh luận về vai trò của các nền kinh tế mới nổi: vừa là những nước chịu tác động nặng nề của biến đổi khí hậu, vừa là những nước muốn giữ quyền phát triển kinh tế trong lúc chuyển đổi năng lượng."
+          ],
+          nguon: [
+            { ten: "Inquirer (theo AFP)", link: "https://globalnation.inquirer.net/345068/brazils-lula-to-attend-cop31-climate-summit-in-turkey/amp" },
+            { ten: "Kuwait Times (theo AFP)", link: "https://kuwaittimes.com/article/53287/world/cop31-opens-with-early-fight-over-climate-finance/" },
+            { ten: "Hürriyet Daily News (theo AFP)", link: "https://www.hurriyetdailynews.com/amp/brazils-lula-to-attend-cop31-climate-summit-in-turkiye-228876" }
+          ],
+          gio: "Chiều 09/11"
+        },
         {
           tieuDe: "Xuất khẩu Trung Quốc tháng 10 giảm 1,1% — cú giảm sâu nhất kể từ tháng 2",
           baiViet: [
@@ -129,20 +143,6 @@ window.TIN_TUC = {
             { ten: "Yonhap News Agency", link: "https://en.yna.co.kr/view/AEN20261101000952320" },
             { ten: "Korea JoongAng Daily", link: "https://www.koreajoongangdaily.com/business/driven-by-ai-chip-boom-korea-poised-to-become-worlds-fourth-1-trillion-exporternbsp/12948785" },
             { ten: "The Korea Herald", link: "https://www.koreaherald.com/article/print/10921544" }
-          ],
-          gio: "Sáng 09/11"
-        },
-        {
-          tieuDe: "Ấn Độ và Trung Quốc cắt giảm mua dầu Nga trước hạn trừng phạt 21/11",
-          baiViet: [
-            "Các nhà máy lọc dầu lớn của Ấn Độ và Trung Quốc đang đồng loạt tạm dừng mua dầu thô trực tiếp từ hai tập đoàn Nga Rosneft và Lukoil, khi hạn chót 21/11 của lệnh trừng phạt Mỹ đang đến gần. Đây là lần đầu Washington trừng phạt trực tiếp hai nhà sản xuất dầu lớn nhất của Nga — chiếm hơn một nửa sản lượng dầu của nước này — kể từ khi chiến sự Ukraine bắt đầu.",
-            "Tại Ấn Độ, Reliance Industries cùng các nhà máy lọc dầu quốc doanh lớn đã ngừng đặt hàng trực tiếp từ hai tập đoàn bị trừng phạt; phía Trung Quốc, Sinopec, PetroChina và nhiều nhà máy lọc dầu độc lập nhỏ cũng tạm dừng mua. Ước tính khoảng 45% lượng dầu Nga xuất sang Trung Quốc bị ảnh hưởng. Hệ quả thấy rõ trên giá: dầu Urals của Nga bị chiết khấu sâu nhất trong nhiều năm — giá tại cảng Novorossiysk rơi xuống 36,61 USD/thùng, thấp hơn Brent tới 23,51 USD/thùng, mức chênh lệch lớn nhất kể từ tháng 3/2023.",
-            "Giới phân tích dự báo nhập khẩu dầu Nga của Ấn Độ có thể giảm từ khoảng 1,9 triệu thùng/ngày trong tháng 11 xuống quanh 800.000 thùng/ngày vào tháng 12. Một quan chức Bộ Tài chính Mỹ nhận xét các ngân hàng và nhà máy lọc dầu tại Trung Quốc và Ấn Độ đang rất thận trọng với rủi ro và có xu hướng tuân thủ. Tuy nhiên, theo hãng dữ liệu Kpler, dòng chảy dầu Nga nhiều khả năng chỉ gián đoạn ngắn hạn rồi tổ chức lại qua các nhà bán hàng không bị trừng phạt và kênh trung gian, thay vì biến mất hoàn toàn."
-          ],
-          nguon: [
-            { ten: "Bloomberg (qua Unika)", link: "https://unika.md/ro/noutati/news-item/russian-oil-prices-sink-as-big-buyers-hold-off-ahead-of-us-sanctions-deadline" },
-            { ten: "The Moscow Times (theo Bloomberg, Argus Media)", link: "https://2.zoppoz.workers.dev:443/https/www.themoscowtimes.com/2025/11/17/russian-oil-prices-sink-as-india-and-china-cut-purchases-ahead-of-us-sanctions-deadline-a91143/pdf" },
-            { ten: "Kpler — phân tích thị trường dầu", link: "https://www.kpler.com/blog/rosneft-and-lukoil-sanctions-are-live-how-india-china-and-turkey-adapt-rather-than-exit" }
           ],
           gio: "Sáng 09/11"
         }
