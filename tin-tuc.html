@@ -31,11 +31,11 @@
   <h1>📰 Tin Tức News</h1>
 </header>
 <main>
-  <p class="meta">Tin quốc tế nổi bật · Tin G7 · Tin G20 — cập nhật hằng ngày lúc 06h00 và 17h00.<br>Cập nhật gần nhất: <b id="gioCapNhat">đang tải…</b></p>
+  <p class="meta">Tin quốc tế nổi bật · Tin G7 · Tin G20 — cập nhật hằng ngày lúc 06h00 và 17h00.<br>Mỗi bài là bài viết gốc do ban biên tập tổng hợp từ 2–3 hãng tin nước ngoài uy tín (Reuters, AP, AFP, Yonhap…), nguồn tham khảo ghi ở cuối mỗi bài.<br>Cập nhật gần nhất: <b id="gioCapNhat">đang tải…</b></p>
   <div id="danhSachTin"><p>Đang tải tin tức…</p></div>
   <a class="nutVe" href="./">← Về trang chủ Lịch Phà</a>
 </main>
-<footer>benphadongbai.io.vn · Tin tức tổng hợp từ các hãng tin uy tín, tiêu đề và tóm tắt do ban biên tập trang viết lại, kèm link bài gốc.<br><a href="./">Trang chủ</a> · <a href="gioi-thieu.html">Giới thiệu</a></footer>
+<footer>benphadongbai.io.vn · Bài viết gốc tổng hợp từ báo chí nước ngoài uy tín, nguồn tham khảo và link bài gốc ở cuối mỗi bài.<br><a href="./">Trang chủ</a> · <a href="gioi-thieu.html">Giới thiệu</a></footer>
 <script src="tin-tuc-data.js"></script>
 <script>
 (function(){
@@ -48,9 +48,11 @@
   duLieu.nhom.forEach(function(nhom){
     html += '<h2>' + thoat(nhom.ten) + '</h2>';
     (nhom.tin||[]).forEach(function(t){
-      html += '<article class="theTin"><h3><a href="' + thoat(t.link) + '" target="_blank" rel="noopener">' + thoat(t.tieuDe) + '</a></h3>'
-        + '<p>' + thoat(t.tomTat) + '</p>'
-        + '<div class="dongNguon">📰 Nguồn: ' + thoat(t.nguon) + ' · 🕐 ' + thoat(t.gio) + ' · <a href="' + thoat(t.link) + '" target="_blank" rel="noopener">Đọc bài gốc →</a></div></article>';
+      var doan = (t.baiViet||[]).map(function(d){ return '<p>' + thoat(d) + '</p>'; }).join('');
+      var nguon = (t.nguon||[]).map(function(n){ return '<a href="' + thoat(n.link) + '" target="_blank" rel="noopener">' + thoat(n.ten) + '</a>'; }).join(' · ');
+      html += '<article class="theTin"><h3>' + thoat(t.tieuDe) + '</h3>'
+        + doan
+        + '<div class="dongNguon">🕐 ' + thoat(t.gio) + '<br>📚 Nguồn tham khảo: ' + nguon + '</div></article>';
     });
   });
   hop.innerHTML = html;
