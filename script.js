@@ -38,7 +38,7 @@ var lichPha = [
 // ===== THONG BAO (sua danh sach nay khi co thong bao moi) =====
 // loai: "khan" = su co thoi tiet / thay doi lich; "thuong" = thong bao chung.
 var thongBao = [
-  { loai: "khan", ngay: "09/11/2026",
+  { loai: "khan", ngay: "09/11/2026", dongBangLich: true,
     tieuDe: "🌬️ Gió Đông Bắc mạnh lên tại Cát Hải",
     noiDung: "<p style='margin:4px 0'>Theo bản tin của Đài Khí tượng thủy văn Hải Phòng và Trung tâm Dự báo Khí tượng Thủy văn Quốc gia, ngày 09/11/2026 khu vực Cát Hải chịu ảnh hưởng của đợt không khí lạnh, gió chuyển hướng Đông Bắc và mạnh lên.</p>" +
       "<p style='margin:4px 0'><strong>Bến Đồng Bài – Cái Viềng:</strong> gió Đông Bắc cấp 4–5, có lúc cấp 6, gió giật có thể đạt cấp 7; sóng biển ven bờ khoảng 1–2 m.</p>" +
@@ -144,9 +144,21 @@ function chuyenTiepTheo(danhSachGio, bayGioPhut) {
   return { gio: danhSachGio[0].gio, con: null, mai: true };
 }
 
+// Dong bang lich: khi co thong bao thoi tiet xau (giong gio to / bao / gio mua > cap 5)
+// mang co dongBangLich thi bang lich khong to vang chuyen sap chay, khong dich vach
+// theo gio hien tai — cac hang trang binh thuong, lich dung o dau danh sach.
+// Go thong bao (hoac bo co) la lich tu tro lai hanh vi thuong ngay.
+function lichDangDongBang() {
+  for (var i = 0; i < thongBao.length; i++) {
+    if (thongBao[i].dongBangLich === true) return true;
+  }
+  return false;
+}
+
 function veBangLich() {
   var bayGio = new Date();
   var phut = bayGio.getHours() * 60 + bayGio.getMinutes();
+  var dongBang = lichDangDongBang();
 
   var dsDB = lichPha.map(function (d) { return { gio: d.dongBai, loai: d.loai, dacBiet: false }; });
   chuyenPhatSinhDB.forEach(function (ps) { dsDB.push({ gio: ps.gio, loai: "lon", dacBiet: true, nhan: ps.nhan }); });
@@ -158,7 +170,7 @@ function veBangLich() {
   function bang(ds, tiep) {
     var html = "<table><tr><th>Giờ khởi hành</th><th>Loại phà</th></tr>";
     for (var i = 0; i < ds.length; i++) {
-      var cls = (!tiep.mai && ds[i].gio === tiep.gio) ? " class='sapChay'" : "";
+      var cls = (!dongBang && !tiep.mai && ds[i].gio === tiep.gio) ? " class='sapChay'" : "";
       var loai = ds[i].dacBiet
         ? "<span class='nhanNho'>" + ds[i].nhan + "</span>"
         : (ds[i].loai === "nho"
