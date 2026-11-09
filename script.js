@@ -144,15 +144,55 @@ function chuyenTiepTheo(danhSachGio, bayGioPhut) {
   return { gio: danhSachGio[0].gio, con: null, mai: true };
 }
 
-// Dong bang lich: khi co thong bao thoi tiet xau (giong gio to / bao / gio mua > cap 5)
-// mang co dongBangLich thi bang lich khong to vang chuyen sap chay, khong dich vach
-// theo gio hien tai — cac hang trang binh thuong, lich dung o dau danh sach.
-// Go thong bao (hoac bo co) la lich tu tro lai hanh vi thuong ngay.
+// Dong bang lich: kich hoat khi (a) co thong bao thoi tiet xau (giong gio to / bao /
+// gio mua > cap 5) mang co dongBangLich, HOAC (b) co che tu dong theo gio tai ben
+// (xem danhGiaDongBangTuDong ben duoi) dang bat. Khi dong bang: bang lich khong to
+// vang chuyen sap chay, khong dich vach theo gio hien tai — cac hang trang binh
+// thuong, lich dung o dau danh sach; khung Chuyen tiep theo dung o chuyen dau ngay.
+// Go thong bao (hoac gio giam duoi nguong) la lich tu tro lai hanh vi thuong ngay.
+var dongBangTuDong = false;
+var thongBaoTuDong = null;
+
 function lichDangDongBang() {
+  if (dongBangTuDong === true) return true;
   for (var i = 0; i < thongBao.length; i++) {
     if (thongBao[i].dongBangLich === true) return true;
   }
   return false;
+}
+
+function dsThongBaoHienThi() {
+  return thongBaoTuDong ? [thongBaoTuDong].concat(thongBao) : thongBao;
+}
+
+// ===== DONG BANG TU DONG THEO GIO (du lieu the Thoi tiet, tram Ben Dong Bai) =====
+// Nguong user chot 09/11/2026: gio > 9 m/s, HOAC cap gio >= 5 va giat > 10,7 m/s
+// thi coi nhu dung chay pha vi gio lon: tu hien thong bao dung + dong bang toan bo.
+// Chi danh gia khi co du lieu thoi tiet MOI cua tram ben (mo trang / lam moi the
+// Thoi tiet); trang thai giu nguyen cho toi lan danh gia ke tiep co so duoi nguong.
+// Khong dung so gio theo vi tri cua khach (nut "vi tri cua toi") de tranh nham ben.
+function danhGiaDongBangTuDong(c) {
+  var gioMs = c.wind_speed_10m / 3.6;
+  var giatMs = c.wind_gusts_10m / 3.6;
+  var cap = capGio(gioMs);
+  var kichHoat = (gioMs > 9) || (cap >= 5 && giatMs > 10.7);
+  dongBangTuDong = kichHoat;
+  if (kichHoat) {
+    var t = c.time || "";
+    var gioCN = t.length >= 16 ? t.substring(11, 16) : "";
+    var ngayCN = t.length >= 10 ? (t.substring(8, 10) + "/" + t.substring(5, 7) + "/" + t.substring(0, 4)) : "";
+    thongBaoTuDong = {
+      loai: "khan", ngay: ngayCN,
+      tieuDe: "⛔ Tạm dừng hoạt động chạy phà do gió lớn",
+      noiDung: "<p style='margin:4px 0'>Gió tại khu vực bến lúc " + gioCN + ": <strong>" + dangMs(c.wind_speed_10m) + " m/s — gió cấp " + cap + " (giật " + dangMs(c.wind_gusts_10m) + " m/s)</strong>. Số liệu cập nhật lúc " + gioCN + ".</p>" +
+        "<p style='margin:4px 0'>Các chuyến phà tạm dừng hoạt động cho tới khi gió giảm dưới ngưỡng an toàn và có thông báo điều hành mới. Hành khách vui lòng theo dõi mục thông báo này để cập nhật.</p>"
+    };
+  } else {
+    thongBaoTuDong = null;
+  }
+  // Ap dung ngay trang thai moi: ve lai muc Thong bao va bang lich
+  veTheDanhSach(dsThongBaoHienThi(), "danhSachThongBao", "Hiện chưa có thông báo mới. Bến hoạt động bình thường theo lịch.");
+  veBangLich();
 }
 
 function veBangLich() {
@@ -248,7 +288,7 @@ function veNhomFB() {
 
 function veTatCa() {
   veBangLich();
-  veTheDanhSach(thongBao, "danhSachThongBao", "Hiện chưa có thông báo mới. Bến hoạt động bình thường theo lịch.");
+  veTheDanhSach(dsThongBaoHienThi(), "danhSachThongBao", "Hiện chưa có thông báo mới. Bến hoạt động bình thường theo lịch.");
   veTheDanhSach(thongBaoLeTet, "danhSachLeTet", "Hiện chưa có thông báo lịch Lễ – Tết mới. Bến chạy theo lịch thường ngày.");
   veTheDanhSach(tinThatLac, "danhSachThatLac", "Hiện chưa có tin thất lạc nào.");
   veGiaVe();
@@ -306,6 +346,11 @@ function taiThoiTiet(lat, lon, tenNoi) {
       + "<span class='ttNhietM'>" + Math.round(c.temperature_2m) + "°</span></div>"
       + "<div class='ttMoTaM'>" + tt.txt + " · 💨 " + dangMs(c.wind_speed_10m) + " m/s — gió cấp " + capGio(c.wind_speed_10m / 3.6) + " (giật " + dangMs(c.wind_gusts_10m) + " m/s)</div>"
       + "<div class='ttNoiM'>📍 " + tenNoi + "</div>";
+    // Chi danh gia dong bang tu dong theo so gio cua TRAM BEN mac dinh,
+    // khong theo vi tri ca nhan cua khach.
+    if (String(lat) === String(VI_TRI_BEN.lat) && String(lon) === String(VI_TRI_BEN.lon)) {
+      danhGiaDongBangTuDong(c);
+    }
   }).catch(function () {
     el.innerHTML = "<p class='ghiChuNho'>Không tải được. Kiểm tra mạng rồi mở lại trang.</p>";
   });

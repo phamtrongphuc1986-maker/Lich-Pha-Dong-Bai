@@ -70,6 +70,8 @@
     "Lưu ý hành khách:": "Note for passengers:",
     "gió cấp 4–5 cần chú ý sóng và điều kiện thời tiết; gió cấp 6 trở lên cần đặc biệt theo dõi thông báo điều hành của bến. Tuyến phà có thể chịu ảnh hưởng của gió ngang và sóng khi di chuyển qua luồng biển.": "at force 4–5, please mind the waves and weather conditions; at force 6 and above, closely follow the terminal's operational notices. The ferry route may be affected by crosswinds and waves while crossing the channel.",
     "Đây là cấp gió dự báo cho khu vực, không phải số đo trực tiếp tại bến. Việc phà chạy hay tạm dừng do ảnh hưởng thời tiết sẽ theo thông báo điều hành chính thức của bến — hành khách vui lòng theo dõi mục thông báo này để cập nhật.": "These are forecast wind levels for the area, not measurements taken at the terminal. Whether ferries run or are suspended due to weather follows the terminal's official operational notices — please keep checking this notice section for updates.",
+    "⛔ Tạm dừng hoạt động chạy phà do gió lớn": "⛔ Ferry services suspended due to strong winds",
+    "Các chuyến phà tạm dừng hoạt động cho tới khi gió giảm dưới ngưỡng an toàn và có thông báo điều hành mới. Hành khách vui lòng theo dõi mục thông báo này để cập nhật.": "Ferry trips are suspended until winds drop below the safety threshold and a new operational notice is issued. Please keep checking this notice section for updates.",
     "Nguồn:": "Sources:",
     "Khí tượng thủy văn Hải Phòng": "Hai Phong Hydro-Meteorological Station",
     "Dự báo thời tiết biển — NCHMF": "Marine weather forecast — NCHMF",
@@ -271,6 +273,9 @@
     if ((m = t.match(/^([\d.,]+) ?đ\/lít$/))) return s.replace(t, m[1] + " VND/litre");
     if ((m = t.match(/^(Thứ [^,]+|Chủ Nhật), (.+)$/)) && NGAY[m[1]]) return s.replace(t, NGAY[m[1]] + ", " + m[2]);
     if ((m = t.match(/^Nguồn: (.+)$/))) return s.replace(t, "Source: " + m[1]);
+    if ((m = t.match(/^Gió tại khu vực bến lúc ([\d:]+): $/))) return s.replace(t, "Wind at the terminal at " + m[1] + ": ");
+    if ((m = t.match(/^([\d.,]+) m\/s — gió cấp (\d+) \(giật ([\d.,]+) m\/s\)$/))) return s.replace(t, m[1].replace(",", ".") + " m/s — Beaufort force " + m[2] + " (gusts " + m[3].replace(",", ".") + " m/s)");
+    if ((m = t.match(/^\. Số liệu cập nhật lúc ([\d:]+)\.$/))) return s.replace(t, ". Data updated at " + m[1] + ".");
     return s;
   }
 
