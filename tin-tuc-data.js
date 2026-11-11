@@ -5,25 +5,39 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Ba 10/11/2026 — bản tin chiều",
+  capNhat: "Thứ Tư 11/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
         {
-          tieuDe: "Hạ viện Mỹ chuẩn bị bỏ phiếu mở cửa lại chính phủ sau 42 ngày đóng cửa",
+          tieuDe: "COP31: Thượng đỉnh lãnh đạo khai mạc hôm nay — 77 nguyên thủ phát biểu, Lula mang hai lộ trình lớn",
           baiViet: [
-            "Ủy ban Quy tắc Hạ viện Mỹ đã thông qua dự luật cấp ngân sách vào rạng sáng thứ Tư (giờ Mỹ) với tỉ lệ 8–4 theo đúng ranh giới đảng phái, sau phiên họp kéo dài khoảng 7 tiếng. Hạ viện dự kiến họp lại lúc 16h00 giờ miền Đông để tranh luận một tiếng rồi bỏ phiếu chung cuộc vào tối thứ Tư — bước thủ tục cuối cùng trước khi dự luật được đưa tới bàn Tổng thống Donald Trump ký ban hành.",
-            "Dự luật đã được Thượng viện thông qua đêm thứ Hai với tỉ lệ 60–40, với 8 thượng nghị sĩ Dân chủ phá vỡ kỷ luật đảng. Gói thỏa thuận cấp ngân sách cho chính phủ tới 30/1/2027, kèm ba dự luật chi tiêu cả năm, bảo đảm chương trình hỗ trợ thực phẩm SNAP tới 30/9 năm sau, cấm sa thải nhân viên liên bang tới 30/1 và truy lĩnh lương cho người bị cho nghỉ không lương. Đổi lại, phe Dân chủ chỉ nhận được cam kết sẽ có một cuộc bỏ phiếu riêng về trợ cấp bảo hiểm y tế theo Đạo luật Chăm sóc sức khỏe giá rẻ chậm nhất vào tuần thứ hai của tháng 12, mà không có gì bảo đảm kết quả.",
-            "Tại phiên họp của Ủy ban Quy tắc, lãnh đạo phe thiểu số Hakeem Jeffries bất ngờ xuất hiện để vận động một tu chính kéo dài trợ cấp y tế thêm ba năm, nhưng đề xuất không được chấp nhận. Chủ tịch Hạ viện Mike Johnson đã yêu cầu các nghị sĩ trở lại Washington với thông báo 36 giờ, trong bối cảnh nhiều người phải tìm đường về thủ đô bằng ô tô vì các chuyến bay bị gián đoạn do chính đợt đóng cửa gây ra. Nếu Hạ viện thông qua như dự kiến, ông Trump có thể ký ngay trong đêm và chính phủ mở cửa trở lại trong vài giờ — khép lại đợt đóng cửa dài nhất lịch sử nước Mỹ, khiến khoảng một triệu công chức liên bang không lương và làm gián đoạn trợ cấp thực phẩm cùng hàng không trước lễ Tạ ơn."
+            "Hôm nay 11/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 khai mạc tại Antalya với bài phát biểu mở đầu của Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan, Tổng thư ký Liên Hợp Quốc António Guterres và Thủ tướng Úc Anthony Albanese. Theo danh sách sơ bộ của Liên Hợp Quốc, 77 nguyên thủ và người đứng đầu chính phủ sẽ phát biểu trong hai ngày 11–12/11; nước chủ nhà cho biết tổng cộng 91 lãnh đạo đã xác nhận tham dự cùng đại diện của 196 quốc gia.",
+            "Tâm điểm là Tổng thống Brazil Lula da Silva — tới Antalya tối thứ Hai, trong chuyến công du nước ngoài đầu tiên sau khi tái đắc cử nhiệm kỳ thứ tư. Ông mang theo hai lộ trình: một kế hoạch toàn cầu về chuyển đổi khỏi nhiên liệu hóa thạch và một kế hoạch ngăn chặn, đảo ngược nạn phá rừng. Brazil, chủ nhà COP30 năm ngoái tại Belém, được kỳ vọng thúc đẩy yêu cầu tài chính khí hậu — đúng điểm gây tranh cãi ngay trong ngày khai mạc. Bên lề hội nghị, ông Erdoğan hôm thứ Ba đã gặp song phương hàng loạt lãnh đạo, trong đó có Tổng thống Lula, Thủ tướng Bangladesh Tarique Rahman, Thủ tướng Ethiopia Abiy Ahmed và Bộ trưởng Năng lượng Ả Rập Xê Út.",
+            "Nước chủ nhà Thổ Nhĩ Kỳ cũng mang tới hội nghị một kế hoạch năng lượng đầy tham vọng: nâng công suất điện gió và điện mặt trời lên 175.000 MW vào năm 2040 với đầu tư khoảng 100 tỷ USD. Trong ngày khai mạc thượng đỉnh, các lãnh đạo sẽ cùng trồng cây tại 'Rừng Hòa bình' được lập ra nhân dịp COP31, trước khi dự tiệc chiêu đãi do Tổng thống Erdoğan chủ trì. Trong khi đó, Chủ tịch Trung Quốc Tập Cận Bình không tới Antalya và Mỹ tiếp tục vắng mặt ở cấp chính quyền — một khoảng trống mà các nước đang phát triển trong G20 đang tìm cách lấp đầy bằng tiếng nói của mình."
           ],
           nguon: [
-            { ten: "Reuters (qua RTHK)", link: "https://news.rthk.hk/rthk/en/component/k2/1831071-20251111.htm?spTabChangeable=0" },
-            { ten: "Albanian Daily News (theo BBC)", link: "https://albaniandailynews.com/news/us-house-set-for-crunch-vote-on-ending-historic-government-shutdown" },
-            { ten: "CoinGape (theo CBS News)", link: "https://coingape.com/u-s-government-shutdown-set-to-end-as-house-panel-approves-senate-funding-deal/" }
+            { ten: "Hürriyet Daily News", link: "https://www.hurriyetdailynews.com/turkiye-to-host-global-climate-talks-as-cop31-opens-229146" },
+            { ten: "TRT World", link: "https://www.trtworld.com/article/d20603f5ebc4/amp" },
+            { ten: "The Guardian (qua Mezha)", link: "https://mezha.net/eng/news/mezha-fc777389503a98ef22b3d523_who-s_who_at/" }
           ],
-          gio: "Chiều 10/11"
+          gio: "Sáng 11/11"
+        },
+        {
+          tieuDe: "Hạ viện Mỹ trở lại Washington sau 53 ngày, chốt bỏ phiếu mở cửa chính phủ lúc 16h thứ Tư",
+          baiViet: [
+            "Hạ viện Mỹ đã trở lại Washington trong ngày thứ Ba 11/11 sau 53 ngày không họp — lần đầu tiên nhóm họp kể từ 19/9 — để bỏ phiếu về gói cấp ngân sách chấm dứt đợt đóng cửa chính phủ dài nhất lịch sử nước Mỹ. Theo lãnh đạo phe Cộng hòa tại Hạ viện, cuộc bỏ phiếu chung cuộc có thể diễn ra sớm nhất vào 16h00 thứ Tư (giờ miền Đông). Nhiều nghị sĩ phải tìm đường về thủ đô bằng ô tô vì các chuyến bay vẫn bị gián đoạn do chính đợt đóng cửa gây ra.",
+            "Cơ hội thông qua tăng lên sau khi Chủ tịch nhóm bảo thủ Freedom Caucus Andy Harris bày tỏ ủng hộ có điều kiện với thỏa thuận. Gói thỏa thuận đã được Thượng viện thông qua đêm thứ Hai với tỉ lệ 60–40, trong đó có 8 thượng nghị sĩ Dân chủ và độc lập phá vỡ kỷ luật đảng — gồm Jeanne Shaheen, Maggie Hassan, Tim Kaine, Jacky Rosen, Catherine Cortez Masto, John Fetterman, Angus King và Dick Durbin. Thỏa thuận cấp ngân sách cho phần lớn chính phủ tới 30/1/2027, kèm ba dự luật chi tiêu cả năm, bảo đảm chương trình hỗ trợ thực phẩm SNAP tới 30/9 năm sau và cấm sa thải nhân viên liên bang tới 30/1, đồng thời truy lĩnh lương cho người bị cho nghỉ không lương.",
+            "Đổi lại, phe Dân chủ chỉ nhận được cam kết sẽ có một cuộc bỏ phiếu riêng tại Thượng viện về trợ cấp bảo hiểm y tế theo Đạo luật Chăm sóc sức khỏe giá rẻ chậm nhất vào tuần thứ hai của tháng 12 — mà không có gì bảo đảm kết quả, và Chủ tịch Hạ viện Mike Johnson chưa cam kết sẽ tổ chức một cuộc bỏ phiếu tương tự tại Hạ viện. Nếu Hạ viện thông qua như dự kiến, Tổng thống Donald Trump — người đã ủng hộ thỏa thuận — có thể ký ngay trong đêm và chính phủ mở cửa trở lại trong vài giờ, khép lại 42 ngày đóng cửa khiến khoảng một triệu công chức liên bang không lương và làm gián đoạn trợ cấp thực phẩm cùng hàng không trước lễ Tạ ơn."
+          ],
+          nguon: [
+            { ten: "Reuters (qua EWF Pro)", link: "http://www.ewfpro.com/index.php/en/economy/97-global-economic/97569-us-house-of-representatives-returns-to-washington-for-vote-to-end-government-shutdown" },
+            { ten: "Bloomberg (qua The Edge / i3investor)", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-12-story-h500520956-US_Shutdown_Nears_End_as_Senate_Passes_Deal_House_Readies_Vote" },
+            { ten: "KFI AM 640 (theo New York Post)", link: "https://kfiam640.iheart.com/content/2025-11-11-date-set-for-house-vote-to-end-record-us-government-shutdown/" }
+          ],
+          gio: "Sáng 11/11"
         },
         {
           tieuDe: "COP31 ngày 2: năng lượng và giao thông lên bàn đàm phán, mục tiêu điện khí hóa '35 tới 35'",
@@ -53,26 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều 09/11"
         },
-        {
-          tieuDe: "COP31 khai mạc tại Antalya: tài chính khí hậu và nhiên liệu hóa thạch thành tâm điểm",
-          baiViet: [
-            "Hội nghị khí hậu COP31 của Liên Hợp Quốc chính thức khai mạc ngày 9/11 tại thành phố Antalya (Thổ Nhĩ Kỳ), quy tụ phái đoàn từ gần 190 quốc gia trong hai tuần đàm phán kéo dài tới 20/11. Kỳ họp năm nay có cơ chế tổ chức đặc biệt: Thổ Nhĩ Kỳ là nước đăng cai, còn Úc giữ vai trò chủ trì các phiên đàm phán chính thức, theo thỏa hiệp đạt được sau khi hai nước cùng tranh quyền đăng cai.",
-            "Điểm gây chú ý lớn nhất là sự vắng mặt của Mỹ — năm thứ hai liên tiếp. Chính quyền Tổng thống Donald Trump đã rút khỏi Hiệp định Paris và tuyên bố không tham gia các chính sách khí hậu mà Nhà Trắng gọi là cực đoan. Dù vậy, một số nghị sĩ Quốc hội Mỹ cùng giới doanh nghiệp và tổ chức xã hội dân sự nước này vẫn dự kiến có mặt tại Antalya.",
-            "Nghị trình trọng tâm gồm: nguồn tiền giúp các nước nghèo thích ứng với nắng nóng và thời tiết cực đoan, lộ trình giảm dần nhiên liệu hóa thạch, và nỗ lực giữ mức tăng nhiệt toàn cầu càng gần ngưỡng 1,5 độ C của Hiệp định Paris càng tốt. Hội nghị diễn ra sau một năm nắng nóng kỷ lục và El Niño mạnh, trong khi căng thẳng quanh eo biển Hormuz khiến giá năng lượng toàn cầu thêm biến động. Giới quan sát dự báo COP31 khó tạo ra cam kết cắt giảm mới mang tính đột phá, thay vào đó là các sáng kiến ở cấp liên minh quốc gia."
-          ],
-          nguon: [
-            { ten: "AP (qua The New Indian Express)", link: "https://www.newindianexpress.com/amp/story/world/2026/Nov/09/leaders-gather-in-turkey-for-un-climate-summit-after-a-disastrous-year-of-extreme-weather-2" },
-            { ten: "The Guardian (qua Mezha)", link: "https://mezha.net/eng/news/mezha-4bd8ae89d45442f294ed9ed4_cop31-_what_is/" },
-            { ten: "UNFCCC — Chương trình nghị sự COP31", link: "https://unfccc.int/sites/default/files/resource/ODT_SBI.63_SBSTA_.63_251028.pdf" }
-          ],
-          gio: "Sáng 09/11"
-        }
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris khép lại: Rubio nói Mỹ tiếp tục gây sức ép 'tàn khốc' với Iran, đồng minh lạnh nhạt với lời kêu gọi bảo vệ eo Hormuz",
+          baiViet: [
+            "Ngoại trưởng Mỹ Marco Rubio ngày thứ Ba 10/11 nói với các đồng nhiệm G7 tại Paris rằng Washington sẽ tiếp tục gây sức ép kinh tế tàn khốc lên Iran, cho rằng các lệnh trừng phạt đang phát huy tác dụng mà không cần một cuộc chiến mới — theo bốn nhà ngoại giao G7 kể lại với Reuters. Ông Rubio nói chính sách hiện tại đang hạn chế khả năng Tehran tài trợ cho các hoạt động trong khu vực, và Mỹ có những lựa chọn khác ngoài việc nối lại chiến tranh hay chấp nhận các yêu sách mà ông gọi là không thể chấp nhận được của Iran.",
+            "Cùng ngày, ông Rubio cũng kêu gọi các nước G7 tăng cường tham gia bảo vệ tàu thuyền khỏi các vụ tấn công của Iran tại eo biển Hormuz — nhưng thừa nhận không nhận được phản hồi nào. 'Tôi đã nêu vấn đề. Tôi không nhận được câu trả lời', ông nói sau hai ngày họp. Các đồng minh châu Âu cho rằng giao tranh phải dừng trước khi họ có thể cử tàu quét mìn hay hỗ trợ bảo vệ tàu chở dầu, trong khi Mỹ khẳng định sẽ tiếp tục tự bảo vệ tuyến vận tải qua eo biển chiến lược này.",
+            "Kỳ họp cũng đạt được đồng thuận về Liban: các ngoại trưởng nhất trí về nhu cầu tránh một khoảng trống an ninh sau khi lực lượng gìn giữ hòa bình Liên Hợp Quốc (UNIFIL) rút đi — nhiệm vụ của lực lượng này kết thúc ngày 31/12/2026 — và cần nhanh chóng xây dựng một cấu trúc an ninh mới hỗ trợ quân đội Liban. Ông Rubio gợi ý cơ chế thay thế 'không nhất thiết phải là một nhiệm vụ quân sự, mà có thể là một nhiệm vụ dân sự'. Về Ukraine, phiên họp với Ngoại trưởng Andrii Sybiha diễn ra cùng lúc vòng đàm phán ba bên Mỹ–Nga–Ukraine tại Abu Dhabi; tuyên bố chung cuối cùng của kỳ họp tái khẳng định mục tiêu rút quân Israel khỏi miền nam Liban, giải giáp Hezbollah và khôi phục một nhà nước độc quyền sử dụng vũ lực."
+          ],
+          nguon: [
+            { ten: "Moneycontrol (theo Reuters)", link: "https://www.moneycontrol.com/world/rubio-tells-g7-us-will-keep-imposing-devastating-costs-on-iran-diplomats-say-article-14076481.html/amp" },
+            { ten: "The Economic Times (theo AP)", link: "http://economictimes.indiatimes.com/news/defence/rubio-urges-nations-to-step-up-on-strait-of-hormuz-security/articleshow/135716474.cms" },
+            { ten: "The Times of Israel (theo AFP)", link: "https://www.timesofisrael.com/g7-agrees-on-need-to-avert-security-void-in-lebanon-after-unifil-withdrawal/amp/" }
+          ],
+          gio: "Sáng 11/11"
+        },
         {
           tieuDe: "G7 ngày 2: Canada siết trừng phạt Nga, Ngoại trưởng Ukraine dự phiên chuyên đề, đàm phán Abu Dhabi bắt đầu",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều 10/11"
         },
-        {
-          tieuDe: "G7 Paris bước sang ngày 2: phiên Ukraine với Ngoại trưởng Sybiha, đàm phán ba bên ở Abu Dhabi bắt đầu",
-          baiViet: [
-            "Ngoại trưởng các nước G7 tiếp tục ngày họp thứ hai 10/11 tại Paris, với phiên chuyên đề về Ukraine dự kiến diễn ra cuối buổi sáng cùng Ngoại trưởng Ukraine Andrii Sybiha. Trọng tâm của phiên này là tăng cường phòng không cho Kyiv, duy trì sức ép trừng phạt với Nga và bảo vệ tự do hàng hải ở Biển Đen. Cùng ngày, vòng đàm phán ba bên Mỹ–Nga–Ukraine do Washington làm trung gian cũng bắt đầu tại Abu Dhabi (10–11/11) với sự tham gia của hai đặc phái viên Steve Witkoff và Jared Kushner.",
-            "Ngày họp đầu tiên 9/11 cho thấy châu Âu đang gây sức ép mạnh lên Ngoại trưởng Mỹ Marco Rubio trên cả hai mặt trận: một giải pháp công bằng cho Ukraine và việc kiềm chế khả năng Mỹ tiến hành thêm các đòn tấn công quân sự nhằm vào Iran, kể cả địa điểm mà Washington gọi là 'Pickaxe Mountain' — nơi Tehran phủ nhận là cơ sở hạt nhân. Ngoại trưởng Đức Johann Wadephul nhấn mạnh châu Âu phải giữ một ghế tại bàn đàm phán, còn Ngoại trưởng Pháp Jean-Noël Barrot khẳng định trên đài RTL rằng châu Âu sẽ có đại diện và Pháp chắc chắn tham dự vòng đàm phán Abu Dhabi.",
-            "Về Iran, các ngoại trưởng châu Âu muốn tránh một vòng leo thang quân sự mới và khôi phục vận tải thương mại qua eo biển Hormuz, trong khi ông Rubio cho biết đàm phán với Tehran chưa gần đột phá. Phía Pháp cho biết kỳ họp này có thể không ra tuyên bố chung — dấu hiệu cho thấy khoảng cách quan điểm giữa các thành viên vẫn còn lớn. Đây là một trong những hoạt động cuối cùng của nhiệm kỳ chủ tịch G7 của Pháp; Mỹ sẽ tiếp quản ghế chủ tịch vào năm 2027."
-          ],
-          nguon: [
-            { ten: "Political.org", link: "https://political.org/2026/11/08/g7-foreign-ministers-meet-in-paris-to-gauge-whether-trumps-midterm-setback-changes-us-foreign-policy/" },
-            { ten: "Outlook India", link: "https://www.outlookindia.com/international/g7-paris-meeting-2026-ukraine-russia-war-peace-talks-us-iran-conflict-donald-trump-marco-rubio" },
-            { ten: "Focus News (Anh)", link: "https://focus-news.co.uk/rubio-deems-iran-talks-unproductive-amid-demands/" }
-          ],
-          gio: "Sáng 10/11"
-        }
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Tuần lễ thượng đỉnh châu Á: Trump dự ASEAN ngày 16/11 rồi tới APEC Thâm Quyến, lần đầu ba lãnh đạo cường quốc hạt nhân gặp nhau",
+          baiViet: [
+            "Đông Nam Á bước vào tuần lễ ngoại giao bận rộn nhất trong năm khi Thượng đỉnh ASEAN lần thứ 49 diễn ra tuần tới tại Manila, Philippines — với sự tham dự của Tổng thống Mỹ Donald Trump vào ngày 16/11, trước khi ông bay sang Thâm Quyến dự Thượng đỉnh APEC từ 18/11. Thủ tướng Nhật Bản Sanae Takaichi cũng xác nhận sẽ dự cả hai hội nghị, đồng thời tìm kiếm một cuộc gặp song phương với ông Trump tại Manila và tham dự hội nghị thượng đỉnh Nhóm Bộ tứ (Quad) — cuộc gặp đầu tiên của bốn nước Nhật, Mỹ, Úc và Ấn Độ dưới chính quyền Trump nhiệm kỳ hai.",
+            "Tâm điểm của APEC Thâm Quyến là cuộc gặp ba bên được đồn đoán giữa Tổng thống Trump, Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình — lần đầu tiên kể từ Thế chiến II, lãnh đạo của ba cường quốc hạt nhân lớn nhất cùng ngồi lại một chỗ. Trước thềm hội nghị, Tokyo đã đề nghị Bắc Kinh bảo đảm ông Tập sẽ đối xử với bà Takaichi ngang hàng với các lãnh đạo khác, trong bối cảnh quan hệ Nhật–Trung căng thẳng sau những phát biểu cứng rắn của nữ thủ tướng về Đài Loan.",
+            "Thủ tướng Canada Mark Carney cũng bắt đầu chuyến công du 11–19/11 qua Ireland, Philippines, Campuchia và Trung Quốc, với mục tiêu chốt hiệp định thương mại tự do Canada–Philippines — thỏa thuận song phương đầu tiên của Manila với một nước Bắc Mỹ, kỳ vọng tăng gấp ba thương mại song phương vào năm 2035. Tại Manila, Philippines cho biết công tác chuẩn bị đã đạt 90%, Tổng thống Ferdinand Marcos Jr. trực tiếp kiểm tra địa điểm tổ chức hôm thứ Ba, trong lúc chính quyền siết chặt an ninh quanh khu vực hội nghị."
+          ],
+          nguon: [
+            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57146" },
+            { ten: "eDaily (theo Bloomberg)", link: "https://en.edaily.co.kr/news/eda202611095263/" },
+            { ten: "Kislap (theo Văn phòng Thủ tướng Canada)", link: "https://www.kislap.com/news/carney-to-visit-manila-for-asean-summit-as-canada-seeks-to-conclude-a-philippines-free-trade-deal" }
+          ],
+          gio: "Sáng 11/11"
+        },
         {
           tieuDe: "Nhật Bản: đảng cầm quyền kỷ luật cựu Thủ tướng Ishiba trước giờ Thượng viện thảo luận dự luật giảm thuế",
           baiViet: [
@@ -135,20 +149,6 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 10/11"
         },
-        {
-          tieuDe: "Lula vừa tái đắc cử đã tới COP31: Brazil mang 'lá phiếu khí hậu' tới Antalya",
-          baiViet: [
-            "Tổng thống Brazil Luiz Inácio Lula da Silva, 81 tuổi, dự kiến tới Antalya muộn tối thứ Hai 9/11 và sẽ phát biểu tại COP31 trong Hội nghị thượng đỉnh các nhà lãnh đạo ngày 11–12/11 — chỉ hai tuần sau khi ông thắng vòng hai bầu cử tổng thống ngày 25/10 trước ứng viên bảo thủ Flávio Bolsonaro. Các nhà hoạt động khí hậu coi chiến thắng tái cử của ông là tin tốt cho chương trình khí hậu toàn cầu.",
-            "Brazil là nước chủ nhà của COP30 năm ngoái tại Belém, giữa lòng rừng Amazon — kỳ họp kết thúc bằng một thỏa thuận không nhắc đích danh nhiên liệu hóa thạch sau khi các nước sản xuất dầu phản đối. Năm nay, với tư cách một trong những tiếng nói lớn của khối các nước đang phát triển trong G20, Brazil được kỳ vọng thúc đẩy yêu cầu tài chính khí hậu — đúng điểm gây tranh cãi ngay trong ngày khai mạc COP31.",
-            "Tháp tùng Tổng thống Lula có Bộ trưởng Y tế Alexandre Padilha. Sự hiện diện của ông tại Antalya cũng đặt Brazil vào vị trí trung tâm của cuộc tranh luận về vai trò của các nền kinh tế mới nổi: vừa là những nước chịu tác động nặng nề của biến đổi khí hậu, vừa là những nước muốn giữ quyền phát triển kinh tế trong lúc chuyển đổi năng lượng."
-          ],
-          nguon: [
-            { ten: "Inquirer (theo AFP)", link: "https://globalnation.inquirer.net/345068/brazils-lula-to-attend-cop31-climate-summit-in-turkey/amp" },
-            { ten: "Kuwait Times (theo AFP)", link: "https://kuwaittimes.com/article/53287/world/cop31-opens-with-early-fight-over-climate-finance/" },
-            { ten: "Hürriyet Daily News (theo AFP)", link: "https://www.hurriyetdailynews.com/amp/brazils-lula-to-attend-cop31-climate-summit-in-turkiye-228876" }
-          ],
-          gio: "Chiều 09/11"
-        }
       ]
     }
   ]
