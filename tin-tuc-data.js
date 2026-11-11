@@ -5,12 +5,26 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Tư 11/11/2026 — bản tin sáng",
+  capNhat: "Thứ Tư 11/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: Guterres kêu gọi lên kế hoạch cho tương lai không nhiên liệu hóa thạch, Erdoğan khoe phát hiện mỏ dầu mới",
+          baiViet: [
+            "Hôm nay 11/11, Tổng thư ký Liên Hợp Quốc António Guterres kêu gọi các nước tại COP31 lên kế hoạch cho một tương lai không còn nhiên liệu hóa thạch, trong ngày đầu tiên của Hội nghị thượng đỉnh các nhà lãnh đạo tại Antalya. Ông nhấn mạnh quá trình chuyển đổi nhanh khỏi nhiên liệu hóa thạch là điều căn bản để kìm hãm đà tăng nhiệt toàn cầu, trong bối cảnh các nhà khoa học cảnh báo khí thải từ đốt nhiên liệu hóa thạch sẽ còn ở gần mức kỷ lục trong năm nay.",
+            "Thông điệp của ông Guterres trái ngược hẳn với giọng điệu của nước chủ nhà: Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan hôm thứ Hai ca ngợi việc phát hiện hai mỏ dầu mới — ước tính chứa 135 triệu thùng dầu thô — là 'tin tốt lành'. Thổ Nhĩ Kỳ đang thúc đẩy cam kết điện khí hóa toàn cầu thay vì các cam kết cụ thể mới về cắt giảm than, dầu và khí đốt. Kể từ khi các nước lần đầu nhất trí chuyển đổi khỏi nhiên liệu hóa thạch năm 2023, mục tiêu này vẫn giậm chân tại chỗ qua các kỳ COP; tại COP30 năm ngoái ở Brazil, nhiên liệu hóa thạch thậm chí không được nhắc tên trong thỏa thuận cuối cùng.",
+            "Trọng tâm của kỳ họp là cam kết '35 tới 35': nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu từ khoảng 23% hiện nay lên 35% vào năm 2035. Chủ tịch đàm phán COP31 Murat Kurum cho biết các nước nhập khẩu nhiên liệu đã phải gánh thêm khoảng 330 tỷ USD chi phí chỉ trong giai đoạn tháng 3–8, và 180 doanh nghiệp với tổng doanh thu gần 1.700 tỷ USD đã kêu gọi hội nghị nắm lấy cơ hội điện khí hóa. Tuy nhiên, giới chuyên gia cảnh báo mục tiêu này thiếu yêu cầu rõ ràng rằng lượng điện tăng thêm phải đến từ nguồn carbon thấp, và kỳ vọng về một đột phá lớn về nhiên liệu hóa thạch vẫn thấp — đúng như nhận định của đặc phái viên khí hậu EU Wopke Hoekstra: 'Kỳ vọng thấp — đó chỉ là phản ánh thực tế'."
+          ],
+          nguon: [
+            { ten: "Dawn", link: "https://www.dawn.com/news/2043698" },
+            { ten: "Punch Newspapers", link: "https://punchng.com/cop31-targets-35-global-electrification-by-2035/" },
+            { ten: "Newsbase", link: "https://newsbase.com/story/cop31-in-turkey-what-to-expect-at-the-2026-un-climate-summit-482852" }
+          ],
+          gio: "Chiều 11/11"
+        },
         {
           tieuDe: "COP31: Thượng đỉnh lãnh đạo khai mạc hôm nay — 77 nguyên thủ phát biểu, Lula mang hai lộ trình lớn",
           baiViet: [
@@ -53,26 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 10/11"
         },
-        {
-          tieuDe: "COP31 ngày đầu: tranh cãi tiền bạc khiến lễ khai mạc chậm 90 phút, Tổng thư ký LHQ kêu gọi 'hành động nghiêm túc'",
-          baiViet: [
-            "Lễ khai mạc COP31 tại Antalya đã bắt đầu muộn một tiếng rưỡi mà không có lời giải thích, sau khi các nhà đàm phán thức khuya đêm Chủ nhật để tranh cãi về việc đưa các khoản tài chính khí hậu vào chương trình nghị sự chính thức. Tổng thư ký Liên Hợp Quốc António Guterres kêu gọi các nhà lãnh đạo thế giới 'hành động nghiêm túc' trước khủng hoảng khí hậu, sau một năm thiên tai tàn khốc. Giám đốc điều hành khí hậu của LHQ Simon Stiell thì thẳng thắn hơn: tiến độ hiện tại 'còn lâu mới đủ nhanh'.",
-            "Bối cảnh của kỳ họp năm nay đặc biệt nặng nề: báo cáo của Chương trình Môi trường LHQ công bố tháng 10 cho thấy thế giới đã chắc chắn vượt ngưỡng tăng nhiệt 1,5 độ C so với thời tiền công nghiệp, và năm nay nằm trong nhóm 4 năm nóng nhất từng được ghi nhận, với hiện tượng El Niño mạnh. Châu Âu trải qua sóng nhiệt, Indonesia cháy rừng lớn, Nepal hứng lũ lụt thảm khốc. Chủ tịch COP31 Murat Kurum đặt mục tiêu điện khí hóa hơn một phần ba nền kinh tế toàn cầu tới năm 2035, từ mức khoảng một phần năm hiện nay. Ngày đầu tiên của hội nghị tập trung vào lương thực, nông nghiệp và sức khỏe, với Tổ chức Y tế Thế giới chủ trì các phiên về hệ thống y tế chống chịu khí hậu.",
-            "Tổng thống Brazil Luiz Inácio Lula da Silva, 81 tuổi, vừa tái đắc cử cuối tháng 10, dự kiến tới Antalya muộn tối thứ Hai và sẽ phát biểu trong Hội nghị thượng đỉnh các nhà lãnh đạo ngày 11–12/11. Phía Mỹ tiếp tục vắng mặt ở cấp chính quyền — Tổng thống Trump hoài nghi biến đổi khí hậu và đã rút khỏi Hiệp định Paris — nhưng một phái đoàn Quốc hội Mỹ sẽ tới Antalya sau chiến thắng của đảng Dân chủ ở bầu cử giữa kỳ. Hội nghị kéo dài tới 20/11; giới quan sát cho rằng khó có cam kết cắt giảm đột phá mới, trọng tâm sẽ là triển khai các thỏa thuận đã đạt được."
-          ],
-          nguon: [
-            { ten: "Kuwait Times (theo AFP)", link: "https://kuwaittimes.com/article/53287/world/cop31-opens-with-early-fight-over-climate-finance/" },
-            { ten: "Rappler (theo Reuters)", link: "https://www.rappler.com/world/global-affairs/cop31-leaders-urge-world-move-faster-climate-november-9-2026/" },
-            { ten: "The Jerusalem Post (theo Reuters)", link: "https://www.jpost.com/environment-and-climate-change/article-914309" }
-          ],
-          gio: "Chiều 09/11"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris bế mạc: đồng thuận tránh 'khoảng trống an ninh' ở Liban, ra tuyên bố 12 trang về Ukraine",
+          baiViet: [
+            "Các ngoại trưởng G7 đã bế mạc kỳ họp hai ngày tại Paris hôm thứ Ba 10/11 với đồng thuận về 'nhu cầu tránh một khoảng trống an ninh' ở Liban sau khi lực lượng gìn giữ hòa bình Liên Hợp Quốc (UNIFIL) rút đi cuối năm nay, Ngoại trưởng Pháp Jean-Noël Barrot cho biết. Các bộ trưởng nhất trí 'cần nhanh chóng tiến tới một cấu trúc an ninh mới' hỗ trợ quân đội Liban, nhưng ông Barrot thừa nhận chưa có đột phá về việc lực lượng nào sẽ thay thế UNIFIL — lực lượng hiện diện từ năm 1978 với khoảng 7.500 quân nhân từ gần 50 nước.",
+            "Trong tuyên bố chung cuối cùng, các bộ trưởng nhấn mạnh 'nhu cầu về một cấu trúc an ninh mạnh mẽ, đáng tin cậy và lâu dài ở Liban để hỗ trợ Lực lượng Vũ trang Liban'. Ngoại trưởng Mỹ Marco Rubio đề xuất cơ chế thay thế 'không nhất thiết phải là một nhiệm vụ quân sự, mà có thể là một nhiệm vụ dân sự', sau khi đã thảo luận vấn đề này với Tổng thống Emmanuel Macron. Mục tiêu chung mà các bên chia sẻ: Israel rút khỏi miền nam Liban, Hezbollah giải giáp và khôi phục một nhà nước độc quyền sử dụng vũ lực.",
+            "Về Ukraine, các ngoại trưởng đã thông qua một tuyên bố dài 12 trang, tái khẳng định ủng hộ Kyiv — bao gồm an ninh năng lượng và giúp người dân vượt qua mùa đông khắc nghiệt sắp tới — và tầm quan trọng của một lệnh ngừng bắn toàn diện. Ngoại trưởng Ukraine Andrii Sybiha nhấn mạnh đoàn kết G7 là yếu tố 'cực kỳ quan trọng' để buộc Nga chấm dứt chiến tranh. Nhật Bản cũng bày tỏ quan ngại sâu sắc về tình hình Yemen và cho biết sẽ tiếp tục thúc giục Iran nối lại đàm phán với Mỹ."
+          ],
+          nguon: [
+            { ten: "The Times of Israel (theo AFP)", link: "https://www.timesofisrael.com/g7-agrees-on-need-to-avert-security-void-in-lebanon-after-unifil-withdrawal/" },
+            { ten: "NHK World-Japan", link: "https://www3.nhk.or.jp/nhkworld/news/20261111de73979/" },
+            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57237" }
+          ],
+          gio: "Chiều 11/11"
+        },
         {
           tieuDe: "G7 Paris khép lại: Rubio nói Mỹ tiếp tục gây sức ép 'tàn khốc' với Iran, đồng minh lạnh nhạt với lời kêu gọi bảo vệ eo Hormuz",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 11/11"
         },
-        {
-          tieuDe: "G7 ngày 2: Canada siết trừng phạt Nga, Ngoại trưởng Ukraine dự phiên chuyên đề, đàm phán Abu Dhabi bắt đầu",
-          baiViet: [
-            "Ngày họp thứ hai 10/11 của Ngoại trưởng các nước G7 tại Paris có phiên chuyên đề về Ukraine với sự tham gia của Ngoại trưởng Ukraine Andrii Sybiha. Cùng ngày, vòng đàm phán ba bên Mỹ–Nga–Ukraine do Washington làm trung gian cũng bắt đầu tại Abu Dhabi (10–11/11) với sự tham gia của hai đặc phái viên Steve Witkoff và Jared Kushner. Trọng tâm của phiên Ukraine là tăng cường phòng không cho Kyiv, duy trì sức ép trừng phạt với Nga và bảo vệ tự do hàng hải ở Biển Đen.",
-            "Bên lề kỳ họp, Canada hôm thứ Hai đã công bố loạt trừng phạt mới với Nga, thêm 38 thực thể và 24 cá nhân vào danh sách, nhằm tiếp tục bào mòn năng lực quân sự của Moscow. Các nước châu Âu tiếp tục gây sức ép để có ghế tại bàn đàm phán: Ngoại trưởng Đức Johann Wadephul khẳng định châu Âu phải có một ghế tại bàn đàm phán, còn Ngoại trưởng Pháp Jean-Noël Barrot nói châu Âu sẽ có đại diện và Pháp chắc chắn tham dự vòng đàm phán Abu Dhabi, trong bối cảnh lo ngại Kyiv bị ép chấp nhận những điều kiện bất lợi.",
-            "Về Iran, phiên thảo luận ngày thứ Ba được chờ đợi trong bối cảnh Washington vẫn chưa loại trừ các đòn tấn công quân sự mới — kể cả địa điểm mà Mỹ gọi là Pickaxe Mountain, nơi Tehran phủ nhận là cơ sở hạt nhân — trong khi Ngoại trưởng Mỹ Marco Rubio thừa nhận đàm phán với Tehran chưa có tiến triển và gọi các yêu sách của Iran là không thể chấp nhận được. Phía Pháp cho biết kỳ họp này có thể không ra tuyên bố chung. Đây là một trong những hoạt động cuối cùng của nhiệm kỳ chủ tịch G7 của Pháp; Mỹ sẽ tiếp quản ghế chủ tịch vào năm 2027."
-          ],
-          nguon: [
-            { ten: "The Korea Times (theo AFP)", link: "https://www.koreatimes.co.kr/world/20261109/g7-ministers-press-rubio-on-iran-ukraine-at-paris-talks" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/news/2026/11/10/europe-belongs-at-this-table-germany-tells-us-before-ukraine-talks" },
-            { ten: "Dawn", link: "https://www.dawn.com/news/2043423" }
-          ],
-          gio: "Chiều 10/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Đàm phán Mỹ–Trung về 'hàng rào an toàn' AI vẫn bế tắc trước thềm APEC và G20",
+          baiViet: [
+            "Mỹ và Trung Quốc đã có các cuộc thảo luận ở cấp kỹ thuật về các biện pháp bảo đảm an toàn trí tuệ nhân tạo (AI) nhưng 'chưa có gì để công bố', Ngoại trưởng Mỹ Marco Rubio cho biết hôm thứ Ba 10/11 sau kỳ họp G7 tại Paris. Ông nói hai bên đã nghe quan điểm của nhau nhưng quá trình 'vẫn đang tiếp diễn', và vấn đề này nên được đưa lên bàn các nhà lãnh đạo tại hội nghị APEC ở Thâm Quyến (18–19/11) cũng như tại G20, nơi Trung Quốc có ghế.",
+            "Ông Rubio nhấn mạnh cuộc tranh luận không nên gói gọn trong kênh song phương Mỹ–Trung: 'Đây nên là vấn đề chúng ta nêu ra tại hội nghị thượng đỉnh', ông nói, đồng thời kỳ vọng các nhà lãnh đạo APEC sẽ thảo luận về quản trị AI. Việc thiếu một khuôn khổ ràng buộc giữa hai cường quốc công nghệ lớn nhất thế giới được coi là một khoảng trống trong kiến trúc quản trị AI quốc tế đang hình thành.",
+            "Khi được hỏi về khả năng diễn ra cuộc gặp ba bên Mỹ–Nga–Trung, ông Rubio xác nhận 'có ý định tổ chức một cuộc gặp như vậy' và các quan chức đang làm việc để sắp xếp, nhưng không đưa ra ngày hay thông báo chính thức nào. Tổng thống Trump hôm 8/11 từng nói ông kỳ vọng sẽ gặp Chủ tịch Tập Cận Bình và Tổng thống Vladimir Putin tại Thâm Quyến, với chủ đề giải trừ vũ khí hạt nhân và chấm dứt chiến tranh — trong khi Bắc Kinh mới chỉ xác nhận đang 'trao đổi với các bên liên quan' và chưa chốt có tổ chức cuộc gặp hay không."
+          ],
+          nguon: [
+            { ten: "Mid-Day (theo IANS)", link: "https://www.mid-day.com/news/world-news/article/marco-rubio-says-us-china-ai-guardrail-discussions-remain-a-work-in-progress-23659400" },
+            { ten: "Nation Press", link: "https://www.nationpress.com/international/rubio-us-china-ai-talks-still-unresolved" },
+            { ten: "Signal Post News", link: "https://signalpostnews.com/china-confirms-xi-trump-putin-meeting-apec-shenzhen-november-2026" }
+          ],
+          gio: "Chiều 11/11"
+        },
         {
           tieuDe: "Tuần lễ thượng đỉnh châu Á: Trump dự ASEAN ngày 16/11 rồi tới APEC Thâm Quyến, lần đầu ba lãnh đạo cường quốc hạt nhân gặp nhau",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "IwPost", link: "https://iwpost.com/takaichi-vs-the-tax-rebels/" }
           ],
           gio: "Chiều 10/11"
-        },
-        {
-          tieuDe: "Nhật Bản: dự luật giảm thuế tiêu thụ thực phẩm lần đầu kể từ 1989 qua Hạ viện, Thượng viện thảo luận từ 11/11",
-          baiViet: [
-            "Dự luật giảm thuế tiêu thụ với thực phẩm từ 8% xuống 1% trong hai năm (từ tháng 4/2027) — cam kết tranh cử của Thủ tướng Sanae Takaichi — đã được Hạ viện Nhật Bản thông qua ngày 6/11 với đa số áp đảo. Đây là lần đầu tiên Nhật Bản cắt giảm thuế tiêu thụ kể từ khi áp dụng loại thuế này năm 1989 với mức khởi điểm 3%. Chính phủ cũng dự kiến gói trợ cấp cho người lao động thu nhập thấp và trung bình để giảm áp lực chi phí sinh hoạt do lạm phát.",
-            "Dự luật gây tranh cãi gay gắt ngay trong nội bộ đảng cầm quyền: bốn nghị sĩ Đảng Dân chủ Tự do — trong đó có cựu Thủ tướng Shigeru Ishiba — đã bỏ ra ngoài trước giờ bỏ phiếu để phản đối, và lãnh đạo đảng yêu cầu họ giải trình bằng văn bản trước trưa 9/11. Mối lo lớn nhất là nguồn bù đắp: dự luật tạo ra khoản hụt thu khoảng 5.000 tỷ yên mỗi năm (tương đương 31,6 tỷ USD), trong khi giới phân tích cho rằng chính phủ chưa đưa ra được phương án tài trợ ổn định thuyết phục; thị trường lo ngại Tokyo sẽ phải phát hành thêm trái phiếu, làm nặng thêm gánh nặng nợ công.",
-            "Thượng viện bắt đầu thảo luận dự luật từ 11/11, đặt mục tiêu hoàn tất trước khi kỳ họp Quốc hội kết thúc ngày 12/12. Liên minh cầm quyền nắm khoảng ba phần tư số ghế Hạ viện nhưng thiếu đa số tại Thượng viện, nên vẫn cần sự ủng hộ của một số nghị sĩ đối lập. Song song, bà Takaichi dự kiến dùng tiền thu từ việc Ngân hàng Trung ương Nhật Bản bán ETF — BOJ vừa nâng mức bán lên 860 tỷ yên mỗi năm từ 30/10 — cho chi tiêu an ninh kinh tế, và bà sẽ dự hội nghị ASEAN ở Philippines cùng hội nghị APEC tại Thâm Quyến trong tuần tới."
-          ],
-          nguon: [
-            { ten: "The Japan Times", link: "https://www.japantimes.co.jp/news/2026/11/09/japan/politics/food-tax-bill-abstain/" },
-            { ten: "Lianhe Zaobao (Singapore)", link: "https://www.zaobao.com.sg/en/news/world/takaichi-pushes-consumption-tax-cut-bill-through-lower-house-upper-house-hurdles-remain?ref=today-newsen-section-card-1" },
-            { ten: "Business News Malaysia (theo Reuters)", link: "https://businessnews.com.my/takaichi-boj-etf-proceeds-ai-rout/" }
-          ],
-          gio: "Sáng 10/11"
         },
       ]
     }
