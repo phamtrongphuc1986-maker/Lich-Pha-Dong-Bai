@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Năm 12/11/2026 — bản tin sáng",
+  capNhat: "Thứ Năm 12/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: Thượng đỉnh lãnh đạo khép lại — từ mai chuyển sang ngày Tài chính & Thương mại, tranh cãi về tiền vẫn chưa ngã ngũ",
+          baiViet: [
+            "Hôm nay 12/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 tại Antalya bước sang ngày thứ hai và cũng là ngày cuối, khép lại phần phát biểu của các nguyên thủ và chuyển sang các bàn tròn chuyên đề: thập kỷ thứ hai của Thỏa thuận Paris và khả năng tiếp cận tài chính khí hậu, khả năng chống chịu của đô thị, cùng bàn tròn về rác thải bằng không, kinh tế tuần hoàn và khí mê-tan. Từ ngày mai 13/11, hội nghị bước vào ngày chủ đề Tài chính & Thương mại — nơi những bất đồng lớn nhất sẽ được đưa ra bàn.",
+            "Tranh cãi lớn nhất vẫn là tiền. Nhóm các nước đang phát triển đòi đưa cam kết tài chính khí hậu vào chương trình nghị sự chính thức — bao gồm tài chính thích ứng và hỗ trợ cho Quỹ Khí hậu Xanh — trong khi các nước phát triển, trong đó có EU và Canada, phản đối mở thêm hạng mục. Lộ trình do Brazil dẫn đầu đề xuất huy động 1.270–1.410 tỷ USD mỗi năm cho các nước đang phát triển vào năm 2035; Ủy viên khí hậu EU Wopke Hoekstra thì nói thẳng rằng các yêu cầu tài chính mới là không còn cửa. Ấn Độ, trong khi đó, tái khẳng định phản đối thuế biên giới carbon của EU và từ chối cam kết điện khí hóa mà Thổ Nhĩ Kỳ đang thúc đẩy.",
+            "Điểm sáng hiếm hoi là mục tiêu điện khí hóa của nước chủ nhà: nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu từ khoảng 23% hiện nay lên 35% vào năm 2035, với sự ủng hộ của 180 doanh nghiệp có tổng doanh thu gần 1.700 tỷ USD. Nhưng giới chuyên gia cảnh báo mục tiêu này thiếu yêu cầu rõ ràng rằng lượng điện tăng thêm phải đến từ nguồn carbon thấp, và kỳ vọng về một đột phá lớn về nhiên liệu hóa thạch vẫn thấp — đúng như nhận định của đặc phái viên khí hậu EU: kỳ vọng thấp, đó chỉ là phản ánh thực tế. Hội nghị tiếp tục tới ngày 20/11."
+          ],
+          nguon: [
+            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" },
+            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
+            { ten: "Lexblog", link: "https://www.lexblog.com/2026/11/10/business-priorities-for-cop31/" }
+          ],
+          gio: "Chiều 12/11"
+        },
+        {
+          tieuDe: "WMO: 12 năm qua đều nằm trong nhóm nóng nhất lịch sử — 4 năm gần đây nóng nhất từ trước tới nay",
+          baiViet: [
+            "Bản cập nhật tình trạng khí hậu của Tổ chức Khí tượng Thế giới (WMO), công bố đúng ngày khai mạc COP31, cho thấy mỗi năm trong 12 năm qua đều nằm trong nhóm những năm nóng nhất từng được ghi nhận — và 4 năm gần đây nhất chính là 4 năm nóng nhất. Đây là bức nền khoa học mà Tổng thư ký Liên Hợp Quốc António Guterres dùng để thúc giục các lãnh đạo tại Antalya nghiêm túc với cuộc khủng hoảng, sau một năm chứng kiến hàng loạt hiện tượng thời tiết cực đoan tàn khốc.",
+            "Báo cáo khoảng cách phát thải 2026 của Chương trình Môi trường Liên Hợp Quốc (UNEP) cũng vẽ bức tranh ảm đạm không kém: mức tăng nhiệt toàn cầu được dự báo sẽ vượt ngưỡng 1,5°C so với thời tiền công nghiệp theo Thỏa thuận Paris. Trong khi đó, các nhà khoa học cảnh báo khí thải từ đốt nhiên liệu hóa thạch sẽ còn ở gần mức kỷ lục trong năm nay — đúng lúc các nước tại COP31 vẫn chưa thống nhất được lộ trình cắt giảm nhiên liệu hóa thạch kể từ khi nhất trí về hướng đi này năm 2023.",
+            "Khoảng cách giữa khoa học và chính sách cũng thể hiện ở chỗ: tại COP30 năm ngoái ở Brazil, nhiên liệu hóa thạch thậm chí không được nhắc tên trong thỏa thuận cuối cùng. Tại Antalya, hơn 80 nước kêu gọi có lộ trình rời xa nhiên liệu hóa thạch, nhưng nước chủ nhà Thổ Nhĩ Kỳ lại đẩy mục tiêu điện khí hóa thay cho cam kết cắt giảm than, dầu và khí đốt cụ thể — và vừa ca ngợi phát hiện hai mỏ dầu mới chứa ước tính 135 triệu thùng dầu thô."
+          ],
+          nguon: [
+            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" },
+            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
+            { ten: "mkniralo", link: "https://www.mkniralo.com/articles/cop31-opens-antalya-finance-agenda-fight-2026/" }
+          ],
+          gio: "Chiều 12/11"
+        },
         {
           tieuDe: "Chính phủ Mỹ mở cửa trở lại sau 43 ngày đóng cửa kỷ lục: Hạ viện thông qua 222–209, Trump ký luật ngay trong đêm",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 12/11"
         },
-        {
-          tieuDe: "COP31: Guterres kêu gọi lên kế hoạch cho tương lai không nhiên liệu hóa thạch, Erdoğan khoe phát hiện mỏ dầu mới",
-          baiViet: [
-            "Hôm nay 11/11, Tổng thư ký Liên Hợp Quốc António Guterres kêu gọi các nước tại COP31 lên kế hoạch cho một tương lai không còn nhiên liệu hóa thạch, trong ngày đầu tiên của Hội nghị thượng đỉnh các nhà lãnh đạo tại Antalya. Ông nhấn mạnh quá trình chuyển đổi nhanh khỏi nhiên liệu hóa thạch là điều căn bản để kìm hãm đà tăng nhiệt toàn cầu, trong bối cảnh các nhà khoa học cảnh báo khí thải từ đốt nhiên liệu hóa thạch sẽ còn ở gần mức kỷ lục trong năm nay.",
-            "Thông điệp của ông Guterres trái ngược hẳn với giọng điệu của nước chủ nhà: Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan hôm thứ Hai ca ngợi việc phát hiện hai mỏ dầu mới — ước tính chứa 135 triệu thùng dầu thô — là 'tin tốt lành'. Thổ Nhĩ Kỳ đang thúc đẩy cam kết điện khí hóa toàn cầu thay vì các cam kết cụ thể mới về cắt giảm than, dầu và khí đốt. Kể từ khi các nước lần đầu nhất trí chuyển đổi khỏi nhiên liệu hóa thạch năm 2023, mục tiêu này vẫn giậm chân tại chỗ qua các kỳ COP; tại COP30 năm ngoái ở Brazil, nhiên liệu hóa thạch thậm chí không được nhắc tên trong thỏa thuận cuối cùng.",
-            "Trọng tâm của kỳ họp là cam kết '35 tới 35': nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu từ khoảng 23% hiện nay lên 35% vào năm 2035. Chủ tịch đàm phán COP31 Murat Kurum cho biết các nước nhập khẩu nhiên liệu đã phải gánh thêm khoảng 330 tỷ USD chi phí chỉ trong giai đoạn tháng 3–8, và 180 doanh nghiệp với tổng doanh thu gần 1.700 tỷ USD đã kêu gọi hội nghị nắm lấy cơ hội điện khí hóa. Tuy nhiên, giới chuyên gia cảnh báo mục tiêu này thiếu yêu cầu rõ ràng rằng lượng điện tăng thêm phải đến từ nguồn carbon thấp, và kỳ vọng về một đột phá lớn về nhiên liệu hóa thạch vẫn thấp — đúng như nhận định của đặc phái viên khí hậu EU Wopke Hoekstra: 'Kỳ vọng thấp — đó chỉ là phản ánh thực tế'."
-          ],
-          nguon: [
-            { ten: "Dawn", link: "https://www.dawn.com/news/2043698" },
-            { ten: "Punch Newspapers", link: "https://punchng.com/cop31-targets-35-global-electrification-by-2035/" },
-            { ten: "Newsbase", link: "https://newsbase.com/story/cop31-in-turkey-what-to-expect-at-the-2026-un-climate-summit-482852" }
-          ],
-          gio: "Chiều 11/11"
-        },
-        {
-          tieuDe: "COP31: Thượng đỉnh lãnh đạo khai mạc hôm nay — 77 nguyên thủ phát biểu, Lula mang hai lộ trình lớn",
-          baiViet: [
-            "Hôm nay 11/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 khai mạc tại Antalya với bài phát biểu mở đầu của Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan, Tổng thư ký Liên Hợp Quốc António Guterres và Thủ tướng Úc Anthony Albanese. Theo danh sách sơ bộ của Liên Hợp Quốc, 77 nguyên thủ và người đứng đầu chính phủ sẽ phát biểu trong hai ngày 11–12/11; nước chủ nhà cho biết tổng cộng 91 lãnh đạo đã xác nhận tham dự cùng đại diện của 196 quốc gia.",
-            "Tâm điểm là Tổng thống Brazil Lula da Silva — tới Antalya tối thứ Hai, trong chuyến công du nước ngoài đầu tiên sau khi tái đắc cử nhiệm kỳ thứ tư. Ông mang theo hai lộ trình: một kế hoạch toàn cầu về chuyển đổi khỏi nhiên liệu hóa thạch và một kế hoạch ngăn chặn, đảo ngược nạn phá rừng. Brazil, chủ nhà COP30 năm ngoái tại Belém, được kỳ vọng thúc đẩy yêu cầu tài chính khí hậu — đúng điểm gây tranh cãi ngay trong ngày khai mạc. Bên lề hội nghị, ông Erdoğan hôm thứ Ba đã gặp song phương hàng loạt lãnh đạo, trong đó có Tổng thống Lula, Thủ tướng Bangladesh Tarique Rahman, Thủ tướng Ethiopia Abiy Ahmed và Bộ trưởng Năng lượng Ả Rập Xê Út.",
-            "Nước chủ nhà Thổ Nhĩ Kỳ cũng mang tới hội nghị một kế hoạch năng lượng đầy tham vọng: nâng công suất điện gió và điện mặt trời lên 175.000 MW vào năm 2040 với đầu tư khoảng 100 tỷ USD. Trong ngày khai mạc thượng đỉnh, các lãnh đạo sẽ cùng trồng cây tại 'Rừng Hòa bình' được lập ra nhân dịp COP31, trước khi dự tiệc chiêu đãi do Tổng thống Erdoğan chủ trì. Trong khi đó, Chủ tịch Trung Quốc Tập Cận Bình không tới Antalya và Mỹ tiếp tục vắng mặt ở cấp chính quyền — một khoảng trống mà các nước đang phát triển trong G20 đang tìm cách lấp đầy bằng tiếng nói của mình."
-          ],
-          nguon: [
-            { ten: "Hürriyet Daily News", link: "https://www.hurriyetdailynews.com/turkiye-to-host-global-climate-talks-as-cop31-opens-229146" },
-            { ten: "TRT World", link: "https://www.trtworld.com/article/d20603f5ebc4/amp" },
-            { ten: "The Guardian (qua Mezha)", link: "https://mezha.net/eng/news/mezha-fc777389503a98ef22b3d523_who-s_who_at/" }
-          ],
-          gio: "Sáng 11/11"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Mỹ vắng mặt ở COP31 năm thứ hai liên tiếp — và sẽ rời hẳn Công ước khí hậu của LHQ vào tháng 2/2027",
+          baiViet: [
+            "Mỹ tiếp tục vắng mặt ở cấp chính quyền tại COP31 — năm thứ hai liên tiếp, theo Reuters — sau khi Tổng thống Donald Trump rút nước này khỏi hợp tác khí hậu quốc tế. Sự vắng mặt của nền kinh tế lớn nhất thế giới để lại một khoảng trống mà các nước đang phát triển trong G20 đang tìm cách lấp đầy bằng tiếng nói của mình, trong khi Chủ tịch Trung Quốc Tập Cận Bình cũng không tới Antalya.",
+            "Đây không chỉ là một kỳ họp vắng mặt. Mỹ đã chính thức rút khỏi Thỏa thuận Paris, hiệu lực từ tháng 1/2026, và sẽ rời khỏi chính Công ước khung của Liên Hợp Quốc về biến đổi khí hậu (UNFCCC) vào ngày 27/2/2027 — trở thành nước đầu tiên trong lịch sử rời khỏi công ước này. Kể từ đó, Washington sẽ không còn ngồi ở bàn đàm phán khí hậu toàn cầu, dù vẫn là một trong những nước phát thải lớn nhất thế giới.",
+            "Hệ quả thực tế đã thấy rõ tại Antalya: các cuộc thảo luận về tài chính khí hậu — vốn dựa trên nghĩa vụ pháp lý của các nước phát triển theo Điều 9.1 của Thỏa thuận Paris — mất đi một bên đóng góp lớn, trong khi các nước đang phát triển vẫn đòi đưa tài chính thích ứng và hỗ trợ Quỹ Khí hậu Xanh vào chương trình nghị sự chính thức. Với Mỹ đứng ngoài, trọng tâm đàm phán chuyển sang EU, Trung Quốc và khối G20 — và sang câu hỏi ai sẽ bù vào phần tài chính còn thiếu."
+          ],
+          nguon: [
+            { ten: "Lexblog", link: "https://www.lexblog.com/2026/11/10/business-priorities-for-cop31/" },
+            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
+            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" }
+          ],
+          gio: "Chiều 12/11"
+        },
         {
           tieuDe: "Nhật Bản lo Thủ tướng Takaichi bị 'ngó lơ' tại APEC Thâm Quyến: Bắc Kinh được cho là từ chối gặp chính thức",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 12/11"
         },
-        {
-          tieuDe: "G7 Paris bế mạc: đồng thuận tránh 'khoảng trống an ninh' ở Liban, ra tuyên bố 12 trang về Ukraine",
-          baiViet: [
-            "Các ngoại trưởng G7 đã bế mạc kỳ họp hai ngày tại Paris hôm thứ Ba 10/11 với đồng thuận về 'nhu cầu tránh một khoảng trống an ninh' ở Liban sau khi lực lượng gìn giữ hòa bình Liên Hợp Quốc (UNIFIL) rút đi cuối năm nay, Ngoại trưởng Pháp Jean-Noël Barrot cho biết. Các bộ trưởng nhất trí 'cần nhanh chóng tiến tới một cấu trúc an ninh mới' hỗ trợ quân đội Liban, nhưng ông Barrot thừa nhận chưa có đột phá về việc lực lượng nào sẽ thay thế UNIFIL — lực lượng hiện diện từ năm 1978 với khoảng 7.500 quân nhân từ gần 50 nước.",
-            "Trong tuyên bố chung cuối cùng, các bộ trưởng nhấn mạnh 'nhu cầu về một cấu trúc an ninh mạnh mẽ, đáng tin cậy và lâu dài ở Liban để hỗ trợ Lực lượng Vũ trang Liban'. Ngoại trưởng Mỹ Marco Rubio đề xuất cơ chế thay thế 'không nhất thiết phải là một nhiệm vụ quân sự, mà có thể là một nhiệm vụ dân sự', sau khi đã thảo luận vấn đề này với Tổng thống Emmanuel Macron. Mục tiêu chung mà các bên chia sẻ: Israel rút khỏi miền nam Liban, Hezbollah giải giáp và khôi phục một nhà nước độc quyền sử dụng vũ lực.",
-            "Về Ukraine, các ngoại trưởng đã thông qua một tuyên bố dài 12 trang, tái khẳng định ủng hộ Kyiv — bao gồm an ninh năng lượng và giúp người dân vượt qua mùa đông khắc nghiệt sắp tới — và tầm quan trọng của một lệnh ngừng bắn toàn diện. Ngoại trưởng Ukraine Andrii Sybiha nhấn mạnh đoàn kết G7 là yếu tố 'cực kỳ quan trọng' để buộc Nga chấm dứt chiến tranh. Nhật Bản cũng bày tỏ quan ngại sâu sắc về tình hình Yemen và cho biết sẽ tiếp tục thúc giục Iran nối lại đàm phán với Mỹ."
-          ],
-          nguon: [
-            { ten: "The Times of Israel (theo AFP)", link: "https://www.timesofisrael.com/g7-agrees-on-need-to-avert-security-void-in-lebanon-after-unifil-withdrawal/" },
-            { ten: "NHK World-Japan", link: "https://www3.nhk.or.jp/nhkworld/news/20261111de73979/" },
-            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57237" }
-          ],
-          gio: "Chiều 11/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg sẵn sàng đón lãnh đạo thế giới: bàn giao toàn bộ ngày 15/11, thượng đỉnh 22–23/11 dù Mỹ tẩy chay",
+          baiViet: [
+            "Tỉnh Gauteng của Nam Phi tuyên bố đã hoàn toàn sẵn sàng đón Thượng đỉnh các nhà lãnh đạo G20 — lần đầu tiên trong lịch sử G20 được tổ chức trên đất châu Phi — diễn ra ngày 22–23/11 tại Trung tâm triển lãm Nasrec, Johannesburg. Thủ hiến Panyaza Lesufi cho biết sau nhiều tháng chuẩn bị phối hợp giữa chính quyền tỉnh và trung ương, Gauteng sẽ bàn giao toàn bộ cho chính phủ quốc gia vào ngày 15/11, đúng một tuần trước giờ khai mạc.",
+            "Công tác chuẩn bị bao trùm cả hạ tầng, nước sạch, điện, an toàn và cải tạo khu trung tâm Johannesburg, dưới sự điều phối của Nhóm công tác tổng thống về Johannesburg thành lập sau chuyến thị sát của tổng thống và nội các. Theo Ủy ban Kế hoạch Quốc gia, Nam Phi đã hoàn thành 130 trong tổng số 133 cuộc họp chuẩn bị — gồm các phiên cấp bộ trưởng, đàm phán Sherpa và Hội nghị thượng đỉnh xã hội ba ngày — và toàn bộ đều diễn ra không sự cố.",
+            "Thượng đỉnh sẽ diễn ra dù Mỹ tẩy chay: Tổng thống Cyril Ramaphosa khẳng định hội nghị vẫn tiếp tục, chúng ta sẽ không dừng lại chỉ vì họ không tới, và 42 nước đã xác nhận tham dự — gồm 20 thành viên G20 trừ Mỹ, 16 nước khách mời và 6 tổ chức khu vực. An ninh được siết chặt với lệnh phong tỏa cứng quanh Nasrec và sân vận động FNB từ 21–24/11. Nhiệm kỳ chủ tịch G20 của Nam Phi chính thức khép lại ngày 30/11, sau đó Mỹ sẽ tiếp quản vai trò chủ tịch năm 2026."
+          ],
+          nguon: [
+            { ten: "Jozi Captions (theo trang tỉnh Gauteng)", link: "https://jozicaptions.co.za/g20-summit-gauteng-preparations-on-track/" },
+            { ten: "Africa Publicity", link: "https://africapublicity.com/south-africa-finalises-security-and-logistics-as-johannesburg-prepares-to-host-historic-first-g20-summit-in-africa/" },
+            { ten: "Eastern Mirror Nagaland", link: "https://www.easternmirrornagaland.com/g20-summit-to-proceed-despite-us-absence-says-south-african-president" }
+          ],
+          gio: "Chiều 12/11"
+        },
         {
           tieuDe: "Đàm phán Abu Dhabi khép lại: Nga–Ukraine đồng ý trao đổi tù binh quy mô lớn, nhưng chưa có lệnh ngừng bắn",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Signal Post News", link: "https://signalpostnews.com/china-confirms-xi-trump-putin-meeting-apec-shenzhen-november-2026" }
           ],
           gio: "Chiều 11/11"
-        },
-        {
-          tieuDe: "Tuần lễ thượng đỉnh châu Á: Trump dự ASEAN ngày 16/11 rồi tới APEC Thâm Quyến, lần đầu ba lãnh đạo cường quốc hạt nhân gặp nhau",
-          baiViet: [
-            "Đông Nam Á bước vào tuần lễ ngoại giao bận rộn nhất trong năm khi Thượng đỉnh ASEAN lần thứ 49 diễn ra tuần tới tại Manila, Philippines — với sự tham dự của Tổng thống Mỹ Donald Trump vào ngày 16/11, trước khi ông bay sang Thâm Quyến dự Thượng đỉnh APEC từ 18/11. Thủ tướng Nhật Bản Sanae Takaichi cũng xác nhận sẽ dự cả hai hội nghị, đồng thời tìm kiếm một cuộc gặp song phương với ông Trump tại Manila và tham dự hội nghị thượng đỉnh Nhóm Bộ tứ (Quad) — cuộc gặp đầu tiên của bốn nước Nhật, Mỹ, Úc và Ấn Độ dưới chính quyền Trump nhiệm kỳ hai.",
-            "Tâm điểm của APEC Thâm Quyến là cuộc gặp ba bên được đồn đoán giữa Tổng thống Trump, Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình — lần đầu tiên kể từ Thế chiến II, lãnh đạo của ba cường quốc hạt nhân lớn nhất cùng ngồi lại một chỗ. Trước thềm hội nghị, Tokyo đã đề nghị Bắc Kinh bảo đảm ông Tập sẽ đối xử với bà Takaichi ngang hàng với các lãnh đạo khác, trong bối cảnh quan hệ Nhật–Trung căng thẳng sau những phát biểu cứng rắn của nữ thủ tướng về Đài Loan.",
-            "Thủ tướng Canada Mark Carney cũng bắt đầu chuyến công du 11–19/11 qua Ireland, Philippines, Campuchia và Trung Quốc, với mục tiêu chốt hiệp định thương mại tự do Canada–Philippines — thỏa thuận song phương đầu tiên của Manila với một nước Bắc Mỹ, kỳ vọng tăng gấp ba thương mại song phương vào năm 2035. Tại Manila, Philippines cho biết công tác chuẩn bị đã đạt 90%, Tổng thống Ferdinand Marcos Jr. trực tiếp kiểm tra địa điểm tổ chức hôm thứ Ba, trong lúc chính quyền siết chặt an ninh quanh khu vực hội nghị."
-          ],
-          nguon: [
-            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57146" },
-            { ten: "eDaily (theo Bloomberg)", link: "https://en.edaily.co.kr/news/eda202611095263/" },
-            { ten: "Kislap (theo Văn phòng Thủ tướng Canada)", link: "https://www.kislap.com/news/carney-to-visit-manila-for-asean-summit-as-canada-seeks-to-conclude-a-philippines-free-trade-deal" }
-          ],
-          gio: "Sáng 11/11"
         },
       ]
     }
