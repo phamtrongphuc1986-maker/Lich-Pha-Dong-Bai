@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Năm 12/11/2026 — bản tin chiều",
+  capNhat: "Thứ Sáu 13/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 bước vào ngày Tài chính và Thương mại: tiền cho khí hậu vẫn là nút thắt lớn nhất",
+          baiViet: [
+            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ, hôm nay 13/11 bước vào ngày chuyên đề Tài chính và Thương mại, ngay sau khi Thượng đỉnh lãnh đạo khép lại vào tối 12/11. Trọng tâm của ngày này là biến các cam kết khí hậu đã ký thành hành động cụ thể, trong đó Tổ chức Thương mại Thế giới (WTO) chủ trì một chuỗi phiên thảo luận về vai trò của thương mại trong chuyển đổi xanh. Các bộ trưởng, doanh nghiệp và tổ chức quốc tế cùng bàn cách để chính sách thương mại hỗ trợ thay vì cản trở quá trình giảm phát thải, đồng thời giúp các nước đang phát triển tiếp cận công nghệ sạch và chuỗi giá trị mới.",
+            "Câu hỏi lớn nhất vẫn là tiền sẽ đến từ đâu và chảy về đâu. Lộ trình được thống nhất từ COP30 đặt mục tiêu huy động ít nhất 1.300 tỷ USD mỗi năm cho các nước đang phát triển vào năm 2035, trong khi mục tiêu tài chính riêng của các nước phát triển là 300 tỷ USD mỗi năm vào cùng thời điểm. Khoảng cách giữa nhu cầu và thực tế vẫn rất lớn, đặc biệt ở mảng thích ứng với biến đổi khí hậu. Thủ tướng Bangladesh Tarique Rahman phát biểu tại hội nghị ngày 12/11 đã kêu gọi dành ít nhất một nửa nguồn tài chính khí hậu quốc tế cho thích ứng, đồng thời nhấn mạnh các nước dễ tổn thương cần viện trợ không hoàn lại thay vì những khoản vay làm nợ nần thêm chồng chất.",
+            "Bên lề hội nghị, Thổ Nhĩ Kỳ đã công bố một thỏa thuận tài chính khí hậu trị giá 1,6 tỷ USD với Ngân hàng Đầu tư Cơ sở hạ tầng châu Á (AIIB), gói tài chính chính sách khí hậu lớn nhất từ trước tới nay của ngân hàng này. Khoản tiền sẽ hỗ trợ cải cách tài khóa, quy định tài chính và quy hoạch ngành, phục vụ Luật Khí hậu của Thổ Nhĩ Kỳ cùng mục tiêu phát thải ròng bằng 0 vào năm 2053. Chương trình còn đặt mục tiêu giúp 225.000 nông dân ở vùng khan hiếm nước chuyển sang cây trồng ít tốn nước vào năm 2028. Dù vậy, mọi quyết định đàm phán cuối cùng của COP31 vẫn phải chờ tới khi hội nghị bế mạc ngày 20/11, và giới quan sát cho rằng chưa có dấu hiệu của một bước đột phá về tài chính."
+          ],
+          nguon: [
+            { ten: "WTO", link: "https://www.wto.org/english/tratop_e/envir_e/clim_1311202609_e/clim_1311202609_e.htm" },
+            { ten: "LSE Grantham Research Institute", link: "https://www.lse.ac.uk/granthaminstitute/cop31/" },
+            { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/business/international-business/turkey-secures-record-1-6-billion-aiib-financing-for-climate-reforms-at-cop31/articleshow/135773668.cms" }
+          ],
+          gio: "Sáng 13/11"
+        },
+        {
+          tieuDe: "Đặc phái viên Mỹ gặp Putin ở Moscow rồi bay sang Dublin gặp Zelensky: đàm phán ba bên được nối lại",
+          baiViet: [
+            "Hai đặc phái viên của Tổng thống Mỹ Donald Trump là Steve Witkoff và Jared Kushner đã gặp Tổng thống Nga Vladimir Putin tại Điện Kremlin ngày 12/11, chỉ một ngày sau khi vòng đàm phán ba bên Nga, Ukraine và Mỹ tại Abu Dhabi khép lại mà không có đột phá về lệnh ngừng bắn. Điện Kremlin mô tả cuộc gặp là hữu ích, đồng thời cho biết hai bên nhất trí tiếp tục đàm phán trực tiếp về chiến tranh Nga, Ukraine sau chín tháng gián đoạn. Đây là lần thứ mười Witkoff gặp trực tiếp ông Putin, cho thấy Washington đang dồn sức đẩy nhanh tiến trình ngoại giao trước thềm hội nghị APEC tại Thâm Quyến.",
+            "Tại cuộc gặp, ông Putin đề xuất một phái bộ nhân đạo tạm thời tại thị trấn Kostiantynivka ở tỉnh Donetsk, nơi giao tranh vẫn diễn ra ác liệt, với lý do Nga kiểm soát khu vực này và sẵn sàng ngừng bắn tại chỗ để khoảng 400 đến 500 dân thường còn kẹt lại có thể sơ tán. Kyiv đã bác bỏ tuyên bố kiểm soát của Moscow và cảnh báo một thỏa thuận tương tự trước đây tại Oleshky từng bị dùng làm vỏ bọc để luân chuyển quân. Phía Mỹ tỏ ra lạc quan một cách thận trọng khi ông Witkoff khẳng định đàm phán ba bên đã được khởi động lại và một vòng gặp mới đã được ấn định, còn ông Kushner nhấn mạnh châu Âu phải có mặt trên bàn đàm phán.",
+            "Ngay trong đêm 12/11, hai đặc phái viên Mỹ đã bay tới Dublin để báo cáo với Tổng thống Ukraine Volodymyr Zelensky, người đang dự hội nghị Cộng đồng Chính trị châu Âu tại Ireland. Ông Zelensky cho biết các cuộc gặp những ngày qua rất quan trọng và gọi đợt trao đổi tù binh vừa thống nhất là kết quả thực sự, đồng thời nói đây có thể là đợt trao đổi lớn nhất từ trước tới nay. Song song với ngoại giao, Liên minh châu Âu dự kiến thông qua gói trừng phạt mới nhằm vào 150 thực thể và 50 ngân hàng của Nga vào thứ Hai tới. Trong khi đó chiến sự vẫn tiếp diễn khi Nga phóng tên lửa đạn đạo và hàng chục máy bay không người lái vào Ukraine trong đêm, khiến ít nhất một người thiệt mạng tại Kyiv và gây mất điện ở chín vùng."
+          ],
+          nguon: [
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin" },
+            { ten: "CNN", link: "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl?cid=external-feeds_iluminar_meta" },
+            { ten: "Kyiv Independent", link: "https://kyivindependent.com/witkoff-kushner-arrive-in-moscow-following-ukraine-peace-talks/" }
+          ],
+          gio: "Sáng 13/11"
+        },
         {
           tieuDe: "COP31: Thượng đỉnh lãnh đạo khép lại — từ mai chuyển sang ngày Tài chính & Thương mại, tranh cãi về tiền vẫn chưa ngã ngũ",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều 12/11"
         },
-        {
-          tieuDe: "Chính phủ Mỹ mở cửa trở lại sau 43 ngày đóng cửa kỷ lục: Hạ viện thông qua 222–209, Trump ký luật ngay trong đêm",
-          baiViet: [
-            "Đêm qua theo giờ Việt Nam, Tổng thống Donald Trump đã ký ban hành dự luật cấp ngân sách tạm thời, chính thức chấm dứt đợt đóng cửa chính phủ dài nhất lịch sử nước Mỹ — 43 ngày kể từ 1/10. Vài giờ trước đó, Hạ viện đã thông qua dự luật với tỉ lệ 222–209, chủ yếu theo đường lối đảng phái, sau khi Thượng viện thông qua đêm thứ Hai với tỉ lệ 60–40. Đây cũng là phiên họp đầu tiên của Hạ viện kể từ giữa tháng 9.",
-            "Dự luật cấp ngân sách cho phần lớn chính phủ tới ngày 30/1/2027, kèm ba dự luật chi tiêu cả năm cho Bộ Nông nghiệp, Bộ Cựu chiến binh và Xây dựng quân sự, cùng Quốc hội. Các công chức liên bang bị cho nghỉ không lương sẽ được truy lĩnh lương và trở lại làm việc từ hôm nay, các quyết định sa thải trong thời gian đóng cửa bị đảo ngược và cấm sa thải thêm tới ngày 30/1, chương trình hỗ trợ thực phẩm SNAP được khôi phục và hệ thống kiểm soát không lưu — vốn gây ra hàng nghìn chuyến bay bị hủy và hoãn — bắt đầu hoạt động bình thường trở lại.",
-            "Cái giá của thỏa thuận: phe Dân chủ không giành được điều mình đòi hỏi suốt 43 ngày — gia hạn trợ cấp bảo hiểm y tế theo Đạo luật Chăm sóc sức khỏe giá rẻ, vốn hết hạn vào cuối năm nay. Đổi lại, họ chỉ nhận được cam kết Thượng viện sẽ bỏ phiếu riêng về trợ cấp này chậm nhất vào tuần thứ hai của tháng 12, trong khi Chủ tịch Hạ viện Mike Johnson chưa cam kết tổ chức một cuộc bỏ phiếu tương tự. Một khảo sát Reuters/Ipsos công bố ngày 12/11 cho thấy 50% người Mỹ đổ lỗi cho đảng Cộng hòa về đợt đóng cửa, 47% đổ lỗi cho đảng Dân chủ — và với hạn chót 30/1, cuộc đối đầu ngân sách tiếp theo chỉ còn cách chưa đầy 80 ngày."
-          ],
-          nguon: [
-            { ten: "AP (qua UNB)", link: "https://unb.com.bd/category/World/trump-signs-funding-bill-ending-record-43-day-government-shutdown/172927" },
-            { ten: "Manila Metro (theo Reuters)", link: "https://www.manilametro.com/news/278692664/us-government-s-43-day-shutdown-ends-after-trump-signs-bill" },
-            { ten: "The Edge (theo Bloomberg)", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-14-story-h500522846-Record_US_Govt_Shutdown_Ends_as_Trump_Signs_Spending_Bill" }
-          ],
-          gio: "Sáng 12/11"
-        },
-        {
-          tieuDe: "COP31 ngày 2: Thượng đỉnh lãnh đạo bước sang ngày cuối — bàn tròn về Thỏa thuận Paris, đô thị chống chịu và nấu ăn sạch ở châu Phi",
-          baiViet: [
-            "Hôm nay 12/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 bước sang ngày thứ hai và cũng là ngày cuối, với trọng tâm chuyển từ các bài phát biểu quốc gia sang những bàn tròn chuyên đề. Theo chương trình chính thức của Liên Hợp Quốc, các lãnh đạo sẽ thảo luận về thập kỷ thứ hai của Thỏa thuận Paris và khả năng tiếp cận tài chính khí hậu (12:00–13:30), khả năng chống chịu của đô thị (13:30–17:00), cùng bàn tròn về rác thải bằng không, kinh tế tuần hoàn và khí mê-tan (16:00–17:30).",
-            "Một điểm nhấn của ngày hôm nay là phiên đối thoại cấp cao về nấu ăn sạch ở châu Phi (14:30–16:00) và về vai trò lãnh đạo khí hậu của châu Phi (15:30–17:00), bên cạnh hội nghị cấp lãnh đạo về khí nhà kính phi CO2 (09:00–10:30) và chương trình nghị sự về núi, sông băng và khả năng chống chịu (10:45–12:30). Thủ tướng Bangladesh Tarique Rahman dự kiến phát biểu tại phiên toàn thể hôm nay, nêu lập trường về công bằng khí hậu — nước này chỉ đóng góp 0,05% lượng khí thải toàn cầu nhưng nằm trong nhóm dễ tổn thương nhất trước biến đổi khí hậu.",
-            "Ngày đầu tiên của thượng đỉnh đã cho thấy khoảng cách giữa lời kêu gọi và hành động: Tổng thư ký Liên Hợp Quốc António Guterres thúc giục các nước lên kế hoạch cho một tương lai không nhiên liệu hóa thạch, trong khi nước chủ nhà Thổ Nhĩ Kỳ ca ngợi phát hiện hai mỏ dầu mới và đẩy mục tiêu điện khí hóa '35 tới 35' thay cho cam kết cắt giảm nhiên liệu hóa thạch cụ thể. Chủ đề chính thức của hôm nay là thành phố chống chịu và môi trường xây dựng; ngày mai 13/11, hội nghị chuyển sang chủ đề tài chính và thương mại, trước khi đàm phán chính thức khép lại ngày 20/11."
-          ],
-          nguon: [
-            { ten: "UNFCCC — Chương trình Thượng đỉnh lãnh đạo COP31", link: "https://unfccc.int/cop31/high-level" },
-            { ten: "The National (UAE)", link: "https://www.thenationalnews.com/news/uae/2026/11/11/uae-sends-high-level-delegation-to-cop31-climate-summit-in-turkey/?title=UAE+sends+high-level+delegation+to+Cop31+climate+summit+in+Turkey&mini=true&utm_source=linkedin&utm_medium=socialsharebtn" },
-            { ten: "The Business Standard (Bangladesh)", link: "https://tob.news/pm-off-to-turkiye-to-attend-cop31-summit/" }
-          ],
-          gio: "Sáng 12/11"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 ra tuyên bố chung mạnh nhất từ trước tới nay về hoạt động của Trung Quốc ở phía đông Đài Loan",
+          baiViet: [
+            "Các ngoại trưởng nhóm G7 đã ra tuyên bố chung vào tối 11/11 sau cuộc họp tại Paris, cảnh báo hoạt động ngày càng quyết đoán của Trung Quốc ở vùng biển phía đông Đài Loan đe dọa ổn định khu vực, tự do hàng hải và an toàn của vận tải biển quốc tế. Tuyên bố khẳng định các nước G7 phản đối mọi nỗ lực đơn phương thay đổi nguyên trạng, đặc biệt bằng vũ lực, ép buộc hoặc đe dọa sử dụng vũ lực. Đây là lần đầu tiên cả bảy nước cùng lên tiếng thống nhất về vấn đề này, sau khi trước đây chỉ từng nước như Mỹ, Anh, Pháp và Đức bày tỏ quan ngại riêng lẻ.",
+            "Bối cảnh của tuyên bố là việc Trung Quốc tăng cường hoạt động ngoài khơi bờ đông Đài Loan từ tháng 6, với các đợt tuần tra thường xuyên của lực lượng hải cảnh. Giới chức Đài Loan cho rằng Bắc Kinh đang diễn tập cho một kịch bản phong tỏa trên biển, kết hợp lực lượng quân sự, bán quân sự và dân sự. Vùng biển phía đông hòn đảo được Đài Bắc coi là tuyến tiếp tế sống còn trong thời chiến, bởi đó là hướng các đồng minh có thể đưa hàng viện trợ tới nếu eo biển Đài Loan bị phong tỏa. Bộ trưởng Quốc phòng Đài Loan Wellington Koo cho biết Trung Quốc còn đang tiến hành các cuộc diễn tập phong tỏa khu vực ở Tây Thái Bình Dương với sự tham gia của một tàu sân bay.",
+            "Văn phòng Tổng thống Đài Loan đã hoan nghênh tuyên bố của G7, nhấn mạnh hòa bình và ổn định ở eo biển Đài Loan và khu vực Ấn Độ Dương, Thái Bình Dương là vấn đề cốt lõi đối với an ninh và thịnh vượng toàn cầu, đồng thời khẳng định Đài Bắc sẽ tiếp tục tăng cường năng lực tự vệ. Ở chiều ngược lại, Bộ Ngoại giao Trung Quốc ngày 12/11 chỉ trích tuyên bố này phớt lờ thực tế khách quan, can thiệp thô bạo vào công việc nội bộ của Trung Quốc và bôi nhọ Bắc Kinh. Người phát ngôn Mao Ninh còn gọi G7 là một nhóm nhỏ ý thức hệ bám víu tư duy Chiến tranh Lạnh. Cùng ngày, Chủ tịch Tập Cận Bình phát biểu tại Bắc Kinh rằng việc thống nhất hoàn toàn với Đài Loan là sứ mệnh lịch sử không thể lay chuyển của Đảng Cộng sản Trung Quốc."
+          ],
+          nguon: [
+            { ten: "Reuters qua The Jerusalem Post", link: "https://www.jpost.com/international/article-914642" },
+            { ten: "Taipei Times", link: "https://www.taipeitimes.com/News/front/archives/2026/11/12/2003867624" },
+            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692205.ece" }
+          ],
+          gio: "Sáng 13/11"
+        },
         {
           tieuDe: "Mỹ vắng mặt ở COP31 năm thứ hai liên tiếp — và sẽ rời hẳn Công ước khí hậu của LHQ vào tháng 2/2027",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều 12/11"
         },
-        {
-          tieuDe: "Nhật Bản lo Thủ tướng Takaichi bị 'ngó lơ' tại APEC Thâm Quyến: Bắc Kinh được cho là từ chối gặp chính thức",
-          baiViet: [
-            "Chính phủ Nhật Bản đang nỗ lực tới phút chót để bảo đảm Chủ tịch Trung Quốc Tập Cận Bình ít nhất cũng bắt tay chào hỏi Thủ tướng Sanae Takaichi tại Thượng đỉnh APEC ở Thâm Quyến ngày 18–19/11 — lần đầu hai lãnh đạo gặp nhau kể từ khi quan hệ hai nước xấu đi vì phát biểu của bà Takaichi về Đài Loan. Theo Kyodo News, Bắc Kinh đã từ chối yêu cầu gặp chính thức của Tokyo, khiến Nhật Bản có thể là nước lớn duy nhất không có cuộc gặp song phương với ông Tập bên lề APEC.",
-            "Căng thẳng bắt nguồn từ phát biểu của bà Takaichi trước Quốc hội Nhật Bản tháng 11 năm ngoái rằng một tình huống khẩn cấp ở Đài Loan 'có thể cấu thành' tình huống đe dọa sự tồn vong của Nhật Bản — điều Bắc Kinh coi là can thiệp và yêu cầu bà rút lại. Một quan chức cấp cao Bộ Ngoại giao Nhật Bản thừa nhận khả năng có hội nghị thượng đỉnh Nhật–Trung là rất thấp, và mục tiêu thực tế hiện nay chỉ còn là một cái bắt tay hoặc cuộc gặp ngắn trong khuôn khổ chương trình chính thức, chẳng hạn bữa tối các lãnh đạo.",
-            "Trong khi đó, bà Takaichi sẽ gặp Tổng thống Mỹ Donald Trump tại Thượng đỉnh ASEAN ở Manila ngay trước APEC, tìm kiếm một cuộc gặp song phương để truyền đạt thông điệp rằng lợi ích của Tokyo không bị đánh đổi trong đàm phán Mỹ–Trung. Bà cũng dự kiến tham dự hội nghị thượng đỉnh Nhóm Bộ tứ (Quad) cùng Mỹ, Úc và Ấn Độ — cuộc gặp đầu tiên của bốn nước dưới chính quyền Trump nhiệm kỳ hai. Thủ tướng Trung Quốc Lý Cường cũng sẽ dự ASEAN, mở ra khả năng gặp cấp tương đương với bà Takaichi tại Manila."
-          ],
-          nguon: [
-            { ten: "The Straits Times (theo Bloomberg)", link: "https://www.straitstimes.com/asia/east-asia/japan-works-to-shield-pm-takaichi-from-any-xi-snub-at-chinas-apec-summit?ref=latest-headlines" },
-            { ten: "Chosun Biz (theo Kyodo News)", link: "https://biz.chosun.com/en/en-international/2026/11/11/LR6PD7AERVCBXMHTW657XOKWHY/" },
-            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57146" }
-          ],
-          gio: "Sáng 12/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg mất thêm lãnh đạo lớn: Tập Cận Bình không dự, Milei nối gót Trump tẩy chay",
+          baiViet: [
+            "Thượng đỉnh G20 tại Johannesburg ngày 22 và 23/11 tới sẽ diễn ra mà không có lãnh đạo của hai nền kinh tế lớn nhất thế giới. Bộ Ngoại giao Trung Quốc ngày 12/11 xác nhận Chủ tịch Tập Cận Bình sẽ không tới Nam Phi, thay vào đó Thủ tướng Lý Cường sẽ dẫn đầu phái đoàn Trung Quốc, song không nêu lý do vắng mặt. Quyết định này nối tiếp thông báo của Tổng thống Mỹ Donald Trump rằng không một quan chức chính phủ Mỹ nào sẽ dự hội nghị, đồng thời Tổng thống Nga Vladimir Putin cũng không thể tới do lệnh bắt của Tòa án Hình sự Quốc tế. Đây là lần đầu tiên thượng đỉnh G20 thiếu vắng cùng lúc lãnh đạo của ba nước lớn nhất trong nhóm.",
+            "Tổng thống Argentina Javier Milei cũng đã quyết định không tới Johannesburg, thay vào đó cử Ngoại trưởng Pablo Quirno và trưởng đoàn đàm phán G20 Federico Pinedo tham dự thay. Quyết định của ông Milei được đưa ra chỉ vài ngày sau tuyên bố tẩy chay của ông Trump, người cáo buộc chính phủ Nam Phi dung túng hành vi vi phạm nhân quyền đối với cộng đồng người Afrikaner da trắng và gọi việc tổ chức G20 tại đây là một sự ô nhục. Chính phủ Nam Phi đã bác bỏ các cáo buộc này là vô căn cứ. Tổng thống Mexico Claudia Sheinbaum cũng nằm trong số các lãnh đạo sẽ không tới dự, trong khi nhiều lãnh đạo châu Âu cùng Tổng thống Brazil Luiz Inacio Lula da Silva và Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan dự kiến vẫn có mặt.",
+            "Dù hàng loạt ghế lãnh đạo bỏ trống, Pretoria khẳng định hội nghị vẫn diễn ra theo kế hoạch, với trọng tâm là nợ bền vững, chuyển đổi năng lượng và khả năng chống chịu khí hậu ở các nước đang phát triển. Tổng thống Cyril Ramaphosa trước đó nói sự vắng mặt của Mỹ là tổn thất của chính Washington, còn Bộ Ngoại giao Nam Phi nhấn mạnh thành công của hội nghị sẽ không phụ thuộc vào một thành viên duy nhất. Một số quan chức Nam Phi thậm chí cho rằng việc Mỹ vắng mặt có thể giúp các nước còn lại dễ đạt đồng thuận hơn về tuyên bố chung của lãnh đạo. Giới phân tích thì lưu ý việc ông Tập vắng mặt không đồng nghĩa Trung Quốc coi nhẹ G20, bởi Bắc Kinh vẫn xem các thể chế quản trị toàn cầu là diễn đàn quan trọng để truyền tải thông điệp của mình."
+          ],
+          nguon: [
+            { ten: "Ecofin Agency", link: "https://www.ecofinagency.com/news/1411-50464-south-africa-loses-more-support-as-xi-jinping-also-skips-the-g20-summit" },
+            { ten: "Bloomberg qua Open for Business", link: "https://open4business.com.ua/en/xi-jinping-follows-trump-in-not-attending-g20-summit/" },
+            { ten: "Buenos Aires Times", link: "https://www.batimes.com.ar/news/amp/argentina/milei-will-follow-in-trumps-footsteps-and-skip-g20-in-south-africa.phtml" }
+          ],
+          gio: "Sáng 13/11"
+        },
         {
           tieuDe: "G20 Johannesburg sẵn sàng đón lãnh đạo thế giới: bàn giao toàn bộ ngày 15/11, thượng đỉnh 22–23/11 dù Mỹ tẩy chay",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Atlantic Council", link: "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/" }
           ],
           gio: "Sáng 12/11"
-        },
-        {
-          tieuDe: "Đàm phán Mỹ–Trung về 'hàng rào an toàn' AI vẫn bế tắc trước thềm APEC và G20",
-          baiViet: [
-            "Mỹ và Trung Quốc đã có các cuộc thảo luận ở cấp kỹ thuật về các biện pháp bảo đảm an toàn trí tuệ nhân tạo (AI) nhưng 'chưa có gì để công bố', Ngoại trưởng Mỹ Marco Rubio cho biết hôm thứ Ba 10/11 sau kỳ họp G7 tại Paris. Ông nói hai bên đã nghe quan điểm của nhau nhưng quá trình 'vẫn đang tiếp diễn', và vấn đề này nên được đưa lên bàn các nhà lãnh đạo tại hội nghị APEC ở Thâm Quyến (18–19/11) cũng như tại G20, nơi Trung Quốc có ghế.",
-            "Ông Rubio nhấn mạnh cuộc tranh luận không nên gói gọn trong kênh song phương Mỹ–Trung: 'Đây nên là vấn đề chúng ta nêu ra tại hội nghị thượng đỉnh', ông nói, đồng thời kỳ vọng các nhà lãnh đạo APEC sẽ thảo luận về quản trị AI. Việc thiếu một khuôn khổ ràng buộc giữa hai cường quốc công nghệ lớn nhất thế giới được coi là một khoảng trống trong kiến trúc quản trị AI quốc tế đang hình thành.",
-            "Khi được hỏi về khả năng diễn ra cuộc gặp ba bên Mỹ–Nga–Trung, ông Rubio xác nhận 'có ý định tổ chức một cuộc gặp như vậy' và các quan chức đang làm việc để sắp xếp, nhưng không đưa ra ngày hay thông báo chính thức nào. Tổng thống Trump hôm 8/11 từng nói ông kỳ vọng sẽ gặp Chủ tịch Tập Cận Bình và Tổng thống Vladimir Putin tại Thâm Quyến, với chủ đề giải trừ vũ khí hạt nhân và chấm dứt chiến tranh — trong khi Bắc Kinh mới chỉ xác nhận đang 'trao đổi với các bên liên quan' và chưa chốt có tổ chức cuộc gặp hay không."
-          ],
-          nguon: [
-            { ten: "Mid-Day (theo IANS)", link: "https://www.mid-day.com/news/world-news/article/marco-rubio-says-us-china-ai-guardrail-discussions-remain-a-work-in-progress-23659400" },
-            { ten: "Nation Press", link: "https://www.nationpress.com/international/rubio-us-china-ai-talks-still-unresolved" },
-            { ten: "Signal Post News", link: "https://signalpostnews.com/china-confirms-xi-trump-putin-meeting-apec-shenzhen-november-2026" }
-          ],
-          gio: "Chiều 11/11"
         },
       ]
     }
