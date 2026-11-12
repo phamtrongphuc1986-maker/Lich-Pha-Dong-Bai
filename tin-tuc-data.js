@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Tư 11/11/2026 — bản tin chiều",
+  capNhat: "Thứ Năm 12/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Chính phủ Mỹ mở cửa trở lại sau 43 ngày đóng cửa kỷ lục: Hạ viện thông qua 222–209, Trump ký luật ngay trong đêm",
+          baiViet: [
+            "Đêm qua theo giờ Việt Nam, Tổng thống Donald Trump đã ký ban hành dự luật cấp ngân sách tạm thời, chính thức chấm dứt đợt đóng cửa chính phủ dài nhất lịch sử nước Mỹ — 43 ngày kể từ 1/10. Vài giờ trước đó, Hạ viện đã thông qua dự luật với tỉ lệ 222–209, chủ yếu theo đường lối đảng phái, sau khi Thượng viện thông qua đêm thứ Hai với tỉ lệ 60–40. Đây cũng là phiên họp đầu tiên của Hạ viện kể từ giữa tháng 9.",
+            "Dự luật cấp ngân sách cho phần lớn chính phủ tới ngày 30/1/2027, kèm ba dự luật chi tiêu cả năm cho Bộ Nông nghiệp, Bộ Cựu chiến binh và Xây dựng quân sự, cùng Quốc hội. Các công chức liên bang bị cho nghỉ không lương sẽ được truy lĩnh lương và trở lại làm việc từ hôm nay, các quyết định sa thải trong thời gian đóng cửa bị đảo ngược và cấm sa thải thêm tới ngày 30/1, chương trình hỗ trợ thực phẩm SNAP được khôi phục và hệ thống kiểm soát không lưu — vốn gây ra hàng nghìn chuyến bay bị hủy và hoãn — bắt đầu hoạt động bình thường trở lại.",
+            "Cái giá của thỏa thuận: phe Dân chủ không giành được điều mình đòi hỏi suốt 43 ngày — gia hạn trợ cấp bảo hiểm y tế theo Đạo luật Chăm sóc sức khỏe giá rẻ, vốn hết hạn vào cuối năm nay. Đổi lại, họ chỉ nhận được cam kết Thượng viện sẽ bỏ phiếu riêng về trợ cấp này chậm nhất vào tuần thứ hai của tháng 12, trong khi Chủ tịch Hạ viện Mike Johnson chưa cam kết tổ chức một cuộc bỏ phiếu tương tự. Một khảo sát Reuters/Ipsos công bố ngày 12/11 cho thấy 50% người Mỹ đổ lỗi cho đảng Cộng hòa về đợt đóng cửa, 47% đổ lỗi cho đảng Dân chủ — và với hạn chót 30/1, cuộc đối đầu ngân sách tiếp theo chỉ còn cách chưa đầy 80 ngày."
+          ],
+          nguon: [
+            { ten: "AP (qua UNB)", link: "https://unb.com.bd/category/World/trump-signs-funding-bill-ending-record-43-day-government-shutdown/172927" },
+            { ten: "Manila Metro (theo Reuters)", link: "https://www.manilametro.com/news/278692664/us-government-s-43-day-shutdown-ends-after-trump-signs-bill" },
+            { ten: "The Edge (theo Bloomberg)", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-14-story-h500522846-Record_US_Govt_Shutdown_Ends_as_Trump_Signs_Spending_Bill" }
+          ],
+          gio: "Sáng 12/11"
+        },
+        {
+          tieuDe: "COP31 ngày 2: Thượng đỉnh lãnh đạo bước sang ngày cuối — bàn tròn về Thỏa thuận Paris, đô thị chống chịu và nấu ăn sạch ở châu Phi",
+          baiViet: [
+            "Hôm nay 12/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 bước sang ngày thứ hai và cũng là ngày cuối, với trọng tâm chuyển từ các bài phát biểu quốc gia sang những bàn tròn chuyên đề. Theo chương trình chính thức của Liên Hợp Quốc, các lãnh đạo sẽ thảo luận về thập kỷ thứ hai của Thỏa thuận Paris và khả năng tiếp cận tài chính khí hậu (12:00–13:30), khả năng chống chịu của đô thị (13:30–17:00), cùng bàn tròn về rác thải bằng không, kinh tế tuần hoàn và khí mê-tan (16:00–17:30).",
+            "Một điểm nhấn của ngày hôm nay là phiên đối thoại cấp cao về nấu ăn sạch ở châu Phi (14:30–16:00) và về vai trò lãnh đạo khí hậu của châu Phi (15:30–17:00), bên cạnh hội nghị cấp lãnh đạo về khí nhà kính phi CO2 (09:00–10:30) và chương trình nghị sự về núi, sông băng và khả năng chống chịu (10:45–12:30). Thủ tướng Bangladesh Tarique Rahman dự kiến phát biểu tại phiên toàn thể hôm nay, nêu lập trường về công bằng khí hậu — nước này chỉ đóng góp 0,05% lượng khí thải toàn cầu nhưng nằm trong nhóm dễ tổn thương nhất trước biến đổi khí hậu.",
+            "Ngày đầu tiên của thượng đỉnh đã cho thấy khoảng cách giữa lời kêu gọi và hành động: Tổng thư ký Liên Hợp Quốc António Guterres thúc giục các nước lên kế hoạch cho một tương lai không nhiên liệu hóa thạch, trong khi nước chủ nhà Thổ Nhĩ Kỳ ca ngợi phát hiện hai mỏ dầu mới và đẩy mục tiêu điện khí hóa '35 tới 35' thay cho cam kết cắt giảm nhiên liệu hóa thạch cụ thể. Chủ đề chính thức của hôm nay là thành phố chống chịu và môi trường xây dựng; ngày mai 13/11, hội nghị chuyển sang chủ đề tài chính và thương mại, trước khi đàm phán chính thức khép lại ngày 20/11."
+          ],
+          nguon: [
+            { ten: "UNFCCC — Chương trình Thượng đỉnh lãnh đạo COP31", link: "https://unfccc.int/cop31/high-level" },
+            { ten: "The National (UAE)", link: "https://www.thenationalnews.com/news/uae/2026/11/11/uae-sends-high-level-delegation-to-cop31-climate-summit-in-turkey/?title=UAE+sends+high-level+delegation+to+Cop31+climate+summit+in+Turkey&mini=true&utm_source=linkedin&utm_medium=socialsharebtn" },
+            { ten: "The Business Standard (Bangladesh)", link: "https://tob.news/pm-off-to-turkiye-to-attend-cop31-summit/" }
+          ],
+          gio: "Sáng 12/11"
+        },
         {
           tieuDe: "COP31: Guterres kêu gọi lên kế hoạch cho tương lai không nhiên liệu hóa thạch, Erdoğan khoe phát hiện mỏ dầu mới",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 11/11"
         },
-        {
-          tieuDe: "Hạ viện Mỹ trở lại Washington sau 53 ngày, chốt bỏ phiếu mở cửa chính phủ lúc 16h thứ Tư",
-          baiViet: [
-            "Hạ viện Mỹ đã trở lại Washington trong ngày thứ Ba 11/11 sau 53 ngày không họp — lần đầu tiên nhóm họp kể từ 19/9 — để bỏ phiếu về gói cấp ngân sách chấm dứt đợt đóng cửa chính phủ dài nhất lịch sử nước Mỹ. Theo lãnh đạo phe Cộng hòa tại Hạ viện, cuộc bỏ phiếu chung cuộc có thể diễn ra sớm nhất vào 16h00 thứ Tư (giờ miền Đông). Nhiều nghị sĩ phải tìm đường về thủ đô bằng ô tô vì các chuyến bay vẫn bị gián đoạn do chính đợt đóng cửa gây ra.",
-            "Cơ hội thông qua tăng lên sau khi Chủ tịch nhóm bảo thủ Freedom Caucus Andy Harris bày tỏ ủng hộ có điều kiện với thỏa thuận. Gói thỏa thuận đã được Thượng viện thông qua đêm thứ Hai với tỉ lệ 60–40, trong đó có 8 thượng nghị sĩ Dân chủ và độc lập phá vỡ kỷ luật đảng — gồm Jeanne Shaheen, Maggie Hassan, Tim Kaine, Jacky Rosen, Catherine Cortez Masto, John Fetterman, Angus King và Dick Durbin. Thỏa thuận cấp ngân sách cho phần lớn chính phủ tới 30/1/2027, kèm ba dự luật chi tiêu cả năm, bảo đảm chương trình hỗ trợ thực phẩm SNAP tới 30/9 năm sau và cấm sa thải nhân viên liên bang tới 30/1, đồng thời truy lĩnh lương cho người bị cho nghỉ không lương.",
-            "Đổi lại, phe Dân chủ chỉ nhận được cam kết sẽ có một cuộc bỏ phiếu riêng tại Thượng viện về trợ cấp bảo hiểm y tế theo Đạo luật Chăm sóc sức khỏe giá rẻ chậm nhất vào tuần thứ hai của tháng 12 — mà không có gì bảo đảm kết quả, và Chủ tịch Hạ viện Mike Johnson chưa cam kết sẽ tổ chức một cuộc bỏ phiếu tương tự tại Hạ viện. Nếu Hạ viện thông qua như dự kiến, Tổng thống Donald Trump — người đã ủng hộ thỏa thuận — có thể ký ngay trong đêm và chính phủ mở cửa trở lại trong vài giờ, khép lại 42 ngày đóng cửa khiến khoảng một triệu công chức liên bang không lương và làm gián đoạn trợ cấp thực phẩm cùng hàng không trước lễ Tạ ơn."
-          ],
-          nguon: [
-            { ten: "Reuters (qua EWF Pro)", link: "http://www.ewfpro.com/index.php/en/economy/97-global-economic/97569-us-house-of-representatives-returns-to-washington-for-vote-to-end-government-shutdown" },
-            { ten: "Bloomberg (qua The Edge / i3investor)", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-12-story-h500520956-US_Shutdown_Nears_End_as_Senate_Passes_Deal_House_Readies_Vote" },
-            { ten: "KFI AM 640 (theo New York Post)", link: "https://kfiam640.iheart.com/content/2025-11-11-date-set-for-house-vote-to-end-record-us-government-shutdown/" }
-          ],
-          gio: "Sáng 11/11"
-        },
-        {
-          tieuDe: "COP31 ngày 2: năng lượng và giao thông lên bàn đàm phán, mục tiêu điện khí hóa '35 tới 35'",
-          baiViet: [
-            "Hôm nay 10/11, COP31 bước sang ngày làm việc thứ hai với chủ đề Năng lượng và Giao thông — hai lĩnh vực chiếm phần lớn lượng phát thải khí nhà kính toàn cầu. Tâm điểm trong ngày là Hội nghị Bộ trưởng Điện khí hóa toàn cầu (15:30–17:30) do Chủ tịch COP31 và liên minh Electrify Now đồng tổ chức, cùng phiên thảo luận về quá trình chuyển đổi năng lượng bền vững của Ukraine (11:00–12:00) do Ủy ban châu Âu và phía Ukraine chủ trì.",
-            "Chủ tịch COP31 Murat Kurum đặt mục tiêu điện khí hóa hơn một phần ba nền kinh tế toàn cầu tới năm 2035 — chương trình đối thoại '35 tới 35' — từ mức khoảng một phần năm hiện nay. Đây được coi là một trong những sáng kiến thực thi trọng tâm của kỳ họp, bên cạnh các phiên về vận tải biển xanh: hôm 9/11, Diễn đàn Hàng hải Toàn cầu đã tổ chức phiên về vai trò lãnh đạo của Úc và châu Á–Thái Bình Dương trong chuyển đổi năng lượng hàng hải, còn ngày chủ đề Đại dương, Biển, Thiên nhiên và Sử dụng đất sẽ diễn ra 17/11.",
-            "Ngày đầu tiên của hội nghị đã cho thấy mức độ khó khăn của đàm phán: tranh cãi về tài chính khí hậu khiến lễ khai mạc chậm tới 90 phút, trong khi báo cáo của Chương trình Môi trường LHQ cho thấy thế giới đã chắc chắn vượt ngưỡng tăng nhiệt 1,5 độ C. Ngày mai 11–12/11, Hội nghị thượng đỉnh các nhà lãnh đạo sẽ diễn ra với sự tham dự của Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdoğan, Tổng thống Brazil Lula da Silva và Tổng thư ký LHQ António Guterres. Hội nghị kéo dài tới 20/11 với các ngày chủ đề tiếp theo về không rác thải, thành phố bền vững, tài chính–thương mại, thanh niên–giáo dục, khoa học–công nghệ và phát triển con người."
-          ],
-          nguon: [
-            { ten: "Daily Sabah", link: "https://www.dailysabah.com/turkiye/cop31-in-turkiye-answers-key-questions-on-climate-action/news" },
-            { ten: "Geneva Environment Network", link: "https://www.genevaenvironmentnetwork.org/resources/updates/climate-action-from-geneva-to-antalya-un-climate-change-conference-cop31/" },
-            { ten: "Ủy ban châu Âu — Energy events at COP31", link: "https://energy.ec.europa.eu/events/energy-events-cop31-2026-11-09_en?prefLang=hr" }
-          ],
-          gio: "Sáng 10/11"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Nhật Bản lo Thủ tướng Takaichi bị 'ngó lơ' tại APEC Thâm Quyến: Bắc Kinh được cho là từ chối gặp chính thức",
+          baiViet: [
+            "Chính phủ Nhật Bản đang nỗ lực tới phút chót để bảo đảm Chủ tịch Trung Quốc Tập Cận Bình ít nhất cũng bắt tay chào hỏi Thủ tướng Sanae Takaichi tại Thượng đỉnh APEC ở Thâm Quyến ngày 18–19/11 — lần đầu hai lãnh đạo gặp nhau kể từ khi quan hệ hai nước xấu đi vì phát biểu của bà Takaichi về Đài Loan. Theo Kyodo News, Bắc Kinh đã từ chối yêu cầu gặp chính thức của Tokyo, khiến Nhật Bản có thể là nước lớn duy nhất không có cuộc gặp song phương với ông Tập bên lề APEC.",
+            "Căng thẳng bắt nguồn từ phát biểu của bà Takaichi trước Quốc hội Nhật Bản tháng 11 năm ngoái rằng một tình huống khẩn cấp ở Đài Loan 'có thể cấu thành' tình huống đe dọa sự tồn vong của Nhật Bản — điều Bắc Kinh coi là can thiệp và yêu cầu bà rút lại. Một quan chức cấp cao Bộ Ngoại giao Nhật Bản thừa nhận khả năng có hội nghị thượng đỉnh Nhật–Trung là rất thấp, và mục tiêu thực tế hiện nay chỉ còn là một cái bắt tay hoặc cuộc gặp ngắn trong khuôn khổ chương trình chính thức, chẳng hạn bữa tối các lãnh đạo.",
+            "Trong khi đó, bà Takaichi sẽ gặp Tổng thống Mỹ Donald Trump tại Thượng đỉnh ASEAN ở Manila ngay trước APEC, tìm kiếm một cuộc gặp song phương để truyền đạt thông điệp rằng lợi ích của Tokyo không bị đánh đổi trong đàm phán Mỹ–Trung. Bà cũng dự kiến tham dự hội nghị thượng đỉnh Nhóm Bộ tứ (Quad) cùng Mỹ, Úc và Ấn Độ — cuộc gặp đầu tiên của bốn nước dưới chính quyền Trump nhiệm kỳ hai. Thủ tướng Trung Quốc Lý Cường cũng sẽ dự ASEAN, mở ra khả năng gặp cấp tương đương với bà Takaichi tại Manila."
+          ],
+          nguon: [
+            { ten: "The Straits Times (theo Bloomberg)", link: "https://www.straitstimes.com/asia/east-asia/japan-works-to-shield-pm-takaichi-from-any-xi-snub-at-chinas-apec-summit?ref=latest-headlines" },
+            { ten: "Chosun Biz (theo Kyodo News)", link: "https://biz.chosun.com/en/en-international/2026/11/11/LR6PD7AERVCBXMHTW657XOKWHY/" },
+            { ten: "Nippon.com (theo Jiji Press)", link: "https://www.nippon.com/en/articles/-/57146" }
+          ],
+          gio: "Sáng 12/11"
+        },
         {
           tieuDe: "G7 Paris bế mạc: đồng thuận tránh 'khoảng trống an ninh' ở Liban, ra tuyên bố 12 trang về Ukraine",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều 11/11"
         },
-        {
-          tieuDe: "G7 Paris khép lại: Rubio nói Mỹ tiếp tục gây sức ép 'tàn khốc' với Iran, đồng minh lạnh nhạt với lời kêu gọi bảo vệ eo Hormuz",
-          baiViet: [
-            "Ngoại trưởng Mỹ Marco Rubio ngày thứ Ba 10/11 nói với các đồng nhiệm G7 tại Paris rằng Washington sẽ tiếp tục gây sức ép kinh tế tàn khốc lên Iran, cho rằng các lệnh trừng phạt đang phát huy tác dụng mà không cần một cuộc chiến mới — theo bốn nhà ngoại giao G7 kể lại với Reuters. Ông Rubio nói chính sách hiện tại đang hạn chế khả năng Tehran tài trợ cho các hoạt động trong khu vực, và Mỹ có những lựa chọn khác ngoài việc nối lại chiến tranh hay chấp nhận các yêu sách mà ông gọi là không thể chấp nhận được của Iran.",
-            "Cùng ngày, ông Rubio cũng kêu gọi các nước G7 tăng cường tham gia bảo vệ tàu thuyền khỏi các vụ tấn công của Iran tại eo biển Hormuz — nhưng thừa nhận không nhận được phản hồi nào. 'Tôi đã nêu vấn đề. Tôi không nhận được câu trả lời', ông nói sau hai ngày họp. Các đồng minh châu Âu cho rằng giao tranh phải dừng trước khi họ có thể cử tàu quét mìn hay hỗ trợ bảo vệ tàu chở dầu, trong khi Mỹ khẳng định sẽ tiếp tục tự bảo vệ tuyến vận tải qua eo biển chiến lược này.",
-            "Kỳ họp cũng đạt được đồng thuận về Liban: các ngoại trưởng nhất trí về nhu cầu tránh một khoảng trống an ninh sau khi lực lượng gìn giữ hòa bình Liên Hợp Quốc (UNIFIL) rút đi — nhiệm vụ của lực lượng này kết thúc ngày 31/12/2026 — và cần nhanh chóng xây dựng một cấu trúc an ninh mới hỗ trợ quân đội Liban. Ông Rubio gợi ý cơ chế thay thế 'không nhất thiết phải là một nhiệm vụ quân sự, mà có thể là một nhiệm vụ dân sự'. Về Ukraine, phiên họp với Ngoại trưởng Andrii Sybiha diễn ra cùng lúc vòng đàm phán ba bên Mỹ–Nga–Ukraine tại Abu Dhabi; tuyên bố chung cuối cùng của kỳ họp tái khẳng định mục tiêu rút quân Israel khỏi miền nam Liban, giải giáp Hezbollah và khôi phục một nhà nước độc quyền sử dụng vũ lực."
-          ],
-          nguon: [
-            { ten: "Moneycontrol (theo Reuters)", link: "https://www.moneycontrol.com/world/rubio-tells-g7-us-will-keep-imposing-devastating-costs-on-iran-diplomats-say-article-14076481.html/amp" },
-            { ten: "The Economic Times (theo AP)", link: "http://economictimes.indiatimes.com/news/defence/rubio-urges-nations-to-step-up-on-strait-of-hormuz-security/articleshow/135716474.cms" },
-            { ten: "The Times of Israel (theo AFP)", link: "https://www.timesofisrael.com/g7-agrees-on-need-to-avert-security-void-in-lebanon-after-unifil-withdrawal/amp/" }
-          ],
-          gio: "Sáng 11/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Đàm phán Abu Dhabi khép lại: Nga–Ukraine đồng ý trao đổi tù binh quy mô lớn, nhưng chưa có lệnh ngừng bắn",
+          baiViet: [
+            "Hai ngày đàm phán ba bên Mỹ–Nga–Ukraine tại Abu Dhabi đã kết thúc hôm thứ Tư 11/11 mà không có đột phá về lệnh ngừng bắn hay lãnh thổ — vòng đàm phán trực tiếp đầu tiên giữa Nga và Ukraine sau chín tháng, và vòng ba bên đầu tiên kể từ tháng 2. Ngày làm việc thứ hai chỉ kéo dài chưa đầy hai giờ. Kết quả cụ thể duy nhất: thỏa thuận về nguyên tắc cho một cuộc trao đổi tù binh quy mô lớn, với hơn 1.000 người mỗi bên, có thể diễn ra trong hai đến ba tuần tới.",
+            "Bất đồng cốt lõi vẫn là trình tự các bước: Ukraine khăng khăng Nga phải ngừng bắn trước khi bàn tới khuôn khổ an ninh châu Âu, trong khi Nga muốn thảo luận bảo đảm an ninh và lãnh thổ song song. Tổng thống Ukraine Volodymyr Zelenskyy hoan nghênh việc Washington đưa bảo đảm an ninh — được cho là mô phỏng theo Điều 5 của NATO — lên bàn đàm phán, nhưng phía Nga được cho là sẽ đòi thêm nhượng bộ lãnh thổ để đổi lấy. Ngoại trưởng Mỹ Marco Rubio gọi ngày đầu tiên là 'rất hiệu quả', còn ông Zelenskyy gọi các cuộc thảo luận là 'mang tính xây dựng'.",
+            "Ngoại giao vẫn tiếp tục chạy: đặc phái viên Mỹ Jared Kushner và Steve Witkoff sẽ tới Matxcơva hôm nay để gặp Tổng thống Vladimir Putin, rồi bay sang Dublin gặp ông Zelenskyy bên lề cuộc họp Cộng đồng Chính trị châu Âu. Các đại diện Đức, Pháp và Anh đã tháp tùng đoàn Ukraine tới Abu Dhabi nhưng không ngồi vào bàn đàm phán với Nga — dù vậy, phía Ukraine coi việc Washington thừa nhận không thể có thỏa thuận hòa bình nếu thiếu các đồng minh châu Âu là một kết quả quan trọng. Giao tranh trên thực địa không hề dừng lại trong hai ngày đàm phán."
+          ],
+          nguon: [
+            { ten: "Firstpost", link: "https://www.firstpost.com/world/abu-dhabi-talks-over-with-no-russia-ukraine-truce-deal-in-sight-14059324.html" },
+            { ten: "Le Temps (Thụy Sĩ)", link: "https://www.letemps.ch/en/world/russia-ukraine-talks-a-prisoner-exchange-promised-but-no-progress-on-a-ceasefire" },
+            { ten: "Atlantic Council", link: "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/" }
+          ],
+          gio: "Sáng 12/11"
+        },
         {
           tieuDe: "Đàm phán Mỹ–Trung về 'hàng rào an toàn' AI vẫn bế tắc trước thềm APEC và G20",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Kislap (theo Văn phòng Thủ tướng Canada)", link: "https://www.kislap.com/news/carney-to-visit-manila-for-asean-summit-as-canada-seeks-to-conclude-a-philippines-free-trade-deal" }
           ],
           gio: "Sáng 11/11"
-        },
-        {
-          tieuDe: "Nhật Bản: đảng cầm quyền kỷ luật cựu Thủ tướng Ishiba trước giờ Thượng viện thảo luận dự luật giảm thuế",
-          baiViet: [
-            "Đảng Dân chủ Tự do (LDP) ngày 10/11 đã kỷ luật bằng cảnh cáo văn bản đối với cựu Thủ tướng Shigeru Ishiba cùng ba nghị sĩ khác — Yuko Obuchi, Hajime Funada và Yoshihisa Furukawa — vì bỏ ra ngoài trước giờ bỏ phiếu dự luật giảm thuế tiêu thụ thực phẩm hôm 6/11. Ban lãnh đạo đảng đã yêu cầu cả bốn giải trình bằng văn bản trước trưa thứ Hai 9/11, và cho rằng hành động của họ cực kỳ đáng tiếc.",
-            "Dự luật giảm thuế tiêu thụ với thực phẩm từ 8% xuống 1% trong hai năm (từ tháng 4/2027) là cam kết tranh cử hàng đầu của Thủ tướng Sanae Takaichi và đã qua Hạ viện ngày 6/11 với đa số áp đảo — lần đầu tiên Nhật Bản cắt giảm thuế tiêu thụ kể từ khi áp dụng loại thuế này năm 1989. Thượng viện bắt đầu thảo luận từ 11/11, đặt mục tiêu hoàn tất trước khi kỳ họp Quốc hội kết thúc ngày 12/12. Phe đối lập sẽ dùng một ủy ban đặc biệt — nơi đối lập chiếm đa số 20 trên 19 ghế — để chất vấn chính phủ về nguồn bù đắp khoản hụt thu khoảng 5.000 tỷ yên mỗi năm (tương đương 31,6 tỷ USD).",
-            "Liên minh cầm quyền thiếu 5 ghế để đạt đa số 125 trên 248 ghế tại Thượng viện, nên vẫn cần sự ủng hộ của một số nghị sĩ đối lập; đảng Dân chủ vì Nhân dân đã đưa ra đề xuất đối trọng tập trung vào giảm thuế cư trú. Dù vậy, giới phân tích cho rằng bà Takaichi nhiều khả năng vẫn đạt được mục tiêu, vì nếu Thượng viện bác bỏ, Hạ viện có thể thông qua lại với đa số hai phần ba. Song song, bà Takaichi dự kiến dùng tiền thu từ việc Ngân hàng Trung ương Nhật Bản bán ETF cho chi tiêu an ninh kinh tế, và bà sẽ dự hội nghị ASEAN ở Philippines cùng hội nghị APEC tại Thâm Quyến trong tuần tới."
-          ],
-          nguon: [
-            { ten: "NoCut News (theo Yonhap)", link: "https://en.nocutnews.co.kr/news/6604622" },
-            { ten: "The Japan Times", link: "https://www.japantimes.co.jp/news/2026/11/09/japan/politics/food-tax-bill-abstain/" },
-            { ten: "IwPost", link: "https://iwpost.com/takaichi-vs-the-tax-rebels/" }
-          ],
-          gio: "Chiều 10/11"
         },
       ]
     }
