@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Sáu 13/11/2026 — bản tin chiều",
+  capNhat: "Thứ Bảy 14/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 khép tuần đầu trong bế tắc: cam kết tài chính khí hậu sụt 70%, Guterres giục cắt giảm phát thải 'ngay lập tức'",
+          baiViet: [
+            "Tuần đầu tiên của Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ, khép lại ngày 13/11 với bản dự thảo đã xuất hiện ở hầu hết các nhóm đàm phán, nhưng những vấn đề gai góc nhất — trong đó có chương trình công tác mới về tài chính khí hậu — vẫn giậm chân tại chỗ. Tổng thư ký Liên Hợp Quốc António Guterres kêu gọi các nước cắt giảm khí thải nhà kính 'ngay lập tức và quyết liệt', cảnh báo các nhà sản xuất và tiêu thụ nhiên liệu hóa thạch lớn đang chống lại bất kỳ thỏa thuận nào đặt ra mục tiêu mới hay lộ trình rời bỏ dầu, khí và than. Một báo cáo của Liên Hợp Quốc công bố tháng trước cho thấy thế giới đang trên đà vượt ngưỡng nóng lên 1,5 độ C mà các nước đã cam kết theo đuổi theo Thỏa thuận Paris 2015.",
+            "Nút thắt lớn nhất vẫn là tiền. Phân tích của Carbon Brief cho thấy cam kết tài chính khí hậu công của các nước phát triển chỉ còn khoảng 11,7 tỷ USD mỗi năm, giảm hơn 70% so với mức khoảng 40 tỷ USD trước đây. Chỉ năm nước công bố cam kết đa niên mới, trong đó Anh là nhà tài trợ lớn duy nhất; Đức, Pháp và Nhật Bản đến nay vẫn chưa đưa ra kế hoạch mới, còn Mỹ sẽ không đóng góp gì sau khi rút khỏi Thỏa thuận Paris lần thứ hai. Thủ tướng Barbados Mia Mottley đã trích dẫn con số này ngay tại diễn đàn lãnh đạo để chất vấn các nước giàu: cam kết còn chưa phải là tiền chi thật, mà ngay cả cam kết cũng đã thấp hơn 70% so với trước.",
+            "Chủ nhà Thổ Nhĩ Kỳ và nước dẫn dắt đàm phán Australia đặt cược vào đề xuất điện khí hóa — đưa điện chiếm 35% tổng năng lượng tiêu thụ toàn cầu vào năm 2035 — hiện đã có hơn 50 nước ủng hộ hoặc ký tên, dù đề xuất không bắt buộc phần điện tăng thêm phải đến từ nguồn tái tạo. Trong khi đó, hơn 92.000 người đã đăng ký dự COP31, có thể là kỳ COP đông nhất trong lịch sử, còn Mỹ lần thứ hai liên tiếp vắng mặt. Đoàn đàm phán Australia sẽ nhận ý kiến đóng góp của các nước tới tối thứ Bảy 14/11 để soạn dự thảo văn kiện chung vào đầu tuần sau; hội nghị kéo dài tới ngày 20/11 và giới quan sát cho rằng chưa có dấu hiệu của một bước đột phá."
+          ],
+          nguon: [
+            { ten: "Carbon Brief", link: "https://www.carbonbrief.org/debriefed-13-november-2026-make-or-bake-electrification-push-climate-finance-down-70" },
+            { ten: "Reuters (qua Hot 96)", link: "https://hot96.com/2026/11/13/cop31-talks-face-early-friction-over-future-of-fossil-fuels/" },
+            { ten: "Dawn", link: "https://www.dawn.com/news/2044204" }
+          ],
+          gio: "Sáng, Nov 14"
+        },
+        {
+          tieuDe: "Eo biển Hormuz lại nóng: tàu chở khí đốt trúng mìn phát nổ, Iran tuyên bố phá radar Mỹ ở Bahrain",
+          baiViet: [
+            "Vệ binh Cách mạng Iran ngày 13/11 cho biết một tàu chở khí đốt hóa lỏng đã trúng thủy lôi và phát nổ khi đi qua eo biển Hormuz theo tuyến mà Tehran gọi là 'không được phép và nguy hiểm'; hãng thông tấn nhà nước IRNA dẫn tuyên bố của lực lượng này nói con tàu đã phớt lờ nhiều cảnh báo trước đó. Chưa có thông tin về tên tàu, quốc tịch hay thương vong, và Cơ quan Thương mại Hàng hải Anh (UKMTO) — đơn vị quân sự Anh theo dõi sự cố trên biển — chưa ghi nhận vụ việc. Đây là vụ mới nhất trong chuỗi tấn công tàu bè ở eo biển: ít nhất 10 tàu đã bị đánh trúng trong 10 ngày đầu tháng 11, sau 37 vụ trong tháng 10, mức cao nhất kể từ khi xung đột nổ ra cuối tháng 2.",
+            "Cùng ngày, Vệ binh Cách mạng tuyên bố đã phá hủy một radar cảnh báo sớm của Mỹ tại Bahrain — nơi đặt căn cứ của Hạm đội 5 Hải quân Mỹ — để trả đũa vụ Mỹ tấn công một cột viễn thông ở cảng Sirik, miền nam Iran, hôm trước. Cả hai tuyên bố đều chưa được kiểm chứng độc lập. Quân đội Mỹ cho biết đã đánh chặn hai máy bay không người lái tấn công của Iran đang hướng về Bahrain. Trước đó một ngày, quân đội Iran nói bốn tàu chở dầu đã trúng nổ ở eo biển sau khi phớt lờ cảnh báo và đi vào khu vực mà Tehran coi là hạn chế.",
+            "Thị trường dầu mỏ phản ứng thận trọng: giá dầu Brent chốt quanh 95,41 USD một thùng, hướng tới tuần giảm thứ hai liên tiếp, sau khi Tổng thống Mỹ Donald Trump tuyên bố trên Truth Social rằng một thỏa thuận với Iran là 'không cần thiết', cho thấy Washington sẽ duy trì lệnh phong tỏa dầu mỏ cùng các biện pháp trừng phạt kinh tế và thương mại. Giới phân tích nhận định thị trường đã phần nào định giá rủi ro, nhưng mối nguy với tuyến vận tải qua Hormuz — huyết mạch xuất khẩu dầu thô của các nước sản xuất lớn ở Trung Đông — vẫn hiện hữu, nhất là khi lực lượng Houthi ở Yemen cùng ngày tấn công hạ tầng dầu mỏ của Saudi Arabia."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-hormuz-2026-11-13/" },
+            { ten: "AP (qua Siasat)", link: "https://www.siasat.com/iran-claims-strike-on-us-radar-system-in-bahrain-3576363/" },
+            { ten: "Reuters", link: "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/" }
+          ],
+          gio: "Sáng, Nov 14"
+        },
         {
           tieuDe: "COP31: 14 nước ký Tuyên bố Antalya, đặt mục tiêu đưa thị trường tín chỉ carbon lên 21 tỷ USD vào 2035",
           baiViet: [
@@ -39,34 +67,6 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 13"
         },
-        {
-          tieuDe: "COP31 bước vào ngày Tài chính và Thương mại: tiền cho khí hậu vẫn là nút thắt lớn nhất",
-          baiViet: [
-            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ, hôm nay 13/11 bước vào ngày chuyên đề Tài chính và Thương mại, ngay sau khi Thượng đỉnh lãnh đạo khép lại vào tối 12/11. Trọng tâm của ngày này là biến các cam kết khí hậu đã ký thành hành động cụ thể, trong đó Tổ chức Thương mại Thế giới (WTO) chủ trì một chuỗi phiên thảo luận về vai trò của thương mại trong chuyển đổi xanh. Các bộ trưởng, doanh nghiệp và tổ chức quốc tế cùng bàn cách để chính sách thương mại hỗ trợ thay vì cản trở quá trình giảm phát thải, đồng thời giúp các nước đang phát triển tiếp cận công nghệ sạch và chuỗi giá trị mới.",
-            "Câu hỏi lớn nhất vẫn là tiền sẽ đến từ đâu và chảy về đâu. Lộ trình được thống nhất từ COP30 đặt mục tiêu huy động ít nhất 1.300 tỷ USD mỗi năm cho các nước đang phát triển vào năm 2035, trong khi mục tiêu tài chính riêng của các nước phát triển là 300 tỷ USD mỗi năm vào cùng thời điểm. Khoảng cách giữa nhu cầu và thực tế vẫn rất lớn, đặc biệt ở mảng thích ứng với biến đổi khí hậu. Thủ tướng Bangladesh Tarique Rahman phát biểu tại hội nghị ngày 12/11 đã kêu gọi dành ít nhất một nửa nguồn tài chính khí hậu quốc tế cho thích ứng, đồng thời nhấn mạnh các nước dễ tổn thương cần viện trợ không hoàn lại thay vì những khoản vay làm nợ nần thêm chồng chất.",
-            "Bên lề hội nghị, Thổ Nhĩ Kỳ đã công bố một thỏa thuận tài chính khí hậu trị giá 1,6 tỷ USD với Ngân hàng Đầu tư Cơ sở hạ tầng châu Á (AIIB), gói tài chính chính sách khí hậu lớn nhất từ trước tới nay của ngân hàng này. Khoản tiền sẽ hỗ trợ cải cách tài khóa, quy định tài chính và quy hoạch ngành, phục vụ Luật Khí hậu của Thổ Nhĩ Kỳ cùng mục tiêu phát thải ròng bằng 0 vào năm 2053. Chương trình còn đặt mục tiêu giúp 225.000 nông dân ở vùng khan hiếm nước chuyển sang cây trồng ít tốn nước vào năm 2028. Dù vậy, mọi quyết định đàm phán cuối cùng của COP31 vẫn phải chờ tới khi hội nghị bế mạc ngày 20/11, và giới quan sát cho rằng chưa có dấu hiệu của một bước đột phá về tài chính."
-          ],
-          nguon: [
-            { ten: "WTO", link: "https://www.wto.org/english/tratop_e/envir_e/clim_1311202609_e/clim_1311202609_e.htm" },
-            { ten: "LSE Grantham Research Institute", link: "https://www.lse.ac.uk/granthaminstitute/cop31/" },
-            { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/business/international-business/turkey-secures-record-1-6-billion-aiib-financing-for-climate-reforms-at-cop31/articleshow/135773668.cms" }
-          ],
-          gio: "Sáng 13/11"
-        },
-        {
-          tieuDe: "Đặc phái viên Mỹ gặp Putin ở Moscow rồi bay sang Dublin gặp Zelensky: đàm phán ba bên được nối lại",
-          baiViet: [
-            "Hai đặc phái viên của Tổng thống Mỹ Donald Trump là Steve Witkoff và Jared Kushner đã gặp Tổng thống Nga Vladimir Putin tại Điện Kremlin ngày 12/11, chỉ một ngày sau khi vòng đàm phán ba bên Nga, Ukraine và Mỹ tại Abu Dhabi khép lại mà không có đột phá về lệnh ngừng bắn. Điện Kremlin mô tả cuộc gặp là hữu ích, đồng thời cho biết hai bên nhất trí tiếp tục đàm phán trực tiếp về chiến tranh Nga, Ukraine sau chín tháng gián đoạn. Đây là lần thứ mười Witkoff gặp trực tiếp ông Putin, cho thấy Washington đang dồn sức đẩy nhanh tiến trình ngoại giao trước thềm hội nghị APEC tại Thâm Quyến.",
-            "Tại cuộc gặp, ông Putin đề xuất một phái bộ nhân đạo tạm thời tại thị trấn Kostiantynivka ở tỉnh Donetsk, nơi giao tranh vẫn diễn ra ác liệt, với lý do Nga kiểm soát khu vực này và sẵn sàng ngừng bắn tại chỗ để khoảng 400 đến 500 dân thường còn kẹt lại có thể sơ tán. Kyiv đã bác bỏ tuyên bố kiểm soát của Moscow và cảnh báo một thỏa thuận tương tự trước đây tại Oleshky từng bị dùng làm vỏ bọc để luân chuyển quân. Phía Mỹ tỏ ra lạc quan một cách thận trọng khi ông Witkoff khẳng định đàm phán ba bên đã được khởi động lại và một vòng gặp mới đã được ấn định, còn ông Kushner nhấn mạnh châu Âu phải có mặt trên bàn đàm phán.",
-            "Ngay trong đêm 12/11, hai đặc phái viên Mỹ đã bay tới Dublin để báo cáo với Tổng thống Ukraine Volodymyr Zelensky, người đang dự hội nghị Cộng đồng Chính trị châu Âu tại Ireland. Ông Zelensky cho biết các cuộc gặp những ngày qua rất quan trọng và gọi đợt trao đổi tù binh vừa thống nhất là kết quả thực sự, đồng thời nói đây có thể là đợt trao đổi lớn nhất từ trước tới nay. Song song với ngoại giao, Liên minh châu Âu dự kiến thông qua gói trừng phạt mới nhằm vào 150 thực thể và 50 ngân hàng của Nga vào thứ Hai tới. Trong khi đó chiến sự vẫn tiếp diễn khi Nga phóng tên lửa đạn đạo và hàng chục máy bay không người lái vào Ukraine trong đêm, khiến ít nhất một người thiệt mạng tại Kyiv và gây mất điện ở chín vùng."
-          ],
-          nguon: [
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin" },
-            { ten: "CNN", link: "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl?cid=external-feeds_iluminar_meta" },
-            { ten: "Kyiv Independent", link: "https://kyivindependent.com/witkoff-kushner-arrive-in-moscow-following-ukraine-peace-talks/" }
-          ],
-          gio: "Sáng 13/11"
-        },
       ]
     },
     {
@@ -74,18 +74,18 @@ window.TIN_TUC = {
       ten: "🔷 Tin G7",
       tin: [
         {
-          tieuDe: "Cuba chỉ trích G7 'lặp lại luận điệu của Mỹ', phớt lờ tác động của lệnh cấm vận",
+          tieuDe: "G7 Paris: siết trừng phạt 'đội tàu bóng tối' của Nga, lên án Iran, cam kết giúp Ukraine qua mùa đông",
           baiViet: [
-            "Ngoại trưởng Cuba Bruno Rodríguez ngày 12/11 lên tiếng chỉ trích tuyên bố chung của các ngoại trưởng G7 — công bố hôm 11/11 sau hai ngày họp tại Paris — vì phớt lờ tác hại của lệnh cấm vận của Mỹ đối với Cuba, đồng thời tán thành những cái cớ mà ông gọi là bịa đặt để trừng phạt đảo quốc Caribe. Trong bài đăng trên mạng xã hội X, ông Rodríguez nói tuyên bố của G7 'bỏ qua thực tế về tác động tàn khốc của lệnh phong tỏa, cuộc chiến kinh tế và lệnh phong tỏa năng lượng mà chính phủ Mỹ áp đặt lên Cuba'. Ông gọi chính sách của Washington đối với Cuba là 'diệt chủng' và là hành vi vi phạm 'trắng trợn, nghiêm trọng và có hệ thống' đối với nhân quyền của người dân Cuba và chủ quyền của các nước thứ ba.",
-            "Điểm mâu thuẫn nằm ở cách hai bên mô tả cùng một thực tế. Tuyên bố của G7 bày tỏ quan ngại về 'cuộc khủng hoảng kinh tế sâu sắc và nhu cầu nhân đạo' của Cuba, đồng thời kêu gọi cải thiện việc cung cấp viện trợ nhân đạo — nhưng không hề nhắc tới lệnh cấm vận, các biện pháp trừng phạt kinh tế hay những đe dọa can thiệp quân sự của chính quyền Tổng thống Trump. Văn kiện cũng không đề cập sắc lệnh hành pháp ngày 29/1 của Washington, vốn đặt ra quy trình áp thuế bổ sung đối với hàng hóa từ các nước cung cấp dầu cho Cuba. Ông Rodríguez nhắc lại rằng ngày 28/10, Đại hội đồng Liên Hợp Quốc đã thông qua nghị quyết kêu gọi chấm dứt lệnh cấm vận mà Mỹ duy trì hơn sáu thập kỷ, và cộng đồng quốc tế một lần nữa lên án lệnh cấm vận này, trong khi G7 lại chọn 'lặp lại những lập luận sai lầm do Washington bịa ra'.",
-            "Lời chỉ trích này nối tiếp một tuần ngoại giao căng thẳng của Havana: tại Hội nghị Thượng đỉnh Ibero-Mỹ lần thứ 30 ở Madrid hôm 4–5/11, Cuba đã tố cáo việc Mỹ siết chặt trừng phạt, trong đó có điều mà phía Cuba gọi là lệnh phong tỏa năng lượng. Ông Rodríguez cho biết trong 10 tháng qua, người dân Cuba đã phải chịu đợt siết cấm vận chưa từng có — phong tỏa năng lượng tương đương phong tỏa hải quân cùng các biện pháp trừng phạt thứ cấp nhằm vào cá nhân, tổ chức muốn giao thương với đảo quốc — và gọi đó là 'cuộc chiến bóp nghẹt kinh tế đầy ám ảnh' bị đẩy tới 'mức độ trừng phạt tập thể vô nhân đạo'. Phản ứng của Havana cho thấy phần về Cuba trong tuyên bố Paris — vốn chỉ là một đoạn nhỏ bên cạnh các nội dung lớn về Đài Loan và Ukraine — đang trở thành một điểm nóng ngoại giao mới, khi Cuba coi G7 đã đứng về phía Washington còn các nước G7 thì khẳng định mối quan tâm của họ thuần túy là nhân đạo."
+            "Các ngoại trưởng G7 họp tại Paris ngày 9–10/11 dưới nhiệm kỳ chủ tịch Pháp đã ra tuyên bố chung khẳng định ủng hộ không lay chuyển với Ukraine, đồng thời ủng hộ nỗ lực do Mỹ dẫn dắt nhằm đạt hòa bình qua đàm phán trực tiếp và nghiêm túc, nhấn mạnh cần một lệnh ngừng bắn toàn diện và có đi có lại. Bước đầu quan trọng, theo các bộ trưởng, là hai bên cùng ngừng tấn công hạ tầng năng lượng và ở Biển Đen để bảo vệ dân thường, giảm gián đoạn nguồn cung năng lượng, sưởi ấm, nước sạch và lương thực. Các bộ trưởng cũng nhất trí rằng mọi cuộc đàm phán về an ninh tương lai của châu Âu phải có người châu Âu tham gia — điểm mà Đức và Pháp đặc biệt nhấn mạnh trước thềm vòng đàm phán Nga–Ukraine tại Abu Dhabi.",
+            "Về sức ép kinh tế, G7 bàn tăng cường trừng phạt nhằm vào 'kinh tế chiến tranh' của Nga, tập trung vào đội tàu chở dầu lách trừng phạt — các tàu treo cờ giả hoặc không treo cờ — cùng các mắt xích hỗ trợ như công ty bảo hiểm, thương nhân dầu mỏ và trung gian. Tuyên bố lên án Triều Tiên và Iran viện trợ quân sự cho Nga, đồng thời lên án Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng cho Moscow. Bên lề cuộc họp, Canada công bố gói trừng phạt mới với 38 thực thể và 24 cá nhân Nga, nâng tổng số mục tiêu bị Ottawa trừng phạt lên hơn 3.500.",
+            "Về Trung Đông, G7 khẳng định Iran không bao giờ được phép phát triển hay sở hữu vũ khí hạt nhân, lên án mạnh mẽ các vụ tấn công của Tehran nhằm vào các nước láng giềng và việc cản trở vận tải qua eo biển Hormuz, đồng thời ủng hộ hoạt động rà phá thủy lôi và hộ tống tàu dân sự của Bộ Tư lệnh Trung tâm Mỹ. Các bộ trưởng cũng cam kết tăng hỗ trợ tài chính và vật chất để giúp Ukraine vượt qua mùa đông, xử lý nhu cầu tài chính của Kyiv cho năm 2027 trở đi, và ghi nhận hội nghị các nhà tài trợ ngày 9/11 tại Paris về sửa chữa mái vòm an toàn mới của nhà máy điện hạt nhân Chernobyl."
           ],
           nguon: [
-            { ten: "IANS qua MENAFN", link: "https://menafn.com/1111955977/G7-Repeats-US-Falsehoods-About-Cuba-Cuban-Foreign-Minister" },
-            { ten: "Xinhua qua CGTN", link: "https://news.cgtn.com/news/2026-11-13/Cuban-FM-says-G7-repeating-US-falsehoods-about-Cuba-1S1YE1JhkY0/p.html" },
-            { ten: "The Hans India (IANS)", link: "https://www.thehansindia.com/news/international/g7-repeats-us-falsehoods-about-cuba-cuban-foreign-minister-1141691" }
+            { ten: "GOV.UK (Tuyên bố chung G7)", link: "https://www.gov.uk/government/news/joint-declaration-following-the-g7-foreign-ministers-meeting-in-paris" },
+            { ten: "AFP (qua Korea Times)", link: "https://www.koreatimes.co.kr/amp/world/20261109/g7-ministers-press-rubio-on-iran-ukraine-at-paris-talks" },
+            { ten: "United States Tribune", link: "https://unitedstatestribune.com/world/g7-foreign-ministers-discuss-russia-sanctions-condemn-iran-in-paris-statement/" }
           ],
-          gio: "Chiều, Nov 13"
+          gio: "Sáng, Nov 14"
         },
         {
           tieuDe: "G7 ra tuyên bố chung mạnh nhất từ trước tới nay về hoạt động của Trung Quốc ở phía đông Đài Loan",
@@ -107,6 +107,20 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg: chương trình nghị sự của Nam bán cầu — nợ bền vững, tài chính khí hậu và khoáng sản chiến lược",
+          baiViet: [
+            "Chỉ còn hơn một tuần trước Thượng đỉnh các nhà lãnh đạo G20 ngày 22–23/11 tại Nasrec, Johannesburg, Nam Phi đã hoàn thành 130 trong tổng số 133 cuộc họp chuẩn bị, từ các phiên cấp bộ trưởng, đàm phán Sherpa tới Hội nghị thượng đỉnh xã hội ba ngày vừa bế mạc trong tuần này. Đây là lần đầu tiên G20 họp trên đất châu Phi, khép lại chu kỳ bốn năm liên tiếp các nước Nam bán cầu — Indonesia, Ấn Độ, Brazil rồi Nam Phi — giữ ghế chủ tịch và đưa các vấn đề của thế giới đang phát triển lên trung tâm nghị sự của diễn đàn kinh tế lớn nhất thế giới.",
+            "Ba ưu tiên cốt lõi của nhiệm kỳ chủ tịch Nam Phi, theo phương châm 'Đoàn kết, Bình đẳng và Bền vững', là tăng cường khả năng chống chịu thiên tai và ứng phó khí hậu; bền vững nợ cho các nước thu nhập thấp thông qua một Khung chung G20 về nợ mạnh mẽ hơn; và khai thác khoáng sản chiến lược phục vụ tăng trưởng bao trùm — chế biến sâu ngay tại nguồn thay vì xuất thô. Tổng thống Cyril Ramaphosa còn đề xuất chuyển hướng phần lớn Quyền rút vốn đặc biệt (SDR) — hiện hơn 60% nằm trong tay một nhóm nhỏ nước giàu — sang các nước châu Phi và Nam bán cầu để đầu tư hạ tầng, giáo dục và y tế.",
+            "Dù 42 nước đã xác nhận tham dự và Mỹ là thành viên duy nhất vắng mặt, giới phân tích cảnh báo di sản Nam bán cầu vẫn mong manh: các cam kết tài chính khí hậu chưa được thực hiện đầy đủ, cải cách ngân hàng phát triển đa phương chưa huy động đủ vốn ở quy mô cần thiết, và bản thân tuyên bố của lãnh đạo G20 không có tính ràng buộc. Pretoria thì khẳng định thành công của hội nghị không phụ thuộc vào một thành viên duy nhất, và nhiệm kỳ chủ tịch của Nam Phi sẽ chính thức khép lại ngày 30/11, trước khi Mỹ tiếp quản vai trò chủ tịch năm 2026."
+          ],
+          nguon: [
+            { ten: "G20 South Africa", link: "https://g20.org/news/ramaphosa-sets-bold-agenda-for-south-africas-g20-presidency/" },
+            { ten: "Phnom Penh Post", link: "https://phnompenhpost.com/opinion/end-of-a-cycle-and-the-global-south-legacy-what-south-africa-s-g20-presidency-means-for-the-future-of-global-economic-governance/" },
+            { ten: "Africa Publicity", link: "https://africapublicity.com/south-africa-finalises-security-and-logistics-as-johannesburg-prepares-to-host-historic-first-g20-summit-in-africa/" }
+          ],
+          gio: "Sáng, Nov 14"
+        },
         {
           tieuDe: "G20 Johannesburg: siết an ninh toàn thành phố, diễn tập phong tỏa đường ngày 15/11 trước giờ khai mạc",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Buenos Aires Times", link: "https://www.batimes.com.ar/news/amp/argentina/milei-will-follow-in-trumps-footsteps-and-skip-g20-in-south-africa.phtml" }
           ],
           gio: "Sáng 13/11"
-        },
-        {
-          tieuDe: "G20 Johannesburg sẵn sàng đón lãnh đạo thế giới: bàn giao toàn bộ ngày 15/11, thượng đỉnh 22–23/11 dù Mỹ tẩy chay",
-          baiViet: [
-            "Tỉnh Gauteng của Nam Phi tuyên bố đã hoàn toàn sẵn sàng đón Thượng đỉnh các nhà lãnh đạo G20 — lần đầu tiên trong lịch sử G20 được tổ chức trên đất châu Phi — diễn ra ngày 22–23/11 tại Trung tâm triển lãm Nasrec, Johannesburg. Thủ hiến Panyaza Lesufi cho biết sau nhiều tháng chuẩn bị phối hợp giữa chính quyền tỉnh và trung ương, Gauteng sẽ bàn giao toàn bộ cho chính phủ quốc gia vào ngày 15/11, đúng một tuần trước giờ khai mạc.",
-            "Công tác chuẩn bị bao trùm cả hạ tầng, nước sạch, điện, an toàn và cải tạo khu trung tâm Johannesburg, dưới sự điều phối của Nhóm công tác tổng thống về Johannesburg thành lập sau chuyến thị sát của tổng thống và nội các. Theo Ủy ban Kế hoạch Quốc gia, Nam Phi đã hoàn thành 130 trong tổng số 133 cuộc họp chuẩn bị — gồm các phiên cấp bộ trưởng, đàm phán Sherpa và Hội nghị thượng đỉnh xã hội ba ngày — và toàn bộ đều diễn ra không sự cố.",
-            "Thượng đỉnh sẽ diễn ra dù Mỹ tẩy chay: Tổng thống Cyril Ramaphosa khẳng định hội nghị vẫn tiếp tục, chúng ta sẽ không dừng lại chỉ vì họ không tới, và 42 nước đã xác nhận tham dự — gồm 20 thành viên G20 trừ Mỹ, 16 nước khách mời và 6 tổ chức khu vực. An ninh được siết chặt với lệnh phong tỏa cứng quanh Nasrec và sân vận động FNB từ 21–24/11. Nhiệm kỳ chủ tịch G20 của Nam Phi chính thức khép lại ngày 30/11, sau đó Mỹ sẽ tiếp quản vai trò chủ tịch năm 2026."
-          ],
-          nguon: [
-            { ten: "Jozi Captions (theo trang tỉnh Gauteng)", link: "https://jozicaptions.co.za/g20-summit-gauteng-preparations-on-track/" },
-            { ten: "Africa Publicity", link: "https://africapublicity.com/south-africa-finalises-security-and-logistics-as-johannesburg-prepares-to-host-historic-first-g20-summit-in-africa/" },
-            { ten: "Eastern Mirror Nagaland", link: "https://www.easternmirrornagaland.com/g20-summit-to-proceed-despite-us-absence-says-south-african-president" }
-          ],
-          gio: "Chiều 12/11"
         },
       ]
     }
