@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Sáu 13/11/2026 — bản tin sáng",
+  capNhat: "Thứ Sáu 13/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: 14 nước ký Tuyên bố Antalya, đặt mục tiêu đưa thị trường tín chỉ carbon lên 21 tỷ USD vào 2035",
+          baiViet: [
+            "Ngay trong ngày Tài chính và Thương mại của COP31 tại Antalya, Thổ Nhĩ Kỳ, 14 quốc gia đã cùng ký Tuyên bố Antalya, văn kiện chung của Liên minh Mở rộng Thị trường Carbon (Coalition to Grow Carbon Markets) nhằm dùng chính sách để kéo vốn tư nhân vào hành động khí hậu. Cùng với tuyên bố, liên minh ra mắt một Cẩm nang Chính sách gồm 8 đòn bẩy để các chính phủ khơi thông nhu cầu của doanh nghiệp đối với tín chỉ carbon chất lượng cao. Theo phân tích được trích dẫn trong văn kiện, chính sách hỗ trợ đúng hướng có thể giúp thị trường tín chỉ carbon quốc tế tăng gấp bốn lần, đạt 21 tỷ USD vào năm 2035. 14 nước ký tên gồm Canada, Pháp, Indonesia, Ireland, Italy, Kenya, Luxembourg, New Zealand, Philippines, Singapore, Thụy Sĩ, Thổ Nhĩ Kỳ, Anh và Zambia.",
+            "Thông điệp xuyên suốt của tuyên bố là chuyển từ cam kết sang thực thi: các nước ký tên khẳng định thị trường tín chỉ carbon 'đóng vai trò quan trọng trong việc dẫn dòng vốn tới hành động khí hậu và tăng trưởng tích cực cho khí hậu', và rằng 'điều quan trọng lúc này là triển khai'. Liên minh do các chính phủ dẫn dắt này ra đời từ tháng 6/2025 và đã tăng gấp ba số thành viên, với ba nước đồng chủ tịch là Kenya, Singapore và Anh. Bên lề lễ ký, Ai Cập và Ireland tuyên bố sẽ gia nhập liên minh, trở thành thành viên thứ 15 và 16. Anh cũng công bố sẽ ban hành hướng dẫn thị trường cho các tổ chức trong nước vào mùa xuân 2027, công nhận Cơ chế Tín chỉ của Thỏa thuận Paris cùng các Nguyên tắc Carbon Cốt lõi của ICVCM làm chuẩn mực liêm chính toàn cầu, và bổ sung chương trình hỗ trợ tiếp cận CORSIA trị giá 1 triệu USD.",
+            "Giới doanh nghiệp hoan nghênh văn kiện, cho rằng điều họ cần nhất là quy tắc rõ ràng để yên tâm đầu tư — Chủ tịch Hội đồng Doanh nghiệp Thế giới vì Phát triển Bền vững Peter Bakker nhấn mạnh ưu tiên bây giờ là các chính phủ biến hướng dẫn thành chính sách trong nước. Tuy vậy, con đường phía trước vẫn gập ghềnh: theo ghi nhận trong ngày, đàm phán về tài chính cho Điều 6.2 của Thỏa thuận Paris đã nối lại hôm 12/11 nhưng các đoàn vẫn chưa thống nhất tiền sẽ lấy từ ngân sách cốt lõi của Liên Hợp Quốc hay từ phí sử dụng. Các bộ trưởng sẽ họp bàn tròn do liên minh tổ chức với sự hỗ trợ của Chủ tịch COP31 Thổ Nhĩ Kỳ vào thứ Hai 16/11 để đẩy nhanh hợp tác. Với riêng ngày 13/11 — ngày mà Hiệp hội Thương mại Phát thải Quốc tế còn gọi không chính thức là Ngày Thị trường Carbon — Tuyên bố Antalya là kết quả cụ thể đầu tiên của COP31 trong lĩnh vực tài chính khí hậu, nhưng giá trị thật của nó sẽ chỉ được đo bằng lượng vốn tư nhân thực sự chảy vào các dự án giảm phát thải trong những năm tới."
+          ],
+          nguon: [
+            { ten: "Coalition to Grow Carbon Markets", link: "https://coalitiontogrowcarbonmarkets.org/launch-of-the-antalya-statement/" },
+            { ten: "Asia Today", link: "https://asiatoday.id/read/cop31-antalya-statement-to-grow-carbon-markets-to-21-billion" },
+            { ten: "EIN Presswire", link: "https://companies.einnews.com/pr_news/956366033/countries-issue-joint-antalya-statement-at-cop31-on-policy-implementation-to-grow-international-carbon-credit-markets" }
+          ],
+          gio: "Chiều, Nov 13"
+        },
+        {
+          tieuDe: "Putin bác bỏ mọi thỏa hiệp về Ukraine, chiến sự leo thang với đợt tấn công drone kỷ lục",
+          baiViet: [
+            "Tổng thống Nga Vladimir Putin ngày 12/11 nói với hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner tại Điện Kremlin rằng Nga sẽ không nhân nhượng trong các yêu sách cứng rắn nhằm chấm dứt chiến sự ở Ukraine. Ông Putin khẳng định sẽ không giảm nhẹ yêu sách kiểm soát các vùng lãnh thổ mà Nga tuyên bố sáp nhập, bác bỏ khả năng triển khai lực lượng gìn giữ hòa bình nước ngoài tại Ukraine — điều ông gọi là 'sự tiếp nối của chiến tranh' — và gạt bỏ ý tưởng về các vùng đệm phi quân sự, khi tuyên bố 'đối với chúng tôi chỉ có một đường phân định: biên giới quốc gia'. Những phát biểu này dội một gáo nước lạnh vào hy vọng về một thỏa thuận hòa bình đang nhen nhóm, sau khi Tổng thống Ukraine Volodymyr Zelensky nói có 'cửa sổ cơ hội' để đạt kết quả trước năm 2027.",
+            "Chiến sự leo thang ngay sau cánh cửa ngoại giao khép lại. Bộ Quốc phòng Nga ngày 13/11 cho biết đã bắn hạ 1.198 máy bay không người lái của Ukraine trong đêm, trải rộng trên hơn 15 vùng — một trong những đợt tấn công bằng drone lớn nhất mà Kyiv từng tung ra — khiến ít nhất 4 người thiệt mạng tại một khu công nghiệp ở vùng Volgograd, nơi có nhà máy lọc dầu và nhà máy hóa chất. Trước đó một ngày, Nga cũng phóng nhiều đợt drone vào thủ đô Kyiv đúng lúc ông Putin tiếp các đặc phái viên Mỹ, khiến ít nhất một người thiệt mạng. Ở phía bắc, quân đội Phần Lan cho biết đã phát hiện một vụ tấn công nhằm vào tàu chiến Nga tại Vịnh Phần Lan; hãng truyền thông Yle dẫn nguồn cho biết Cơ quan An ninh Ukraine đứng sau vụ việc, trong khi Estonia, Latvia và Litva hôm 12/11 đã phải cảnh báo người dân tìm nơi trú ẩn vì drone xuất hiện trong không phận, buộc máy bay chiến đấu NATO xuất kích.",
+            "Dù vậy, kênh ngoại giao vẫn chưa đóng lại. Ông Witkoff cho biết ông Putin đã đồng ý để các đại diện châu Âu tham gia vòng đàm phán tiếp theo, điều mà Kyiv và các đồng minh châu Âu lâu nay đòi hỏi, đồng thời cảnh báo không nên có một 'Yalta mới' chia châu Âu thành các vùng ảnh hưởng. Tại Dublin, ông Zelensky cho biết Ukraine vừa bị áp thêm hạn chế đối với dịch vụ internet vệ tinh Starshield — tuyến liên lạc then chốt ở tiền tuyến — khiến Kyiv khó đánh chặn các drone phản lực của Nga hơn, đồng nghĩa 'nhiều người của chúng tôi thiệt mạng hơn'. Về mặt nhân đạo, hãng thông tấn TASS đưa tin đợt trao đổi tù binh đã thống nhất tại Abu Dhabi có thể diễn ra trong hai đến ba tuần tới, và ông Kushner gọi đây là đợt trao đổi có thể lớn nhất từ trước tới nay của cuộc chiến. Trong khi đó, Ukraine tiếp tục đẩy mạnh tấn công vào ngành năng lượng Nga suốt 18 tháng qua nhằm cắt nguồn thu tài trợ chiến tranh, còn Nga vẫn dồn dập đánh vào lưới điện Ukraine khi mùa đông đang tới gần."
+          ],
+          nguon: [
+            { ten: "Dawn", link: "https://www.dawn.com/news/2044186" },
+            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/russia-says-four-killed-in-major-ukraine-drone-barrage/article71697111.ece" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss" }
+          ],
+          gio: "Chiều, Nov 13"
+        },
         {
           tieuDe: "COP31 bước vào ngày Tài chính và Thương mại: tiền cho khí hậu vẫn là nút thắt lớn nhất",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 13/11"
         },
-        {
-          tieuDe: "COP31: Thượng đỉnh lãnh đạo khép lại — từ mai chuyển sang ngày Tài chính & Thương mại, tranh cãi về tiền vẫn chưa ngã ngũ",
-          baiViet: [
-            "Hôm nay 12/11, Hội nghị thượng đỉnh các nhà lãnh đạo trong khuôn khổ COP31 tại Antalya bước sang ngày thứ hai và cũng là ngày cuối, khép lại phần phát biểu của các nguyên thủ và chuyển sang các bàn tròn chuyên đề: thập kỷ thứ hai của Thỏa thuận Paris và khả năng tiếp cận tài chính khí hậu, khả năng chống chịu của đô thị, cùng bàn tròn về rác thải bằng không, kinh tế tuần hoàn và khí mê-tan. Từ ngày mai 13/11, hội nghị bước vào ngày chủ đề Tài chính & Thương mại — nơi những bất đồng lớn nhất sẽ được đưa ra bàn.",
-            "Tranh cãi lớn nhất vẫn là tiền. Nhóm các nước đang phát triển đòi đưa cam kết tài chính khí hậu vào chương trình nghị sự chính thức — bao gồm tài chính thích ứng và hỗ trợ cho Quỹ Khí hậu Xanh — trong khi các nước phát triển, trong đó có EU và Canada, phản đối mở thêm hạng mục. Lộ trình do Brazil dẫn đầu đề xuất huy động 1.270–1.410 tỷ USD mỗi năm cho các nước đang phát triển vào năm 2035; Ủy viên khí hậu EU Wopke Hoekstra thì nói thẳng rằng các yêu cầu tài chính mới là không còn cửa. Ấn Độ, trong khi đó, tái khẳng định phản đối thuế biên giới carbon của EU và từ chối cam kết điện khí hóa mà Thổ Nhĩ Kỳ đang thúc đẩy.",
-            "Điểm sáng hiếm hoi là mục tiêu điện khí hóa của nước chủ nhà: nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu từ khoảng 23% hiện nay lên 35% vào năm 2035, với sự ủng hộ của 180 doanh nghiệp có tổng doanh thu gần 1.700 tỷ USD. Nhưng giới chuyên gia cảnh báo mục tiêu này thiếu yêu cầu rõ ràng rằng lượng điện tăng thêm phải đến từ nguồn carbon thấp, và kỳ vọng về một đột phá lớn về nhiên liệu hóa thạch vẫn thấp — đúng như nhận định của đặc phái viên khí hậu EU: kỳ vọng thấp, đó chỉ là phản ánh thực tế. Hội nghị tiếp tục tới ngày 20/11."
-          ],
-          nguon: [
-            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" },
-            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
-            { ten: "Lexblog", link: "https://www.lexblog.com/2026/11/10/business-priorities-for-cop31/" }
-          ],
-          gio: "Chiều 12/11"
-        },
-        {
-          tieuDe: "WMO: 12 năm qua đều nằm trong nhóm nóng nhất lịch sử — 4 năm gần đây nóng nhất từ trước tới nay",
-          baiViet: [
-            "Bản cập nhật tình trạng khí hậu của Tổ chức Khí tượng Thế giới (WMO), công bố đúng ngày khai mạc COP31, cho thấy mỗi năm trong 12 năm qua đều nằm trong nhóm những năm nóng nhất từng được ghi nhận — và 4 năm gần đây nhất chính là 4 năm nóng nhất. Đây là bức nền khoa học mà Tổng thư ký Liên Hợp Quốc António Guterres dùng để thúc giục các lãnh đạo tại Antalya nghiêm túc với cuộc khủng hoảng, sau một năm chứng kiến hàng loạt hiện tượng thời tiết cực đoan tàn khốc.",
-            "Báo cáo khoảng cách phát thải 2026 của Chương trình Môi trường Liên Hợp Quốc (UNEP) cũng vẽ bức tranh ảm đạm không kém: mức tăng nhiệt toàn cầu được dự báo sẽ vượt ngưỡng 1,5°C so với thời tiền công nghiệp theo Thỏa thuận Paris. Trong khi đó, các nhà khoa học cảnh báo khí thải từ đốt nhiên liệu hóa thạch sẽ còn ở gần mức kỷ lục trong năm nay — đúng lúc các nước tại COP31 vẫn chưa thống nhất được lộ trình cắt giảm nhiên liệu hóa thạch kể từ khi nhất trí về hướng đi này năm 2023.",
-            "Khoảng cách giữa khoa học và chính sách cũng thể hiện ở chỗ: tại COP30 năm ngoái ở Brazil, nhiên liệu hóa thạch thậm chí không được nhắc tên trong thỏa thuận cuối cùng. Tại Antalya, hơn 80 nước kêu gọi có lộ trình rời xa nhiên liệu hóa thạch, nhưng nước chủ nhà Thổ Nhĩ Kỳ lại đẩy mục tiêu điện khí hóa thay cho cam kết cắt giảm than, dầu và khí đốt cụ thể — và vừa ca ngợi phát hiện hai mỏ dầu mới chứa ước tính 135 triệu thùng dầu thô."
-          ],
-          nguon: [
-            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" },
-            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
-            { ten: "mkniralo", link: "https://www.mkniralo.com/articles/cop31-opens-antalya-finance-agenda-fight-2026/" }
-          ],
-          gio: "Chiều 12/11"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Cuba chỉ trích G7 'lặp lại luận điệu của Mỹ', phớt lờ tác động của lệnh cấm vận",
+          baiViet: [
+            "Ngoại trưởng Cuba Bruno Rodríguez ngày 12/11 lên tiếng chỉ trích tuyên bố chung của các ngoại trưởng G7 — công bố hôm 11/11 sau hai ngày họp tại Paris — vì phớt lờ tác hại của lệnh cấm vận của Mỹ đối với Cuba, đồng thời tán thành những cái cớ mà ông gọi là bịa đặt để trừng phạt đảo quốc Caribe. Trong bài đăng trên mạng xã hội X, ông Rodríguez nói tuyên bố của G7 'bỏ qua thực tế về tác động tàn khốc của lệnh phong tỏa, cuộc chiến kinh tế và lệnh phong tỏa năng lượng mà chính phủ Mỹ áp đặt lên Cuba'. Ông gọi chính sách của Washington đối với Cuba là 'diệt chủng' và là hành vi vi phạm 'trắng trợn, nghiêm trọng và có hệ thống' đối với nhân quyền của người dân Cuba và chủ quyền của các nước thứ ba.",
+            "Điểm mâu thuẫn nằm ở cách hai bên mô tả cùng một thực tế. Tuyên bố của G7 bày tỏ quan ngại về 'cuộc khủng hoảng kinh tế sâu sắc và nhu cầu nhân đạo' của Cuba, đồng thời kêu gọi cải thiện việc cung cấp viện trợ nhân đạo — nhưng không hề nhắc tới lệnh cấm vận, các biện pháp trừng phạt kinh tế hay những đe dọa can thiệp quân sự của chính quyền Tổng thống Trump. Văn kiện cũng không đề cập sắc lệnh hành pháp ngày 29/1 của Washington, vốn đặt ra quy trình áp thuế bổ sung đối với hàng hóa từ các nước cung cấp dầu cho Cuba. Ông Rodríguez nhắc lại rằng ngày 28/10, Đại hội đồng Liên Hợp Quốc đã thông qua nghị quyết kêu gọi chấm dứt lệnh cấm vận mà Mỹ duy trì hơn sáu thập kỷ, và cộng đồng quốc tế một lần nữa lên án lệnh cấm vận này, trong khi G7 lại chọn 'lặp lại những lập luận sai lầm do Washington bịa ra'.",
+            "Lời chỉ trích này nối tiếp một tuần ngoại giao căng thẳng của Havana: tại Hội nghị Thượng đỉnh Ibero-Mỹ lần thứ 30 ở Madrid hôm 4–5/11, Cuba đã tố cáo việc Mỹ siết chặt trừng phạt, trong đó có điều mà phía Cuba gọi là lệnh phong tỏa năng lượng. Ông Rodríguez cho biết trong 10 tháng qua, người dân Cuba đã phải chịu đợt siết cấm vận chưa từng có — phong tỏa năng lượng tương đương phong tỏa hải quân cùng các biện pháp trừng phạt thứ cấp nhằm vào cá nhân, tổ chức muốn giao thương với đảo quốc — và gọi đó là 'cuộc chiến bóp nghẹt kinh tế đầy ám ảnh' bị đẩy tới 'mức độ trừng phạt tập thể vô nhân đạo'. Phản ứng của Havana cho thấy phần về Cuba trong tuyên bố Paris — vốn chỉ là một đoạn nhỏ bên cạnh các nội dung lớn về Đài Loan và Ukraine — đang trở thành một điểm nóng ngoại giao mới, khi Cuba coi G7 đã đứng về phía Washington còn các nước G7 thì khẳng định mối quan tâm của họ thuần túy là nhân đạo."
+          ],
+          nguon: [
+            { ten: "IANS qua MENAFN", link: "https://menafn.com/1111955977/G7-Repeats-US-Falsehoods-About-Cuba-Cuban-Foreign-Minister" },
+            { ten: "Xinhua qua CGTN", link: "https://news.cgtn.com/news/2026-11-13/Cuban-FM-says-G7-repeating-US-falsehoods-about-Cuba-1S1YE1JhkY0/p.html" },
+            { ten: "The Hans India (IANS)", link: "https://www.thehansindia.com/news/international/g7-repeats-us-falsehoods-about-cuba-cuban-foreign-minister-1141691" }
+          ],
+          gio: "Chiều, Nov 13"
+        },
         {
           tieuDe: "G7 ra tuyên bố chung mạnh nhất từ trước tới nay về hoạt động của Trung Quốc ở phía đông Đài Loan",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng 13/11"
         },
-        {
-          tieuDe: "Mỹ vắng mặt ở COP31 năm thứ hai liên tiếp — và sẽ rời hẳn Công ước khí hậu của LHQ vào tháng 2/2027",
-          baiViet: [
-            "Mỹ tiếp tục vắng mặt ở cấp chính quyền tại COP31 — năm thứ hai liên tiếp, theo Reuters — sau khi Tổng thống Donald Trump rút nước này khỏi hợp tác khí hậu quốc tế. Sự vắng mặt của nền kinh tế lớn nhất thế giới để lại một khoảng trống mà các nước đang phát triển trong G20 đang tìm cách lấp đầy bằng tiếng nói của mình, trong khi Chủ tịch Trung Quốc Tập Cận Bình cũng không tới Antalya.",
-            "Đây không chỉ là một kỳ họp vắng mặt. Mỹ đã chính thức rút khỏi Thỏa thuận Paris, hiệu lực từ tháng 1/2026, và sẽ rời khỏi chính Công ước khung của Liên Hợp Quốc về biến đổi khí hậu (UNFCCC) vào ngày 27/2/2027 — trở thành nước đầu tiên trong lịch sử rời khỏi công ước này. Kể từ đó, Washington sẽ không còn ngồi ở bàn đàm phán khí hậu toàn cầu, dù vẫn là một trong những nước phát thải lớn nhất thế giới.",
-            "Hệ quả thực tế đã thấy rõ tại Antalya: các cuộc thảo luận về tài chính khí hậu — vốn dựa trên nghĩa vụ pháp lý của các nước phát triển theo Điều 9.1 của Thỏa thuận Paris — mất đi một bên đóng góp lớn, trong khi các nước đang phát triển vẫn đòi đưa tài chính thích ứng và hỗ trợ Quỹ Khí hậu Xanh vào chương trình nghị sự chính thức. Với Mỹ đứng ngoài, trọng tâm đàm phán chuyển sang EU, Trung Quốc và khối G20 — và sang câu hỏi ai sẽ bù vào phần tài chính còn thiếu."
-          ],
-          nguon: [
-            { ten: "Lexblog", link: "https://www.lexblog.com/2026/11/10/business-priorities-for-cop31/" },
-            { ten: "HeadlinesXtra", link: "https://headlinesxtra.com/2026/11/11/cop31-leaders-climate-promises-fossil-fuel-transition-november-2026/" },
-            { ten: "TFI Post", link: "https://tfipost.com/2026/11/cop31-opens-in-antalya-with-a-finance-fight-and-a-long-list-of-unfinished-business/" }
-          ],
-          gio: "Chiều 12/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg: siết an ninh toàn thành phố, diễn tập phong tỏa đường ngày 15/11 trước giờ khai mạc",
+          baiViet: [
+            "Johannesburg đang bước vào tuần cao điểm chuẩn bị cho Thượng đỉnh các nhà lãnh đạo G20 ngày 22–23/11 tại Trung tâm triển lãm Nasrec, với một kế hoạch an ninh liên ngành quy mô lớn và chương trình chỉnh trang đô thị trên toàn thành phố. Cảnh sát Quốc gia Nam Phi (SAPS), Cảnh sát Đô thị Johannesburg (JMPD), lực lượng giao thông và các đơn vị quản lý thảm họa phối hợp chặt chẽ để bảo vệ các tuyến đường trọng yếu, khách sạn và địa điểm hội nghị, trong đó hệ thống hộ tống đoàn đại biểu và giám sát tăng cường tại các cửa ngõ là trọng tâm. Kế hoạch còn gồm tuần tra công khai dày đặc, kiểm soát vành đai quanh các địa điểm và giám sát không lưu, nhằm bảo đảm an toàn cho hàng chục đoàn lãnh đạo sẽ đổ về thành phố chỉ trong vài ngày tới.",
+            "Giao thông là thách thức lớn nhất trước mắt người dân Johannesburg. Cơ quan Quản lý Giao thông Đường bộ (RTMC) cho biết một buổi diễn tập phong tỏa sẽ diễn ra ngày 15/11 từ 9h đến 13h, với các đợt đóng đường ngắt quãng, thu hẹp làn xe và phân luồng trên các tuyến cao tốc N1, N12, M1 cùng nhiều trục chính như Rivonia, Oxford, Jan Smuts, Grayston và Nasrec, cũng như các tuyến phố ở Sandton và Parktown. Từ 17 đến 23/11, không phận quanh Johannesburg sẽ bị hạn chế, khiến lịch bay tại các sân bay quốc tế OR Tambo, Lanseria và căn cứ không quân Waterkloof có thể bị xáo trộn, trong đó máy bay chở nguyên thủ được ưu tiên khung giờ hạ cánh; hành khách được khuyên tới sân bay sớm 3 giờ với chuyến nội địa và 4 giờ với chuyến quốc tế.",
+            "Song song với an ninh, chính quyền tỉnh Gauteng đẩy nhanh tiến độ chỉnh trang: trong cuộc họp báo hôm 11/11 sau buổi làm việc với Ngoại trưởng Ronald Lamola, Thủ hiến Panyaza Lesufi cho biết đã sửa 1.523 ổ gà, đạt 97% kế hoạch, cùng với việc làm mới 456 vạch kẻ đường, khôi phục chiếu sáng trên 23.052 m² và sửa chữa 21.274 cột đèn đường; hơn 30 trạm biến áp được nâng cấp, hệ thống dự phòng nước tại trạm bơm Eikenhof được củng cố, còn hành lang M1 từ Sandton tới Nasrec — tuyến đường chính của thượng đỉnh — được chăm chút đặc biệt. Ông Lesufi khẳng định những nâng cấp này sẽ còn phục vụ người dân rất lâu sau khi hội nghị khép lại. Tuy vậy, không ít ý kiến cảnh báo rằng những vấn đề cố hữu như hạ tầng xuống cấp và an toàn công cộng không thể giải quyết chỉ bằng các biện pháp ngắn hạn trước thềm một sự kiện lớn."
+          ],
+          nguon: [
+            { ten: "South African Daily", link: "https://www.southafricandaily.co.za/news/johannesburg-rolls-out-tight-security-and-citywide-upgrades-ahead-of-g20-summit" },
+            { ten: "Gauteng News", link: "https://gauteng.news/2026/03/02/g20-summit-road-closures-flight-delays-2026/" },
+            { ten: "Jozi Captions (theo trang tỉnh Gauteng)", link: "https://jozicaptions.co.za/g20-summit-gauteng-preparations-on-track/" }
+          ],
+          gio: "Chiều, Nov 13"
+        },
         {
           tieuDe: "G20 Johannesburg mất thêm lãnh đạo lớn: Tập Cận Bình không dự, Milei nối gót Trump tẩy chay",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Eastern Mirror Nagaland", link: "https://www.easternmirrornagaland.com/g20-summit-to-proceed-despite-us-absence-says-south-african-president" }
           ],
           gio: "Chiều 12/11"
-        },
-        {
-          tieuDe: "Đàm phán Abu Dhabi khép lại: Nga–Ukraine đồng ý trao đổi tù binh quy mô lớn, nhưng chưa có lệnh ngừng bắn",
-          baiViet: [
-            "Hai ngày đàm phán ba bên Mỹ–Nga–Ukraine tại Abu Dhabi đã kết thúc hôm thứ Tư 11/11 mà không có đột phá về lệnh ngừng bắn hay lãnh thổ — vòng đàm phán trực tiếp đầu tiên giữa Nga và Ukraine sau chín tháng, và vòng ba bên đầu tiên kể từ tháng 2. Ngày làm việc thứ hai chỉ kéo dài chưa đầy hai giờ. Kết quả cụ thể duy nhất: thỏa thuận về nguyên tắc cho một cuộc trao đổi tù binh quy mô lớn, với hơn 1.000 người mỗi bên, có thể diễn ra trong hai đến ba tuần tới.",
-            "Bất đồng cốt lõi vẫn là trình tự các bước: Ukraine khăng khăng Nga phải ngừng bắn trước khi bàn tới khuôn khổ an ninh châu Âu, trong khi Nga muốn thảo luận bảo đảm an ninh và lãnh thổ song song. Tổng thống Ukraine Volodymyr Zelenskyy hoan nghênh việc Washington đưa bảo đảm an ninh — được cho là mô phỏng theo Điều 5 của NATO — lên bàn đàm phán, nhưng phía Nga được cho là sẽ đòi thêm nhượng bộ lãnh thổ để đổi lấy. Ngoại trưởng Mỹ Marco Rubio gọi ngày đầu tiên là 'rất hiệu quả', còn ông Zelenskyy gọi các cuộc thảo luận là 'mang tính xây dựng'.",
-            "Ngoại giao vẫn tiếp tục chạy: đặc phái viên Mỹ Jared Kushner và Steve Witkoff sẽ tới Matxcơva hôm nay để gặp Tổng thống Vladimir Putin, rồi bay sang Dublin gặp ông Zelenskyy bên lề cuộc họp Cộng đồng Chính trị châu Âu. Các đại diện Đức, Pháp và Anh đã tháp tùng đoàn Ukraine tới Abu Dhabi nhưng không ngồi vào bàn đàm phán với Nga — dù vậy, phía Ukraine coi việc Washington thừa nhận không thể có thỏa thuận hòa bình nếu thiếu các đồng minh châu Âu là một kết quả quan trọng. Giao tranh trên thực địa không hề dừng lại trong hai ngày đàm phán."
-          ],
-          nguon: [
-            { ten: "Firstpost", link: "https://www.firstpost.com/world/abu-dhabi-talks-over-with-no-russia-ukraine-truce-deal-in-sight-14059324.html" },
-            { ten: "Le Temps (Thụy Sĩ)", link: "https://www.letemps.ch/en/world/russia-ukraine-talks-a-prisoner-exchange-promised-but-no-progress-on-a-ceasefire" },
-            { ten: "Atlantic Council", link: "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/" }
-          ],
-          gio: "Sáng 12/11"
         },
       ]
     }
