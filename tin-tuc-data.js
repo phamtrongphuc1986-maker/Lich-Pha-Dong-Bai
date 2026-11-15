@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Bảy 14/11/2026 — bản tin chiều",
+  capNhat: "Chủ Nhật 15/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 bước sang tuần hai trong chia rẽ: Stiell giục đẩy nhanh đàm phán, phe nhiên liệu hóa thạch kháng cự mục tiêu cứng",
+          baiViet: [
+            "Bước sang tuần thứ hai tại Antalya, Tổng thư ký khí hậu Liên Hợp Quốc Simon Stiell đã giục các đoàn đàm phán đẩy nhanh tiến độ khi tranh cãi về nhiên liệu hóa thạch đe dọa thỏa thuận cuối cùng của COP31. Theo Reuters, các nhà sản xuất và tiêu thụ nhiên liệu hóa thạch lớn đang kháng cự mọi thỏa thuận đặt mục tiêu cứng mới hay chuyển dịch khỏi dầu, khí đốt và than, đặt ra thách thức cho nước chủ nhà Thổ Nhĩ Kỳ và đoàn đàm phán do Australia dẫn đầu, vốn còn một tuần để đạt được thỏa thuận mà các nhà hoạt động khí hậu cho là cần thiết. Thổ Nhĩ Kỳ muốn đưa kế hoạch mở rộng điện khí hóa toàn diện vào trung tâm thỏa thuận, cho rằng thay xe, lò sưởi và thiết bị chạy nhiên liệu hóa thạch bằng điện sẽ giúp cắt giảm phát thải.",
+            "Ngày Tài chính 13/11 đặt tiền bạc vào trung tâm nghị sự: ông Stiell khai mạc Đối thoại cấp bộ trưởng về tài chính khí hậu và nhấn mạnh tài chính khí hậu phải giúp các nước thoát khỏi bẫy nợ, trong lúc các bộ trưởng họp bàn lộ trình từ mục tiêu 300 tỷ USD mỗi năm đã thống nhất tại COP29 lên mục tiêu rộng hơn 1,3 nghìn tỷ USD mỗi năm vào năm 2035. Ủy ban châu Âu cũng giới thiệu các hành động khí hậu theo Hiệp ước Địa Trung Hải tại sự kiện bên lề. Tuy vậy, tranh cãi về Chương trình công tác tài chính khí hậu (CFWP) vẫn chưa ngã ngũ: bản dự thảo 104 đoạn lưu hành rạng sáng 14/11 vẫn bỏ ngỏ phạm vi, thời hạn và phương thức làm việc, trong khi nhóm G77 và Trung Quốc đòi tăng gấp ba tài chính thích ứng.",
+            "Song song với tranh cãi về tiền là cuộc chiến về khoa học khí hậu. Liên minh châu Âu tuyên bố sẽ 'chiến đấu' vì khoa học sau khi cáo buộc một số nước tìm cách làm suy yếu Ủy ban Liên chính phủ về Biến đổi Khí hậu (IPCC). Hàng chục nước ở châu Âu, châu Phi và Thái Bình Dương muốn bộ báo cáo đánh giá lớn tiếp theo của IPCC kịp ra mắt để phục vụ đợt kiểm kê toàn cầu năm 2028, trong khi Saudi Arabia, Trung Quốc và Ấn Độ muốn lùi tới năm 2029. Tổ chức Greenpeace cho rằng đã 'đến lúc ngừng chần chừ': bản 'tóm tắt suy ngẫm' mà chủ tịch đoàn COP31 công bố hôm 13/11 mới chỉ là danh sách lựa chọn — gồm chuyển đổi khỏi nhiên liệu hóa thạch, bảo vệ rừng và đại dương, ứng phó vượt ngưỡng 1,5 độ C — chứ chưa phải cam kết đã thống nhất, và cần được củng cố chứ không được pha loãng. Đoàn đàm phán Australia nhận ý kiến đóng góp tới tối thứ Bảy 14/11 để soạn dự thảo văn kiện chung vào đầu tuần sau."
+          ],
+          nguon: [
+            { ten: "CNA (Reuters)", link: "https://www.channelnewsasia.com/world/cop31-fossil-fuels-turkiye-climate-talks-6550236" },
+            { ten: "Dawn", link: "https://www.dawn.com/news/2044435/fight-over-climate-science-intensifies-at-cop31-in-antalya" },
+            { ten: "The Express Tribune (AFP)", link: "https://tribune.com.pk/story/2640229/cop31-talks-face-divisions-over-fossil-fuel-phase-out" }
+          ],
+          gio: "Sáng, Nov 15"
+        },
+        {
+          tieuDe: "Kế hoạch hòa bình 28 điểm của Trump vào bàn Geneva hôm nay: Zelensky tiết lộ Mỹ đề nghị đổi Donbas lấy ghế NATO",
+          baiViet: [
+            "Quan chức Mỹ, Ukraine và châu Âu họp tại Geneva hôm nay, Chủ nhật 15/11, để bàn bản dự thảo kế hoạch hòa bình 28 điểm của Washington nhằm chấm dứt chiến sự Nga–Ukraine. Phái đoàn Mỹ do Ngoại trưởng Marco Rubio và đặc phái viên Steve Witkoff dẫn đầu, phía Ukraine do Chánh văn phòng Tổng thống Andriy Yermak dẫn đầu, cùng các cố vấn an ninh quốc gia của Pháp, Anh, Đức và Liên minh châu Âu. Tổng thống Donald Trump — người đặt hạn chót thứ Năm để Tổng thống Volodymyr Zelensky chấp thuận đề xuất — nói rằng bản kế hoạch hiện tại 'không phải lời đề nghị cuối cùng' của ông.",
+            "Tổng thống Zelensky hôm 14/11 tiết lộ một chi tiết gây chấn động trong đàm phán: lần đầu tiên phía Mỹ đặt câu hỏi liệu Ukraine có sẵn sàng rút khỏi vùng Donbas ở miền đông nếu được phép gia nhập NATO hay không. 'Người Mỹ nêu câu hỏi: Nếu Ukraine gia nhập NATO thì sao? Ukraine có rút khỏi Donbas không? Đây là lần đầu tiên điều này được nêu ra', ông Zelensky nói với báo giới sau hai ngày đàm phán ba bên tại Abu Dhabi. Ông nhấn mạnh Ukraine đang bàn về các bảo đảm an ninh cụ thể từ NATO và EU, và mọi quyết định nhượng bộ lãnh thổ đều cần sự đồng ý của người dân Ukraine. Ông cũng cho biết Nga đã bác đề xuất ngừng bắn nhắm vào hạ tầng năng lượng trong đàm phán Abu Dhabi, vốn kết thúc mà không có đột phá.",
+            "Châu Âu đang đưa ra bản sửa đổi của riêng mình. Các lãnh đạo phương Tây hôm thứ Bảy nói kế hoạch của Mỹ là 'cơ sở để đàm phán' nhưng cần 'làm thêm', trong lúc một bản dự thảo châu Âu — dựa trên đề xuất của Mỹ nhưng đẩy lùi các nhượng bộ lãnh thổ và giới hạn đối với quân đội Ukraine — đã được gửi cho Kyiv và Washington. Thủ tướng Canada Mark Carney cho biết sẽ trao đổi với ông Zelensky trong ngày Chủ nhật, còn Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan nói sẽ điện đàm với Tổng thống Nga Vladimir Putin vào thứ Hai và chia sẻ kết quả với các quan chức châu Âu và Mỹ. Một cuộc họp riêng giữa phái đoàn Mỹ và Nga cũng đang được lên kế hoạch, dù không diễn ra tại Geneva."
+          ],
+          nguon: [
+            { ten: "AL24 News (Reuters)", link: "https://al24news.dz/en/us-ukraine-and-european-officials-meet-in-geneva-to-discuss-trumps-peace-plan/" },
+            { ten: "The Nigerian News (AFP)", link: "https://thenigeriannews.com/2026/11/14/us-proposes-ukraine-cede-territory-for-nato-membership-zelensky/" },
+            { ten: "Pukmedia (Reuters)", link: "https://pukmedia.com/EN/Details/79711" }
+          ],
+          gio: "Sáng, Nov 15"
+        },
         {
           tieuDe: "COP31: bản dự thảo 104 đoạn về tài chính khí hậu lưu hành rạng sáng 14/11 — nước đang phát triển đòi gấp ba tài chính thích ứng",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 14"
         },
-        {
-          tieuDe: "COP31: 14 nước ký Tuyên bố Antalya, đặt mục tiêu đưa thị trường tín chỉ carbon lên 21 tỷ USD vào 2035",
-          baiViet: [
-            "Ngay trong ngày Tài chính và Thương mại của COP31 tại Antalya, Thổ Nhĩ Kỳ, 14 quốc gia đã cùng ký Tuyên bố Antalya, văn kiện chung của Liên minh Mở rộng Thị trường Carbon (Coalition to Grow Carbon Markets) nhằm dùng chính sách để kéo vốn tư nhân vào hành động khí hậu. Cùng với tuyên bố, liên minh ra mắt một Cẩm nang Chính sách gồm 8 đòn bẩy để các chính phủ khơi thông nhu cầu của doanh nghiệp đối với tín chỉ carbon chất lượng cao. Theo phân tích được trích dẫn trong văn kiện, chính sách hỗ trợ đúng hướng có thể giúp thị trường tín chỉ carbon quốc tế tăng gấp bốn lần, đạt 21 tỷ USD vào năm 2035. 14 nước ký tên gồm Canada, Pháp, Indonesia, Ireland, Italy, Kenya, Luxembourg, New Zealand, Philippines, Singapore, Thụy Sĩ, Thổ Nhĩ Kỳ, Anh và Zambia.",
-            "Thông điệp xuyên suốt của tuyên bố là chuyển từ cam kết sang thực thi: các nước ký tên khẳng định thị trường tín chỉ carbon 'đóng vai trò quan trọng trong việc dẫn dòng vốn tới hành động khí hậu và tăng trưởng tích cực cho khí hậu', và rằng 'điều quan trọng lúc này là triển khai'. Liên minh do các chính phủ dẫn dắt này ra đời từ tháng 6/2025 và đã tăng gấp ba số thành viên, với ba nước đồng chủ tịch là Kenya, Singapore và Anh. Bên lề lễ ký, Ai Cập và Ireland tuyên bố sẽ gia nhập liên minh, trở thành thành viên thứ 15 và 16. Anh cũng công bố sẽ ban hành hướng dẫn thị trường cho các tổ chức trong nước vào mùa xuân 2027, công nhận Cơ chế Tín chỉ của Thỏa thuận Paris cùng các Nguyên tắc Carbon Cốt lõi của ICVCM làm chuẩn mực liêm chính toàn cầu, và bổ sung chương trình hỗ trợ tiếp cận CORSIA trị giá 1 triệu USD.",
-            "Giới doanh nghiệp hoan nghênh văn kiện, cho rằng điều họ cần nhất là quy tắc rõ ràng để yên tâm đầu tư — Chủ tịch Hội đồng Doanh nghiệp Thế giới vì Phát triển Bền vững Peter Bakker nhấn mạnh ưu tiên bây giờ là các chính phủ biến hướng dẫn thành chính sách trong nước. Tuy vậy, con đường phía trước vẫn gập ghềnh: theo ghi nhận trong ngày, đàm phán về tài chính cho Điều 6.2 của Thỏa thuận Paris đã nối lại hôm 12/11 nhưng các đoàn vẫn chưa thống nhất tiền sẽ lấy từ ngân sách cốt lõi của Liên Hợp Quốc hay từ phí sử dụng. Các bộ trưởng sẽ họp bàn tròn do liên minh tổ chức với sự hỗ trợ của Chủ tịch COP31 Thổ Nhĩ Kỳ vào thứ Hai 16/11 để đẩy nhanh hợp tác. Với riêng ngày 13/11 — ngày mà Hiệp hội Thương mại Phát thải Quốc tế còn gọi không chính thức là Ngày Thị trường Carbon — Tuyên bố Antalya là kết quả cụ thể đầu tiên của COP31 trong lĩnh vực tài chính khí hậu, nhưng giá trị thật của nó sẽ chỉ được đo bằng lượng vốn tư nhân thực sự chảy vào các dự án giảm phát thải trong những năm tới."
-          ],
-          nguon: [
-            { ten: "Coalition to Grow Carbon Markets", link: "https://coalitiontogrowcarbonmarkets.org/launch-of-the-antalya-statement/" },
-            { ten: "Asia Today", link: "https://asiatoday.id/read/cop31-antalya-statement-to-grow-carbon-markets-to-21-billion" },
-            { ten: "EIN Presswire", link: "https://companies.einnews.com/pr_news/956366033/countries-issue-joint-antalya-statement-at-cop31-on-policy-implementation-to-grow-international-carbon-credit-markets" }
-          ],
-          gio: "Chiều, Nov 13"
-        },
-        {
-          tieuDe: "Putin bác bỏ mọi thỏa hiệp về Ukraine, chiến sự leo thang với đợt tấn công drone kỷ lục",
-          baiViet: [
-            "Tổng thống Nga Vladimir Putin ngày 12/11 nói với hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner tại Điện Kremlin rằng Nga sẽ không nhân nhượng trong các yêu sách cứng rắn nhằm chấm dứt chiến sự ở Ukraine. Ông Putin khẳng định sẽ không giảm nhẹ yêu sách kiểm soát các vùng lãnh thổ mà Nga tuyên bố sáp nhập, bác bỏ khả năng triển khai lực lượng gìn giữ hòa bình nước ngoài tại Ukraine — điều ông gọi là 'sự tiếp nối của chiến tranh' — và gạt bỏ ý tưởng về các vùng đệm phi quân sự, khi tuyên bố 'đối với chúng tôi chỉ có một đường phân định: biên giới quốc gia'. Những phát biểu này dội một gáo nước lạnh vào hy vọng về một thỏa thuận hòa bình đang nhen nhóm, sau khi Tổng thống Ukraine Volodymyr Zelensky nói có 'cửa sổ cơ hội' để đạt kết quả trước năm 2027.",
-            "Chiến sự leo thang ngay sau cánh cửa ngoại giao khép lại. Bộ Quốc phòng Nga ngày 13/11 cho biết đã bắn hạ 1.198 máy bay không người lái của Ukraine trong đêm, trải rộng trên hơn 15 vùng — một trong những đợt tấn công bằng drone lớn nhất mà Kyiv từng tung ra — khiến ít nhất 4 người thiệt mạng tại một khu công nghiệp ở vùng Volgograd, nơi có nhà máy lọc dầu và nhà máy hóa chất. Trước đó một ngày, Nga cũng phóng nhiều đợt drone vào thủ đô Kyiv đúng lúc ông Putin tiếp các đặc phái viên Mỹ, khiến ít nhất một người thiệt mạng. Ở phía bắc, quân đội Phần Lan cho biết đã phát hiện một vụ tấn công nhằm vào tàu chiến Nga tại Vịnh Phần Lan; hãng truyền thông Yle dẫn nguồn cho biết Cơ quan An ninh Ukraine đứng sau vụ việc, trong khi Estonia, Latvia và Litva hôm 12/11 đã phải cảnh báo người dân tìm nơi trú ẩn vì drone xuất hiện trong không phận, buộc máy bay chiến đấu NATO xuất kích.",
-            "Dù vậy, kênh ngoại giao vẫn chưa đóng lại. Ông Witkoff cho biết ông Putin đã đồng ý để các đại diện châu Âu tham gia vòng đàm phán tiếp theo, điều mà Kyiv và các đồng minh châu Âu lâu nay đòi hỏi, đồng thời cảnh báo không nên có một 'Yalta mới' chia châu Âu thành các vùng ảnh hưởng. Tại Dublin, ông Zelensky cho biết Ukraine vừa bị áp thêm hạn chế đối với dịch vụ internet vệ tinh Starshield — tuyến liên lạc then chốt ở tiền tuyến — khiến Kyiv khó đánh chặn các drone phản lực của Nga hơn, đồng nghĩa 'nhiều người của chúng tôi thiệt mạng hơn'. Về mặt nhân đạo, hãng thông tấn TASS đưa tin đợt trao đổi tù binh đã thống nhất tại Abu Dhabi có thể diễn ra trong hai đến ba tuần tới, và ông Kushner gọi đây là đợt trao đổi có thể lớn nhất từ trước tới nay của cuộc chiến. Trong khi đó, Ukraine tiếp tục đẩy mạnh tấn công vào ngành năng lượng Nga suốt 18 tháng qua nhằm cắt nguồn thu tài trợ chiến tranh, còn Nga vẫn dồn dập đánh vào lưới điện Ukraine khi mùa đông đang tới gần."
-          ],
-          nguon: [
-            { ten: "Dawn", link: "https://www.dawn.com/news/2044186" },
-            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/russia-says-four-killed-in-major-ukraine-drone-barrage/article71697111.ece" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss" }
-          ],
-          gio: "Chiều, Nov 13"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris ra tuyên bố chung: ủng hộ Ukraine qua mùa đông, tăng phòng không, lên án Iran phá hoại eo biển Hormuz",
+          baiViet: [
+            "Ngoại trưởng các nước G7 — Canada, Pháp, Đức, Italy, Nhật Bản, Anh và Mỹ — cùng Đại diện cấp cao của Liên minh châu Âu đã ra tuyên bố chung sau cuộc họp hai ngày tại Paris ngày 9–10/11, tái khẳng định sự ủng hộ 'không lay chuyển' với Ukraine và người dân nước này trong lúc Kyiv đối mặt các đợt tấn công hằng ngày vào nhà ở, hạ tầng dân sự và di sản văn hóa. Tuyên bố ủng hộ các nỗ lực hòa bình do Mỹ dẫn dắt thông qua đàm phán trực tiếp và nghiêm túc, đồng thời kêu gọi một lệnh ngừng bắn toàn diện và có đi có lại; việc hai bên cùng ngừng tấn công hạ tầng năng lượng và Biển Đen được coi là bước đầu quan trọng hướng tới hòa bình công bằng và bền vững.",
+            "G7 quyết định tăng cường hỗ trợ tài chính và vật chất để giúp Ukraine vượt qua mùa đông, đồng thời rà soát tiến độ cung cấp năng lực phòng không, đạn đánh chặn và năng lực tầm xa cùng giấy phép để Ukraine tăng sản xuất quân sự trong nước. Các bộ trưởng thừa nhận nhu cầu tài chính cấp bách của Ukraine cho năm 2027 trở đi và cam kết xử lý một cách phối hợp. Tuyên bố cũng lên án Triều Tiên và Iran viện trợ quân sự cho Nga, cùng việc Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng giúp Nga tiếp tục chiến tranh, và khẳng định G7 sẽ tiếp tục hành động chống lại các nước này.",
+            "Về Trung Đông, G7 lên án Iran phá hoại giao thông hàng hải qua eo biển Hormuz và kêu gọi Tehran dừng tấn công tàu dân sự — đúng lúc Iran báo cáo nhiều tàu dầu trúng mìn tại eo biển trong tuần. Trên mặt trận trừng phạt, Canada công bố ngay bên lề cuộc họp Paris gói trừng phạt mới với Nga, bổ sung 38 thực thể và 24 cá nhân vào danh sách đã có hơn 3.500 mục tiêu. Tuyên bố chung cũng ghi nhận hội nghị các nhà tài trợ do Pháp, Ngân hàng Tái thiết và Phát triển châu Âu (EBRD) và Ukraine tổ chức tại Paris ngày 9/11 nhằm giữ việc sửa chữa mái vòm an toàn mới của nhà máy Chernobyl ở vị trí cao trong chương trình nghị sự quốc tế."
+          ],
+          nguon: [
+            { ten: "NHK World-Japan", link: "https://www3.nhk.or.jp/nhkworld/news/20261112de74549/" },
+            { ten: "Bộ Ngoại giao Nhật Bản (tuyên bố chung G7)", link: "http://www.mofa.go.jp/mofaj/files/101116782.pdf" },
+            { ten: "The Korea Times", link: "https://www.koreatimes.co.kr/world/20261109/g7-ministers-press-rubio-on-iran-ukraine-at-paris-talks" }
+          ],
+          gio: "Sáng, Nov 15"
+        },
         {
           tieuDe: "G7 Paris ra tuyên bố về Haiti, Cuba và Venezuela: ủng hộ lực lượng chống băng đảng, kêu gọi cải cách ở Cuba",
           baiViet: [
@@ -86,26 +100,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 14"
         },
-        {
-          tieuDe: "G7 ra tuyên bố chung mạnh nhất từ trước tới nay về hoạt động của Trung Quốc ở phía đông Đài Loan",
-          baiViet: [
-            "Các ngoại trưởng nhóm G7 đã ra tuyên bố chung vào tối 11/11 sau cuộc họp tại Paris, cảnh báo hoạt động ngày càng quyết đoán của Trung Quốc ở vùng biển phía đông Đài Loan đe dọa ổn định khu vực, tự do hàng hải và an toàn của vận tải biển quốc tế. Tuyên bố khẳng định các nước G7 phản đối mọi nỗ lực đơn phương thay đổi nguyên trạng, đặc biệt bằng vũ lực, ép buộc hoặc đe dọa sử dụng vũ lực. Đây là lần đầu tiên cả bảy nước cùng lên tiếng thống nhất về vấn đề này, sau khi trước đây chỉ từng nước như Mỹ, Anh, Pháp và Đức bày tỏ quan ngại riêng lẻ.",
-            "Bối cảnh của tuyên bố là việc Trung Quốc tăng cường hoạt động ngoài khơi bờ đông Đài Loan từ tháng 6, với các đợt tuần tra thường xuyên của lực lượng hải cảnh. Giới chức Đài Loan cho rằng Bắc Kinh đang diễn tập cho một kịch bản phong tỏa trên biển, kết hợp lực lượng quân sự, bán quân sự và dân sự. Vùng biển phía đông hòn đảo được Đài Bắc coi là tuyến tiếp tế sống còn trong thời chiến, bởi đó là hướng các đồng minh có thể đưa hàng viện trợ tới nếu eo biển Đài Loan bị phong tỏa. Bộ trưởng Quốc phòng Đài Loan Wellington Koo cho biết Trung Quốc còn đang tiến hành các cuộc diễn tập phong tỏa khu vực ở Tây Thái Bình Dương với sự tham gia của một tàu sân bay.",
-            "Văn phòng Tổng thống Đài Loan đã hoan nghênh tuyên bố của G7, nhấn mạnh hòa bình và ổn định ở eo biển Đài Loan và khu vực Ấn Độ Dương, Thái Bình Dương là vấn đề cốt lõi đối với an ninh và thịnh vượng toàn cầu, đồng thời khẳng định Đài Bắc sẽ tiếp tục tăng cường năng lực tự vệ. Ở chiều ngược lại, Bộ Ngoại giao Trung Quốc ngày 12/11 chỉ trích tuyên bố này phớt lờ thực tế khách quan, can thiệp thô bạo vào công việc nội bộ của Trung Quốc và bôi nhọ Bắc Kinh. Người phát ngôn Mao Ninh còn gọi G7 là một nhóm nhỏ ý thức hệ bám víu tư duy Chiến tranh Lạnh. Cùng ngày, Chủ tịch Tập Cận Bình phát biểu tại Bắc Kinh rằng việc thống nhất hoàn toàn với Đài Loan là sứ mệnh lịch sử không thể lay chuyển của Đảng Cộng sản Trung Quốc."
-          ],
-          nguon: [
-            { ten: "Reuters qua The Jerusalem Post", link: "https://www.jpost.com/international/article-914642" },
-            { ten: "Taipei Times", link: "https://www.taipeitimes.com/News/front/archives/2026/11/12/2003867624" },
-            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692205.ece" }
-          ],
-          gio: "Sáng 13/11"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg khai mạc: tuyên bố 122 điểm thông qua ngay từ đầu bất chấp Mỹ tẩy chay; Modi đề xuất đối tác công nghệ ba bên",
+          baiViet: [
+            "Hội nghị thượng đỉnh G20 đầu tiên trên đất châu Phi đã khai mạc hôm thứ Bảy 14/11 tại Johannesburg, Nam Phi, với một bước phá lệ: các lãnh đạo thông qua tuyên bố chung 122 điểm ngay từ đầu hội nghị, thay vì chờ tới cuối kỳ như thông lệ. Tuyên bố kêu gọi hành động toàn cầu mạnh mẽ hơn với các vấn đề tác động trực tiếp tới nước nghèo — thảm họa liên quan khí hậu, nợ quốc gia, an ninh lương thực — và được nước chủ nhà ca ngợi là thắng lợi của kỳ G20 đầu tiên tại châu Phi. Việc thông qua diễn ra bất chấp Mỹ tẩy chay hội nghị và gây sức ép yêu cầu Nam Phi không thông qua tuyên bố khi không có phái đoàn Mỹ; phát ngôn viên của Tổng thống Cyril Ramaphosa cho biết tuyên bố được các thành viên còn lại thông qua nhất trí, dù Argentina nói nước này không tán thành.",
+            "Khai mạc hội nghị, Tổng thống Ramaphosa tuyên bố 'đã hình thành đồng thuận' trước khi chuyển sang phần thảo luận kín — thậm chí micro còn vô tình để mở khiến câu nói của ông về việc thông qua tuyên bố lọt ra ngoài. Hội nghị diễn ra tại trung tâm triển lãm gần khu Soweto, nơi từng là quê hương của Nelson Mandela. Mỹ vắng mặt hoàn toàn, Tổng thống Argentina Javier Milei cũng không dự để thể hiện đoàn kết với đồng minh Trump, còn Trung Quốc cử Thủ tướng Lý Cường, Nga cử trợ lý tổng thống, Ấn Độ có Thủ tướng Narendra Modi và Brazil có Tổng thống Luiz Inácio Lula da Silva.",
+            "Bên lề hội nghị, Thủ tướng Modi đề xuất một loạt sáng kiến mới và kêu gọi xem xét lại sâu sắc các thước đo phát triển toàn cầu, trong đó có quan hệ đối tác công nghệ và đổi mới ba bên Australia–Canada–Ấn Độ (ACITI) về công nghệ mới nổi, năng lượng sạch, khoáng sản chiến lược và ứng dụng trí tuệ nhân tạo. Các lãnh đạo Pháp, Đức, Anh, Canada và Nhật cũng họp bên lề về kế hoạch hòa bình Ukraine của Mỹ; Thủ tướng Đức Friedrich Merz cho biết đại diện của ba nước châu Âu, Liên minh châu Âu, Mỹ và Ukraine sẽ gặp nhau tại Thụy Sĩ vào Chủ nhật để bàn tiếp. Hội nghị kéo dài hai ngày, với phiên đầu tiên tập trung vào tăng trưởng bao trùm và bền vững, thương mại quốc tế, hệ thống lương thực và giảm bất bình đẳng ở các nước đang phát triển."
+          ],
+          nguon: [
+            { ten: "Orange County Register (AP)", link: "https://edition.pagesuite.com/tribune/article_popover.aspx?guid=fdb9132f-9c48-4a9f-a9d3-9c9707a31a40" },
+            { ten: "India Tribune (IANS)", link: "https://www.indiatribune.com/public/pm-modi-calls-for-rethinking-on-global-development-parameters-proposes-path-breaking-initiatives-at-g20-summit" },
+            { ten: "Testbook", link: "https://testbook.com/question-answer/during-the-g20-summit-in-johannesburg-pm-narendra--694a9e0366abd6935bbb5186/amp" }
+          ],
+          gio: "Sáng, Nov 15"
+        },
         {
           tieuDe: "G20 Johannesburg trước giờ khai mạc: Ramaphosa nói 'không để ai bắt nạt', bàn giao chủ tịch cho ghế trống vì Mỹ vắng mặt",
           baiViet: [
@@ -133,20 +147,6 @@ window.TIN_TUC = {
             { ten: "Jozi Captions (theo trang tỉnh Gauteng)", link: "https://jozicaptions.co.za/g20-summit-gauteng-preparations-on-track/" }
           ],
           gio: "Chiều, Nov 13"
-        },
-        {
-          tieuDe: "G20 Johannesburg mất thêm lãnh đạo lớn: Tập Cận Bình không dự, Milei nối gót Trump tẩy chay",
-          baiViet: [
-            "Thượng đỉnh G20 tại Johannesburg ngày 22 và 23/11 tới sẽ diễn ra mà không có lãnh đạo của hai nền kinh tế lớn nhất thế giới. Bộ Ngoại giao Trung Quốc ngày 12/11 xác nhận Chủ tịch Tập Cận Bình sẽ không tới Nam Phi, thay vào đó Thủ tướng Lý Cường sẽ dẫn đầu phái đoàn Trung Quốc, song không nêu lý do vắng mặt. Quyết định này nối tiếp thông báo của Tổng thống Mỹ Donald Trump rằng không một quan chức chính phủ Mỹ nào sẽ dự hội nghị, đồng thời Tổng thống Nga Vladimir Putin cũng không thể tới do lệnh bắt của Tòa án Hình sự Quốc tế. Đây là lần đầu tiên thượng đỉnh G20 thiếu vắng cùng lúc lãnh đạo của ba nước lớn nhất trong nhóm.",
-            "Tổng thống Argentina Javier Milei cũng đã quyết định không tới Johannesburg, thay vào đó cử Ngoại trưởng Pablo Quirno và trưởng đoàn đàm phán G20 Federico Pinedo tham dự thay. Quyết định của ông Milei được đưa ra chỉ vài ngày sau tuyên bố tẩy chay của ông Trump, người cáo buộc chính phủ Nam Phi dung túng hành vi vi phạm nhân quyền đối với cộng đồng người Afrikaner da trắng và gọi việc tổ chức G20 tại đây là một sự ô nhục. Chính phủ Nam Phi đã bác bỏ các cáo buộc này là vô căn cứ. Tổng thống Mexico Claudia Sheinbaum cũng nằm trong số các lãnh đạo sẽ không tới dự, trong khi nhiều lãnh đạo châu Âu cùng Tổng thống Brazil Luiz Inacio Lula da Silva và Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan dự kiến vẫn có mặt.",
-            "Dù hàng loạt ghế lãnh đạo bỏ trống, Pretoria khẳng định hội nghị vẫn diễn ra theo kế hoạch, với trọng tâm là nợ bền vững, chuyển đổi năng lượng và khả năng chống chịu khí hậu ở các nước đang phát triển. Tổng thống Cyril Ramaphosa trước đó nói sự vắng mặt của Mỹ là tổn thất của chính Washington, còn Bộ Ngoại giao Nam Phi nhấn mạnh thành công của hội nghị sẽ không phụ thuộc vào một thành viên duy nhất. Một số quan chức Nam Phi thậm chí cho rằng việc Mỹ vắng mặt có thể giúp các nước còn lại dễ đạt đồng thuận hơn về tuyên bố chung của lãnh đạo. Giới phân tích thì lưu ý việc ông Tập vắng mặt không đồng nghĩa Trung Quốc coi nhẹ G20, bởi Bắc Kinh vẫn xem các thể chế quản trị toàn cầu là diễn đàn quan trọng để truyền tải thông điệp của mình."
-          ],
-          nguon: [
-            { ten: "Ecofin Agency", link: "https://www.ecofinagency.com/news/1411-50464-south-africa-loses-more-support-as-xi-jinping-also-skips-the-g20-summit" },
-            { ten: "Bloomberg qua Open for Business", link: "https://open4business.com.ua/en/xi-jinping-follows-trump-in-not-attending-g20-summit/" },
-            { ten: "Buenos Aires Times", link: "https://www.batimes.com.ar/news/amp/argentina/milei-will-follow-in-trumps-footsteps-and-skip-g20-in-south-africa.phtml" }
-          ],
-          gio: "Sáng 13/11"
         },
       ]
     }
