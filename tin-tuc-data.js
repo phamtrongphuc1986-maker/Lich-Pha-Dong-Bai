@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Chủ Nhật 15/11/2026 — bản tin sáng",
+  capNhat: "Chủ Nhật 15/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 giữa chặng: bản dự thảo chuyển đổi công bằng bị chê yếu, mục tiêu tăng gấp ba tài chính thích ứng vẫn bỏ ngỏ",
+          baiViet: [
+            "COP31 tại Antalya đã đi qua nửa chặng đường và những văn bản đầu tiên của đoàn chủ tịch đàm phán do Australia dẫn đầu đã phơi bày các đường ranh đỏ của tuần thứ hai. Tối thứ Sáu, đoàn chủ tịch công bố các ghi chú không chính thức về hai vấn đề gây tranh cãi nhất: chuyển đổi công bằng khỏi nhiên liệu hóa thạch và tài chính thích ứng cho các nước dễ tổn thương. Bản dự thảo về cơ chế chuyển đổi công bằng — được Bộ trưởng Khí hậu Australia Chris Bowen gọi là toàn diện — bị các nhà vận động chỉ trích là quá yếu: cơ chế hai tầng mà dự thảo đề xuất chủ yếu tạo ra một trung tâm tri thức, các báo cáo, một cuộc họp thường niên và việc kết nối yêu cầu của các nước với nguồn hỗ trợ sẵn có, chứ không tạo ra nguồn tiền mới nào.",
+            "Song song, bản dự thảo về mục tiêu thích ứng toàn cầu đề xuất tăng gấp ba tài chính thích ứng lên ít nhất 120 tỷ USD mỗi năm vào năm 2035, nhưng vẫn chừa lựa chọn xem xét lại mục tiêu thay vì chốt cứng — trong khi ước tính nhu cầu thực tế của các nước đang phát triển cao hơn nhiều. Các nước châu Phi đã thất bại trong nỗ lực đưa yêu cầu tăng gấp ba tài chính thích ứng thành một chương trình nghị sự độc lập, một thất bại mà nhiều đoàn coi là bước lùi giữa lúc các nước này đang chịu thiệt hại khí hậu nặng nề nhất. Hàng nghìn người biểu tình đã tuần hành qua Antalya dưới mưa hôm thứ Bảy, trong khi phiên kiểm điểm giữa kỳ do Thổ Nhĩ Kỳ và Australia đồng chủ trì cho thấy các bên vẫn cách xa nhau.",
+            "Tổng thư ký khí hậu Liên Hợp Quốc Simon Stiell tiếp tục giục các đoàn đàm phán chuyển nhanh sang những vấn đề khó nhất và tránh trì hoãn chiến thuật, khi hội nghị bước vào tuần cuối cùng và dự kiến kết thúc ngày 20/11. Ông Bowen cho biết bản dự thảo đầu tiên của văn kiện chung sẽ xuất hiện vào đầu tuần tới, sau đó các bộ trưởng sẽ trực tiếp xử lý những điểm chia rẽ lớn nhất. Tài chính khí hậu vẫn là nút thắt nhạy cảm nhất: lộ trình từ mục tiêu 300 tỷ USD mỗi năm đã thống nhất tại COP29 lên 1,3 nghìn tỷ USD mỗi năm vào 2035 còn bỏ ngỏ, và các nhà vận động đòi kế hoạch có mốc thời gian rõ ràng, ưu tiên viện trợ không hoàn lại thay vì cho vay. Kết quả của tuần cuối sẽ là thước đo xem hợp tác khí hậu đa phương tại Antalya có vượt qua được mức tuyên bố hay không."
+          ],
+          nguon: [
+            { ten: "VNN News Desk", link: "https://valcorednews.com/cop31-midpoint-just-transition-adaptation-drafts/" },
+            { ten: "The Hawk (IANS)", link: "https://www.thehawk.in/news/world/un-talks-enter-decisive-phase-amid-deep-divisions-over-climate-resilience" },
+            { ten: "The Express Tribune (Reuters)", link: "https://tribune.com.pk/story/2640380/un-climate-chief-urges-faster-action-at-cop31" }
+          ],
+          gio: "Chiều, Nov 15"
+        },
+        {
+          tieuDe: "Geneva: Rubio gọi phiên đầu là 'hiệu quả nhất', Ukraine và đồng minh gấp rút sửa kế hoạch 28 điểm trước hạn chót thứ Năm",
+          baiViet: [
+            "Các quan chức Mỹ, Ukraine và châu Âu đã họp tại Geneva trong ngày Chủ Nhật để thảo luận về kế hoạch hòa bình 28 điểm của Tổng thống Donald Trump, và phiên đầu tiên kết thúc với những tín hiệu lạc quan hiếm hoi. Ngoại trưởng Mỹ Marco Rubio gọi đây là cuộc họp 'hiệu quả và có ý nghĩa nhất' kể từ khi Tổng thống Trump trở lại Nhà Trắng, cho biết các đoàn sẽ gặp lại lần thứ hai ngay trong ngày. Ông Rubio tham dự cùng Bộ trưởng Lục quân Dan Driscoll và đặc phái viên Steve Witkoff; phía Ukraine do Chánh văn phòng Tổng thống Andriy Yermak dẫn đầu, cùng các cố vấn an ninh quốc gia của Anh, Pháp và Đức — những người đã họp riêng với Kyiv trước đó để thống nhất lập trường sửa đổi bản kế hoạch bị cho là thiên về Moscow.",
+            "Ông Yermak xác nhận hai bên 'đã đạt tiến bộ rất tốt' và đang hướng tới một nền hòa bình công bằng, bền vững, đồng thời cho biết các quyết định cuối cùng sẽ do các tổng thống đưa ra. Tổng thống Volodymyr Zelenskyy nói ông đang chờ kết quả và 'cần một kết quả tích cực cho tất cả chúng ta', đồng thời cho biết đã có sự thống nhất rằng phía Mỹ sẽ tính đến 'một số yếu tố' quan trọng với Ukraine trong thỏa thuận. Trước đó, ông Trump nói kế hoạch hiện tại không phải là 'đề nghị cuối cùng' của ông và đặt hạn chót thứ Năm để Kyiv phản hồi — một mốc thời gian tạo cảm giác cấp bách cho toàn bộ tiến trình Geneva.",
+            "Các đồng minh châu Âu vẫn giữ lằn ranh đỏ: không nhượng bộ lãnh thổ, không để biên giới Ukraine bị thay đổi bằng vũ lực và quân đội Ukraine không được để lộ điểm yếu trước tấn công. Một nguồn tin chính phủ Đức cho biết bản dự thảo hòa bình của châu Âu — xây dựng trên nền kế hoạch của Mỹ — đã được gửi cho Ukraine và chính quyền Mỹ, trong khi Chủ tịch Ủy ban châu Âu Ursula von der Leyen nhấn mạnh EU phải có vai trò trung tâm trong mọi thỏa thuận. Tổng thống Thổ Nhĩ Kỳ Tayyip Erdogan cho biết sẽ điện đàm với Tổng thống Nga Vladimir Putin vào thứ Hai và chia sẻ kết quả với các đồng minh châu Âu và Mỹ. Các nhà lãnh đạo châu Âu dự kiến họp vào thứ Hai, và liên minh các nước ủng hộ Ukraine sẽ họp trực tuyến vào thứ Ba, trong lúc Nga cũng cần phê chuẩn bất kỳ kế hoạch cuối cùng nào."
+          ],
+          nguon: [
+            { ten: "TaxTMI (AP)", link: "https://www.taxtmi.com/news?id=62499" },
+            { ten: "AL24 News", link: "https://al24news.dz/en/us-ukraine-and-european-officials-meet-in-geneva-to-discuss-trumps-peace-plan/" },
+            { ten: "New Straits Times (AFP)", link: "https://api.nst.com.my/world/world/2025/11/1321527/us-ukrainian-and-european-officials-meet-geneva-talks-peace-plan" }
+          ],
+          gio: "Chiều, Nov 15"
+        },
         {
           tieuDe: "COP31 bước sang tuần hai trong chia rẽ: Stiell giục đẩy nhanh đàm phán, phe nhiên liệu hóa thạch kháng cự mục tiêu cứng",
           baiViet: [
@@ -39,40 +67,25 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 15"
         },
-        {
-          tieuDe: "COP31: bản dự thảo 104 đoạn về tài chính khí hậu lưu hành rạng sáng 14/11 — nước đang phát triển đòi gấp ba tài chính thích ứng",
-          baiViet: [
-            "Rạng sáng ngày 14/11, bản dự thảo đầu tiên về Chương trình công tác tài chính khí hậu (CFWP) đã được lưu hành tại Hội nghị COP31 ở Antalya, Thổ Nhĩ Kỳ — một văn kiện dài 104 đoạn, mở đầu bằng việc 'hoan nghênh' các đề xuất đã có. Đây là lần đầu tiên chương trình này được đưa vào chương trình nghị sự chính thức của một kỳ COP, sau khi được đề xuất bởi Bolivia thay mặt khối các nước đang phát triển có cùng quan điểm (LMDC) và được thông qua ngay ngày khai mạc mà gần như không gặp phản đối. Hai vòng đàm phán đầu tiên do Georg Borsting của Na Uy và Yalchin Rafiyev của Azerbaijan đồng chủ trì đã diễn ra, nhưng bất đồng về phạm vi, thời hạn và cách thức tổ chức của chương trình vẫn chưa được giải quyết.",
-            "Nhóm G77 và Trung Quốc — khối đàm phán lớn nhất với 134 nước đang phát triển — yêu cầu các nước phải thống nhất nhiệm vụ chính thức, phương thức làm việc và kế hoạch công tác của chương trình trước khi bàn tới nội dung thực chất, trong đó có yêu cầu tăng gấp ba tài chính thích ứng và tăng mạnh tài chính công, tài chính ưu đãi. Gần như mọi nước đều ủng hộ việc đưa đề xuất gấp ba tài chính thích ứng vào chương trình. Ngược lại, các nước phát triển muốn tiếp tục quy trình hiện có mà không mở lại nhiệm vụ của nó, và cho rằng chương trình không thể bắt đầu đúng nghĩa cho tới khi kỳ COP năm nay thông qua một quyết định chính thức quy định phạm vi, phương thức và kế hoạch làm việc.",
-            "Tranh cãi về tài chính diễn ra song song với một cuộc chiến khác về khoa học khí hậu. Liên minh châu Âu tuyên bố sẽ 'chiến đấu' vì khoa học sau khi cáo buộc một số nước tìm cách làm suy yếu Ủy ban Liên chính phủ về Biến đổi Khí hậu (IPCC). Hàng chục nước ở châu Âu, châu Phi và Thái Bình Dương muốn bộ báo cáo đánh giá lớn tiếp theo của IPCC kịp ra mắt để phục vụ đợt kiểm kê toàn cầu năm 2028, trong khi một nhóm nhỏ hơn gồm Saudi Arabia, Trung Quốc và Ấn Độ muốn lùi tới năm 2029. Tổ chức Greenpeace cho biết chủ tịch đoàn COP31 hôm 13/11 đã công bố 'bản tóm tắt suy ngẫm' về quyết định bao trùm — một danh sách lựa chọn gồm chuyển đổi khỏi nhiên liệu hóa thạch, bảo vệ rừng và đại dương, ứng phó với việc vượt ngưỡng 1,5 độ C — nhưng đó chưa phải là cam kết đã thống nhất, và cần được củng cố chứ không được pha loãng. Đoàn đàm phán Australia nhận ý kiến đóng góp của các nước tới tối thứ Bảy 14/11 để soạn dự thảo văn kiện chung vào đầu tuần sau."
-          ],
-          nguon: [
-            { ten: "Down To Earth", link: "https://www.downtoearth.org.in/climate-change/cop31-developing-countries-push-to-turn-climate-finance-commitments-into-action-as-talks-hit-familiar-divisions" },
-            { ten: "CNA (Reuters)", link: "https://www.channelnewsasia.com/world/cop31-fossil-fuels-turkiye-climate-talks-6550236" },
-            { ten: "Dawn", link: "https://www.dawn.com/news/2044435/fight-over-climate-science-intensifies-at-cop31-in-antalya" }
-          ],
-          gio: "Chiều, Nov 14"
-        },
-        {
-          tieuDe: "Đổi tù lớn nhất chiến tranh Nga–Ukraine sắp diễn ra: hơn 1.000 người mỗi bên, trong lúc Moscow đưa yêu sách cứng ở Abu Dhabi",
-          baiViet: [
-            "Ukraine đang chuẩn bị cho đợt trao đổi tù binh lớn nhất kể từ khi chiến tranh nổ ra, với hơn 1.000 người mỗi bên dự kiến được trả tự do, Tổng thống Volodymyr Zelenskyy cho biết hôm 13/11. Ông Zelenskyy nói Kyiv coi trọng cam kết của phía Mỹ rằng đây sẽ là đợt trao đổi lớn nhất của cuộc chiến, có thể vượt qua mốc 1.000 người mỗi bên hồi tháng 5/2025. Các cơ quan tình báo, lực lượng đặc nhiệm và Bộ chỉ huy điều phối của Ukraine đang hoàn tất việc sắp xếp, dù số lượng chính xác và ngày giờ cụ thể vẫn chưa được chốt. Đan Mạch cùng ngày công bố gói hỗ trợ quốc phòng trị giá 645 triệu euro cho Ukraine, gồm đạn dược cho tiêm kích F-16 và hỗ trợ hạ tầng năng lượng.",
-            "Đợt trao đổi là kết quả cụ thể duy nhất của vòng đàm phán ba bên đầu tiên sau chín tháng tại Abu Dhabi, nơi Nga tận dụng bàn đàm phán để đưa ra những yêu sách an ninh sâu rộng, vượt xa chiến trường. Theo các nguồn tin, Moscow yêu cầu Phần Lan khôi phục trạng thái không liên kết sau khi gia nhập NATO năm 2023, cấm đặt căn cứ của liên minh tại Estonia, Latvia và Litva, buộc Ukraine từ bỏ vũ khí phương Tây và vai trò hải quân tại các cảng của mình, đồng thời kéo NATO trở về biên giới năm 1997. Nga cũng giữ nguyên yêu sách kiểm soát toàn bộ vùng lãnh thổ đang chiếm giữ và sáp nhập toàn bộ Donbas, buộc Kyiv giao nốt phần còn lại của Donetsk và Luhansk, chấp nhận trung lập vĩnh viễn và từ bỏ mọi tham vọng gia nhập NATO. Người phát ngôn Điện Kremlin Dmitry Peskov sau đó phủ nhận việc Moscow đòi Phần Lan rời NATO, trong khi các nhà lãnh đạo châu Âu bác bỏ thẳng thừng toàn bộ gói yêu sách này.",
-            "Chiến sự vẫn leo thang ngay cả khi ngoại giao chuyển động. Đêm 13 rạng 14/11, Nga phóng 96 máy bay không người lái vào Ukraine, trong đó có 61 chiếc Shahed chạy bằng động cơ phản lực; lực lượng phòng không Ukraine cho biết đã bắn hạ hoặc gây nhiễu 81 chiếc, song vẫn ghi nhận trúng đích tại 8 địa điểm. Ba người thiệt mạng và bảy người bị thương trong các đợt tấn công vào ba tỉnh Kherson, Dnipropetrovsk và Donetsk trong ngày qua. Giới quan sát nhận định Kyiv đang bước vào đàm phán ở thời điểm bất lợi nhất, khi các đợt không kích liên tục vào hạ tầng năng lượng đe dọa gây ra thảm họa nhân đạo trong mùa đông sắp tới. Đặc phái viên Mỹ Steve Witkoff cho biết hôm 12/11 rằng ông Putin đã đồng ý để đại diện châu Âu tham gia vòng đàm phán tiếp theo, và Tổng thống Nga dự kiến gặp Tổng thống Mỹ Donald Trump cùng Chủ tịch Trung Quốc Tập Cận Bình tại Thâm Quyến trong tuần tới."
-          ],
-          nguon: [
-            { ten: "The Week", link: "https://www.theweek.in/news/world/2026/11/14/what-are-russias-hardened-demands-for-ending-ukraine-war.amp.html" },
-            { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/world/europe/over-2000-involved-russia-ukraine-set-for-biggest-ever-prisoner-swap-amid-trump-led-diplomacy/articleshow/135825574.cms" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it" }
-          ],
-          gio: "Chiều, Nov 14"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris ngoài Ukraine: thúc giải pháp Gaza, lên án bạo lực Sudan và cam kết 2,5 tỷ USD cứu trợ lương thực",
+          baiViet: [
+            "Tuyên bố chung của các ngoại trưởng G7 sau hai ngày họp tại Paris ngày 9–10/11 không chỉ xoay quanh Ukraine: văn kiện trải dài từ Trung Đông, Sudan tới an ninh lương thực và hạ tầng trọng yếu. Về Gaza, các ngoại trưởng ủng hộ thực thi nghị quyết liên quan của Hội đồng Bảo an Liên Hợp Quốc, kêu gọi Hamas giải giáp và không còn vai trò trong tương lai của Gaza, đồng thời cho rằng Israel nên rút dần theo các điều kiện đã đặt ra trong nghị quyết. Các bộ trưởng cũng bàn về tình hình Sudan và những mối đe dọa mới nổi với hạ tầng trọng yếu, trong bối cảnh nhóm muốn bảo vệ thương mại toàn cầu và hỗ trợ dân thường tại các điểm nóng.",
+            "Về tiền bạc, G7 cho biết đã huy động 2,5 tỷ USD tài trợ quốc tế trong năm 2026 để ứng phó khủng hoảng Trung Đông, đồng thời tái khẳng định cam kết xây dựng hệ thống lương thực bền vững. Các ngoại trưởng nhấn mạnh hỗ trợ nhân đạo và bảo vệ dân thường là ưu tiên xuyên suốt tuyên bố — từ các vùng xung đột tới những cộng đồng đối mặt với thiếu lương thực, nhiên liệu và thuốc men. Tuyên bố cũng đề cập an ninh lương thực và dinh dưỡng như một trụ cột riêng, nối tiếp các cam kết của G7 về khả năng chống chịu của chuỗi cung ứng thực phẩm toàn cầu.",
+            "Tuyên bố Paris là văn kiện chung bao quát của G7 dưới nhiệm kỳ chủ tịch Pháp trong năm nay, với sự tham gia của ngoại trưởng Canada, Pháp, Đức, Italy, Nhật Bản, Anh, Mỹ cùng Đại diện cấp cao của Liên minh châu Âu. Ngoài Trung Đông và Sudan, văn kiện còn bao quát Ấn Độ Dương–Thái Bình Dương, Haiti, Cuba và Venezuela — những nội dung đã được công bố riêng trước đó. Giới quan sát nhận định độ rộng của tuyên bố phản ánh cách G7 dưới thời Pháp đang cố gắng giữ vai trò điều phối toàn cầu, dù các cam kết cụ thể về tiền và hành động vẫn sẽ được đo bằng việc thực thi trong những tháng tới."
+          ],
+          nguon: [
+            { ten: "US Department of State", link: "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-g7-foreign-ministers-meeting-in-paris/" },
+            { ten: "Media Bypass News", link: "https://mediabypassnews.com/paris-summit-g7-maps-out-push-for-peace-sanctions-aid/" }
+          ],
+          gio: "Chiều, Nov 15"
+        },
         {
           tieuDe: "G7 Paris ra tuyên bố chung: ủng hộ Ukraine qua mùa đông, tăng phòng không, lên án Iran phá hoại eo biển Hormuz",
           baiViet: [
@@ -87,25 +100,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 15"
         },
-        {
-          tieuDe: "G7 Paris ra tuyên bố về Haiti, Cuba và Venezuela: ủng hộ lực lượng chống băng đảng, kêu gọi cải cách ở Cuba",
-          baiViet: [
-            "Ngoại trưởng các nước G7 — Canada, Pháp, Đức, Italy, Nhật Bản, Anh, Mỹ cùng Đại diện cấp cao của Liên minh châu Âu — đã công bố tuyên bố chung về Haiti, Cuba và Venezuela sau cuộc họp dưới nhiệm kỳ chủ tịch Pháp tại Paris ngày 9–10/11. Với Haiti, G7 hoan nghênh việc gia hạn nhiệm vụ của Lực lượng trấn áp băng đảng (GSF) tới tháng 3/2027 để hỗ trợ lực lượng Haiti khôi phục an ninh và ổn định, cùng việc gia hạn cơ chế trừng phạt của Liên Hợp Quốc nhằm vào các cá nhân và tổ chức đe dọa hòa bình. Các ngoại trưởng cũng nhấn mạnh tầm quan trọng của việc tổ chức bầu cử dân chủ tại Haiti, đồng thời lưu ý vòng bầu cử đầu tiên đã bị hoãn tới tháng 7/2027.",
-            "Với Cuba, G7 bày tỏ quan ngại về cuộc khủng hoảng kinh tế sâu sắc và nhu cầu nhân đạo cấp bách của người dân Cuba, trong đó có tình trạng thiếu lương thực, nhiên liệu và thuốc men. Tuyên bố kêu gọi chính quyền Cuba theo đuổi và thực hiện những cải cách chính trị và kinh tế 'đáng kể và có ý nghĩa' nhằm thúc đẩy thịnh vượng, tôn trọng nhân quyền và nguyện vọng chính đáng của người dân, đồng thời có bước đi cụ thể hướng tới quản trị đa đảng, tự do báo chí, tự do ngôn luận và tự do lập hội. Với Venezuela, G7 ghi nhận ý chí của người dân nước này trong việc khép lại cuộc khủng hoảng chính trị và kinh tế kéo dài, cho rằng phục hồi kinh tế gắn chặt với tiến trình hòa giải chính trị, và cam kết hỗ trợ nhân đạo khẩn cấp cùng các hoạt động bảo vệ dân sự sau trận động đất kép tàn khốc ngày 24/6/2026.",
-            "Cùng trong tuyên bố, các ngoại trưởng G7 tái khẳng định sự ủng hộ 'không lay chuyển' đối với Ukraine và người dân nước này trong lúc họ bảo vệ toàn vẹn lãnh thổ, chủ quyền, tự do và độc lập, trong bối cảnh đại diện Nga, Ukraine, Mỹ và các nước châu Âu đang họp vòng đàm phán mới tại Abu Dhabi. Các bộ trưởng cũng đề cập căng thẳng ở Trung Đông, chỉ trích Iran gây gián đoạn giao thông hàng hải qua eo biển Hormuz và cảnh báo về hậu quả. Tuyên bố được đưa ra chỉ hai ngày sau khi G7 công bố lập trường chung mạnh mẽ nhất từ trước tới nay về hoạt động của Trung Quốc ở vùng biển phía đông Đài Loan, cho thấy nhóm bảy nền kinh tế lớn đang dùng nhiệm kỳ chủ tịch Pháp để phát đi thông điệp thống nhất trên nhiều mặt trận cùng lúc."
-          ],
-          nguon: [
-            { ten: "Caribbean News Global", link: "https://caribbeannewsglobal.com/g7-foreign-ministers-meeting-in-paris-statement-on-haiti-cuba-venezuela/" },
-            { ten: "Media Industry Observer (MENAFN)", link: "https://www.mediaindustryobserver.com/article/956678317-g7-reiterates-support-for-ukraine-as-russia-peace-talks-continue" }
-          ],
-          gio: "Chiều, Nov 14"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Johannesburg bế mạc vắng Mỹ: Ramaphosa gõ búa khép hội nghị, Nhà Trắng chỉ trích Pretoria 'vũ khí hóa' chủ tịch",
+          baiViet: [
+            "Hội nghị thượng đỉnh G20 tại Johannesburg đã khép lại vào Chủ Nhật với sự vắng mặt chói mắt của Mỹ — nước sẽ giữ chức chủ tịch luân phiên tiếp theo — sau khi chính quyền Trump tẩy chay hai ngày họp của các nền kinh tế lớn nhất thế giới. Tổng thống Nam Phi Cyril Ramaphosa tuyên bố bế mạc bằng cách gõ chiếc búa gỗ theo truyền thống G20, nhưng không có quan chức Mỹ nào ở đó để nhận búa chuyển giao. 'Chiếc búa của hội nghị này chính thức khép lại hội nghị và giờ chuyển sang chủ tịch tiếp theo của G20, là Mỹ, nơi chúng ta sẽ gặp lại nhau vào năm sau', ông Ramaphosa nói trong bài phát biểu bế mạc, không nhắc tới sự vắng mặt của Mỹ.",
+            "Tranh cãi về lễ bàn giao đã bùng lên vào phút chót: Nhà Trắng cho biết họ có ý định cử một quan chức đại sứ quán Mỹ tại Nam Phi dự lễ bàn giao, nhưng Pretoria từ chối vì cho rằng việc ông Ramaphosa trao búa cho một nhà ngoại giao cấp thấp là sự xúc phạm. Kết quả là không có phái đoàn Mỹ nào được công nhận tham dự hội nghị, theo Bộ Ngoại giao Nam Phi, và lễ bàn giao sẽ diễn ra sau, có thể tại Bộ Ngoại giao. Phó thư ký báo chí Nhà Trắng Anna Kelly chỉ trích Pretoria đã 'vũ khí hóa' chức chủ tịch G20 để phá hoại các nguyên tắc nền tảng của khối, trong khi ông Trump tuyên bố sẽ tổ chức thượng đỉnh năm sau tại câu lạc bộ golf Doral ở Florida của ông.",
+            "Đây là hội nghị G20 đầu tiên tổ chức tại châu Phi và cũng là lần đầu tiên Mỹ tẩy chay thượng đỉnh của khối — với lý do ông Trump cáo buộc chính phủ Nam Phi tịch thu đất đai của người da trắng và dung túng bạo lực với cộng đồng Afrikaner, những cáo buộc Pretoria bác bỏ. Hội nghị cũng phá vỡ truyền thống khi thông qua tuyên bố chung 122 điểm ngay từ ngày khai mạc thay vì đợi cuối hội nghị, trong đó nhấn mạnh mức độ nghiêm trọng của biến đổi khí hậu — một thông điệp được xem là phản bác trực diện lập trường của ông Trump. Dù thiếu vắng nền kinh tế lớn nhất thế giới, Nam Phi vẫn coi việc đạt được đồng thuận tuyên bố là thắng lợi của chủ nghĩa đa phương, và lễ bàn giao chính thức dự kiến diễn ra vào thứ Hai giữa các quan chức hai nước có cấp bậc tương đương."
+          ],
+          nguon: [
+            { ten: "The Asahi Shimbun (AP)", link: "https://www.asahi.com/ajw/articles/16177500" },
+            { ten: "North Country Public Radio (NPR)", link: "https://www.northcountrypublicradio.org/news/npr/nx-s1-5616430/g20-summit-closes-in-south-africa-after-u-s-absence" },
+            { ten: "BusinessMirror (AP)", link: "https://businessmirror.com.ph/2025/11/24/the-g20-summit-in-south-africa-ends-with-the-glaring-absence-of-the-us-after-trumps-boycott/" }
+          ],
+          gio: "Chiều, Nov 15"
+        },
         {
           tieuDe: "G20 Johannesburg khai mạc: tuyên bố 122 điểm thông qua ngay từ đầu bất chấp Mỹ tẩy chay; Modi đề xuất đối tác công nghệ ba bên",
           baiViet: [
@@ -133,20 +147,6 @@ window.TIN_TUC = {
             { ten: "Ahram Online", link: "https://english.ahram.org.eg/News/556736.aspx" }
           ],
           gio: "Chiều, Nov 14"
-        },
-        {
-          tieuDe: "G20 Johannesburg: siết an ninh toàn thành phố, diễn tập phong tỏa đường ngày 15/11 trước giờ khai mạc",
-          baiViet: [
-            "Johannesburg đang bước vào tuần cao điểm chuẩn bị cho Thượng đỉnh các nhà lãnh đạo G20 ngày 22–23/11 tại Trung tâm triển lãm Nasrec, với một kế hoạch an ninh liên ngành quy mô lớn và chương trình chỉnh trang đô thị trên toàn thành phố. Cảnh sát Quốc gia Nam Phi (SAPS), Cảnh sát Đô thị Johannesburg (JMPD), lực lượng giao thông và các đơn vị quản lý thảm họa phối hợp chặt chẽ để bảo vệ các tuyến đường trọng yếu, khách sạn và địa điểm hội nghị, trong đó hệ thống hộ tống đoàn đại biểu và giám sát tăng cường tại các cửa ngõ là trọng tâm. Kế hoạch còn gồm tuần tra công khai dày đặc, kiểm soát vành đai quanh các địa điểm và giám sát không lưu, nhằm bảo đảm an toàn cho hàng chục đoàn lãnh đạo sẽ đổ về thành phố chỉ trong vài ngày tới.",
-            "Giao thông là thách thức lớn nhất trước mắt người dân Johannesburg. Cơ quan Quản lý Giao thông Đường bộ (RTMC) cho biết một buổi diễn tập phong tỏa sẽ diễn ra ngày 15/11 từ 9h đến 13h, với các đợt đóng đường ngắt quãng, thu hẹp làn xe và phân luồng trên các tuyến cao tốc N1, N12, M1 cùng nhiều trục chính như Rivonia, Oxford, Jan Smuts, Grayston và Nasrec, cũng như các tuyến phố ở Sandton và Parktown. Từ 17 đến 23/11, không phận quanh Johannesburg sẽ bị hạn chế, khiến lịch bay tại các sân bay quốc tế OR Tambo, Lanseria và căn cứ không quân Waterkloof có thể bị xáo trộn, trong đó máy bay chở nguyên thủ được ưu tiên khung giờ hạ cánh; hành khách được khuyên tới sân bay sớm 3 giờ với chuyến nội địa và 4 giờ với chuyến quốc tế.",
-            "Song song với an ninh, chính quyền tỉnh Gauteng đẩy nhanh tiến độ chỉnh trang: trong cuộc họp báo hôm 11/11 sau buổi làm việc với Ngoại trưởng Ronald Lamola, Thủ hiến Panyaza Lesufi cho biết đã sửa 1.523 ổ gà, đạt 97% kế hoạch, cùng với việc làm mới 456 vạch kẻ đường, khôi phục chiếu sáng trên 23.052 m² và sửa chữa 21.274 cột đèn đường; hơn 30 trạm biến áp được nâng cấp, hệ thống dự phòng nước tại trạm bơm Eikenhof được củng cố, còn hành lang M1 từ Sandton tới Nasrec — tuyến đường chính của thượng đỉnh — được chăm chút đặc biệt. Ông Lesufi khẳng định những nâng cấp này sẽ còn phục vụ người dân rất lâu sau khi hội nghị khép lại. Tuy vậy, không ít ý kiến cảnh báo rằng những vấn đề cố hữu như hạ tầng xuống cấp và an toàn công cộng không thể giải quyết chỉ bằng các biện pháp ngắn hạn trước thềm một sự kiện lớn."
-          ],
-          nguon: [
-            { ten: "South African Daily", link: "https://www.southafricandaily.co.za/news/johannesburg-rolls-out-tight-security-and-citywide-upgrades-ahead-of-g20-summit" },
-            { ten: "Gauteng News", link: "https://gauteng.news/2026/03/02/g20-summit-road-closures-flight-delays-2026/" },
-            { ten: "Jozi Captions (theo trang tỉnh Gauteng)", link: "https://jozicaptions.co.za/g20-summit-gauteng-preparations-on-track/" }
-          ],
-          gio: "Chiều, Nov 13"
         },
       ]
     }
