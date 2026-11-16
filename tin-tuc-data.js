@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Chủ Nhật 15/11/2026 — bản tin chiều",
+  capNhat: "Thứ Hai 16/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 bước vào tuần cuối: chủ tịch Kurum muốn quyết định về rủi ro vượt 1,5°C, tài chính khí hậu vẫn bế tắc",
+          baiViet: [
+            "COP31 tại Antalya bước vào tuần thứ hai và cũng là tuần cuối từ hôm nay 16/11, với các bộ trưởng trực tiếp xử lý những điểm chia rẽ lớn nhất. Chủ tịch hội nghị Murat Kurum cho biết đoàn chủ tịch muốn có một quyết định riêng về rủi ro vượt ngưỡng 1,5°C — một trong những mục tiêu cốt lõi của Thỏa thuận Paris — và khẳng định thành công của hội nghị sẽ được đo bằng thay đổi và kết quả cụ thể khi bế mạc ngày 20/11, chứ không phải bằng tuyên bố. Ông Kurum và Bộ trưởng Khí hậu Australia Chris Bowen — người dẫn dắt đàm phán theo thỏa thuận đồng chủ trì đặc biệt — đã có ba vòng tham vấn và công bố văn bản đánh giá ban đầu, với 160 điểm nghị sự và 60 nhiệm vụ thực chất trên bàn.",
+            "Tài chính khí hậu vẫn là nút thắt khó gỡ nhất. Hai vòng đàm phán theo Chương trình làm việc về tài chính khí hậu (Điều 9.1 Thỏa thuận Paris) vẫn chưa thống nhất được phạm vi, quy tắc và thời hạn: Nhóm G77 + Trung Quốc (134 nước đang phát triển) và nhóm LMDC do Ấn Độ đại diện đòi một quyết định chính thức về quy tắc làm việc trước khi bàn nội dung, trong khi EU, Anh, Canada, Na Uy và Thụy Sĩ cho rằng vấn đề đã được giải quyết trong quyết định Belém và công việc chỉ cần bước sang năm thứ hai. Bản dự thảo 104 đoạn lưu hành từ 14/11 vẫn để ngỏ ba phương án thời hạn — kết thúc ở COP33, chốt vào 2027 tại COP32, hoặc bàn tiếp — và đề xuất tăng gấp ba tài chính thích ứng vẫn là điểm được đồng thuận rộng rãi hiếm hoi.",
+            "Bên ngoài phòng họp, hơn 7.000 người đã tuần hành qua Antalya hôm thứ Bảy đòi cắt giảm nhiên liệu hóa thạch và tăng viện trợ thích ứng, theo AFP. Tổng thư ký khí hậu Liên Hợp Quốc Simon Stiell tiếp tục giục các đoàn tránh trì hoãn chiến thuật và chuyển ngay sang những vấn đề khó nhất, khi bản dự thảo đầu tiên của văn kiện chung dự kiến xuất hiện đầu tuần này. Thổ Nhĩ Kỳ đồng thời thúc đẩy một chương trình hành động với trọng tâm điện khí hóa — nâng tỉ trọng điện trong nhu cầu năng lượng toàn cầu từ khoảng 20% hiện nay lên 35% vào 2035 — và muốn nội dung này xuất hiện trong quyết định bao trùm của hội nghị. Tuần cuối sẽ quyết định liệu COP31 có vượt qua được mức tuyên bố hay không."
+          ],
+          nguon: [
+            { ten: "Europe Says", link: "https://www.europesays.com/turkiye/73102/" },
+            { ten: "Asianet Newsable", link: "https://newsable.asianetnews.com/amp/international/climate-change/cop31-finance-talks-stall-as-developing-nations-seek-clear-rules-on-wealthy-countries-climate-funding-duties-articleshow-l6n4wk4" },
+            { ten: "EconoTimes", link: "https://econotimes.com/COP31-President-Murat-Kurum-Seeks-Decision-on-1-5-Degree-Risk-1777265" }
+          ],
+          gio: "Sáng, Nov 16"
+        },
+        {
+          tieuDe: "Geneva: Mỹ–Ukraine thống nhất 'khung hòa bình tinh chỉnh', bản sửa của châu Âu nâng trần quân đội lên 800.000 và mở cửa G8 cho Nga",
+          baiViet: [
+            "Sau ngày đàm phán đầu tiên tại Geneva hôm Chủ Nhật, Mỹ và Ukraine ra tuyên bố chung cho biết hai bên đã soạn ra một 'khung hòa bình tinh chỉnh' để chấm dứt chiến tranh với Nga, dù chưa công bố chi tiết cụ thể. Động thái này diễn ra sau khi Washington gây bất ngờ cho Kyiv và các đồng minh châu Âu bằng kế hoạch 28 điểm hồi tuần trước — kèm hạn chót thứ Năm để Ukraine chấp nhận — vốn bị nhiều bên coi là có lợi cho Moscow. Ngoại trưởng Mỹ Marco Rubio gọi ngày đàm phán là quan trọng nhất của tiến trình tới nay, song nhấn mạnh văn bản cuối cùng vẫn cần Tổng thống Trump và chính phủ Nga phê chuẩn.",
+            "Trước phiên họp với phái đoàn Mỹ, Ukraine đã họp với các cố vấn an ninh quốc gia của Anh, Pháp và Đức để thống nhất bản sửa đổi của châu Âu. Theo Reuters, bản sửa giữ khung 28 điểm của Mỹ nhưng thay đổi nhiều điểm then chốt: trần quân đội Ukraine thời bình nâng từ 600.000 lên 800.000 người, Nga được mở đường trở lại nền kinh tế toàn cầu và có khả năng tái gia nhập G8, bầu cử ở Ukraine tổ chức càng sớm càng tốt sau khi ký thỏa thuận, thỏa thuận có tính ràng buộc pháp lý và được giám sát, và lệnh ngừng bắn có hiệu lực ngay sau khi mọi bên chấp nhận văn kiện. Một điểm gây tranh cãi khác — việc Mỹ đề nghị đổi toàn bộ Donbas lấy ghế NATO cho Ukraine — được Tổng thống Zelensky tiết lộ hôm thứ Sáu và ông cho biết sẽ trưng cầu dân ý nếu Mỹ và NATO ủng hộ đề xuất.",
+            "Tranh cãi cũng nổ ra quanh tác giả thực sự của bản kế hoạch gốc: một nhóm thượng nghị sĩ lưỡng đảng Mỹ cho biết Rubio đã mô tả nó với họ như một 'danh sách mong muốn của Nga' chứ không phải kế hoạch của chính quyền, trong khi Bộ Ngoại giao Mỹ bác bỏ cách kể này. Phía Nga cho biết chưa nhận được văn bản chính thức nào, dù trưởng đoàn đàm phán Vladimir Medinsky nói đã đạt được hiểu biết chung về một số vấn đề và hai bên thống nhất một đợt đổi tù quy mô lớn. Tổng thống Zelensky cho biết ông có thể sang Mỹ ngay trong tuần này để bàn những điểm nhạy cảm nhất với Tổng thống Trump, trong khi các cuộc đàm phán vẫn tiếp diễn và châu Âu yêu cầu phải có mặt trong các vòng sau."
+          ],
+          nguon: [
+            { ten: "The Edge Markets", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-25-story-h500550648-US_Ukraine_Work_on_39_refined_39_Peace_Plan_to_End_War_With_Russia" },
+            { ten: "Panorama (Reuters)", link: "https://en.panorama.com.al/nga-rikthimi-i-rusise-ne-g8-te-mbajtja-e-zgjedhjeve-zbardhet-propozimi-me-28-pika-i-vendeve-te-be-se-per-ukrainen-ndryshime-ne-planin-e-shba/" },
+            { ten: "TeleSUR (Al Jazeera)", link: "https://www.telesurenglish.net/trump-ukraine-peace-plan/?pdf=1" }
+          ],
+          gio: "Sáng, Nov 16"
+        },
         {
           tieuDe: "COP31 giữa chặng: bản dự thảo chuyển đổi công bằng bị chê yếu, mục tiêu tăng gấp ba tài chính thích ứng vẫn bỏ ngỏ",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 15"
         },
-        {
-          tieuDe: "COP31 bước sang tuần hai trong chia rẽ: Stiell giục đẩy nhanh đàm phán, phe nhiên liệu hóa thạch kháng cự mục tiêu cứng",
-          baiViet: [
-            "Bước sang tuần thứ hai tại Antalya, Tổng thư ký khí hậu Liên Hợp Quốc Simon Stiell đã giục các đoàn đàm phán đẩy nhanh tiến độ khi tranh cãi về nhiên liệu hóa thạch đe dọa thỏa thuận cuối cùng của COP31. Theo Reuters, các nhà sản xuất và tiêu thụ nhiên liệu hóa thạch lớn đang kháng cự mọi thỏa thuận đặt mục tiêu cứng mới hay chuyển dịch khỏi dầu, khí đốt và than, đặt ra thách thức cho nước chủ nhà Thổ Nhĩ Kỳ và đoàn đàm phán do Australia dẫn đầu, vốn còn một tuần để đạt được thỏa thuận mà các nhà hoạt động khí hậu cho là cần thiết. Thổ Nhĩ Kỳ muốn đưa kế hoạch mở rộng điện khí hóa toàn diện vào trung tâm thỏa thuận, cho rằng thay xe, lò sưởi và thiết bị chạy nhiên liệu hóa thạch bằng điện sẽ giúp cắt giảm phát thải.",
-            "Ngày Tài chính 13/11 đặt tiền bạc vào trung tâm nghị sự: ông Stiell khai mạc Đối thoại cấp bộ trưởng về tài chính khí hậu và nhấn mạnh tài chính khí hậu phải giúp các nước thoát khỏi bẫy nợ, trong lúc các bộ trưởng họp bàn lộ trình từ mục tiêu 300 tỷ USD mỗi năm đã thống nhất tại COP29 lên mục tiêu rộng hơn 1,3 nghìn tỷ USD mỗi năm vào năm 2035. Ủy ban châu Âu cũng giới thiệu các hành động khí hậu theo Hiệp ước Địa Trung Hải tại sự kiện bên lề. Tuy vậy, tranh cãi về Chương trình công tác tài chính khí hậu (CFWP) vẫn chưa ngã ngũ: bản dự thảo 104 đoạn lưu hành rạng sáng 14/11 vẫn bỏ ngỏ phạm vi, thời hạn và phương thức làm việc, trong khi nhóm G77 và Trung Quốc đòi tăng gấp ba tài chính thích ứng.",
-            "Song song với tranh cãi về tiền là cuộc chiến về khoa học khí hậu. Liên minh châu Âu tuyên bố sẽ 'chiến đấu' vì khoa học sau khi cáo buộc một số nước tìm cách làm suy yếu Ủy ban Liên chính phủ về Biến đổi Khí hậu (IPCC). Hàng chục nước ở châu Âu, châu Phi và Thái Bình Dương muốn bộ báo cáo đánh giá lớn tiếp theo của IPCC kịp ra mắt để phục vụ đợt kiểm kê toàn cầu năm 2028, trong khi Saudi Arabia, Trung Quốc và Ấn Độ muốn lùi tới năm 2029. Tổ chức Greenpeace cho rằng đã 'đến lúc ngừng chần chừ': bản 'tóm tắt suy ngẫm' mà chủ tịch đoàn COP31 công bố hôm 13/11 mới chỉ là danh sách lựa chọn — gồm chuyển đổi khỏi nhiên liệu hóa thạch, bảo vệ rừng và đại dương, ứng phó vượt ngưỡng 1,5 độ C — chứ chưa phải cam kết đã thống nhất, và cần được củng cố chứ không được pha loãng. Đoàn đàm phán Australia nhận ý kiến đóng góp tới tối thứ Bảy 14/11 để soạn dự thảo văn kiện chung vào đầu tuần sau."
-          ],
-          nguon: [
-            { ten: "CNA (Reuters)", link: "https://www.channelnewsasia.com/world/cop31-fossil-fuels-turkiye-climate-talks-6550236" },
-            { ten: "Dawn", link: "https://www.dawn.com/news/2044435/fight-over-climate-science-intensifies-at-cop31-in-antalya" },
-            { ten: "The Express Tribune (AFP)", link: "https://tribune.com.pk/story/2640229/cop31-talks-face-divisions-over-fossil-fuel-phase-out" }
-          ],
-          gio: "Sáng, Nov 15"
-        },
-        {
-          tieuDe: "Kế hoạch hòa bình 28 điểm của Trump vào bàn Geneva hôm nay: Zelensky tiết lộ Mỹ đề nghị đổi Donbas lấy ghế NATO",
-          baiViet: [
-            "Quan chức Mỹ, Ukraine và châu Âu họp tại Geneva hôm nay, Chủ nhật 15/11, để bàn bản dự thảo kế hoạch hòa bình 28 điểm của Washington nhằm chấm dứt chiến sự Nga–Ukraine. Phái đoàn Mỹ do Ngoại trưởng Marco Rubio và đặc phái viên Steve Witkoff dẫn đầu, phía Ukraine do Chánh văn phòng Tổng thống Andriy Yermak dẫn đầu, cùng các cố vấn an ninh quốc gia của Pháp, Anh, Đức và Liên minh châu Âu. Tổng thống Donald Trump — người đặt hạn chót thứ Năm để Tổng thống Volodymyr Zelensky chấp thuận đề xuất — nói rằng bản kế hoạch hiện tại 'không phải lời đề nghị cuối cùng' của ông.",
-            "Tổng thống Zelensky hôm 14/11 tiết lộ một chi tiết gây chấn động trong đàm phán: lần đầu tiên phía Mỹ đặt câu hỏi liệu Ukraine có sẵn sàng rút khỏi vùng Donbas ở miền đông nếu được phép gia nhập NATO hay không. 'Người Mỹ nêu câu hỏi: Nếu Ukraine gia nhập NATO thì sao? Ukraine có rút khỏi Donbas không? Đây là lần đầu tiên điều này được nêu ra', ông Zelensky nói với báo giới sau hai ngày đàm phán ba bên tại Abu Dhabi. Ông nhấn mạnh Ukraine đang bàn về các bảo đảm an ninh cụ thể từ NATO và EU, và mọi quyết định nhượng bộ lãnh thổ đều cần sự đồng ý của người dân Ukraine. Ông cũng cho biết Nga đã bác đề xuất ngừng bắn nhắm vào hạ tầng năng lượng trong đàm phán Abu Dhabi, vốn kết thúc mà không có đột phá.",
-            "Châu Âu đang đưa ra bản sửa đổi của riêng mình. Các lãnh đạo phương Tây hôm thứ Bảy nói kế hoạch của Mỹ là 'cơ sở để đàm phán' nhưng cần 'làm thêm', trong lúc một bản dự thảo châu Âu — dựa trên đề xuất của Mỹ nhưng đẩy lùi các nhượng bộ lãnh thổ và giới hạn đối với quân đội Ukraine — đã được gửi cho Kyiv và Washington. Thủ tướng Canada Mark Carney cho biết sẽ trao đổi với ông Zelensky trong ngày Chủ nhật, còn Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan nói sẽ điện đàm với Tổng thống Nga Vladimir Putin vào thứ Hai và chia sẻ kết quả với các quan chức châu Âu và Mỹ. Một cuộc họp riêng giữa phái đoàn Mỹ và Nga cũng đang được lên kế hoạch, dù không diễn ra tại Geneva."
-          ],
-          nguon: [
-            { ten: "AL24 News (Reuters)", link: "https://al24news.dz/en/us-ukraine-and-european-officials-meet-in-geneva-to-discuss-trumps-peace-plan/" },
-            { ten: "The Nigerian News (AFP)", link: "https://thenigeriannews.com/2026/11/14/us-proposes-ukraine-cede-territory-for-nato-membership-zelensky/" },
-            { ten: "Pukmedia (Reuters)", link: "https://pukmedia.com/EN/Details/79711" }
-          ],
-          gio: "Sáng, Nov 15"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris: Đại sứ quán Mỹ tại Riyadh nhấn mạnh lời lên án Iran và Houthi, cam kết viện trợ mùa đông cho Ukraine",
+          baiViet: [
+            "Đại sứ quán Mỹ tại Saudi Arabia cuối tuần qua đã điểm lại các cam kết an ninh then chốt từ cuộc họp ngoại trưởng G7 tại Paris ngày 9–10/11, nhấn mạnh lời lên án mạnh mẽ của khối đối với hành động gây hấn của Iran ở eo biển Hormuz cùng các vụ tấn công của Houthi nhằm vào Saudi Arabia và Yemen. Thông điệp được đăng trên mạng xã hội của phái bộ Mỹ, trong bối cảnh Washington tiếp tục gây sức ép ngoại giao sau khi Tehran bị cáo buộc đe dọa tuyến hàng hải và thương mại quốc tế ở vùng Vịnh.",
+            "Tuyên bố chung của các ngoại trưởng G7 — Canada, Pháp, Đức, Ý, Nhật Bản, Anh, Mỹ cùng Đại diện cấp cao EU, họp dưới quyền chủ tịch Pháp — tái khẳng định ủng hộ 'không lay chuyển' với Ukraine và quyết định tăng cường hỗ trợ tài chính, vật chất để giúp Kyiv vượt qua mùa đông. Các bộ trưởng rà soát tiến độ cung cấp phòng không, hệ thống đánh chặn và năng lực tầm xa, đồng thời thừa nhận nhu cầu tài chính cấp bách của Ukraine cho năm 2027 và xa hơn cần được xử lý phối hợp. Hội nghị các nhà tài trợ sửa chữa mái vòm an toàn mới của nhà máy Chernobyl — do Pháp, EBRD và Ukraine tổ chức ngày 9/11 — và các dự án an ninh mạng dân sự theo Cơ chế Tallinn do Ý chủ trì cũng được hoan nghênh.",
+            "Ngoài Ukraine, tuyên bố Paris còn thúc đẩy giải pháp cho Gaza, lên án bạo lực ở Sudan và cam kết 2,5 tỷ USD cứu trợ lương thực — những nội dung đã được cập nhật trong bản tin trước. Việc phía Mỹ chủ động khuếch đại phần lên án Iran và Houthi cho thấy Washington muốn giữ trọng tâm của G7 ở an ninh vùng Vịnh, song song với hồ sơ Ukraine, khi căng thẳng quanh eo biển Hormuz vẫn chưa hạ nhiệt sau vụ 3 tàu dầu trúng mìn hôm 14/11."
+          ],
+          nguon: [
+            { ten: "Mathrubhumi English", link: "https://english.mathrubhumi.com/amp/news/world/us-embassy-saudi-arabia-g7-foreign-ministers-paris-iran-hormuz-houthi-strikes-veyq1hhf" },
+            { ten: "Interfax-Ukraine", link: "https://en.interfax.com.ua/news/general/1235066.html" },
+            { ten: "Bộ Ngoại giao Nhật Bản (tuyên bố chung)", link: "http://www.mofa.go.jp/mofaj/files/101116782.pdf" }
+          ],
+          gio: "Sáng, Nov 16"
+        },
         {
           tieuDe: "G7 Paris ngoài Ukraine: thúc giải pháp Gaza, lên án bạo lực Sudan và cam kết 2,5 tỷ USD cứu trợ lương thực",
           baiViet: [
@@ -86,26 +100,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 15"
         },
-        {
-          tieuDe: "G7 Paris ra tuyên bố chung: ủng hộ Ukraine qua mùa đông, tăng phòng không, lên án Iran phá hoại eo biển Hormuz",
-          baiViet: [
-            "Ngoại trưởng các nước G7 — Canada, Pháp, Đức, Italy, Nhật Bản, Anh và Mỹ — cùng Đại diện cấp cao của Liên minh châu Âu đã ra tuyên bố chung sau cuộc họp hai ngày tại Paris ngày 9–10/11, tái khẳng định sự ủng hộ 'không lay chuyển' với Ukraine và người dân nước này trong lúc Kyiv đối mặt các đợt tấn công hằng ngày vào nhà ở, hạ tầng dân sự và di sản văn hóa. Tuyên bố ủng hộ các nỗ lực hòa bình do Mỹ dẫn dắt thông qua đàm phán trực tiếp và nghiêm túc, đồng thời kêu gọi một lệnh ngừng bắn toàn diện và có đi có lại; việc hai bên cùng ngừng tấn công hạ tầng năng lượng và Biển Đen được coi là bước đầu quan trọng hướng tới hòa bình công bằng và bền vững.",
-            "G7 quyết định tăng cường hỗ trợ tài chính và vật chất để giúp Ukraine vượt qua mùa đông, đồng thời rà soát tiến độ cung cấp năng lực phòng không, đạn đánh chặn và năng lực tầm xa cùng giấy phép để Ukraine tăng sản xuất quân sự trong nước. Các bộ trưởng thừa nhận nhu cầu tài chính cấp bách của Ukraine cho năm 2027 trở đi và cam kết xử lý một cách phối hợp. Tuyên bố cũng lên án Triều Tiên và Iran viện trợ quân sự cho Nga, cùng việc Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng giúp Nga tiếp tục chiến tranh, và khẳng định G7 sẽ tiếp tục hành động chống lại các nước này.",
-            "Về Trung Đông, G7 lên án Iran phá hoại giao thông hàng hải qua eo biển Hormuz và kêu gọi Tehran dừng tấn công tàu dân sự — đúng lúc Iran báo cáo nhiều tàu dầu trúng mìn tại eo biển trong tuần. Trên mặt trận trừng phạt, Canada công bố ngay bên lề cuộc họp Paris gói trừng phạt mới với Nga, bổ sung 38 thực thể và 24 cá nhân vào danh sách đã có hơn 3.500 mục tiêu. Tuyên bố chung cũng ghi nhận hội nghị các nhà tài trợ do Pháp, Ngân hàng Tái thiết và Phát triển châu Âu (EBRD) và Ukraine tổ chức tại Paris ngày 9/11 nhằm giữ việc sửa chữa mái vòm an toàn mới của nhà máy Chernobyl ở vị trí cao trong chương trình nghị sự quốc tế."
-          ],
-          nguon: [
-            { ten: "NHK World-Japan", link: "https://www3.nhk.or.jp/nhkworld/news/20261112de74549/" },
-            { ten: "Bộ Ngoại giao Nhật Bản (tuyên bố chung G7)", link: "http://www.mofa.go.jp/mofaj/files/101116782.pdf" },
-            { ten: "The Korea Times", link: "https://www.koreatimes.co.kr/world/20261109/g7-ministers-press-rubio-on-iran-ukraine-at-paris-talks" }
-          ],
-          gio: "Sáng, Nov 15"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20: bàn giao chủ tịch bế tắc — Pretoria từ chối trao búa cho nhân viên sứ quán Mỹ, lễ chuyển giao dời sang cấp ngoại giao trong tuần",
+          baiViet: [
+            "Lễ bàn giao chủ tịch G20 từ Nam Phi sang Mỹ đã rơi vào bế tắc ngoại giao sau khi hội nghị Johannesburg bế mạc hôm Chủ Nhật. Tổng thống Cyril Ramaphosa gõ búa khép hội nghị theo truyền thống, nhưng không có quan chức Mỹ nào có mặt để nhận búa do chính quyền Trump tẩy chay toàn bộ hội nghị. Nhà Trắng vào phút chót đề nghị cử một quan chức sứ quán Mỹ tại Nam Phi tới nhận, song Pretoria từ chối vì cho rằng để tổng thống trao búa cho một nhân viên ngoại giao cấp thấp là xúc phạm nghi thức.",
+            "Theo các nguồn tin ngoại giao, lễ bàn giao chính thức sẽ diễn ra trong tuần này giữa các nhà ngoại giao tương đương, có thể tại Bộ Ngoại giao Nam Phi — dù đặc phái viên G20 của Nam Phi, Đại sứ Xolisa Mabhongo, nói thẳng 'chúng tôi sẽ không làm gì cả' và Mỹ 'đơn giản sẽ đảm nhiệm chức chủ tịch và thông báo với thế giới thực đơn của họ'. Từ 1/12, Nam Phi trở lại bộ ba troika cùng Mỹ, và người phát ngôn của ông Ramaphosa, Vincent Magwenya, nhấn mạnh 'Mỹ không thể ước chúng tôi biến mất'.",
+            "Tuyên bố chung 122 điểm của Johannesburg — thông qua ngay ngày khai mạc bất chấp Mỹ tẩy chay — đã khiến Nhà Trắng cáo buộc Pretoria 'vũ khí hóa' chức chủ tịch và làm suy yếu nguyên tắc đồng thuận của G20. Tổng thống Trump dự kiến tổ chức hội nghị thượng đỉnh G20 năm sau tại câu lạc bộ golf Doral ở Florida và thu hẹp trọng tâm vào tăng trưởng kinh tế, nới lỏng quy định và dồi dào năng lượng, đồng thời loại các tổ chức Liên Hợp Quốc khỏi danh sách khách mời. Giới quan sát cho rằng dù Johannesburg được coi là thắng lợi hiếm hoi của chủ nghĩa đa phương, phần lớn thành quả có nguy cơ bị đảo ngược trong năm chủ tịch Mỹ."
+          ],
+          nguon: [
+            { ten: "Legalbrief Africa", link: "https://legalbrief.co.za/diary/legalbrief-africa-new/story/us-to-oppose-any-g20-declaration-2/print/" },
+            { ten: "TBS News (Reuters)", link: "https://www.tbsnews.net/worldbiz/africa/g20-declaration-defiance-us-marks-rare-victory-multilateralism-1294336" },
+            { ten: "Arab News (AP)", link: "https://www.arabnews.com/node/2623608/amp" }
+          ],
+          gio: "Sáng, Nov 16"
+        },
         {
           tieuDe: "G20 Johannesburg bế mạc vắng Mỹ: Ramaphosa gõ búa khép hội nghị, Nhà Trắng chỉ trích Pretoria 'vũ khí hóa' chủ tịch",
           baiViet: [
@@ -133,20 +147,6 @@ window.TIN_TUC = {
             { ten: "Testbook", link: "https://testbook.com/question-answer/during-the-g20-summit-in-johannesburg-pm-narendra--694a9e0366abd6935bbb5186/amp" }
           ],
           gio: "Sáng, Nov 15"
-        },
-        {
-          tieuDe: "G20 Johannesburg trước giờ khai mạc: Ramaphosa nói 'không để ai bắt nạt', bàn giao chủ tịch cho ghế trống vì Mỹ vắng mặt",
-          baiViet: [
-            "Tổng thống Cyril Ramaphosa đã có bài phát biểu bế mạc đầy cứng rắn tại Hội nghị Xã hội G20 ở Ekurhuleni, tuyên bố Nam Phi 'sẽ không để bất kỳ quốc gia nào bắt nạt' trong lúc công tác chuẩn bị cho Thượng đỉnh Lãnh đạo G20 tại Johannesburg bước vào giai đoạn cuối. Phát biểu được đưa ra sau khi Tổng thống Mỹ Donald Trump xác nhận sẽ không tham dự hội nghị và cảnh báo Pretoria không nên tiến hành thảo luận khi không có Washington. Ông Trump trong những tháng qua đã cáo buộc Nam Phi phạm tội diệt chủng — những cáo buộc bị các tổ chức độc lập, nhà nghiên cứu và chính phủ nước ngoài bác bỏ rộng rãi — đồng thời cho biết Mỹ sẽ không ủng hộ bất kỳ văn kiện đồng thuận nào từ hội nghị Johannesburg.",
-            "Ông Ramaphosa khẳng định Nam Phi sẽ không lùi bước trước trách nhiệm chủ nhà và sẽ tiếp tục khẳng định chủ quyền cũng như tuân thủ nhiệm vụ với tư cách chủ tịch G20. Vì Mỹ không tham dự, Nam Phi sẽ bàn giao ghế chủ tịch G20 cho một chiếc ghế trống như một biểu tượng rằng công việc hợp tác đa phương vẫn tiếp tục, có hay không có sự tham gia của bất kỳ một quốc gia nào. Tuy nhiên, ông Ramaphosa cũng tiết lộ Mỹ đã liên hệ vào phút chót để thống nhất một hình thức tham gia nào đó, dù không tiết lộ chi tiết; đại sứ lâm thời của Mỹ tại Nam Phi, Marc Dillard, có thể là người đảm nhận vai trò này. Nam Phi sẽ chuyển giao chức chủ tịch cho Mỹ vào ngày 30/11.",
-            "Bất chấp tranh cãi về sự vắng mặt của Mỹ, Johannesburg đang rộn ràng chuẩn bị: khoảng 42 quốc gia và tổ chức đã xác nhận tham dự, ít nhất 3.500 cảnh sát tăng cường đã được triển khai và quân đội được đặt trong tình trạng trực chiến, trong khi công nhân dọn dẹp, trang trí đường phố và sơn lại vạch kẻ trên hành lang M1 từ Sandton tới Nasrec — tuyến đường chính của đoàn đại biểu. Ít nhất sáu nguyên thủ không dự nhưng đều cử đại diện cấp cao, và Ngoại trưởng Ronald Lamola gọi tỷ lệ tham dự này là một 'thành công' của Nam Phi. Hội nghị diễn ra tại Trung tâm Triển lãm Nasrec rộng 150.000 m², lần đầu tiên thượng đỉnh G20 được tổ chức tại châu Phi, với chủ đề 'Đoàn kết, Bình đẳng, Bền vững' và trọng tâm là khả năng chống chịu thiên tai, tính bền vững của nợ đối với các nước thu nhập thấp và tài chính khí hậu. Một số cuộc biểu tình của các nhóm hành động khí hậu và bảo vệ quyền phụ nữ cũng được lên kế hoạch quanh sân bay và địa điểm hội nghị."
-          ],
-          nguon: [
-            { ten: "South African Daily", link: "https://www.southafricandaily.co.za/news/ramaphosa-defies-us-absence-at-johannesburg-g20-summit" },
-            { ten: "The Namibian", link: "https://www.namibian.com.na/world-leaders-are-gathering-in-johannesburg-south-africas-economic-capital-this-weekend-for-the-annual-g20-leaders-summit-the-first-ever-to-be-held-in-an-african-country/" },
-            { ten: "Ahram Online", link: "https://english.ahram.org.eg/News/556736.aspx" }
-          ],
-          gio: "Chiều, Nov 14"
         },
       ]
     }
