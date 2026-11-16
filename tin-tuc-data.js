@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Hai 16/11/2026 — bản tin sáng",
+  capNhat: "Thứ Hai 16/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: cam kết điện khí hóa chững lại — khối LMDC phản đối đưa mục tiêu 35% vào văn kiện chung",
+          baiViet: [
+            "Nỗ lực đẩy điện khí hóa toàn cầu tại COP31 đang chững lại khi hội nghị bước vào tuần cuối ở Antalya. Thổ Nhĩ Kỳ thúc đẩy một cam kết tự nguyện nâng tỉ trọng điện trong nhu cầu năng lượng toàn cầu từ khoảng 20% hiện nay lên 35% vào năm 2035; tới nay đã có hơn 30 chính phủ — trong đó có Anh, Đức, Phần Lan — cùng gần 100 tổ chức tư nhân, kể cả ABB và Schneider Electric, bày tỏ ủng hộ. Nhưng khối LMDC, nhóm khoảng hai chục nước đang phát triển gồm Trung Quốc, Ấn Độ và Bangladesh, đã tuyên bố sẽ không ủng hộ bất kỳ sự công nhận nào đối với cam kết này trong văn kiện đàm phán, theo các nguồn thạo tin được The Japan Times dẫn lại.",
+            "Chủ tịch đàm phán Chris Bowen cho biết bản dự thảo đầu tiên của quyết định bao trùm sẽ được lưu hành đầu tuần này, tiếp đó là các vòng tham vấn cấp bộ trưởng trước khi hội nghị bế mạc ngày 20/11. Ủy viên khí hậu EU Wopke Hoekstra, một trong các bộ trưởng tới Antalya hôm nay, nói sẵn sàng từ bỏ yêu cầu của châu Âu về một mục tiêu điện sạch nếu điều đó giúp mở rộng ủng hộ. Ông Bowen cũng phát tín hiệu rằng thỏa thuận đàm phán khó lặp lại nguyên văn cam kết rời bỏ nhiên liệu hóa thạch của COP28 — cho thấy tuần cuối sẽ là cuộc mặc cả từng câu chữ.",
+            "Bế tắc điện khí hóa chỉ là một trong nhiều đường ranh đỏ: các bên vẫn chia rẽ về việc có nên ban hành văn kiện chung hay không, cách xử lý nguy cơ vượt ngưỡng 1,5°C, tài chính khí hậu và thương mại. Một số nhà đàm phán kỳ vọng văn kiện sẽ xuất hiện ngay trong hôm nay, song các quan chức thừa nhận tiến trình vẫn tranh cãi sâu sắc và kết quả nhiều khả năng chỉ ngã ngũ vào phút chót. Với 160 điểm nghị sự và 60 nhiệm vụ thực chất trên bàn, tuần cuối sẽ quyết định liệu Antalya có vượt qua được mức tuyên bố hay không."
+          ],
+          nguon: [
+            { ten: "The Japan Times", link: "https://www.japantimes.co.jp/environment/2026/11/16/energy/electrify-global-economy-climate-talks/" },
+            { ten: "Hürriyet Daily News", link: "https://www.hurriyetdailynews.com/amp/cop31-turns-to-ministers-for-deal-on-finance-energy-229443" },
+            { ten: "TradersUnion (Financial Times)", link: "https://tradersunion.com/news/geopolitics-trade/show/4260722-cop31-climate-talks-divisions/" }
+          ],
+          gio: "Chiều, Nov 16"
+        },
+        {
+          tieuDe: "Ukraine đánh trúng cầu Crimea trong đợt 1.336 drone, giao thông qua eo biển Kerch tê liệt tới trưa",
+          baiViet: [
+            "Cầu Crimea nối bán đảo Crimea với đất liền Nga đã bị đánh trúng sáng nay 16/11, buộc chính quyền do Nga dựng lên tại Crimea hạn chế giao thông qua cầu cho tới khoảng giữa trưa và lập ban chỉ huy ứng phó khẩn cấp tại Kerch. Người đứng đầu Crimea Sergei Aksyonov xác nhận trên Telegram rằng đối phương đã đánh trúng cầu Crimea, song không nêu chi tiết thiệt hại. Kênh giám sát Crimean Wind cho biết một nhịp vòm của cầu đã trúng đòn lúc 05:38, còn kênh Mash đưa tin khoảng 2.000 ô tô kẹt lại trong ùn tắc trên cầu.",
+            "Theo Bộ Quốc phòng Nga, Ukraine đã phóng 1.336 drone trong đêm — con số cao thứ hai trong năm nay theo thống kê của AFP dựa trên các tuyên bố chính thức của Nga — nhắm vào nhiều mục tiêu trong đó có Moskva và cây cầu biểu tượng này. Thiệt hại dường như chỉ ở mức nhỏ, theo The Hindu, nhưng phản ứng của giới chức Nga cho thấy đòn đánh vẫn gây chấn động: cây cầu dài 19 km, dài nhất châu Âu, đã nhiều lần bị Ukraine nhắm tới kể từ năm 2022, trong đó có vụ đánh bom xe tải tháng 10/2022 và vụ tấn công bằng drone biển tháng 7/2023.",
+            "Đợt tấn công diễn ra chỉ vài ngày trước cuộc gặp ba bên giữa Tổng thống Nga Vladimir Putin, Tổng thống Mỹ Donald Trump và Chủ tịch Trung Quốc Tập Cận Bình tại Thâm Quyến ngày 19/11, bên lề hội nghị APEC — cuộc gặp mà Bắc Kinh gọi là có ý nghĩa mang tính đột phá. Trong lúc các đoàn đàm phán hòa bình vẫn họp tại Geneva, đòn đánh vào cầu Crimea cho thấy chiến sự trên thực địa vẫn leo thang song song với ngoại giao, và Moskva trong những tháng qua cũng tăng cường tấn công các cây cầu ở Ukraine, trong đó có thủ đô Kyiv."
+          ],
+          nguon: [
+            { ten: "Reuters (via SRN News)", link: "https://srnnews.com/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says/" },
+            { ten: "The Hindu (AFP)", link: "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece" },
+            { ten: "Kyiv Independent", link: "https://kyivindependent.com/ukraine-reportedly-strikes-crimean-bridge-forcing-temporary-traffic-halt/" }
+          ],
+          gio: "Chiều, Nov 16"
+        },
         {
           tieuDe: "COP31 bước vào tuần cuối: chủ tịch Kurum muốn quyết định về rủi ro vượt 1,5°C, tài chính khí hậu vẫn bế tắc",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 16"
         },
-        {
-          tieuDe: "COP31 giữa chặng: bản dự thảo chuyển đổi công bằng bị chê yếu, mục tiêu tăng gấp ba tài chính thích ứng vẫn bỏ ngỏ",
-          baiViet: [
-            "COP31 tại Antalya đã đi qua nửa chặng đường và những văn bản đầu tiên của đoàn chủ tịch đàm phán do Australia dẫn đầu đã phơi bày các đường ranh đỏ của tuần thứ hai. Tối thứ Sáu, đoàn chủ tịch công bố các ghi chú không chính thức về hai vấn đề gây tranh cãi nhất: chuyển đổi công bằng khỏi nhiên liệu hóa thạch và tài chính thích ứng cho các nước dễ tổn thương. Bản dự thảo về cơ chế chuyển đổi công bằng — được Bộ trưởng Khí hậu Australia Chris Bowen gọi là toàn diện — bị các nhà vận động chỉ trích là quá yếu: cơ chế hai tầng mà dự thảo đề xuất chủ yếu tạo ra một trung tâm tri thức, các báo cáo, một cuộc họp thường niên và việc kết nối yêu cầu của các nước với nguồn hỗ trợ sẵn có, chứ không tạo ra nguồn tiền mới nào.",
-            "Song song, bản dự thảo về mục tiêu thích ứng toàn cầu đề xuất tăng gấp ba tài chính thích ứng lên ít nhất 120 tỷ USD mỗi năm vào năm 2035, nhưng vẫn chừa lựa chọn xem xét lại mục tiêu thay vì chốt cứng — trong khi ước tính nhu cầu thực tế của các nước đang phát triển cao hơn nhiều. Các nước châu Phi đã thất bại trong nỗ lực đưa yêu cầu tăng gấp ba tài chính thích ứng thành một chương trình nghị sự độc lập, một thất bại mà nhiều đoàn coi là bước lùi giữa lúc các nước này đang chịu thiệt hại khí hậu nặng nề nhất. Hàng nghìn người biểu tình đã tuần hành qua Antalya dưới mưa hôm thứ Bảy, trong khi phiên kiểm điểm giữa kỳ do Thổ Nhĩ Kỳ và Australia đồng chủ trì cho thấy các bên vẫn cách xa nhau.",
-            "Tổng thư ký khí hậu Liên Hợp Quốc Simon Stiell tiếp tục giục các đoàn đàm phán chuyển nhanh sang những vấn đề khó nhất và tránh trì hoãn chiến thuật, khi hội nghị bước vào tuần cuối cùng và dự kiến kết thúc ngày 20/11. Ông Bowen cho biết bản dự thảo đầu tiên của văn kiện chung sẽ xuất hiện vào đầu tuần tới, sau đó các bộ trưởng sẽ trực tiếp xử lý những điểm chia rẽ lớn nhất. Tài chính khí hậu vẫn là nút thắt nhạy cảm nhất: lộ trình từ mục tiêu 300 tỷ USD mỗi năm đã thống nhất tại COP29 lên 1,3 nghìn tỷ USD mỗi năm vào 2035 còn bỏ ngỏ, và các nhà vận động đòi kế hoạch có mốc thời gian rõ ràng, ưu tiên viện trợ không hoàn lại thay vì cho vay. Kết quả của tuần cuối sẽ là thước đo xem hợp tác khí hậu đa phương tại Antalya có vượt qua được mức tuyên bố hay không."
-          ],
-          nguon: [
-            { ten: "VNN News Desk", link: "https://valcorednews.com/cop31-midpoint-just-transition-adaptation-drafts/" },
-            { ten: "The Hawk (IANS)", link: "https://www.thehawk.in/news/world/un-talks-enter-decisive-phase-amid-deep-divisions-over-climate-resilience" },
-            { ten: "The Express Tribune (Reuters)", link: "https://tribune.com.pk/story/2640380/un-climate-chief-urges-faster-action-at-cop31" }
-          ],
-          gio: "Chiều, Nov 15"
-        },
-        {
-          tieuDe: "Geneva: Rubio gọi phiên đầu là 'hiệu quả nhất', Ukraine và đồng minh gấp rút sửa kế hoạch 28 điểm trước hạn chót thứ Năm",
-          baiViet: [
-            "Các quan chức Mỹ, Ukraine và châu Âu đã họp tại Geneva trong ngày Chủ Nhật để thảo luận về kế hoạch hòa bình 28 điểm của Tổng thống Donald Trump, và phiên đầu tiên kết thúc với những tín hiệu lạc quan hiếm hoi. Ngoại trưởng Mỹ Marco Rubio gọi đây là cuộc họp 'hiệu quả và có ý nghĩa nhất' kể từ khi Tổng thống Trump trở lại Nhà Trắng, cho biết các đoàn sẽ gặp lại lần thứ hai ngay trong ngày. Ông Rubio tham dự cùng Bộ trưởng Lục quân Dan Driscoll và đặc phái viên Steve Witkoff; phía Ukraine do Chánh văn phòng Tổng thống Andriy Yermak dẫn đầu, cùng các cố vấn an ninh quốc gia của Anh, Pháp và Đức — những người đã họp riêng với Kyiv trước đó để thống nhất lập trường sửa đổi bản kế hoạch bị cho là thiên về Moscow.",
-            "Ông Yermak xác nhận hai bên 'đã đạt tiến bộ rất tốt' và đang hướng tới một nền hòa bình công bằng, bền vững, đồng thời cho biết các quyết định cuối cùng sẽ do các tổng thống đưa ra. Tổng thống Volodymyr Zelenskyy nói ông đang chờ kết quả và 'cần một kết quả tích cực cho tất cả chúng ta', đồng thời cho biết đã có sự thống nhất rằng phía Mỹ sẽ tính đến 'một số yếu tố' quan trọng với Ukraine trong thỏa thuận. Trước đó, ông Trump nói kế hoạch hiện tại không phải là 'đề nghị cuối cùng' của ông và đặt hạn chót thứ Năm để Kyiv phản hồi — một mốc thời gian tạo cảm giác cấp bách cho toàn bộ tiến trình Geneva.",
-            "Các đồng minh châu Âu vẫn giữ lằn ranh đỏ: không nhượng bộ lãnh thổ, không để biên giới Ukraine bị thay đổi bằng vũ lực và quân đội Ukraine không được để lộ điểm yếu trước tấn công. Một nguồn tin chính phủ Đức cho biết bản dự thảo hòa bình của châu Âu — xây dựng trên nền kế hoạch của Mỹ — đã được gửi cho Ukraine và chính quyền Mỹ, trong khi Chủ tịch Ủy ban châu Âu Ursula von der Leyen nhấn mạnh EU phải có vai trò trung tâm trong mọi thỏa thuận. Tổng thống Thổ Nhĩ Kỳ Tayyip Erdogan cho biết sẽ điện đàm với Tổng thống Nga Vladimir Putin vào thứ Hai và chia sẻ kết quả với các đồng minh châu Âu và Mỹ. Các nhà lãnh đạo châu Âu dự kiến họp vào thứ Hai, và liên minh các nước ủng hộ Ukraine sẽ họp trực tuyến vào thứ Ba, trong lúc Nga cũng cần phê chuẩn bất kỳ kế hoạch cuối cùng nào."
-          ],
-          nguon: [
-            { ten: "TaxTMI (AP)", link: "https://www.taxtmi.com/news?id=62499" },
-            { ten: "AL24 News", link: "https://al24news.dz/en/us-ukraine-and-european-officials-meet-in-geneva-to-discuss-trumps-peace-plan/" },
-            { ten: "New Straits Times (AFP)", link: "https://api.nst.com.my/world/world/2025/11/1321527/us-ukrainian-and-european-officials-meet-geneva-talks-peace-plan" }
-          ],
-          gio: "Chiều, Nov 15"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7: Anh, Canada, Ý cùng Australia giục Israel mở cửa viện trợ Gaza — 150.000 lều kẹt ở biên giới giữa mùa lũ",
+          baiViet: [
+            "Ngoại trưởng bốn nước Australia, Canada, Ý và Anh hôm qua đã ra tuyên bố chung kêu gọi Israel dừng trì hoãn ngay bây giờ và cho phép viện trợ nhân đạo vào Gaza ngay lập tức, nhanh chóng và không bị cản trở. Bốn nước — trong đó ba nước là thành viên G7 — cho biết tình hình tại Gaza đang nghiêm trọng, khi 150.000 lều và nhiều vật tư thiết yếu khác đang bị giữ ở biên giới, không được đưa vào, trong lúc mưa lũ mùa đông vừa bắt đầu.",
+            "Theo các bộ trưởng, cơn bão đầu mùa đã cuốn trôi hàng chục nghìn lều và khiến hơn 152.000 người bị ảnh hưởng, theo báo cáo chính phủ Anh trình Quốc hội ngày 12/11. Liên Hợp Quốc cảnh báo hơn 150.000 lều và 300.000 tấm bạt do các đối tác nhân đạo mua sắm vẫn đang nằm ngoài Gaza, sẵn sàng đưa vào, nhưng các hạn chế của Israel đã chặn lại. Tuyên bố chung nối tiếp lời kêu gọi tuần trước của 53 quốc gia thành viên Liên Hợp Quốc và các tổ chức, do Anh, Qatar và Jordan dẫn đầu, yêu cầu mở mọi cửa khẩu và hành lang nhân đạo qua Ai Cập và Jordan.",
+            "Ngoại trưởng Australia Penny Wong nhấn mạnh tình hình hoàn toàn có thể đảo ngược được nếu viện trợ được thông qua, trong khi giới quan sát lưu ý tuyên bố chung của bốn nước đặt ra một thước đo công khai cho Israel: việc các lều và vật tư mùa đông có được đưa vào hay không trong những tuần tới. Phía Israel chưa có phản hồi chính thức về tuyên bố này, và các bộ trưởng cũng chưa đặt ra thời hạn hay biện pháp cụ thể nếu lời kêu gọi không được đáp ứng."
+          ],
+          nguon: [
+            { ten: "The National News", link: "https://www.thenationalnews.com/news/europe/2026/11/16/four-foreign-ministers-urge-israel-to-allow-rapid-and-unimpeded-aid-into-gaza/" },
+            { ten: "Malay Mail", link: "https://www.malaymail.com/news/world/2026/11/16/stop-the-delays-now-floods-worsen-gaza-crisis-as-australia-uk-canada-italy-demand-rapid-aid-access/243423" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack" }
+          ],
+          gio: "Chiều, Nov 16"
+        },
         {
           tieuDe: "G7 Paris: Đại sứ quán Mỹ tại Riyadh nhấn mạnh lời lên án Iran và Houthi, cam kết viện trợ mùa đông cho Ukraine",
           baiViet: [
@@ -87,25 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 16"
         },
-        {
-          tieuDe: "G7 Paris ngoài Ukraine: thúc giải pháp Gaza, lên án bạo lực Sudan và cam kết 2,5 tỷ USD cứu trợ lương thực",
-          baiViet: [
-            "Tuyên bố chung của các ngoại trưởng G7 sau hai ngày họp tại Paris ngày 9–10/11 không chỉ xoay quanh Ukraine: văn kiện trải dài từ Trung Đông, Sudan tới an ninh lương thực và hạ tầng trọng yếu. Về Gaza, các ngoại trưởng ủng hộ thực thi nghị quyết liên quan của Hội đồng Bảo an Liên Hợp Quốc, kêu gọi Hamas giải giáp và không còn vai trò trong tương lai của Gaza, đồng thời cho rằng Israel nên rút dần theo các điều kiện đã đặt ra trong nghị quyết. Các bộ trưởng cũng bàn về tình hình Sudan và những mối đe dọa mới nổi với hạ tầng trọng yếu, trong bối cảnh nhóm muốn bảo vệ thương mại toàn cầu và hỗ trợ dân thường tại các điểm nóng.",
-            "Về tiền bạc, G7 cho biết đã huy động 2,5 tỷ USD tài trợ quốc tế trong năm 2026 để ứng phó khủng hoảng Trung Đông, đồng thời tái khẳng định cam kết xây dựng hệ thống lương thực bền vững. Các ngoại trưởng nhấn mạnh hỗ trợ nhân đạo và bảo vệ dân thường là ưu tiên xuyên suốt tuyên bố — từ các vùng xung đột tới những cộng đồng đối mặt với thiếu lương thực, nhiên liệu và thuốc men. Tuyên bố cũng đề cập an ninh lương thực và dinh dưỡng như một trụ cột riêng, nối tiếp các cam kết của G7 về khả năng chống chịu của chuỗi cung ứng thực phẩm toàn cầu.",
-            "Tuyên bố Paris là văn kiện chung bao quát của G7 dưới nhiệm kỳ chủ tịch Pháp trong năm nay, với sự tham gia của ngoại trưởng Canada, Pháp, Đức, Italy, Nhật Bản, Anh, Mỹ cùng Đại diện cấp cao của Liên minh châu Âu. Ngoài Trung Đông và Sudan, văn kiện còn bao quát Ấn Độ Dương–Thái Bình Dương, Haiti, Cuba và Venezuela — những nội dung đã được công bố riêng trước đó. Giới quan sát nhận định độ rộng của tuyên bố phản ánh cách G7 dưới thời Pháp đang cố gắng giữ vai trò điều phối toàn cầu, dù các cam kết cụ thể về tiền và hành động vẫn sẽ được đo bằng việc thực thi trong những tháng tới."
-          ],
-          nguon: [
-            { ten: "US Department of State", link: "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-g7-foreign-ministers-meeting-in-paris/" },
-            { ten: "Media Bypass News", link: "https://mediabypassnews.com/paris-summit-g7-maps-out-push-for-peace-sanctions-aid/" }
-          ],
-          gio: "Chiều, Nov 15"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20: Trump cấm Nam Phi dự thượng đỉnh Miami 2026 sau vụ bàn giao búa — Pretoria nói đã trao 'đúng thủ tục'",
+          baiViet: [
+            "Tổng thống Mỹ Donald Trump hôm thứ Sáu tuyên bố Nam Phi sẽ không được mời dự thượng đỉnh G20 năm 2026 do Mỹ làm chủ nhà tại Miami, sau khi Pretoria từ chối trao búa chủ tịch cho một quan chức sứ quán Mỹ tại lễ bế mạc ở Johannesburg. Ông Trump nói Nam Phi không xứng đáng làm thành viên, đồng thời nhắc lại việc Mỹ tẩy chay toàn bộ hội nghị vì cáo buộc chính phủ Nam Phi dung túng bạo lực với cộng đồng Afrikaner — những cáo buộc Pretoria bác bỏ.",
+            "Phủ tổng thống Nam Phi đáp lại rằng vì Mỹ không có mặt tại hội nghị nên các công cụ của chức chủ tịch G20 đã được bàn giao đúng thủ tục cho một quan chức sứ quán Mỹ tại trụ sở Bộ Ngoại giao, và việc bàn giao chính thức ở cấp tương đương được tiến hành từ hôm nay, thứ Hai. Trước đó, Pretoria khẳng định Tổng thống Cyril Ramaphosa sẽ không trao búa cho một nhà ngoại giao cấp thấp vì đó là sự xúc phạm nghi thức; Ngoại trưởng Ronald Lamola nói cấp phù hợp phải là nguyên thủ, bộ trưởng hoặc đặc phái viên do tổng thống bổ nhiệm.",
+            "Căng thẳng bàn giao khép lại một kỳ thượng đỉnh G20 đầu tiên trên đất châu Phi đầy sóng gió: tuyên bố chung 122 điểm được thông qua ngay ngày khai mạc bất chấp Mỹ tẩy chay, và Nhà Trắng cáo buộc Pretoria vũ khí hóa chức chủ tịch. Từ 1/12, Mỹ chính thức đảm nhiệm chức chủ tịch G20 tới tháng 11/2026, với thượng đỉnh dự kiến tổ chức tại câu lạc bộ golf Doral của ông Trump ở Florida — nơi Nam Phi, theo tuyên bố của ông Trump, sẽ không có ghế."
+          ],
+          nguon: [
+            { ten: "Times of Oman", link: "https://timesofoman.com/article/165588-trump-says-south-africa-is-killing-white-people-bars-it-from-2026-g20-summit-in-miami" },
+            { ten: "DT Next", link: "https://www.dtnext.in/news/world/s-africa-not-to-receive-invitation-to-g20-summit-to-be-hosted-in-miami-in-2026-trump-854647" },
+            { ten: "The Federal", link: "https://thefederal.com/app-lite/category/international/us-south-africa-g20-presidency-spat-summit-217528/-avs-params-/showbackbtn--true?hasShare=1&&showbackbtn=true" }
+          ],
+          gio: "Chiều, Nov 16"
+        },
         {
           tieuDe: "G20: bàn giao chủ tịch bế tắc — Pretoria từ chối trao búa cho nhân viên sứ quán Mỹ, lễ chuyển giao dời sang cấp ngoại giao trong tuần",
           baiViet: [
@@ -133,20 +148,6 @@ window.TIN_TUC = {
             { ten: "BusinessMirror (AP)", link: "https://businessmirror.com.ph/2025/11/24/the-g20-summit-in-south-africa-ends-with-the-glaring-absence-of-the-us-after-trumps-boycott/" }
           ],
           gio: "Chiều, Nov 15"
-        },
-        {
-          tieuDe: "G20 Johannesburg khai mạc: tuyên bố 122 điểm thông qua ngay từ đầu bất chấp Mỹ tẩy chay; Modi đề xuất đối tác công nghệ ba bên",
-          baiViet: [
-            "Hội nghị thượng đỉnh G20 đầu tiên trên đất châu Phi đã khai mạc hôm thứ Bảy 14/11 tại Johannesburg, Nam Phi, với một bước phá lệ: các lãnh đạo thông qua tuyên bố chung 122 điểm ngay từ đầu hội nghị, thay vì chờ tới cuối kỳ như thông lệ. Tuyên bố kêu gọi hành động toàn cầu mạnh mẽ hơn với các vấn đề tác động trực tiếp tới nước nghèo — thảm họa liên quan khí hậu, nợ quốc gia, an ninh lương thực — và được nước chủ nhà ca ngợi là thắng lợi của kỳ G20 đầu tiên tại châu Phi. Việc thông qua diễn ra bất chấp Mỹ tẩy chay hội nghị và gây sức ép yêu cầu Nam Phi không thông qua tuyên bố khi không có phái đoàn Mỹ; phát ngôn viên của Tổng thống Cyril Ramaphosa cho biết tuyên bố được các thành viên còn lại thông qua nhất trí, dù Argentina nói nước này không tán thành.",
-            "Khai mạc hội nghị, Tổng thống Ramaphosa tuyên bố 'đã hình thành đồng thuận' trước khi chuyển sang phần thảo luận kín — thậm chí micro còn vô tình để mở khiến câu nói của ông về việc thông qua tuyên bố lọt ra ngoài. Hội nghị diễn ra tại trung tâm triển lãm gần khu Soweto, nơi từng là quê hương của Nelson Mandela. Mỹ vắng mặt hoàn toàn, Tổng thống Argentina Javier Milei cũng không dự để thể hiện đoàn kết với đồng minh Trump, còn Trung Quốc cử Thủ tướng Lý Cường, Nga cử trợ lý tổng thống, Ấn Độ có Thủ tướng Narendra Modi và Brazil có Tổng thống Luiz Inácio Lula da Silva.",
-            "Bên lề hội nghị, Thủ tướng Modi đề xuất một loạt sáng kiến mới và kêu gọi xem xét lại sâu sắc các thước đo phát triển toàn cầu, trong đó có quan hệ đối tác công nghệ và đổi mới ba bên Australia–Canada–Ấn Độ (ACITI) về công nghệ mới nổi, năng lượng sạch, khoáng sản chiến lược và ứng dụng trí tuệ nhân tạo. Các lãnh đạo Pháp, Đức, Anh, Canada và Nhật cũng họp bên lề về kế hoạch hòa bình Ukraine của Mỹ; Thủ tướng Đức Friedrich Merz cho biết đại diện của ba nước châu Âu, Liên minh châu Âu, Mỹ và Ukraine sẽ gặp nhau tại Thụy Sĩ vào Chủ nhật để bàn tiếp. Hội nghị kéo dài hai ngày, với phiên đầu tiên tập trung vào tăng trưởng bao trùm và bền vững, thương mại quốc tế, hệ thống lương thực và giảm bất bình đẳng ở các nước đang phát triển."
-          ],
-          nguon: [
-            { ten: "Orange County Register (AP)", link: "https://edition.pagesuite.com/tribune/article_popover.aspx?guid=fdb9132f-9c48-4a9f-a9d3-9c9707a31a40" },
-            { ten: "India Tribune (IANS)", link: "https://www.indiatribune.com/public/pm-modi-calls-for-rethinking-on-global-development-parameters-proposes-path-breaking-initiatives-at-g20-summit" },
-            { ten: "Testbook", link: "https://testbook.com/question-answer/during-the-g20-summit-in-johannesburg-pm-narendra--694a9e0366abd6935bbb5186/amp" }
-          ],
-          gio: "Sáng, Nov 15"
         },
       ]
     }
