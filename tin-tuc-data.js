@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Ba 17/11/2026 — bản tin chiều",
+  capNhat: "Thứ Tư 18/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: EU đòi 'tín hiệu mạnh nhất' cho năng lượng sạch, Australia bị chất vấn vì mở rộng than và khí",
+          baiViet: [
+            "Đàm phán COP31 tại Antalya bước vào giai đoạn khó khăn nhất khi các bộ trưởng bắt đầu 'chấm điểm' bản dự thảo thỏa thuận đầu tiên, văn bản 18 trang với 144 điều khoản mà hai nước đồng chủ trì Thổ Nhĩ Kỳ và Australia lưu hành hôm thứ Hai. Trưởng đoàn đàm phán EU, Ủy viên Khí hậu Wopke Hoekstra, nói hôm thứ Ba rằng hội nghị phải phát đi 'tín hiệu mạnh nhất có thể' về nhu cầu chuyển sang năng lượng sạch — nhưng bản dự thảo lại làm lu mờ yêu cầu cắt giảm khí nhà kính bền vững, khi phần lớn lượng phát thải toàn cầu vẫn đến từ đốt dầu, khí và than. Các đoàn sẽ dành cả ngày lắng nghe phản hồi của nhau rồi tìm thỏa hiệp, hướng tới một bản dự thảo sửa đổi trong tuần này, trước hạn chót chính thức thứ Sáu.",
+            "Điểm nóng nhất vẫn là ngôn ngữ về nhiên liệu hóa thạch: dự thảo giữ song song hai cách diễn đạt — một lặp lại cam kết 'chuyển đổi khỏi' nhiên liệu hóa thạch từ năm 2023, một kêu gọi 'loại bỏ dần' mạnh hơn — và cả hai đều có thể bị gạt khỏi văn kiện cuối cùng. Dự thảo còn đặt mục tiêu các nước giàu đạt phát thải ròng bằng không vào năm 2030, ngưỡng mà ít nước có thể thực sự chạm tới, đồng thời kêu gọi chuyển ngay khỏi nhiên liệu hóa thạch trong hệ thống năng lượng và tăng gấp ba tài chính thích ứng lên ít nhất 120 tỉ USD mỗi năm vào năm 2035. Tổ chức Greenpeace nhận xét dự thảo ghi nhận thiệt hại khí hậu đang leo thang và hoan nghênh phán quyết mang tính bước ngoặt của Tòa án Công lý Quốc tế về khí hậu, nhưng chưa gắn mục tiêu điện khí hóa 35% vào yêu cầu loại bỏ nhiên liệu hóa thạch.",
+            "Áp lực dồn lên chính nước đồng chủ trì Australia: một phụ nữ bản địa trẻ, quê hương đang bị khai thác than, đã cùng một điều tra viên nhân quyền của Liên Hợp Quốc đứng lên chất vấn chính phủ Albanese về việc tiếp tục cấp phép mở rộng than và khí ngay tại COP31. Bộ trưởng Khí hậu Australia Chris Bowen, người dẫn dắt đàm phán, bảo vệ bản dự thảo như một phép thử xem các bên chấp nhận được tới đâu, đồng thời từ chối cam kết Australia — một trong những nước xuất khẩu than lớn nhất thế giới — sẽ loại bỏ xuất khẩu nhiên liệu hóa thạch. Với gần 200 nước phải đồng thuận và tiền lệ các kỳ COP thường kéo dài quá hạn nhiều ngày, chưa ai dám chắc Antalya sẽ kịp chốt thỏa thuận vào thứ Sáu."
+          ],
+          nguon: [
+            { ten: "Reuters (via Duke Country FM)", link: "https://dukecountry.fm/2026/11/17/cop31-talks-must-drive-a-shift-towards-greener-energy-eu-climate-chief-says/" },
+            { ten: "Bangkok Post (AFP)", link: "https://www.bangkokpost.com/world/3356511/nations-haggle-over-draft-climate-deal-at-un-talks" },
+            { ten: "Greenpeace Australia Pacific", link: "https://newshub.medianet.com.au/2026/11/everything-on-the-table-cop31-draft-text-recognises-climate-harm-but-stronger-action-needed-to-phase-out-fossil-fuels/181972/" }
+          ],
+          gio: "Sáng, Nov 18"
+        },
+        {
+          tieuDe: "Geneva: Nga chưa đồng ý cho châu Âu dự đàm phán — Kushner nói Moscow 'tích cực', EU đã chốt 6 nước sẵn sàng ngồi vào bàn",
+          baiViet: [
+            "Trợ lý Tổng thống Nga Yury Ushakov cho biết hôm thứ Hai rằng Moscow và các bên mới chỉ thống nhất đàm phán sẽ tiếp tục, còn lịch trình vòng sau và việc mở rộng số nước tham gia vẫn chưa được chốt. Phát biểu này trái ngược với tín hiệu lạc quan từ phía Mỹ: Jared Kushner, con rể Tổng thống Donald Trump và là thành viên đoàn Mỹ, nói sau cuộc gặp rằng phía Nga đã thể hiện thái độ tích cực với việc để đại diện châu Âu tham gia các vòng đàm phán tới. Đây là lần đầu tiên sau 9 tháng Nga–Ukraine ngồi lại đàm phán ba bên với Mỹ, sau hai vòng tại Abu Dhabi đầu tháng 11 chỉ đạt được thỏa thuận trên nguyên tắc về trao đổi tù binh.",
+            "Phía châu Âu đã chuẩn bị sẵn đội hình: hôm thứ Sáu, EU thống nhất rằng đại diện của Anh, Pháp, Đức, Ý, Ba Lan và chính EU sẽ tham gia nếu châu Âu được mời vào đàm phán. Theo đài NHK, Nga được cho là đang tìm cách làm lung lay Ukraine cùng các nước ủng hộ châu Âu, nhằm giữ nhịp đàm phán theo điều kiện của riêng mình. Trong khi đó, Mỹ và Ukraine cho biết đã soạn xong một 'khung hòa bình tinh chỉnh' sau ngày đàm phán đầu tiên tại Geneva hôm Chủ nhật, nhưng không công bố chi tiết — và Điện Kremlin nói chưa nhận được chính thức văn bản nào để phản hồi.",
+            "Nút thắt vẫn nằm ở lãnh thổ và bảo đảm an ninh: Nga đòi toàn quyền kiểm soát vùng Donetsk ở miền đông Ukraine, Kyiv bác bỏ và tuyên bố sẽ không ký thỏa thuận nào nếu thiếu bảo đảm an ninh ngăn Nga tái xâm lược. Tổng thống Volodymyr Zelensky nói đàm phán vẫn đang tiếp diễn, còn tương lai của nhà máy điện hạt nhân Zaporizhzhia do Nga kiểm soát và cơ chế giám sát ngừng bắn vẫn chưa ngã ngũ. Chiến sự ngoài thực địa cũng không lắng xuống trong lúc các nhà ngoại giao họp kín tại Geneva."
+          ],
+          nguon: [
+            { ten: "NHK World-Japan", link: "https://www3.nhk.or.jp/nhkworld/news/20261117de77114/" },
+            { ten: "The Edge (Reuters)", link: "https://klse.i3investor.com/web/blog/detail/ceomorningbrief/2025-11-25-story-h500550648-US_Ukraine_Work_on_39_refined_39_Peace_Plan_to_End_War_With_Russia" },
+            { ten: "Unbiased Headlines", link: "https://unbiasedheadlines.com/fact-finders/russia-ukraine" }
+          ],
+          gio: "Sáng, Nov 18"
+        },
         {
           tieuDe: "COP31: các bộ trưởng bắt đầu 'chấm điểm' dự thảo — Nga và nhóm Ả Rập phản đối cả văn kiện chung, tài chính thích ứng vẫn là điểm nghẽn",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 17"
         },
-        {
-          tieuDe: "COP31: bản dự thảo đầu tiên kêu gọi đẩy nhanh loại bỏ nhiên liệu hóa thạch, cam kết AI chỉ có 9 nước ký",
-          baiViet: [
-            "Các nhà đàm phán tại COP31 ở Antalya đã công bố bản dự thảo thỏa thuận đầu tiên vào thứ Hai, văn bản 18 trang do Australia — nước đồng chủ trì và dẫn dắt đàm phán — lưu hành để thu hẹp khoảng cách giữa gần 200 quốc gia trước hạn chót cuối tuần. Dự thảo kêu gọi các nước đẩy nhanh việc loại bỏ nhiên liệu hóa thạch, trong đó có chuyển đổi ngay khỏi nhiên liệu hóa thạch trong hệ thống năng lượng, song đồng thời chứa hai cách diễn đạt khác nhau về nhiên liệu hóa thạch và nhiều điều khoản mà một số nước đã bác bỏ, theo Reuters.",
-            "Dự thảo cũng ghi nhận quan điểm trái ngược về mục tiêu của chủ nhà Thổ Nhĩ Kỳ: nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu từ khoảng 23% hiện nay lên 35% vào năm 2035. Các bộ trưởng bắt đầu đổ về Antalya từ hôm nay cho phiên cấp cao khai mạc thứ Ba, họp theo hình thức Divan để tìm thỏa hiệp chính trị về những vấn đề gai góc nhất — tài chính khí hậu, xử lý nguy cơ vượt ngưỡng 1,5°C và có nên ban hành văn kiện chung hay không. Hội nghị dự kiến bế mạc ngày 20/11, dù các kỳ COP trước đây thường kéo dài quá hạn.",
-            "Bên lề đàm phán, Thổ Nhĩ Kỳ cùng Liên minh Viễn thông Quốc tế phát động Cam kết Antalya về trí tuệ nhân tạo, thu hút 80 lượt ủng hộ và 271 cam kết làm cho AI bền vững hơn — nhưng tới sáng thứ Hai mới chỉ có 9 nước ký, trong đó không có Mỹ, Trung Quốc hay Liên minh châu Âu. Một sáng kiến khác, Hiệp ước Công nghiệp xanh Antalya, nhằm mở khóa đầu tư vào thép, xi măng và các sản phẩm công nghiệp sạch hơn. Các nước cũng còn chia rẽ về thời điểm công bố báo cáo đánh giá lớn tiếp theo của IPCC, khi các nước dễ tổn thương muốn có kết quả vào năm 2028."
-          ],
-          nguon: [
-            { ten: "Reuters (via SRN News)", link: "https://srnnews.com/first-draft-of-cop31-deal-signals-tough-negotiations-to-come/" },
-            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168812" },
-            { ten: "Kuwait Times (AFP)", link: "https://kuwaittimes.com/article/53751/business/cop31-draft-deal-urges-faster-fossil-fuel-phaseout/amp/" }
-          ],
-          gio: "Sáng, Nov 17"
-        },
-        {
-          tieuDe: "Geneva: Mỹ–Ukraine ra 'khung hòa bình tinh chỉnh', châu Âu muốn vòng đàm phán sau tổ chức tại châu Âu",
-          baiViet: [
-            "Mỹ và Ukraine ngày Chủ nhật đã công bố một khung hòa bình đã cập nhật và tinh chỉnh sau hai phiên đàm phán tại Geneva về kế hoạch 28 điểm của Mỹ, gọi các cuộc thảo luận là rất hiệu quả. Ngoại trưởng Mỹ Marco Rubio nói đã có tiến bộ rất lớn nhưng vẫn còn việc phải làm, đồng thời nhấn mạnh thỏa thuận cuối cùng phải được tổng thống hai nước ký duyệt trước khi đưa cho Nga. Người phát ngôn Điện Kremlin Dmitry Peskov cho biết hôm thứ Hai rằng Moscow vẫn chưa nhận được thông tin về kết quả đàm phán Geneva.",
-            "Bản dự thảo gốc bị rò rỉ tuần trước gây báo động ở Kyiv và các thủ đô châu Âu vì nghiêng về Moscow: Ukraine rút quân khỏi một phần vùng Donetsk đang kiểm soát, công nhận trên thực tế quyền kiểm soát của Nga ở Donetsk, Lugansk và Crimea, đóng băng mặt trận ở Kherson và Zaporizhzhia theo tuyến chiến sự hiện tại, giới hạn quân đội ở mức 600.000 người so với khoảng 880.000 hiện nay và cam kết không gia nhập NATO. Tổng thống Zelenskyy cho biết phía Mỹ sẽ tính đến một số yếu tố quan trọng với Ukraine, nhưng không nói rõ. Một nhóm thượng nghị sĩ Mỹ cho hay Rubio mô tả kế hoạch là danh sách mong muốn của Nga, song Bộ Ngoại giao Mỹ bác bỏ tường thuật này.",
-            "Câu hỏi tiếp theo là vòng đàm phán sau tổ chức ở đâu. Theo nhật báo La Repubblica của Ý, lãnh đạo châu Âu đề xuất chuyển vòng đàm phán tiếp theo sang một nước châu Âu — Geneva, một địa điểm ở Na Uy hoặc phần châu Âu của Thổ Nhĩ Kỳ đang được cân nhắc — và tiếp tục bàn tới khả năng lập một lực lượng quốc tế tại Ukraine gồm binh sĩ các nước ngoài châu Âu. Tổng thống Thổ Nhĩ Kỳ Erdogan dự kiến điện đàm với Tổng thống Nga Putin trong ngày thứ Hai, trong khi hạn chót thứ Năm mà Tổng thống Trump đặt ra cho Kyiv trả lời kế hoạch vẫn đang đến gần."
-          ],
-          nguon: [
-            { ten: "BBC (via Daily Sun)", link: "http://www.daily-sun.com/world/842186/us-and-ukraine-signal-peace-plan-progress-after-geneva-talks" },
-            { ten: "AP (via TaxTMI)", link: "https://www.taxtmi.com/news?id=62499" },
-            { ten: "La Repubblica (via NEWS.am)", link: "https://news.am/en/news/1075084" }
-          ],
-          gio: "Sáng, Nov 17"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 lên án Iran và Houthi đe dọa eo biển Hormuz — khối lo sửa mái vòm Chernobyl và cứu trợ động đất Venezuela",
+          baiViet: [
+            "Đại sứ quán Mỹ tại Saudi Arabia vừa điểm lại các cam kết an ninh trong tuyên bố chung của ngoại trưởng G7 sau cuộc họp tại Paris ngày 9–10/11, nhấn mạnh khối lên án mạnh mẽ hành vi gây hấn của Iran và các vụ tấn công của lực lượng Houthi nhằm vào Saudi Arabia, Yemen cùng tuyến vận tải qua eo biển Hormuz. Các bộ trưởng yêu cầu Tehran dừng tấn công tàu dân sự, bãi bỏ mọi khoản phí và hạn chế quá cảnh trái phép, đồng thời ủng hộ các nỗ lực ngoại giao của các nước trung gian trong khu vực nhằm đạt một thỏa thuận lâu dài giải quyết lo ngại quốc tế về chương trình hạt nhân của Iran và góp phần vào an ninh khu vực.",
+            "Ngoài Trung Đông, tuyên bố chung còn dành chỗ cho hai hồ sơ ít được chú ý hơn. Về Ukraine, G7 hoan nghênh hội nghị các nhà tài trợ do Pháp, Ngân hàng Tái thiết và Phát triển châu Âu (EBRD) cùng Ukraine tổ chức tại Paris ngày 9/11 để giữ việc sửa chữa mái vòm an toàn mới của nhà máy Chernobyl ở vị trí cao trong chương trình nghị sự quốc tế — công trình bảo vệ lò phản ứng gặp sự cố năm 1986. Khối cũng ghi nhận các dự án đang triển khai theo Cơ chế Tallinn do Ý làm chủ tịch nhằm hỗ trợ khả năng chống chịu mạng dân sự của Ukraine, bên cạnh cam kết tăng cường hỗ trợ tài chính và vật chất giúp Kyiv vượt qua mùa đông về an ninh năng lượng.",
+            "Một điểm mới khác là Venezuela: G7 thừa nhận quá trình phục hồi kinh tế của nước này gắn chặt với tiến trình hòa giải chính trị, đồng thời khuyến khích các khoản đầu tư và thỏa thuận thương mại giúp người dân Venezuela có tương lai ổn định, thịnh vượng hơn. Khối cũng đề nghị hỗ trợ nhân đạo khẩn cấp và hoạt động bảo vệ dân sự sau trận động đất kép tàn khốc ngày 24/6/2026. Các nội dung này cho thấy tuyên bố Paris không chỉ xoay quanh Ukraine và eo biển Đài Loan — những điểm đã được đưa tin rộng rãi — mà còn trải dài sang an ninh hàng hải, hạt nhân dân sự và cứu trợ nhân đạo."
+          ],
+          nguon: [
+            { ten: "Mathrubhumi (US Embassy in Saudi Arabia)", link: "https://english.mathrubhumi.com/amp/news/world/us-embassy-saudi-arabia-g7-foreign-ministers-paris-iran-hormuz-houthi-strikes-veyq1hhf" },
+            { ten: "Ministry of Foreign Affairs of Japan", link: "https://www.mofa.go.jp/fp/pc/pageite_000001_01914.html" },
+            { ten: "European External Action Service (EEAS)", link: "https://www.eeas.europa.eu/eeas/g7-joint-declaration-following-g7-foreign-ministers-meeting-paris-9-and-10-november-2026_en" }
+          ],
+          gio: "Sáng, Nov 18"
+        },
         {
           tieuDe: "G7: hành động của Trung Quốc phía đông Đài Loan 'đe dọa ổn định' — khối siết đội tàu bóng tối Nga, lo tài chính Ukraine 2027",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 17"
         },
-        {
-          tieuDe: "Brussels: EU chốt 113 danh sách trừng phạt mới với Nga, Kallas nói chưa ngừng bắn thì chưa bàn an ninh châu Âu với Moscow",
-          baiViet: [
-            "Các ngoại trưởng Liên minh châu Âu họp tại Brussels ngày 16/11 đã thống nhất bổ sung 113 cá nhân và thực thể vào danh sách trừng phạt Nga, nhắm đặc biệt vào các cơ chế tài chính mà Moscow dùng để chi trả cho chiến tranh — trong đó có những người bị quy trách nhiệm về tấn công mạng và phá hoại, cùng khoảng 50 ngân hàng, công ty năng lượng và thực thể liên quan tới đội tàu bóng tối. Ngoại trưởng Ireland Helen McEntee, nước đang giữ chức chủ tịch luân phiên EU, cho biết đây là bước đi trước các cuộc thảo luận trong tuần về gói trừng phạt thứ 22 rộng hơn, và Ủy ban châu Âu sẽ trình đề xuất vào thứ Tư về cách lấp khoảng trống tài chính 70 tỉ euro của Ukraine trong năm tới.",
-            "Đại diện cấp cao EU về đối ngoại Kaja Kallas nhấn mạnh cần có ngừng bắn trước khi bất kỳ cuộc đàm phán hòa bình nào bắt đầu, cáo buộc Nga leo thang tấn công tàu hỏa, cầu cống và hạ tầng năng lượng để gây khổ cực tối đa cho dân thường trước mùa đông khắc nghiệt. Nhiều ngoại trưởng — trong đó có Ngoại trưởng Litva Kestutis Budrys và Ngoại trưởng Thụy Điển Maria Malmer Stenergard — cảnh báo bàn về cấu trúc an ninh tương lai của châu Âu với Moscow lúc này là quá sớm và dễ rơi vào bẫy của Nga. Hôm thứ Sáu, các lãnh đạo EU họp không chính thức tại Dublin đã thống nhất hình thức để châu Âu tham gia đàm phán do Mỹ làm trung gian, song khối vẫn cần một nhiệm vụ đàm phán và lập trường chung.",
-            "Cùng ngày, các bộ trưởng cũng bàn về Gaza. Bà McEntee nói EU có nghĩa vụ đạo đức phải làm nhiều hơn khi chính quyền Israel đã chặn viện trợ nhân đạo suốt 3 năm qua, và những trận lũ lụt tàn khốc gần đây càng làm trầm trọng thêm thảm họa — bà kêu gọi EU gia tăng sức ép để viện trợ cứu sinh được vào Gaza. Các bộ trưởng cũng nghe Ngoại trưởng Ukraine Andrii Sybiha trình bày nhu cầu của Kyiv khi mùa đông siết chặt, trong đó có hệ thống phòng không đối phó các đợt tấn công tên lửa đạn đạo và drone phản lực. Trước đó, lực lượng hải quân EU trong Chiến dịch Irini đã lên kiểm tra tàu MV Midag, nghi là tàu đội bóng tối của Nga, ở Địa Trung Hải hôm thứ Sáu."
-          ],
-          nguon: [
-            { ten: "Reuters (via ThePrint)", link: "https://theprint.in/world/holding-talks-with-russia-on-europes-security-now-would-be-premature-eu-ministers-say/3100053/" },
-            { ten: "Government of Ireland (gov.ie)", link: "https://www.gov.ie/en/department-of-foreign-affairs/press-releases/mcentee-to-discuss-further-sanctions-against-russia-and-the-need-for-the-opening-of-aid-corridors-into-gaza-with-eu-foreign-ministers/" },
-            { ten: "The Thursday Times", link: "https://thursdaytimes.com/2026/11/16/news/international/eu-ministers-to-agree-113-new-russia-sanctions-listings/" }
-          ],
-          gio: "Sáng, Nov 17"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami: Nga khẳng định 'dù sao cũng dự cấp cao', nghị sự Mỹ bỏ tài chính khí hậu — Ấn Độ được khuyên chuẩn bị cả phương án BRICS",
+          baiViet: [
+            "Thứ trưởng Ngoại giao Nga Alexander Pankin khẳng định Moscow sẽ tham dự thượng đỉnh G20 tại Miami ngày 14–15/12 'ở cấp cao' trong mọi trường hợp, dù thành phần đoàn đại biểu chỉ được quyết định sát ngày theo thông lệ. Trả lời hãng TASS, ông Pankin cho biết phía Mỹ đã chính thức mời Nga và 'nhiều lần công khai nói muốn gặp nhà lãnh đạo Nga', đồng thời nhấn mạnh Moscow có ý định tham gia tích cực và kỳ vọng thượng đỉnh Miami giúp khôi phục đối thoại bình đẳng giữa các nền kinh tế lớn. Đây là lần đầu tiên sau nhiều năm Nga có thể trở lại bàn G20 cấp lãnh đạo — ông Putin đã không dự thượng đỉnh G20 trực tiếp từ năm 2019.",
+            "Trong khi đó, chương trình nghị sự mà Mỹ đặt ra cho Miami đang gây tranh cãi: bốn nhóm công tác đề xuất gồm bãi bỏ quy định, chuỗi cung ứng năng lượng an toàn, quản trị trí tuệ nhân tạo và chống phụ thuộc viện trợ — còn tài chính khí hậu, giảm nợ và chuyển giao công nghệ, những ưu tiên của các chủ tịch trước, vắng mặt. Theo phân tích của NDTV, đây là sự rời xa đáng kể khỏi khuôn khổ G20 hiện tại, nhóm chiếm 85% GDP toàn cầu và hai phần ba dân số thế giới, và có nguy cơ nghiêng diễn đàn hẳn về phía các nước OECD trong khi các nước đang phát triển chỉ tham gia theo điều kiện khác hẳn trước đây.",
+            "Ấn Độ được khuyên nên chấp nhận lời mời ngay, cử đoàn lớn tới Miami, đồng thời phối hợp với các nước cùng quan điểm như Nam Phi, Brazil, Ai Cập, Nigeria và Indonesia để thống nhất lập trường trước thượng đỉnh. Bài phân tích cảnh báo nếu không có nhượng bộ, một nhóm đáng kể các nước có thể xây dựng cơ chế song song — thông qua BRICS, khối mà Ấn Độ làm chủ tịch năm 2026. Bối cảnh càng thêm căng thẳng khi Nam Phi, thành viên sáng lập và là nước châu Phi duy nhất có ghế riêng, bị loại khỏi Miami và Ba Lan được mời thay thế, trong khi 12 nước khách mời — trong đó có Việt Nam — lại không gồm bất kỳ nước Caribe, quốc đảo Thái Bình Dương hay nước châu Phi nào."
+          ],
+          nguon: [
+            { ten: "AzerNews (TASS)", link: "https://www.azernews.az/region/267008.html" },
+            { ten: "NDTV (analysis)", link: "https://special.ndtv.com/decoding-g20-ndtv-conclave-121/news-detail/the-miami-purge-india-cant-be-a-bystander-as-us-decides-to-shrink-the-g20-9790612/3" },
+            { ten: "WiredJa", link: "https://www.wiredja.com/categories/newsberg/news/africa-miamis-empty-chair-africas-only-g20-nation-shut-out-on-the-caribbeans-doorstep" }
+          ],
+          gio: "Sáng, Nov 18"
+        },
         {
           tieuDe: "G20: Nga cảnh báo Anh 'hậu quả nghiêm trọng' nếu hạn chế quyền của Moscow ở chủ tịch 2027 — Putin dự Miami tùy chuyến APEC",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "The Indian Express", link: "https://indianexpress.com/article/opinion/columns/three-summits-at-the-end-of-2026-eas-apec-g20-us-china-india-10962827/" }
           ],
           gio: "Sáng, Nov 17"
-        },
-        {
-          tieuDe: "G20: Trump cấm Nam Phi dự thượng đỉnh Miami 2026 sau vụ bàn giao búa — Pretoria nói đã trao 'đúng thủ tục'",
-          baiViet: [
-            "Tổng thống Mỹ Donald Trump hôm thứ Sáu tuyên bố Nam Phi sẽ không được mời dự thượng đỉnh G20 năm 2026 do Mỹ làm chủ nhà tại Miami, sau khi Pretoria từ chối trao búa chủ tịch cho một quan chức sứ quán Mỹ tại lễ bế mạc ở Johannesburg. Ông Trump nói Nam Phi không xứng đáng làm thành viên, đồng thời nhắc lại việc Mỹ tẩy chay toàn bộ hội nghị vì cáo buộc chính phủ Nam Phi dung túng bạo lực với cộng đồng Afrikaner — những cáo buộc Pretoria bác bỏ.",
-            "Phủ tổng thống Nam Phi đáp lại rằng vì Mỹ không có mặt tại hội nghị nên các công cụ của chức chủ tịch G20 đã được bàn giao đúng thủ tục cho một quan chức sứ quán Mỹ tại trụ sở Bộ Ngoại giao, và việc bàn giao chính thức ở cấp tương đương được tiến hành từ hôm nay, thứ Hai. Trước đó, Pretoria khẳng định Tổng thống Cyril Ramaphosa sẽ không trao búa cho một nhà ngoại giao cấp thấp vì đó là sự xúc phạm nghi thức; Ngoại trưởng Ronald Lamola nói cấp phù hợp phải là nguyên thủ, bộ trưởng hoặc đặc phái viên do tổng thống bổ nhiệm.",
-            "Căng thẳng bàn giao khép lại một kỳ thượng đỉnh G20 đầu tiên trên đất châu Phi đầy sóng gió: tuyên bố chung 122 điểm được thông qua ngay ngày khai mạc bất chấp Mỹ tẩy chay, và Nhà Trắng cáo buộc Pretoria vũ khí hóa chức chủ tịch. Từ 1/12, Mỹ chính thức đảm nhiệm chức chủ tịch G20 tới tháng 11/2026, với thượng đỉnh dự kiến tổ chức tại câu lạc bộ golf Doral của ông Trump ở Florida — nơi Nam Phi, theo tuyên bố của ông Trump, sẽ không có ghế."
-          ],
-          nguon: [
-            { ten: "Times of Oman", link: "https://timesofoman.com/article/165588-trump-says-south-africa-is-killing-white-people-bars-it-from-2026-g20-summit-in-miami" },
-            { ten: "DT Next", link: "https://www.dtnext.in/news/world/s-africa-not-to-receive-invitation-to-g20-summit-to-be-hosted-in-miami-in-2026-trump-854647" },
-            { ten: "The Federal", link: "https://thefederal.com/app-lite/category/international/us-south-africa-g20-presidency-spat-summit-217528/-avs-params-/showbackbtn--true?hasShare=1&&showbackbtn=true" }
-          ],
-          gio: "Chiều, Nov 16"
         },
       ]
     }
