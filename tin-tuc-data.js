@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Ba 17/11/2026 — bản tin sáng",
+  capNhat: "Thứ Ba 17/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: các bộ trưởng bắt đầu 'chấm điểm' dự thảo — Nga và nhóm Ả Rập phản đối cả văn kiện chung, tài chính thích ứng vẫn là điểm nghẽn",
+          baiViet: [
+            "Các bộ trưởng tại COP31 ở Antalya bắt đầu phản hồi về bản dự thảo thỏa thuận đầu tiên trong ngày thứ Ba, sau khi văn bản 18 trang với 144 điều khoản do hai nước đồng chủ trì Thổ Nhĩ Kỳ và Australia lưu hành hôm thứ Hai. Dự thảo kêu gọi chuyển đổi ngay khỏi nhiên liệu hóa thạch và tăng gấp ba tài chính thích ứng lên ít nhất 120 tỉ USD mỗi năm vào năm 2035 — nhưng đồng thời giữ hai cách diễn đạt trái ngược nhau về nhiên liệu hóa thạch, và bên nào cũng có thể bị gạt khỏi văn kiện cuối cùng trước hạn chót thứ Sáu.",
+            "Phản ứng gay gắt nhất đến từ phía các nước sản xuất dầu: Nga, Saudi Arabia và nhóm Ả Rập phản đối việc ban hành văn kiện chung ngay từ đầu, trong khi Bộ trưởng Khí hậu Australia Chris Bowen — người chủ trì đàm phán chính thức — bảo vệ bản dự thảo như một phép thử xem các bên chấp nhận được tới đâu, thay vì chỉ ghi lại những điểm đã đồng thuận. Ông Bowen cũng từ chối cam kết Australia, một trong những nước xuất khẩu than lớn nhất thế giới, sẽ loại bỏ xuất khẩu nhiên liệu hóa thạch, với lập luận nước xuất khẩu không mang trách nhiệm lớn hơn nước nhập khẩu. Nhóm vận động 350.org nhận xét dự thảo thừa nhận cần rời xa nhiên liệu hóa thạch nhưng không đưa ra quy trình hay lộ trình rõ ràng để biến cam kết thành hành động.",
+            "Điểm nghẽn thứ hai là tiền: phân tích của Carbon Brief cho thấy cam kết tài chính công giúp các nước đang phát triển ứng phó biến đổi khí hậu đã giảm hơn 70% trong năm 2026, khiến lời kêu gọi tăng gấp ba tài chính thích ứng trong dự thảo càng thêm xa vời. Một chi tiết khác cũng gây tranh cãi: dự thảo giữ mục tiêu của chủ nhà Thổ Nhĩ Kỳ là nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, nhưng không nói điện khí hóa phải chạy bằng năng lượng tái tạo. Ở chiều tích cực, Colombia, Ghana và Peru đã ký Tuyên bố Antalya về thị trường tín chỉ carbon, nâng số nước ủng hộ lên 17, còn Colombia và Philippines gia nhập liên minh, khi các đoàn trưởng và bộ trưởng tiếp tục thương lượng suốt tuần."
+          ],
+          nguon: [
+            { ten: "Asia Today (AFP/Reuters)", link: "https://asiatoday.id/read/cop31-draft-draws-fire-over-fossil-fuels-as-ministers-take-charge" },
+            { ten: "Dawn (Reuters)", link: "https://www.dawn.com/news/2045062/cop31-draft-seeks-faster-shift-away-from-fossil-fuels" },
+            { ten: "Business Day (South Africa)", link: "https://www.businessday.co.za/news/science-and-environment/2026-11-17-cop31-draft-urges-accelerated-action-on-fossil-fuels/" }
+          ],
+          gio: "Chiều, Nov 17"
+        },
+        {
+          tieuDe: "Geneva: Nga–Ukraine ngồi lại bàn ba bên, châu Âu lần đầu có ghế — nhưng Moscow chưa đồng ý cho châu Âu dự vòng sau",
+          baiViet: [
+            "Đàm phán hòa bình về Ukraine bước sang một hình thức mới tại Geneva: lần đầu tiên các nhà đàm phán Ukraine, Mỹ và châu Âu cùng ngồi lại với nhau để bàn về các cuộc thương lượng tương lai với Nga. Tổng thống Volodymyr Zelensky cho biết phía châu Âu lần này được đại diện bởi chính những người sẽ đại diện cho lục địa trong đàm phán với Nga — Pháp, Anh, Đức, Ba Lan, Ý cùng Liên minh châu Âu và một đại diện NATO — trong khi đặc phái viên Mỹ Steve Witkoff và Jared Kushner tham gia trực tuyến. Phái đoàn Nga do cựu bộ trưởng văn hóa Vladimir Medinsky dẫn đầu đã tới Geneva rạng sáng thứ Ba, còn phía Kyiv do cựu bộ trưởng quốc phòng Rustem Umerov dẫn dắt, các cuộc họp diễn ra kín, không có báo chí.",
+            "Kushner xác nhận đã có tiến triển và cho biết trọng tâm của các cuộc trao đổi gần đây là tìm cách 'tạo điều kiện cho đối thoại trực tiếp' giữa Kyiv và Moscow. Hai vòng đàm phán trước đó tại Abu Dhabi trong năm nay đều không mang lại đột phá, và lãnh thổ vẫn là vấn đề gai góc nhất — Washington đang thúc đẩy chấm dứt cuộc chiến đã kéo dài gần bốn năm, trong khi Moscow bị Kyiv cáo buộc không sẵn sàng nhượng bộ các yêu sách lãnh thổ và chính trị sâu rộng. Zelensky cũng cho biết Nga đang nhận thêm tên lửa đạn đạo từ Triều Tiên, làm tăng sức ép lên bàn đàm phán.",
+            "Tuy nhiên, ngay trong ngày thứ Ba, một trợ lý của Điện Kremlin đã bác bỏ thông tin cho rằng Nga đồng ý đưa các nước châu Âu vào đàm phán hòa bình, cho thấy bất đồng về thành phần bàn đàm phán vẫn chưa được giải quyết dù các bên đã gặp nhau. Phía Nga cũng chưa chính thức nhận được đề xuất hòa bình nào để phản hồi, trong khi Ukraine nói các cuộc thảo luận sẽ tiếp tục vào thứ Tư. Với việc châu Âu lần đầu tiên có mặt đầy đủ ở bàn thương lượng, hình thức đàm phán đang thay đổi — nhưng nội dung, đặc biệt là vấn đề lãnh thổ và bảo đảm an ninh cho Ukraine, vẫn là những nút thắt chưa ai gỡ được."
+          ],
+          nguon: [
+            { ten: "Dawn (Reuters)", link: "https://www.dawn.com/news/2045067/ukraine-us-and-europe-discuss-ways-to-tempt-russia-into-talks" },
+            { ten: "Ahram Online (AP)", link: "https://english.ahram.org.eg/NewsContent/2/11/562517/World/War-in-Ukraine/Moscow,-Kyiv-set-for-Geneva-peace-talks-.aspx" },
+            { ten: "eGazette (Al Jazeera)", link: "https://egazette.ai/article/ukraine-holds-peace-talks-with-us-and-europe-as-fighting-intensifies-28a661?lang=en" }
+          ],
+          gio: "Chiều, Nov 17"
+        },
         {
           tieuDe: "COP31: bản dự thảo đầu tiên kêu gọi đẩy nhanh loại bỏ nhiên liệu hóa thạch, cam kết AI chỉ có 9 nước ký",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 17"
         },
-        {
-          tieuDe: "COP31: cam kết điện khí hóa chững lại — khối LMDC phản đối đưa mục tiêu 35% vào văn kiện chung",
-          baiViet: [
-            "Nỗ lực đẩy điện khí hóa toàn cầu tại COP31 đang chững lại khi hội nghị bước vào tuần cuối ở Antalya. Thổ Nhĩ Kỳ thúc đẩy một cam kết tự nguyện nâng tỉ trọng điện trong nhu cầu năng lượng toàn cầu từ khoảng 20% hiện nay lên 35% vào năm 2035; tới nay đã có hơn 30 chính phủ — trong đó có Anh, Đức, Phần Lan — cùng gần 100 tổ chức tư nhân, kể cả ABB và Schneider Electric, bày tỏ ủng hộ. Nhưng khối LMDC, nhóm khoảng hai chục nước đang phát triển gồm Trung Quốc, Ấn Độ và Bangladesh, đã tuyên bố sẽ không ủng hộ bất kỳ sự công nhận nào đối với cam kết này trong văn kiện đàm phán, theo các nguồn thạo tin được The Japan Times dẫn lại.",
-            "Chủ tịch đàm phán Chris Bowen cho biết bản dự thảo đầu tiên của quyết định bao trùm sẽ được lưu hành đầu tuần này, tiếp đó là các vòng tham vấn cấp bộ trưởng trước khi hội nghị bế mạc ngày 20/11. Ủy viên khí hậu EU Wopke Hoekstra, một trong các bộ trưởng tới Antalya hôm nay, nói sẵn sàng từ bỏ yêu cầu của châu Âu về một mục tiêu điện sạch nếu điều đó giúp mở rộng ủng hộ. Ông Bowen cũng phát tín hiệu rằng thỏa thuận đàm phán khó lặp lại nguyên văn cam kết rời bỏ nhiên liệu hóa thạch của COP28 — cho thấy tuần cuối sẽ là cuộc mặc cả từng câu chữ.",
-            "Bế tắc điện khí hóa chỉ là một trong nhiều đường ranh đỏ: các bên vẫn chia rẽ về việc có nên ban hành văn kiện chung hay không, cách xử lý nguy cơ vượt ngưỡng 1,5°C, tài chính khí hậu và thương mại. Một số nhà đàm phán kỳ vọng văn kiện sẽ xuất hiện ngay trong hôm nay, song các quan chức thừa nhận tiến trình vẫn tranh cãi sâu sắc và kết quả nhiều khả năng chỉ ngã ngũ vào phút chót. Với 160 điểm nghị sự và 60 nhiệm vụ thực chất trên bàn, tuần cuối sẽ quyết định liệu Antalya có vượt qua được mức tuyên bố hay không."
-          ],
-          nguon: [
-            { ten: "The Japan Times", link: "https://www.japantimes.co.jp/environment/2026/11/16/energy/electrify-global-economy-climate-talks/" },
-            { ten: "Hürriyet Daily News", link: "https://www.hurriyetdailynews.com/amp/cop31-turns-to-ministers-for-deal-on-finance-energy-229443" },
-            { ten: "TradersUnion (Financial Times)", link: "https://tradersunion.com/news/geopolitics-trade/show/4260722-cop31-climate-talks-divisions/" }
-          ],
-          gio: "Chiều, Nov 16"
-        },
-        {
-          tieuDe: "Ukraine đánh trúng cầu Crimea trong đợt 1.336 drone, giao thông qua eo biển Kerch tê liệt tới trưa",
-          baiViet: [
-            "Cầu Crimea nối bán đảo Crimea với đất liền Nga đã bị đánh trúng sáng nay 16/11, buộc chính quyền do Nga dựng lên tại Crimea hạn chế giao thông qua cầu cho tới khoảng giữa trưa và lập ban chỉ huy ứng phó khẩn cấp tại Kerch. Người đứng đầu Crimea Sergei Aksyonov xác nhận trên Telegram rằng đối phương đã đánh trúng cầu Crimea, song không nêu chi tiết thiệt hại. Kênh giám sát Crimean Wind cho biết một nhịp vòm của cầu đã trúng đòn lúc 05:38, còn kênh Mash đưa tin khoảng 2.000 ô tô kẹt lại trong ùn tắc trên cầu.",
-            "Theo Bộ Quốc phòng Nga, Ukraine đã phóng 1.336 drone trong đêm — con số cao thứ hai trong năm nay theo thống kê của AFP dựa trên các tuyên bố chính thức của Nga — nhắm vào nhiều mục tiêu trong đó có Moskva và cây cầu biểu tượng này. Thiệt hại dường như chỉ ở mức nhỏ, theo The Hindu, nhưng phản ứng của giới chức Nga cho thấy đòn đánh vẫn gây chấn động: cây cầu dài 19 km, dài nhất châu Âu, đã nhiều lần bị Ukraine nhắm tới kể từ năm 2022, trong đó có vụ đánh bom xe tải tháng 10/2022 và vụ tấn công bằng drone biển tháng 7/2023.",
-            "Đợt tấn công diễn ra chỉ vài ngày trước cuộc gặp ba bên giữa Tổng thống Nga Vladimir Putin, Tổng thống Mỹ Donald Trump và Chủ tịch Trung Quốc Tập Cận Bình tại Thâm Quyến ngày 19/11, bên lề hội nghị APEC — cuộc gặp mà Bắc Kinh gọi là có ý nghĩa mang tính đột phá. Trong lúc các đoàn đàm phán hòa bình vẫn họp tại Geneva, đòn đánh vào cầu Crimea cho thấy chiến sự trên thực địa vẫn leo thang song song với ngoại giao, và Moskva trong những tháng qua cũng tăng cường tấn công các cây cầu ở Ukraine, trong đó có thủ đô Kyiv."
-          ],
-          nguon: [
-            { ten: "Reuters (via SRN News)", link: "https://srnnews.com/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says/" },
-            { ten: "The Hindu (AFP)", link: "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece" },
-            { ten: "Kyiv Independent", link: "https://kyivindependent.com/ukraine-reportedly-strikes-crimean-bridge-forcing-temporary-traffic-halt/" }
-          ],
-          gio: "Chiều, Nov 16"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7: hành động của Trung Quốc phía đông Đài Loan 'đe dọa ổn định' — khối siết đội tàu bóng tối Nga, lo tài chính Ukraine 2027",
+          baiViet: [
+            "Trong tuyên bố chung công bố ngày 11/11 sau cuộc họp ngoại trưởng G7 tại Paris, các ngoại trưởng Canada, Pháp, Đức, Ý, Nhật, Anh, Mỹ và đại diện cấp cao EU nhận định các hoạt động ngày càng quyết đoán của Trung Quốc ở vùng biển phía đông Đài Loan 'đe dọa ổn định khu vực, tự do hàng hải và an toàn của vận tải biển quốc tế'. Tuyên bố kêu gọi duy trì nguyên trạng và phản đối mọi thay đổi đơn phương bằng vũ lực hay cưỡng ép — một trong những điểm cứng rắn nhất của khối về vấn đề eo biển Đài Loan trong năm nay.",
+            "Về Ukraine, G7 tái khẳng định ủng hộ không lay chuyển và cam kết phối hợp đáp ứng nhu cầu tài chính của Kyiv trong năm 2027 và xa hơn, đồng thời tăng cường hỗ trợ vật chất và tài chính giúp Ukraine vượt qua mùa đông về an ninh năng lượng. Khối lên án Triều Tiên và Iran viện trợ quân sự cho Nga, cũng như Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng — và bàn cách tăng sức ép lên kinh tế chiến tranh của Moscow, trong đó có các lệnh trừng phạt mới. Một mũi nhọn cụ thể là đội tàu bóng tối: G7 quyết tâm nhắm vào tàu treo cờ giả hoặc không quốc tịch cùng các mắt xích hỗ trợ như công ty bảo hiểm, nhà giao dịch dầu và trung gian giúp tàu né trừng phạt.",
+            "Tuyên bố cũng dành phần lớn cho Trung Đông và an ninh kinh tế: lên án mạnh mẽ các vụ tấn công của Iran nhằm vào các nước láng giềng và việc cản trở giao thông qua eo biển Hormuz, yêu cầu Tehran dừng tấn công tàu dân sự và bãi bỏ mọi khoản phí hay hạn chế quá cảnh trái phép; đồng thời thừa nhận chưa có đột phá về lực lượng thay thế phái bộ gìn giữ hòa bình LHQ tại Lebanon (UNIFIL), có khoảng 7.500 quân từ gần 50 nước, khi nhiệm vụ của phái bộ kết thúc ngày 31/12/2026. Về kinh tế, khối tái khẳng định lo ngại trước các chính sách phi thị trường và cưỡng ép kinh tế, nhất là với khoáng sản quan trọng, và sẽ vận hành Nền tảng phối hợp về cưỡng ép kinh tế để xây dựng phản ứng chung."
+          ],
+          nguon: [
+            { ten: "The Hindu BusinessLine (Reuters)", link: "https://www.thehindubusinessline.com/news/world/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692306.ece" },
+            { ten: "European External Action Service (EEAS)", link: "https://www.eeas.europa.eu/eeas/g7-joint-declaration-following-g7-foreign-ministers-meeting-paris-9-and-10-november-2026_en" },
+            { ten: "German Federal Foreign Office", link: "https://www.auswaertiges-amt.de/en/newsroom/news/2810400-2810400" }
+          ],
+          gio: "Chiều, Nov 17"
+        },
         {
           tieuDe: "Brussels: EU chốt 113 danh sách trừng phạt mới với Nga, Kallas nói chưa ngừng bắn thì chưa bàn an ninh châu Âu với Moscow",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 17"
         },
-        {
-          tieuDe: "G7: Anh, Canada, Ý cùng Australia giục Israel mở cửa viện trợ Gaza — 150.000 lều kẹt ở biên giới giữa mùa lũ",
-          baiViet: [
-            "Ngoại trưởng bốn nước Australia, Canada, Ý và Anh hôm qua đã ra tuyên bố chung kêu gọi Israel dừng trì hoãn ngay bây giờ và cho phép viện trợ nhân đạo vào Gaza ngay lập tức, nhanh chóng và không bị cản trở. Bốn nước — trong đó ba nước là thành viên G7 — cho biết tình hình tại Gaza đang nghiêm trọng, khi 150.000 lều và nhiều vật tư thiết yếu khác đang bị giữ ở biên giới, không được đưa vào, trong lúc mưa lũ mùa đông vừa bắt đầu.",
-            "Theo các bộ trưởng, cơn bão đầu mùa đã cuốn trôi hàng chục nghìn lều và khiến hơn 152.000 người bị ảnh hưởng, theo báo cáo chính phủ Anh trình Quốc hội ngày 12/11. Liên Hợp Quốc cảnh báo hơn 150.000 lều và 300.000 tấm bạt do các đối tác nhân đạo mua sắm vẫn đang nằm ngoài Gaza, sẵn sàng đưa vào, nhưng các hạn chế của Israel đã chặn lại. Tuyên bố chung nối tiếp lời kêu gọi tuần trước của 53 quốc gia thành viên Liên Hợp Quốc và các tổ chức, do Anh, Qatar và Jordan dẫn đầu, yêu cầu mở mọi cửa khẩu và hành lang nhân đạo qua Ai Cập và Jordan.",
-            "Ngoại trưởng Australia Penny Wong nhấn mạnh tình hình hoàn toàn có thể đảo ngược được nếu viện trợ được thông qua, trong khi giới quan sát lưu ý tuyên bố chung của bốn nước đặt ra một thước đo công khai cho Israel: việc các lều và vật tư mùa đông có được đưa vào hay không trong những tuần tới. Phía Israel chưa có phản hồi chính thức về tuyên bố này, và các bộ trưởng cũng chưa đặt ra thời hạn hay biện pháp cụ thể nếu lời kêu gọi không được đáp ứng."
-          ],
-          nguon: [
-            { ten: "The National News", link: "https://www.thenationalnews.com/news/europe/2026/11/16/four-foreign-ministers-urge-israel-to-allow-rapid-and-unimpeded-aid-into-gaza/" },
-            { ten: "Malay Mail", link: "https://www.malaymail.com/news/world/2026/11/16/stop-the-delays-now-floods-worsen-gaza-crisis-as-australia-uk-canada-italy-demand-rapid-aid-access/243423" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack" }
-          ],
-          gio: "Chiều, Nov 16"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20: Nga cảnh báo Anh 'hậu quả nghiêm trọng' nếu hạn chế quyền của Moscow ở chủ tịch 2027 — Putin dự Miami tùy chuyến APEC",
+          baiViet: [
+            "Nga hôm thứ Hai đã cảnh báo Anh sẽ phải đối mặt với 'hậu quả nghiêm trọng' nếu London tìm cách hạn chế quyền của Moscow khi Anh tiếp quản chức chủ tịch G20 vào năm 2027. Ông Marat Berdyev, đại sứ lưu động của Bộ Ngoại giao Nga phụ trách G20 và APEC, nói với hãng thông tấn nhà nước RIA: 'Bất kỳ hành vi xâm phạm quyền của Nga nào cũng sẽ không bị bỏ qua. Mọi sai lầm trong vấn đề này đều sẽ có hậu quả nghiêm trọng.' Lời cảnh báo được đưa ra chưa đầy hai tuần sau khi tạp chí The Economist dẫn lời Thủ tướng Anh Andy Burnham rằng Tổng thống Vladimir Putin sẽ không tới dự thượng đỉnh G20 tại Manchester vào tháng 11 năm sau vì các lệnh trừng phạt của Anh liên quan tới Ukraine.",
+            "Dù phương Tây nỗ lực cô lập Moscow vì cuộc chiến ở Ukraine, Nga vẫn là thành viên đầy đủ của G20 — và chính vì thế London không thể đơn phương quyết định ai được dự, theo lập luận của phía Nga. Trong khi đó, Mỹ — nước đang giữ chức chủ tịch G20 — đã mời Putin dự thượng đỉnh các nhà lãnh đạo tại Miami vào ngày 14–15/12 tới, nhưng Điện Kremlin vẫn chưa nói ông có tới hay cử người khác thay thế. Thượng đỉnh Miami là cuộc gặp lớn cuối cùng của G20 dưới nhiệm kỳ chủ tịch của Mỹ, trước khi Anh tiếp quản vào năm 2027 với thượng đỉnh dự kiến tại Manchester.",
+            "Quyết định về Miami nhiều khả năng sẽ chỉ được chốt sau chuyến thăm Trung Quốc của Putin dự diễn đàn APEC tại Thâm Quyến ngày 18–19/11: trợ lý tổng thống Yuri Ushakov cho biết câu trả lời cuối cùng phụ thuộc lớn vào kết quả chuyến đi, nơi Putin dự kiến có cuộc gặp ba bên với Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Mỹ Donald Trump, cùng các cuộc tiếp xúc song phương riêng với cả hai nhà lãnh đạo. Việc Putin có xuất hiện tại Miami hay không sẽ là tín hiệu đầu tiên về cách Moscow xử lý diễn đàn này trong lúc quan hệ với phương Tây vẫn đóng băng."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/europe/russia-warns-uk-over-g20-presidency-after-london-says-putin-wont-come-its-summit-2026-11-16/" },
+            { ten: "US News Pulse (Reuters)", link: "https://usnewspulse.com/world/russia-warns-uk-of-serious-consequences-if-it-curbs-moscows-g20-rights" },
+            { ten: "Eurasia Daily (EADaily)", link: "https://www.eurasiadaily.ru/en/news/2026/11/16/ushakov-announced-the-condition-of-vladimir-putins-trip-to-the-g20-summit-in-miami" }
+          ],
+          gio: "Chiều, Nov 17"
+        },
         {
           tieuDe: "G20 Miami: Ba Lan ngồi vào ghế Nam Phi, Pretoria nói 'đã bước tiếp' và hướng về chủ tịch Anh 2027",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "The Federal", link: "https://thefederal.com/app-lite/category/international/us-south-africa-g20-presidency-spat-summit-217528/-avs-params-/showbackbtn--true?hasShare=1&&showbackbtn=true" }
           ],
           gio: "Chiều, Nov 16"
-        },
-        {
-          tieuDe: "G20: bàn giao chủ tịch bế tắc — Pretoria từ chối trao búa cho nhân viên sứ quán Mỹ, lễ chuyển giao dời sang cấp ngoại giao trong tuần",
-          baiViet: [
-            "Lễ bàn giao chủ tịch G20 từ Nam Phi sang Mỹ đã rơi vào bế tắc ngoại giao sau khi hội nghị Johannesburg bế mạc hôm Chủ Nhật. Tổng thống Cyril Ramaphosa gõ búa khép hội nghị theo truyền thống, nhưng không có quan chức Mỹ nào có mặt để nhận búa do chính quyền Trump tẩy chay toàn bộ hội nghị. Nhà Trắng vào phút chót đề nghị cử một quan chức sứ quán Mỹ tại Nam Phi tới nhận, song Pretoria từ chối vì cho rằng để tổng thống trao búa cho một nhân viên ngoại giao cấp thấp là xúc phạm nghi thức.",
-            "Theo các nguồn tin ngoại giao, lễ bàn giao chính thức sẽ diễn ra trong tuần này giữa các nhà ngoại giao tương đương, có thể tại Bộ Ngoại giao Nam Phi — dù đặc phái viên G20 của Nam Phi, Đại sứ Xolisa Mabhongo, nói thẳng 'chúng tôi sẽ không làm gì cả' và Mỹ 'đơn giản sẽ đảm nhiệm chức chủ tịch và thông báo với thế giới thực đơn của họ'. Từ 1/12, Nam Phi trở lại bộ ba troika cùng Mỹ, và người phát ngôn của ông Ramaphosa, Vincent Magwenya, nhấn mạnh 'Mỹ không thể ước chúng tôi biến mất'.",
-            "Tuyên bố chung 122 điểm của Johannesburg — thông qua ngay ngày khai mạc bất chấp Mỹ tẩy chay — đã khiến Nhà Trắng cáo buộc Pretoria 'vũ khí hóa' chức chủ tịch và làm suy yếu nguyên tắc đồng thuận của G20. Tổng thống Trump dự kiến tổ chức hội nghị thượng đỉnh G20 năm sau tại câu lạc bộ golf Doral ở Florida và thu hẹp trọng tâm vào tăng trưởng kinh tế, nới lỏng quy định và dồi dào năng lượng, đồng thời loại các tổ chức Liên Hợp Quốc khỏi danh sách khách mời. Giới quan sát cho rằng dù Johannesburg được coi là thắng lợi hiếm hoi của chủ nghĩa đa phương, phần lớn thành quả có nguy cơ bị đảo ngược trong năm chủ tịch Mỹ."
-          ],
-          nguon: [
-            { ten: "Legalbrief Africa", link: "https://legalbrief.co.za/diary/legalbrief-africa-new/story/us-to-oppose-any-g20-declaration-2/print/" },
-            { ten: "TBS News (Reuters)", link: "https://www.tbsnews.net/worldbiz/africa/g20-declaration-defiance-us-marks-rare-victory-multilateralism-1294336" },
-            { ten: "Arab News (AP)", link: "https://www.arabnews.com/node/2623608/amp" }
-          ],
-          gio: "Sáng, Nov 16"
         },
       ]
     }
