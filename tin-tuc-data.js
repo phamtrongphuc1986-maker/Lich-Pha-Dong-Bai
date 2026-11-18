@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Tư 18/11/2026 — bản tin sáng",
+  capNhat: "Thứ Tư 18/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "APEC Thâm Quyến: Tập–Putin gặp nhau trước cuộc gặp ba bên lịch sử với Trump — hạt nhân và chiến tranh Iran lên bàn, Ukraine có thể bị gạt ra ngoài",
+          baiViet: [
+            "Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin đã bắt đầu gặp nhau tại Thâm Quyến vào thứ Tư, một ngày trước cuộc gặp ba bên lịch sử đầu tiên với Tổng thống Mỹ Donald Trump bên lề hội nghị cấp cao APEC diễn ra ngày 18–19/11. Phát biểu tại hội nghị, ông Tập cam kết chống lại chủ nghĩa bảo hộ thương mại, trong khi ông Putin tuyên bố các lệnh trừng phạt của phương Tây áp lên Nga kể từ khi xâm lược Ukraine năm 2022 đã thất bại. Ông Trump dự kiến tới Thâm Quyến vào cuối ngày thứ Tư sau khi gặp các lãnh đạo Quad — Australia, Nhật Bản và Ấn Độ — tại Manila.",
+            "Chương trình nghị sự của cuộc gặp ba bên cho thấy một khoảng trống lớn trong kiểm soát vũ khí toàn cầu: hiệp ước New START từng giới hạn kho vũ khí chiến lược của Mỹ và Nga đã hết hạn từ tháng 2/2026, và Trung Quốc tuyên bố việc yêu cầu Bắc Kinh tham gia đàm phán là “không công bằng, không hợp lý và không thực tế”. Một quan chức cấp cao của Mỹ nói thẳng Washington “không kỳ vọng đạt được bất kỳ thỏa thuận nào”, mô tả cuộc gặp chỉ mang tính thăm dò. Ngoài hạt nhân, các lãnh đạo dự kiến bàn về chiến tranh Iran, và có thể cả thương mại, trí tuệ nhân tạo và Ukraine — dù một quan chức Mỹ nói Ukraine không nằm trong chương trình chính thức.",
+            "Cuộc gặp đã làm dấy lên so sánh với Hội nghị Yalta năm 1945 và nỗi lo ba cường quốc có thể định đoạt số phận Ukraine qua đầu Kyiv và châu Âu, hoặc chia thế giới thành các vùng ảnh hưởng kiểu thế kỷ 21. Về thực chất, mỗi bên mang một mục tiêu riêng: ông Trump sẽ có cuộc gặp song phương với ông Tập vào thứ Năm — lần thứ tư kể từ khi trở lại Nhà Trắng — và đang để mắt tới các cuộc gặp riêng với ông Putin và lãnh đạo Triều Tiên Kim Jong Un; ông Tập và ông Putin gặp nhau lần thứ năm trong năm nay, dự kiến bàn về năng lượng, tài chính rồi mới tới chính sách đối ngoại gồm Ukraine và Triều Tiên. Một cuộc gặp ba bên nữa có thể diễn ra vào tháng 12 tại thượng đỉnh G20 ở Miami."
+          ],
+          nguon: [
+            { ten: "The Tribune (Reuters)", link: "https://tribune.com.pk/story/2640967/xi-putin-blast-western-protectionism-sanctions-before-meeting-trump-at-apec-1" },
+            { ten: "The Hindu (AFP)", link: "https://www.thehindu.com/news/international/xi-putin-meet-ahead-of-historic-trump-trilateral-summit/article71714533.ece" },
+            { ten: "ABP Live (DW)", link: "https://news.abplive.com/news/world/apec-summit-trump-xi-and-putin-set-for-first-trilateral-meeting-what-the-us-china-and-russia-want-1876504/amp" }
+          ],
+          gio: "Chiều, Nov 18"
+        },
+        {
+          tieuDe: "Geneva ngày 2: 'Bộ tứ lớn' châu Âu lần đầu ngồi vào bàn đàm phán — Kushner nêu 3 trụ cột: bảo đảm an ninh, đường vào EU và tái thiết Ukraine",
+          baiViet: [
+            "Vòng đàm phán hòa bình thứ ba giữa Ukraine, Mỹ và Nga tại Geneva đã bước sang ngày thứ hai với một thay đổi lớn về thành phần: Pháp, Đức, Anh và Ý — “bộ tứ lớn” châu Âu — lần đầu tiên tham gia, sau khi vắng mặt ở hai vòng trước tổ chức tại Abu Dhabi. Các cố vấn an ninh quốc gia của bốn nước ngồi cùng bàn với phái đoàn Ukraine và Mỹ trong suốt ngày đàm phán, dù về hình thức cuộc gặp vẫn là ba bên. Phái đoàn Kyiv do Thư ký Hội đồng An ninh Quốc gia Rustem Umerov dẫn đầu, phía Nga do Vladimir Medinsky dẫn đầu, còn Mỹ cử đặc phái viên Steve Witkoff và Jared Kushner.",
+            "Ông Kushner đã công khai khung kế hoạch của Mỹ trên mạng xã hội X, nêu ba trụ cột: bảo đảm an ninh “mạnh mẽ và đáng tin cậy” chống lại xâm lược trong tương lai, con đường gia nhập Liên minh châu Âu cho Ukraine, và một kế hoạch toàn diện về thịnh vượng hậu chiến được xây dựng cùng các đối tác châu Âu và Ngân hàng Thế giới để hỗ trợ tái thiết và tăng trưởng dài hạn. Ông cho biết ông và ông Witkoff đã làm việc với Kyiv cùng các đối tác châu Âu suốt năm qua, và hôm thứ Hai đã trao đổi với trợ lý Điện Kremlin Yuri Ushakov, sau đó gọi điện với Ukraine và các đối tác châu Âu gồm Đức, Pháp, Anh, Ba Lan, Ý cùng đại diện EU và NATO để chuẩn bị chương trình cho cuộc gặp đa phương tiếp theo — trong đó có việc khôi phục đối thoại trực tiếp giữa châu Âu và Nga, điều mà ông mô tả là “gần như vắng bóng” suốt bốn năm qua.",
+            "Dù vậy, chưa có đột phá nào được ghi nhận. Kênh quân sự được mô tả là “mang tính xây dựng”: các tướng lĩnh Mỹ, Nga và Ukraine — trong đó có Tư lệnh quân đội Mỹ tại châu Âu, Tướng Alexus Grynkewich, và Bộ trưởng Lục quân Dan Driscoll — đang bàn cách giám sát ngừng bắn sau bất kỳ thỏa thuận nào. Vấn đề lãnh thổ vẫn là nút thắt: Moscow tiếp tục đòi Kyiv nhượng vùng Donbas ở miền đông, điều Kyiv từ chối và yêu cầu bảo đảm an ninh vững chắc từ phương Tây trước. Moscow cũng chưa đồng ý cho châu Âu tham gia vòng đàm phán tiếp theo. Trong lúc đàm phán diễn ra, giao tranh không ngừng: Bộ Tổng tham mưu Ukraine cho biết riêng ngày thứ Ba Nga đã bắn 28 tên lửa và 109 bom dẫn đường vào lãnh thổ Ukraine."
+          ],
+          nguon: [
+            { ten: "Associated Press (via Glance)", link: "https://trends.glance.com/story/articles/news/US/en/ap-news/s-0c3e7f4e9f-d6a4f7c4-828f-5cbb-9875-8fc32cb12de7?utm_source=g&summary=false&pagesource=more_stories_you_might_enjoy" },
+            { ten: "The Gaze (La Repubblica)", link: "https://thegaze.media/news/europes-big-four-join-high-stakes-geneva-peace-talks-on-ukraine" },
+            { ten: "TAFS (Kushner statement)", link: "https://tafs.uz/en/2026/11/17/kushner-named-ukraines-path-to-the-eu-one-of-the-three-pillars-of-the-peace-talks" }
+          ],
+          gio: "Chiều, Nov 18"
+        },
         {
           tieuDe: "COP31: EU đòi 'tín hiệu mạnh nhất' cho năng lượng sạch, Australia bị chất vấn vì mở rộng than và khí",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 18"
         },
-        {
-          tieuDe: "COP31: các bộ trưởng bắt đầu 'chấm điểm' dự thảo — Nga và nhóm Ả Rập phản đối cả văn kiện chung, tài chính thích ứng vẫn là điểm nghẽn",
-          baiViet: [
-            "Các bộ trưởng tại COP31 ở Antalya bắt đầu phản hồi về bản dự thảo thỏa thuận đầu tiên trong ngày thứ Ba, sau khi văn bản 18 trang với 144 điều khoản do hai nước đồng chủ trì Thổ Nhĩ Kỳ và Australia lưu hành hôm thứ Hai. Dự thảo kêu gọi chuyển đổi ngay khỏi nhiên liệu hóa thạch và tăng gấp ba tài chính thích ứng lên ít nhất 120 tỉ USD mỗi năm vào năm 2035 — nhưng đồng thời giữ hai cách diễn đạt trái ngược nhau về nhiên liệu hóa thạch, và bên nào cũng có thể bị gạt khỏi văn kiện cuối cùng trước hạn chót thứ Sáu.",
-            "Phản ứng gay gắt nhất đến từ phía các nước sản xuất dầu: Nga, Saudi Arabia và nhóm Ả Rập phản đối việc ban hành văn kiện chung ngay từ đầu, trong khi Bộ trưởng Khí hậu Australia Chris Bowen — người chủ trì đàm phán chính thức — bảo vệ bản dự thảo như một phép thử xem các bên chấp nhận được tới đâu, thay vì chỉ ghi lại những điểm đã đồng thuận. Ông Bowen cũng từ chối cam kết Australia, một trong những nước xuất khẩu than lớn nhất thế giới, sẽ loại bỏ xuất khẩu nhiên liệu hóa thạch, với lập luận nước xuất khẩu không mang trách nhiệm lớn hơn nước nhập khẩu. Nhóm vận động 350.org nhận xét dự thảo thừa nhận cần rời xa nhiên liệu hóa thạch nhưng không đưa ra quy trình hay lộ trình rõ ràng để biến cam kết thành hành động.",
-            "Điểm nghẽn thứ hai là tiền: phân tích của Carbon Brief cho thấy cam kết tài chính công giúp các nước đang phát triển ứng phó biến đổi khí hậu đã giảm hơn 70% trong năm 2026, khiến lời kêu gọi tăng gấp ba tài chính thích ứng trong dự thảo càng thêm xa vời. Một chi tiết khác cũng gây tranh cãi: dự thảo giữ mục tiêu của chủ nhà Thổ Nhĩ Kỳ là nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, nhưng không nói điện khí hóa phải chạy bằng năng lượng tái tạo. Ở chiều tích cực, Colombia, Ghana và Peru đã ký Tuyên bố Antalya về thị trường tín chỉ carbon, nâng số nước ủng hộ lên 17, còn Colombia và Philippines gia nhập liên minh, khi các đoàn trưởng và bộ trưởng tiếp tục thương lượng suốt tuần."
-          ],
-          nguon: [
-            { ten: "Asia Today (AFP/Reuters)", link: "https://asiatoday.id/read/cop31-draft-draws-fire-over-fossil-fuels-as-ministers-take-charge" },
-            { ten: "Dawn (Reuters)", link: "https://www.dawn.com/news/2045062/cop31-draft-seeks-faster-shift-away-from-fossil-fuels" },
-            { ten: "Business Day (South Africa)", link: "https://www.businessday.co.za/news/science-and-environment/2026-11-17-cop31-draft-urges-accelerated-action-on-fossil-fuels/" }
-          ],
-          gio: "Chiều, Nov 17"
-        },
-        {
-          tieuDe: "Geneva: Nga–Ukraine ngồi lại bàn ba bên, châu Âu lần đầu có ghế — nhưng Moscow chưa đồng ý cho châu Âu dự vòng sau",
-          baiViet: [
-            "Đàm phán hòa bình về Ukraine bước sang một hình thức mới tại Geneva: lần đầu tiên các nhà đàm phán Ukraine, Mỹ và châu Âu cùng ngồi lại với nhau để bàn về các cuộc thương lượng tương lai với Nga. Tổng thống Volodymyr Zelensky cho biết phía châu Âu lần này được đại diện bởi chính những người sẽ đại diện cho lục địa trong đàm phán với Nga — Pháp, Anh, Đức, Ba Lan, Ý cùng Liên minh châu Âu và một đại diện NATO — trong khi đặc phái viên Mỹ Steve Witkoff và Jared Kushner tham gia trực tuyến. Phái đoàn Nga do cựu bộ trưởng văn hóa Vladimir Medinsky dẫn đầu đã tới Geneva rạng sáng thứ Ba, còn phía Kyiv do cựu bộ trưởng quốc phòng Rustem Umerov dẫn dắt, các cuộc họp diễn ra kín, không có báo chí.",
-            "Kushner xác nhận đã có tiến triển và cho biết trọng tâm của các cuộc trao đổi gần đây là tìm cách 'tạo điều kiện cho đối thoại trực tiếp' giữa Kyiv và Moscow. Hai vòng đàm phán trước đó tại Abu Dhabi trong năm nay đều không mang lại đột phá, và lãnh thổ vẫn là vấn đề gai góc nhất — Washington đang thúc đẩy chấm dứt cuộc chiến đã kéo dài gần bốn năm, trong khi Moscow bị Kyiv cáo buộc không sẵn sàng nhượng bộ các yêu sách lãnh thổ và chính trị sâu rộng. Zelensky cũng cho biết Nga đang nhận thêm tên lửa đạn đạo từ Triều Tiên, làm tăng sức ép lên bàn đàm phán.",
-            "Tuy nhiên, ngay trong ngày thứ Ba, một trợ lý của Điện Kremlin đã bác bỏ thông tin cho rằng Nga đồng ý đưa các nước châu Âu vào đàm phán hòa bình, cho thấy bất đồng về thành phần bàn đàm phán vẫn chưa được giải quyết dù các bên đã gặp nhau. Phía Nga cũng chưa chính thức nhận được đề xuất hòa bình nào để phản hồi, trong khi Ukraine nói các cuộc thảo luận sẽ tiếp tục vào thứ Tư. Với việc châu Âu lần đầu tiên có mặt đầy đủ ở bàn thương lượng, hình thức đàm phán đang thay đổi — nhưng nội dung, đặc biệt là vấn đề lãnh thổ và bảo đảm an ninh cho Ukraine, vẫn là những nút thắt chưa ai gỡ được."
-          ],
-          nguon: [
-            { ten: "Dawn (Reuters)", link: "https://www.dawn.com/news/2045067/ukraine-us-and-europe-discuss-ways-to-tempt-russia-into-talks" },
-            { ten: "Ahram Online (AP)", link: "https://english.ahram.org.eg/NewsContent/2/11/562517/World/War-in-Ukraine/Moscow,-Kyiv-set-for-Geneva-peace-talks-.aspx" },
-            { ten: "eGazette (Al Jazeera)", link: "https://egazette.ai/article/ukraine-holds-peace-talks-with-us-and-europe-as-fighting-intensifies-28a661?lang=en" }
-          ],
-          gio: "Chiều, Nov 17"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7 Paris: hạ tầng vệ tinh được đặt ngang hàng cáp biển — khối lo khả năng phục hồi trước mối đe dọa vật lý, mạng và gây nhiễu",
+          baiViet: [
+            "Tuyên bố chung của các ngoại trưởng G7 sau cuộc họp tại Paris ngày 9–10/11 đã dành một mục riêng cho khả năng phục hồi của hạ tầng vệ tinh trọng yếu — vệ tinh, trạm mặt đất, trung tâm điều khiển cùng các kết nối mặt đất và nguồn điện hỗ trợ chúng — đặt ngang hàng với cáp ngầm dưới biển. Các bộ trưởng “khuyến khích tăng cường bảo vệ trước các mối đe dọa vật lý, mạng và gây nhiễu có hại”, kèm theo các phương án dự phòng để dịch vụ thiết yếu tiếp tục vận hành khi xảy ra sự cố.",
+            "Văn kiện nhấn mạnh sự phụ thuộc lẫn nhau giữa mạng lưới dưới biển, vệ tinh và mặt đất, đồng thời khuyến khích hợp tác giữa cơ quan chức năng và doanh nghiệp vận hành trong đánh giá rủi ro, chia sẻ kịp thời và an toàn thông tin về sự cố, và các bài tập chuẩn bị ứng phó. Với cáp ngầm, các bộ trưởng yêu cầu hợp tác thực chất với ngành trong việc tiếp cận tàu sửa chữa, thiết bị và phụ tùng, cũng như cấp phép kịp thời và quyền ra vào cảng để sửa chữa — những điểm nghẽn từng khiến nhiều sự cố cáp kéo dài.",
+            "Tuyên bố của G7 không mang tính ràng buộc, không lập cơ quan mới, không đặt thời hạn hay dòng ngân sách, và không nêu tên bất kỳ quốc gia nào là nguồn đe dọa đối với vệ tinh — nhưng ngôn ngữ của nó có thể được các chính phủ thành viên viện dẫn khi cập nhật quy định về hạ tầng trọng yếu, rà soát an ninh và điều kiện cấp phép. Tuyên bố còn đề cập Myanmar: các bộ trưởng bày tỏ “quan ngại sâu sắc” trước tình hình nhân quyền và nhân đạo xấu đi, kêu gọi giảm leo thang bạo lực ngay lập tức, cho phép viện trợ nhân đạo đi qua không bị cản trở và tiến tới một tiến trình dân chủ “chân thực và bao trùm”. Tổ chức Burma Campaign UK hoan nghênh việc Myanmar trở lại chương trình nghị sự của G7, nhưng lưu ý văn kiện 2026 không còn chỉ đích danh quân đội là bên chịu trách nhiệm cho phần lớn bạo lực, khác với lập trường tại Charlevoix hồi tháng 3/2025."
+          ],
+          nguon: [
+            { ten: "Group of Nations (France Diplomatie, US State Dept)", link: "https://groupofnations.com/g7/g7-foreign-ministers-put-satellite-infrastructure-next-to-undersea-cables-as-a-resilience-priority/" },
+            { ten: "US Department of State", link: "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-g7-foreign-ministers-meeting-in-paris/" },
+            { ten: "Burma Campaign UK", link: "https://burmacampaign.org.uk/myanmar-back-on-the-g7-agenda/" }
+          ],
+          gio: "Chiều, Nov 18"
+        },
         {
           tieuDe: "G7 lên án Iran và Houthi đe dọa eo biển Hormuz — khối lo sửa mái vòm Chernobyl và cứu trợ động đất Venezuela",
           baiViet: [
@@ -87,26 +101,25 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 18"
         },
-        {
-          tieuDe: "G7: hành động của Trung Quốc phía đông Đài Loan 'đe dọa ổn định' — khối siết đội tàu bóng tối Nga, lo tài chính Ukraine 2027",
-          baiViet: [
-            "Trong tuyên bố chung công bố ngày 11/11 sau cuộc họp ngoại trưởng G7 tại Paris, các ngoại trưởng Canada, Pháp, Đức, Ý, Nhật, Anh, Mỹ và đại diện cấp cao EU nhận định các hoạt động ngày càng quyết đoán của Trung Quốc ở vùng biển phía đông Đài Loan 'đe dọa ổn định khu vực, tự do hàng hải và an toàn của vận tải biển quốc tế'. Tuyên bố kêu gọi duy trì nguyên trạng và phản đối mọi thay đổi đơn phương bằng vũ lực hay cưỡng ép — một trong những điểm cứng rắn nhất của khối về vấn đề eo biển Đài Loan trong năm nay.",
-            "Về Ukraine, G7 tái khẳng định ủng hộ không lay chuyển và cam kết phối hợp đáp ứng nhu cầu tài chính của Kyiv trong năm 2027 và xa hơn, đồng thời tăng cường hỗ trợ vật chất và tài chính giúp Ukraine vượt qua mùa đông về an ninh năng lượng. Khối lên án Triều Tiên và Iran viện trợ quân sự cho Nga, cũng như Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng — và bàn cách tăng sức ép lên kinh tế chiến tranh của Moscow, trong đó có các lệnh trừng phạt mới. Một mũi nhọn cụ thể là đội tàu bóng tối: G7 quyết tâm nhắm vào tàu treo cờ giả hoặc không quốc tịch cùng các mắt xích hỗ trợ như công ty bảo hiểm, nhà giao dịch dầu và trung gian giúp tàu né trừng phạt.",
-            "Tuyên bố cũng dành phần lớn cho Trung Đông và an ninh kinh tế: lên án mạnh mẽ các vụ tấn công của Iran nhằm vào các nước láng giềng và việc cản trở giao thông qua eo biển Hormuz, yêu cầu Tehran dừng tấn công tàu dân sự và bãi bỏ mọi khoản phí hay hạn chế quá cảnh trái phép; đồng thời thừa nhận chưa có đột phá về lực lượng thay thế phái bộ gìn giữ hòa bình LHQ tại Lebanon (UNIFIL), có khoảng 7.500 quân từ gần 50 nước, khi nhiệm vụ của phái bộ kết thúc ngày 31/12/2026. Về kinh tế, khối tái khẳng định lo ngại trước các chính sách phi thị trường và cưỡng ép kinh tế, nhất là với khoáng sản quan trọng, và sẽ vận hành Nền tảng phối hợp về cưỡng ép kinh tế để xây dựng phản ứng chung."
-          ],
-          nguon: [
-            { ten: "The Hindu BusinessLine (Reuters)", link: "https://www.thehindubusinessline.com/news/world/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692306.ece" },
-            { ten: "European External Action Service (EEAS)", link: "https://www.eeas.europa.eu/eeas/g7-joint-declaration-following-g7-foreign-ministers-meeting-paris-9-and-10-november-2026_en" },
-            { ten: "German Federal Foreign Office", link: "https://www.auswaertiges-amt.de/en/newsroom/news/2810400-2810400" }
-          ],
-          gio: "Chiều, Nov 17"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami: Trump mời Kazakhstan và Uzbekistan dự thượng đỉnh — Ấn Độ tính chuyện thỏa thuận thương mại ở Mar-a-Lago",
+          baiViet: [
+            "Tổng thống Donald Trump cho biết ông sẽ mời Kazakhstan và Uzbekistan dự thượng đỉnh G20 năm sau tại Miami, sau các cuộc điện đàm riêng với Tổng thống Kazakhstan Kassym-Jomart Tokayev và Tổng thống Uzbekistan Shavkat Mirziyoyev hôm thứ Ba. Cả hai nước đều không phải thành viên G20, nhưng nước chủ nhà thường mời thêm các nước ngoài khối dự thượng đỉnh. Thượng đỉnh 2026 dự kiến tổ chức ngày 14–15/12 tại câu lạc bộ golf của ông Trump ở Doral, gần Miami, và động thái này cho thấy Washington đang muốn làm sâu sắc quan hệ với các quốc gia Trung Á — khu vực giàu khoáng sản chiến lược.",
+            "Lời mời mới đến trong bối cảnh thượng đỉnh Miami đang được “tái cấu trúc” mạnh tay: tháng trước, ông Trump tuyên bố cấm Nam Phi tham dự và dừng mọi khoản thanh toán, trợ cấp cho nước này sau vụ việc liên quan tới đại diện chính phủ Mỹ tại cuộc họp năm nay; Ba Lan được mời thay thế. Ngoại trưởng Marco Rubio xác nhận Mỹ sẽ tổ chức thượng đỉnh G20 vào tháng 12/2026, lần đầu tiên kể từ 2009, trùng với dịp kỷ niệm 250 năm thành lập nước Mỹ. Bốn nhóm công tác được đề xuất — bãi bỏ quy định, chuỗi cung ứng năng lượng an toàn, quản trị AI và chống phụ thuộc viện trợ — cho thấy trọng tâm đã dịch hẳn khỏi tài chính khí hậu, xóa nợ và chuyển giao công nghệ cho các nền kinh tế đang phát triển.",
+            "Về phía Ấn Độ, Chủ tịch Diễn đàn Đối tác Chiến lược Mỹ–Ấn (USISPF) Mukesh Aghi nhận định Ấn Độ vẫn là điểm đến đầu tư “rất then chốt” với doanh nghiệp Mỹ, đặc biệt trong trí tuệ nhân tạo, bán dẫn, quốc phòng, y tế, linh kiện điện tử và sản xuất theo sáng kiến Make in India. Ông Aghi để ngỏ khả năng một thông báo sẽ được đưa ra khi Thủ tướng Narendra Modi gặp ông Trump tại Miami và Mar-a-Lago — có thể là một thỏa thuận thương mại. Ấn Độ sẽ dự thượng đỉnh với tư cách đại diện cho các nước phương Nam, nhưng việc chưa có thỏa thuận thương mại với Mỹ vẫn là một yếu tố quan trọng, trong khi sự hiện diện của Nga và Trung Quốc cùng lo ngại của châu Âu về việc ông Putin tham dự khiến triển vọng đạt đồng thuận thêm phức tạp."
+          ],
+          nguon: [
+            { ten: "Associated Press (via TaxTMI)", link: "https://www.taxtmi.com/news?id=65680" },
+            { ten: "The Tribune India (ANI, USISPF)", link: "https://www.tribuneindia.com/news/world/india-very-pivotal-to-us-companies-says-us-india-strategic-partnership-forum-chief-mukesh-aghi/amp/" }
+          ],
+          gio: "Chiều, Nov 18"
+        },
         {
           tieuDe: "G20 Miami: Nga khẳng định 'dù sao cũng dự cấp cao', nghị sự Mỹ bỏ tài chính khí hậu — Ấn Độ được khuyên chuẩn bị cả phương án BRICS",
           baiViet: [
@@ -134,20 +147,6 @@ window.TIN_TUC = {
             { ten: "Eurasia Daily (EADaily)", link: "https://www.eurasiadaily.ru/en/news/2026/11/16/ushakov-announced-the-condition-of-vladimir-putins-trip-to-the-g20-summit-in-miami" }
           ],
           gio: "Chiều, Nov 17"
-        },
-        {
-          tieuDe: "G20 Miami: Ba Lan ngồi vào ghế Nam Phi, Pretoria nói 'đã bước tiếp' và hướng về chủ tịch Anh 2027",
-          baiViet: [
-            "Thượng đỉnh G20 sẽ diễn ra ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral ở Miami, và danh sách chính thức trên trang web của chủ tịch Mỹ liệt kê 19 nước tham dự cấp nhà nước — trong đó có Ba Lan, còn Nam Phi, thành viên sáng lập và là nước châu Phi duy nhất có ghế riêng, vắng mặt. Đây là lần đầu tiên một nước chủ nhà loại một thành viên khỏi hội nghị thượng đỉnh. Ngoài ra còn 12 nước khách mời — Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, UAE, Uzbekistan và Việt Nam — nhưng không có nước Caribe, quốc đảo Thái Bình Dương hay nước châu Phi nào.",
-            "Vết nứt bắt nguồn từ thượng đỉnh Johannesburg tháng 11/2025, hội nghị G20 đầu tiên trên đất châu Phi mà Mỹ tẩy chay. Tổng thống Trump sau đó tuyên bố Nam Phi sẽ không được mời dự G20 2026, cáo buộc Pretoria từ chối bàn giao chủ tịch cho đại diện cấp cao của Đại sứ quán Mỹ tại lễ bế mạc và thúc đẩy những chương trình mà Ngoại trưởng Rubio gọi là cấp tiến. Pretoria khẳng định đã bàn giao đúng thủ tục cho một quan chức sứ quán Mỹ tại trụ sở Bộ Ngoại giao, đồng thời gọi quyết định của Trump là đáng tiếc. Ông Trump còn tuyên bố dừng mọi khoản thanh toán và trợ cấp cho Nam Phi.",
-            "Đại sứ Nam Phi tại Mỹ Roelf Meyer cho biết hôm thứ Hai rằng chính phủ của ông không còn bận tâm về việc bị loại khỏi Miami, đã bước tiếp và đang trao đổi với Anh — nước chủ tịch G20 năm 2027. Nam Phi sẽ dự hội nghị doanh nghiệp B20 ở Washington vào tháng tới. Trong khi đó, chương trình nghị sự của Mỹ tại Miami hướng tới bãi bỏ quy định, chi phí năng lượng, đổi mới và tăng trưởng, rời xa các ưu tiên về tài chính khí hậu, giảm nợ và chuyển giao công nghệ của các chủ tịch trước. Chủ tịch Trung Quốc Tập Cận Bình nhiều khả năng sẽ dự, còn sự tham dự của Tổng thống Nga Putin vẫn chưa chắc chắn."
-          ],
-          nguon: [
-            { ten: "WiredJa", link: "https://www.wiredja.com/categories/newsberg/news/africa-miamis-empty-chair-africas-only-g20-nation-shut-out-on-the-caribbeans-doorstep" },
-            { ten: "TRT World", link: "https://www.trtworld.com/article/df4b4e7580a3/amp" },
-            { ten: "The Indian Express", link: "https://indianexpress.com/article/opinion/columns/three-summits-at-the-end-of-2026-eas-apec-g20-us-china-india-10962827/" }
-          ],
-          gio: "Sáng, Nov 17"
         },
       ]
     }
