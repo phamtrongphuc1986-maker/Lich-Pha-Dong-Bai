@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Sáu 20/11/2026 — bản tin sáng",
+  capNhat: "Thứ Sáu 20/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 bước vào ngày cuối vẫn chưa có thỏa thuận — đàm phán có thể kéo dài sang cuối tuần, bản dự thảo vẫn trống chữ 'nhiên liệu hóa thạch'",
+          baiViet: [
+            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ bước vào ngày cuối cùng theo lịch — thứ Sáu 20/11 — mà vẫn chưa có thỏa thuận nào được thông qua. Gần 200 quốc gia đã đàm phán suốt hai tuần, nhưng bản dự thảo quyết định bao trùm công bố hôm thứ Năm vẫn không chứa bất kỳ chữ nào về than, dầu hay khí đốt — những nhiên liệu gây ra phần lớn sự nóng lên toàn cầu. Bộ trưởng Khí hậu Australia Chris Bowen, người cùng nước chủ nhà dẫn dắt đàm phán, nói các đoàn sẽ 'tham vấn và đàm phán cho tới khi rõ ràng là đã có đồng thuận', đồng thời thừa nhận mục tiêu là đạt 'kết quả tham vọng nhất mà đồng thuận cho phép'.",
+            "Văn bản mới nhất đã bị cắt gọn từ 144 đoạn xuống còn 80 đoạn, giữ lại sáng kiến điện khí hóa 35×35 của chủ nhà Thổ Nhĩ Kỳ — nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035 — nhưng đồng thời xóa luôn con số 120 tỉ USD mỗi năm cho tài chính thích ứng mà các nước châu Phi và kém phát triển nhất đòi hỏi, chỉ còn lời kêu gọi bàn tiếp về mục tiêu tăng gấp ba nguồn tài chính thích ứng. Bản dự thảo cũng lần đầu thừa nhận thế giới nhiều khả năng sẽ vượt ngưỡng 1,5 độ C, và các nhà vận động khí hậu cảnh báo một số đoàn sẽ ép khôi phục ngôn ngữ cứng rắn hơn trước khi ký.",
+            "Với các quốc đảo Thái Bình Dương, đây là kỳ COP mang tính sống còn: giới chuyên gia New Zealand nhận định hội nghị này chủ yếu là giữ lại những cam kết cốt lõi — mục tiêu 1,5 độ C, vai trò trung tâm của IPCC và hoàn cảnh đặc biệt của các quốc đảo nhỏ đang phát triển — trong lúc các nước sản xuất dầu vẫn nắm quyền phủ quyết thực tế đối với ngôn ngữ chuyển đổi khỏi nhiên liệu hóa thạch. Lịch sử các kỳ COP gần đây cho thấy việc vượt hạn chót hơn 24 giờ là chuyện thường, nên Antalya nhiều khả năng sẽ đàm phán xuyên cuối tuần thay vì bế mạc đúng hẹn thứ Sáu."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/" },
+            { ten: "Firstpost (AFP)", link: "https://www.firstpost.com/world/uns-cop31-enters-endgame-with-no-deal-in-sight-as-countries-remain-divided-14061392.html" },
+            { ten: "Science Media Centre NZ", link: "https://www.sciencemediacentre.co.nz/2026/11/20/cop31-wraps-up-as-the-pacific-faces-climate-change-reality-expert-reaction/" }
+          ],
+          gio: "Chiều, Nov 20"
+        },
+        {
+          tieuDe: "APEC Thâm Quyến: Trump–Tập–Putin ra tuyên bố chung 4 điểm về cải tổ LHQ, dầu mỏ, ICC và hạt nhân — không một chữ về Ukraine hay Iran",
+          baiViet: [
+            "Ba nhà lãnh đạo Mỹ, Trung Quốc và Nga đã công bố một tuyên bố chung bốn điểm sau cuộc gặp ba bên đầu tiên trong lịch sử, kéo dài khoảng 90 phút hôm thứ Năm 19/11 tại biệt thự Kylin bên lề hội nghị APEC ở Thâm Quyến. Văn bản dài khoảng 250 từ, được Nhà Trắng, Điện Kremlin và truyền thông nhà nước Trung Quốc công bố đồng thời, cam kết: cải tổ Liên Hợp Quốc để tổ chức này 'ứng phó hiệu quả hơn với các thách thức toàn cầu'; tăng sản xuất và cung ứng các sản phẩm dầu mỏ tinh chế vì 'lợi ích của mọi quốc gia'; khẳng định Tòa án Hình sự Quốc tế và các cơ quan tương tự 'không được lạm dụng thẩm quyền'; và đối thoại về giảm rủi ro hạt nhân, nhắc lại rằng 'một cuộc chiến tranh hạt nhân không thể thắng và không bao giờ được gây ra'.",
+            "Điểm gây chú ý nhất lại nằm ở những gì tuyên bố không nói tới. Dù cả ba nhà lãnh đạo đều xác nhận đã thảo luận về chiến tranh ở Ukraine, Trung Đông và bán đảo Triều Tiên trong các cuộc gặp song phương trước đó, văn bản chung không nhắc tới Ukraine, an ninh châu Âu, Tổng thống Zelenskyy hay Iran. Tuyên bố cũng không đưa ra mốc thời gian, cơ chế kiểm chứng hay ngày hẹn cho cuộc đối thoại hạt nhân — dù hiệp ước New START đã hết hạn hồi đầu năm — và không nêu con số hay dự án cụ thể nào cho cam kết về dầu mỏ, kể cả tuyến vận chuyển qua eo biển Hormuz mà Trump và Tập được cho là cùng quan tâm.",
+            "Giới phân tích nhìn nhận cuộc gặp mang lại lợi ích chính trị cho cả ba bên nhưng khó chuyển thành hành động cụ thể. Với Trung Quốc, đây là chiến thắng ngoại giao khi Bắc Kinh đóng vai trò chủ nhà và người dàn xếp; với Nga, ông Putin — lần đầu dự APEC từ năm 2017 — thoát khỏi thế bị cô lập và được Trump gọi là 'bạn', đồng thời nhận thêm lời mời dự thượng đỉnh G20 ở Miami. Ngược lại, chính quyền Trump đưa được vấn đề kiểm soát vũ khí hạt nhân lên bàn ba bên. Dù vậy, như một chuyên gia của Eurasia Group nhận xét, đây vẫn chủ yếu là 'chủ đề lớn để thể hiện vai trò lãnh đạo' — còn việc biến cam kết thành kết quả sẽ khó khăn hơn nhiều."
+          ],
+          nguon: [
+            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/east-asia/xi-trump-putin-trilateral-summit-apec-diplomacy-6551676" },
+            { ten: "The Indian Express", link: "https://indianexpress.com/article/world/donald-trump-vladimir-putin-xi-jinping-trilateral-meeting-shenzhen-apec-takeaways-icc-ukraine-10970368/" },
+            { ten: "The Sunday Guardian", link: "https://sundayguardianlive.com/world/trump-xi-and-putin-apec-summit-key-takeaways-from-historic-shenzhen-trilateral-as-four-point-peace-declaration-omits-ukraine-and-iran-324770/amp/" }
+          ],
+          gio: "Chiều, Nov 20"
+        },
         {
           tieuDe: "COP31 ngày cuối: dự thảo rút gọn còn 80 đoạn, xóa sạch chữ 'nhiên liệu hóa thạch' — đàm phán xuyên đêm trước hạn chót thứ Sáu",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 20"
         },
-        {
-          tieuDe: "APEC Thâm Quyến: Trump–Tập–Putin họp ba bên lần đầu trong lịch sử — hạt nhân, Ukraine và Iran lên bàn, chưa có tuyên bố chung",
-          baiViet: [
-            "Chiều thứ Năm 19/11, tại biệt thự Kylin Villa bên hồ ở Thâm Quyến, ba nhà lãnh đạo Mỹ, Trung Quốc và Nga đã ngồi vào cuộc họp ba bên đầu tiên trong lịch sử giữa ba cường quốc này. Tổng thống Mỹ Donald Trump, Chủ tịch Trung Quốc Tập Cận Bình và Tổng thống Nga Vladimir Putin gặp nhau bên lề Diễn đàn Hợp tác Kinh tế châu Á – Thái Bình Dương (APEC), do ông Tập chủ trì, sau khi ông Trump lần lượt gặp song phương từng người trong cùng ngày — gặp ông Putin vào buổi trưa và gặp ông Tập vào buổi chiều. Cuộc họp ba bên kéo dài khoảng một giờ, diễn ra trong không khí nghi lễ long trọng.",
-            "Nội dung bao trùm các điểm nóng toàn cầu: chiến tranh Ukraine, chiến sự Iran, cắt giảm vũ khí hạt nhân, thương mại và trí tuệ nhân tạo. Ông Trump nói ba nước có vị thế đặc biệt để bàn về việc giảm số lượng vũ khí hạt nhân và giảm rủi ro, đồng thời cho biết ông muốn thảo luận việc chấm dứt chiến tranh Ukraine với cả hai nhà lãnh đạo. Ông Putin nói cả ba nước đều có chung lợi ích trong việc giải quyết chiến tranh Ukraine. Ông Tập mô tả cuộc gặp là lịch sử và nhấn mạnh ba nước lớn phải hợp tác trước các thách thức toàn cầu. Theo Viện Nghiên cứu Hòa bình Quốc tế Stockholm (SIPRI), tính tới tháng 1/2026, Trung Quốc có khoảng 620 đầu đạn hạt nhân, so với 5.042 của Mỹ và 5.420 của Nga — vì vậy bất kỳ thỏa thuận cắt giảm nào cũng cần cả ba cùng ngồi vào bàn.",
-            "Chưa rõ ba bên có ra tuyên bố chung hay không; nếu không đạt thỏa thuận, mỗi nước có thể tự công bố kết quả riêng. Giới phân tích và cựu quan chức nhận định ý nghĩa của cuộc gặp nằm ở chỗ đây là lần đầu tiên ba cường quốc quân sự và hạt nhân lớn nhất thế giới cùng ngồi lại giữa lúc cán cân quyền lực toàn cầu đang dịch chuyển — dù chưa ai kỳ vọng đột phá ngay lập tức về Ukraine hay Iran. Vấn đề Triều Tiên cũng có thể đã được nhắc tới, trong khi câu hỏi liệu đây có phải là một 'Yalta 2.0' — nơi các cường quốc tự định đoạt vận mệnh khu vực — vẫn còn bỏ ngỏ."
-          ],
-          nguon: [
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/politics/international-relations/apec/trump-xi-and-putin-hold-historic-trilateral-meeting" },
-            { ten: "USA Today", link: "https://www.usatoday.com/story/news/world/2026/11/19/trump-china-russia-xi-putin-apec-summit/92856409007/" },
-            { ten: "Yonhap News Agency", link: "https://en.yna.co.kr/view/AEN20261119001353315" }
-          ],
-          gio: "Chiều, Nov 19"
-        },
-        {
-          tieuDe: "COP31 ngày áp chót: bộ trưởng Panama tố đàm phán bị 'mafia dầu mỏ' bắt làm con tin — 30 nước lập hiệp ước nhiên liệu hóa thạch riêng",
-          baiViet: [
-            "Hội nghị khí hậu COP31 tại Antalya bước vào ngày áp chót (thứ Năm 19/11) với những rạn nứt ngày càng sâu. Phát biểu hôm thứ Tư, Bộ trưởng Môi trường Panama Juan Carlos Navarro cáo buộc các nước sản xuất dầu 'không đóng góp gì cho thích ứng, cho đời sống người dân hay bảo vệ đa dạng sinh học', và nói tiến trình đàm phán đang bị một 'mafia dầu mỏ' bắt làm con tin. Cũng tại sự kiện này, ông Navarro công bố 30 nước đã ký tham gia soạn thảo một hiệp ước nhiên liệu hóa thạch riêng, nằm ngoài tiến trình của Liên Hợp Quốc — một động thái cho thấy sự thất vọng đang lan rộng với tốc độ đàm phán chính thức.",
-            "Trong khi đó, gần 200 nước đã khởi động vòng Kiểm kê Toàn cầu lần hai — cơ chế 'kiểm tra thực tế' 5 năm một lần của Hiệp định Paris, đo xem các cam kết quốc gia cộng lại có đủ để cắt giảm phát thải hay không. Vòng kiểm kê này sẽ kết thúc vào năm 2028, ngay trước đợt kiểm kê toàn cầu lần hai. Tính tới thời điểm khởi động, 21 vấn đề vẫn chưa được giải quyết, từ thích ứng, tài chính, giảm phát thải tới chuyển đổi công bằng. Tối thứ Tư, chủ tịch COP31 Murat Kurum và chủ tịch đàm phán Chris Bowen đã triệu tập các bộ trưởng vào phiên 'Divan' — mô hình đối thoại theo truyền thống Thổ Nhĩ Kỳ — để tìm điểm chung trước khi bản dự thảo văn kiện chung mới được công bố vào sáng thứ Năm.",
-            "Cũng trong ngày thứ Năm, Cơ quan Năng lượng Quốc tế (IEA) công bố báo cáo Triển vọng Năng lượng Thế giới, cảnh báo khủng hoảng Hormuz đã gây 'một cú sốc lớn cho hệ thống' và địa chính trị đang định hình lại lựa chọn năng lượng của các nước. Mục tiêu điện khí hóa 35x35 của Thổ Nhĩ Kỳ — nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035 — nay đã có 75 nước ủng hộ. Dù vậy, giới quan sát tại Antalya tin rằng hội nghị sẽ kéo dài quá hạn chót chính thức là thứ Sáu 20/11, theo truyền thống của mọi kỳ COP từ năm 2003 tới nay."
-          ],
-          nguon: [
-            { ten: "The Guardian (via Pollar News)", link: "https://paper.pollar.news/en/event/cop31-panama-accuses-oil-mafia" },
-            { ten: "Manila Times (UN News)", link: "https://www.manilatimes.net/2026/11/18/world/un-news/cop31-deadlock-persists-as-countries-launch-new-climate-reality-check/2473724" },
-            { ten: "Dawn (AFP)", link: "https://www.dawn.com/news/print/2045576" }
-          ],
-          gio: "Chiều, Nov 19"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7: viện trợ ngoài EU cho Ukraine năm 2027 có thể giảm còn 1/5 — mới cam kết 4 tỉ euro, riêng nhóm G7 chỉ 1 tỉ euro",
+          baiViet: [
+            "Viện trợ cho Ukraine từ các đối tác ngoài Liên minh châu Âu có nguy cơ sụt giảm mạnh trong năm 2027, theo dự báo của Ủy ban châu Âu mà Financial Times trích dẫn. Tính tới nay, các đối tác ngoài EU mới cam kết tổng cộng 4 tỉ euro cho năm sau — chưa bằng một phần năm con số 19 tỉ euro của năm 2026. Riêng nhóm G7 gồm Mỹ, Anh, Canada và Nhật Bản hiện chỉ sẵn sàng đóng góp tổng cộng 1 tỉ euro, mức giảm sâu nhất trong các nhóm đối tác. Trong khi đó, EU và các nước thành viên đang gánh khoảng 80% tổng cam kết viện trợ đã hứa cho Ukraine trong năm 2027.",
+            "Khoảng trống tài chính đang lớn dần theo cả hai mặt trận dân sự và quân sự. Bộ trưởng Tài chính Ukraine Sergii Marchenko cho biết Kyiv cần 70 tỉ euro cho nhu cầu quốc phòng năm 2027, trong đó 40 tỉ euro vẫn chưa có nguồn; nhu cầu tài chính đối ngoại tổng thể là 52,6 tỉ USD, thiếu hụt 32,6 tỉ USD. Về quân sự, 32 nước NATO hiện còn thiếu 13 tỉ euro so với gói viện trợ quân sự thường niên 70 tỉ euro đã hứa cho Kyiv. Brussels đã bắt đầu lập kế hoạch khẩn cấp để tìm nguồn thay thế, đồng thời theo dõi sát việc chuẩn bị ngân sách 2027 của các đồng minh với hy vọng có thêm cam kết mới.",
+            "Bối cảnh này khiến tuyên bố chung của các ngoại trưởng G7 sau cuộc họp Paris ngày 9–10/11 càng thêm sức nặng: nhóm cam kết tăng viện trợ tài chính và vật chất để giúp Ukraine vượt qua mùa đông, ưu tiên an ninh năng lượng và sửa chữa hạ tầng bị tấn công, đồng thời 'nhận thấy cần có cách tiếp cận phối hợp' cho nhu cầu tài chính cấp bách năm 2027 và những năm sau. EU trước đó đã thông qua khoản vay 90 tỉ euro cho nhu cầu tài chính của Ukraine trong giai đoạn 2026–2027, nhưng Tổng thống Zelenskyy đã cảnh báo con số này vẫn chưa đủ. Phía Nhật Bản bác bỏ một phần ước tính của Ủy ban châu Âu, nói Tokyo chưa chốt con số cuối cùng và đang cân nhắc nhiều phương án trong khuôn khổ tham vấn G7."
+          ],
+          nguon: [
+            { ten: "Financial Times (via Ukrinform)", link: "https://ukranews.com/en/news/1183859-aid-to-ukraine-from-non-eu-partners-could-drop-by-a-factor-of-5-ft" },
+            { ten: "Plataforma Media", link: "https://www.plataformamedia.com/en/2026/11/12/g7-advocates-financial-support-for-kiev-for-2027-and-beyond/" },
+            { ten: "UNN", link: "https://unn.ua/en/amp/the-g7-will-increase-aid-to-ukraine-to-help-it-get-through-the-winter-and-is-preparing-funding-for-2027" }
+          ],
+          gio: "Chiều, Nov 20"
+        },
         {
           tieuDe: "G7: Canada rủ Mexico tham gia ngân hàng quốc phòng toàn cầu đầu tiên — mục tiêu huy động 100 tỉ euro, ký điều lệ ngày 30/11",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 20"
         },
-        {
-          tieuDe: "Berlin: đồng minh châu Âu của Ukraine họp 'Liên minh Tự nguyện' — Witkoff và Kushner dự, bàn bảo đảm an ninh ràng buộc sau ngừng bắn",
-          baiViet: [
-            "Thứ Năm 19/11, các đồng minh châu Âu chủ chốt của Ukraine họp tại Berlin trong khuôn khổ 'Liên minh Tự nguyện' (Coalition of the Willing), với sự tham dự của hai đặc phái viên của Tổng thống Mỹ Donald Trump là Steve Witkoff và Jared Kushner. Cuộc họp quy tụ lãnh đạo Đức, Pháp, Anh, Ba Lan và Ý cùng Tổng thư ký NATO Mark Rutte, diễn ra chỉ vài giờ sau khi ông Trump gặp Tổng thống Nga Vladimir Putin và Chủ tịch Trung Quốc Tập Cận Bình tại Thâm Quyến — nơi Ukraine cũng được cho là nằm trong chương trình nghị sự.",
-            "Theo các quan chức Đức, trọng tâm của cuộc họp Berlin là tái khẳng định cam kết về các bảo đảm an ninh 'mạnh mẽ và ràng buộc pháp lý' cho Ukraine, có hiệu lực ngay sau khi đạt được ngừng bắn. Đây cũng là dịp châu Âu thể hiện quyết tâm phải có tiếng nói trong tiến trình đàm phán do Mỹ làm trung gian: Ngoại trưởng Đức Johann Wadephul tuyên bố tại Paris đầu tuần rằng 'châu Âu thuộc về bàn đàm phán này — không thể có giải pháp nếu không có châu Âu, chỉ có thể cùng châu Âu'. Tổng thống Ukraine Volodymyr Zelenskiy cho biết cuộc họp là cơ hội để nghe chi tiết các cuộc đàm phán của Witkoff và Kushner, cũng như những gì ông Trump đã trao đổi ở Trung Quốc.",
-            "Cuộc họp Berlin là bước tiếp nối tuyên bố chung của các ngoại trưởng G7 tại Paris ngày 9–10/11, trong đó khối khẳng định ủng hộ không lay chuyển dành cho Ukraine, cam kết lo tài chính cho Kyiv trong năm 2027 và tăng cường phòng không. Trong khi đó, đàm phán Nga–Ukraine do Mỹ làm trung gian vẫn đang diễn ra tại Abu Dhabi, và các bộ trưởng châu Âu muốn biết liệu Moscow có thực sự sẵn sàng đàm phán hay không, thay vì chỉ diễn một 'vở kịch đàm phán' như lời ông Wadephul cảnh báo."
-          ],
-          nguon: [
-            { ten: "Reuters (via SRN News)", link: "https://srnnews.com/ukraines-european-allies-meet-in-berlin-in-show-of-support/" },
-            { ten: "Al Jazeera", link: "https://aljazeeranews.edgeone.app/news/2026/11/10/europe-belongs-at-this-table-germany-tells-us-before-ukraine-talks" },
-            { ten: "European External Action Service (EEAS)", link: "https://www.eeas.europa.eu/eeas/g7-joint-declaration-following-g7-foreign-ministers-meeting-paris-9-and-10-november-2026_en" }
-          ],
-          gio: "Chiều, Nov 19"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami đối mặt chia rẽ trước giờ G: Putin chưa quyết có dự, Zelenskyy chưa được mời, Nam Phi bị gạt khỏi danh sách",
+          baiViet: [
+            "Thượng đỉnh G20 tại Miami, dự kiến diễn ra ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral, đang đối mặt với nguy cơ chia rẽ sâu sắc ngay trước thềm hội nghị. Tổng thống Nga Vladimir Putin cho biết ông vẫn chưa quyết định có dự hay không dù đã hai lần nhận lời mời trực tiếp từ Tổng thống Trump — lần mới nhất ngay sau cuộc gặp song phương và cuộc gặp ba bên tại APEC Thâm Quyến. Ông Putin cảm ơn lời mời nhưng nói quyết định sẽ tùy thuộc vào 'tình hình trong nước', và Điện Kremlin cho biết quyết định khó có thể được đưa ra trong một hai ngày tới. Ông Putin đã không dự trực tiếp một kỳ thượng đỉnh G20 nào kể từ Osaka 2019.",
+            "Trong khi đó, Tổng thống Ukraine Volodymyr Zelenskyy cho biết tại Berlin rằng ông vẫn chưa nhận được lời mời từ Mỹ và hy vọng ông Trump sẽ mời Ukraine với tư cách đồng minh thân cận — dù trước đó ông từng nói sẵn sàng gặp ông Putin ngay tại Miami nếu được sắp xếp. Các nước G20 khác được cho là đã bày tỏ mong muốn Ukraine có mặt, nhưng phía Mỹ tới nay vẫn im lặng. Việc nước chủ nhà mời một tổng thống đang bị phương Tây trừng phạt trong lúc chưa mời lãnh đạo Ukraine khiến nhiều đồng minh châu Âu lúng túng, và giới ngoại giao lo ngại một cuộc đối đầu trực diện giữa ông Putin và các lãnh đạo châu Âu — nếu ông dự — sẽ làm không khí hội nghị thêm căng thẳng.",
+            "Chia rẽ còn thể hiện ở cấp bộ trưởng: cả hai phiên họp cấp bộ trưởng năm nay — tài chính và ngoại giao, trong đó có cuộc họp ngoại trưởng tại Atlanta ngày 30/10 — đều không ra được tuyên bố chung, dấu hiệu cho thấy con đường tới một tuyên bố chung của các lãnh đạo vào tháng tới sẽ rất gập ghềnh. Danh sách khách mời của Mỹ cũng gây tranh cãi: Nam Phi — thành viên chính thức của G20 và là nước chủ nhà năm ngoái — bị loại khỏi danh sách, trong khi Armenia, Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, UAE, Uzbekistan và Việt Nam được mời. Tổng thống Kazakhstan Tokayev đã chốt chuẩn bị cho chuyến đi Miami, lần thứ ba Astana được mời dự thượng đỉnh."
+          ],
+          nguon: [
+            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" },
+            { ten: "Der Spiegel (via UA.NEWS)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" },
+            { ten: "Armenpress", link: "https://armenpress.am/en/article/1266106" }
+          ],
+          gio: "Chiều, Nov 20"
+        },
         {
           tieuDe: "G20 Miami: Putin cân nhắc dự thượng đỉnh sau lời mời mới của Trump — chưa quyết, Nga vẫn cử đại diện cấp cao",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Group of Nations", link: "https://groupofnations.com/g20/miami-g20-summit-brings-road-closures-a-closed-park-and-a-press-credential-deadline/" }
           ],
           gio: "Chiều, Nov 19"
-        },
-        {
-          tieuDe: "G20 Miami: Doral đóng công viên, 7 trường học trực tuyến trong tuần thượng đỉnh — Kazakhstan chờ FAA 'bật đèn xanh' bay thẳng tới Mỹ",
-          baiViet: [
-            "Thượng đỉnh G20 tại Miami ngày 14–15/12 đang bước vào giai đoạn chuẩn bị hậu cần cụ thể, và người dân thành phố Doral sẽ cảm nhận rõ nhất: thành phố thông báo Doral Central Park đóng cửa với công chúng từ ngày 11 đến 16/12, Trung tâm Chính quyền Doral đóng cửa ngày 14–16/12, bảy trường công lập chuyển sang học trực tuyến trong hai ngày thượng đỉnh, và các trường được khuyên tránh tổ chức thi từ 14 đến 17/12. Các tác động về giao thông và an ninh có thể bắt đầu từ ngày 10/12, tập trung quanh đại lộ NW 87th và đường NW 36th gần khu nghỉ dưỡng Trump National Doral Miami — nơi diễn ra hội nghị kín, sự kiện G20 đầu tiên tại Nam Florida và là sự kiện an ninh đặc biệt quốc gia do Cơ quan Mật vụ dẫn đầu. Hạn đăng ký thẻ báo chí qua cổng của Bộ Ngoại giao Mỹ đã khép lại lúc 22h ngày 10/11.",
-            "Ở chiều ngoại giao, Kazakhstan đang chạy đua với thời gian để kịp có mặt với tư cách khách mời của Tổng thống Trump: Thứ trưởng Giao thông Talgat Lastayev cho biết nước này kỳ vọng nhận được xếp hạng an toàn hàng không loại 1 của Cục Hàng không Liên bang Mỹ (FAA) trong tháng 12, trước thềm thượng đỉnh. Kết quả sơ bộ của đợt kiểm tra FAA hồi tháng 9 được mô tả là “khá tốt”, và nếu được phê duyệt, Kazakhstan sẽ đủ điều kiện mở đường bay thẳng tới Mỹ — các hãng hàng không dự kiến khai thác từ cuối năm 2027. Tổng thống Kassym-Jomart Tokayev đã nhận lời mời dự thượng đỉnh, cùng với lãnh đạo Uzbekistan mà ông Trump mời hồi đầu tháng.",
-            "Bức tranh khách mời vẫn đang dần hoàn thiện: Thủ tướng Ấn Độ Narendra Modi được cho là sẽ tới Mỹ dự thượng đỉnh, với khả năng gặp song phương Tổng thống Trump bên lề để bàn thương mại, quốc phòng, công nghệ và năng lượng — dù chính phủ Ấn Độ chưa chính thức xác nhận. Các nhà tổ chức cũng đang cân nhắc khả năng họp các lãnh đạo Quad bên lề thượng đỉnh, sau khi bốn nước vừa gặp nhau tại Manila trong khuôn khổ APEC. Trong khi đó, nghị sự chính thức của chủ tịch Mỹ vẫn gây tranh cãi: Washington đã loại tài chính khí hậu khỏi chương trình nghị sự, còn Nga khẳng định sẽ dự cấp cao “dù sao đi nữa” và đang theo dõi sát việc Anh giữ ghế chủ tịch G20 năm 2027."
-          ],
-          nguon: [
-            { ten: "Group of Nations", link: "https://groupofnations.com/g20/miami-g20-summit-brings-road-closures-a-closed-park-and-a-press-credential-deadline/" },
-            { ten: "Reuters (via SRN News)", link: "https://srnnews.com/kazakhstan-expects-faa-blessing-for-direct-us-flights-ahead-of-trump-hosted-g20-meeting/" },
-            { ten: "Reuters (via 943 Jack FM)", link: "https://943jackfm.com/2026/11/18/kazakhstan-expects-faa-blessing-for-direct-us-flights-ahead-of-trump-hosted-g20-meeting/" }
-          ],
-          gio: "Sáng, Nov 19"
         },
       ]
     }
