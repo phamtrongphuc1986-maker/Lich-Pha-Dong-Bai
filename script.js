@@ -516,23 +516,17 @@ function taiGiaXangDau() {
     });
 }
 
-// ===== LUOT XEM TRANG (bo dem mien phi Abacus - dem moi lan mo trang) =====
+// ===== LUOT XEM TRANG (may chu rieng gia.hialo.vn: 1 thiet bi/IP chi tinh 1 luot moi ngay, tai lai trang khong tang) =====
 function demLuotXem() {
-  var NS = "pha-dong-bai-bayview";
-  var d = new Date();
-  function haiSo(n) { return (n < 10 ? "0" : "") + n; }
-  var ngay = d.getFullYear() + "-" + haiSo(d.getMonth() + 1) + "-" + haiSo(d.getDate());
-  function gan(id, key) {
-    fetch("https://abacus.jasoncameron.dev/hit/" + NS + "/" + key)
-      .then(function (r) { return r.json(); })
-      .then(function (j) {
-        var el = document.getElementById(id);
-        if (el && typeof j.value === "number") el.textContent = j.value.toLocaleString("vi-VN");
-      })
-      .catch(function () { /* khong tai duoc thi giu nguyen dau — */ });
-  }
-  gan("tongXem", "tong-luot-xem");
-  gan("xemHomNay", "ngay-" + ngay);
+  fetch("https://gia.hialo.vn/luot-xem")
+    .then(function (r) { return r.json(); })
+    .then(function (j) {
+      var elTong = document.getElementById("tongXem");
+      var elNgay = document.getElementById("xemHomNay");
+      if (elTong && typeof j.tong === "number") elTong.textContent = j.tong.toLocaleString("vi-VN");
+      if (elNgay && typeof j.homNay === "number") elNgay.textContent = j.homNay.toLocaleString("vi-VN");
+    })
+    .catch(function () { /* khong tai duoc thi giu nguyen dau — */ });
 }
 
 // ===== THUY TRIEU NHIEU TRAM (du lieu tu tram gia.hialo.vn/thuy-trieu?tram=...) =====
