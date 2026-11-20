@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Năm 19/11/2026 — bản tin chiều",
+  capNhat: "Thứ Sáu 20/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 ngày cuối: dự thảo rút gọn còn 80 đoạn, xóa sạch chữ 'nhiên liệu hóa thạch' — đàm phán xuyên đêm trước hạn chót thứ Sáu",
+          baiViet: [
+            "Chiều thứ Năm 19/11 tại Antalya, Thổ Nhĩ Kỳ, các nhà đàm phán COP31 đã công bố bản dự thảo rút gọn của quyết định bao trùm — văn bản chính trị tổng kết hội nghị — chỉ còn 80 đoạn, giảm mạnh so với 144 đoạn của bản dự thảo đầu tuần. Điểm gây chú ý nhất là từ 'nhiên liệu hóa thạch' đã biến mất hoàn toàn khỏi văn bản, dù bản dự thảo thứ Hai vẫn còn đề xuất lộ trình chuyển đổi khỏi than, dầu và khí đốt. Panama lập tức dọa sẽ chặn mọi thỏa thuận nếu văn bản cuối cùng không đề cập tới việc giới hạn sản xuất dầu toàn cầu, trong khi Bộ trưởng Khí hậu Australia Chris Bowen — người dẫn dắt đàm phán cùng nước chủ nhà — cam kết sẽ tham vấn xuyên đêm để tìm đồng thuận trước hạn chót thứ Sáu.",
+            "Bản dự thảo mới vẫn giữ mục tiêu điện khí hóa: nâng tỉ trọng điện trong tổng tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, từ mức khoảng 23% hiện nay. Về tài chính thích ứng, văn bản kêu gọi nỗ lực tăng gấp ba nguồn tài chính thích ứng vào năm 2035 nhưng đã bỏ luôn con số 120 tỉ USD mỗi năm từng được đề xuất, chỉ ghi nhu cầu thích ứng ước tính khoảng 305 tỉ USD mỗi năm tới năm 2035. Văn bản cũng lần đầu thừa nhận thế giới nhiều khả năng sẽ vượt ngưỡng nóng lên 1,5 độ C so với thời tiền công nghiệp, đồng thời yêu cầu giữ mức vượt ngưỡng này càng nhỏ và càng ngắn càng tốt — điều ông Bowen gọi là quyết tâm để COP31 không bị nhớ tới như hội nghị chấp nhận thất bại.",
+            "Song song với đàm phán bế tắc, gói hành động điện khí hóa toàn cầu được trình bày trong ngày thứ Năm đã mang tới điểm sáng hiếm hoi: hơn 150 quốc gia cùng Liên minh châu Âu, 37 thành phố và hơn 260 doanh nghiệp tham gia các cam kết về năng lượng sạch, lưới điện và giao thông điện. Liên minh Utilities for Net Zero công bố kế hoạch đầu tư ít nhất 156 tỉ USD mỗi năm cho lưới điện, năng lượng tái tạo và lưu trữ, trong khi cơ chế tài chính mới AMPLIFi của Quỹ Đầu tư Khí hậu chính thức vận hành với khoản đóng góp đầu tiên 400 triệu bảng Anh từ Anh. Hội nghị dự kiến bế mạc vào thứ Sáu, nhưng với các trục đàm phán về tài chính, thích ứng và chuyển đổi công bằng vẫn chưa ngã ngũ, khả năng kéo dài quá hạn đang hiện hữu."
+          ],
+          nguon: [
+            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168839" },
+            { ten: "Deccan Chronicle", link: "https://www.deccanchronicle.com/amp/world/cop31-drops-fossil-fuel-pledge-from-draft-deal-2005962" },
+            { ten: "Down To Earth", link: "https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target" }
+          ],
+          gio: "Sáng, Nov 20"
+        },
+        {
+          tieuDe: "Tòa án Quốc tế phán quyết Myanmar phạm tội diệt chủng với người Rohingya — lần đầu một quốc gia bị kết tội này",
+          baiViet: [
+            "Ngày thứ Năm 19/11, Tòa án Công lý Quốc tế (ICJ) tại The Hague đã phán quyết Myanmar phạm tội diệt chủng đối với cộng đồng Rohingya ở bang Rakhine trong chiến dịch quân sự năm 2017, vi phạm Công ước về Ngăn ngừa và Trừng phạt tội diệt chủng. Với tỉ lệ 9 phiếu thuận trên 6 phiếu chống, đây là lần đầu tiên trong 80 năm lịch sử của Tòa án Thế giới một quốc gia bị kết luận phải chịu trách nhiệm về tội diệt chủng, và là lần thứ tư kể từ sau Holocaust một tòa án quốc tế kết luận tội danh này đã xảy ra. Chánh án Yuji Iwasawa đã đọc phán quyết trong gần ba giờ đồng hồ sau bảy năm thụ lý vụ kiện do Gambia khởi xướng từ tháng 11/2019.",
+            "Theo phán quyết, lực lượng an ninh Myanmar đã giết ít nhất 10.000 người Rohingya trong chiến dịch 'dọn sạch' kéo dài nhiều tháng, kèm theo xả súng hàng loạt, đốt phá làng mạc, bạo lực tình dục lan rộng và 'bạo lực cực đoan nhằm vào trẻ em', kể cả sát hại trẻ sơ sinh. Tòa kết luận quy mô và bản chất của các hành vi cho thấy 'suy luận hợp lý duy nhất' là Myanmar hành động với ý đồ hủy diệt một bộ phận đáng kể của cộng đồng Rohingya ở bắc Rakhine, đồng thời nước này cũng vi phạm nghĩa vụ ngăn ngừa và trừng phạt tội diệt chủng, cũng như không tuân thủ lệnh về biện pháp tạm thời năm 2020 yêu cầu bảo toàn bằng chứng. Hơn 730.000 người Rohingya đã phải chạy sang Bangladesh trong đợt trấn áp đó.",
+            "Tòa yêu cầu Myanmar chấm dứt mọi vi phạm bằng cách ban hành luật thực thi đầy đủ Công ước, điều tra và truy tố những người bị nghi ngờ, đưa ra bảo đảm không tái phạm, đồng thời thực hiện các biện pháp bồi thường — trong đó có việc tạo điều kiện cho người Rohingya trở về nơi cư trú cũ một cách an toàn, tự nguyện và trong phẩm giá, đoàn tụ gia đình và khôi phục tài sản đã mất. Số tiền bồi thường cụ thể sẽ được xác định ở giai đoạn tiếp theo, và Myanmar phải gửi báo cáo về các biện pháp đã thực hiện trong vòng hai năm. Phán quyết là chung thẩm và có tính ràng buộc, nhưng ICJ không có cơ chế cưỡng chế riêng; Gambia có thể đưa vụ việc lên Hội đồng Bảo an Liên Hợp Quốc, và Tổng thư ký Liên Hợp Quốc nhấn mạnh luật pháp quốc tế, trong đó có Công ước diệt chủng, phải được mọi bên tôn trọng."
+          ],
+          nguon: [
+            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168836" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide" },
+            { ten: "CNN", link: "https://www.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk?cid=external-feeds_iluminar_meta" }
+          ],
+          gio: "Sáng, Nov 20"
+        },
         {
           tieuDe: "APEC Thâm Quyến: Trump–Tập–Putin họp ba bên lần đầu trong lịch sử — hạt nhân, Ukraine và Iran lên bàn, chưa có tuyên bố chung",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 19"
         },
-        {
-          tieuDe: "COP31 tuần 2: dự thảo mới bỏ luôn con số 120 tỉ USD tài chính thích ứng — chỉ còn 2 ngày trước hạn chót thứ Sáu",
-          baiViet: [
-            "Đàm phán COP31 tại Antalya đã bước vào những ngày cuối với một bước lùi gây tranh cãi: bản dự thảo thứ hai của văn kiện chung, công bố sáng thứ Tư, đã gỡ bỏ con số 120 tỉ USD mỗi năm cho tài chính thích ứng vào năm 2035 — mục tiêu từng có trong bản dự thảo đầu tiên hôm thứ Hai. Thay vào đó, văn bản mới đưa ra ba phương án chữ khác nhau, từ kêu gọi các nước phát triển “tăng mạnh” đóng góp cho Quỹ Thích ứng, tới chỉ “khuyến khích” nỗ lực bảo đảm tính bền vững dài hạn của quỹ. Theo Trung tâm Luật Khí hậu Sabin thuộc Đại học Columbia, con số 120 tỉ USD từng bị ghi nhầm thành 120 triệu USD trong một bản dự thảo giữa tuần, rồi bị xóa hẳn sau khi EU và nhiều nước khác phản đối dữ dội.",
-            "Dù vậy, tiến trình không hoàn toàn bế tắc. Chủ tịch đàm phán Chris Bowen cho biết các bên đã thống nhất được 48 nội dung, trong khi khoảng 30 nhiệm vụ vẫn cần kết quả, và bản dự thảo mới được rút gọn, tập trung hơn so với bản đầu tiên dài 144 điều khoản. Bản dự thảo thừa nhận thế giới nhiều khả năng vượt ngưỡng 1,5°C và kêu gọi quay lại dưới ngưỡng này càng sớm càng tốt trong thế kỷ này, đồng thời giữ ngôn ngữ kêu gọi chuyển đổi nhanh khỏi nhiên liệu hóa thạch — dù không kèm lộ trình toàn cầu cụ thể. Phía các đảo Thái Bình Dương tiếp tục phản đối: Nga bác bỏ mọi nhắc tới 1,5°C, nhóm Ả Rập phản đối đưa chuyển đổi khỏi nhiên liệu hóa thạch vào chương trình, còn tài chính khí hậu vẫn là điểm nghẽn lớn nhất.",
-            "Áp lực thời gian đang dồn lên các bộ trưởng: hội nghị dự kiến kết thúc vào thứ Sáu 20/11, và chủ tịch COP31 đã yêu cầu mọi nhóm làm việc hoàn tất dự thảo càng sớm càng tốt, lý tưởng là ngay trong ngày thứ Tư. Ngoài phòng đàm phán, hội nghị cũng ghi nhận một số sáng kiến phụ: cam kết Antalya về trí tuệ nhân tạo bền vững thu hút 80 nước ủng hộ và 271 cam kết, cùng sáng kiến công nghiệp xanh thúc đẩy đầu tư vào thép và xi măng sạch hơn. Nhưng các nước dễ tổn thương vẫn chia rẽ với nhóm khác về thời điểm công bố báo cáo đánh giá lớn tiếp theo của IPCC — họ muốn có kết quả vào năm 2028 để kịp phục vụ đợt kiểm kê toàn cầu lần hai, trong khi nhiều nước muốn lùi lại. Với tiền lệ các kỳ COP thường kéo dài quá hạn, chưa ai dám chắc Antalya sẽ chốt được thỏa thuận đúng giờ."
-          ],
-          nguon: [
-            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168812" },
-            { ten: "Down To Earth", link: "https://www.downtoearth.org.in/climate-change/cop31-week-two-begins-with-disagreements-over-scope-mandate-and-ambition-of-cover-decision" },
-            { ten: "Sabin Center, Columbia Law", link: "https://blogs.law.columbia.edu/climatechange/2026/11/18/the-sabin-center-at-cop31-deep-divisions-remain-as-the-meeting-approaches-crunch-time/" }
-          ],
-          gio: "Sáng, Nov 19"
-        },
-        {
-          tieuDe: "Geneva ngày 3: EU duyệt 140 lệnh trừng phạt mới với Nga, đề xuất vay 45 tỉ euro cho Ukraine — Moscow đòi NATO 'rút lại'",
-          baiViet: [
-            "Trong lúc vòng đàm phán Geneva bước sang ngày thứ ba, Liên minh châu Âu đã tăng áp lực kinh tế lên Moscow: các bộ trưởng ngoại giao EU phê duyệt 140 lệnh trừng phạt mới nhắm vào các nhà máy lọc dầu, ngân hàng, thương mại điện tử của Nga cùng các công ty ở vùng Vịnh và Đông Á bị cáo buộc tiếp tay cho “đội tàu bóng tối”, kèm theo danh sách trừng phạt mạng và thông tin sai lệch lớn nhất từ trước tới nay. Gói trừng phạt thứ 22 đang được chuẩn bị. Song song, Ủy ban châu Âu đề xuất khoản vay 45 tỉ euro cho Ukraine khi các cuộc tấn công của Nga vào hạ tầng năng lượng gia tăng trước mùa đông — và EU đang huy động 500 máy phát điện, 200 xe buýt, nơi trú ẩn khẩn cấp, cáp điện ngầm dưới biển cùng cầu phao để giúp Kyiv vượt qua mùa lạnh.",
-            "Trên bàn đàm phán, yêu cầu của Nga ngày càng lộ rõ và gây tranh cãi: theo New York Times, các quan chức Nga trong các cuộc họp kín đang khơi lại đòi hỏi NATO phải thu hẹp hiện diện như một điều kiện cho bất kỳ thỏa thuận nào về Ukraine — điều mà Estonia gọi là “trò chơi tâm lý” của Moscow. Jared Kushner, thành viên đoàn Mỹ, khẳng định Washington không thể đạt thỏa thuận nếu thiếu châu Âu, và khoảng 40 nước dự kiến cùng tuyên bố rằng an ninh châu Âu phải do chính người châu Âu quyết định. Các cố vấn an ninh quốc gia của Đức, Pháp, Anh, Ý và Ba Lan tiếp tục đại diện cho châu Âu tại Geneva, sau khi “bộ tứ lớn” lần đầu ngồi vào bàn hôm thứ Ba.",
-            "Dù kênh quân sự được mô tả là mang tính xây dựng, chưa có dấu hiệu đột phá nào về thực chất. Tổng thống Ukraine Volodymyr Zelensky cáo buộc Nga cố tình kéo dài tiến trình đàm phán, trong khi các yêu cầu tối đa của Moscow — chia cắt Ukraine, đẩy lùi NATO và giành quyền phủ quyết đối với an ninh châu Âu — vẫn nguyên vẹn, theo đánh giá của phía EU. Kyiv tiếp tục đòi bảo đảm an ninh vững chắc từ phương Tây trước khi bàn tới bất kỳ nhượng bộ lãnh thổ nào, và coi ngừng bắn là ưu tiên hàng đầu. Trong khi đó giao tranh ngoài thực địa không hề lắng xuống: riêng ngày thứ Ba, Bộ Tổng tham mưu Ukraine cho biết Nga đã bắn 28 tên lửa và 109 bom dẫn đường vào lãnh thổ nước này."
-          ],
-          nguon: [
-            { ten: "The Gaze (La Repubblica)", link: "https://thegaze.media/news/europes-big-four-join-high-stakes-geneva-peace-talks-on-ukraine" },
-            { ten: "January2029 (NYT, Bloomberg)", link: "https://www.january2029.com/story/european-security-should-be-decided-with-europeans-around-40-00vu" },
-            { ten: "Ahram Online (AFP)", link: "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=562619" }
-          ],
-          gio: "Sáng, Nov 19"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "G7: Canada rủ Mexico tham gia ngân hàng quốc phòng toàn cầu đầu tiên — mục tiêu huy động 100 tỉ euro, ký điều lệ ngày 30/11",
+          baiViet: [
+            "Bên lề Diễn đàn APEC tại Thâm Quyến hôm thứ Tư 18/11, Ngoại trưởng Canada Anita Anand cho biết Ottawa đã trao đổi với Mexico về khả năng tham gia Ngân hàng Quốc phòng, An ninh và Phục hồi (DSRB) do Canada dẫn dắt — thể chế được quảng bá là ngân hàng quốc phòng toàn cầu đầu tiên trên thế giới. Bà Anand nói Canada đang mở rộng cánh cửa cho các đối tác ngoài nhóm G7, trong bối cảnh sáng kiến này tìm thêm thành viên trước lễ ký kết chính thức. Thông tin được đưa ra ngay sau khi Canada cùng các nước sáng lập công bố kế hoạch thành lập ngân hàng vào cuối tháng 10.",
+            "DSRB đặt mục tiêu huy động khoảng 100 tỉ euro (tương đương gần 110 tỉ USD) để cho các chính phủ và nhà thầu quốc phòng vay với lãi suất thấp, phục vụ các dự án quốc phòng, chuỗi cung ứng trọng yếu và mở rộng năng lực công nghiệp. Các nước đã cam kết tham gia sáng lập gồm Albania, Bỉ, Canada, Hy Lạp, Latvia, Luxembourg, Romania, Thổ Nhĩ Kỳ và Ukraine, dự kiến gặp nhau tại Luxembourg vào ngày 30/11 để ký điều lệ thành lập đã được đàm phán tại Montreal hồi tháng 4. Trụ sở chính của ngân hàng đặt tại Canada, với một trung tâm châu Âu tại Luxembourg, và ngân hàng dự kiến bắt đầu vận hành theo từng giai đoạn từ năm 2027.",
+            "Theo tuyên bố chung của các nước sáng lập, DSRB sẽ bổ sung cho các sáng kiến quốc gia và đa phương hiện có bằng cách lấp khoảng trống tài chính mà chính phủ và doanh nghiệp quốc phòng đang đối mặt, đồng thời mở rộng khả năng tiếp cận vốn trong lĩnh vực này. Canada khẳng định tư cách thành viên vẫn mở cho các đồng minh và đối tác thân cận có chung mục tiêu tăng cường năng lực quốc phòng, an ninh và phục hồi. Động thái này diễn ra khi chi tiêu quốc phòng toàn cầu tiếp tục tăng mạnh trước chiến tranh Ukraine kéo dài và những bất ổn an ninh lan rộng, khiến nhu cầu về một kênh tài chính chuyên biệt cho quốc phòng ngày càng được chú ý."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/business/finance/canada-talked-mexico-about-joining-global-defence-bank-anand-says-2026-11-18/" },
+            { ten: "The Straits Times", link: "https://www.straitstimes.com/world/europe/canada-talked-to-mexico-about-joining-global-defence-bank-anand-says" },
+            { ten: "Government of Canada", link: "https://www.canada.ca/en/department-finance/news/2026/10/joint-statement-on-the-establishment-of-the-defence-security-and-resilience-bank-dsrb.html" }
+          ],
+          gio: "Sáng, Nov 20"
+        },
         {
           tieuDe: "Berlin: đồng minh châu Âu của Ukraine họp 'Liên minh Tự nguyện' — Witkoff và Kushner dự, bàn bảo đảm an ninh ràng buộc sau ngừng bắn",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 19"
         },
-        {
-          tieuDe: "G7 Paris: khối chốt lo tài chính Ukraine 2027 và tăng phòng không — lên án Trung Quốc, Triều Tiên, Iran tiếp sức cho Nga",
-          baiViet: [
-            "Tuyên bố chung của Hội nghị Ngoại trưởng G7 tại Paris ngày 9–10/11, công bố chính thức trong tuần này, cho thấy khối đang chuyển từ lời cam kết sang sắp xếp nguồn lực cụ thể cho Ukraine: các bộ trưởng thừa nhận nhu cầu tài chính cấp bách của Kyiv cho năm 2027 và các năm tiếp theo cần được giải quyết “một cách phối hợp”, đồng thời rà soát tiến độ cung cấp phòng không, hệ thống đánh chặn, năng lực tầm xa và giấy phép sản xuất để Ukraine tự tăng sản lượng vũ khí. Khối cũng quyết định tăng cường hỗ trợ tài chính và vật chất giúp Ukraine vượt qua mùa đông, sau khi ghi nhận các cuộc tấn công hằng ngày của Nga vào nhà ở, hạ tầng dân sự và di sản văn hóa.",
-            "Phần cứng rắn nhất của tuyên bố nhắm vào các nước bị cáo buộc tiếp sức cho cỗ máy chiến tranh của Nga: G7 lên án việc Triều Tiên và Iran cung cấp hỗ trợ quân sự cho Moscow, cùng việc Trung Quốc cung cấp vũ khí, huấn luyện quân sự và linh kiện lưỡng dụng, và tuyên bố rõ ý định tiếp tục hành động chống lại các nước này. Các bộ trưởng cũng lên án chiến dịch tấn công tàu dân sự trên Biển Đen vì đe dọa an ninh lương thực toàn cầu, đồng thời tái khẳng định ủng hộ nỗ lực hòa bình do Mỹ dẫn dắt và tầm quan trọng của một lệnh ngừng bắn toàn diện, có đi có lại. Về Biển Đen và eo biển Đài Loan, khối phản đối mọi nỗ lực đơn phương thay đổi hiện trạng bằng vũ lực hoặc cưỡng ép, nhấn mạnh tự do hàng hải và an toàn vận tải biển quốc tế.",
-            "Ở mặt trận Trung Đông, G7 khen ngợi vai trò trung gian của các nước khu vực và tái khẳng định ủng hộ mọi nỗ lực ngoại giao hướng tới một giải pháp lâu dài cho chương trình hạt nhân của Iran, với nguyên tắc Tehran không bao giờ được phép sở hữu vũ khí hạt nhân và phải hợp tác đầy đủ với Cơ quan Năng lượng Nguyên tử Quốc tế. Khối cũng lên án mạnh mẽ các cuộc tấn công của Iran nhằm vào các nước láng giềng và việc cản trở vận tải qua eo biển Hormuz, cùng các cuộc tấn công liên tiếp của Houthi nhằm vào Yemen và Saudi Arabia, kể cả vào dân thường và hạ tầng dân sự. Một điểm ít được chú ý nhưng quan trọng: các bộ trưởng quyết định đặt hạ tầng vệ tinh ngang hàng với cáp biển trong tính toán về khả năng phục hồi, trước các mối đe dọa vật lý, mạng và gây nhiễu ngày càng tăng."
-          ],
-          nguon: [
-            { ten: "EEAS — G7 Joint Declaration, Paris", link: "https://www.eeas.europa.eu/eeas/g7-joint-declaration-following-g7-foreign-ministers-meeting-paris-9-and-10-november-2026_en" },
-            { ten: "US Department of State", link: "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-g7-foreign-ministers-meeting-in-paris/" },
-            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692205.ece" }
-          ],
-          gio: "Sáng, Nov 19"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami: Putin cân nhắc dự thượng đỉnh sau lời mời mới của Trump — chưa quyết, Nga vẫn cử đại diện cấp cao",
+          baiViet: [
+            "Trong buổi họp báo tại Thâm Quyến hôm thứ Năm 19/11, sau cuộc gặp ba bên với Tổng thống Mỹ Donald Trump và Chủ tịch Trung Quốc Tập Cận Bình bên lề APEC, Tổng thống Nga Vladimir Putin cho biết ông sẽ cân nhắc việc dự Thượng đỉnh G20 tại Miami vào tháng 12 sau khi ông Trump nhắc lại lời mời. Ông Putin cảm ơn lời mời nhưng nói quyết định sẽ phụ thuộc vào tình hình trong nước của Nga, đồng thời khẳng định dù ông có đi hay không, Nga vẫn sẽ được đại diện ở cấp cao tại hội nghị. Điện Kremlin trước đó cho biết quyết định về chuyến đi 'không thể đưa ra hôm nay hay ngày mai'.",
+            "Lời mời ông Putin dự G20 tại Mỹ lần đầu được đưa ra từ tháng 9/2026 và đã gây tranh luận trong các đồng minh phương Tây, bởi ông Putin đang đối mặt với lệnh bắt của Tòa án Hình sự Quốc tế. Tổng thống Ukraine Volodymyr Zelenskyy từng nói sẵn sàng gặp ông Putin tại Miami và nhắc lại lập trường này sau cuộc gặp ông Trump bên lề Đại hội đồng Liên Hợp Quốc, cho rằng ông Trump có thể thu xếp một cuộc gặp ba bên tại đó. Ông Putin cũng nói Moscow cần khôi phục đối thoại với châu Âu trước khi hợp tác trên các diễn đàn như G20, trong khi ông Trump hồi tháng 10 bày tỏ mong muốn chứng kiến một thỏa thuận hòa bình Ukraine được ký kết tại khu nghỉ dưỡng của ông trong dịp thượng đỉnh.",
+            "Thượng đỉnh Lãnh đạo G20 năm 2026 dự kiến diễn ra ngày 14–15/12 tại Miami dưới nhiệm kỳ chủ tịch của Mỹ, với định hướng đưa diễn đàn trở lại sứ mệnh kinh tế cốt lõi. Cùng ngày 19/11, Armenia được xác nhận nằm trong danh sách 12 nước ngoài khối được mời, bên cạnh Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, Các Tiểu vương quốc Arab Thống nhất, Uzbekistan và Việt Nam. Đáng chú ý, Nam Phi vắng mặt trong danh sách khách mời do Mỹ công bố, trong khi Ba Lan xuất hiện dù không phải thành viên thường trực của nhóm. Chính quyền hạt Miami-Dade cũng đã bắt đầu cảnh báo người dân về việc đóng đường và chậm trễ giao thông từ ngày 10/12, cao điểm vào hai ngày họp chính."
+          ],
+          nguon: [
+            { ten: "The New Voice of Ukraine", link: "https://english.nv.ua/nation/putin-does-not-answer-trump-s-renewed-invitation-to-g20-in-miami-50660764.html" },
+            { ten: "Armenpress", link: "https://armenpress.am/en/article/1266106" },
+            { ten: "Lianhe Zaobao", link: "https://www.zaobao.com.sg/en/news/world/putin-considers-attending-g20-summit-us-december" }
+          ],
+          gio: "Sáng, Nov 20"
+        },
         {
           tieuDe: "G20 Miami: Tổng thống Kazakhstan Tokayev chốt chuẩn bị dự thượng đỉnh — lần thứ ba Astana được mời, kèm tuần lễ đầu tư 5.000 tỉ USD",
           baiViet: [
@@ -134,19 +148,6 @@ window.TIN_TUC = {
             { ten: "Reuters (via 943 Jack FM)", link: "https://943jackfm.com/2026/11/18/kazakhstan-expects-faa-blessing-for-direct-us-flights-ahead-of-trump-hosted-g20-meeting/" }
           ],
           gio: "Sáng, Nov 19"
-        },
-        {
-          tieuDe: "G20 Miami: Trump mời Kazakhstan và Uzbekistan dự thượng đỉnh — Ấn Độ tính chuyện thỏa thuận thương mại ở Mar-a-Lago",
-          baiViet: [
-            "Tổng thống Donald Trump cho biết ông sẽ mời Kazakhstan và Uzbekistan dự thượng đỉnh G20 năm sau tại Miami, sau các cuộc điện đàm riêng với Tổng thống Kazakhstan Kassym-Jomart Tokayev và Tổng thống Uzbekistan Shavkat Mirziyoyev hôm thứ Ba. Cả hai nước đều không phải thành viên G20, nhưng nước chủ nhà thường mời thêm các nước ngoài khối dự thượng đỉnh. Thượng đỉnh 2026 dự kiến tổ chức ngày 14–15/12 tại câu lạc bộ golf của ông Trump ở Doral, gần Miami, và động thái này cho thấy Washington đang muốn làm sâu sắc quan hệ với các quốc gia Trung Á — khu vực giàu khoáng sản chiến lược.",
-            "Lời mời mới đến trong bối cảnh thượng đỉnh Miami đang được “tái cấu trúc” mạnh tay: tháng trước, ông Trump tuyên bố cấm Nam Phi tham dự và dừng mọi khoản thanh toán, trợ cấp cho nước này sau vụ việc liên quan tới đại diện chính phủ Mỹ tại cuộc họp năm nay; Ba Lan được mời thay thế. Ngoại trưởng Marco Rubio xác nhận Mỹ sẽ tổ chức thượng đỉnh G20 vào tháng 12/2026, lần đầu tiên kể từ 2009, trùng với dịp kỷ niệm 250 năm thành lập nước Mỹ. Bốn nhóm công tác được đề xuất — bãi bỏ quy định, chuỗi cung ứng năng lượng an toàn, quản trị AI và chống phụ thuộc viện trợ — cho thấy trọng tâm đã dịch hẳn khỏi tài chính khí hậu, xóa nợ và chuyển giao công nghệ cho các nền kinh tế đang phát triển.",
-            "Về phía Ấn Độ, Chủ tịch Diễn đàn Đối tác Chiến lược Mỹ–Ấn (USISPF) Mukesh Aghi nhận định Ấn Độ vẫn là điểm đến đầu tư “rất then chốt” với doanh nghiệp Mỹ, đặc biệt trong trí tuệ nhân tạo, bán dẫn, quốc phòng, y tế, linh kiện điện tử và sản xuất theo sáng kiến Make in India. Ông Aghi để ngỏ khả năng một thông báo sẽ được đưa ra khi Thủ tướng Narendra Modi gặp ông Trump tại Miami và Mar-a-Lago — có thể là một thỏa thuận thương mại. Ấn Độ sẽ dự thượng đỉnh với tư cách đại diện cho các nước phương Nam, nhưng việc chưa có thỏa thuận thương mại với Mỹ vẫn là một yếu tố quan trọng, trong khi sự hiện diện của Nga và Trung Quốc cùng lo ngại của châu Âu về việc ông Putin tham dự khiến triển vọng đạt đồng thuận thêm phức tạp."
-          ],
-          nguon: [
-            { ten: "Associated Press (via TaxTMI)", link: "https://www.taxtmi.com/news?id=65680" },
-            { ten: "The Tribune India (ANI, USISPF)", link: "https://www.tribuneindia.com/news/world/india-very-pivotal-to-us-companies-says-us-india-strategic-partnership-forum-chief-mukesh-aghi/amp/" }
-          ],
-          gio: "Chiều, Nov 18"
         },
       ]
     }
