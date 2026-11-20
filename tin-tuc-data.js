@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Sáu 20/11/2026 — bản tin chiều",
+  capNhat: "Thứ Bảy 21/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31: chủ nhà Thổ Nhĩ Kỳ 'bội thu' hơn 26 tỉ USD thỏa thuận năng lượng — trong lúc thỏa thuận khí hậu toàn cầu vẫn bế tắc",
+          baiViet: [
+            "Thổ Nhĩ Kỳ sắp rời COP31 với một loạt thỏa thuận và kế hoạch đầu tư trị giá hơn 26 tỉ USD, chủ yếu về năng lượng xanh, dù hội nghị khí hậu tại Antalya vẫn chưa đạt được thỏa thuận chung nào. Theo hãng Reuters, các thỏa thuận được chốt từ khi Thổ Nhĩ Kỳ bắt đầu đăng cai hội nghị ngày 9/11 gồm một thỏa thuận sơ bộ trị giá 15 tỉ USD về năng lượng tái tạo với Trung Quốc, 5,1 tỉ USD thỏa thuận tài chính với các ngân hàng phát triển, cùng các thỏa thuận với Saudi Arabia và Canada. Phía Thổ Nhĩ Kỳ không bình luận về con số này.",
+            "Trong khi đó, thỏa thuận khí hậu bao trùm của hội nghị vẫn mờ mịt khi đàm phán bước vào ngày cuối cùng theo lịch — thứ Sáu 20/11 — mà hơn 190 quốc gia vẫn chia rẽ sâu sắc về tài chính khí hậu cho các nước nghèo nhất và về lộ trình chuyển đổi khỏi nhiên liệu hóa thạch. Bản dự thảo mới nhất đã xóa sạch mọi chữ về than, dầu và khí đốt, đồng thời bỏ luôn mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng. Mạng lưới Hành động Khí hậu Quốc tế (CAN) đã công khai bác bỏ văn bản, treo biển 'ECO Shame!' trong buổi họp báo ngày cuối và kêu gọi các chính phủ, đặc biệt ở Nam bán cầu, từ chối ký.",
+            "Giới quan sát nhận định các thỏa thuận song phương có thể giúp Thổ Nhĩ Kỳ đạt mục tiêu khí hậu của chính mình, nhất là mở rộng điện khí hóa để giảm phát thải từ nhiên liệu hóa thạch. Nhưng nếu nước chủ nhà không bắc được cầu nối giữa phe đòi tài chính khí hậu và phe sản xuất dầu, thì di sản của COP31 nhiều khả năng sẽ là những hợp đồng thương mại của nước chủ nhà hơn là một bước tiến khí hậu toàn cầu — và lịch sử các kỳ COP cho thấy đàm phán hoàn toàn có thể kéo dài sang cuối tuần thay vì bế mạc đúng hẹn."
+          ],
+          nguon: [
+            { ten: "The Straits Times (Reuters)", link: "https://www.straitstimes.com/asia/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls" },
+            { ten: "Daily Sabah", link: "https://www.dailysabah.com/business/economy/cop31-delivers-deals-plans-worth-over-26-billion-for-host-turkiye/amp" },
+            { ten: "Free Malaysia Today (Reuters)", link: "https://www.freemalaysiatoday.com/category/world/2026/11/20/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls" }
+          ],
+          gio: "Sáng, Nov 21"
+        },
+        {
+          tieuDe: "Bão Akvan đổ bộ Odisha, Ấn Độ: hơn 440.000 người sơ tán, không thiệt hại lớn về người — cơn bão thứ ba trong 24 ngày",
+          baiViet: [
+            "Bão Akvan đã đổ bộ gần bờ biển Gopalpur thuộc bang Odisha, miền đông Ấn Độ, vào sáng thứ Sáu 20/11, mang theo mưa lớn và gió mạnh trên diện rộng. Theo Cục Khí tượng Ấn Độ (IMD), quá trình đổ bộ bắt đầu khoảng 8 giờ sáng và hoàn tất lúc 11 giờ 20, với sức gió 70–80 km/h, giật tới 90 km/h khi bão vượt qua bờ biển nam Odisha – bắc Andhra Pradesh. Chỉ vài giờ sau, Akvan suy yếu thành áp thấp nhiệt đới rồi tiếp tục yếu thành vùng áp thấp, di chuyển về phía bắc với tốc độ khoảng 12 km/h, trong khi mưa lớn vẫn kéo dài ở Odisha và lan sang miền nam Tây Bengal tới sáng thứ Bảy.",
+            "Điểm sáng là công tác sơ tán đã phát huy tác dụng: chính quyền bang cho biết đã đưa hơn 440.000 người tới nơi an toàn, huy động 423 đội cứu hộ và mở hơn 9.300 nơi trú bão. Bộ trưởng Quản lý Thảm họa Suresh Pujari khẳng định không có thiệt hại lớn về người hay tài sản, không có nguy cơ lũ lụt trước mắt dù mưa rất to, và 1.452 em bé đã chào đời an toàn trong thời gian bão sau khi các bà mẹ được đưa tới nơi trú ẩn. Thủ hiến Mohan Charan Majhi cho biết chưa ghi nhận sự cố đáng tiếc nào, dù đã xác định 941 điểm có nguy cơ sạt lở đất tại 5 huyện và ghi nhận sạt lở ở Ganjam, Koraput và Kandhamal.",
+            "Akvan là cơn bão thứ ba đe dọa Odisha chỉ trong 24 ngày, và quỹ đạo của nó đã đổi hướng so với dự báo ban đầu nhắm vào Andhra Pradesh — một lời nhắc rằng dự báo bão ở vịnh Bengal vẫn đầy bất định. Tên bão do Iran đề xuất theo hệ thống đặt tên khu vực. Sau khi bão tan, thách thức còn lại là mưa lớn kéo dài và việc khôi phục giao thông, trong đó hàng chục chuyến tàu đã bị hủy trong ngày bão đổ bộ; IMD dự báo mưa rào rải rác còn tiếp diễn tới 21/11 trước khi gió mùa đông bắc hoạt động trở lại từ 23/11."
+          ],
+          nguon: [
+            { ten: "The Hindu", link: "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece" },
+            { ten: "Deccan Herald (PTI)", link: "https://www.deccanherald.com/amp/story/india/odisha/cyclone-akvan-weakens-into-depression-after-landfall-in-odisha-no-major-damage-flood-threat-4225921" },
+            { ten: "The Hindu BusinessLine", link: "https://www.thehindubusinessline.com/news/national/cylone-akvan-live-news-updates-november-20-2026/article71723082.ece/amp/" }
+          ],
+          gio: "Sáng, Nov 21"
+        },
         {
           tieuDe: "COP31 bước vào ngày cuối vẫn chưa có thỏa thuận — đàm phán có thể kéo dài sang cuối tuần, bản dự thảo vẫn trống chữ 'nhiên liệu hóa thạch'",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 20"
         },
-        {
-          tieuDe: "COP31 ngày cuối: dự thảo rút gọn còn 80 đoạn, xóa sạch chữ 'nhiên liệu hóa thạch' — đàm phán xuyên đêm trước hạn chót thứ Sáu",
-          baiViet: [
-            "Chiều thứ Năm 19/11 tại Antalya, Thổ Nhĩ Kỳ, các nhà đàm phán COP31 đã công bố bản dự thảo rút gọn của quyết định bao trùm — văn bản chính trị tổng kết hội nghị — chỉ còn 80 đoạn, giảm mạnh so với 144 đoạn của bản dự thảo đầu tuần. Điểm gây chú ý nhất là từ 'nhiên liệu hóa thạch' đã biến mất hoàn toàn khỏi văn bản, dù bản dự thảo thứ Hai vẫn còn đề xuất lộ trình chuyển đổi khỏi than, dầu và khí đốt. Panama lập tức dọa sẽ chặn mọi thỏa thuận nếu văn bản cuối cùng không đề cập tới việc giới hạn sản xuất dầu toàn cầu, trong khi Bộ trưởng Khí hậu Australia Chris Bowen — người dẫn dắt đàm phán cùng nước chủ nhà — cam kết sẽ tham vấn xuyên đêm để tìm đồng thuận trước hạn chót thứ Sáu.",
-            "Bản dự thảo mới vẫn giữ mục tiêu điện khí hóa: nâng tỉ trọng điện trong tổng tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, từ mức khoảng 23% hiện nay. Về tài chính thích ứng, văn bản kêu gọi nỗ lực tăng gấp ba nguồn tài chính thích ứng vào năm 2035 nhưng đã bỏ luôn con số 120 tỉ USD mỗi năm từng được đề xuất, chỉ ghi nhu cầu thích ứng ước tính khoảng 305 tỉ USD mỗi năm tới năm 2035. Văn bản cũng lần đầu thừa nhận thế giới nhiều khả năng sẽ vượt ngưỡng nóng lên 1,5 độ C so với thời tiền công nghiệp, đồng thời yêu cầu giữ mức vượt ngưỡng này càng nhỏ và càng ngắn càng tốt — điều ông Bowen gọi là quyết tâm để COP31 không bị nhớ tới như hội nghị chấp nhận thất bại.",
-            "Song song với đàm phán bế tắc, gói hành động điện khí hóa toàn cầu được trình bày trong ngày thứ Năm đã mang tới điểm sáng hiếm hoi: hơn 150 quốc gia cùng Liên minh châu Âu, 37 thành phố và hơn 260 doanh nghiệp tham gia các cam kết về năng lượng sạch, lưới điện và giao thông điện. Liên minh Utilities for Net Zero công bố kế hoạch đầu tư ít nhất 156 tỉ USD mỗi năm cho lưới điện, năng lượng tái tạo và lưu trữ, trong khi cơ chế tài chính mới AMPLIFi của Quỹ Đầu tư Khí hậu chính thức vận hành với khoản đóng góp đầu tiên 400 triệu bảng Anh từ Anh. Hội nghị dự kiến bế mạc vào thứ Sáu, nhưng với các trục đàm phán về tài chính, thích ứng và chuyển đổi công bằng vẫn chưa ngã ngũ, khả năng kéo dài quá hạn đang hiện hữu."
-          ],
-          nguon: [
-            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168839" },
-            { ten: "Deccan Chronicle", link: "https://www.deccanchronicle.com/amp/world/cop31-drops-fossil-fuel-pledge-from-draft-deal-2005962" },
-            { ten: "Down To Earth", link: "https://www.downtoearth.org.in/climate-change/cop31-cover-decision-draft-drops-fossil-fuel-phaseout-language-retains-35-by-35-electrification-target" }
-          ],
-          gio: "Sáng, Nov 20"
-        },
-        {
-          tieuDe: "Tòa án Quốc tế phán quyết Myanmar phạm tội diệt chủng với người Rohingya — lần đầu một quốc gia bị kết tội này",
-          baiViet: [
-            "Ngày thứ Năm 19/11, Tòa án Công lý Quốc tế (ICJ) tại The Hague đã phán quyết Myanmar phạm tội diệt chủng đối với cộng đồng Rohingya ở bang Rakhine trong chiến dịch quân sự năm 2017, vi phạm Công ước về Ngăn ngừa và Trừng phạt tội diệt chủng. Với tỉ lệ 9 phiếu thuận trên 6 phiếu chống, đây là lần đầu tiên trong 80 năm lịch sử của Tòa án Thế giới một quốc gia bị kết luận phải chịu trách nhiệm về tội diệt chủng, và là lần thứ tư kể từ sau Holocaust một tòa án quốc tế kết luận tội danh này đã xảy ra. Chánh án Yuji Iwasawa đã đọc phán quyết trong gần ba giờ đồng hồ sau bảy năm thụ lý vụ kiện do Gambia khởi xướng từ tháng 11/2019.",
-            "Theo phán quyết, lực lượng an ninh Myanmar đã giết ít nhất 10.000 người Rohingya trong chiến dịch 'dọn sạch' kéo dài nhiều tháng, kèm theo xả súng hàng loạt, đốt phá làng mạc, bạo lực tình dục lan rộng và 'bạo lực cực đoan nhằm vào trẻ em', kể cả sát hại trẻ sơ sinh. Tòa kết luận quy mô và bản chất của các hành vi cho thấy 'suy luận hợp lý duy nhất' là Myanmar hành động với ý đồ hủy diệt một bộ phận đáng kể của cộng đồng Rohingya ở bắc Rakhine, đồng thời nước này cũng vi phạm nghĩa vụ ngăn ngừa và trừng phạt tội diệt chủng, cũng như không tuân thủ lệnh về biện pháp tạm thời năm 2020 yêu cầu bảo toàn bằng chứng. Hơn 730.000 người Rohingya đã phải chạy sang Bangladesh trong đợt trấn áp đó.",
-            "Tòa yêu cầu Myanmar chấm dứt mọi vi phạm bằng cách ban hành luật thực thi đầy đủ Công ước, điều tra và truy tố những người bị nghi ngờ, đưa ra bảo đảm không tái phạm, đồng thời thực hiện các biện pháp bồi thường — trong đó có việc tạo điều kiện cho người Rohingya trở về nơi cư trú cũ một cách an toàn, tự nguyện và trong phẩm giá, đoàn tụ gia đình và khôi phục tài sản đã mất. Số tiền bồi thường cụ thể sẽ được xác định ở giai đoạn tiếp theo, và Myanmar phải gửi báo cáo về các biện pháp đã thực hiện trong vòng hai năm. Phán quyết là chung thẩm và có tính ràng buộc, nhưng ICJ không có cơ chế cưỡng chế riêng; Gambia có thể đưa vụ việc lên Hội đồng Bảo an Liên Hợp Quốc, và Tổng thư ký Liên Hợp Quốc nhấn mạnh luật pháp quốc tế, trong đó có Công ước diệt chủng, phải được mọi bên tôn trọng."
-          ],
-          nguon: [
-            { ten: "UN News", link: "https://news.un.org/en/story/2026/11/1168836" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide" },
-            { ten: "CNN", link: "https://www.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk?cid=external-feeds_iluminar_meta" }
-          ],
-          gio: "Sáng, Nov 20"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Nga oanh tạc Kyiv dữ dội trong đêm: hơn 400 drone, 111 tên lửa, 3 cầu sông Dnipro hư hại — Berlin kêu gọi ngừng bắn năng lượng mùa đông",
+          baiViet: [
+            "Rạng sáng thứ Sáu 20/11, Nga đã mở một trong những đợt tấn công lớn nhất trong năm nhằm vào thủ đô Kyiv của Ukraine: hơn 400 máy bay không người lái và 111 tên lửa, gồm 84 tên lửa hành trình và 27 tên lửa đạn đạo, theo số liệu của phía Ukraine. Không quân Ukraine cho biết đã đánh chặn khoảng 380 drone và khoảng 80 tên lửa. Ít nhất 8 người thiệt mạng — 6 người ở Kyiv, trong đó có 3 công nhân cấp nước đang làm nhiệm vụ, và 2 người ở vùng Lviv — cùng 28 người bị thương tại Kyiv. Ba cây cầu bắc qua sông Dnipro bị hư hại gồm cầu Podilsko-Voskresenskyi, cầu Darnytskyi và cầu Phía Nam, cầu Phía Nam chỉ còn cho xe nhẹ lưu thông, trong khi nhiều nhà máy điện hạt nhân phải giảm công suất và 11 khu vực bị mất điện một phần.",
+            "Đợt oanh tạc diễn ra chỉ vài giờ sau hai cuộc gặp thượng đỉnh cùng ngày 19/11. Tại Thâm Quyến, ông Putin tuyên bố Moskva sẽ không còn tuân thủ lệnh ngừng bắn năng lượng sau khi Ukraine tập kích cầu Kerch nối Nga với Crimea — cây cầu này đã bị đánh trúng ba lần trong tuần (16, 17 và 19/11). Cùng lúc tại Berlin, hơn 25 nhà lãnh đạo 'Liên minh Tự nguyện' do Thủ tướng Đức Friedrich Merz chủ trì, cùng Tổng thống Pháp Emmanuel Macron, Thủ tướng Anh Andy Burnham và Tổng thống Zelenskyy, đã ra tuyên bố chung kêu gọi Nga đồng ý ngừng bắn năng lượng trong mùa đông như bước đầu tiên, tăng cường phòng không cho Ukraine, đồng thời tái khẳng định cam kết viện trợ quân sự khoảng 80 tỉ USD của NATO và khoản vay 90 tỉ euro của EU tới cuối 2027. Hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner dự họp, còn ông Trump gọi điện vào cuộc họp sau cuộc gặp riêng 40 phút với ông Putin.",
+            "Sự đối lập giữa hai diễn biến trong cùng một ngày nói lên tất cả: Berlin coi lệnh ngừng bắn năng lượng là cánh cửa mở đầu cho hòa đàm, còn Moskva đáp trả bằng đòn đánh trực diện vào hạ tầng năng lượng và giao thông của Kyiv ngay trong đêm. Kyiv khẳng định mọi mục tiêu bị đánh đều là hạ tầng dân sự — nhà ở, nước sạch và điện — trong khi Moskva nói đã đánh trúng các cơ sở công nghiệp quân sự. Đáng chú ý, một số vật thể bay còn rơi xuống khu vực Lublin của Ba Lan, kích hoạt báo động không kích, cho thấy đòn tấn công đã vượt ra ngoài biên giới Ukraine."
+          ],
+          nguon: [
+            { ten: "Deccan Herald (Reuters)", link: "https://www.deccanherald.com/amp/story/world/europe/european-leaders-say-russia-cannot-outlast-ukraine-allies-support-4224767" },
+            { ten: "Ukrinform", link: "https://www.ukrinform.net/rubric-politics/4186635-coalition-of-the-willing-leaders-urge-russia-to-agree-to-winter-energy-truce.html" },
+            { ten: "Tribune (Pakistan)", link: "https://tribune.com.pk/story/2641297/europe-vows-to-sustain-ukraine-support" }
+          ],
+          gio: "Sáng, Nov 21"
+        },
         {
           tieuDe: "G7: viện trợ ngoài EU cho Ukraine năm 2027 có thể giảm còn 1/5 — mới cam kết 4 tỉ euro, riêng nhóm G7 chỉ 1 tỉ euro",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 20"
         },
-        {
-          tieuDe: "G7: Canada rủ Mexico tham gia ngân hàng quốc phòng toàn cầu đầu tiên — mục tiêu huy động 100 tỉ euro, ký điều lệ ngày 30/11",
-          baiViet: [
-            "Bên lề Diễn đàn APEC tại Thâm Quyến hôm thứ Tư 18/11, Ngoại trưởng Canada Anita Anand cho biết Ottawa đã trao đổi với Mexico về khả năng tham gia Ngân hàng Quốc phòng, An ninh và Phục hồi (DSRB) do Canada dẫn dắt — thể chế được quảng bá là ngân hàng quốc phòng toàn cầu đầu tiên trên thế giới. Bà Anand nói Canada đang mở rộng cánh cửa cho các đối tác ngoài nhóm G7, trong bối cảnh sáng kiến này tìm thêm thành viên trước lễ ký kết chính thức. Thông tin được đưa ra ngay sau khi Canada cùng các nước sáng lập công bố kế hoạch thành lập ngân hàng vào cuối tháng 10.",
-            "DSRB đặt mục tiêu huy động khoảng 100 tỉ euro (tương đương gần 110 tỉ USD) để cho các chính phủ và nhà thầu quốc phòng vay với lãi suất thấp, phục vụ các dự án quốc phòng, chuỗi cung ứng trọng yếu và mở rộng năng lực công nghiệp. Các nước đã cam kết tham gia sáng lập gồm Albania, Bỉ, Canada, Hy Lạp, Latvia, Luxembourg, Romania, Thổ Nhĩ Kỳ và Ukraine, dự kiến gặp nhau tại Luxembourg vào ngày 30/11 để ký điều lệ thành lập đã được đàm phán tại Montreal hồi tháng 4. Trụ sở chính của ngân hàng đặt tại Canada, với một trung tâm châu Âu tại Luxembourg, và ngân hàng dự kiến bắt đầu vận hành theo từng giai đoạn từ năm 2027.",
-            "Theo tuyên bố chung của các nước sáng lập, DSRB sẽ bổ sung cho các sáng kiến quốc gia và đa phương hiện có bằng cách lấp khoảng trống tài chính mà chính phủ và doanh nghiệp quốc phòng đang đối mặt, đồng thời mở rộng khả năng tiếp cận vốn trong lĩnh vực này. Canada khẳng định tư cách thành viên vẫn mở cho các đồng minh và đối tác thân cận có chung mục tiêu tăng cường năng lực quốc phòng, an ninh và phục hồi. Động thái này diễn ra khi chi tiêu quốc phòng toàn cầu tiếp tục tăng mạnh trước chiến tranh Ukraine kéo dài và những bất ổn an ninh lan rộng, khiến nhu cầu về một kênh tài chính chuyên biệt cho quốc phòng ngày càng được chú ý."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/business/finance/canada-talked-mexico-about-joining-global-defence-bank-anand-says-2026-11-18/" },
-            { ten: "The Straits Times", link: "https://www.straitstimes.com/world/europe/canada-talked-to-mexico-about-joining-global-defence-bank-anand-says" },
-            { ten: "Government of Canada", link: "https://www.canada.ca/en/department-finance/news/2026/10/joint-statement-on-the-establishment-of-the-defence-security-and-resilience-bank-dsrb.html" }
-          ],
-          gio: "Sáng, Nov 20"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami: Zelenskyy xác nhận vẫn chưa có thư mời chính thức — Putin nói 'sẽ suy nghĩ', Nga chắc chắn cử đoàn cấp cao",
+          baiViet: [
+            "Tổng thống Ukraine Volodymyr Zelenskyy cho biết ông vẫn chưa nhận được thư mời chính thức nào từ Mỹ để dự thượng đỉnh G20 tại Miami vào ngày 14–15/12, dù đã có những 'tín hiệu' cho thấy lời mời có thể tới. Phát biểu tại Berlin ngày 20/11, ông Zelenskyy nói các thành viên G20 khác đã bày tỏ mong muốn Ukraine có mặt tại hội nghị, và nếu được mời chính thức, ông sẽ tới để đại diện cho đất nước và người dân Ukraine. Ông cũng nhắc lại sẵn sàng gặp trực tiếp ông Putin bên lề thượng đỉnh, như ông đã tuyên bố từ tháng 9.",
+            "Về phía Nga, Tổng thống Vladimir Putin nói tại họp báo ở Thâm Quyến ngày 19/11 rằng ông vẫn chưa quyết định có tới Mỹ dự G20 hay không: 'Tôi sẽ suy nghĩ. Để xem đã. Chúng tôi chưa quyết định.' Ông cảm ơn phía Mỹ về lời mời và khẳng định dù thế nào Nga cũng sẽ cử một đoàn đại biểu cấp cao tới Miami. Trước đó, ngày 1/11, Tổng thống Trump đã nói ông không có vấn đề gì khi mời ông Zelenskyy — 'Tôi sẽ mời. Không vấn đề gì.' — còn Ngoại trưởng Marco Rubio cho biết quyết định cuối cùng thuộc về ông Trump.",
+            "Thượng đỉnh G20 năm nay diễn ra tại khu nghỉ dưỡng Trump National Doral ở Miami, với Mỹ giữ ghế chủ tịch và ông Putin được mời từ tháng 9. Câu hỏi ai sẽ ngồi trong phòng họp đang dần trở thành tâm điểm không kém gì nội dung nghị sự: Ukraine chưa phải thành viên G20 nên cần thư mời riêng, Nam Phi đã bị gạt khỏi danh sách khách mời, còn Nga thì vẫn chưa chốt người dự. Đồng hồ đang chạy về tháng 12, và lời mời — nếu có — sẽ phải tới tay Kyiv trong những tuần tới."
+          ],
+          nguon: [
+            { ten: "UA.NEWS (Der Spiegel)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" },
+            { ten: "Interfax", link: "https://interfax.com/newsroom/top-stories/119970/" },
+            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/trump-responded-to-the-question-of-whether-zelenskyy-could-attend-the-g20-summit" }
+          ],
+          gio: "Sáng, Nov 21"
+        },
         {
           tieuDe: "G20 Miami đối mặt chia rẽ trước giờ G: Putin chưa quyết có dự, Zelenskyy chưa được mời, Nam Phi bị gạt khỏi danh sách",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Lianhe Zaobao", link: "https://www.zaobao.com.sg/en/news/world/putin-considers-attending-g20-summit-us-december" }
           ],
           gio: "Sáng, Nov 20"
-        },
-        {
-          tieuDe: "G20 Miami: Tổng thống Kazakhstan Tokayev chốt chuẩn bị dự thượng đỉnh — lần thứ ba Astana được mời, kèm tuần lễ đầu tư 5.000 tỉ USD",
-          baiViet: [
-            "Ngày 18/11, Tổng thống Kazakhstan Kassym-Jomart Tokayev đã gặp đặc phái viên phụ trách đàm phán với Mỹ Yerzhan Kazykhan để rà soát công tác chuẩn bị cho chuyến dự Thượng đỉnh G20 tại Miami (14–15/12) theo lời mời của Tổng thống Mỹ Donald Trump. Đây sẽ là lần thứ ba Kazakhstan được mời dự một kỳ thượng đỉnh G20, sau St. Petersburg năm 2013 và Hàng Châu năm 2016 — dù nước này không phải thành viên chính thức của khối.",
-            "Chuyến đi diễn ra trong bối cảnh quan hệ Kazakhstan–Mỹ đang ấm lên rõ rệt: trong chuyến thăm Washington tháng 11/2025, hai nước đã ký 29 thỏa thuận trị giá khoảng 17 tỉ USD, bao trùm công nghiệp, số hóa, giáo dục, y tế và giao thông. Ông Tokayev đã chỉ đạo đặc phái viên tiếp tục thúc đẩy quan hệ đối tác chiến lược mở rộng với Washington, trong lúc Mỹ cũng đang mời thêm một loạt khách mời ngoài khối tới Miami, trong đó có Uzbekistan.",
-            "Song song với thượng đỉnh chính thức, Viện Quỹ đầu tư quốc gia (SWFI) đã công bố Tuần lễ Đầu tư G20 và Hội nghị I20 đầu tiên tại Miami (11–15/12), đặt mục tiêu huy động 5.000 tỉ USD vốn dài hạn của các quỹ đầu tư quốc gia vào các lĩnh vực tăng trưởng của Mỹ. Về mặt hậu cần, thành phố Doral đã cảnh báo các biện pháp an ninh và giao thông có thể bắt đầu từ ngày 10/12, công viên Doral Central đóng cửa từ 11–16/12, và 7 trường công lập trong khu vực sẽ học trực tuyến trong hai ngày thượng đỉnh."
-          ],
-          nguon: [
-            { ten: "The Astana Times", link: "https://astanatimes.com/2026/11/tokayev-prepares-for-g20-summit-in-miami-amid-deepening-kazakhstan-us-ties/" },
-            { ten: "PR Newswire (Sovereign Wealth Fund Institute)", link: "https://tools.prnewswire.com:443/en-us/live/2330/release/20261005IO63153?filter=2330" },
-            { ten: "Group of Nations", link: "https://groupofnations.com/g20/miami-g20-summit-brings-road-closures-a-closed-park-and-a-press-credential-deadline/" }
-          ],
-          gio: "Chiều, Nov 19"
         },
       ]
     }
