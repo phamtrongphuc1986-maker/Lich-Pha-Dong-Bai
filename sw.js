@@ -1,4 +1,4 @@
-const CACHE = "pha-dong-bai-v62";
+const CACHE = "pha-dong-bai-v63";
 self.addEventListener("install", (event) => {
   self.skipWaiting();
   event.waitUntil(
