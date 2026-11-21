@@ -123,6 +123,7 @@
     "Xe đầu kéo sơmi rơ mooc chở Container trên 20Feet (khối lượng toàn bộ của tổ hợp xe đến 47 tấn) có hàng": "Tractor-trailer carrying a container over 20 ft (combination gross weight up to 47 tons), loaded",
     "Hàng hoá qua phà từ 61kg trở lên": "Ferry cargo from 61 kg upwards",
     "💰 Tỉ giá — Giá vàng": "💰 Exchange Rates — Gold Prices",
+    "💰 Tỉ giá — Giá vàng · Giá xăng dầu & giá gạo": "💰 Exchange Rates — Gold · Fuel & Rice Prices",
     "Đang tải tỉ giá và giá vàng…": "Loading exchange rates and gold prices…",
     "Không tải được tỉ giá — giá vàng. Kiểm tra kết nối mạng rồi mở lại trang.": "Could not load exchange rates and gold prices. Check your connection and reopen the page.",
     "🇺🇸 Đô la Mỹ (USD)": "🇺🇸 US Dollar (USD)",

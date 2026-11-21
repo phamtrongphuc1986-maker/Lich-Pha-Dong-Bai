@@ -326,9 +326,7 @@ function veTatCa() {
   veBangLich();
   veTheDanhSach(dsThongBaoHienThi(), "danhSachThongBao", "Hiện chưa có thông báo mới. Bến hoạt động bình thường theo lịch.");
   veTheDanhSach(thongBaoLeTet, "danhSachLeTet", "Hiện chưa có thông báo lịch Lễ – Tết mới. Bến chạy theo lịch thường ngày.");
-  veTheDanhSach(tinThatLac, "danhSachThatLac", "Hiện chưa có tin thất lạc nào.");
   veGiaVe();
-  veNhomFB();
 }
 
 window.onload = function () {
@@ -650,12 +648,10 @@ var MUC_TIM_KIEM = [
   { t: "🕐 Lịch chạy trong ngày", kw: "lich chay bang gio gio pha dong bai cai vieng", muc: "mucLich" },
   { t: "🎫 Giá vé phà", kw: "gia ve bang gia tien ve", muc: "mucGiaVe" },
   { t: "🌦️ Thời tiết ở bến", kw: "thoi tiet gio cap gio mua nang nhiet do", muc: "mucThoiTiet" },
-  { t: "💰 Tỉ giá — Giá vàng", kw: "ti gia gia vang usd ngoai te vang", muc: "mucTiGia" },
-  { t: "⛽ Giá xăng – dầu & giá gạo", kw: "gia xang dau gao petrolimex ron", muc: "mucGiaXang" },
+  { t: "💰 Tỉ giá — Giá vàng · Giá xăng dầu & giá gạo", kw: "ti gia gia vang usd ngoai te vang xang dau gao petrolimex ron", muc: "mucTiGia" },
   { t: "🌊 Thủy triều", kw: "thuy trieu muc nuoc dinh trieu chan trieu con nuoc", muc: "mucTrieu" },
   { t: "🧧 Thông báo Lễ – Tết", kw: "le tet lich nghi", muc: "mucLeTet" },
   { t: "⚠️ Thông báo của bến", kw: "thong bao su co tam dung bao gio dong ben", muc: "mucThongBao" },
-  { t: "🧳 Tìm đồ thất lạc", kw: "that lac roi do mat do tim do", muc: "mucThatLac" },
   { t: "📱 Cài đặt ứng dụng", kw: "cai dat ung dung app man hinh chinh tai app", muc: "khoiCaiApp" },
   { t: "📍 HIALO — tìm người quanh đây (web liên kết)", kw: "hialo tim nguoi quanh day ket ban nhan tin goi video", href: "https://www.hialo.vn" },
   { t: "📰 Kinh nghiệm du lịch Cát Bà tự túc", kw: "du lich cat ba kinh nghiem lich trinh dao cat ba", href: "bai-viet/du-lich-cat-ba.html", cungTrang: true },
@@ -759,7 +755,7 @@ function khoiDongTimKiem() {
 window.addEventListener("load", khoiDongTimKiem);
 
 // ===== MENU LUOI + THE XEP GON (trang ngan gon, cham la mo) =====
-var THE_GON_MAC_DINH = ["mucGiaVe", "mucTiGia", "mucGiaXang", "mucTrieu", "mucLeTet", "mucThatLac", "khoiCaiApp"];
+var THE_GON_MAC_DINH = ["mucGiaVe", "mucTiGia", "mucTrieu", "mucLeTet", "khoiCaiApp"];
 function khoiDongGonThe() {
   document.querySelectorAll(".khoi").forEach(function (the) {
     var h2 = the.querySelector(":scope > h2");
