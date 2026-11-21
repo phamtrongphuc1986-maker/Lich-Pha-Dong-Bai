@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Bảy 21/11/2026 — bản tin sáng",
+  capNhat: "Thứ Bảy 21/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 kéo dài sang thứ Bảy vẫn chưa chốt được thỏa thuận — dự thảo mới xóa sạch chữ 'nhiên liệu hóa thạch', người biểu tình ngắt phiên bế mạc",
+          baiViet: [
+            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ đã không thể bế mạc đúng lịch thứ Sáu 20/11 mà phải kéo dài sang thứ Bảy 21/11, khi gần 200 quốc gia vẫn chưa tìm được tiếng nói chung. Bản dự thảo thứ hai do đồng chủ trì Australia đưa ra trong ngày 20/11 còn gây tranh cãi hơn bản đầu: cả hai câu nhắc tới nhiên liệu hóa thạch đều bị xóa, cùng với mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng của các nước đang phát triển. Chủ tịch COP31 Murat Kurum thừa nhận tối 20/11 rằng các bên 'đã gần tới đích, nhưng chưa tới', còn Bộ trưởng Khí hậu Australia Chris Bowen nói đoàn đàm phán sẽ làm việc 'bao lâu cũng được, cho tới khi xong việc'.",
+            "Điểm đáng chú ý là dự thảo lần đầu tiên thừa nhận thẳng rằng mức nóng lên toàn cầu có thể vượt ngưỡng 1,5°C của Thỏa thuận Paris — một sự thừa nhận mà các kỳ COP trước nay vẫn tránh. Văn bản vẫn giữ mục tiêu nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, nhưng nghĩa vụ cụ thể của từng nước đã bị làm nhẹ, và không nói rõ lượng điện tăng thêm đó phải đến từ nguồn tái tạo. Hơn 120 doanh nghiệp, nhà đầu tư và tổ chức đã can thiệp vào phút chót, kêu gọi một thỏa thuận tham vọng hơn để đẩy nhanh điện khí hóa nền kinh tế thế giới. Sáng 21/11, người biểu tình còn ngắt lời phiên bế mạc khi ông Kurum phát biểu mở đầu, phản đối việc dự thảo loại bỏ nhiên liệu hóa thạch.",
+            "Bế tắc tại Antalya phản ánh một thực tế đã kéo dài 5 năm: tiến độ chống biến đổi khí hậu toàn cầu đang chững lại, trong khi sóng nhiệt ở châu Âu và lũ lụt ở Nepal năm nay ngày càng tàn khốc. Các nước đã nhất trí tại COP28 năm 2023 về việc chuyển đổi khỏi nhiên liệu hóa thạch, nhưng những kỳ họp sau đó chưa từng cụ thể hóa mục tiêu này. Mỹ — một trong những nước phát thải lớn nhất — cũng không tham gia trực tiếp kỳ họp lần này. Nếu các đoàn không nhượng bộ trong ngày thứ Bảy, COP31 sẽ khép lại mà không có thỏa thuận bao trùm nào, và di sản của hội nghị nhiều khả năng chỉ còn là những hợp đồng song phương của nước chủ nhà."
+          ],
+          nguon: [
+            { ten: "AP (via AsiaOne)", link: "https://www.asiaone.com/world/climate-talks-overtime-nations-wrestle-response-worsening-global-warming" },
+            { ten: "Reuters", link: "https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/" },
+            { ten: "Arab News", link: "https://www.arabnews.com/world/countries-race-to-secure-cop31-deal-after-fossil-fuel-row-3013319" }
+          ],
+          gio: "Chiều, Nov 21"
+        },
+        {
+          tieuDe: "Eo biển Hormuz nóng rực sáng thứ Bảy: hai tàu chở dầu trúng vật thể lạ, Iran tuyên bố bắn rơi drone MQ-9 của Mỹ",
+          baiViet: [
+            "Eo biển Hormuz — tuyến hàng hải vận chuyển gần 1/5 lượng dầu thô toàn cầu — chứng kiến một buổi sáng đầy căng thẳng vào thứ Bảy 21/11. Cơ quan Thương mại Hàng hải Anh (UKMTO) cho biết hai tàu chở dầu đang rời eo biển đã bị trúng 'vật thể không xác định': tàu thứ nhất trúng phần đuôi lúc khoảng 05:00 giờ UTC, cách thị trấn Khasab của Oman 11 hải lý về phía bắc; tàu thứ hai trúng phòng máy lúc khoảng 05:50 giờ UTC, cách Khasab 17 hải lý về phía đông. Không có thương vong nào được báo cáo, và mức độ tác động môi trường vẫn chưa được xác định. Đây là ngày thứ hai liên tiếp tàu chở dầu bị tấn công tại khu vực này, sau vụ một tàu bốc cháy hôm thứ Sáu 20/11.",
+            "Cùng sáng 21/11, Vệ binh Cách mạng Iran (IRGC) tuyên bố lực lượng phòng không của họ đã bắn rơi một máy bay không người lái MQ-9 của Mỹ trên eo biển Hormuz bằng hệ thống phòng không mới triển khai — theo phía Iran, đây là chiếc MQ-9 thứ 58 của Mỹ bị Iran bắn rơi. Cần nhấn mạnh rằng đây mới chỉ là tuyên bố một phía của Iran, được đưa ra qua đài truyền hình nhà nước IRIB và kênh Press TV; phía Mỹ chưa xác nhận vụ việc. UKMTO đã nâng mức đe dọa tại eo biển Hormuz lên mức 'nghiêm trọng' từ hôm 20/11, và giới chức hàng hải quốc tế đang theo dõi sát diễn biến.",
+            "Căng thẳng leo thang cả trên mặt trận chính trị. Thượng nghị sĩ Mỹ Kirsten Gillibrand đang thúc đẩy một dự luật chặn ngân sách cho chiến dịch quân sự tại Iran, trong khi Tổng thống Iran Pezeshkian nói nước ông đang đối mặt với một 'cuộc chiến kinh tế thầm lặng'. Chuỗi vụ việc tại Hormuz cho thấy rủi ro với tuyến vận tải dầu mỏ quan trọng nhất thế giới đang tăng nhanh từng ngày, dù lưu lượng xuất khẩu qua eo biển này trước đó đã trở lại gần mức trước xung đột. Thị trường năng lượng và các hãng tàu quốc tế sẽ phải tính lại chi phí rủi ro nếu các vụ tấn công còn tiếp diễn."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles" },
+            { ten: "The Straits Times (Reuters)", link: "https://www.straitstimes.com/world/europe/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says?ref=latest-headlines" }
+          ],
+          gio: "Chiều, Nov 21"
+        },
         {
           tieuDe: "COP31: chủ nhà Thổ Nhĩ Kỳ 'bội thu' hơn 26 tỉ USD thỏa thuận năng lượng — trong lúc thỏa thuận khí hậu toàn cầu vẫn bế tắc",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 21"
         },
-        {
-          tieuDe: "COP31 bước vào ngày cuối vẫn chưa có thỏa thuận — đàm phán có thể kéo dài sang cuối tuần, bản dự thảo vẫn trống chữ 'nhiên liệu hóa thạch'",
-          baiViet: [
-            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ bước vào ngày cuối cùng theo lịch — thứ Sáu 20/11 — mà vẫn chưa có thỏa thuận nào được thông qua. Gần 200 quốc gia đã đàm phán suốt hai tuần, nhưng bản dự thảo quyết định bao trùm công bố hôm thứ Năm vẫn không chứa bất kỳ chữ nào về than, dầu hay khí đốt — những nhiên liệu gây ra phần lớn sự nóng lên toàn cầu. Bộ trưởng Khí hậu Australia Chris Bowen, người cùng nước chủ nhà dẫn dắt đàm phán, nói các đoàn sẽ 'tham vấn và đàm phán cho tới khi rõ ràng là đã có đồng thuận', đồng thời thừa nhận mục tiêu là đạt 'kết quả tham vọng nhất mà đồng thuận cho phép'.",
-            "Văn bản mới nhất đã bị cắt gọn từ 144 đoạn xuống còn 80 đoạn, giữ lại sáng kiến điện khí hóa 35×35 của chủ nhà Thổ Nhĩ Kỳ — nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035 — nhưng đồng thời xóa luôn con số 120 tỉ USD mỗi năm cho tài chính thích ứng mà các nước châu Phi và kém phát triển nhất đòi hỏi, chỉ còn lời kêu gọi bàn tiếp về mục tiêu tăng gấp ba nguồn tài chính thích ứng. Bản dự thảo cũng lần đầu thừa nhận thế giới nhiều khả năng sẽ vượt ngưỡng 1,5 độ C, và các nhà vận động khí hậu cảnh báo một số đoàn sẽ ép khôi phục ngôn ngữ cứng rắn hơn trước khi ký.",
-            "Với các quốc đảo Thái Bình Dương, đây là kỳ COP mang tính sống còn: giới chuyên gia New Zealand nhận định hội nghị này chủ yếu là giữ lại những cam kết cốt lõi — mục tiêu 1,5 độ C, vai trò trung tâm của IPCC và hoàn cảnh đặc biệt của các quốc đảo nhỏ đang phát triển — trong lúc các nước sản xuất dầu vẫn nắm quyền phủ quyết thực tế đối với ngôn ngữ chuyển đổi khỏi nhiên liệu hóa thạch. Lịch sử các kỳ COP gần đây cho thấy việc vượt hạn chót hơn 24 giờ là chuyện thường, nên Antalya nhiều khả năng sẽ đàm phán xuyên cuối tuần thay vì bế mạc đúng hẹn thứ Sáu."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/" },
-            { ten: "Firstpost (AFP)", link: "https://www.firstpost.com/world/uns-cop31-enters-endgame-with-no-deal-in-sight-as-countries-remain-divided-14061392.html" },
-            { ten: "Science Media Centre NZ", link: "https://www.sciencemediacentre.co.nz/2026/11/20/cop31-wraps-up-as-the-pacific-faces-climate-change-reality-expert-reaction/" }
-          ],
-          gio: "Chiều, Nov 20"
-        },
-        {
-          tieuDe: "APEC Thâm Quyến: Trump–Tập–Putin ra tuyên bố chung 4 điểm về cải tổ LHQ, dầu mỏ, ICC và hạt nhân — không một chữ về Ukraine hay Iran",
-          baiViet: [
-            "Ba nhà lãnh đạo Mỹ, Trung Quốc và Nga đã công bố một tuyên bố chung bốn điểm sau cuộc gặp ba bên đầu tiên trong lịch sử, kéo dài khoảng 90 phút hôm thứ Năm 19/11 tại biệt thự Kylin bên lề hội nghị APEC ở Thâm Quyến. Văn bản dài khoảng 250 từ, được Nhà Trắng, Điện Kremlin và truyền thông nhà nước Trung Quốc công bố đồng thời, cam kết: cải tổ Liên Hợp Quốc để tổ chức này 'ứng phó hiệu quả hơn với các thách thức toàn cầu'; tăng sản xuất và cung ứng các sản phẩm dầu mỏ tinh chế vì 'lợi ích của mọi quốc gia'; khẳng định Tòa án Hình sự Quốc tế và các cơ quan tương tự 'không được lạm dụng thẩm quyền'; và đối thoại về giảm rủi ro hạt nhân, nhắc lại rằng 'một cuộc chiến tranh hạt nhân không thể thắng và không bao giờ được gây ra'.",
-            "Điểm gây chú ý nhất lại nằm ở những gì tuyên bố không nói tới. Dù cả ba nhà lãnh đạo đều xác nhận đã thảo luận về chiến tranh ở Ukraine, Trung Đông và bán đảo Triều Tiên trong các cuộc gặp song phương trước đó, văn bản chung không nhắc tới Ukraine, an ninh châu Âu, Tổng thống Zelenskyy hay Iran. Tuyên bố cũng không đưa ra mốc thời gian, cơ chế kiểm chứng hay ngày hẹn cho cuộc đối thoại hạt nhân — dù hiệp ước New START đã hết hạn hồi đầu năm — và không nêu con số hay dự án cụ thể nào cho cam kết về dầu mỏ, kể cả tuyến vận chuyển qua eo biển Hormuz mà Trump và Tập được cho là cùng quan tâm.",
-            "Giới phân tích nhìn nhận cuộc gặp mang lại lợi ích chính trị cho cả ba bên nhưng khó chuyển thành hành động cụ thể. Với Trung Quốc, đây là chiến thắng ngoại giao khi Bắc Kinh đóng vai trò chủ nhà và người dàn xếp; với Nga, ông Putin — lần đầu dự APEC từ năm 2017 — thoát khỏi thế bị cô lập và được Trump gọi là 'bạn', đồng thời nhận thêm lời mời dự thượng đỉnh G20 ở Miami. Ngược lại, chính quyền Trump đưa được vấn đề kiểm soát vũ khí hạt nhân lên bàn ba bên. Dù vậy, như một chuyên gia của Eurasia Group nhận xét, đây vẫn chủ yếu là 'chủ đề lớn để thể hiện vai trò lãnh đạo' — còn việc biến cam kết thành kết quả sẽ khó khăn hơn nhiều."
-          ],
-          nguon: [
-            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/east-asia/xi-trump-putin-trilateral-summit-apec-diplomacy-6551676" },
-            { ten: "The Indian Express", link: "https://indianexpress.com/article/world/donald-trump-vladimir-putin-xi-jinping-trilateral-meeting-shenzhen-apec-takeaways-icc-ukraine-10970368/" },
-            { ten: "The Sunday Guardian", link: "https://sundayguardianlive.com/world/trump-xi-and-putin-apec-summit-key-takeaways-from-historic-shenzhen-trilateral-as-four-point-peace-declaration-omits-ukraine-and-iran-324770/amp/" }
-          ],
-          gio: "Chiều, Nov 20"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Anh và EU chốt thỏa thuận 'tái thiết' hậu Brexit: bỏ rào cản thực phẩm, 100.000 suất đi lại cho giới trẻ mỗi năm",
+          baiViet: [
+            "Thủ tướng Anh Andy Burnham cùng các lãnh đạo cao nhất của Liên minh châu Âu đã chốt ba thỏa thuận lớn tại hội nghị thượng đỉnh ở Brussels ngày thứ Sáu 20/11, được cả hai bên ca ngợi là bước ngoặt trong quan hệ hậu Brexit. Chủ tịch Ủy ban châu Âu Ursula von der Leyen gọi đây là một 'bước ngoặt', còn ông Burnham gọi đó là thỏa thuận 'lịch sử'. Ba thỏa thuận gồm: bãi bỏ phần lớn thủ tục kiểm tra, chứng nhận đối với thực phẩm và nông sản; liên kết hệ thống giao dịch phát thải của hai bên từ năm 2028; và một chương trình trải nghiệm thanh niên cho phép 100.000 người dưới 30 tuổi mỗi bên được sống, làm việc và học tập ở phía bên kia tối đa ba năm.",
+            "Về kinh tế, gói thỏa thuận được kỳ vọng cộng thêm 0,5% GDP cho nước Anh, tương đương 17 tỉ bảng (khoảng 22 tỉ USD) mỗi năm. Hàng xuất khẩu của Anh trị giá 6,5 tỉ bảng — chủ yếu là thép và nhôm — sẽ được miễn thuế carbon biên giới của EU nhờ việc liên kết hệ thống phát thải. Thỏa thuận thực phẩm có hiệu lực từ ngày 1/3/2028, và Anh sẽ trở lại chương trình trao đổi sinh viên Erasmus+ từ năm sau. Ông Burnham cho biết chính phủ sẽ trình luật thực thi lên Quốc hội ngay trong tuần tới, đồng thời thừa nhận gói vừa ký có lẽ là 'giới hạn' đạt được trong nhiệm kỳ Quốc hội hiện tại.",
+            "Dù vậy, vẫn còn một nút thắt chưa gỡ được: học phí đại học cho sinh viên EU tại Anh, hiện lên tới 38.000 bảng mỗi năm so với mức 9.970 bảng của sinh viên Anh. Hai bên đặt hạn sáu tháng để đàm phán, và phía EU dọa sẽ giữ lại việc thực thi thỏa thuận cho tới khi có thống nhất về học phí. Ông Burnham cũng cho biết sẽ có một cuộc 'động não' không chính thức với EU trong 12 tháng tới về quan hệ tương lai, kể cả khả năng gia nhập liên minh thuế quan hay tái gia nhập EU — dù ông nhấn mạnh người dân Anh mới là người quyết định cuối cùng. Các cuộc thăm dò hiện cho thấy đa số người Anh hối tiếc về Brexit, và ông Burnham hy vọng quan hệ thân thiện hơn với EU sẽ giúp ông xây dựng liên minh trung tả để thắng tổng tuyển cử dự kiến năm 2029."
+          ],
+          nguon: [
+            { ten: "Channel News Asia (AFP)", link: "https://www.channelnewsasia.com/world/burnham-eu-brexit-landmark-deal-brussels-summit-6570481" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/20/eu-and-uk-seal-reset-deal" },
+            { ten: "AP (via AsiaOne)", link: "https://www.asiaone.com/world/uk-and-eu-strike-deals-trade-and-travel-pledging-rebuild-ties-after-brexit" }
+          ],
+          gio: "Chiều, Nov 21"
+        },
         {
           tieuDe: "Nga oanh tạc Kyiv dữ dội trong đêm: hơn 400 drone, 111 tên lửa, 3 cầu sông Dnipro hư hại — Berlin kêu gọi ngừng bắn năng lượng mùa đông",
           baiViet: [
@@ -87,26 +101,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 21"
         },
-        {
-          tieuDe: "G7: viện trợ ngoài EU cho Ukraine năm 2027 có thể giảm còn 1/5 — mới cam kết 4 tỉ euro, riêng nhóm G7 chỉ 1 tỉ euro",
-          baiViet: [
-            "Viện trợ cho Ukraine từ các đối tác ngoài Liên minh châu Âu có nguy cơ sụt giảm mạnh trong năm 2027, theo dự báo của Ủy ban châu Âu mà Financial Times trích dẫn. Tính tới nay, các đối tác ngoài EU mới cam kết tổng cộng 4 tỉ euro cho năm sau — chưa bằng một phần năm con số 19 tỉ euro của năm 2026. Riêng nhóm G7 gồm Mỹ, Anh, Canada và Nhật Bản hiện chỉ sẵn sàng đóng góp tổng cộng 1 tỉ euro, mức giảm sâu nhất trong các nhóm đối tác. Trong khi đó, EU và các nước thành viên đang gánh khoảng 80% tổng cam kết viện trợ đã hứa cho Ukraine trong năm 2027.",
-            "Khoảng trống tài chính đang lớn dần theo cả hai mặt trận dân sự và quân sự. Bộ trưởng Tài chính Ukraine Sergii Marchenko cho biết Kyiv cần 70 tỉ euro cho nhu cầu quốc phòng năm 2027, trong đó 40 tỉ euro vẫn chưa có nguồn; nhu cầu tài chính đối ngoại tổng thể là 52,6 tỉ USD, thiếu hụt 32,6 tỉ USD. Về quân sự, 32 nước NATO hiện còn thiếu 13 tỉ euro so với gói viện trợ quân sự thường niên 70 tỉ euro đã hứa cho Kyiv. Brussels đã bắt đầu lập kế hoạch khẩn cấp để tìm nguồn thay thế, đồng thời theo dõi sát việc chuẩn bị ngân sách 2027 của các đồng minh với hy vọng có thêm cam kết mới.",
-            "Bối cảnh này khiến tuyên bố chung của các ngoại trưởng G7 sau cuộc họp Paris ngày 9–10/11 càng thêm sức nặng: nhóm cam kết tăng viện trợ tài chính và vật chất để giúp Ukraine vượt qua mùa đông, ưu tiên an ninh năng lượng và sửa chữa hạ tầng bị tấn công, đồng thời 'nhận thấy cần có cách tiếp cận phối hợp' cho nhu cầu tài chính cấp bách năm 2027 và những năm sau. EU trước đó đã thông qua khoản vay 90 tỉ euro cho nhu cầu tài chính của Ukraine trong giai đoạn 2026–2027, nhưng Tổng thống Zelenskyy đã cảnh báo con số này vẫn chưa đủ. Phía Nhật Bản bác bỏ một phần ước tính của Ủy ban châu Âu, nói Tokyo chưa chốt con số cuối cùng và đang cân nhắc nhiều phương án trong khuôn khổ tham vấn G7."
-          ],
-          nguon: [
-            { ten: "Financial Times (via Ukrinform)", link: "https://ukranews.com/en/news/1183859-aid-to-ukraine-from-non-eu-partners-could-drop-by-a-factor-of-5-ft" },
-            { ten: "Plataforma Media", link: "https://www.plataformamedia.com/en/2026/11/12/g7-advocates-financial-support-for-kiev-for-2027-and-beyond/" },
-            { ten: "UNN", link: "https://unn.ua/en/amp/the-g7-will-increase-aid-to-ukraine-to-help-it-get-through-the-winter-and-is-preparing-funding-for-2027" }
-          ],
-          gio: "Chiều, Nov 20"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Anthropic lên sàn Nasdaq, định giá 2.000 tỉ USD ngay phiên đầu — đợt IPO lớn nhất lịch sử",
+          baiViet: [
+            "Anthropic, công ty đứng sau trợ lý AI Claude, đã chính thức giao dịch trên sàn Nasdaq với mã ANT vào thứ Năm 19/11, trong đợt phát hành cổ phiếu lần đầu (IPO) lớn nhất lịch sử. Công ty huy động 81,3 tỉ USD, vượt kỷ lục 75 tỉ USD của SpaceX hồi tháng 6/2026. Giá chào bán được chốt ở 83 USD một cổ phiếu, cao hơn khoảng chào ban đầu, với 980 triệu cổ phiếu được bán ra. Cổ phiếu mở cửa ở 111,50 USD, tăng 34% so với giá IPO, đưa định giá pha loãng đầy đủ của công ty lên khoảng 2.000 tỉ USD — vượt cả mức 1.960 tỉ USD của SpaceX lúc mở cửa hồi tháng 6. Dù hạ nhiệt sau đó, cổ phiếu vẫn đóng cửa phiên đầu ở 97,17 USD, cao hơn 17% so với giá chào bán.",
+            "Anthropic là công ty AI biên (frontier AI) đầu tiên niêm yết đại chúng, và màn chào sàn này được xem là phép thử lớn nhất từ trước tới nay cho cơn sốt đầu tư vào trí tuệ nhân tạo. Đối thủ OpenAI cũng đang tính tới IPO vào năm 2027. Đằng sau con số ấn tượng là những cam kết khổng lồ: Nvidia đã đầu tư tổng cộng 20 tỉ USD vào Anthropic, còn công ty cam kết chi 110 tỉ USD cho hạ tầng điện toán của Amazon và ít nhất 121,3 tỉ USD cho Google. Hồ sơ nộp cơ quan chứng khoán Mỹ cũng cho thấy khoản lỗ ròng 104 tỉ USD trong 9 tháng đầu năm 2026 — một lời nhắc rằng ngay cả công ty AI được săn đón nhất cũng đang đốt tiền với tốc độ chưa từng có để chạy đua hạ tầng.",
+            "Điều đáng chú ý là màn chào sàn rực rỡ diễn ra đúng phiên mà cổ phiếu AI và chip bị bán tháo trên diện rộng, với Nasdaq và S&P 500 cùng giảm mạnh. Giới phân tích nhận định IPO của Anthropic cho thấy niềm tin của nhà đầu tư vào AI chưa tắt, dù định giá đang bị soi xét kỹ hơn sau nhiều tháng tăng nóng. Tuy vậy, không ít nhà quản lý quỹ cảnh báo nhà đầu tư nhỏ lẻ không nên mua đuổi cổ phiếu IPO trong ngày đầu, mà nên chờ vài quý báo cáo tài chính công khai rồi mới quyết định. Dù sao, với 2.000 tỉ USD ngay phiên đầu, Anthropic đã bước vào nhóm ít ỏi những công ty niêm yết giá trị nhất nước Mỹ."
+          ],
+          nguon: [
+            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/anthropic-hits-2-trillion-market-value-in-debut-6566706" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo?traffic_source=rss" },
+            { ten: "Reuters (via Virginia Business)", link: "https://virginiabusiness.com/anthropic-targets-1-8-trillion-valuation-nasdaq-debut/" }
+          ],
+          gio: "Chiều, Nov 21"
+        },
         {
           tieuDe: "G20 Miami: Zelenskyy xác nhận vẫn chưa có thư mời chính thức — Putin nói 'sẽ suy nghĩ', Nga chắc chắn cử đoàn cấp cao",
           baiViet: [
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "Armenpress", link: "https://armenpress.am/en/article/1266106" }
           ],
           gio: "Chiều, Nov 20"
-        },
-        {
-          tieuDe: "G20 Miami: Putin cân nhắc dự thượng đỉnh sau lời mời mới của Trump — chưa quyết, Nga vẫn cử đại diện cấp cao",
-          baiViet: [
-            "Trong buổi họp báo tại Thâm Quyến hôm thứ Năm 19/11, sau cuộc gặp ba bên với Tổng thống Mỹ Donald Trump và Chủ tịch Trung Quốc Tập Cận Bình bên lề APEC, Tổng thống Nga Vladimir Putin cho biết ông sẽ cân nhắc việc dự Thượng đỉnh G20 tại Miami vào tháng 12 sau khi ông Trump nhắc lại lời mời. Ông Putin cảm ơn lời mời nhưng nói quyết định sẽ phụ thuộc vào tình hình trong nước của Nga, đồng thời khẳng định dù ông có đi hay không, Nga vẫn sẽ được đại diện ở cấp cao tại hội nghị. Điện Kremlin trước đó cho biết quyết định về chuyến đi 'không thể đưa ra hôm nay hay ngày mai'.",
-            "Lời mời ông Putin dự G20 tại Mỹ lần đầu được đưa ra từ tháng 9/2026 và đã gây tranh luận trong các đồng minh phương Tây, bởi ông Putin đang đối mặt với lệnh bắt của Tòa án Hình sự Quốc tế. Tổng thống Ukraine Volodymyr Zelenskyy từng nói sẵn sàng gặp ông Putin tại Miami và nhắc lại lập trường này sau cuộc gặp ông Trump bên lề Đại hội đồng Liên Hợp Quốc, cho rằng ông Trump có thể thu xếp một cuộc gặp ba bên tại đó. Ông Putin cũng nói Moscow cần khôi phục đối thoại với châu Âu trước khi hợp tác trên các diễn đàn như G20, trong khi ông Trump hồi tháng 10 bày tỏ mong muốn chứng kiến một thỏa thuận hòa bình Ukraine được ký kết tại khu nghỉ dưỡng của ông trong dịp thượng đỉnh.",
-            "Thượng đỉnh Lãnh đạo G20 năm 2026 dự kiến diễn ra ngày 14–15/12 tại Miami dưới nhiệm kỳ chủ tịch của Mỹ, với định hướng đưa diễn đàn trở lại sứ mệnh kinh tế cốt lõi. Cùng ngày 19/11, Armenia được xác nhận nằm trong danh sách 12 nước ngoài khối được mời, bên cạnh Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, Các Tiểu vương quốc Arab Thống nhất, Uzbekistan và Việt Nam. Đáng chú ý, Nam Phi vắng mặt trong danh sách khách mời do Mỹ công bố, trong khi Ba Lan xuất hiện dù không phải thành viên thường trực của nhóm. Chính quyền hạt Miami-Dade cũng đã bắt đầu cảnh báo người dân về việc đóng đường và chậm trễ giao thông từ ngày 10/12, cao điểm vào hai ngày họp chính."
-          ],
-          nguon: [
-            { ten: "The New Voice of Ukraine", link: "https://english.nv.ua/nation/putin-does-not-answer-trump-s-renewed-invitation-to-g20-in-miami-50660764.html" },
-            { ten: "Armenpress", link: "https://armenpress.am/en/article/1266106" },
-            { ten: "Lianhe Zaobao", link: "https://www.zaobao.com.sg/en/news/world/putin-considers-attending-g20-summit-us-december" }
-          ],
-          gio: "Sáng, Nov 20"
         },
       ]
     }
