@@ -15,11 +15,11 @@
     <text x="291.5" y="73.4" transform="rotate(11.0 291.5 73.4)" font-family="'Noto Sans', Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle">I</text>
     <text x="321.1" y="81.8" transform="rotate(20.5 321.1 81.8)" font-family="'Noto Sans', Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle">E</text>
     <text x="363.5" y="104.2" transform="rotate(35.3 363.5 104.2)" font-family="'Noto Sans', Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle">W</text>
-    <text x="162.4" y="451.8" transform="rotate(25.5 162.4 451.8)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
-    <text x="203.6" y="466.6" transform="rotate(14.0 203.6 466.6)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">Á</text>
-    <text x="245.2" y="472.7" transform="rotate(2.9 245.2 472.7)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">T</text>
-    <text x="305.8" y="467.2" transform="rotate(-13.3 305.8 467.2)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
-    <text x="348.1" y="452.5" transform="rotate(-25.1 348.1 452.5)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">À</text>
+    <text x="155.9" y="465.3" transform="rotate(25.5 155.9 465.3)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+    <text x="200.0" y="481.2" transform="rotate(14.0 200.0 481.2)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">Á</text>
+    <text x="244.5" y="487.7" transform="rotate(2.9 244.5 487.7)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">T</text>
+    <text x="309.2" y="481.8" transform="rotate(-13.3 309.2 481.8)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+    <text x="354.5" y="466.1" transform="rotate(-25.1 354.5 466.1)" font-family="'Noto Sans', Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">À</text>
   <!-- Sao trang 2 ben -->
     <polygon points="54.2,289.3 58.3,300.7 70.3,301.1 60.8,308.5 64.2,320.1 54.2,313.3 44.2,320.1 47.5,308.5 38.0,301.1 50.1,300.7" fill="#FFFFFF"/>
     <polygon points="48.0,239.0 52.1,250.3 64.2,250.7 54.7,258.2 58.0,269.8 48.0,263.0 38.0,269.8 41.3,258.2 31.8,250.7 43.9,250.3" fill="#FFFFFF"/>
