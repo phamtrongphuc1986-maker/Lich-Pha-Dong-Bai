@@ -21,6 +21,10 @@
   .theTin .dongNguon{font-size:12.5px;color:#5b6b7c}
   .theTin .dongNguon a{color:#0b5fa5;font-weight:600;text-decoration:none}
   .nutVe{display:inline-block;margin-top:18px;background:#0b5fa5;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+  .phanTrang{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:14px 0}
+  .phanTrang button{min-width:38px;height:38px;padding:0 10px;border:1px solid #0b5fa5;background:#fff;color:#0b5fa5;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer}
+  .phanTrang button.dangChon{background:#0b5fa5;color:#fff}
+  .phanTrang button:disabled{opacity:.35;cursor:default}
   footer{text-align:center;color:#5b6b7c;font-size:13px;padding:18px 12px}
   a{color:#0b5fa5}
 </style>
@@ -32,7 +36,9 @@
 </header>
 <main>
   <p class="meta">Tin quốc tế nổi bật · Tin G7 · Tin G20 — cập nhật hằng ngày lúc 06h00 và 17h00.<br>Mỗi bài là bài viết gốc do ban biên tập tổng hợp từ 2–3 hãng tin nước ngoài uy tín (Reuters, AP, AFP, Yonhap…), nguồn tham khảo ghi ở cuối mỗi bài.<br>Cập nhật gần nhất: <b id="gioCapNhat">đang tải…</b></p>
+  <div id="phanTrangTren" class="phanTrang"></div>
   <div id="danhSachTin"><p>Đang tải tin tức…</p></div>
+  <div id="phanTrangDuoi" class="phanTrang"></div>
   <a class="nutVe" href="./">← Về trang chủ Lịch Phà</a>
 </main>
 <footer>benphadongbai.io.vn · Bài viết gốc tổng hợp từ báo chí nước ngoài uy tín, nguồn tham khảo và link bài gốc ở cuối mỗi bài.<br><a href="./">Trang chủ</a> · <a href="gioi-thieu.html">Giới thiệu</a> · <a href="https://www.trustpilot.com/review/benphadongbai.io.vn" target="_blank" rel="noopener">Đánh giá trên Trustpilot</a><span title="Trang web được bảo vệ bởi Cloudflare WAF" style="display:inline-block;background:#23272f;color:#fff;font-weight:700;font-size:13px;padding:3px 9px;border-radius:6px;margin-left:8px;vertical-align:middle"><svg width="15" height="15" viewBox="0 0 24 24" style="vertical-align:-2px" fill="none" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5l8-3z" fill="#f6821f"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Cloudflare WAF</span></footer>
@@ -44,19 +50,60 @@
   if(!duLieu || !duLieu.nhom){ hop.innerHTML = '<p>Chưa tải được dữ liệu tin tức, vui lòng thử lại sau.</p>'; return; }
   document.getElementById('gioCapNhat').textContent = duLieu.capNhat || '';
   function thoat(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-  var html = '';
+  var MOI_TRANG = 5;
+  var tatCa = [];
   duLieu.nhom.forEach(function(nhom){
-    html += '<h2>' + thoat(nhom.ten) + '</h2>';
-    (nhom.tin||[]).forEach(function(t){
-      var doan = (t.baiViet||[]).map(function(d){ return '<p>' + thoat(d) + '</p>'; }).join('');
-      var nguon = (t.nguon||[]).map(function(n){ return '<a href="' + thoat(n.link) + '" target="_blank" rel="noopener">' + thoat(n.ten) + '</a>'; }).join(' · ');
-      html += '<article class="theTin"><h3>' + thoat(t.tieuDe) + '</h3>'
-        + doan
-        + '<div class="dongNguon">🕐 ' + thoat(t.gio) + '<br>📚 Nguồn tham khảo: ' + nguon + '</div></article>';
-    });
+    (nhom.tin||[]).forEach(function(t){ tatCa.push({ nhom: nhom.ten, tin: t }); });
   });
-  hop.innerHTML = html;
+  var soTrang = Math.max(1, Math.ceil(tatCa.length / MOI_TRANG));
+  function baiHTML(t){
+    var doan = (t.baiViet||[]).map(function(d){ return '<p>' + thoat(d) + '</p>'; }).join('');
+    var nguon = (t.nguon||[]).map(function(n){ return '<a href="' + thoat(n.link) + '" target="_blank" rel="noopener">' + thoat(n.ten) + '</a>'; }).join(' · ');
+    return '<article class="theTin"><h3>' + thoat(t.tieuDe) + '</h3>' + doan
+      + '<div class="dongNguon">🕐 ' + thoat(t.gio) + '<br>📚 Nguồn tham khảo: ' + nguon + '</div></article>';
+  }
+  function thanhTrang(trang){
+    var h = '<button data-trang="' + (trang-1) + '"' + (trang<=1?' disabled':'') + ' aria-label="Trang trước">‹</button>';
+    for(var i=1;i<=soTrang;i++){
+      h += '<button data-trang="' + i + '"' + (i===trang?' class="dangChon"':'') + '>' + i + '</button>';
+    }
+    h += '<button data-trang="' + (trang+1) + '"' + (trang>=soTrang?' disabled':'') + ' aria-label="Trang sau">›</button>';
+    return h;
+  }
+  function ve(trang){
+    if(trang < 1) trang = 1;
+    if(trang > soTrang) trang = soTrang;
+    var batDau = (trang-1)*MOI_TRANG;
+    var muc = tatCa.slice(batDau, batDau + MOI_TRANG);
+    var html = '', nhomTruoc = null;
+    muc.forEach(function(m){
+      if(m.nhom !== nhomTruoc){ html += '<h2>' + thoat(m.nhom) + '</h2>'; nhomTruoc = m.nhom; }
+      html += baiHTML(m.tin);
+    });
+    hop.innerHTML = html || '<p>Chưa có tin.</p>';
+    document.getElementById('phanTrangTren').innerHTML = soTrang > 1 ? thanhTrang(trang) : '';
+    document.getElementById('phanTrangDuoi').innerHTML = soTrang > 1 ? thanhTrang(trang) : '';
+  }
+  function trangTuHash(){
+    var m = /trang=(\d+)/.exec(location.hash || '');
+    return m ? parseInt(m[1], 10) : 1;
+  }
+  document.addEventListener('click', function(e){
+    var b = e.target.closest ? e.target.closest('.phanTrang button') : null;
+    if(!b || b.disabled) return;
+    var tr = parseInt(b.getAttribute('data-trang'), 10);
+    if(tr >= 1 && tr <= soTrang){
+      if(('#trang=' + tr) !== location.hash) location.hash = 'trang=' + tr; else ve(tr);
+      hop.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+  window.addEventListener('hashchange', function(){ ve(trangTuHash()); });
+  ve(trangTuHash());
 })();
 </script>
+<div id="nutTopDown" style="position:fixed;right:12px;bottom:12px;z-index:9999;display:flex;flex-direction:column;gap:8px">
+<button type="button" title="Lên đầu trang" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="background:#0b5fa5;color:#fff;border:none;border-radius:999px;padding:10px 14px;font-size:14px;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.3);cursor:pointer;opacity:.94">⬆ Top</button>
+<button type="button" title="Xuống cuối trang" onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})" style="background:#0b5fa5;color:#fff;border:none;border-radius:999px;padding:10px 14px;font-size:14px;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.3);cursor:pointer;opacity:.94">⬇ Down</button>
+</div>
 </body>
 </html>
