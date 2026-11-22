@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Bảy 21/11/2026 — bản tin chiều",
+  capNhat: "Chủ Nhật 22/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "COP31 bước sang tối thứ Bảy vẫn bế tắc — EU và Panama nỗ lực phút chót cứu chữ 'nhiên liệu hóa thạch', bản dự thảo thứ ba vẫn chưa ra",
+          baiViet: [
+            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ đã bước sang tối thứ Bảy 21/11 mà vẫn chưa có thỏa thuận cuối cùng, hơn 24 giờ sau hạn chót dự kiến tối thứ Sáu. Bản dự thảo thứ ba — dự kiến trình ra sáng thứ Bảy sau các cuộc tham vấn xuyên đêm — tới tối vẫn chưa xuất hiện, trong khi nhiều đoàn đã phải hoãn chuyến bay về. Chủ tịch COP31 Murat Kurum khẳng định các đoàn 'sẽ không rời khỏi phòng họp ở Antalya cho tới khi đạt được đồng thuận'. Khảo sát của Carbon Brief dự báo hội nghị có thể chỉ kết thúc vào tối muộn Chủ nhật.",
+            "Tâm điểm bế tắc vẫn là bản dự thảo thứ hai công bố hôm thứ Năm — rút gọn từ 144 đoạn xuống còn 80 đoạn — đã xóa sạch mọi câu chữ về than, dầu và khí đốt, đồng thời gỡ mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng tới năm 2035, thay bằng cam kết mơ hồ 'tăng ít nhất gấp ba' mà không nêu mốc cụ thể. Nhóm EU cùng Panama đang nỗ lực phút chót để đưa lại một câu chữ về nhiên liệu hóa thạch đủ để đạt đồng thuận, trong khi các nước sản xuất dầu mỏ phản đối. Bản dự thảo cũng đặt cược lớn vào công nghệ thu giữ carbon và biến mục tiêu nâng tỉ trọng điện lên 35% vào năm 2035 thành mục tiêu tự nguyện, có thể đạt được cả bằng điện sản xuất từ than và khí.",
+            "Giới quan sát và các tổ chức xã hội dân sự gọi đây là một trong những kỳ COP yếu nhất từ trước tới nay; mạng lưới Climate Action Network tuyên bố 'thẳng thừng bác bỏ' văn bản hiện tại, còn các nhà hoạt động cho rằng dự thảo 'mở đường cho những lựa chọn gây hại nhất từ trước tới nay'. Một số quyết định đã bị hoãn sang năm sau, và kỳ họp tiếp theo dự kiến tổ chức tại Addis Ababa, Ethiopia vào tháng 11/2027. Mỹ — nước phát thải lịch sử lớn nhất — tiếp tục vắng mặt năm thứ hai liên tiếp. Dù kết cục ra sao, Antalya nhiều khả năng sẽ được nhớ tới như kỳ COP mà vấn đề nhiên liệu hóa thạch — trung tâm của cuộc khủng hoảng khí hậu — đã bị gạt khỏi văn bản cuối cùng."
+          ],
+          nguon: [
+            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/world/cop31-fossil-fuel-climate-talks-6571376" },
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/spotlight/environment/climate-change/climate-talks-go-into-overtime-as-nations-confront-global-warming" },
+            { ten: "Health Policy Watch", link: "https://healthpolicy-watch.news/cop31-draft-deal-drops-fossil-fuels-references-as-final-session-goes-into-overtime/" }
+          ],
+          gio: "Sáng, Nov 22"
+        },
+        {
+          tieuDe: "EU và Indonesia ký thỏa thuận thương mại sau 10 năm đàm phán — bỏ thuế hơn 90% hàng hóa, xe điện châu Âu hết mức thuế 50%",
+          baiViet: [
+            "Liên minh châu Âu và Indonesia đã chính thức ký Hiệp định Đối tác Kinh tế Toàn diện (CEPA) cùng Hiệp định Bảo hộ Đầu tư tại Brussels ngày thứ Bảy 21/11, khép lại gần một thập kỷ đàm phán. Chủ tịch Ủy ban châu Âu Ursula von der Leyen và Bộ trưởng Điều phối Kinh tế Indonesia Airlangga Hartarto tham dự lễ ký. Thỏa thuận dự kiến có hiệu lực đầu năm 2027 sau khi Nghị viện châu Âu và quốc hội Indonesia phê chuẩn.",
+            "Hai bên sẽ xóa thuế nhập khẩu với hơn 90% hàng hóa: tới 98,5% hàng xuất khẩu của EU sang Indonesia sẽ được miễn thuế, trong đó thuế ô tô EU — hiện lên tới 50% — sẽ được dỡ bỏ dần trong 5 năm; khoảng 90% hàng xuất khẩu của Indonesia sang EU cũng được miễn thuế, có lợi cho dầu cọ, giày dép, dệt may và thủy sản. Ủy ban châu Âu ước tính thỏa thuận giúp doanh nghiệp EU tiết kiệm hơn 600 triệu euro tiền thuế mỗi năm, và xuất khẩu của EU sang nền kinh tế lớn nhất Đông Nam Á tăng gần 40% trong 15 năm.",
+            "Thỏa thuận còn mở cửa đầu tư vào các lĩnh vực chiến lược như xe điện, điện tử và dược phẩm, và được Brussels xem là một phần trong nỗ lực đa dạng hóa thương mại trước sức ép thuế quan từ Mỹ và cạnh tranh với Trung Quốc. Thương mại hàng hóa hai bên đạt khoảng 29 tỉ euro năm ngoái, tăng 24% trong 10 năm. Dù vậy, thỏa thuận vẫn cần sự phê chuẩn của Nghị viện châu Âu và cả 27 nước thành viên — bước đi không hề chắc chắn trong bối cảnh chính trị châu Âu hiện nay."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/markets/commodities/eu-indonesia-sign-trade-deal-after-10-years-negotiations-2026-11-21/" },
+            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/world/eu-indonesia-trade-deal-sign-ambitious-6571696" },
+            { ten: "The Straits Times", link: "https://www.straitstimes.com/world/europe/eu-and-indonesia-sign-trade-deal-after-10-years-of-negotiations" }
+          ],
+          gio: "Sáng, Nov 22"
+        },
         {
           tieuDe: "COP31 kéo dài sang thứ Bảy vẫn chưa chốt được thỏa thuận — dự thảo mới xóa sạch chữ 'nhiên liệu hóa thạch', người biểu tình ngắt phiên bế mạc",
           baiViet: [
@@ -39,40 +67,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 21"
         },
-        {
-          tieuDe: "COP31: chủ nhà Thổ Nhĩ Kỳ 'bội thu' hơn 26 tỉ USD thỏa thuận năng lượng — trong lúc thỏa thuận khí hậu toàn cầu vẫn bế tắc",
-          baiViet: [
-            "Thổ Nhĩ Kỳ sắp rời COP31 với một loạt thỏa thuận và kế hoạch đầu tư trị giá hơn 26 tỉ USD, chủ yếu về năng lượng xanh, dù hội nghị khí hậu tại Antalya vẫn chưa đạt được thỏa thuận chung nào. Theo hãng Reuters, các thỏa thuận được chốt từ khi Thổ Nhĩ Kỳ bắt đầu đăng cai hội nghị ngày 9/11 gồm một thỏa thuận sơ bộ trị giá 15 tỉ USD về năng lượng tái tạo với Trung Quốc, 5,1 tỉ USD thỏa thuận tài chính với các ngân hàng phát triển, cùng các thỏa thuận với Saudi Arabia và Canada. Phía Thổ Nhĩ Kỳ không bình luận về con số này.",
-            "Trong khi đó, thỏa thuận khí hậu bao trùm của hội nghị vẫn mờ mịt khi đàm phán bước vào ngày cuối cùng theo lịch — thứ Sáu 20/11 — mà hơn 190 quốc gia vẫn chia rẽ sâu sắc về tài chính khí hậu cho các nước nghèo nhất và về lộ trình chuyển đổi khỏi nhiên liệu hóa thạch. Bản dự thảo mới nhất đã xóa sạch mọi chữ về than, dầu và khí đốt, đồng thời bỏ luôn mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng. Mạng lưới Hành động Khí hậu Quốc tế (CAN) đã công khai bác bỏ văn bản, treo biển 'ECO Shame!' trong buổi họp báo ngày cuối và kêu gọi các chính phủ, đặc biệt ở Nam bán cầu, từ chối ký.",
-            "Giới quan sát nhận định các thỏa thuận song phương có thể giúp Thổ Nhĩ Kỳ đạt mục tiêu khí hậu của chính mình, nhất là mở rộng điện khí hóa để giảm phát thải từ nhiên liệu hóa thạch. Nhưng nếu nước chủ nhà không bắc được cầu nối giữa phe đòi tài chính khí hậu và phe sản xuất dầu, thì di sản của COP31 nhiều khả năng sẽ là những hợp đồng thương mại của nước chủ nhà hơn là một bước tiến khí hậu toàn cầu — và lịch sử các kỳ COP cho thấy đàm phán hoàn toàn có thể kéo dài sang cuối tuần thay vì bế mạc đúng hẹn."
-          ],
-          nguon: [
-            { ten: "The Straits Times (Reuters)", link: "https://www.straitstimes.com/asia/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls" },
-            { ten: "Daily Sabah", link: "https://www.dailysabah.com/business/economy/cop31-delivers-deals-plans-worth-over-26-billion-for-host-turkiye/amp" },
-            { ten: "Free Malaysia Today (Reuters)", link: "https://www.freemalaysiatoday.com/category/world/2026/11/20/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls" }
-          ],
-          gio: "Sáng, Nov 21"
-        },
-        {
-          tieuDe: "Bão Akvan đổ bộ Odisha, Ấn Độ: hơn 440.000 người sơ tán, không thiệt hại lớn về người — cơn bão thứ ba trong 24 ngày",
-          baiViet: [
-            "Bão Akvan đã đổ bộ gần bờ biển Gopalpur thuộc bang Odisha, miền đông Ấn Độ, vào sáng thứ Sáu 20/11, mang theo mưa lớn và gió mạnh trên diện rộng. Theo Cục Khí tượng Ấn Độ (IMD), quá trình đổ bộ bắt đầu khoảng 8 giờ sáng và hoàn tất lúc 11 giờ 20, với sức gió 70–80 km/h, giật tới 90 km/h khi bão vượt qua bờ biển nam Odisha – bắc Andhra Pradesh. Chỉ vài giờ sau, Akvan suy yếu thành áp thấp nhiệt đới rồi tiếp tục yếu thành vùng áp thấp, di chuyển về phía bắc với tốc độ khoảng 12 km/h, trong khi mưa lớn vẫn kéo dài ở Odisha và lan sang miền nam Tây Bengal tới sáng thứ Bảy.",
-            "Điểm sáng là công tác sơ tán đã phát huy tác dụng: chính quyền bang cho biết đã đưa hơn 440.000 người tới nơi an toàn, huy động 423 đội cứu hộ và mở hơn 9.300 nơi trú bão. Bộ trưởng Quản lý Thảm họa Suresh Pujari khẳng định không có thiệt hại lớn về người hay tài sản, không có nguy cơ lũ lụt trước mắt dù mưa rất to, và 1.452 em bé đã chào đời an toàn trong thời gian bão sau khi các bà mẹ được đưa tới nơi trú ẩn. Thủ hiến Mohan Charan Majhi cho biết chưa ghi nhận sự cố đáng tiếc nào, dù đã xác định 941 điểm có nguy cơ sạt lở đất tại 5 huyện và ghi nhận sạt lở ở Ganjam, Koraput và Kandhamal.",
-            "Akvan là cơn bão thứ ba đe dọa Odisha chỉ trong 24 ngày, và quỹ đạo của nó đã đổi hướng so với dự báo ban đầu nhắm vào Andhra Pradesh — một lời nhắc rằng dự báo bão ở vịnh Bengal vẫn đầy bất định. Tên bão do Iran đề xuất theo hệ thống đặt tên khu vực. Sau khi bão tan, thách thức còn lại là mưa lớn kéo dài và việc khôi phục giao thông, trong đó hàng chục chuyến tàu đã bị hủy trong ngày bão đổ bộ; IMD dự báo mưa rào rải rác còn tiếp diễn tới 21/11 trước khi gió mùa đông bắc hoạt động trở lại từ 23/11."
-          ],
-          nguon: [
-            { ten: "The Hindu", link: "https://www.thehindu.com/news/national/cyclone-akvan-landfall-andhra-pradesh-odisha-imd-alert-live-updates-november-20-2026/article71722871.ece" },
-            { ten: "Deccan Herald (PTI)", link: "https://www.deccanherald.com/amp/story/india/odisha/cyclone-akvan-weakens-into-depression-after-landfall-in-odisha-no-major-damage-flood-threat-4225921" },
-            { ten: "The Hindu BusinessLine", link: "https://www.thehindubusinessline.com/news/national/cylone-akvan-live-news-updates-november-20-2026/article71723082.ece/amp/" }
-          ],
-          gio: "Sáng, Nov 21"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "California rung chuyển hai ngày liên tiếp: động đất 5,0 ở Pinnacles, 3,9 đánh thức Los Angeles, thêm dư chấn 3,3 ngoài khơi San Pedro",
+          baiViet: [
+            "Nam và Trung California đã trải qua hai ngày địa chấn dồn dập cuối tuần này. Trận mạnh nhất — 5,0 độ — xảy ra lúc 22h49 thứ Năm 19/11 gần Pinnacles, hạt San Benito, sau hai dư chấn báo trước; hệ thống cảnh báo sớm ShakeAlert phát cảnh báo chưa đầy 5 giây sau khi động đất bắt đầu. Khoảng 4 tiếng rưỡi sau, lúc 3h25 sáng thứ Sáu 20/11, một trận 3,9 độ làm rung chuyển khu vực Los Angeles, tâm chấn cách thành phố Commerce khoảng 1 km, sâu khoảng 15,5 km — gần 15.000 người đã báo cáo với Cục Khảo sát Địa chất Mỹ (USGS) rằng họ cảm nhận được rung lắc.",
+            "Sáng thứ Bảy 21/11, thêm một trận 3,3 độ ngoài khơi San Pedro lúc 6h09, sâu khoảng 11 km, tiếp nối chuỗi dư chấn trong khu vực. Sở Cứu hỏa Los Angeles đã kiểm tra toàn bộ 106 trạm và báo cáo không có thiệt hại lớn về kết cấu hay hạ tầng, không có thương vong. USGS đánh giá cả hai trận chính ở mức cảnh báo xanh — thiệt hại và thương vong dự kiến ở mức thấp.",
+            "Các nhà địa chấn nhấn mạnh hai trận động đất chính cách nhau khoảng 380 km và không có bằng chứng liên quan trực tiếp tới nhau; trận Commerce được xác định là động đất nén trên một đứt gãy ngầm dưới lòng chảo Los Angeles — cùng kiểu đứt gãy từng gây ra trận Whittier Narrows chết người năm 1987. USGS dự báo khoảng 51% khả năng có dư chấn từ 3 độ trở lên trong tuần tới ở khu vực Commerce. Chuỗi rung lắc là lời nhắc rằng California — dù có hệ thống cảnh báo sớm hiện đại bậc nhất — vẫn sống chung với rủi ro địa chấn thường trực."
+          ],
+          nguon: [
+            { ten: "New York Post", link: "https://nypost.com/2026/11/21/us-news/3-3-magnitude-earthquake-strikes-off-la-coast/" },
+            { ten: "Nationale", link: "https://www.nacionale.com/en/articles/earthquake-los-angeles-today-4-4-commerce-was-that-an-earthquake-november-20" },
+            { ten: "Fish4News", link: "https://fish4news.co.uk/california-earthquakes-pinnacles-commerce-november-2026/" }
+          ],
+          gio: "Sáng, Nov 22"
+        },
         {
           tieuDe: "Anh và EU chốt thỏa thuận 'tái thiết' hậu Brexit: bỏ rào cản thực phẩm, 100.000 suất đi lại cho giới trẻ mỗi năm",
           baiViet: [
@@ -108,32 +122,18 @@ window.TIN_TUC = {
       ten: "🟠 Tin G20",
       tin: [
         {
-          tieuDe: "Anthropic lên sàn Nasdaq, định giá 2.000 tỉ USD ngay phiên đầu — đợt IPO lớn nhất lịch sử",
+          tieuDe: "Zelenskyy: đàm phán ba bên Trump–Putin–Zelenskyy có thể diễn ra tại G20 Miami — Mỹ muốn thêm một vòng trước Giáng sinh, Kyiv vẫn chờ thư mời",
           baiViet: [
-            "Anthropic, công ty đứng sau trợ lý AI Claude, đã chính thức giao dịch trên sàn Nasdaq với mã ANT vào thứ Năm 19/11, trong đợt phát hành cổ phiếu lần đầu (IPO) lớn nhất lịch sử. Công ty huy động 81,3 tỉ USD, vượt kỷ lục 75 tỉ USD của SpaceX hồi tháng 6/2026. Giá chào bán được chốt ở 83 USD một cổ phiếu, cao hơn khoảng chào ban đầu, với 980 triệu cổ phiếu được bán ra. Cổ phiếu mở cửa ở 111,50 USD, tăng 34% so với giá IPO, đưa định giá pha loãng đầy đủ của công ty lên khoảng 2.000 tỉ USD — vượt cả mức 1.960 tỉ USD của SpaceX lúc mở cửa hồi tháng 6. Dù hạ nhiệt sau đó, cổ phiếu vẫn đóng cửa phiên đầu ở 97,17 USD, cao hơn 17% so với giá chào bán.",
-            "Anthropic là công ty AI biên (frontier AI) đầu tiên niêm yết đại chúng, và màn chào sàn này được xem là phép thử lớn nhất từ trước tới nay cho cơn sốt đầu tư vào trí tuệ nhân tạo. Đối thủ OpenAI cũng đang tính tới IPO vào năm 2027. Đằng sau con số ấn tượng là những cam kết khổng lồ: Nvidia đã đầu tư tổng cộng 20 tỉ USD vào Anthropic, còn công ty cam kết chi 110 tỉ USD cho hạ tầng điện toán của Amazon và ít nhất 121,3 tỉ USD cho Google. Hồ sơ nộp cơ quan chứng khoán Mỹ cũng cho thấy khoản lỗ ròng 104 tỉ USD trong 9 tháng đầu năm 2026 — một lời nhắc rằng ngay cả công ty AI được săn đón nhất cũng đang đốt tiền với tốc độ chưa từng có để chạy đua hạ tầng.",
-            "Điều đáng chú ý là màn chào sàn rực rỡ diễn ra đúng phiên mà cổ phiếu AI và chip bị bán tháo trên diện rộng, với Nasdaq và S&P 500 cùng giảm mạnh. Giới phân tích nhận định IPO của Anthropic cho thấy niềm tin của nhà đầu tư vào AI chưa tắt, dù định giá đang bị soi xét kỹ hơn sau nhiều tháng tăng nóng. Tuy vậy, không ít nhà quản lý quỹ cảnh báo nhà đầu tư nhỏ lẻ không nên mua đuổi cổ phiếu IPO trong ngày đầu, mà nên chờ vài quý báo cáo tài chính công khai rồi mới quyết định. Dù sao, với 2.000 tỉ USD ngay phiên đầu, Anthropic đã bước vào nhóm ít ỏi những công ty niêm yết giá trị nhất nước Mỹ."
+            "Tổng thống Ukraine Volodymyr Zelenskyy ngày 21/11 cho biết một cuộc gặp ba bên giữa ông, Tổng thống Mỹ Donald Trump và Tổng thống Nga Vladimir Putin có thể diễn ra bên lề thượng đỉnh G20 tại Miami ngày 14–15/12 — nhưng tới nay Kyiv vẫn chưa nhận được thư mời chính thức từ Washington. Ông nói nhiều lãnh đạo thế giới đã xác nhận với ông rằng họ đề nghị Mỹ mời Ukraine, và ông hy vọng ông Trump sẽ mời Kyiv với tư cách đồng minh thân cận.",
+            "Theo ông Zelenskyy, Mỹ muốn tổ chức thêm một vòng đàm phán ba bên trước Giáng sinh; trước đó, các cố vấn an ninh quốc gia sẽ họp — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và xác định kết quả kỳ vọng, sau đó mới chốt ngày và địa điểm. Tạp chí The Atlantic trước đó đưa tin ông Trump hy vọng dàn xếp một thỏa thuận hòa bình ngay tại khu nghỉ dưỡng Doral của ông ở Miami, thậm chí hình dung cảnh ông đứng cùng ông Zelenskyy và ông Putin trong lễ ký kết.",
+            "Phía Nga vẫn chưa chốt: ông Putin — được ông Trump mời lại tại thượng đỉnh APEC ở Thâm Quyến ngày 19/11 — cảm ơn lời mời nhưng nói quyết định phụ thuộc vào tình hình trong nước và rằng Moskva cần khôi phục đối thoại với châu Âu trước. Hãng Bloomberg dẫn nguồn Điện Kremlin cho rằng ông Putin nhiều khả năng sẽ vắng mặt. Trong khi đó, quyết định có mời ông Zelenskyy hay không — theo Ngoại trưởng Mỹ Marco Rubio — thuộc về riêng ông Trump. Nếu cả ba cùng có mặt tại Miami, đó sẽ là cuộc gặp trực tiếp đầu tiên giữa các lãnh đạo kể từ khi chiến sự bùng nổ."
           ],
           nguon: [
-            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/anthropic-hits-2-trillion-market-value-in-debut-6566706" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo?traffic_source=rss" },
-            { ten: "Reuters (via Virginia Business)", link: "https://virginiabusiness.com/anthropic-targets-1-8-trillion-valuation-nasdaq-debut/" }
+            { ten: "UNITED24 Media", link: "https://united24media.com/war-in-ukraine/zelenskyy-says-trump-putin-ukraine-talks-possible-at-g20-but-kyiv-still-awaits-invite-24593" },
+            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/the-us-has-not-yet-officially-invited-ukraine-to-the-g20-zelenskyy" },
+            { ten: "UA.NEWS (Der Spiegel)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" }
           ],
-          gio: "Chiều, Nov 21"
-        },
-        {
-          tieuDe: "G20 Miami: Zelenskyy xác nhận vẫn chưa có thư mời chính thức — Putin nói 'sẽ suy nghĩ', Nga chắc chắn cử đoàn cấp cao",
-          baiViet: [
-            "Tổng thống Ukraine Volodymyr Zelenskyy cho biết ông vẫn chưa nhận được thư mời chính thức nào từ Mỹ để dự thượng đỉnh G20 tại Miami vào ngày 14–15/12, dù đã có những 'tín hiệu' cho thấy lời mời có thể tới. Phát biểu tại Berlin ngày 20/11, ông Zelenskyy nói các thành viên G20 khác đã bày tỏ mong muốn Ukraine có mặt tại hội nghị, và nếu được mời chính thức, ông sẽ tới để đại diện cho đất nước và người dân Ukraine. Ông cũng nhắc lại sẵn sàng gặp trực tiếp ông Putin bên lề thượng đỉnh, như ông đã tuyên bố từ tháng 9.",
-            "Về phía Nga, Tổng thống Vladimir Putin nói tại họp báo ở Thâm Quyến ngày 19/11 rằng ông vẫn chưa quyết định có tới Mỹ dự G20 hay không: 'Tôi sẽ suy nghĩ. Để xem đã. Chúng tôi chưa quyết định.' Ông cảm ơn phía Mỹ về lời mời và khẳng định dù thế nào Nga cũng sẽ cử một đoàn đại biểu cấp cao tới Miami. Trước đó, ngày 1/11, Tổng thống Trump đã nói ông không có vấn đề gì khi mời ông Zelenskyy — 'Tôi sẽ mời. Không vấn đề gì.' — còn Ngoại trưởng Marco Rubio cho biết quyết định cuối cùng thuộc về ông Trump.",
-            "Thượng đỉnh G20 năm nay diễn ra tại khu nghỉ dưỡng Trump National Doral ở Miami, với Mỹ giữ ghế chủ tịch và ông Putin được mời từ tháng 9. Câu hỏi ai sẽ ngồi trong phòng họp đang dần trở thành tâm điểm không kém gì nội dung nghị sự: Ukraine chưa phải thành viên G20 nên cần thư mời riêng, Nam Phi đã bị gạt khỏi danh sách khách mời, còn Nga thì vẫn chưa chốt người dự. Đồng hồ đang chạy về tháng 12, và lời mời — nếu có — sẽ phải tới tay Kyiv trong những tuần tới."
-          ],
-          nguon: [
-            { ten: "UA.NEWS (Der Spiegel)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" },
-            { ten: "Interfax", link: "https://interfax.com/newsroom/top-stories/119970/" },
-            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/trump-responded-to-the-question-of-whether-zelenskyy-could-attend-the-g20-summit" }
-          ],
-          gio: "Sáng, Nov 21"
+          gio: "Sáng, Nov 22"
         },
         {
           tieuDe: "G20 Miami đối mặt chia rẽ trước giờ G: Putin chưa quyết có dự, Zelenskyy chưa được mời, Nam Phi bị gạt khỏi danh sách",
