@@ -5,25 +5,39 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Chủ Nhật 22/11/2026 — bản tin sáng",
+  capNhat: "Chủ Nhật 22/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
         {
-          tieuDe: "COP31 bước sang tối thứ Bảy vẫn bế tắc — EU và Panama nỗ lực phút chót cứu chữ 'nhiên liệu hóa thạch', bản dự thảo thứ ba vẫn chưa ra",
+          tieuDe: "COP31 công bố văn bản cuối cùng lúc rạng sáng Chủ nhật — vẫn không một chữ 'nhiên liệu hóa thạch', phiên thông qua lùi tới 11h trưa",
           baiViet: [
-            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ đã bước sang tối thứ Bảy 21/11 mà vẫn chưa có thỏa thuận cuối cùng, hơn 24 giờ sau hạn chót dự kiến tối thứ Sáu. Bản dự thảo thứ ba — dự kiến trình ra sáng thứ Bảy sau các cuộc tham vấn xuyên đêm — tới tối vẫn chưa xuất hiện, trong khi nhiều đoàn đã phải hoãn chuyến bay về. Chủ tịch COP31 Murat Kurum khẳng định các đoàn 'sẽ không rời khỏi phòng họp ở Antalya cho tới khi đạt được đồng thuận'. Khảo sát của Carbon Brief dự báo hội nghị có thể chỉ kết thúc vào tối muộn Chủ nhật.",
-            "Tâm điểm bế tắc vẫn là bản dự thảo thứ hai công bố hôm thứ Năm — rút gọn từ 144 đoạn xuống còn 80 đoạn — đã xóa sạch mọi câu chữ về than, dầu và khí đốt, đồng thời gỡ mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng tới năm 2035, thay bằng cam kết mơ hồ 'tăng ít nhất gấp ba' mà không nêu mốc cụ thể. Nhóm EU cùng Panama đang nỗ lực phút chót để đưa lại một câu chữ về nhiên liệu hóa thạch đủ để đạt đồng thuận, trong khi các nước sản xuất dầu mỏ phản đối. Bản dự thảo cũng đặt cược lớn vào công nghệ thu giữ carbon và biến mục tiêu nâng tỉ trọng điện lên 35% vào năm 2035 thành mục tiêu tự nguyện, có thể đạt được cả bằng điện sản xuất từ than và khí.",
-            "Giới quan sát và các tổ chức xã hội dân sự gọi đây là một trong những kỳ COP yếu nhất từ trước tới nay; mạng lưới Climate Action Network tuyên bố 'thẳng thừng bác bỏ' văn bản hiện tại, còn các nhà hoạt động cho rằng dự thảo 'mở đường cho những lựa chọn gây hại nhất từ trước tới nay'. Một số quyết định đã bị hoãn sang năm sau, và kỳ họp tiếp theo dự kiến tổ chức tại Addis Ababa, Ethiopia vào tháng 11/2027. Mỹ — nước phát thải lịch sử lớn nhất — tiếp tục vắng mặt năm thứ hai liên tiếp. Dù kết cục ra sao, Antalya nhiều khả năng sẽ được nhớ tới như kỳ COP mà vấn đề nhiên liệu hóa thạch — trung tâm của cuộc khủng hoảng khí hậu — đã bị gạt khỏi văn bản cuối cùng."
+            "Rạng sáng Chủ nhật 22/11, sau hai ngày quá hạn chót, chủ tịch COP31 Murat Kurum đã trình trước gần 200 đoàn đại biểu văn bản cuối cùng của hội nghị khí hậu tại Antalya, Thổ Nhĩ Kỳ: gói thỏa thuận 10 trang, 94 đoạn, được ông giới thiệu là văn bản mà mọi quốc gia đều có thể chấp nhận. Các đoàn được cho hạn tới 03:00 GMT để gửi phản đối, còn phiên toàn thể thông qua — ban đầu hẹn 09:00 giờ Antalya — đã phải lùi tới 11:00 khi số ý kiến phản đối tăng lên. Ban tổ chức còn lo một rủi ro thực tế khác: nhiều đoàn đã rời Antalya từ sáng Chủ nhật, có thể khiến hội nghị không đủ túc số hai phần ba (132 trên 198 bên) để ra quyết định.",
+            "Điểm gây tranh cãi nhất vẫn nguyên vẹn: trong toàn bộ văn bản không hề xuất hiện các từ 'nhiên liệu hóa thạch', 'dầu', 'than' hay 'loại bỏ dần'. Thay vào đó, đoạn mở đầu chỉ 'nhắc lại toàn bộ' thỏa thuận COP28 tại Dubai năm 2023 — thỏa thuận duy nhất trong lịch sử COP từng ghi nhận việc chuyển dịch khỏi nhiên liệu hóa thạch. Mục tiêu năng lượng duy nhất của văn bản là nâng tỉ trọng điện trong tổng tiêu thụ năng lượng cuối cùng từ khoảng 21% hiện nay lên 35% vào năm 2035, nhưng không bắt buộc lượng điện tăng thêm phải đến từ năng lượng tái tạo — điện sản xuất từ than và khí đốt cũng được tính. Văn bản đặt mục tiêu thu giữ và lưu trữ carbon ở quy mô gigatonne vào năm 2035, đồng thời lần đầu tiên trong lịch sử COP thừa nhận thế giới sẽ vượt ngưỡng nóng lên 1,5°C và phải tìm cách kéo nhiệt độ trở lại sau đó.",
+            "Phần tài chính — điều các nước đang chịu nước biển dâng và mùa màng thất bát quan tâm nhất — vẫn là chỗ thỏa hiệp mỏng nhất: cam kết tăng ít nhất gấp ba tài chính thích ứng tới năm 2035 được giữ lại, nhưng không có năm cơ sở để đo mức tăng, và mục tiêu 120 tỉ USD mỗi năm đã bị gỡ bỏ từ bản dự thảo thứ hai. Khoảng 130 nước từng yêu cầu khôi phục câu chữ về nhiên liệu hóa thạch, trong khi Saudi Arabia, Nga và Ấn Độ phản đối; EU cùng Panama nỗ lực tới phút chót nhưng không đổi được văn bản. Tổ chức 350.org bày tỏ thất vọng, cho rằng dự thảo 'mở đường cho việc phát triển thêm nhiên liệu hóa thạch'. Văn bản cũng khởi động lộ trình Antalya–Addis Ababa, giao hai nước chủ nhà COP31 và COP32 (Ethiopia, tháng 11/2027) tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Mỹ — nước phát thải lịch sử lớn nhất — tiếp tục vắng mặt năm thứ hai liên tiếp."
           ],
           nguon: [
-            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/world/cop31-fossil-fuel-climate-talks-6571376" },
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/spotlight/environment/climate-change/climate-talks-go-into-overtime-as-nations-confront-global-warming" },
-            { ten: "Health Policy Watch", link: "https://healthpolicy-watch.news/cop31-draft-deal-drops-fossil-fuels-references-as-final-session-goes-into-overtime/" }
+            { ten: "Associated Press (via La Nación)", link: "https://www.lanacion.com.ar/usa/turkeys-final-draft-at-un-climate-talks-doesnt-mention-the-fossil-fuels-that-cause-global-warming-nid22112026/" },
+            { ten: "Rappler (Reuters)", link: "https://www.rappler.com/world/global-affairs/cop31-climate-talks-close-final-deal-november-22-2026/" },
+            { ten: "Outlook India", link: "https://www.outlookindia.com/amp/story/international/cop31-antalya-climate-talks-stall-saudi-arabia-fossil-fuel-phase-out-showdown-india-position-cover-decision" }
           ],
-          gio: "Sáng, Nov 22"
+          gio: "Chiều, Nov 22"
+        },
+        {
+          tieuDe: "Iran chuẩn bị 14 tàu dầu phá phong tỏa Mỹ ở Hormuz — nhưng 'tàu phá vòng vây' Khat Shekan hóa ra không tồn tại",
+          baiViet: [
+            "Iran đang chuẩn bị đưa 14 tàu chở dầu thách thức phong tỏa của Hải quân Mỹ tại eo biển Hormuz — theo nghị sĩ Vahid Ahmadi, thành viên Ủy ban An ninh Quốc gia của Quốc hội Iran. Ông Ahmadi cho biết các tàu đã tập trung gần đảo Kharg, đảo xuất khẩu dầu chính của Iran, thủy thủ đã được phân công và cờ Iran đã kéo lên; phương án hộ tống quân sự nằm trong số các biện pháp đang cân nhắc, và các chính phủ trong khu vực — trong đó có Qatar và Oman — đã được thông báo. Hãng phân tích Kpler cho biết khoảng 43 triệu thùng dầu Iran đang mắc kẹt trong vùng phong tỏa, với khoảng 20 tàu neo đậu quanh Kharg. Tuy nhiên, chưa có xác nhận độc lập nào cho thấy đoàn tàu đã khởi hành, cũng như chưa rõ danh tính các tàu, điểm đến hay thời điểm vượt phong tỏa.",
+            "Căng thẳng đã leo thang rõ rệt trong ngày thứ Bảy: cơ quan hàng hải Anh UKMTO ghi nhận hai tàu chở dầu bị tấn công ở Hormuz — một chiếc trúng vật thể lạ ở đuôi tàu, chiếc còn lại trúng buồng máy — không có thương vong. Quân đội Iran nói một tàu đã bốc cháy sau khi đâm phải thủy lôi trong khu vực cấm phía đông eo biển, đồng thời tuyên bố bắn rơi một máy bay không người lái MQ-9 của Mỹ trên đảo Qeshm. Thứ trưởng Ngoại giao Kazem Gharibabadi tuyên bố Tehran sẽ thực hiện 'mọi hành động cần thiết' để phá phong tỏa — mà Iran coi là hành động chiến tranh — và cho biết phái đoàn Qatar đã có hai giờ đàm phán tại Tehran tối thứ Sáu. Cùng ngày, Iran thông báo cắt điện luân phiên từ Chủ nhật vì thiếu nhiên liệu và hạ tầng năng lượng hư hại trong chiến tranh.",
+            "Giữa lúc đó, một diễn biến kỳ lạ đã bị vạch trần sáng Chủ nhật: dữ liệu theo dõi tàu MarineTraffic cho thấy một tàu mang tên 'Khat Shekan' — tạm dịch 'kẻ phá vòng vây' — đang di chuyển với tốc độ 8,5 hải lý/giờ qua vịnh Ba Tư về phía vịnh Oman, dường như đang thách thức phong tỏa. Nhưng dịch vụ theo dõi tàu TankerTrackers kiểm chứng bằng ảnh vệ tinh và khẳng định: không có con tàu nào ở vị trí đó. 'Tàu này thậm chí không tồn tại', TankerTrackers viết — toàn bộ tín hiệu AIS là giả mạo, với số hiệu nhận dạng trùng với tàu Stolt Bobcat treo cờ Liberia. Kể từ khi chiến tranh Mỹ–Israel với Iran bùng phát cuối tháng 2, hơn 120 tàu thương mại đã bị tấn công trong và quanh eo biển, khiến ít nhất 24 thuyền viên thiệt mạng theo Tổ chức Hàng hải Quốc tế, còn lưu lượng hàng hải qua Hormuz vẫn thấp hơn khoảng 65% so với trước chiến tranh."
+          ],
+          nguon: [
+            { ten: "Gulf News", link: "https://gulfnews.com/amp/story/world%2Fmena%2Firan-readies-14-tankers-to-break-us-blockade-what-happens-if-they-try-1.500756460" },
+            { ten: "The Week", link: "https://www.theweek.in/news/middle-east/2026/11/22/the-mystery-of-khat-shekan-alleged-iranian-oil-tanker-challenging-us-blockade-does-not-exist.amp.html" },
+            { ten: "Arab News Japan", link: "https://www.arabnews.jp/en/middle-east/maritime-agency-says-2-tankers-struck-in-hormuz-as-iran-says-ship-on-fire-3001561" }
+          ],
+          gio: "Chiều, Nov 22"
         },
         {
           tieuDe: "EU và Indonesia ký thỏa thuận thương mại sau 10 năm đàm phán — bỏ thuế hơn 90% hàng hóa, xe điện châu Âu hết mức thuế 50%",
@@ -39,40 +53,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 22"
         },
-        {
-          tieuDe: "COP31 kéo dài sang thứ Bảy vẫn chưa chốt được thỏa thuận — dự thảo mới xóa sạch chữ 'nhiên liệu hóa thạch', người biểu tình ngắt phiên bế mạc",
-          baiViet: [
-            "Hội nghị khí hậu COP31 tại Antalya, Thổ Nhĩ Kỳ đã không thể bế mạc đúng lịch thứ Sáu 20/11 mà phải kéo dài sang thứ Bảy 21/11, khi gần 200 quốc gia vẫn chưa tìm được tiếng nói chung. Bản dự thảo thứ hai do đồng chủ trì Australia đưa ra trong ngày 20/11 còn gây tranh cãi hơn bản đầu: cả hai câu nhắc tới nhiên liệu hóa thạch đều bị xóa, cùng với mục tiêu 120 tỉ USD mỗi năm cho tài chính thích ứng của các nước đang phát triển. Chủ tịch COP31 Murat Kurum thừa nhận tối 20/11 rằng các bên 'đã gần tới đích, nhưng chưa tới', còn Bộ trưởng Khí hậu Australia Chris Bowen nói đoàn đàm phán sẽ làm việc 'bao lâu cũng được, cho tới khi xong việc'.",
-            "Điểm đáng chú ý là dự thảo lần đầu tiên thừa nhận thẳng rằng mức nóng lên toàn cầu có thể vượt ngưỡng 1,5°C của Thỏa thuận Paris — một sự thừa nhận mà các kỳ COP trước nay vẫn tránh. Văn bản vẫn giữ mục tiêu nâng tỉ trọng điện trong tiêu thụ năng lượng cuối cùng toàn cầu lên 35% vào năm 2035, nhưng nghĩa vụ cụ thể của từng nước đã bị làm nhẹ, và không nói rõ lượng điện tăng thêm đó phải đến từ nguồn tái tạo. Hơn 120 doanh nghiệp, nhà đầu tư và tổ chức đã can thiệp vào phút chót, kêu gọi một thỏa thuận tham vọng hơn để đẩy nhanh điện khí hóa nền kinh tế thế giới. Sáng 21/11, người biểu tình còn ngắt lời phiên bế mạc khi ông Kurum phát biểu mở đầu, phản đối việc dự thảo loại bỏ nhiên liệu hóa thạch.",
-            "Bế tắc tại Antalya phản ánh một thực tế đã kéo dài 5 năm: tiến độ chống biến đổi khí hậu toàn cầu đang chững lại, trong khi sóng nhiệt ở châu Âu và lũ lụt ở Nepal năm nay ngày càng tàn khốc. Các nước đã nhất trí tại COP28 năm 2023 về việc chuyển đổi khỏi nhiên liệu hóa thạch, nhưng những kỳ họp sau đó chưa từng cụ thể hóa mục tiêu này. Mỹ — một trong những nước phát thải lớn nhất — cũng không tham gia trực tiếp kỳ họp lần này. Nếu các đoàn không nhượng bộ trong ngày thứ Bảy, COP31 sẽ khép lại mà không có thỏa thuận bao trùm nào, và di sản của hội nghị nhiều khả năng chỉ còn là những hợp đồng song phương của nước chủ nhà."
-          ],
-          nguon: [
-            { ten: "AP (via AsiaOne)", link: "https://www.asiaone.com/world/climate-talks-overtime-nations-wrestle-response-worsening-global-warming" },
-            { ten: "Reuters", link: "https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/" },
-            { ten: "Arab News", link: "https://www.arabnews.com/world/countries-race-to-secure-cop31-deal-after-fossil-fuel-row-3013319" }
-          ],
-          gio: "Chiều, Nov 21"
-        },
-        {
-          tieuDe: "Eo biển Hormuz nóng rực sáng thứ Bảy: hai tàu chở dầu trúng vật thể lạ, Iran tuyên bố bắn rơi drone MQ-9 của Mỹ",
-          baiViet: [
-            "Eo biển Hormuz — tuyến hàng hải vận chuyển gần 1/5 lượng dầu thô toàn cầu — chứng kiến một buổi sáng đầy căng thẳng vào thứ Bảy 21/11. Cơ quan Thương mại Hàng hải Anh (UKMTO) cho biết hai tàu chở dầu đang rời eo biển đã bị trúng 'vật thể không xác định': tàu thứ nhất trúng phần đuôi lúc khoảng 05:00 giờ UTC, cách thị trấn Khasab của Oman 11 hải lý về phía bắc; tàu thứ hai trúng phòng máy lúc khoảng 05:50 giờ UTC, cách Khasab 17 hải lý về phía đông. Không có thương vong nào được báo cáo, và mức độ tác động môi trường vẫn chưa được xác định. Đây là ngày thứ hai liên tiếp tàu chở dầu bị tấn công tại khu vực này, sau vụ một tàu bốc cháy hôm thứ Sáu 20/11.",
-            "Cùng sáng 21/11, Vệ binh Cách mạng Iran (IRGC) tuyên bố lực lượng phòng không của họ đã bắn rơi một máy bay không người lái MQ-9 của Mỹ trên eo biển Hormuz bằng hệ thống phòng không mới triển khai — theo phía Iran, đây là chiếc MQ-9 thứ 58 của Mỹ bị Iran bắn rơi. Cần nhấn mạnh rằng đây mới chỉ là tuyên bố một phía của Iran, được đưa ra qua đài truyền hình nhà nước IRIB và kênh Press TV; phía Mỹ chưa xác nhận vụ việc. UKMTO đã nâng mức đe dọa tại eo biển Hormuz lên mức 'nghiêm trọng' từ hôm 20/11, và giới chức hàng hải quốc tế đang theo dõi sát diễn biến.",
-            "Căng thẳng leo thang cả trên mặt trận chính trị. Thượng nghị sĩ Mỹ Kirsten Gillibrand đang thúc đẩy một dự luật chặn ngân sách cho chiến dịch quân sự tại Iran, trong khi Tổng thống Iran Pezeshkian nói nước ông đang đối mặt với một 'cuộc chiến kinh tế thầm lặng'. Chuỗi vụ việc tại Hormuz cho thấy rủi ro với tuyến vận tải dầu mỏ quan trọng nhất thế giới đang tăng nhanh từng ngày, dù lưu lượng xuất khẩu qua eo biển này trước đó đã trở lại gần mức trước xung đột. Thị trường năng lượng và các hãng tàu quốc tế sẽ phải tính lại chi phí rủi ro nếu các vụ tấn công còn tiếp diễn."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles" },
-            { ten: "The Straits Times (Reuters)", link: "https://www.straitstimes.com/world/europe/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says?ref=latest-headlines" }
-          ],
-          gio: "Chiều, Nov 21"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Nhật Bản đón cái lạnh ở APEC: Takaichi bị Trung Quốc 'đối xử phân biệt', một năm rạn nứt vì câu nói về Đài Loan",
+          baiViet: [
+            "Thủ tướng Nhật Bản Sanae Takaichi đã tới Thâm Quyến dự hội nghị APEC ngày 19/11 — chuyến thăm Trung Quốc đầu tiên của một thủ tướng Nhật kể từ tháng 12/2019 — nhưng đón tiếp mà bà nhận được lạnh nhạt khác hẳn các lãnh đạo khác. Khi máy bay của bà hạ cánh, không có đoàn thiếu niên cầm hoa chào đón như khi Tổng thống Mỹ Donald Trump hay Tổng thống Nga Vladimir Putin tới nơi. Một quan chức cấp cao Bộ Ngoại giao Nhật nói với báo Mainichi Shimbun rằng cách đối xử đó 'thiếu phép lịch sự ngoại giao cơ bản' và là sự thiếu tôn trọng; hãng tin Jiji mô tả Trung Quốc đã cho bà 'ăn quả đắng', còn Kyodo ghi nhận sự vắng mặt của nghi thức chào đón. Bắc Kinh đáp lại rằng họ đã sắp xếp nghi thức 'phù hợp' cho mọi đoàn tham dự.",
+            "Gốc rễ của sự lạnh nhạt là phát biểu của Takaichi trước Quốc hội Nhật tháng 11/2025: bà nói một cuộc tấn công của Trung Quốc nhằm vào Đài Loan có thể cấu thành tình huống đe dọa sự sống còn của Nhật Bản và kích hoạt quyền phòng vệ tập thể — tức Tokyo có thể dùng lực lượng quân sự để hỗ trợ đồng minh như Mỹ. Bắc Kinh gọi phát biểu này là 'sai trái và nguy hiểm', đòi rút lại, triệu đại sứ Nhật, cảnh báo công dân tránh tới Nhật (15/11), hạn chế xuất khẩu đất hiếm và khoáng sản quan trọng, cấm hàng lưỡng dụng với 20 thực thể Nhật, và đưa tàu hải cảnh vào vùng biển quanh quần đảo Senkaku/Điếu Ngư. Cú sốc kinh tế tới ngay: ngày 17/11 cổ phiếu du lịch và bán lẻ Nhật lao dốc — Shiseido giảm 11,4%, Takashimaya giảm 6% — trong bối cảnh Trung Quốc chiếm khoảng một phần tư lượng khách du lịch nước ngoài tới Nhật.",
+            "Tại Thâm Quyến, Takaichi đã bắt tay Chủ tịch Tập Cận Bình — lần gặp đầu tiên của hai người kể từ khi căng thẳng bùng phát — và có cuộc gặp song phương duy nhất trong chuyến đi: 30 phút với Tổng thống Putin, trong đó bà nêu việc một nhà báo Nhật bị giam giữ và đề nghị bảo vệ các doanh nghiệp Nhật tại Nga. Bà kêu gọi tiếp tục đối thoại với Trung Quốc vì 'giữa hai nước còn nhiều vấn đề tồn đọng', khẳng định lập trường về Đài Loan không thay đổi theo Tuyên bố chung Nhật–Trung năm 1972 và từ chối bình luận các kịch bản giả định. Tuy nhiên, cuộc gặp giữa các nhà ngoại giao hai bên tại Bắc Kinh ngày 18/11 đã kết thúc mà không có đột phá — Trung Quốc vẫn đòi rút lại phát biểu, Nhật Bản vẫn nói đó là chính sách lâu nay. Một năm sau câu nói gây tranh cãi, quan hệ hai nền kinh tế lớn nhất châu Á vẫn chưa tìm được lối ra."
+          ],
+          nguon: [
+            { ten: "MoneyControl (Reuters)", link: "https://www.moneycontrol.com/world/japan-slams-china-s-discriminatory-treatment-of-pm-sanae-takaichi-at-apec-summit-amid-taiwan-tensions-article-14085754.html" },
+            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/japanese-pm-takaichi-calls-for-continued-dialogue-with-china-to-ease-bilateral-tensions/article71719391.ece" },
+            { ten: "TaiwanPlus", link: "https://www.taiwanplus.com/news/world-news/asia-pacific/261120004/japans-position-on-taiwan-unchanged-takaichi-says-after-meeting-xi" }
+          ],
+          gio: "Chiều, Nov 22"
+        },
         {
           tieuDe: "California rung chuyển hai ngày liên tiếp: động đất 5,0 ở Pinnacles, 3,9 đánh thức Los Angeles, thêm dư chấn 3,3 ngoài khơi San Pedro",
           baiViet: [
@@ -122,6 +122,20 @@ window.TIN_TUC = {
       ten: "🟠 Tin G20",
       tin: [
         {
+          tieuDe: "G20 Miami: Putin nhiều khả năng vắng mặt, đặc phái viên Mỹ chuẩn bị sang Moscow — Washington muốn thỏa thuận hòa bình trước tháng 1/2027",
+          baiViet: [
+            "Tổng thống Nga Vladimir Putin nhiều khả năng sẽ không dự thượng đỉnh G20 ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral ở Miami — theo hãng Bloomberg dẫn các nguồn tin từ Điện Kremlin. Nếu đúng, đây sẽ là kỳ họp lãnh đạo G20 trực tiếp đầu tiên mà Putin vắng mặt kể từ năm 2019. Cùng ngày thứ Bảy, Tổng thống Ukraine Volodymyr Zelenskyy xác nhận Mỹ đã đề xuất tổ chức vòng đàm phán ba bên mới giữa Mỹ, Nga và Ukraine trước Giáng sinh, và Kyiv đã đồng ý. Theo Zelenskyy, các cố vấn an ninh quốc gia ba bên sẽ họp trước — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và nội dung, sau đó mới chốt địa điểm và ngày giờ.",
+            "Bước tiếp theo có thể là chuyến đi Moscow của hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner, sau khi họ làm việc với quan chức Ukraine và châu Âu. Tờ Financial Times đưa tin chính quyền Trump muốn đạt được một thỏa thuận hòa bình vào tháng 1/2027. Vòng đàm phán ba bên đầu tiên sau chín tháng gián đoạn đã diễn ra tại Abu Dhabi ngày 10–11/11, kết thúc với thỏa thuận về các bước nhân đạo và cam kết đàm phán tiếp. Zelenskyy cũng cho biết Kyiv đã gửi cho Mỹ và cơ quan thanh tra nhân quyền Ukraine danh sách cập nhật các làng mạc bị chiếm đóng tại Kherson và Zaporizhzhia, nơi Kyiv muốn tổ chức các sứ mệnh sơ tán dân thường.",
+            "Vướng mắc lớn nhất vẫn là tấm thư mời: Trump đã mời Putin — Nga là thành viên G20 — từ tháng 9, nhưng Ukraine, vốn không phải thành viên G20, tới nay vẫn chưa nhận được thư mời chính thức nào. Zelenskyy cho biết nhiều lãnh đạo thế giới đã đề nghị Washington mời chính thức Kyiv, và khẳng định 'nếu được mời, chúng tôi chắc chắn sẽ tham dự'. Trong cuộc gọi với các lãnh đạo châu Âu tại Berlin hôm thứ Năm, Trump nói châu Âu đang chi quá nhiều tiền cho cuộc chiến ở Ukraine và có thể dùng số tiền đó cho chính mình nếu đạt được hòa bình — Zelenskyy xác nhận nội dung này, đồng thời đáp lại cách Trump gọi Putin là 'bạn' bằng câu nói: 'Với chúng tôi, ông ta là kẻ thù, và tất nhiên, với chúng tôi, ông ta là kẻ giết người'."
+          ],
+          nguon: [
+            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/the-us-has-not-yet-officially-invited-ukraine-to-the-g20-zelenskyy" },
+            { ten: "Reuters", link: "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/" },
+            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-international/2026/11/22/24VD55WKDBHBBLIGEXY5KQX4DY/" }
+          ],
+          gio: "Chiều, Nov 22"
+        },
+        {
           tieuDe: "Zelenskyy: đàm phán ba bên Trump–Putin–Zelenskyy có thể diễn ra tại G20 Miami — Mỹ muốn thêm một vòng trước Giáng sinh, Kyiv vẫn chờ thư mời",
           baiViet: [
             "Tổng thống Ukraine Volodymyr Zelenskyy ngày 21/11 cho biết một cuộc gặp ba bên giữa ông, Tổng thống Mỹ Donald Trump và Tổng thống Nga Vladimir Putin có thể diễn ra bên lề thượng đỉnh G20 tại Miami ngày 14–15/12 — nhưng tới nay Kyiv vẫn chưa nhận được thư mời chính thức từ Washington. Ông nói nhiều lãnh đạo thế giới đã xác nhận với ông rằng họ đề nghị Mỹ mời Ukraine, và ông hy vọng ông Trump sẽ mời Kyiv với tư cách đồng minh thân cận.",
@@ -134,20 +148,6 @@ window.TIN_TUC = {
             { ten: "UA.NEWS (Der Spiegel)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" }
           ],
           gio: "Sáng, Nov 22"
-        },
-        {
-          tieuDe: "G20 Miami đối mặt chia rẽ trước giờ G: Putin chưa quyết có dự, Zelenskyy chưa được mời, Nam Phi bị gạt khỏi danh sách",
-          baiViet: [
-            "Thượng đỉnh G20 tại Miami, dự kiến diễn ra ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral, đang đối mặt với nguy cơ chia rẽ sâu sắc ngay trước thềm hội nghị. Tổng thống Nga Vladimir Putin cho biết ông vẫn chưa quyết định có dự hay không dù đã hai lần nhận lời mời trực tiếp từ Tổng thống Trump — lần mới nhất ngay sau cuộc gặp song phương và cuộc gặp ba bên tại APEC Thâm Quyến. Ông Putin cảm ơn lời mời nhưng nói quyết định sẽ tùy thuộc vào 'tình hình trong nước', và Điện Kremlin cho biết quyết định khó có thể được đưa ra trong một hai ngày tới. Ông Putin đã không dự trực tiếp một kỳ thượng đỉnh G20 nào kể từ Osaka 2019.",
-            "Trong khi đó, Tổng thống Ukraine Volodymyr Zelenskyy cho biết tại Berlin rằng ông vẫn chưa nhận được lời mời từ Mỹ và hy vọng ông Trump sẽ mời Ukraine với tư cách đồng minh thân cận — dù trước đó ông từng nói sẵn sàng gặp ông Putin ngay tại Miami nếu được sắp xếp. Các nước G20 khác được cho là đã bày tỏ mong muốn Ukraine có mặt, nhưng phía Mỹ tới nay vẫn im lặng. Việc nước chủ nhà mời một tổng thống đang bị phương Tây trừng phạt trong lúc chưa mời lãnh đạo Ukraine khiến nhiều đồng minh châu Âu lúng túng, và giới ngoại giao lo ngại một cuộc đối đầu trực diện giữa ông Putin và các lãnh đạo châu Âu — nếu ông dự — sẽ làm không khí hội nghị thêm căng thẳng.",
-            "Chia rẽ còn thể hiện ở cấp bộ trưởng: cả hai phiên họp cấp bộ trưởng năm nay — tài chính và ngoại giao, trong đó có cuộc họp ngoại trưởng tại Atlanta ngày 30/10 — đều không ra được tuyên bố chung, dấu hiệu cho thấy con đường tới một tuyên bố chung của các lãnh đạo vào tháng tới sẽ rất gập ghềnh. Danh sách khách mời của Mỹ cũng gây tranh cãi: Nam Phi — thành viên chính thức của G20 và là nước chủ nhà năm ngoái — bị loại khỏi danh sách, trong khi Armenia, Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, UAE, Uzbekistan và Việt Nam được mời. Tổng thống Kazakhstan Tokayev đã chốt chuẩn bị cho chuyến đi Miami, lần thứ ba Astana được mời dự thượng đỉnh."
-          ],
-          nguon: [
-            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" },
-            { ten: "Der Spiegel (via UA.NEWS)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" },
-            { ten: "Armenpress", link: "https://armenpress.am/en/article/1266106" }
-          ],
-          gio: "Chiều, Nov 20"
         },
       ]
     }
