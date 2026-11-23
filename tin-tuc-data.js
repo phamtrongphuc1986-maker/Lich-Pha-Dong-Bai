@@ -5,25 +5,39 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Chủ Nhật 22/11/2026 — bản tin chiều",
+  capNhat: "Thứ Hai 23/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
         {
-          tieuDe: "COP31 công bố văn bản cuối cùng lúc rạng sáng Chủ nhật — vẫn không một chữ 'nhiên liệu hóa thạch', phiên thông qua lùi tới 11h trưa",
+          tieuDe: "COP31 sụp đổ trong hỗn loạn tối Chủ nhật: thỏa thuận cuối cùng bị bác bỏ, không có văn bản bao quát — hội nghị khí hậu dài nhất lịch sử",
           baiViet: [
-            "Rạng sáng Chủ nhật 22/11, sau hai ngày quá hạn chót, chủ tịch COP31 Murat Kurum đã trình trước gần 200 đoàn đại biểu văn bản cuối cùng của hội nghị khí hậu tại Antalya, Thổ Nhĩ Kỳ: gói thỏa thuận 10 trang, 94 đoạn, được ông giới thiệu là văn bản mà mọi quốc gia đều có thể chấp nhận. Các đoàn được cho hạn tới 03:00 GMT để gửi phản đối, còn phiên toàn thể thông qua — ban đầu hẹn 09:00 giờ Antalya — đã phải lùi tới 11:00 khi số ý kiến phản đối tăng lên. Ban tổ chức còn lo một rủi ro thực tế khác: nhiều đoàn đã rời Antalya từ sáng Chủ nhật, có thể khiến hội nghị không đủ túc số hai phần ba (132 trên 198 bên) để ra quyết định.",
-            "Điểm gây tranh cãi nhất vẫn nguyên vẹn: trong toàn bộ văn bản không hề xuất hiện các từ 'nhiên liệu hóa thạch', 'dầu', 'than' hay 'loại bỏ dần'. Thay vào đó, đoạn mở đầu chỉ 'nhắc lại toàn bộ' thỏa thuận COP28 tại Dubai năm 2023 — thỏa thuận duy nhất trong lịch sử COP từng ghi nhận việc chuyển dịch khỏi nhiên liệu hóa thạch. Mục tiêu năng lượng duy nhất của văn bản là nâng tỉ trọng điện trong tổng tiêu thụ năng lượng cuối cùng từ khoảng 21% hiện nay lên 35% vào năm 2035, nhưng không bắt buộc lượng điện tăng thêm phải đến từ năng lượng tái tạo — điện sản xuất từ than và khí đốt cũng được tính. Văn bản đặt mục tiêu thu giữ và lưu trữ carbon ở quy mô gigatonne vào năm 2035, đồng thời lần đầu tiên trong lịch sử COP thừa nhận thế giới sẽ vượt ngưỡng nóng lên 1,5°C và phải tìm cách kéo nhiệt độ trở lại sau đó.",
-            "Phần tài chính — điều các nước đang chịu nước biển dâng và mùa màng thất bát quan tâm nhất — vẫn là chỗ thỏa hiệp mỏng nhất: cam kết tăng ít nhất gấp ba tài chính thích ứng tới năm 2035 được giữ lại, nhưng không có năm cơ sở để đo mức tăng, và mục tiêu 120 tỉ USD mỗi năm đã bị gỡ bỏ từ bản dự thảo thứ hai. Khoảng 130 nước từng yêu cầu khôi phục câu chữ về nhiên liệu hóa thạch, trong khi Saudi Arabia, Nga và Ấn Độ phản đối; EU cùng Panama nỗ lực tới phút chót nhưng không đổi được văn bản. Tổ chức 350.org bày tỏ thất vọng, cho rằng dự thảo 'mở đường cho việc phát triển thêm nhiên liệu hóa thạch'. Văn bản cũng khởi động lộ trình Antalya–Addis Ababa, giao hai nước chủ nhà COP31 và COP32 (Ethiopia, tháng 11/2027) tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Mỹ — nước phát thải lịch sử lớn nhất — tiếp tục vắng mặt năm thứ hai liên tiếp."
+            "Tối Chủ nhật 22/11 tại Antalya, Thổ Nhĩ Kỳ, sau gần 50 giờ quá hạn chót, chủ tịch COP31 Murat Kurum đã gõ búa kết thúc hội nghị khí hậu của Liên Hợp Quốc mà không có văn bản bao quát — thỏa thuận cuối cùng bị bác bỏ trong một phiên toàn thể hỗn loạn. Liên minh châu Âu, qua Bộ trưởng Khí hậu Ireland Darragh O'Brien — nước đang giữ chức chủ tịch luân phiên EU — tuyên bố sẽ không ủng hộ một văn bản 'không nhắc tới nhiên liệu hóa thạch, động lực chính của biến đổi khí hậu'; Panama, Vanuatu và Quần đảo Marshall cũng phản đối. Đây là hội nghị COP đầu tiên kể từ Copenhagen 2009 kết thúc mà không có thỏa thuận chung, đồng thời là hội nghị dài nhất trong lịch sử COP.",
+            "Điểm gây tranh cãi vẫn nguyên vẹn tới phút cuối: trong toàn bộ văn bản không hề xuất hiện các từ 'nhiên liệu hóa thạch', 'dầu', 'than' hay 'loại bỏ dần'. Thay vào đó, văn bản chỉ 'nhắc lại toàn bộ' thỏa thuận COP28 tại Dubai năm 2023, đặt mục tiêu nâng tỉ trọng điện trong tổng tiêu thụ năng lượng lên 35% vào năm 2035 — nhưng không bắt buộc lượng điện tăng thêm phải đến từ năng lượng tái tạo — và kêu gọi mở rộng thu giữ carbon tới quy mô gigatonne vào năm 2035. Văn bản lần đầu tiên trong lịch sử COP thừa nhận thế giới có thể sẽ vượt ngưỡng nóng lên 1,5°C, nhưng mục tiêu 120 tỉ USD tài chính khí hậu mỗi năm — điều các nước đang phát triển đòi hỏi — đã biến mất khỏi bản cuối. Chủ tịch đàm phán Chris Bowen, Bộ trưởng Khí hậu Australia, thừa nhận ông không thể vượt qua 'những lằn ranh đỏ không thể dung hòa'; Tổng thư ký Liên Hợp Quốc António Guterres bày tỏ 'thất vọng sâu sắc'.",
+            "Dù văn bản bao quát sụp đổ, một số quyết định riêng vẫn được thông qua: chương trình Chuyển đổi Công bằng, Quỹ Thích ứng, các quy định về thị trường carbon và minh bạch báo cáo; khoảng 90 chính phủ cũng ký cam kết điện khí hóa toàn cầu của chủ tịch hội nghị. Hội nghị khởi động lộ trình Antalya–Addis Ababa, giao Thổ Nhĩ Kỳ và Ethiopia — chủ nhà COP32 vào tháng 11/2027 — tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Giới quan sát nhận định thất bại này phơi bày rạn nứt sâu trong ngoại giao khí hậu: các nước sản xuất dầu như Saudi Arabia, Nga và Ấn Độ chặn mọi câu chữ về loại bỏ nhiên liệu hóa thạch, trong khi EU và các đảo quốc cho rằng chấp nhận văn bản đó chẳng khác nào 'tẩy xanh' cho nhiên liệu hóa thạch."
           ],
           nguon: [
-            { ten: "Associated Press (via La Nación)", link: "https://www.lanacion.com.ar/usa/turkeys-final-draft-at-un-climate-talks-doesnt-mention-the-fossil-fuels-that-cause-global-warming-nid22112026/" },
-            { ten: "Rappler (Reuters)", link: "https://www.rappler.com/world/global-affairs/cop31-climate-talks-close-final-deal-november-22-2026/" },
-            { ten: "Outlook India", link: "https://www.outlookindia.com/amp/story/international/cop31-antalya-climate-talks-stall-saudi-arabia-fossil-fuel-phase-out-showdown-india-position-cover-decision" }
+            { ten: "Channel News Asia (AFP)", link: "https://www.channelnewsasia.com/world/cop31-climate-talk-collapse-eu-final-draft-political-deal-6572946" },
+            { ten: "The Statesman", link: "https://www.thestatesman.com/world/climate-talks-break-down-as-eu-and-others-reject-cover-decision-1503665698.html/amp" },
+            { ten: "Kuwait Times (AFP)", link: "https://kuwaittimes.com/article/54134/business/climate-deal-collapses-in-chaotic-end-to-cop31/" }
           ],
-          gio: "Chiều, Nov 22"
+          gio: "Sáng, Nov 23"
+        },
+        {
+          tieuDe: "Zelenskyy đồng ý đàm phán ba bên trước Giáng sinh — Mỹ thúc thỏa thuận hòa bình trước tháng 1/2027, Nga vẫn giữ yêu sách lãnh thổ",
+          baiViet: [
+            "Tổng thống Ukraine Volodymyr Zelenskyy ngày 21/11 cho biết Mỹ đã đề xuất tổ chức vòng đàm phán ba bên mới giữa Mỹ, Nga và Ukraine trước Giáng sinh, và Kyiv đã đồng ý. Ông gợi ý cuộc gặp có thể diễn ra bên lề thượng đỉnh G20 tại Miami ngày 14–15/12, dù tới nay Ukraine vẫn chưa nhận được thư mời chính thức từ Washington. Theo ông, trước khi các lãnh đạo ngồi vào bàn, cố vấn an ninh quốc gia ba bên sẽ họp — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và xác định kết quả kỳ vọng, sau đó mới chốt ngày và địa điểm.",
+            "Tờ Financial Times đưa tin chính quyền Trump muốn Kyiv đạt được một thỏa thuận hòa bình với Nga vào đầu tháng 1/2027, trước khi đảng Dân chủ nắm quyền kiểm soát Quốc hội — mốc thời gian khiến Kyiv lo ngại sẽ bị ép chấp nhận thỏa thuận theo điều khoản của Moscow. Hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner đã nối lại đàm phán trong tháng này, với các cuộc gặp ở Abu Dhabi, Moscow, Dublin và Berlin; ông Trump gặp ông Putin bên lề APEC tại Thâm Quyến ngày 19/11 và nói rằng nhà lãnh đạo Nga 'sẵn sàng cho hòa bình'. Một quan chức châu Âu nói sau cuộc gặp với hai đặc phái viên: 'Người Mỹ đang thúc rất mạnh, và có lo ngại rằng sẽ cần rất nhiều nhượng bộ từ Ukraine mới đi tới được thỏa thuận'.",
+            "Vướng mắc cốt lõi vẫn chưa nhúc nhích. Ông Kushner nói hôm 19/11 tại Berlin rằng Nga đã 'thoải mái' với một bảo đảm an ninh cho Ukraine dựa trên Điều 5 của NATO; nhưng chỉ một ngày sau, Thứ trưởng Ngoại giao Nga Sergei Ryabkov gọi mọi công thức 'tư cách thành viên NATO trá hình' là 'không thể chấp nhận được với chúng tôi', và ông Zelenskyy nói ông chưa hề thấy bảo đảm nào trên giấy. Ông Putin yêu cầu Ukraine chấp nhận 'thực tế lãnh thổ' ở vùng Donbas, cam kết không bao giờ gia nhập NATO và giới hạn quy mô quân đội. Vòng đàm phán ba bên đầu tiên sau chín tháng gián đoạn, tại Abu Dhabi ngày 10–11/11, chỉ đạt được thỏa thuận về các bước nhân đạo — trong đó có đợt trao đổi tù binh lớn nhất từ đầu chiến sự — còn đề xuất ngừng bắn của Kyiv đã bị Nga bác bỏ."
+          ],
+          nguon: [
+            { ten: "Chosun Biz (Washington Post)", link: "https://biz.chosun.com/en/en-international/2026/11/22/24VD55WKDBHBBLIGEXY5KQX4DY/" },
+            { ten: "The Jerusalem Post (Financial Times)", link: "https://www.jpost.com/onlybody/article/915625" },
+            { ten: "The Statesman", link: "https://www.thestatesman.com/world/trump-wont-impose-ukraine-peace-deal-kushner-says-after-berlin-talks-1503664633.html/amp" }
+          ],
+          gio: "Sáng, Nov 23"
         },
         {
           tieuDe: "Iran chuẩn bị 14 tàu dầu phá phong tỏa Mỹ ở Hormuz — nhưng 'tàu phá vòng vây' Khat Shekan hóa ra không tồn tại",
@@ -39,26 +53,25 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 22"
         },
-        {
-          tieuDe: "EU và Indonesia ký thỏa thuận thương mại sau 10 năm đàm phán — bỏ thuế hơn 90% hàng hóa, xe điện châu Âu hết mức thuế 50%",
-          baiViet: [
-            "Liên minh châu Âu và Indonesia đã chính thức ký Hiệp định Đối tác Kinh tế Toàn diện (CEPA) cùng Hiệp định Bảo hộ Đầu tư tại Brussels ngày thứ Bảy 21/11, khép lại gần một thập kỷ đàm phán. Chủ tịch Ủy ban châu Âu Ursula von der Leyen và Bộ trưởng Điều phối Kinh tế Indonesia Airlangga Hartarto tham dự lễ ký. Thỏa thuận dự kiến có hiệu lực đầu năm 2027 sau khi Nghị viện châu Âu và quốc hội Indonesia phê chuẩn.",
-            "Hai bên sẽ xóa thuế nhập khẩu với hơn 90% hàng hóa: tới 98,5% hàng xuất khẩu của EU sang Indonesia sẽ được miễn thuế, trong đó thuế ô tô EU — hiện lên tới 50% — sẽ được dỡ bỏ dần trong 5 năm; khoảng 90% hàng xuất khẩu của Indonesia sang EU cũng được miễn thuế, có lợi cho dầu cọ, giày dép, dệt may và thủy sản. Ủy ban châu Âu ước tính thỏa thuận giúp doanh nghiệp EU tiết kiệm hơn 600 triệu euro tiền thuế mỗi năm, và xuất khẩu của EU sang nền kinh tế lớn nhất Đông Nam Á tăng gần 40% trong 15 năm.",
-            "Thỏa thuận còn mở cửa đầu tư vào các lĩnh vực chiến lược như xe điện, điện tử và dược phẩm, và được Brussels xem là một phần trong nỗ lực đa dạng hóa thương mại trước sức ép thuế quan từ Mỹ và cạnh tranh với Trung Quốc. Thương mại hàng hóa hai bên đạt khoảng 29 tỉ euro năm ngoái, tăng 24% trong 10 năm. Dù vậy, thỏa thuận vẫn cần sự phê chuẩn của Nghị viện châu Âu và cả 27 nước thành viên — bước đi không hề chắc chắn trong bối cảnh chính trị châu Âu hiện nay."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/markets/commodities/eu-indonesia-sign-trade-deal-after-10-years-negotiations-2026-11-21/" },
-            { ten: "Channel News Asia", link: "https://www.channelnewsasia.com/world/eu-indonesia-trade-deal-sign-ambitious-6571696" },
-            { ten: "The Straits Times", link: "https://www.straitstimes.com/world/europe/eu-and-indonesia-sign-trade-deal-after-10-years-of-negotiations" }
-          ],
-          gio: "Sáng, Nov 22"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "OECD: tăng trưởng G7 dậm chân tại chỗ ở 0,5% quý III — Mỹ và Anh tăng tốc, Pháp suy giảm, Nhật Bản và Ý đứng yên",
+          baiViet: [
+            "Tăng trưởng kinh tế của nhóm G7 giữ nguyên ở mức 0,5% trong quý III/2026, không cải thiện so với quý II, trong khi GDP toàn khối OECD tăng 0,6% — chậm lại từ 0,7% — theo ước tính sơ bộ Tổ chức Hợp tác và Phát triển Kinh tế (OECD) công bố ngày 19/11 tại Paris. Bức tranh phân hóa rõ rệt: Mỹ tăng tốc lên 0,8% (từ 0,6%) nhờ nhu cầu trong nước, Anh tăng lên 0,7% (từ 0,5%); ngược lại, Pháp suy giảm 0,1% sau khi đứng yên ở quý II, Nhật Bản và Ý không tăng trưởng, Canada chậm lại còn 0,3% (từ 0,8%) và Đức chỉ đạt 0,2% (từ 0,3%).",
+            "Xuất khẩu ròng là điểm yếu chung của hầu hết các nền kinh tế lớn. Xuất khẩu của Mỹ giảm 1,5% trong quý sau khi tăng 1,2% ở quý trước; xuất khẩu Anh tăng chậm lại còn 1,6% và bị nhập khẩu tăng 1,8% vượt qua. Đức ghi nhận đầu tư và xuất khẩu cùng yếu đi, còn Pháp chịu sức ép từ cả xuất khẩu lẫn đầu tư sụt giảm. Tính theo năm, GDP của OECD tăng 1,9%; trong nhóm G7, Mỹ dẫn đầu với 2,1%, tiếp theo là Anh 1,9%, Đức và Nhật Bản 1,2%, Canada 1,0%, Ý 0,8%, còn Pháp âm 0,1%.",
+            "Ireland ghi nhận mức tăng trưởng cao nhất trong khối OECD với 5,5%, dù đã chậm lại từ 10,2% ở quý II. OECD lưu ý số liệu G20 cho quý III chưa có vì thường chậm hơn một quý, và lần công bố GDP quý tiếp theo dự kiến vào tháng 2/2027. Con số này đến trong bối cảnh các nền kinh tế lớn vẫn vật lộn với giá năng lượng cao và căng thẳng thương mại — và là thước đo mới nhất cho thấy G7 đang tăng trưởng theo hai tốc độ khác nhau, với phía bên kia Đại Tây Dương tăng nhanh hơn hẳn châu Âu và Nhật Bản."
+          ],
+          nguon: [
+            { ten: "CEO.com.pl (OECD)", link: "https://ceo.com.pl/en/oecd-gdp-q3-2026-us-uk-france-growth-76946/" },
+            { ten: "SwapUpdate (OECD)", link: "https://www.swapupdate.in/oecd-growth-slows-to-0-6-in-q3-2026-as-major-economies-diverge/" }
+          ],
+          gio: "Sáng, Nov 23"
+        },
         {
           tieuDe: "Nhật Bản đón cái lạnh ở APEC: Takaichi bị Trung Quốc 'đối xử phân biệt', một năm rạn nứt vì câu nói về Đài Loan",
           baiViet: [
@@ -88,20 +101,6 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 22"
         },
         {
-          tieuDe: "Anh và EU chốt thỏa thuận 'tái thiết' hậu Brexit: bỏ rào cản thực phẩm, 100.000 suất đi lại cho giới trẻ mỗi năm",
-          baiViet: [
-            "Thủ tướng Anh Andy Burnham cùng các lãnh đạo cao nhất của Liên minh châu Âu đã chốt ba thỏa thuận lớn tại hội nghị thượng đỉnh ở Brussels ngày thứ Sáu 20/11, được cả hai bên ca ngợi là bước ngoặt trong quan hệ hậu Brexit. Chủ tịch Ủy ban châu Âu Ursula von der Leyen gọi đây là một 'bước ngoặt', còn ông Burnham gọi đó là thỏa thuận 'lịch sử'. Ba thỏa thuận gồm: bãi bỏ phần lớn thủ tục kiểm tra, chứng nhận đối với thực phẩm và nông sản; liên kết hệ thống giao dịch phát thải của hai bên từ năm 2028; và một chương trình trải nghiệm thanh niên cho phép 100.000 người dưới 30 tuổi mỗi bên được sống, làm việc và học tập ở phía bên kia tối đa ba năm.",
-            "Về kinh tế, gói thỏa thuận được kỳ vọng cộng thêm 0,5% GDP cho nước Anh, tương đương 17 tỉ bảng (khoảng 22 tỉ USD) mỗi năm. Hàng xuất khẩu của Anh trị giá 6,5 tỉ bảng — chủ yếu là thép và nhôm — sẽ được miễn thuế carbon biên giới của EU nhờ việc liên kết hệ thống phát thải. Thỏa thuận thực phẩm có hiệu lực từ ngày 1/3/2028, và Anh sẽ trở lại chương trình trao đổi sinh viên Erasmus+ từ năm sau. Ông Burnham cho biết chính phủ sẽ trình luật thực thi lên Quốc hội ngay trong tuần tới, đồng thời thừa nhận gói vừa ký có lẽ là 'giới hạn' đạt được trong nhiệm kỳ Quốc hội hiện tại.",
-            "Dù vậy, vẫn còn một nút thắt chưa gỡ được: học phí đại học cho sinh viên EU tại Anh, hiện lên tới 38.000 bảng mỗi năm so với mức 9.970 bảng của sinh viên Anh. Hai bên đặt hạn sáu tháng để đàm phán, và phía EU dọa sẽ giữ lại việc thực thi thỏa thuận cho tới khi có thống nhất về học phí. Ông Burnham cũng cho biết sẽ có một cuộc 'động não' không chính thức với EU trong 12 tháng tới về quan hệ tương lai, kể cả khả năng gia nhập liên minh thuế quan hay tái gia nhập EU — dù ông nhấn mạnh người dân Anh mới là người quyết định cuối cùng. Các cuộc thăm dò hiện cho thấy đa số người Anh hối tiếc về Brexit, và ông Burnham hy vọng quan hệ thân thiện hơn với EU sẽ giúp ông xây dựng liên minh trung tả để thắng tổng tuyển cử dự kiến năm 2029."
-          ],
-          nguon: [
-            { ten: "Channel News Asia (AFP)", link: "https://www.channelnewsasia.com/world/burnham-eu-brexit-landmark-deal-brussels-summit-6570481" },
-            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/news/2026/11/20/eu-and-uk-seal-reset-deal" },
-            { ten: "AP (via AsiaOne)", link: "https://www.asiaone.com/world/uk-and-eu-strike-deals-trade-and-travel-pledging-rebuild-ties-after-brexit" }
-          ],
-          gio: "Chiều, Nov 21"
-        },
-        {
           tieuDe: "Nga oanh tạc Kyiv dữ dội trong đêm: hơn 400 drone, 111 tên lửa, 3 cầu sông Dnipro hư hại — Berlin kêu gọi ngừng bắn năng lượng mùa đông",
           baiViet: [
             "Rạng sáng thứ Sáu 20/11, Nga đã mở một trong những đợt tấn công lớn nhất trong năm nhằm vào thủ đô Kyiv của Ukraine: hơn 400 máy bay không người lái và 111 tên lửa, gồm 84 tên lửa hành trình và 27 tên lửa đạn đạo, theo số liệu của phía Ukraine. Không quân Ukraine cho biết đã đánh chặn khoảng 380 drone và khoảng 80 tên lửa. Ít nhất 8 người thiệt mạng — 6 người ở Kyiv, trong đó có 3 công nhân cấp nước đang làm nhiệm vụ, và 2 người ở vùng Lviv — cùng 28 người bị thương tại Kyiv. Ba cây cầu bắc qua sông Dnipro bị hư hại gồm cầu Podilsko-Voskresenskyi, cầu Darnytskyi và cầu Phía Nam, cầu Phía Nam chỉ còn cho xe nhẹ lưu thông, trong khi nhiều nhà máy điện hạt nhân phải giảm công suất và 11 khu vực bị mất điện một phần.",
@@ -122,6 +121,20 @@ window.TIN_TUC = {
       ten: "🟠 Tin G20",
       tin: [
         {
+          tieuDe: "G20 Miami đếm ngược 3 tuần: Trump tin mọi lãnh đạo sẽ tới Doral, Hàn Quốc chốt gặp song phương, đình chiến thương mại Mỹ–Trung kéo tới 10/1",
+          baiViet: [
+            "Thượng đỉnh G20 sẽ diễn ra ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral gần Miami, và Tổng thống Mỹ Donald Trump ngày 21/11 tuyên bố 'mọi lãnh đạo hàng đầu thế giới sẽ có mặt', đồng thời cho biết ban nhạc Thủy quân Lục chiến Mỹ sẽ biểu diễn đón các nguyên thủ. Tổng thống Hàn Quốc Lee Jae-myung đã xác nhận sẽ dự và gặp song phương ông Trump bên lề; đình chiến thương mại Mỹ–Trung được gia hạn tới 10/1/2027, mở ra khả năng ông Trump gặp lại Chủ tịch Tập Cận Bình tại Miami sau cuộc gặp ba bên Mỹ–Trung–Nga ở Thâm Quyến ngày 19/11. Theo Bộ Tài chính Mỹ, chủ trương của Washington trong nhiệm kỳ chủ tịch G20 năm nay là tăng trưởng kinh tế, ổn định tài chính, hiện đại hóa quy định và an ninh kinh tế.",
+            "Nhưng hai câu hỏi lớn về thành phần tham dự vẫn treo lơ lửng. Tổng thống Nga Vladimir Putin được mời từ tháng 9 nhưng Điện Kremlin chưa xác nhận ông có tới Florida hay không — hãng Bloomberg dẫn các nguồn tin cho rằng ông nhiều khả năng sẽ vắng mặt, lần đầu tiên kể từ năm 2019. Nam Phi — nước giữ chức chủ tịch G20 năm ngoái — đã bị gạt khỏi danh sách mời, quyết định gây tranh cãi trong khối. Ukraine, vốn không phải thành viên G20, vẫn chưa nhận được thư mời dù Tổng thống Zelenskyy đề xuất họp ba bên bên lề; theo Ngoại trưởng Mỹ Marco Rubio, quyết định có mời Kyiv hay không thuộc về riêng ông Trump.",
+            "Miami đang chuẩn bị cho những ngày phong tỏa: chính quyền thành phố cảnh báo hạn chế giao thông và đỗ xe từ 10–16/12, đặc biệt quanh khu Doral, sân bay quốc tế Miami và Coconut Grove, người dân được khuyên làm việc từ xa và dành thêm thời gian di chuyển. Thượng đỉnh diễn ra chỉ ba tuần sau khi COP31 sụp đổ mà không có thỏa thuận khí hậu — càng làm tăng sức ép lên các lãnh đạo G20 trong việc chứng minh khối vẫn có thể đạt được đồng thuận về những vấn đề lớn của thế giới."
+          ],
+          nguon: [
+            { ten: "UA.NEWS (Anadolu Agency)", link: "https://ua.news/en/dovkolo-svitu/tramp-zaiaviv-shcho-ochikuie-vsikh-lideriv-g20-na-samiti-u-floridi-anadolu-agency" },
+            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" },
+            { ten: "City of Miami Beach", link: "https://www.miamibeachfl.gov/g20/" }
+          ],
+          gio: "Sáng, Nov 23"
+        },
+        {
           tieuDe: "G20 Miami: Putin nhiều khả năng vắng mặt, đặc phái viên Mỹ chuẩn bị sang Moscow — Washington muốn thỏa thuận hòa bình trước tháng 1/2027",
           baiViet: [
             "Tổng thống Nga Vladimir Putin nhiều khả năng sẽ không dự thượng đỉnh G20 ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral ở Miami — theo hãng Bloomberg dẫn các nguồn tin từ Điện Kremlin. Nếu đúng, đây sẽ là kỳ họp lãnh đạo G20 trực tiếp đầu tiên mà Putin vắng mặt kể từ năm 2019. Cùng ngày thứ Bảy, Tổng thống Ukraine Volodymyr Zelenskyy xác nhận Mỹ đã đề xuất tổ chức vòng đàm phán ba bên mới giữa Mỹ, Nga và Ukraine trước Giáng sinh, và Kyiv đã đồng ý. Theo Zelenskyy, các cố vấn an ninh quốc gia ba bên sẽ họp trước — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và nội dung, sau đó mới chốt địa điểm và ngày giờ.",
@@ -134,20 +147,6 @@ window.TIN_TUC = {
             { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-international/2026/11/22/24VD55WKDBHBBLIGEXY5KQX4DY/" }
           ],
           gio: "Chiều, Nov 22"
-        },
-        {
-          tieuDe: "Zelenskyy: đàm phán ba bên Trump–Putin–Zelenskyy có thể diễn ra tại G20 Miami — Mỹ muốn thêm một vòng trước Giáng sinh, Kyiv vẫn chờ thư mời",
-          baiViet: [
-            "Tổng thống Ukraine Volodymyr Zelenskyy ngày 21/11 cho biết một cuộc gặp ba bên giữa ông, Tổng thống Mỹ Donald Trump và Tổng thống Nga Vladimir Putin có thể diễn ra bên lề thượng đỉnh G20 tại Miami ngày 14–15/12 — nhưng tới nay Kyiv vẫn chưa nhận được thư mời chính thức từ Washington. Ông nói nhiều lãnh đạo thế giới đã xác nhận với ông rằng họ đề nghị Mỹ mời Ukraine, và ông hy vọng ông Trump sẽ mời Kyiv với tư cách đồng minh thân cận.",
-            "Theo ông Zelenskyy, Mỹ muốn tổ chức thêm một vòng đàm phán ba bên trước Giáng sinh; trước đó, các cố vấn an ninh quốc gia sẽ họp — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và xác định kết quả kỳ vọng, sau đó mới chốt ngày và địa điểm. Tạp chí The Atlantic trước đó đưa tin ông Trump hy vọng dàn xếp một thỏa thuận hòa bình ngay tại khu nghỉ dưỡng Doral của ông ở Miami, thậm chí hình dung cảnh ông đứng cùng ông Zelenskyy và ông Putin trong lễ ký kết.",
-            "Phía Nga vẫn chưa chốt: ông Putin — được ông Trump mời lại tại thượng đỉnh APEC ở Thâm Quyến ngày 19/11 — cảm ơn lời mời nhưng nói quyết định phụ thuộc vào tình hình trong nước và rằng Moskva cần khôi phục đối thoại với châu Âu trước. Hãng Bloomberg dẫn nguồn Điện Kremlin cho rằng ông Putin nhiều khả năng sẽ vắng mặt. Trong khi đó, quyết định có mời ông Zelenskyy hay không — theo Ngoại trưởng Mỹ Marco Rubio — thuộc về riêng ông Trump. Nếu cả ba cùng có mặt tại Miami, đó sẽ là cuộc gặp trực tiếp đầu tiên giữa các lãnh đạo kể từ khi chiến sự bùng nổ."
-          ],
-          nguon: [
-            { ten: "UNITED24 Media", link: "https://united24media.com/war-in-ukraine/zelenskyy-says-trump-putin-ukraine-talks-possible-at-g20-but-kyiv-still-awaits-invite-24593" },
-            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/the-us-has-not-yet-officially-invited-ukraine-to-the-g20-zelenskyy" },
-            { ten: "UA.NEWS (Der Spiegel)", link: "https://ua.news/en/dovkolo-svitu/prezident-zelenskii-shche-ne-otrimav-zaproshennia-ssha-na-samit-g20-der-spiegel" }
-          ],
-          gio: "Sáng, Nov 22"
         },
       ]
     }
