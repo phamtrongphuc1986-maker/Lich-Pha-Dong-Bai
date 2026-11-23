@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Hai 23/11/2026 — bản tin sáng",
+  capNhat: "Thứ Hai 23/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Đàm phán Geneva ngày đầu: Mỹ–Ukraine thu hẹp bất đồng về kế hoạch 28 điểm, bảo đảm an ninh kiểu NATO vẫn là nút thắt",
+          baiViet: [
+            "Ngày thứ Hai 23/11 tại Geneva, phái đoàn Mỹ và Ukraine đã bước vào vòng đàm phán trực tiếp về kế hoạch hòa bình 28 điểm của Washington — cuộc gặp được xem là bước ngoặt sau nhiều tuần trao đổi qua trung gian. Ngoại trưởng Mỹ Marco Rubio cùng đặc phái viên Steve Witkoff dẫn đầu phía Mỹ; phía Ukraine có Chánh văn phòng Tổng thống Andriy Yermak và Thư ký Hội đồng An ninh Rustem Umerov. Sau phiên làm việc đầu tiên, Yermak mô tả cuộc thảo luận 'hiệu quả' và cho biết hai bên 'đang tiến tới một nền hòa bình công bằng và bền vững', trong khi Rubio nói kế hoạch 26–28 điểm đang được hoàn thiện sau khi tham vấn phía Ukraine và quá trình đã 'tăng tốc đáng kể trong bốn ngày qua'. Đàm phán tiếp tục tới khuya và nối lại vào ngày 24/11; một chuyến thăm Washington của Tổng thống Zelenskyy đang được bàn, tùy kết quả tại Geneva.",
+            "Nút thắt lớn nhất vẫn là bảo đảm an ninh. Đặc phái viên Jared Kushner cho biết Tổng thống Trump cởi mở với một cơ chế bảo đảm kiểu Điều 5 của NATO — tấn công một bên coi như tấn công tất cả — và Moskva 'thoải mái' với ý tưởng đó. Nhưng Zelenskyy nói thẳng hôm thứ Bảy rằng Ukraine chưa nhận được bất kỳ cam kết nào bằng văn bản tương đương Điều 5, và Kyiv đòi hỏi những bảo đảm tồn tại vượt qua nhiệm kỳ của Tổng thống Trump. Trước đó, các nhà đàm phán Mỹ từng hỏi liệu Ukraine có rút khỏi phần Donbas còn kiểm soát để đổi lấy tư cách thành viên NATO hay không; Zelenskyy xác nhận vấn đề đã được nêu nhưng chưa có quyết định cụ thể, và khẳng định Ukraine sẽ không đồng ý từ bỏ lãnh thổ. Các đại diện châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11.",
+            "Kế hoạch 28 điểm — theo các nguồn thạo tin — yêu cầu Ukraine nhượng bộ lãnh thổ đáng kể, gồm Donbas và đóng băng tiền tuyến ở Kherson, Zaporizhzhia, đổi lấy bảo đảm an ninh do Mỹ hậu thuẫn. Trump hôm 22/11 nói kế hoạch 'không phải đề nghị cuối cùng' và thời hạn trả lời trước Lễ Tạ ơn 27/11 đã được nới lỏng. Thủ tướng Ba Lan Donald Tusk tuyên bố sẵn sàng làm việc với kế hoạch nhưng đòi công khai tác giả và nơi soạn thảo; Ngoại trưởng Rubio khẳng định văn bản do Washington soạn, bác bỏ cáo buộc nó chỉ sao chép yêu sách của Nga. Trong lúc đàm phán diễn ra, giao tranh vẫn tiếp tục với các đợt tập kích vào Kyiv, Zaporizhzhia và cầu Kerch — áp lực buộc các bên phải biến những bảo đảm trên giấy thành cơ chế có thể thực thi."
+          ],
+          nguon: [
+            { ten: "UNN", link: "https://unn.ua/en/topics/places/geneva?page=9" },
+            { ten: "Statement (Politico)", link: "https://statement.com/1373387/us-floats-nato-style-guarantee-for-kyiv" },
+            { ten: "FastBull", link: "https://www.fastbull.com/news-detail/trumps-28point-ukraine-peace-plan-sparks-controversy-uncertainty-4355997_0" }
+          ],
+          gio: "Chiều, Nov 23"
+        },
+        {
+          tieuDe: "Hậu COP31: phe đối lập Australia đòi Bộ trưởng Bowen từ chức, đảo quốc Thái Bình Dương 'thất vọng toàn diện', Al Gore kêu gọi cải tổ COP",
+          baiViet: [
+            "Một ngày sau khi COP31 sụp đổ tại Antalya, cuộc tranh cãi về trách nhiệm đã nổ ra ngay trong nội bộ nước đồng chủ nhà Australia. Phe đối lập tại quốc hội Australia hôm thứ Hai 23/11 yêu cầu Bộ trưởng Khí hậu Chris Bowen — người chủ trì đàm phán của hội nghị — từ chức. 'Bộ trưởng năng lượng này phải ra đi vì ông ta là một thất bại hoàn toàn', nghị sĩ Angus Taylor nói với báo giới, đổ lỗi trực tiếp cho Bowen về việc hội nghị kết thúc mà không có thỏa thuận bao quát. Thủ tướng Anthony Albanese không trả lời trực tiếp câu hỏi có cách chức Bowen hay không, trong khi Australia đã chi 150 triệu đô la Australia (khoảng 99 triệu USD) để tổ chức COP31. Bản thân Bowen thừa nhận ông không thể vượt qua 'những lằn ranh đỏ không thể dung hòa', trong bối cảnh 'môi trường địa chính trị phức tạp và căng thẳng nhất trong ký ức còn sống'.",
+            "Các đảo quốc Thái Bình Dương — những nước chịu rủi ro hiện hữu từ nước biển dâng — bày tỏ thất vọng sâu sắc nhất. Phái đoàn Quần đảo Marshall tuyên bố họ 'đã bị bỏ rơi từ mọi phía'. Trung Quốc, nước phát thải lớn nhất thế giới nhưng đồng thời là siêu cường năng lượng sạch, gọi kết quả là 'thất vọng sâu sắc' nhưng khẳng định không vì thế mà mất niềm tin vào tiến trình đa phương; Ấn Độ nói đã tham gia 'một cách xây dựng và không mệt mỏi tới phút cuối'. Cựu Phó Tổng thống Mỹ Al Gore gay gắt hơn: 'Thật quá đáng khi một nhóm nhỏ các quốc gia dầu mỏ có quyền phủ quyết đối với bất kỳ câu chữ nào về nhiên liệu hóa thạch', và cho rằng tiến trình COP 'đang cần cải cách đáng kể'.",
+            "COP31 đi vào lịch sử với hai kỷ lục buồn: hội nghị dài nhất từ trước tới nay và lần đầu tiên kể từ Copenhagen 2009 kết thúc mà không có văn bản bao quát. Điểm đổ vỡ vẫn là nhiên liệu hóa thạch: các nước sản xuất dầu như Saudi Arabia và Nga chặn mọi câu chữ về loại bỏ dần, trong khi EU cùng Panama, Quần đảo Marshall và Na Uy từ chối một văn bản 'không nhắc tới nhiên liệu hóa thạch'. Dù vậy, một số quyết định riêng vẫn được thông qua — chương trình Chuyển đổi Công bằng, Quỹ Thích ứng, quy định thị trường carbon — và khoảng 90 chính phủ ký cam kết điện khí hóa toàn cầu. Lộ trình Antalya–Addis Ababa giao Thổ Nhĩ Kỳ và Ethiopia, chủ nhà COP32 tháng 11/2027, tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Câu hỏi lớn nhất để lại sau Antalya: liệu COP còn đủ sức làm nơi ra quyết định, hay sẽ chỉ còn là diễn đàn ghi nhận bất đồng."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/sustainability/cop/cop-flop-triggers-backlash-australia-pacific-nations-express-despair-2026-11-23/" },
+            { ten: "The Daily Star (AFP)", link: "https://www.thedailystar.net/news/world/news/climate-talks-collapse-chaotic-end-cop31-4330931" },
+            { ten: "CNN", link: "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure?cid=external-feeds_iluminar_meta" }
+          ],
+          gio: "Chiều, Nov 23"
+        },
         {
           tieuDe: "COP31 sụp đổ trong hỗn loạn tối Chủ nhật: thỏa thuận cuối cùng bị bác bỏ, không có văn bản bao quát — hội nghị khí hậu dài nhất lịch sử",
           baiViet: [
@@ -25,40 +53,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 23"
         },
-        {
-          tieuDe: "Zelenskyy đồng ý đàm phán ba bên trước Giáng sinh — Mỹ thúc thỏa thuận hòa bình trước tháng 1/2027, Nga vẫn giữ yêu sách lãnh thổ",
-          baiViet: [
-            "Tổng thống Ukraine Volodymyr Zelenskyy ngày 21/11 cho biết Mỹ đã đề xuất tổ chức vòng đàm phán ba bên mới giữa Mỹ, Nga và Ukraine trước Giáng sinh, và Kyiv đã đồng ý. Ông gợi ý cuộc gặp có thể diễn ra bên lề thượng đỉnh G20 tại Miami ngày 14–15/12, dù tới nay Ukraine vẫn chưa nhận được thư mời chính thức từ Washington. Theo ông, trước khi các lãnh đạo ngồi vào bàn, cố vấn an ninh quốc gia ba bên sẽ họp — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và xác định kết quả kỳ vọng, sau đó mới chốt ngày và địa điểm.",
-            "Tờ Financial Times đưa tin chính quyền Trump muốn Kyiv đạt được một thỏa thuận hòa bình với Nga vào đầu tháng 1/2027, trước khi đảng Dân chủ nắm quyền kiểm soát Quốc hội — mốc thời gian khiến Kyiv lo ngại sẽ bị ép chấp nhận thỏa thuận theo điều khoản của Moscow. Hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner đã nối lại đàm phán trong tháng này, với các cuộc gặp ở Abu Dhabi, Moscow, Dublin và Berlin; ông Trump gặp ông Putin bên lề APEC tại Thâm Quyến ngày 19/11 và nói rằng nhà lãnh đạo Nga 'sẵn sàng cho hòa bình'. Một quan chức châu Âu nói sau cuộc gặp với hai đặc phái viên: 'Người Mỹ đang thúc rất mạnh, và có lo ngại rằng sẽ cần rất nhiều nhượng bộ từ Ukraine mới đi tới được thỏa thuận'.",
-            "Vướng mắc cốt lõi vẫn chưa nhúc nhích. Ông Kushner nói hôm 19/11 tại Berlin rằng Nga đã 'thoải mái' với một bảo đảm an ninh cho Ukraine dựa trên Điều 5 của NATO; nhưng chỉ một ngày sau, Thứ trưởng Ngoại giao Nga Sergei Ryabkov gọi mọi công thức 'tư cách thành viên NATO trá hình' là 'không thể chấp nhận được với chúng tôi', và ông Zelenskyy nói ông chưa hề thấy bảo đảm nào trên giấy. Ông Putin yêu cầu Ukraine chấp nhận 'thực tế lãnh thổ' ở vùng Donbas, cam kết không bao giờ gia nhập NATO và giới hạn quy mô quân đội. Vòng đàm phán ba bên đầu tiên sau chín tháng gián đoạn, tại Abu Dhabi ngày 10–11/11, chỉ đạt được thỏa thuận về các bước nhân đạo — trong đó có đợt trao đổi tù binh lớn nhất từ đầu chiến sự — còn đề xuất ngừng bắn của Kyiv đã bị Nga bác bỏ."
-          ],
-          nguon: [
-            { ten: "Chosun Biz (Washington Post)", link: "https://biz.chosun.com/en/en-international/2026/11/22/24VD55WKDBHBBLIGEXY5KQX4DY/" },
-            { ten: "The Jerusalem Post (Financial Times)", link: "https://www.jpost.com/onlybody/article/915625" },
-            { ten: "The Statesman", link: "https://www.thestatesman.com/world/trump-wont-impose-ukraine-peace-deal-kushner-says-after-berlin-talks-1503664633.html/amp" }
-          ],
-          gio: "Sáng, Nov 23"
-        },
-        {
-          tieuDe: "Iran chuẩn bị 14 tàu dầu phá phong tỏa Mỹ ở Hormuz — nhưng 'tàu phá vòng vây' Khat Shekan hóa ra không tồn tại",
-          baiViet: [
-            "Iran đang chuẩn bị đưa 14 tàu chở dầu thách thức phong tỏa của Hải quân Mỹ tại eo biển Hormuz — theo nghị sĩ Vahid Ahmadi, thành viên Ủy ban An ninh Quốc gia của Quốc hội Iran. Ông Ahmadi cho biết các tàu đã tập trung gần đảo Kharg, đảo xuất khẩu dầu chính của Iran, thủy thủ đã được phân công và cờ Iran đã kéo lên; phương án hộ tống quân sự nằm trong số các biện pháp đang cân nhắc, và các chính phủ trong khu vực — trong đó có Qatar và Oman — đã được thông báo. Hãng phân tích Kpler cho biết khoảng 43 triệu thùng dầu Iran đang mắc kẹt trong vùng phong tỏa, với khoảng 20 tàu neo đậu quanh Kharg. Tuy nhiên, chưa có xác nhận độc lập nào cho thấy đoàn tàu đã khởi hành, cũng như chưa rõ danh tính các tàu, điểm đến hay thời điểm vượt phong tỏa.",
-            "Căng thẳng đã leo thang rõ rệt trong ngày thứ Bảy: cơ quan hàng hải Anh UKMTO ghi nhận hai tàu chở dầu bị tấn công ở Hormuz — một chiếc trúng vật thể lạ ở đuôi tàu, chiếc còn lại trúng buồng máy — không có thương vong. Quân đội Iran nói một tàu đã bốc cháy sau khi đâm phải thủy lôi trong khu vực cấm phía đông eo biển, đồng thời tuyên bố bắn rơi một máy bay không người lái MQ-9 của Mỹ trên đảo Qeshm. Thứ trưởng Ngoại giao Kazem Gharibabadi tuyên bố Tehran sẽ thực hiện 'mọi hành động cần thiết' để phá phong tỏa — mà Iran coi là hành động chiến tranh — và cho biết phái đoàn Qatar đã có hai giờ đàm phán tại Tehran tối thứ Sáu. Cùng ngày, Iran thông báo cắt điện luân phiên từ Chủ nhật vì thiếu nhiên liệu và hạ tầng năng lượng hư hại trong chiến tranh.",
-            "Giữa lúc đó, một diễn biến kỳ lạ đã bị vạch trần sáng Chủ nhật: dữ liệu theo dõi tàu MarineTraffic cho thấy một tàu mang tên 'Khat Shekan' — tạm dịch 'kẻ phá vòng vây' — đang di chuyển với tốc độ 8,5 hải lý/giờ qua vịnh Ba Tư về phía vịnh Oman, dường như đang thách thức phong tỏa. Nhưng dịch vụ theo dõi tàu TankerTrackers kiểm chứng bằng ảnh vệ tinh và khẳng định: không có con tàu nào ở vị trí đó. 'Tàu này thậm chí không tồn tại', TankerTrackers viết — toàn bộ tín hiệu AIS là giả mạo, với số hiệu nhận dạng trùng với tàu Stolt Bobcat treo cờ Liberia. Kể từ khi chiến tranh Mỹ–Israel với Iran bùng phát cuối tháng 2, hơn 120 tàu thương mại đã bị tấn công trong và quanh eo biển, khiến ít nhất 24 thuyền viên thiệt mạng theo Tổ chức Hàng hải Quốc tế, còn lưu lượng hàng hải qua Hormuz vẫn thấp hơn khoảng 65% so với trước chiến tranh."
-          ],
-          nguon: [
-            { ten: "Gulf News", link: "https://gulfnews.com/amp/story/world%2Fmena%2Firan-readies-14-tankers-to-break-us-blockade-what-happens-if-they-try-1.500756460" },
-            { ten: "The Week", link: "https://www.theweek.in/news/middle-east/2026/11/22/the-mystery-of-khat-shekan-alleged-iranian-oil-tanker-challenging-us-blockade-does-not-exist.amp.html" },
-            { ten: "Arab News Japan", link: "https://www.arabnews.jp/en/middle-east/maritime-agency-says-2-tankers-struck-in-hormuz-as-iran-says-ship-on-fire-3001561" }
-          ],
-          gio: "Chiều, Nov 22"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Phố Wall rung chuyển: Nasdaq có tuần tệ nhất kể từ 2020, S&P rơi vào vùng điều chỉnh — hợp đồng tương lai bật lại sáng thứ Hai",
+          baiViet: [
+            "Thị trường chứng khoán Mỹ vừa trải qua tuần tồi tệ nhất kể từ thời Covid. Chỉ số S&P 500 giảm 3,7% trong phiên thứ Sáu — phiên giảm thứ bảy liên tiếp — chính thức rơi vào vùng điều chỉnh, tức mất hơn 10% so với đỉnh kỷ lục ngày 6/10. Nasdaq Composite lao dốc 5,3% trong phiên và khép tuần giảm mạnh nhất kể từ tháng 3/2020, đồng thời rơi xuống dưới mức đầu năm; Nasdaq 100 giảm 5,6%, Dow Jones mất 1,9%. Chỉ số sợ hãi VIX vọt lên cao nhất kể từ tháng 4/2025. Cổ phiếu Nvidia — biểu tượng của cơn sốt AI — giảm 14% trong phiên, phiên giảm thứ chín trong mười phiên gần nhất, sau tin Ủy ban Chứng khoán Mỹ và bang California mở điều tra về các phát ngôn liên quan tới bán chip sang Trung Quốc. Ngay cả Anthropic — vừa IPO kỷ lục 81,31 tỉ USD hôm thứ Năm với giá 83 USD/cổ phiếu — cũng giảm 8,5% xuống 88,91 USD trong phiên thứ Sáu.",
+            "Nguyên nhân sâu xa là nghi ngờ ngày càng lớn về lợi nhuận từ làn sóng đầu tư AI: hàng trăm tỉ USD đổ vào trung tâm dữ liệu và hạ tầng tính toán, phần lớn vay nợ, trong khi giới đầu tư đặt câu hỏi liệu dòng tiền thu về có đủ nhanh để trả nợ và biện minh cho định giá cao ngất hay không. Các nhà phân tích JPMorgan gọi đợt bán tháo là 'sự kiện giảm đòn bẩy AI trong bối cảnh tâm lý yếu', nhưng vẫn tin vào 'siêu chu kỳ AI' về dài hạn; bộ phận giao dịch của Goldman Sachs thì cho rằng đợt giảm đã tạo cơ hội mua vào hấp dẫn. Cú sập cũng khiến nhà đầu tư giảm kỳ vọng về một đợt tăng lãi suất của Fed trong tháng 12 và đổ tiền vào trái phiếu kho bạc.",
+            "Sáng thứ Hai 23/11, hợp đồng tương lai Mỹ bật lại mạnh: Nasdaq 100 tăng khoảng 2,6–3,45%, S&P 500 tăng 1,9–2,8%, Dow tăng khoảng 1,6–1,9%. Nhưng châu Á vẫn chìm trong sắc đỏ: chỉ số Kospi của Hàn Quốc giảm 5,8% xuống 4.586,80 điểm, buộc nhà chức trách kích hoạt cơ chế ngắt mạch 'sidecar' và chuẩn bị quỹ cứu trợ khoảng 8 tỉ USD; Samsung mất 5,5%, SK Hynix giảm 4,9%; Hang Seng mất 1,8%, Thượng Hải giảm 1,4%, trong khi thị trường Tokyo đóng cửa nghỉ lễ. Đồng yên giao dịch quanh 158,88–159,01 đổi một USD. Giới quan sát nhận định đợt bật lại sáng thứ Hai mới chỉ là hồi phục kỹ thuật — câu hỏi về định giá AI vẫn còn nguyên trước mắt."
+          ],
+          nguon: [
+            { ten: "MoneyControl", link: "https://www.moneycontrol.com/news/business/markets/nasdaq-futures-surge-nearly-3-s-p-500-futures-jump-over-2-after-worst-tech-selloff-since-2020-14086793.html" },
+            { ten: "Swissinfo (Bloomberg)", link: "https://www.swissinfo.ch/eng/nasdaq%2c-s%26p-500-futures-bounce-after-fridays-rout%3a-markets-wrap/92421262" },
+            { ten: "Siasat (AP)", link: "https://www.siasat.com/asian-shares-mostly-fall-after-sp-500-drops-3-7-pc-3584271/" }
+          ],
+          gio: "Chiều, Nov 23"
+        },
         {
           tieuDe: "OECD: tăng trưởng G7 dậm chân tại chỗ ở 0,5% quý III — Mỹ và Anh tăng tốc, Pháp suy giảm, Nhật Bản và Ý đứng yên",
           baiViet: [
@@ -86,40 +100,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 22"
         },
-        {
-          tieuDe: "California rung chuyển hai ngày liên tiếp: động đất 5,0 ở Pinnacles, 3,9 đánh thức Los Angeles, thêm dư chấn 3,3 ngoài khơi San Pedro",
-          baiViet: [
-            "Nam và Trung California đã trải qua hai ngày địa chấn dồn dập cuối tuần này. Trận mạnh nhất — 5,0 độ — xảy ra lúc 22h49 thứ Năm 19/11 gần Pinnacles, hạt San Benito, sau hai dư chấn báo trước; hệ thống cảnh báo sớm ShakeAlert phát cảnh báo chưa đầy 5 giây sau khi động đất bắt đầu. Khoảng 4 tiếng rưỡi sau, lúc 3h25 sáng thứ Sáu 20/11, một trận 3,9 độ làm rung chuyển khu vực Los Angeles, tâm chấn cách thành phố Commerce khoảng 1 km, sâu khoảng 15,5 km — gần 15.000 người đã báo cáo với Cục Khảo sát Địa chất Mỹ (USGS) rằng họ cảm nhận được rung lắc.",
-            "Sáng thứ Bảy 21/11, thêm một trận 3,3 độ ngoài khơi San Pedro lúc 6h09, sâu khoảng 11 km, tiếp nối chuỗi dư chấn trong khu vực. Sở Cứu hỏa Los Angeles đã kiểm tra toàn bộ 106 trạm và báo cáo không có thiệt hại lớn về kết cấu hay hạ tầng, không có thương vong. USGS đánh giá cả hai trận chính ở mức cảnh báo xanh — thiệt hại và thương vong dự kiến ở mức thấp.",
-            "Các nhà địa chấn nhấn mạnh hai trận động đất chính cách nhau khoảng 380 km và không có bằng chứng liên quan trực tiếp tới nhau; trận Commerce được xác định là động đất nén trên một đứt gãy ngầm dưới lòng chảo Los Angeles — cùng kiểu đứt gãy từng gây ra trận Whittier Narrows chết người năm 1987. USGS dự báo khoảng 51% khả năng có dư chấn từ 3 độ trở lên trong tuần tới ở khu vực Commerce. Chuỗi rung lắc là lời nhắc rằng California — dù có hệ thống cảnh báo sớm hiện đại bậc nhất — vẫn sống chung với rủi ro địa chấn thường trực."
-          ],
-          nguon: [
-            { ten: "New York Post", link: "https://nypost.com/2026/11/21/us-news/3-3-magnitude-earthquake-strikes-off-la-coast/" },
-            { ten: "Nationale", link: "https://www.nacionale.com/en/articles/earthquake-los-angeles-today-4-4-commerce-was-that-an-earthquake-november-20" },
-            { ten: "Fish4News", link: "https://fish4news.co.uk/california-earthquakes-pinnacles-commerce-november-2026/" }
-          ],
-          gio: "Sáng, Nov 22"
-        },
-        {
-          tieuDe: "Nga oanh tạc Kyiv dữ dội trong đêm: hơn 400 drone, 111 tên lửa, 3 cầu sông Dnipro hư hại — Berlin kêu gọi ngừng bắn năng lượng mùa đông",
-          baiViet: [
-            "Rạng sáng thứ Sáu 20/11, Nga đã mở một trong những đợt tấn công lớn nhất trong năm nhằm vào thủ đô Kyiv của Ukraine: hơn 400 máy bay không người lái và 111 tên lửa, gồm 84 tên lửa hành trình và 27 tên lửa đạn đạo, theo số liệu của phía Ukraine. Không quân Ukraine cho biết đã đánh chặn khoảng 380 drone và khoảng 80 tên lửa. Ít nhất 8 người thiệt mạng — 6 người ở Kyiv, trong đó có 3 công nhân cấp nước đang làm nhiệm vụ, và 2 người ở vùng Lviv — cùng 28 người bị thương tại Kyiv. Ba cây cầu bắc qua sông Dnipro bị hư hại gồm cầu Podilsko-Voskresenskyi, cầu Darnytskyi và cầu Phía Nam, cầu Phía Nam chỉ còn cho xe nhẹ lưu thông, trong khi nhiều nhà máy điện hạt nhân phải giảm công suất và 11 khu vực bị mất điện một phần.",
-            "Đợt oanh tạc diễn ra chỉ vài giờ sau hai cuộc gặp thượng đỉnh cùng ngày 19/11. Tại Thâm Quyến, ông Putin tuyên bố Moskva sẽ không còn tuân thủ lệnh ngừng bắn năng lượng sau khi Ukraine tập kích cầu Kerch nối Nga với Crimea — cây cầu này đã bị đánh trúng ba lần trong tuần (16, 17 và 19/11). Cùng lúc tại Berlin, hơn 25 nhà lãnh đạo 'Liên minh Tự nguyện' do Thủ tướng Đức Friedrich Merz chủ trì, cùng Tổng thống Pháp Emmanuel Macron, Thủ tướng Anh Andy Burnham và Tổng thống Zelenskyy, đã ra tuyên bố chung kêu gọi Nga đồng ý ngừng bắn năng lượng trong mùa đông như bước đầu tiên, tăng cường phòng không cho Ukraine, đồng thời tái khẳng định cam kết viện trợ quân sự khoảng 80 tỉ USD của NATO và khoản vay 90 tỉ euro của EU tới cuối 2027. Hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner dự họp, còn ông Trump gọi điện vào cuộc họp sau cuộc gặp riêng 40 phút với ông Putin.",
-            "Sự đối lập giữa hai diễn biến trong cùng một ngày nói lên tất cả: Berlin coi lệnh ngừng bắn năng lượng là cánh cửa mở đầu cho hòa đàm, còn Moskva đáp trả bằng đòn đánh trực diện vào hạ tầng năng lượng và giao thông của Kyiv ngay trong đêm. Kyiv khẳng định mọi mục tiêu bị đánh đều là hạ tầng dân sự — nhà ở, nước sạch và điện — trong khi Moskva nói đã đánh trúng các cơ sở công nghiệp quân sự. Đáng chú ý, một số vật thể bay còn rơi xuống khu vực Lublin của Ba Lan, kích hoạt báo động không kích, cho thấy đòn tấn công đã vượt ra ngoài biên giới Ukraine."
-          ],
-          nguon: [
-            { ten: "Deccan Herald (Reuters)", link: "https://www.deccanherald.com/amp/story/world/europe/european-leaders-say-russia-cannot-outlast-ukraine-allies-support-4224767" },
-            { ten: "Ukrinform", link: "https://www.ukrinform.net/rubric-politics/4186635-coalition-of-the-willing-leaders-urge-russia-to-agree-to-winter-energy-truce.html" },
-            { ten: "Tribune (Pakistan)", link: "https://tribune.com.pk/story/2641297/europe-vows-to-sustain-ukraine-support" }
-          ],
-          gio: "Sáng, Nov 21"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami mở rộng danh sách khách mời: Armenia, Việt Nam cùng 10 nước khác được mời — Nam Phi vắng mặt, Ba Lan có tên",
+          baiViet: [
+            "Danh sách khách mời của Hội nghị Thượng đỉnh G20 tại Miami ngày 14–15/12 tiếp tục dài thêm. Armenia đã nhận lời mời tham dự với tư cách nước khách mời — Thủ tướng Nikol Pashinyan sẽ trực tiếp tới Miami, theo thông báo của ông tại Yerevan. Cùng với Armenia, các nước được mời gồm Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, Các Tiểu vương quốc Arab Thống nhất, Uzbekistan và Việt Nam. Liên minh châu Phi và Liên minh châu Âu cũng sẽ tham dự với tư cách thành viên và khách mời của nhóm.",
+            "Điểm đáng chú ý nhất trong danh sách do phía Mỹ công bố: Nam Phi vắng mặt. Tổng thống Trump đã tuyên bố từ tháng 11/2025 rằng Nam Phi sẽ không được mời tới Miami, sau khi Mỹ tẩy chay Hội nghị Thượng đỉnh G20 tại Johannesburg ngày 22–23/11/2025. Ngược lại, Ba Lan xuất hiện trong danh sách dù không phải thành viên thường trực của G20. Việc sắp xếp khách mời cho thấy Washington đang định hình lại 'bàn tròn' của mình: mở rộng sang các đối tác được chọn, đồng thời giữ nguyên lập trường cứng rắn với Pretoria.",
+            "Hội nghị sẽ diễn ra tại khu nghỉ dưỡng Trump National Doral, với các cuộc họp chuẩn bị bắt đầu quanh ngày 10/12. Trump tuyên bố hôm 21/11 rằng 'mọi lãnh đạo hàng đầu thế giới sẽ tới', và ban nhạc Thủy quân Lục chiến Mỹ sẽ biểu diễn đón khách; Tổng thống Hàn Quốc Lee Jae-myung đã chốt gặp song phương bên lề. Việc Tổng thống Nga Vladimir Putin có tới hay không vẫn chưa được Điện Kremlin xác nhận, trong khi Trump nói ông sẽ cân nhắc mời cả Tổng thống Ukraine Zelenskyy. Thành phố Miami Beach cảnh báo các biện pháp an ninh và hạn chế giao thông từ ngày 10 tới 16/12, đồng thời kêu gọi người dân chủ động sắp xếp đi lại. Chương trình nghị sự nối tiếp cuộc gặp ba bên Mỹ–Trung–Nga đầu tiên tại Thâm Quyến ngày 19/11, trong bối cảnh đình chiến thương mại Mỹ–Trung được kéo dài tới ngày 10/1/2027."
+          ],
+          nguon: [
+            { ten: "Moldpres (Armenpress)", link: "https://www.moldpres.md/eng/external/armenia-invited-to-participate-in-g20-summit-in-miami" },
+            { ten: "EIN News (G20 monitoring)", link: "https://g20.einnews.com/news/g20-leaders" },
+            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" }
+          ],
+          gio: "Chiều, Nov 23"
+        },
         {
           tieuDe: "G20 Miami đếm ngược 3 tuần: Trump tin mọi lãnh đạo sẽ tới Doral, Hàn Quốc chốt gặp song phương, đình chiến thương mại Mỹ–Trung kéo tới 10/1",
           baiViet: [
