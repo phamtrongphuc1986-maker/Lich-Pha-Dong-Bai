@@ -1,9 +1,9 @@
-const CACHE = "pha-dong-bai-v74";
+const CACHE = "pha-dong-bai-v75";
 self.addEventListener("install", (event) => {
   self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE).then((cache) =>
-      cache.addAll(["./", "./index.html", "./style.css", "./script.js", "./dich-en.js", "./icon-512.png", "./tin-tuc.html"])
+      cache.addAll(["./", "./index.html", "./style.css", "./script.js", "./dich-en.js", "./icon-512.png", "./tin-tuc.html", "./game.html"])
     )
   );
 });
