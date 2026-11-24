@@ -5,12 +5,26 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Ba 24/11/2026 — bản tin sáng",
+  capNhat: "Thứ Ba 24/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Geneva ngày 2: Mỹ–Ukraine ra tuyên bố chung — thỏa thuận tương lai 'phải bảo vệ toàn vẹn chủ quyền', Erdogan điện đàm với Putin",
+          baiViet: [
+            "Sau một ngày họp kín tại Geneva, Mỹ và Ukraine đã ra tuyên bố chung vào tối Chủ nhật 23/11, khẳng định mọi thỏa thuận tương lai nhằm chấm dứt chiến tranh với Nga 'phải bảo vệ toàn vẹn chủ quyền của Ukraine và mang lại một nền hòa bình bền vững, công bằng'. Tuyên bố cho biết hai bên đã soạn ra 'một khung hòa bình cập nhật và tinh chỉnh' sau các cuộc thảo luận mà cả hai phía đều mô tả là 'mang tính xây dựng, tập trung và tôn trọng lẫn nhau', đánh dấu 'tiến triển đáng kể' trong việc thu hẹp bất đồng và xác định các bước tiếp theo. Ngoại trưởng Mỹ Marco Rubio gọi đây là 'tiến triển to lớn' và nói những vấn đề còn mở 'không phải là không thể vượt qua', đồng thời cho biết Tổng thống Trump 'khá hài lòng' với báo cáo từ Geneva. Trưởng đoàn Ukraine Andriy Yermak cho biết bản dự thảo mới 'đã phản ánh hầu hết các ưu tiên then chốt của Ukraine'.",
+            "Bản khung mới ra đời sau khi kế hoạch 28 điểm ban đầu của Washington vấp phải chỉ trích là quá thiên về Moskva: văn bản gốc yêu cầu Ukraine nhượng lãnh thổ ở Donbas và Crimea, cắt giảm quân đội và cam kết không gia nhập NATO. Bản đối trọng 24 điểm do Anh, Đức và Pháp trình cùng ngày đã sửa những điểm này — đàm phán lãnh thổ xuất phát từ tuyến tiếp xúc hiện tại, quân đội thời bình giữ 800.000 người, giữ ngỏ khả năng gia nhập NATO — và theo các nguồn thạo tin, phần lớn đã được đưa vào bản khung cập nhật. Hạn chót 27/11 mà ông Trump đặt ra trước Lễ Tạ ơn cũng được nới lỏng: ông Rubio nói 'hạn chót là chúng tôi muốn hoàn thành càng sớm càng tốt', và một chuyến thăm Washington của Tổng thống Zelenskyy vào tuần tới đang được bàn để thảo luận chi tiết với ông Trump. Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan dự kiến điện đàm với Tổng thống Nga Vladimir Putin trong ngày thứ Ba 24/11 về nỗ lực hòa bình.",
+            "Trong lúc các nhà ngoại giao họp, chiến sự vẫn tiếp diễn: một vụ tập kích bằng máy bay không người lái của Nga vào thành phố Kharkiv đã khiến 4 người thiệt mạng, theo thị trưởng thành phố. Điện Kremlin tới nay vẫn chưa lên tiếng về cả bản kế hoạch gốc lẫn bản khung cập nhật, và Moskva vẫn chưa xác nhận có chấp nhận ngồi vào bàn hay không. Các nhà đàm phán châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11, trong khi các lãnh đạo châu Âu và châu Phi đang họp thượng đỉnh tại Luanda, Angola — nơi vấn đề Ukraine cũng nằm trong chương trình nghị sự khẩn cấp. Giới quan sát nhận định Geneva đã cho Kyiv thêm thời gian và một văn bản bớt bất lợi hơn, nhưng nút thắt cuối cùng vẫn là Moskva, bên mà theo các nguồn thạo tin vẫn giữ nguyên yêu sách lãnh thổ."
+          ],
+          nguon: [
+            { ten: "MyRepublica (AFP)", link: "https://myrepublica.nagariknetwork.com/news/washington-kyiv-say-a-peace-deal-must-fully-uphold-ukraine-sovereignty-61-69.html" },
+            { ten: "Panorama (Reuters)", link: "https://en.panorama.com.al/diskutimet-ne-gjeneve-per-paqe-shba-propozimi-eshte-perditesuar-per-te-mbrojtur-plotesisht-sovranitetin-e-ukraines/" },
+            { ten: "Inquirer (AFP)", link: "https://globalnation.inquirer.net/299518/us-hails-significant-step-forward-in-ukraine-peace-framework-talks" }
+          ],
+          gio: "Chiều, Nov 24"
+        },
         {
           tieuDe: "Geneva ngày 2: châu Âu đưa bản đối trọng 24 điểm — không nhượng Donbas, quân đội Ukraine giữ 800.000 người, Nga có thể trở lại G8",
           baiViet: [
@@ -39,26 +53,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 24"
         },
-        {
-          tieuDe: "Đàm phán Geneva ngày đầu: Mỹ–Ukraine thu hẹp bất đồng về kế hoạch 28 điểm, bảo đảm an ninh kiểu NATO vẫn là nút thắt",
-          baiViet: [
-            "Ngày thứ Hai 23/11 tại Geneva, phái đoàn Mỹ và Ukraine đã bước vào vòng đàm phán trực tiếp về kế hoạch hòa bình 28 điểm của Washington — cuộc gặp được xem là bước ngoặt sau nhiều tuần trao đổi qua trung gian. Ngoại trưởng Mỹ Marco Rubio cùng đặc phái viên Steve Witkoff dẫn đầu phía Mỹ; phía Ukraine có Chánh văn phòng Tổng thống Andriy Yermak và Thư ký Hội đồng An ninh Rustem Umerov. Sau phiên làm việc đầu tiên, Yermak mô tả cuộc thảo luận 'hiệu quả' và cho biết hai bên 'đang tiến tới một nền hòa bình công bằng và bền vững', trong khi Rubio nói kế hoạch 26–28 điểm đang được hoàn thiện sau khi tham vấn phía Ukraine và quá trình đã 'tăng tốc đáng kể trong bốn ngày qua'. Đàm phán tiếp tục tới khuya và nối lại vào ngày 24/11; một chuyến thăm Washington của Tổng thống Zelenskyy đang được bàn, tùy kết quả tại Geneva.",
-            "Nút thắt lớn nhất vẫn là bảo đảm an ninh. Đặc phái viên Jared Kushner cho biết Tổng thống Trump cởi mở với một cơ chế bảo đảm kiểu Điều 5 của NATO — tấn công một bên coi như tấn công tất cả — và Moskva 'thoải mái' với ý tưởng đó. Nhưng Zelenskyy nói thẳng hôm thứ Bảy rằng Ukraine chưa nhận được bất kỳ cam kết nào bằng văn bản tương đương Điều 5, và Kyiv đòi hỏi những bảo đảm tồn tại vượt qua nhiệm kỳ của Tổng thống Trump. Trước đó, các nhà đàm phán Mỹ từng hỏi liệu Ukraine có rút khỏi phần Donbas còn kiểm soát để đổi lấy tư cách thành viên NATO hay không; Zelenskyy xác nhận vấn đề đã được nêu nhưng chưa có quyết định cụ thể, và khẳng định Ukraine sẽ không đồng ý từ bỏ lãnh thổ. Các đại diện châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11.",
-            "Kế hoạch 28 điểm — theo các nguồn thạo tin — yêu cầu Ukraine nhượng bộ lãnh thổ đáng kể, gồm Donbas và đóng băng tiền tuyến ở Kherson, Zaporizhzhia, đổi lấy bảo đảm an ninh do Mỹ hậu thuẫn. Trump hôm 22/11 nói kế hoạch 'không phải đề nghị cuối cùng' và thời hạn trả lời trước Lễ Tạ ơn 27/11 đã được nới lỏng. Thủ tướng Ba Lan Donald Tusk tuyên bố sẵn sàng làm việc với kế hoạch nhưng đòi công khai tác giả và nơi soạn thảo; Ngoại trưởng Rubio khẳng định văn bản do Washington soạn, bác bỏ cáo buộc nó chỉ sao chép yêu sách của Nga. Trong lúc đàm phán diễn ra, giao tranh vẫn tiếp tục với các đợt tập kích vào Kyiv, Zaporizhzhia và cầu Kerch — áp lực buộc các bên phải biến những bảo đảm trên giấy thành cơ chế có thể thực thi."
-          ],
-          nguon: [
-            { ten: "UNN", link: "https://unn.ua/en/topics/places/geneva?page=9" },
-            { ten: "Statement (Politico)", link: "https://statement.com/1373387/us-floats-nato-style-guarantee-for-kyiv" },
-            { ten: "FastBull", link: "https://www.fastbull.com/news-detail/trumps-28point-ukraine-peace-plan-sparks-controversy-uncertainty-4355997_0" }
-          ],
-          gio: "Chiều, Nov 23"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Châu Á bật theo Phố Wall: Nikkei, Kospi hồi mạnh sau cú bật 6,5% của Nasdaq; HPE nâng triển vọng, Dell báo cáo tối nay",
+          baiViet: [
+            "Thị trường chứng khoán châu Á đã bật mạnh trong phiên thứ Ba 24/11, nối tiếp cú hồi lịch sử của Phố Wall đêm qua khi Nasdaq Composite tăng 6,5% và S&P 500 tăng 4,7% sau tin Jensen Huang trở lại ghế CEO của Nvidia. Theo Reuters, đà tăng lan khắp khu vực khi giới đầu tư quay lại nhóm cổ phiếu trí tuệ nhân tạo: chỉ số Nasdaq 100 — tập trung vào các hãng công nghệ vốn hóa lớn — đã tăng hơn 6%, còn các tên tuổi điện toán đám mây như CoreWeave, IREN và Nebius đều tăng hơn 20% trong phiên. Riêng Nvidia đã đóng góp hơn hai phần năm mức tăng của chỉ số tăng trưởng Russell 1000 và một phần tư mức tăng của Nasdaq 100 tính tới giữa phiên, cho thấy thị trường khó có thể hồi phục nếu thiếu các cổ phiếu vốn hóa lớn.",
+            "Dù vậy, tâm lý thận trọng vẫn hiện rõ. Hợp đồng tương lai S&P 500 đi ngang còn hợp đồng tương lai Nasdaq giảm nhẹ 0,2% vào đầu phiên thứ Ba, và chỉ số sợ hãi VIX dù đã giảm 26% trong ngày vẫn đóng cửa ở mức 26,6 — cao hơn nhiều so với vùng bình thường. Cú bật đêm qua mới chỉ bù lại một phần thiệt hại của tuần trước, khi Nasdaq mất 10% và vẫn thấp hơn 12,7% so với đỉnh ngày 6/10 tính tới lúc đóng cửa thứ Hai. Giới phân tích lưu ý khối lượng giao dịch trong phiên tăng điểm thấp hơn phiên bán tháo thứ Sáu, một dấu hiệu cho thấy đợt hồi phục có thể chỉ mang tính kỹ thuật nếu câu chuyện lợi nhuận từ đầu tư AI không được củng cố bằng kết quả kinh doanh thực tế.",
+            "Phép thử tiếp theo đến ngay trong đêm nay: Hewlett Packard Enterprise vừa vượt dự báo của chính mình và nâng triển vọng tài khóa 2027, còn Dell sẽ công bố kết quả sau giờ đóng cửa, đối chiếu với dự báo mà hãng tự đặt ra. Tại Australia, chỉ số ASX 200 được dự báo mở cửa tăng điểm theo đà New York. Với nhà đầu tư, câu hỏi lớn nhất lúc này không còn là liệu thị trường có bật lại được một phiên hay không — điều đã xảy ra — mà là liệu sự trở lại của Huang có đủ sức ổn định lại câu chuyện AI sau một tuần mà chính nỗi lo về tính bền vững của cơn sốt này đã thổi bay hàng nghìn tỉ USD vốn hóa."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/" },
+            { ten: "MarketIndex", link: "https://www.marketindex.com.au/news/morning-wrap-asx-200-to-rise-as-nasdaq-and-s-and-p-500-soar-on-jensen-huang" },
+            { ten: "The MidPoint News", link: "https://themidpointnews.com/podcast/" }
+          ],
+          gio: "Chiều, Nov 24"
+        },
         {
           tieuDe: "Phố Wall bật mạnh nhất 19 tháng: Nasdaq +6,5%, Nvidia +31% sau khi Jensen Huang trở lại ghế CEO",
           baiViet: [
@@ -72,20 +86,6 @@ window.TIN_TUC = {
             { ten: "Investopedia", link: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147" }
           ],
           gio: "Sáng, Nov 24"
-        },
-        {
-          tieuDe: "Phố Wall rung chuyển: Nasdaq có tuần tệ nhất kể từ 2020, S&P rơi vào vùng điều chỉnh — hợp đồng tương lai bật lại sáng thứ Hai",
-          baiViet: [
-            "Thị trường chứng khoán Mỹ vừa trải qua tuần tồi tệ nhất kể từ thời Covid. Chỉ số S&P 500 giảm 3,7% trong phiên thứ Sáu — phiên giảm thứ bảy liên tiếp — chính thức rơi vào vùng điều chỉnh, tức mất hơn 10% so với đỉnh kỷ lục ngày 6/10. Nasdaq Composite lao dốc 5,3% trong phiên và khép tuần giảm mạnh nhất kể từ tháng 3/2020, đồng thời rơi xuống dưới mức đầu năm; Nasdaq 100 giảm 5,6%, Dow Jones mất 1,9%. Chỉ số sợ hãi VIX vọt lên cao nhất kể từ tháng 4/2025. Cổ phiếu Nvidia — biểu tượng của cơn sốt AI — giảm 14% trong phiên, phiên giảm thứ chín trong mười phiên gần nhất, sau tin Ủy ban Chứng khoán Mỹ và bang California mở điều tra về các phát ngôn liên quan tới bán chip sang Trung Quốc. Ngay cả Anthropic — vừa IPO kỷ lục 81,31 tỉ USD hôm thứ Năm với giá 83 USD/cổ phiếu — cũng giảm 8,5% xuống 88,91 USD trong phiên thứ Sáu.",
-            "Nguyên nhân sâu xa là nghi ngờ ngày càng lớn về lợi nhuận từ làn sóng đầu tư AI: hàng trăm tỉ USD đổ vào trung tâm dữ liệu và hạ tầng tính toán, phần lớn vay nợ, trong khi giới đầu tư đặt câu hỏi liệu dòng tiền thu về có đủ nhanh để trả nợ và biện minh cho định giá cao ngất hay không. Các nhà phân tích JPMorgan gọi đợt bán tháo là 'sự kiện giảm đòn bẩy AI trong bối cảnh tâm lý yếu', nhưng vẫn tin vào 'siêu chu kỳ AI' về dài hạn; bộ phận giao dịch của Goldman Sachs thì cho rằng đợt giảm đã tạo cơ hội mua vào hấp dẫn. Cú sập cũng khiến nhà đầu tư giảm kỳ vọng về một đợt tăng lãi suất của Fed trong tháng 12 và đổ tiền vào trái phiếu kho bạc.",
-            "Sáng thứ Hai 23/11, hợp đồng tương lai Mỹ bật lại mạnh: Nasdaq 100 tăng khoảng 2,6–3,45%, S&P 500 tăng 1,9–2,8%, Dow tăng khoảng 1,6–1,9%. Nhưng châu Á vẫn chìm trong sắc đỏ: chỉ số Kospi của Hàn Quốc giảm 5,8% xuống 4.586,80 điểm, buộc nhà chức trách kích hoạt cơ chế ngắt mạch 'sidecar' và chuẩn bị quỹ cứu trợ khoảng 8 tỉ USD; Samsung mất 5,5%, SK Hynix giảm 4,9%; Hang Seng mất 1,8%, Thượng Hải giảm 1,4%, trong khi thị trường Tokyo đóng cửa nghỉ lễ. Đồng yên giao dịch quanh 158,88–159,01 đổi một USD. Giới quan sát nhận định đợt bật lại sáng thứ Hai mới chỉ là hồi phục kỹ thuật — câu hỏi về định giá AI vẫn còn nguyên trước mắt."
-          ],
-          nguon: [
-            { ten: "MoneyControl", link: "https://www.moneycontrol.com/news/business/markets/nasdaq-futures-surge-nearly-3-s-p-500-futures-jump-over-2-after-worst-tech-selloff-since-2020-14086793.html" },
-            { ten: "Swissinfo (Bloomberg)", link: "https://www.swissinfo.ch/eng/nasdaq%2c-s%26p-500-futures-bounce-after-fridays-rout%3a-markets-wrap/92421262" },
-            { ten: "Siasat (AP)", link: "https://www.siasat.com/asian-shares-mostly-fall-after-sp-500-drops-3-7-pc-3584271/" }
-          ],
-          gio: "Chiều, Nov 23"
         },
         {
           tieuDe: "OECD: tăng trưởng G7 dậm chân tại chỗ ở 0,5% quý III — Mỹ và Anh tăng tốc, Pháp suy giảm, Nhật Bản và Ý đứng yên",
@@ -106,6 +106,20 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Indonesia–EU ký hiệp định thương mại sau gần 10 năm đàm phán: 98,5% dòng thuế về 0, Prabowo sẽ tới G20 Miami",
+          baiViet: [
+            "Indonesia và Liên minh châu Âu đã chính thức ký Hiệp định Đối tác Kinh tế Toàn diện (IEU-CEPA) cùng Hiệp định Bảo hộ Đầu tư vào thứ Bảy 21/11 tại Brussels, khép lại gần một thập kỷ đàm phán. Bộ trưởng Điều phối Kinh tế Indonesia Airlangga Hartarto và Ủy viên Thương mại EU Maroš Šefčovič đã ký kết trước sự chứng kiến của Chủ tịch Ủy ban châu Âu Ursula von der Leyen, người sau đó đã điện đàm với Tổng thống Indonesia Prabowo Subianto để đánh dấu sự kiện. Bà von der Leyen gọi đây là một trong những thỏa thuận tham vọng nhất mà EU từng ký tại châu Á, nối 450 triệu dân EU với nền kinh tế lớn nhất Đông Nam Á và quốc gia đông dân thứ tư thế giới.",
+            "Theo thỏa thuận, hai bên sẽ xóa bỏ thuế nhập khẩu với khoảng 98,5% dòng thuế hàng hóa, giúp các nhà xuất khẩu EU tiết kiệm hơn 600 triệu euro mỗi năm; hơn 90% hàng hóa Indonesia sẽ được vào EU miễn thuế ngay khi hiệp định có hiệu lực. Indonesia đặt mục tiêu tăng xuất khẩu sang EU thêm 50% trong 5 năm đầu — xuất khẩu của nước này sang khối hiện ước đạt 19 tỉ USD trong năm 2026, với tổng kim ngạch song phương khoảng 30 tỉ USD mỗi năm. Các mặt hàng chủ lực của Indonesia như dầu cọ, cao su, dệt may, giày dép, thủy sản và đồ nội thất sẽ được mở rộng cửa vào thị trường châu Âu, trong khi các doanh nghiệp EU có thêm khung pháp lý ổn định để đầu tư vào nền kinh tế lớn nhất Đông Nam Á. Ước tính thỏa thuận sẽ giúp GDP của EU tăng thêm 16 tỉ euro và của Indonesia tăng 27 tỉ euro trong 15 năm.",
+            "Dù vậy, không phải ai cũng yên tâm: một số nhà xuất khẩu Indonesia lo ngại thuế có thể tăng vọt trong giai đoạn chuyển tiếp nếu các quy định trong nước chưa kịp điều chỉnh theo hiệp định. Chính phủ Indonesia đang đẩy nhanh phê chuẩn để hiệp định sớm có hiệu lực. Thỏa thuận này cũng nằm trong chuỗi ngoại giao thương mại dồn dập của EU: đàm phán hiệp định tự do thương mại với Ấn Độ đã kết thúc từ tháng 1/2026 và dự kiến được ký tại Brussels vào ngày 16/12, khi Thủ tướng Narendra Modi thăm châu Âu. Với Indonesia, bà von der Leyen cho biết sẽ đón Tổng thống Prabowo tại Brussels vào ngày 11/12, trước khi cả hai cùng tới Miami dự Hội nghị Thượng đỉnh G20 ngày 14–15/12."
+          ],
+          nguon: [
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/economy/trade/indonesia-eu-trade-deal-sparks-ambitious-hopes-and-transition-concerns" },
+            { ten: "SAGIRE", link: "https://sagire.online/topic/trade/" },
+            { ten: "ANTARA News", link: "https://www.instagram.com/reel/DgB778BMRIa/" }
+          ],
+          gio: "Chiều, Nov 24"
+        },
         {
           tieuDe: "G20 Miami đếm ngược 3 tuần: Doral thành 'sự kiện an ninh đặc biệt quốc gia', họp Sherpa 10–12/12 chốt tuyên bố chung",
           baiViet: [
@@ -133,20 +147,6 @@ window.TIN_TUC = {
             { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" }
           ],
           gio: "Chiều, Nov 23"
-        },
-        {
-          tieuDe: "G20 Miami đếm ngược 3 tuần: Trump tin mọi lãnh đạo sẽ tới Doral, Hàn Quốc chốt gặp song phương, đình chiến thương mại Mỹ–Trung kéo tới 10/1",
-          baiViet: [
-            "Thượng đỉnh G20 sẽ diễn ra ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral gần Miami, và Tổng thống Mỹ Donald Trump ngày 21/11 tuyên bố 'mọi lãnh đạo hàng đầu thế giới sẽ có mặt', đồng thời cho biết ban nhạc Thủy quân Lục chiến Mỹ sẽ biểu diễn đón các nguyên thủ. Tổng thống Hàn Quốc Lee Jae-myung đã xác nhận sẽ dự và gặp song phương ông Trump bên lề; đình chiến thương mại Mỹ–Trung được gia hạn tới 10/1/2027, mở ra khả năng ông Trump gặp lại Chủ tịch Tập Cận Bình tại Miami sau cuộc gặp ba bên Mỹ–Trung–Nga ở Thâm Quyến ngày 19/11. Theo Bộ Tài chính Mỹ, chủ trương của Washington trong nhiệm kỳ chủ tịch G20 năm nay là tăng trưởng kinh tế, ổn định tài chính, hiện đại hóa quy định và an ninh kinh tế.",
-            "Nhưng hai câu hỏi lớn về thành phần tham dự vẫn treo lơ lửng. Tổng thống Nga Vladimir Putin được mời từ tháng 9 nhưng Điện Kremlin chưa xác nhận ông có tới Florida hay không — hãng Bloomberg dẫn các nguồn tin cho rằng ông nhiều khả năng sẽ vắng mặt, lần đầu tiên kể từ năm 2019. Nam Phi — nước giữ chức chủ tịch G20 năm ngoái — đã bị gạt khỏi danh sách mời, quyết định gây tranh cãi trong khối. Ukraine, vốn không phải thành viên G20, vẫn chưa nhận được thư mời dù Tổng thống Zelenskyy đề xuất họp ba bên bên lề; theo Ngoại trưởng Mỹ Marco Rubio, quyết định có mời Kyiv hay không thuộc về riêng ông Trump.",
-            "Miami đang chuẩn bị cho những ngày phong tỏa: chính quyền thành phố cảnh báo hạn chế giao thông và đỗ xe từ 10–16/12, đặc biệt quanh khu Doral, sân bay quốc tế Miami và Coconut Grove, người dân được khuyên làm việc từ xa và dành thêm thời gian di chuyển. Thượng đỉnh diễn ra chỉ ba tuần sau khi COP31 sụp đổ mà không có thỏa thuận khí hậu — càng làm tăng sức ép lên các lãnh đạo G20 trong việc chứng minh khối vẫn có thể đạt được đồng thuận về những vấn đề lớn của thế giới."
-          ],
-          nguon: [
-            { ten: "UA.NEWS (Anadolu Agency)", link: "https://ua.news/en/dovkolo-svitu/tramp-zaiaviv-shcho-ochikuie-vsikh-lideriv-g20-na-samiti-u-floridi-anadolu-agency" },
-            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" },
-            { ten: "City of Miami Beach", link: "https://www.miamibeachfl.gov/g20/" }
-          ],
-          gio: "Sáng, Nov 23"
         },
       ]
     }
