@@ -5,12 +5,40 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Hai 23/11/2026 — bản tin chiều",
+  capNhat: "Thứ Ba 24/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Geneva ngày 2: châu Âu đưa bản đối trọng 24 điểm — không nhượng Donbas, quân đội Ukraine giữ 800.000 người, Nga có thể trở lại G8",
+          baiViet: [
+            "Ngày thứ Hai 23/11 tại Geneva, Mỹ, Ukraine và các đồng minh châu Âu đã ngồi lại với nhau để bàn về kế hoạch hòa bình 28 điểm của Washington — và lần này châu Âu không còn đứng ngoài quan sát. Sau vòng đàm phán đầu tiên mà phía Mỹ và Ukraine gọi là 'hiệu quả nhất từ trước tới nay', các nước Anh, Đức và Pháp đã trình một bản đối trọng 24 điểm, được hãng Reuters công bố toàn văn ngay trong ngày. Bản châu Âu giữ nguyên khung của kế hoạch Mỹ nhưng sửa những điều khoản mà Kyiv và các thủ đô châu Âu cho là không thể chấp nhận: đàm phán lãnh thổ phải xuất phát từ tuyến tiếp xúc hiện tại, thay vì yêu cầu Ukraine rút khỏi những vùng ở Donbas mà Nga chưa kiểm soát; quân đội Ukraine thời bình được giữ 800.000 người thay vì 600.000 như bản Mỹ; và điều khoản Mỹ hưởng 50% lợi nhuận từ tài sản Nga bị đóng băng dùng để tái thiết đã bị gỡ bỏ.",
+            "Điểm khác biệt lớn nhất nằm ở bảo đảm an ninh và tư cách thành viên NATO. Bản đối trọng khẳng định lại chủ quyền của Ukraine, đề xuất một thỏa thuận không xâm lược toàn diện giữa Nga, Ukraine và NATO, đồng thời giữ ngỏ khả năng Kyiv gia nhập NATO — quyết định phụ thuộc vào sự nhất trí của các thành viên, thay vì bị loại trừ ngay từ đầu như bản Mỹ. Đổi lại, NATO sẽ không đồn trú thường trực tại Ukraine trong thời bình, nhưng chiến đấu cơ NATO sẽ đóng tại Ba Lan; Mỹ đưa ra bảo đảm an ninh tương tự Điều 5, kèm điều kiện: nếu Nga xâm lược trở lại, sẽ có phản ứng quân sự phối hợp, toàn bộ lệnh trừng phạt được khôi phục và mọi công nhận lãnh thổ mới đều bị thu hồi. Bản văn cũng mở đường cho Nga dần trở lại kinh tế toàn cầu — kể cả khả năng trở lại nhóm G8 — và yêu cầu bầu cử ở Ukraine càng sớm càng tốt sau khi ký thỏa thuận. Trước đó, 11 nước phương Tây đã ra tuyên bố chung tại G20 Johannesburg khẳng định 'biên giới không được thay đổi bằng vũ lực' và cảnh báo giới hạn quân đội sẽ khiến Ukraine dễ bị tấn công.",
+            "Ngoại trưởng Mỹ Marco Rubio khẳng định kế hoạch gốc do Washington soạn — không phải 'danh sách mong muốn của Nga' như nhiều ý kiến chỉ trích — nhưng thừa nhận văn bản đã tiếp thu ý kiến cả hai phía và 'không phải đề nghị cuối cùng'. Tổng thống Trump trước đó đặt hạn chót trả lời trước Lễ Tạ ơn 27/11, song đã nới lỏng thời hạn này. Đàm phán tiếp tục trong ngày thứ Ba 24/11, các đại diện châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11, và một chuyến thăm Washington của Tổng thống Zelenskyy đang được bàn. Giới quan sát nhận định bản đối trọng của châu Âu cho thấy Kyiv đã mua thêm được thời gian — nhưng nút thắt vẫn là Moskva, bên chưa lên tiếng về cả hai bản dự thảo, và là bên mà theo các nguồn thạo tin vẫn giữ nguyên yêu sách lãnh thổ."
+          ],
+          nguon: [
+            { ten: "FastBull (Epoch Times)", link: "https://www.fastbull.com/news-detail/rubio-confirms-ukraine-peace-plan-authored-by-us-4356012_0" },
+            { ten: "Panorama (Reuters)", link: "https://en.panorama.com.al/nga-rikthimi-i-rusise-ne-g8-te-mbajtja-e-zgjedhjeve-zbardhet-propozimi-me-28-pika-i-vendeve-te-be-se-per-ukrainen-ndryshime-ne-planin-e-shba/" },
+            { ten: "InfoHandle", link: "https://infohandle.net/2026/11/23/geneva-ukraine-e3-counter-draft-peace-talks/" }
+          ],
+          gio: "Sáng, Nov 24"
+        },
+        {
+          tieuDe: "Vịnh Ba Tư nóng trở lại: Iran đánh Bahrain, Trump dọa đánh chìm tàu phá phong tỏa — 14 tàu dầu chờ vượt chốt chặn",
+          baiViet: [
+            "Cuối tuần qua, xung đột Mỹ–Iran leo thang thêm một nấc khi Iran mở rộng đòn tấn công sang Bahrain — nơi đặt trụ sở Hạm đội 5 của Hải quân Mỹ. Hôm thứ Bảy 21/11, Bahrain cho biết một cơ sở công nghiệp dân sự trên đảo Sitra đã trúng đòn tấn công của Iran và bốc cháy, khiến hai người bị thương — một công dân Bahrain và một người Pakistan cư trú tại đây; hệ thống phòng không của Bahrain đã đánh chặn nhiều đợt tấn công trên không. Lực lượng Vệ binh Cách mạng Iran tuyên bố đã đánh trúng hai radar phòng thủ tên lửa Patriot của Mỹ tại các căn cứ Riffa và Awali, song tuyên bố này chưa được Bahrain hay Mỹ xác nhận. Saudi Arabia, Qatar và Ai Cập đã lên án vụ tấn công. Cùng ngày, hai tàu dầu bị tấn công ở eo biển Hormuz theo ghi nhận của Cơ quan Thương mại Hàng hải Anh (UKMTO) — một tàu trúng vật thể lạ ở đuôi, một tàu hư hại phòng máy cách Khasab, Oman khoảng 17 hải lý — nâng tổng số tàu dầu bị tấn công ở eo biển lên 7 chiếc kể từ ngày 16/11.",
+            "Đáp lại, Tổng thống Donald Trump tuyên bố trong cuộc phỏng vấn với Fox News hôm Chủ nhật 22/11 rằng ông hy vọng Iran sẽ 'thử' thách thức phong tỏa hải quân của Mỹ — vì những tàu đó sẽ 'nằm dưới đáy biển'. Ông cũng cho biết có xu hướng nối lại các đợt không kích Iran sau đầu năm mới nếu đàm phán không đạt thỏa thuận, dù hôm 19/11 ông từng nói với Reuters rằng mình không vội ra quyết định quân sự lớn. Cùng lúc, giới phân tích an ninh hàng hải cho biết Mỹ đã tấn công một tàu chở dầu xuất khẩu của Iran gần tuyến phong tỏa — chưa có xác nhận chính thức từ Lầu Năm Góc hay Bộ Tư lệnh Trung tâm Mỹ — và UKMTO ghi nhận một tàu gặp 'lực lượng quân sự' ở Vịnh Oman, gần thành phố Chabahar của Iran. Hôm thứ Hai 23/11, Bộ Tài chính Mỹ áp thêm lệnh trừng phạt sâu rộng với hơn hai chục sàn giao dịch tiền tệ và công ty bình phong của Iran, còn Tehran đòi Mỹ bồi thường 290 tỉ USD thiệt hại.",
+            "Tâm điểm của cuộc đối đầu là đoàn tàu dầu mà Iran chuẩn bị đưa qua phong tỏa. Báo Hamshahri thân chính quyền Tehran cho biết 14 tàu dầu đang tập kết tại đảo Kharg để tìm cách phá vòng vây; một báo cáo khác nói con số lên tới 31 tàu chở đầy dầu. Tuy nhiên, một cố vấn của tổ chức United Against Nuclear Iran cho rằng một cuộc 'đột phá' 14 tàu gần như không thể về mặt hậu cần và mang tính tuyên truyền, và tới nay chưa có xác nhận độc lập nào về việc đoàn tàu đã di chuyển. Phía Iran tuyên bố sẽ dùng 'mọi biện pháp sẵn có' để chống lại phong tỏa, đồng thời cảnh báo bất kỳ nỗ lực chặn tàu nào cũng sẽ kéo theo đòn trả đũa vào hạ tầng năng lượng khắp vùng Vịnh. Ngoại trưởng Iran Abbas Araghchi để ngỏ khả năng mở lại eo biển nếu Mỹ dỡ phong tỏa, gỡ trừng phạt và thừa nhận thiệt hại; Qatar đang làm trung gian, với đoàn đại biểu Doha thăm Tehran cuối tuần qua và Thủ tướng Qatar dự kiến gặp ông Trump tại Washington. Hai nhóm tác chiến tàu sân bay Mỹ hiện diện trong khu vực, và giới quan sát cảnh báo một tính toán sai lầm ở Hormuz có thể châm ngòi cho vòng leo thang mới."
+          ],
+          nguon: [
+            { ten: "Gulf News", link: "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662" },
+            { ten: "Gulf News", link: "https://gulfnews.com/amp/story/world%2Fmena%2Ftrump-threatens-to-sink-iranian-vessels-as-us-strikes-oil-tanker-ghalibaf-calls-for-lasting-security-1.500757421" },
+            { ten: "Vocemundi (tổng hợp Reuters/Bloomberg/CNN)", link: "https://vocemundi.com/third-us-aircraft-carrier-arrives-in-middle-east-irans-irgc-says-tankers-hit-mines/" }
+          ],
+          gio: "Sáng, Nov 24"
+        },
         {
           tieuDe: "Đàm phán Geneva ngày đầu: Mỹ–Ukraine thu hẹp bất đồng về kế hoạch 28 điểm, bảo đảm an ninh kiểu NATO vẫn là nút thắt",
           baiViet: [
@@ -25,40 +53,26 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 23"
         },
-        {
-          tieuDe: "Hậu COP31: phe đối lập Australia đòi Bộ trưởng Bowen từ chức, đảo quốc Thái Bình Dương 'thất vọng toàn diện', Al Gore kêu gọi cải tổ COP",
-          baiViet: [
-            "Một ngày sau khi COP31 sụp đổ tại Antalya, cuộc tranh cãi về trách nhiệm đã nổ ra ngay trong nội bộ nước đồng chủ nhà Australia. Phe đối lập tại quốc hội Australia hôm thứ Hai 23/11 yêu cầu Bộ trưởng Khí hậu Chris Bowen — người chủ trì đàm phán của hội nghị — từ chức. 'Bộ trưởng năng lượng này phải ra đi vì ông ta là một thất bại hoàn toàn', nghị sĩ Angus Taylor nói với báo giới, đổ lỗi trực tiếp cho Bowen về việc hội nghị kết thúc mà không có thỏa thuận bao quát. Thủ tướng Anthony Albanese không trả lời trực tiếp câu hỏi có cách chức Bowen hay không, trong khi Australia đã chi 150 triệu đô la Australia (khoảng 99 triệu USD) để tổ chức COP31. Bản thân Bowen thừa nhận ông không thể vượt qua 'những lằn ranh đỏ không thể dung hòa', trong bối cảnh 'môi trường địa chính trị phức tạp và căng thẳng nhất trong ký ức còn sống'.",
-            "Các đảo quốc Thái Bình Dương — những nước chịu rủi ro hiện hữu từ nước biển dâng — bày tỏ thất vọng sâu sắc nhất. Phái đoàn Quần đảo Marshall tuyên bố họ 'đã bị bỏ rơi từ mọi phía'. Trung Quốc, nước phát thải lớn nhất thế giới nhưng đồng thời là siêu cường năng lượng sạch, gọi kết quả là 'thất vọng sâu sắc' nhưng khẳng định không vì thế mà mất niềm tin vào tiến trình đa phương; Ấn Độ nói đã tham gia 'một cách xây dựng và không mệt mỏi tới phút cuối'. Cựu Phó Tổng thống Mỹ Al Gore gay gắt hơn: 'Thật quá đáng khi một nhóm nhỏ các quốc gia dầu mỏ có quyền phủ quyết đối với bất kỳ câu chữ nào về nhiên liệu hóa thạch', và cho rằng tiến trình COP 'đang cần cải cách đáng kể'.",
-            "COP31 đi vào lịch sử với hai kỷ lục buồn: hội nghị dài nhất từ trước tới nay và lần đầu tiên kể từ Copenhagen 2009 kết thúc mà không có văn bản bao quát. Điểm đổ vỡ vẫn là nhiên liệu hóa thạch: các nước sản xuất dầu như Saudi Arabia và Nga chặn mọi câu chữ về loại bỏ dần, trong khi EU cùng Panama, Quần đảo Marshall và Na Uy từ chối một văn bản 'không nhắc tới nhiên liệu hóa thạch'. Dù vậy, một số quyết định riêng vẫn được thông qua — chương trình Chuyển đổi Công bằng, Quỹ Thích ứng, quy định thị trường carbon — và khoảng 90 chính phủ ký cam kết điện khí hóa toàn cầu. Lộ trình Antalya–Addis Ababa giao Thổ Nhĩ Kỳ và Ethiopia, chủ nhà COP32 tháng 11/2027, tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Câu hỏi lớn nhất để lại sau Antalya: liệu COP còn đủ sức làm nơi ra quyết định, hay sẽ chỉ còn là diễn đàn ghi nhận bất đồng."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/sustainability/cop/cop-flop-triggers-backlash-australia-pacific-nations-express-despair-2026-11-23/" },
-            { ten: "The Daily Star (AFP)", link: "https://www.thedailystar.net/news/world/news/climate-talks-collapse-chaotic-end-cop31-4330931" },
-            { ten: "CNN", link: "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure?cid=external-feeds_iluminar_meta" }
-          ],
-          gio: "Chiều, Nov 23"
-        },
-        {
-          tieuDe: "COP31 sụp đổ trong hỗn loạn tối Chủ nhật: thỏa thuận cuối cùng bị bác bỏ, không có văn bản bao quát — hội nghị khí hậu dài nhất lịch sử",
-          baiViet: [
-            "Tối Chủ nhật 22/11 tại Antalya, Thổ Nhĩ Kỳ, sau gần 50 giờ quá hạn chót, chủ tịch COP31 Murat Kurum đã gõ búa kết thúc hội nghị khí hậu của Liên Hợp Quốc mà không có văn bản bao quát — thỏa thuận cuối cùng bị bác bỏ trong một phiên toàn thể hỗn loạn. Liên minh châu Âu, qua Bộ trưởng Khí hậu Ireland Darragh O'Brien — nước đang giữ chức chủ tịch luân phiên EU — tuyên bố sẽ không ủng hộ một văn bản 'không nhắc tới nhiên liệu hóa thạch, động lực chính của biến đổi khí hậu'; Panama, Vanuatu và Quần đảo Marshall cũng phản đối. Đây là hội nghị COP đầu tiên kể từ Copenhagen 2009 kết thúc mà không có thỏa thuận chung, đồng thời là hội nghị dài nhất trong lịch sử COP.",
-            "Điểm gây tranh cãi vẫn nguyên vẹn tới phút cuối: trong toàn bộ văn bản không hề xuất hiện các từ 'nhiên liệu hóa thạch', 'dầu', 'than' hay 'loại bỏ dần'. Thay vào đó, văn bản chỉ 'nhắc lại toàn bộ' thỏa thuận COP28 tại Dubai năm 2023, đặt mục tiêu nâng tỉ trọng điện trong tổng tiêu thụ năng lượng lên 35% vào năm 2035 — nhưng không bắt buộc lượng điện tăng thêm phải đến từ năng lượng tái tạo — và kêu gọi mở rộng thu giữ carbon tới quy mô gigatonne vào năm 2035. Văn bản lần đầu tiên trong lịch sử COP thừa nhận thế giới có thể sẽ vượt ngưỡng nóng lên 1,5°C, nhưng mục tiêu 120 tỉ USD tài chính khí hậu mỗi năm — điều các nước đang phát triển đòi hỏi — đã biến mất khỏi bản cuối. Chủ tịch đàm phán Chris Bowen, Bộ trưởng Khí hậu Australia, thừa nhận ông không thể vượt qua 'những lằn ranh đỏ không thể dung hòa'; Tổng thư ký Liên Hợp Quốc António Guterres bày tỏ 'thất vọng sâu sắc'.",
-            "Dù văn bản bao quát sụp đổ, một số quyết định riêng vẫn được thông qua: chương trình Chuyển đổi Công bằng, Quỹ Thích ứng, các quy định về thị trường carbon và minh bạch báo cáo; khoảng 90 chính phủ cũng ký cam kết điện khí hóa toàn cầu của chủ tịch hội nghị. Hội nghị khởi động lộ trình Antalya–Addis Ababa, giao Thổ Nhĩ Kỳ và Ethiopia — chủ nhà COP32 vào tháng 11/2027 — tìm nguồn tài chính ổn định cho thích ứng và tổn thất. Giới quan sát nhận định thất bại này phơi bày rạn nứt sâu trong ngoại giao khí hậu: các nước sản xuất dầu như Saudi Arabia, Nga và Ấn Độ chặn mọi câu chữ về loại bỏ nhiên liệu hóa thạch, trong khi EU và các đảo quốc cho rằng chấp nhận văn bản đó chẳng khác nào 'tẩy xanh' cho nhiên liệu hóa thạch."
-          ],
-          nguon: [
-            { ten: "Channel News Asia (AFP)", link: "https://www.channelnewsasia.com/world/cop31-climate-talk-collapse-eu-final-draft-political-deal-6572946" },
-            { ten: "The Statesman", link: "https://www.thestatesman.com/world/climate-talks-break-down-as-eu-and-others-reject-cover-decision-1503665698.html/amp" },
-            { ten: "Kuwait Times (AFP)", link: "https://kuwaittimes.com/article/54134/business/climate-deal-collapses-in-chaotic-end-to-cop31/" }
-          ],
-          gio: "Sáng, Nov 23"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Phố Wall bật mạnh nhất 19 tháng: Nasdaq +6,5%, Nvidia +31% sau khi Jensen Huang trở lại ghế CEO",
+          baiViet: [
+            "Ngày thứ Hai 23/11 đã đi vào lịch sử thị trường Mỹ như một trong những phiên giao dịch phi thường nhất. Chỉ số Nasdaq Composite tăng 6,51% lên 24.089,56 điểm — tăng 1.471,83 điểm, mức tăng điểm trong một ngày lớn thứ hai từ trước tới nay của chỉ số này, đồng thời là phiên tăng phần trăm mạnh nhất kể từ tháng 4/2025. S&P 500 tăng 4,73% lên 7.237,17 điểm, tăng 327,34 điểm — cũng là mức tăng điểm lớn thứ hai trong lịch sử chỉ số — còn Dow Jones tăng 3,01%, thêm 1.448 điểm lên 49.595,31 điểm. Russell 2000 tăng 3,4%. Cả ba chỉ số chính đều chấm dứt chuỗi 7 phiên giảm liên tiếp và thoát khỏi vùng điều chỉnh kỹ thuật, sau một tuần trước đó Nasdaq mất 10%, S&P mất 8,6% và Dow mất 8% — tuần tệ nhất của Nasdaq kể từ năm 2020.",
+            "Chất xúc tác là tin tức công bố ngay trước giờ mở cửa: hội đồng quản trị Nvidia đã tái bổ nhiệm Jensen Huang làm chủ tịch kiêm CEO, có hiệu lực ngay lập tức. Cổ phiếu Nvidia tăng 31,48% trong phiên — phiên tăng mạnh nhất kể từ tháng 5/2003 — có lúc tăng tới 36,6%, và cộng thêm khoảng 952 tỉ USD vốn hóa thị trường trong một ngày, mức tăng vốn hóa một ngày lớn nhất từng ghi nhận ở một công ty Mỹ, gấp hơn hai lần kỷ lục cũ. Đà tăng lan khắp nhóm công nghệ: toàn bộ nhóm 'Magnificent Seven' đều tăng, Tesla tăng 11%, Alphabet tăng 6,3%, Caterpillar tăng 7,1%, chỉ số bán dẫn tăng 12%, Micron tăng 19%, Qualcomm tăng 10,3%. Hãng tin Reuters gọi đây là 'một trong những ngày phi thường nhất trong lịch sử thị trường Mỹ', còn giới phân tích lưu ý khối lượng giao dịch thấp hơn phiên thứ Sáu — một điểm trừ trong ngày tăng điểm.",
+            "Dù vậy, cú bật này mới chỉ bù lại một phần thiệt hại. Tính tới lúc đóng cửa thứ Hai, S&P 500 vẫn thấp hơn 7,4% và Nasdaq thấp hơn 12,7% so với đỉnh ngày 6/10. Đợt bán tháo tuần trước bắt nguồn từ nỗi lo về tính bền vững của cơn sốt đầu tư trí tuệ nhân tạo — chính nỗi lo đã khiến cổ phiếu Nvidia mất 23% trong tuần — và câu hỏi lớn nhất với nhà đầu tư lúc này là liệu sự trở lại của Huang có đủ sức ổn định lại câu chuyện AI, hay thị trường chỉ đang có một phiên hồi kỹ thuật. Phiên tăng mạnh ở New York được kỳ vọng sẽ lan sang châu Á trong phiên thứ Ba, trong khi giá dầu WTI tiếp tục rơi 3,9% xuống 80,20 USD/thùng và giá vàng tăng 3,33% lên 3.632,30 USD/ounce."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-23/" },
+            { ten: "CNN", link: "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?cid=external-feeds_iluminar_meta" },
+            { ten: "Investopedia", link: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147" }
+          ],
+          gio: "Sáng, Nov 24"
+        },
         {
           tieuDe: "Phố Wall rung chuyển: Nasdaq có tuần tệ nhất kể từ 2020, S&P rơi vào vùng điều chỉnh — hợp đồng tương lai bật lại sáng thứ Hai",
           baiViet: [
@@ -86,26 +100,26 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 23"
         },
-        {
-          tieuDe: "Nhật Bản đón cái lạnh ở APEC: Takaichi bị Trung Quốc 'đối xử phân biệt', một năm rạn nứt vì câu nói về Đài Loan",
-          baiViet: [
-            "Thủ tướng Nhật Bản Sanae Takaichi đã tới Thâm Quyến dự hội nghị APEC ngày 19/11 — chuyến thăm Trung Quốc đầu tiên của một thủ tướng Nhật kể từ tháng 12/2019 — nhưng đón tiếp mà bà nhận được lạnh nhạt khác hẳn các lãnh đạo khác. Khi máy bay của bà hạ cánh, không có đoàn thiếu niên cầm hoa chào đón như khi Tổng thống Mỹ Donald Trump hay Tổng thống Nga Vladimir Putin tới nơi. Một quan chức cấp cao Bộ Ngoại giao Nhật nói với báo Mainichi Shimbun rằng cách đối xử đó 'thiếu phép lịch sự ngoại giao cơ bản' và là sự thiếu tôn trọng; hãng tin Jiji mô tả Trung Quốc đã cho bà 'ăn quả đắng', còn Kyodo ghi nhận sự vắng mặt của nghi thức chào đón. Bắc Kinh đáp lại rằng họ đã sắp xếp nghi thức 'phù hợp' cho mọi đoàn tham dự.",
-            "Gốc rễ của sự lạnh nhạt là phát biểu của Takaichi trước Quốc hội Nhật tháng 11/2025: bà nói một cuộc tấn công của Trung Quốc nhằm vào Đài Loan có thể cấu thành tình huống đe dọa sự sống còn của Nhật Bản và kích hoạt quyền phòng vệ tập thể — tức Tokyo có thể dùng lực lượng quân sự để hỗ trợ đồng minh như Mỹ. Bắc Kinh gọi phát biểu này là 'sai trái và nguy hiểm', đòi rút lại, triệu đại sứ Nhật, cảnh báo công dân tránh tới Nhật (15/11), hạn chế xuất khẩu đất hiếm và khoáng sản quan trọng, cấm hàng lưỡng dụng với 20 thực thể Nhật, và đưa tàu hải cảnh vào vùng biển quanh quần đảo Senkaku/Điếu Ngư. Cú sốc kinh tế tới ngay: ngày 17/11 cổ phiếu du lịch và bán lẻ Nhật lao dốc — Shiseido giảm 11,4%, Takashimaya giảm 6% — trong bối cảnh Trung Quốc chiếm khoảng một phần tư lượng khách du lịch nước ngoài tới Nhật.",
-            "Tại Thâm Quyến, Takaichi đã bắt tay Chủ tịch Tập Cận Bình — lần gặp đầu tiên của hai người kể từ khi căng thẳng bùng phát — và có cuộc gặp song phương duy nhất trong chuyến đi: 30 phút với Tổng thống Putin, trong đó bà nêu việc một nhà báo Nhật bị giam giữ và đề nghị bảo vệ các doanh nghiệp Nhật tại Nga. Bà kêu gọi tiếp tục đối thoại với Trung Quốc vì 'giữa hai nước còn nhiều vấn đề tồn đọng', khẳng định lập trường về Đài Loan không thay đổi theo Tuyên bố chung Nhật–Trung năm 1972 và từ chối bình luận các kịch bản giả định. Tuy nhiên, cuộc gặp giữa các nhà ngoại giao hai bên tại Bắc Kinh ngày 18/11 đã kết thúc mà không có đột phá — Trung Quốc vẫn đòi rút lại phát biểu, Nhật Bản vẫn nói đó là chính sách lâu nay. Một năm sau câu nói gây tranh cãi, quan hệ hai nền kinh tế lớn nhất châu Á vẫn chưa tìm được lối ra."
-          ],
-          nguon: [
-            { ten: "MoneyControl (Reuters)", link: "https://www.moneycontrol.com/world/japan-slams-china-s-discriminatory-treatment-of-pm-sanae-takaichi-at-apec-summit-amid-taiwan-tensions-article-14085754.html" },
-            { ten: "The Hindu", link: "https://www.thehindu.com/news/international/japanese-pm-takaichi-calls-for-continued-dialogue-with-china-to-ease-bilateral-tensions/article71719391.ece" },
-            { ten: "TaiwanPlus", link: "https://www.taiwanplus.com/news/world-news/asia-pacific/261120004/japans-position-on-taiwan-unchanged-takaichi-says-after-meeting-xi" }
-          ],
-          gio: "Chiều, Nov 22"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami đếm ngược 3 tuần: Doral thành 'sự kiện an ninh đặc biệt quốc gia', họp Sherpa 10–12/12 chốt tuyên bố chung",
+          baiViet: [
+            "Hội nghị thượng đỉnh G20 sẽ diễn ra ngày 14–15/12/2026 tại khu nghỉ dưỡng Trump National Doral ở Miami — lần đầu tiên Mỹ đăng cai G20 kể từ năm 2009 — và công tác chuẩn bị đang bước vào giai đoạn nước rút. Hôm thứ Sáu tuần trước, Tổng thống Donald Trump tuyên bố trong buổi lễ vinh danh ban nhạc Thủy quân lục chiến Mỹ tại Nhà Trắng rằng ông kỳ vọng mọi nhà lãnh đạo hàng đầu thế giới sẽ có mặt, đồng thời thông báo thưởng 500.000 USD cho các thành viên ban nhạc 'The President's Own', đơn vị sẽ biểu diễn trước hàng chục nguyên thủ tại Doral. Cuộc họp Sherpa cuối cùng — phiên làm việc của các đại diện cá nhân của lãnh đạo, nơi soạn thảo tuyên bố chung — đã được ấn định vào ngày 10–12/12 tại Miami, và hội nghị đã được chỉ định là Sự kiện An ninh Đặc biệt Quốc gia, với Sở Mật vụ Mỹ chỉ huy, phối hợp cùng FBI, cơ quan quản lý khẩn cấp liên bang, bang Florida và chính quyền địa phương; báo chí Miami cho biết việc phong tỏa đường và lập chốt kiểm soát quanh Doral có thể bắt đầu từ ngày 10/12.",
+            "Danh sách khách mời vẫn là điểm gây chú ý nhất. Tổng thống Nga Vladimir Putin được mời chính thức từ tháng 9 nhưng tới nay chưa quyết định có tới Florida hay không; Tổng thống Ukraine Volodymyr Zelenskyy đã nói sẽ tham dự. Nam Phi — thành viên chính thức của G20 — không được mời, và Ba Lan tham dự với tư cách khách mời thay thế, theo trang web chính thức của G20. Bên cạnh đó, 12 nước khách mời khác gồm Armenia và Việt Nam cũng đã có tên. Theo các nguồn thạo tin, ông Trump muốn một thỏa thuận hòa bình Nga–Ukraine được ký ngay tại hội nghị, nhưng tới nay chưa có thỏa thuận nào tồn tại và cả Kyiv lẫn Moskva đều chưa xác nhận kế hoạch này. Chủ đề chính thức của hội nghị là 'Tăng trưởng thông qua bãi bỏ quy định, dồi dào năng lượng và đổi mới', với Bộ trưởng Tài chính Scott Bessent phụ trách chương trình nghị sự và Giám đốc Hội đồng Kinh tế Quốc gia Kevin Hassett làm đầu mối tổ chức.",
+            "Việc tổ chức hội nghị tại một khu nghỉ dưỡng thuộc sở hữu của tổng thống đương nhiệm tiếp tục gây tranh cãi. Nhà Trắng khẳng định Doral sẽ phục vụ hội nghị 'theo giá gốc' và không thu lợi từ Bộ Ngoại giao hay các chính phủ nước ngoài, nhưng các tổ chức giám sát đạo đức cho rằng cam kết này thiếu chi tiết công khai. Ông Trump mua lại Doral năm 2012 với giá 150 triệu USD; khu nghỉ dưỡng có 4 sân golf, spa 48.000 feet vuông và phòng khiêu vũ hơn 24.000 feet vuông, nằm cách sân bay quốc tế Miami khoảng 10 phút lái xe, với mỗi phái đoàn được bố trí một tòa nhà riêng. Hội nghị cũng trùng với dịp kỷ niệm 250 năm nước Mỹ, và là dấu chấm hết cho năm chủ tịch G20 của Mỹ bắt đầu từ 1/12/2025."
+          ],
+          nguon: [
+            { ten: "WarBrief", link: "https://warbrief.live/g20-summit-doral-december-2026-what-to-expect/" },
+            { ten: "Anadolu Agency (via UA.NEWS)", link: "https://ua.news/en/dovkolo-svitu/tramp-zaiaviv-shcho-ochikuie-vsikh-lideriv-g20-na-samiti-u-floridi-anadolu-agency" },
+            { ten: "Business Journal Florida", link: "https://www.businessjournalflorida.com/article/958182495-trump-expects-all-top-leaders-at-florida-g20-summit" }
+          ],
+          gio: "Sáng, Nov 24"
+        },
         {
           tieuDe: "G20 Miami mở rộng danh sách khách mời: Armenia, Việt Nam cùng 10 nước khác được mời — Nam Phi vắng mặt, Ba Lan có tên",
           baiViet: [
@@ -133,20 +147,6 @@ window.TIN_TUC = {
             { ten: "City of Miami Beach", link: "https://www.miamibeachfl.gov/g20/" }
           ],
           gio: "Sáng, Nov 23"
-        },
-        {
-          tieuDe: "G20 Miami: Putin nhiều khả năng vắng mặt, đặc phái viên Mỹ chuẩn bị sang Moscow — Washington muốn thỏa thuận hòa bình trước tháng 1/2027",
-          baiViet: [
-            "Tổng thống Nga Vladimir Putin nhiều khả năng sẽ không dự thượng đỉnh G20 ngày 14–15/12 tại khu nghỉ dưỡng Trump National Doral ở Miami — theo hãng Bloomberg dẫn các nguồn tin từ Điện Kremlin. Nếu đúng, đây sẽ là kỳ họp lãnh đạo G20 trực tiếp đầu tiên mà Putin vắng mặt kể từ năm 2019. Cùng ngày thứ Bảy, Tổng thống Ukraine Volodymyr Zelenskyy xác nhận Mỹ đã đề xuất tổ chức vòng đàm phán ba bên mới giữa Mỹ, Nga và Ukraine trước Giáng sinh, và Kyiv đã đồng ý. Theo Zelenskyy, các cố vấn an ninh quốc gia ba bên sẽ họp trước — trực tuyến hoặc trực tiếp — để chuẩn bị chương trình và nội dung, sau đó mới chốt địa điểm và ngày giờ.",
-            "Bước tiếp theo có thể là chuyến đi Moscow của hai đặc phái viên Mỹ Steve Witkoff và Jared Kushner, sau khi họ làm việc với quan chức Ukraine và châu Âu. Tờ Financial Times đưa tin chính quyền Trump muốn đạt được một thỏa thuận hòa bình vào tháng 1/2027. Vòng đàm phán ba bên đầu tiên sau chín tháng gián đoạn đã diễn ra tại Abu Dhabi ngày 10–11/11, kết thúc với thỏa thuận về các bước nhân đạo và cam kết đàm phán tiếp. Zelenskyy cũng cho biết Kyiv đã gửi cho Mỹ và cơ quan thanh tra nhân quyền Ukraine danh sách cập nhật các làng mạc bị chiếm đóng tại Kherson và Zaporizhzhia, nơi Kyiv muốn tổ chức các sứ mệnh sơ tán dân thường.",
-            "Vướng mắc lớn nhất vẫn là tấm thư mời: Trump đã mời Putin — Nga là thành viên G20 — từ tháng 9, nhưng Ukraine, vốn không phải thành viên G20, tới nay vẫn chưa nhận được thư mời chính thức nào. Zelenskyy cho biết nhiều lãnh đạo thế giới đã đề nghị Washington mời chính thức Kyiv, và khẳng định 'nếu được mời, chúng tôi chắc chắn sẽ tham dự'. Trong cuộc gọi với các lãnh đạo châu Âu tại Berlin hôm thứ Năm, Trump nói châu Âu đang chi quá nhiều tiền cho cuộc chiến ở Ukraine và có thể dùng số tiền đó cho chính mình nếu đạt được hòa bình — Zelenskyy xác nhận nội dung này, đồng thời đáp lại cách Trump gọi Putin là 'bạn' bằng câu nói: 'Với chúng tôi, ông ta là kẻ thù, và tất nhiên, với chúng tôi, ông ta là kẻ giết người'."
-          ],
-          nguon: [
-            { ten: "LIGA.net", link: "https://news.liga.net/en/politics/news/the-us-has-not-yet-officially-invited-ukraine-to-the-g20-zelenskyy" },
-            { ten: "Reuters", link: "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/" },
-            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-international/2026/11/22/24VD55WKDBHBBLIGEXY5KQX4DY/" }
-          ],
-          gio: "Chiều, Nov 22"
         },
       ]
     }
