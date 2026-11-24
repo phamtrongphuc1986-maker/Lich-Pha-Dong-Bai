@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Ba 24/11/2026 — bản tin chiều",
+  capNhat: "Thứ Tư 25/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Sau Geneva: Điện Kremlin chê châu Âu 'chưa thấy giá trị gia tăng', Putin nói đề xuất của Mỹ 'về nguyên tắc' có thể làm cơ sở hòa bình",
+          baiViet: [
+            "Phản ứng đầu tiên từ Moskva sau tuyên bố chung Mỹ–Ukraine tại Geneva đã đến vào thứ Ba 24/11, và nó không mấy nồng ấm. Phát ngôn viên Điện Kremlin Dmitry Peskov nói Nga 'chưa hiểu rõ' châu Âu có thể đóng góp gì cho tiến trình đàm phán, dù các nước châu Âu khăng khăng vòng tiếp theo phải theo định dạng bốn bên gồm Mỹ, Ukraine, Nga và châu Âu. Ông Peskov đồng thời xác nhận chưa có ngày cụ thể cho vòng đàm phán mới — vốn được nhắc tới sẽ diễn ra tại Abu Dhabi — dù 'có sự hiểu biết rằng các cuộc đàm phán nên tiếp tục'. Một ngày trước đó, ông Peskov cho biết Nga vẫn chưa nhận được bất kỳ thông tin chính thức nào về kết quả Geneva và sẽ chờ xem diễn biến ra sao, thay vì bình luận dựa trên các bài báo.",
+            "Cùng ngày thứ Hai 24/11, Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan đã điện đàm với Tổng thống Nga Vladimir Putin. Theo thông báo của Điện Kremlin, ông Putin nhận định các đề xuất hòa bình của Mỹ 'về nguyên tắc' có thể làm cơ sở cho một thỏa thuận hòa bình cuối cùng, và phù hợp với những gì đã thảo luận tại thượng đỉnh Nga–Mỹ ở Alaska. Ông Erdogan khẳng định Thổ Nhĩ Kỳ sẽ tiếp tục nỗ lực để cuộc chiến kết thúc bằng một nền hòa bình 'công bằng và bền vững', sẵn sàng hỗ trợ mọi sáng kiến ngoại giao và giữ Istanbul làm địa điểm cho các cuộc gặp trong tương lai. Trước cuộc gọi, ông Erdogan cho biết sẽ đề nghị ông Putin xem xét khôi phục thỏa thuận hành lang ngũ cốc Biển Đen năm 2022, vốn cho phép Ukraine xuất khẩu ngũ cốc an toàn trước khi sụp đổ một năm sau đó.",
+            "Phản ứng từ châu Âu cũng đến nhanh: Thủ tướng Đức Friedrich Merz hôm thứ Hai tuyên bố châu Âu sẵn sàng đàm phán và đề xuất một cuộc đàm phán bốn bên giữa Ukraine, Nga, châu Âu và Mỹ, với Abu Dhabi là địa điểm khả thi. Ngoại trưởng Đức Johann Wadephul đáp lại phát biểu của ông Peskov vào thứ Ba bằng câu nói thẳng: 'Người duy nhất chưa sẵn sàng đàm phán là ông Putin'. Trong ngày thứ Ba, nhóm 30 nước ủng hộ Kyiv — 'liên minh tự nguyện' — dự kiến họp trực tuyến để bàn các bước tiếp theo. Bối cảnh cho thấy nút thắt vẫn nằm ở Moskva: tại vòng Abu Dhabi ngày 10–11/11, đặc phái viên Mỹ Jared Kushner từng nói vòng sau sẽ có châu Âu tham gia, nhưng Nga từ trước đến nay luôn phản đối châu Âu ngồi vào bàn; tuần trước ông Putin còn mời đại diện EU tới Moskva để 'làm rõ lập trường', trong khi Ủy ban châu Âu khẳng định vẫn chỉ tập trung vào định dạng đa phương. Geneva đã cho Kyiv một văn bản bớt bất lợi hơn, nhưng khi chưa có ngày họp mới và chưa có phản hồi chính thức nào từ Moskva về bản khung cập nhật, hòa bình vẫn còn xa."
+          ],
+          nguon: [
+            { ten: "Ukrainska Pravda", link: "https://www.pravda.com.ua/eng/news/2026/11/24/8064380/" },
+            { ten: "ANews", link: "https://www.anews.com.tr/world/2026/11/24/russia-so-far-sees-no-added-value-in-europes-participation-in-ukraine-peace-talks-kremlin" },
+            { ten: "Xinhua", link: "http://www.china.org.cn/world/Off_the_Wire/2025-11/25/content_118193389.shtml" }
+          ],
+          gio: "Sáng, Nov 25"
+        },
+
         {
           tieuDe: "Geneva ngày 2: Mỹ–Ukraine ra tuyên bố chung — thỏa thuận tương lai 'phải bảo vệ toàn vẹn chủ quyền', Erdogan điện đàm với Putin",
           baiViet: [
@@ -39,26 +54,27 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 24"
         },
-        {
-          tieuDe: "Vịnh Ba Tư nóng trở lại: Iran đánh Bahrain, Trump dọa đánh chìm tàu phá phong tỏa — 14 tàu dầu chờ vượt chốt chặn",
-          baiViet: [
-            "Cuối tuần qua, xung đột Mỹ–Iran leo thang thêm một nấc khi Iran mở rộng đòn tấn công sang Bahrain — nơi đặt trụ sở Hạm đội 5 của Hải quân Mỹ. Hôm thứ Bảy 21/11, Bahrain cho biết một cơ sở công nghiệp dân sự trên đảo Sitra đã trúng đòn tấn công của Iran và bốc cháy, khiến hai người bị thương — một công dân Bahrain và một người Pakistan cư trú tại đây; hệ thống phòng không của Bahrain đã đánh chặn nhiều đợt tấn công trên không. Lực lượng Vệ binh Cách mạng Iran tuyên bố đã đánh trúng hai radar phòng thủ tên lửa Patriot của Mỹ tại các căn cứ Riffa và Awali, song tuyên bố này chưa được Bahrain hay Mỹ xác nhận. Saudi Arabia, Qatar và Ai Cập đã lên án vụ tấn công. Cùng ngày, hai tàu dầu bị tấn công ở eo biển Hormuz theo ghi nhận của Cơ quan Thương mại Hàng hải Anh (UKMTO) — một tàu trúng vật thể lạ ở đuôi, một tàu hư hại phòng máy cách Khasab, Oman khoảng 17 hải lý — nâng tổng số tàu dầu bị tấn công ở eo biển lên 7 chiếc kể từ ngày 16/11.",
-            "Đáp lại, Tổng thống Donald Trump tuyên bố trong cuộc phỏng vấn với Fox News hôm Chủ nhật 22/11 rằng ông hy vọng Iran sẽ 'thử' thách thức phong tỏa hải quân của Mỹ — vì những tàu đó sẽ 'nằm dưới đáy biển'. Ông cũng cho biết có xu hướng nối lại các đợt không kích Iran sau đầu năm mới nếu đàm phán không đạt thỏa thuận, dù hôm 19/11 ông từng nói với Reuters rằng mình không vội ra quyết định quân sự lớn. Cùng lúc, giới phân tích an ninh hàng hải cho biết Mỹ đã tấn công một tàu chở dầu xuất khẩu của Iran gần tuyến phong tỏa — chưa có xác nhận chính thức từ Lầu Năm Góc hay Bộ Tư lệnh Trung tâm Mỹ — và UKMTO ghi nhận một tàu gặp 'lực lượng quân sự' ở Vịnh Oman, gần thành phố Chabahar của Iran. Hôm thứ Hai 23/11, Bộ Tài chính Mỹ áp thêm lệnh trừng phạt sâu rộng với hơn hai chục sàn giao dịch tiền tệ và công ty bình phong của Iran, còn Tehran đòi Mỹ bồi thường 290 tỉ USD thiệt hại.",
-            "Tâm điểm của cuộc đối đầu là đoàn tàu dầu mà Iran chuẩn bị đưa qua phong tỏa. Báo Hamshahri thân chính quyền Tehran cho biết 14 tàu dầu đang tập kết tại đảo Kharg để tìm cách phá vòng vây; một báo cáo khác nói con số lên tới 31 tàu chở đầy dầu. Tuy nhiên, một cố vấn của tổ chức United Against Nuclear Iran cho rằng một cuộc 'đột phá' 14 tàu gần như không thể về mặt hậu cần và mang tính tuyên truyền, và tới nay chưa có xác nhận độc lập nào về việc đoàn tàu đã di chuyển. Phía Iran tuyên bố sẽ dùng 'mọi biện pháp sẵn có' để chống lại phong tỏa, đồng thời cảnh báo bất kỳ nỗ lực chặn tàu nào cũng sẽ kéo theo đòn trả đũa vào hạ tầng năng lượng khắp vùng Vịnh. Ngoại trưởng Iran Abbas Araghchi để ngỏ khả năng mở lại eo biển nếu Mỹ dỡ phong tỏa, gỡ trừng phạt và thừa nhận thiệt hại; Qatar đang làm trung gian, với đoàn đại biểu Doha thăm Tehran cuối tuần qua và Thủ tướng Qatar dự kiến gặp ông Trump tại Washington. Hai nhóm tác chiến tàu sân bay Mỹ hiện diện trong khu vực, và giới quan sát cảnh báo một tính toán sai lầm ở Hormuz có thể châm ngòi cho vòng leo thang mới."
-          ],
-          nguon: [
-            { ten: "Gulf News", link: "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662" },
-            { ten: "Gulf News", link: "https://gulfnews.com/amp/story/world%2Fmena%2Ftrump-threatens-to-sink-iranian-vessels-as-us-strikes-oil-tanker-ghalibaf-calls-for-lasting-security-1.500757421" },
-            { ten: "Vocemundi (tổng hợp Reuters/Bloomberg/CNN)", link: "https://vocemundi.com/third-us-aircraft-carrier-arrives-in-middle-east-irans-irgc-says-tankers-hit-mines/" }
-          ],
-          gio: "Sáng, Nov 24"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Phố Wall phân hóa sau cú bật lịch sử: Dow lần đầu vượt 50.000 điểm, Nasdaq rơi 1,5% khi cổ phiếu chip đảo chiều; Dell báo cáo kỷ lục sau giờ đóng cửa",
+          baiViet: [
+            "Thị trường chứng khoán Mỹ chia đôi trong phiên thứ Ba 24/11, chỉ một ngày sau cú bật mạnh nhất kể từ tháng 4/2025. Chỉ số Dow Jones tăng 0,9%, tương đương hơn 400 điểm, lên 50.018 điểm — lần đầu tiên trong lịch sử đóng cửa trên mốc 50.000. Ngược lại, S&P 500 giảm 0,5% còn 7.201 điểm, còn Nasdaq mất 1,5% xuống 23.733 điểm. Diễn biến này đảo ngược phần lớn đà hưng phấn của phiên thứ Hai, khi S&P 500 tăng gần 5% còn Nasdaq vọt 6,5% sau tin Jensen Huang trở lại ghế tổng giám đốc Nvidia. Chính Nvidia dẫn đầu đà đảo chiều: cổ phiếu giảm 6% sau khi tăng 31% hôm trước và cộng thêm hơn 900 tỷ USD vốn hóa chỉ trong một phiên, hiện vẫn thấp hơn 35% so với mức đỉnh đóng cửa ngày 6/10. Dòng tiền xoay sang các nhóm ngoài công nghệ, với Nike và hãng dược Amgen cùng tăng hơn 5%.",
+            "Nhóm cổ phiếu chip và máy chủ AI bị bán tháo mạnh nhất. Analog Devices lao dốc 17% dù doanh thu quý tăng 42% lên 4,37 tỷ USD; Micron giảm khoảng 11%, AMD, Intel và Marvell đều mất hơn 8%, còn quỹ ETF bán dẫn SOXX giảm 8%. Hewlett Packard Enterprise (HPE) sụt 16,3% xuống 40,19 USD, dù báo cáo quý IV vượt kỳ vọng với lợi nhuận điều chỉnh 1,43 USD/cổ phiếu so với mức dự báo 1,28 USD, doanh thu 14,55 tỷ USD tăng 50%, đồng thời nâng triển vọng cho tài khóa 2027. Nhà đầu tư thất vọng vì biên lợi nhuận gộp điều chỉnh của HPE giảm 2,2 điểm phần trăm và ban lãnh đạo cảnh báo biên lợi nhuận từ máy chủ AI sẽ tiếp tục mỏng đi. Dell cũng giảm 11,8% xuống 295,28 USD trong phiên, khi nhà đầu tư chờ báo cáo kết quả sau giờ đóng cửa.",
+            "Sau giờ giao dịch, Dell công bố một quý kỷ lục: doanh thu 54,94 tỷ USD, tăng 103% so với cùng kỳ và vượt xa mức dự báo 49,32 tỷ USD; lợi nhuận điều chỉnh 9,45 USD/cổ phiếu so với kỳ vọng 6,60 USD. Hãng nhận 60,2 tỷ USD đơn đặt hàng máy chủ AI mới trong quý, đưa lượng đơn tồn đọng lên kỷ lục 132,3 tỷ USD. Dell nâng dự báo doanh thu cả năm tài khóa 2027 lên 202 tỷ USD, từ mức 192 tỷ USD trước đó, và nâng dự báo lợi nhuận điều chỉnh lên 29,68 USD/cổ phiếu, từ 25,50 USD. Cổ phiếu Dell hồi phục hơn 2% trong giao dịch sau giờ. Một dấu mốc khác của phiên: cổ phiếu Anthropic giảm 6,5% xuống dưới 82 USD, thấp hơn giá chào bán 83 USD trong đợt IPO kỷ lục tuần trước. Giá vàng giảm 2,8% xuống 3.550 USD/ounce, dầu WTI tăng 1,6% lên 81,45 USD/thùng, lợi suất trái phiếu kho bạc Mỹ kỳ hạn 10 năm ở mức 4,91%. Thị trường Mỹ sẽ nghỉ lễ Tạ ơn vào thứ Năm, và giới đầu tư đang chờ loạt dữ liệu GDP cùng chỉ số lạm phát PCE công bố sáng thứ Tư."
+          ],
+          nguon: [
+            { ten: "Investopedia", link: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11242026-12275797" },
+            { ten: "Reuters", link: "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/" },
+            { ten: "Investor's Business Daily", link: "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/" }
+          ],
+          gio: "Sáng, Nov 25"
+        },
+
         {
           tieuDe: "Châu Á bật theo Phố Wall: Nikkei, Kospi hồi mạnh sau cú bật 6,5% của Nasdaq; HPE nâng triển vọng, Dell báo cáo tối nay",
           baiViet: [
@@ -87,25 +103,27 @@ window.TIN_TUC = {
           ],
           gio: "Sáng, Nov 24"
         },
-        {
-          tieuDe: "OECD: tăng trưởng G7 dậm chân tại chỗ ở 0,5% quý III — Mỹ và Anh tăng tốc, Pháp suy giảm, Nhật Bản và Ý đứng yên",
-          baiViet: [
-            "Tăng trưởng kinh tế của nhóm G7 giữ nguyên ở mức 0,5% trong quý III/2026, không cải thiện so với quý II, trong khi GDP toàn khối OECD tăng 0,6% — chậm lại từ 0,7% — theo ước tính sơ bộ Tổ chức Hợp tác và Phát triển Kinh tế (OECD) công bố ngày 19/11 tại Paris. Bức tranh phân hóa rõ rệt: Mỹ tăng tốc lên 0,8% (từ 0,6%) nhờ nhu cầu trong nước, Anh tăng lên 0,7% (từ 0,5%); ngược lại, Pháp suy giảm 0,1% sau khi đứng yên ở quý II, Nhật Bản và Ý không tăng trưởng, Canada chậm lại còn 0,3% (từ 0,8%) và Đức chỉ đạt 0,2% (từ 0,3%).",
-            "Xuất khẩu ròng là điểm yếu chung của hầu hết các nền kinh tế lớn. Xuất khẩu của Mỹ giảm 1,5% trong quý sau khi tăng 1,2% ở quý trước; xuất khẩu Anh tăng chậm lại còn 1,6% và bị nhập khẩu tăng 1,8% vượt qua. Đức ghi nhận đầu tư và xuất khẩu cùng yếu đi, còn Pháp chịu sức ép từ cả xuất khẩu lẫn đầu tư sụt giảm. Tính theo năm, GDP của OECD tăng 1,9%; trong nhóm G7, Mỹ dẫn đầu với 2,1%, tiếp theo là Anh 1,9%, Đức và Nhật Bản 1,2%, Canada 1,0%, Ý 0,8%, còn Pháp âm 0,1%.",
-            "Ireland ghi nhận mức tăng trưởng cao nhất trong khối OECD với 5,5%, dù đã chậm lại từ 10,2% ở quý II. OECD lưu ý số liệu G20 cho quý III chưa có vì thường chậm hơn một quý, và lần công bố GDP quý tiếp theo dự kiến vào tháng 2/2027. Con số này đến trong bối cảnh các nền kinh tế lớn vẫn vật lộn với giá năng lượng cao và căng thẳng thương mại — và là thước đo mới nhất cho thấy G7 đang tăng trưởng theo hai tốc độ khác nhau, với phía bên kia Đại Tây Dương tăng nhanh hơn hẳn châu Âu và Nhật Bản."
-          ],
-          nguon: [
-            { ten: "CEO.com.pl (OECD)", link: "https://ceo.com.pl/en/oecd-gdp-q3-2026-us-uk-france-growth-76946/" },
-            { ten: "SwapUpdate (OECD)", link: "https://www.swapupdate.in/oecd-growth-slows-to-0-6-in-q3-2026-as-major-economies-diverge/" }
-          ],
-          gio: "Sáng, Nov 23"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami: 20 nghị sĩ lưỡng đảng yêu cầu Trump thu hồi lời mời Putin — Điện Kremlin nói quyết định 'vẫn chưa được đưa ra'",
+          baiViet: [
+            "Hai mươi hạ nghị sĩ lưỡng đảng của Mỹ đang yêu cầu Tổng thống Donald Trump thu hồi lời mời Tổng thống Nga Vladimir Putin dự thượng đỉnh G20 tại Miami, cảnh báo việc đón tiếp nhà lãnh đạo Nga sẽ làm suy yếu an ninh quốc gia và binh sĩ Mỹ. Bức thư gửi Nhà Trắng đề ngày 19/11, được công bố ngày 24/11, do nghị sĩ Cộng hòa Don Bacon của Nebraska dẫn đầu cùng hai nghị sĩ Dân chủ Pat Ryan của New York và Gil Cisneros của California. Lý do chính được nêu là các báo cáo tình báo cho rằng Nga đã cung cấp ảnh vệ tinh và thông tin tình báo giúp Iran tấn công lực lượng Mỹ ở Trung Đông, trong đó có vụ tấn công căn cứ không quân Prince Sultan ở Saudi Arabia cuối tháng 3 làm 12 quân nhân Mỹ bị thương và phá hủy một máy bay cảnh báo sớm AWACS. Văn phòng của ông Cisneros cho biết tính đến tháng 11, ít nhất 23 quân nhân Mỹ đã thiệt mạng trong cuộc chiến với Iran. Ông Cisneros gọi lời mời dành cho ông Putin là 'sự phản bội đối với quân đội của chúng ta', còn ông Ryan nói Mỹ 'nên đứng về phía các đồng minh, chứ không trao thêm sức mạnh cho đối thủ của họ'.",
+            "Bức thư còn chỉ trích thỏa thuận Mỹ mua dầu diesel của Nga kèm theo việc miễn trừ trừng phạt — hơn 300.000 tấn trong đợt đầu, rồi 500.000 tấn trong tháng 11 và 1 triệu tấn sau đó — cho rằng thỏa thuận này gửi 'thông điệp sai' tới quân nhân Mỹ. Các nghị sĩ dẫn thêm các báo cáo rằng Moskva đang cung cấp cho Tehran chất nổ, linh kiện máy bay không người lái, đạn dược, đồng thời hỗ trợ Iran phát triển tên lửa hành trình siêu thanh tiên tiến. Họ lập luận rằng việc đón ông Putin tới một diễn đàn vốn dành cho hợp tác kinh tế toàn cầu sẽ làm suy yếu các lệnh trừng phạt mà phương Tây áp đặt sau cuộc xâm lược Ukraine năm 2022, và rằng 'đây không phải lúc bước vào hợp tác kinh tế hay thảo luận với Nga ngoài việc chấm dứt cuộc chiến phi nghĩa của họ, dù ở thượng đỉnh G20 hay bất cứ đâu'.",
+            "Về phía Nga, Điện Kremlin cho biết quyết định về việc ông Putin có tự mình tới Miami hay không 'vẫn chưa được đưa ra', theo phát ngôn viên Dmitry Peskov trả lời báo Izvestia; Moskva khẳng định Nga sẽ tham dự thượng đỉnh ở cấp cao. Bản thân ông Putin trước đó cảm ơn lời mời của ông Trump nhưng nói việc tham dự phụ thuộc vào các ưu tiên trong nước. Tranh cãi về lời mời diễn ra trong bối cảnh thượng đỉnh Miami vốn đã nhiều chia rẽ: các cuộc họp cấp bộ trưởng tài chính và ngoại giao trong năm đều không ra được tuyên bố chung, và câu hỏi ông Putin có xuất hiện trực tiếp tại một thượng đỉnh G20 lần đầu kể từ Osaka 2019 hay không vẫn bỏ ngỏ, chỉ còn ba tuần trước khi các nhà lãnh đạo nhóm họp ngày 14–15/12."
+          ],
+          nguon: [
+            { ten: "The Tribune (ANI)", link: "https://www.tribuneindia.com/news/usa-news/betrayal-of-our-troops-support-of-enemies-bipartisan-lawmakers-demand-trump-revoke-putins-g20-invite-over-ukraine-war-and-iran-intel-reports/" },
+            { ten: "Rep. Gil Cisneros (House.gov)", link: "http://cisneros.house.gov/media/press-releases/rep-cisneros-leads-bipartisan-letter-urging-president-trump-rescind-vladimir" },
+            { ten: "ChosunBiz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" }
+          ],
+          gio: "Sáng, Nov 25"
+        },
+
         {
           tieuDe: "Indonesia–EU ký hiệp định thương mại sau gần 10 năm đàm phán: 98,5% dòng thuế về 0, Prabowo sẽ tới G20 Miami",
           baiViet: [
@@ -133,20 +151,6 @@ window.TIN_TUC = {
             { ten: "Business Journal Florida", link: "https://www.businessjournalflorida.com/article/958182495-trump-expects-all-top-leaders-at-florida-g20-summit" }
           ],
           gio: "Sáng, Nov 24"
-        },
-        {
-          tieuDe: "G20 Miami mở rộng danh sách khách mời: Armenia, Việt Nam cùng 10 nước khác được mời — Nam Phi vắng mặt, Ba Lan có tên",
-          baiViet: [
-            "Danh sách khách mời của Hội nghị Thượng đỉnh G20 tại Miami ngày 14–15/12 tiếp tục dài thêm. Armenia đã nhận lời mời tham dự với tư cách nước khách mời — Thủ tướng Nikol Pashinyan sẽ trực tiếp tới Miami, theo thông báo của ông tại Yerevan. Cùng với Armenia, các nước được mời gồm Azerbaijan, Phần Lan, Ireland, Kazakhstan, Hà Lan, Na Uy, Qatar, Singapore, Tây Ban Nha, Các Tiểu vương quốc Arab Thống nhất, Uzbekistan và Việt Nam. Liên minh châu Phi và Liên minh châu Âu cũng sẽ tham dự với tư cách thành viên và khách mời của nhóm.",
-            "Điểm đáng chú ý nhất trong danh sách do phía Mỹ công bố: Nam Phi vắng mặt. Tổng thống Trump đã tuyên bố từ tháng 11/2025 rằng Nam Phi sẽ không được mời tới Miami, sau khi Mỹ tẩy chay Hội nghị Thượng đỉnh G20 tại Johannesburg ngày 22–23/11/2025. Ngược lại, Ba Lan xuất hiện trong danh sách dù không phải thành viên thường trực của G20. Việc sắp xếp khách mời cho thấy Washington đang định hình lại 'bàn tròn' của mình: mở rộng sang các đối tác được chọn, đồng thời giữ nguyên lập trường cứng rắn với Pretoria.",
-            "Hội nghị sẽ diễn ra tại khu nghỉ dưỡng Trump National Doral, với các cuộc họp chuẩn bị bắt đầu quanh ngày 10/12. Trump tuyên bố hôm 21/11 rằng 'mọi lãnh đạo hàng đầu thế giới sẽ tới', và ban nhạc Thủy quân Lục chiến Mỹ sẽ biểu diễn đón khách; Tổng thống Hàn Quốc Lee Jae-myung đã chốt gặp song phương bên lề. Việc Tổng thống Nga Vladimir Putin có tới hay không vẫn chưa được Điện Kremlin xác nhận, trong khi Trump nói ông sẽ cân nhắc mời cả Tổng thống Ukraine Zelenskyy. Thành phố Miami Beach cảnh báo các biện pháp an ninh và hạn chế giao thông từ ngày 10 tới 16/12, đồng thời kêu gọi người dân chủ động sắp xếp đi lại. Chương trình nghị sự nối tiếp cuộc gặp ba bên Mỹ–Trung–Nga đầu tiên tại Thâm Quyến ngày 19/11, trong bối cảnh đình chiến thương mại Mỹ–Trung được kéo dài tới ngày 10/1/2027."
-          ],
-          nguon: [
-            { ten: "Moldpres (Armenpress)", link: "https://www.moldpres.md/eng/external/armenia-invited-to-participate-in-g20-summit-in-miami" },
-            { ten: "EIN News (G20 monitoring)", link: "https://g20.einnews.com/news/g20-leaders" },
-            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" }
-          ],
-          gio: "Chiều, Nov 23"
         },
       ]
     }
