@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Tư 25/11/2026 — bản tin sáng",
+  capNhat: "Thứ Tư 25/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Nga dội 112 drone vào lưới điện Ukraine đêm 24–25/11: 5 tỉnh mất điện, nhà máy Zaporizhzhia mất điện ngoài phải chạy máy phát diesel",
+          baiViet: [
+            "Trong lúc các nhà ngoại giao còn đang bàn về khung hòa bình Geneva, chiến sự trên mặt đất vẫn tiếp diễn dữ dội. Đêm 24 rạng sáng 25/11, Nga đã phóng 112 máy bay không người lái tấn công vào Ukraine, trong đó phòng không Ukraine tuyên bố bắn hạ 88 chiếc. Các đòn đánh tập trung vào hạ tầng năng lượng và giao thông: một cơ sở năng lượng ở huyện Zhytomyr và một doanh nghiệp dân sự ở huyện Korosten trúng drone, khiến một người bị thương; một doanh nghiệp công nghiệp ở tỉnh Poltava cũng bị đánh trúng. Tổng thống Volodymyr Zelenskyy cho biết Nga đã tập trung đòn đánh vào tỉnh Zhytomyr trong đêm, nhắm vào hạ tầng phân phối và truyền tải điện.",
+            "Bộ Năng lượng Ukraine sáng thứ Tư xác nhận các nhà máy điện cùng nhiều trạm biến áp truyền tải và phân phối lại bị tấn công trong đêm và sáng sớm, gây mất điện mới tại 5 tỉnh: Dnipropetrovsk, Donetsk, Zaporizhzhia, Odesa và Kharkiv. Tình hình khó khăn nhất là ở Zaporizhzhia và Dnipropetrovsk, nơi nhiều cơ sở năng lượng then chốt bị hư hại và nhà chức trách phải áp thêm hạn chế lưới điện để tránh quá tải gây sự cố. Đáng chú ý, nhà máy điện hạt nhân Zaporizhzhia đang bị chiếm đóng đã mất nguồn điện ngoài và phải chuyển sang chạy máy phát diesel dự phòng. Tại Odesa, một cơ sở phát điện của DTEK bị đánh trúng tối 24/11, làm hư hại 16 xe chuyên dụng và khiến khoảng 9.000 hộ dân ở các huyện Odesa và Bolhrad mất điện.",
+            "Đợt tấn công này nối tiếp chuỗi đòn đánh vào lưới điện mà Nga duy trì suốt mùa thu, đúng vào thời điểm Ukraine bước vào mùa đông. Công việc sửa chữa đang diễn ra ở mọi khu vực bị ảnh hưởng, nhưng Bộ Năng lượng thừa nhận các đợt tấn công lặp lại cùng cảnh báo không kích liên tục đang làm chậm đáng kể tiến độ khôi phục. Trước đó một ngày, một vụ tập kích drone của Nga vào Kharkiv đã khiến 4 người thiệt mạng. Bối cảnh cho thấy nghịch lý của tiến trình ngoại giao hiện nay: Geneva đã cho ra một khung hòa bình được cập nhật, các đặc phái viên Mỹ vẫn đang thúc đẩy vòng đàm phán tiếp theo, nhưng trên thực địa Moskva vẫn leo thang đánh vào hạ tầng dân sự — và Kyiv coi đó là phép thử cho thiện chí thực sự của Nga trước bất kỳ thỏa thuận nào."
+          ],
+          nguon: [
+            { ten: "Ukrainska Pravda", link: "https://www.pravda.com.ua/eng/news/2026/11/25/8064543/" },
+            { ten: "LB.ua", link: "https://en.lb.ua/news/2026/11/25/51406_russia_strikes_energy_facilities.html" },
+            { ten: "Interfax-Ukraine", link: "https://en.interfax.com.ua/news/economic/1242061.html" }
+          ],
+          gio: "Chiều, Nov 25"
+        },
+
         {
           tieuDe: "Sau Geneva: Điện Kremlin chê châu Âu 'chưa thấy giá trị gia tăng', Putin nói đề xuất của Mỹ 'về nguyên tắc' có thể làm cơ sở hòa bình",
           baiViet: [
@@ -40,26 +55,27 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 24"
         },
-        {
-          tieuDe: "Geneva ngày 2: châu Âu đưa bản đối trọng 24 điểm — không nhượng Donbas, quân đội Ukraine giữ 800.000 người, Nga có thể trở lại G8",
-          baiViet: [
-            "Ngày thứ Hai 23/11 tại Geneva, Mỹ, Ukraine và các đồng minh châu Âu đã ngồi lại với nhau để bàn về kế hoạch hòa bình 28 điểm của Washington — và lần này châu Âu không còn đứng ngoài quan sát. Sau vòng đàm phán đầu tiên mà phía Mỹ và Ukraine gọi là 'hiệu quả nhất từ trước tới nay', các nước Anh, Đức và Pháp đã trình một bản đối trọng 24 điểm, được hãng Reuters công bố toàn văn ngay trong ngày. Bản châu Âu giữ nguyên khung của kế hoạch Mỹ nhưng sửa những điều khoản mà Kyiv và các thủ đô châu Âu cho là không thể chấp nhận: đàm phán lãnh thổ phải xuất phát từ tuyến tiếp xúc hiện tại, thay vì yêu cầu Ukraine rút khỏi những vùng ở Donbas mà Nga chưa kiểm soát; quân đội Ukraine thời bình được giữ 800.000 người thay vì 600.000 như bản Mỹ; và điều khoản Mỹ hưởng 50% lợi nhuận từ tài sản Nga bị đóng băng dùng để tái thiết đã bị gỡ bỏ.",
-            "Điểm khác biệt lớn nhất nằm ở bảo đảm an ninh và tư cách thành viên NATO. Bản đối trọng khẳng định lại chủ quyền của Ukraine, đề xuất một thỏa thuận không xâm lược toàn diện giữa Nga, Ukraine và NATO, đồng thời giữ ngỏ khả năng Kyiv gia nhập NATO — quyết định phụ thuộc vào sự nhất trí của các thành viên, thay vì bị loại trừ ngay từ đầu như bản Mỹ. Đổi lại, NATO sẽ không đồn trú thường trực tại Ukraine trong thời bình, nhưng chiến đấu cơ NATO sẽ đóng tại Ba Lan; Mỹ đưa ra bảo đảm an ninh tương tự Điều 5, kèm điều kiện: nếu Nga xâm lược trở lại, sẽ có phản ứng quân sự phối hợp, toàn bộ lệnh trừng phạt được khôi phục và mọi công nhận lãnh thổ mới đều bị thu hồi. Bản văn cũng mở đường cho Nga dần trở lại kinh tế toàn cầu — kể cả khả năng trở lại nhóm G8 — và yêu cầu bầu cử ở Ukraine càng sớm càng tốt sau khi ký thỏa thuận. Trước đó, 11 nước phương Tây đã ra tuyên bố chung tại G20 Johannesburg khẳng định 'biên giới không được thay đổi bằng vũ lực' và cảnh báo giới hạn quân đội sẽ khiến Ukraine dễ bị tấn công.",
-            "Ngoại trưởng Mỹ Marco Rubio khẳng định kế hoạch gốc do Washington soạn — không phải 'danh sách mong muốn của Nga' như nhiều ý kiến chỉ trích — nhưng thừa nhận văn bản đã tiếp thu ý kiến cả hai phía và 'không phải đề nghị cuối cùng'. Tổng thống Trump trước đó đặt hạn chót trả lời trước Lễ Tạ ơn 27/11, song đã nới lỏng thời hạn này. Đàm phán tiếp tục trong ngày thứ Ba 24/11, các đại diện châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11, và một chuyến thăm Washington của Tổng thống Zelenskyy đang được bàn. Giới quan sát nhận định bản đối trọng của châu Âu cho thấy Kyiv đã mua thêm được thời gian — nhưng nút thắt vẫn là Moskva, bên chưa lên tiếng về cả hai bản dự thảo, và là bên mà theo các nguồn thạo tin vẫn giữ nguyên yêu sách lãnh thổ."
-          ],
-          nguon: [
-            { ten: "FastBull (Epoch Times)", link: "https://www.fastbull.com/news-detail/rubio-confirms-ukraine-peace-plan-authored-by-us-4356012_0" },
-            { ten: "Panorama (Reuters)", link: "https://en.panorama.com.al/nga-rikthimi-i-rusise-ne-g8-te-mbajtja-e-zgjedhjeve-zbardhet-propozimi-me-28-pika-i-vendeve-te-be-se-per-ukrainen-ndryshime-ne-planin-e-shba/" },
-            { ten: "InfoHandle", link: "https://infohandle.net/2026/11/23/geneva-ukraine-e3-counter-draft-peace-talks/" }
-          ],
-          gio: "Sáng, Nov 24"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Trump nói 'chưa quá muộn' để chính phủ Mỹ mua cổ phần Nvidia — Phố Wall chờ PCE và GDP quý III trước Lễ Tạ ơn",
+          baiViet: [
+            "Tổng thống Donald Trump cho biết ông từng nghĩ tới việc để chính phủ Mỹ mua cổ phần của Nvidia và tin rằng 'có lẽ vẫn chưa quá muộn' để làm điều đó. Trong cuộc phỏng vấn với tờ New York Post tại Phòng Bầu dục hôm thứ Ba 24/11, trước khi rời Washington đi Florida nghỉ Lễ Tạ ơn, ông Trump nói: 'Tôi đã nghĩ về chuyện đó. Tôi nói, anh biết đấy, có lẽ tôi nên làm vậy, nhưng lúc này tôi chưa nêu ra. Có lẽ vẫn chưa quá muộn.' Ông nhắc tới tiền lệ Intel: hồi tháng 8/2025 chính phủ Mỹ đã đầu tư 8,9 tỉ USD để đổi lấy gần 10% cổ phần Intel, không lâu sau khi ông yêu cầu CEO Lip-Bu Tan từ chức. Ông Trump cũng để ngỏ khả năng ân xá cho CEO Jensen Huang nếu cần, dù cho rằng biện pháp đó khó phải dùng tới.",
+            "Phát biểu này đến ngay sau cơn địa chấn nhân sự tại Nvidia: Huang được hội đồng quản trị tái bổ nhiệm làm CEO hôm thứ Hai 23/11, chưa đầy hai tuần sau khi rời ghế, và cổ phiếu Nvidia đã tăng 31,5% trong phiên đó, cộng thêm gần 1.000 tỉ USD vốn hóa. Nhưng đà tăng không giữ được lâu: phiên thứ Ba, Nvidia rơi 5,9%, kéo Nasdaq Composite giảm 1,48% xuống 23.733,54 điểm và S&P 500 giảm 0,50% xuống 7.201,09 điểm — phiên giảm thứ tám trong chín phiên của S&P 500. Dow Jones đi ngược dòng, tăng 0,85% lên 50.018,70 điểm nhờ nhóm bán lẻ và y tế, lần đầu đóng cửa trên mốc 50.000 điểm. Sáng thứ Tư, hợp đồng tương lai cả ba chỉ số đều đỏ: Nasdaq-100 giảm khoảng 1,4–2%, S&P 500 giảm 0,76–1% và Dow giảm khoảng 0,4%.",
+            "Tâm điểm của phiên thứ Tư là loạt dữ liệu kinh tế công bố trước giờ mở cửa: chỉ số giá tiêu dùng cá nhân (PCE) tháng 10 — thước đo lạm phát ưa thích của Cục Dự trữ Liên bang — cùng ước tính lần hai GDP quý III và số đơn xin trợ cấp thất nghiệp hằng tuần, vốn được công bố sớm một ngày vì thị trường đóng cửa thứ Năm nhân Lễ Tạ ơn. Giới kinh tế dự báo PCE lõi tăng 3,2% so với cùng kỳ năm trước, nhích lên từ tháng 9. Một điểm sáng trong ngày: niềm tin người tiêu dùng Mỹ nhảy lên 103,3 điểm, cao nhất gần hai năm. Thị trường sẽ giao dịch rút ngắn tới 13h chiều thứ Sáu, và giới đầu tư vẫn chờ xem liệu câu chuyện 'chính phủ làm cổ đông' có trở thành chính sách thật với Nvidia hay chỉ dừng ở một câu nói trong phỏng vấn."
+          ],
+          nguon: [
+            { ten: "Investor's Business Daily", link: "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/" },
+            { ten: "Moneycontrol", link: "https://www.moneycontrol.com/world/trump-says-pardon-for-nvidia-ceo-jensen-huang-is-always-an-option-urges-him-to-tell-congress-truth-article-14088382.html" },
+            { ten: "Times Now", link: "https://www.timesnownews.com/world/us/us-news/trump-says-it-is-not-too-late-for-an-us-equity-stake-in-nvidia-article-156561982" }
+          ],
+          gio: "Chiều, Nov 25"
+        },
+
         {
           tieuDe: "Phố Wall phân hóa sau cú bật lịch sử: Dow lần đầu vượt 50.000 điểm, Nasdaq rơi 1,5% khi cổ phiếu chip đảo chiều; Dell báo cáo kỷ lục sau giờ đóng cửa",
           baiViet: [
@@ -89,26 +105,27 @@ window.TIN_TUC = {
           ],
           gio: "Chiều, Nov 24"
         },
-        {
-          tieuDe: "Phố Wall bật mạnh nhất 19 tháng: Nasdaq +6,5%, Nvidia +31% sau khi Jensen Huang trở lại ghế CEO",
-          baiViet: [
-            "Ngày thứ Hai 23/11 đã đi vào lịch sử thị trường Mỹ như một trong những phiên giao dịch phi thường nhất. Chỉ số Nasdaq Composite tăng 6,51% lên 24.089,56 điểm — tăng 1.471,83 điểm, mức tăng điểm trong một ngày lớn thứ hai từ trước tới nay của chỉ số này, đồng thời là phiên tăng phần trăm mạnh nhất kể từ tháng 4/2025. S&P 500 tăng 4,73% lên 7.237,17 điểm, tăng 327,34 điểm — cũng là mức tăng điểm lớn thứ hai trong lịch sử chỉ số — còn Dow Jones tăng 3,01%, thêm 1.448 điểm lên 49.595,31 điểm. Russell 2000 tăng 3,4%. Cả ba chỉ số chính đều chấm dứt chuỗi 7 phiên giảm liên tiếp và thoát khỏi vùng điều chỉnh kỹ thuật, sau một tuần trước đó Nasdaq mất 10%, S&P mất 8,6% và Dow mất 8% — tuần tệ nhất của Nasdaq kể từ năm 2020.",
-            "Chất xúc tác là tin tức công bố ngay trước giờ mở cửa: hội đồng quản trị Nvidia đã tái bổ nhiệm Jensen Huang làm chủ tịch kiêm CEO, có hiệu lực ngay lập tức. Cổ phiếu Nvidia tăng 31,48% trong phiên — phiên tăng mạnh nhất kể từ tháng 5/2003 — có lúc tăng tới 36,6%, và cộng thêm khoảng 952 tỉ USD vốn hóa thị trường trong một ngày, mức tăng vốn hóa một ngày lớn nhất từng ghi nhận ở một công ty Mỹ, gấp hơn hai lần kỷ lục cũ. Đà tăng lan khắp nhóm công nghệ: toàn bộ nhóm 'Magnificent Seven' đều tăng, Tesla tăng 11%, Alphabet tăng 6,3%, Caterpillar tăng 7,1%, chỉ số bán dẫn tăng 12%, Micron tăng 19%, Qualcomm tăng 10,3%. Hãng tin Reuters gọi đây là 'một trong những ngày phi thường nhất trong lịch sử thị trường Mỹ', còn giới phân tích lưu ý khối lượng giao dịch thấp hơn phiên thứ Sáu — một điểm trừ trong ngày tăng điểm.",
-            "Dù vậy, cú bật này mới chỉ bù lại một phần thiệt hại. Tính tới lúc đóng cửa thứ Hai, S&P 500 vẫn thấp hơn 7,4% và Nasdaq thấp hơn 12,7% so với đỉnh ngày 6/10. Đợt bán tháo tuần trước bắt nguồn từ nỗi lo về tính bền vững của cơn sốt đầu tư trí tuệ nhân tạo — chính nỗi lo đã khiến cổ phiếu Nvidia mất 23% trong tuần — và câu hỏi lớn nhất với nhà đầu tư lúc này là liệu sự trở lại của Huang có đủ sức ổn định lại câu chuyện AI, hay thị trường chỉ đang có một phiên hồi kỹ thuật. Phiên tăng mạnh ở New York được kỳ vọng sẽ lan sang châu Á trong phiên thứ Ba, trong khi giá dầu WTI tiếp tục rơi 3,9% xuống 80,20 USD/thùng và giá vàng tăng 3,33% lên 3.632,30 USD/ounce."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-23/" },
-            { ten: "CNN", link: "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?cid=external-feeds_iluminar_meta" },
-            { ten: "Investopedia", link: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147" }
-          ],
-          gio: "Sáng, Nov 24"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Ấn Độ bùng nổ: Sensex vượt 84.000 điểm, vốn ngoại kỷ lục hơn 14 tỉ USD trong tháng 11 nhờ dầu rẻ",
+          baiViet: [
+            "Thị trường chứng khoán Ấn Độ đã có phiên thứ Tư 25/11 bùng nổ sau một ngày nghỉ lễ. Chỉ số Sensex mở cửa tăng vọt, có lúc lên 83.997,43 điểm — tăng 1.561,44 điểm so với giá đóng cửa thứ Hai — rồi tới gần trưa vượt mốc 84.000 điểm, giao dịch quanh 84.468 điểm, tăng khoảng 2.030 điểm, tương đương 2,33%. Chỉ số Nifty 50 cũng vượt 25.900 điểm, tăng khoảng 558 điểm. Đà tăng lan rộng: 15 trong 16 nhóm ngành đi lên, dẫn đầu là ngân hàng tăng 2,5% và công nghệ thông tin tăng 2%, với các cổ phiếu dẫn dắt là Infosys, ICICI Bank, HDFC Bank, Bajaj Finserv và Bajaj Finance. Đây là cú hồi mạnh sau phiên thứ Hai giảm sâu, khi Sensex mất 1.483,72 điểm vì chốt lời ở nhóm tài chính và kim loại; thị trường đóng cửa thứ Ba nhân lễ Guru Nanak Jayanti, cho nhà đầu tư một ngày để bình tĩnh lại.",
+            "Động lực lớn nhất đến từ dòng vốn ngoại. Các nhà đầu tư tổ chức nước ngoài đã mua ròng 5.672,99 crore rupee cổ phiếu Ấn Độ ngay trong phiên thứ Hai dù thị trường giảm mạnh, và tổng vốn ngoại ròng đổ vào Ấn Độ trong tháng 11 đã lên tới khoảng 14,28 tỉ USD — mức kỷ lục theo tháng. Theo hãng Jefferies, đây là tháng mua ròng kỷ lục từ trước tới nay của khối ngoại, đảo ngược hai năm bán ròng liên tiếp; dòng tiền bắt đầu quay lại mạnh từ giữa tháng 10. Yếu tố thứ hai là giá dầu rẻ: dầu Brent giao dịch quanh 90,1 USD/thùng, giảm 1,4% trong phiên và đã mất hơn 20% trong tháng 11. Với Ấn Độ — nước nhập khẩu dầu lớn — dầu rẻ giúp giảm áp lực lạm phát, thâm hụt tài khoản vãng lai và chi phí nhập khẩu. Yếu tố thứ ba là đề xuất của cơ quan chứng khoán SEBI về việc bỏ thuế lãi vốn dài hạn (LTCG) 12,5% đối với nhà đầu tư nước ngoài, được giới phân tích đánh giá là bước đi tăng sức cạnh tranh cho cổ phiếu Ấn Độ.",
+            "Điểm đáng chú ý là Ấn Độ đi ngược cả khu vực trong phiên này: trong khi Sensex lập đỉnh, Kospi của Hàn Quốc giảm 5,3%, Nikkei 225 của Nhật Bản giảm 2,74% và chỉ số Thượng Hải giảm 1% vì lo ngại Mỹ áp thêm thuế quan và đà tăng của nhóm công nghệ chững lại. Đồng rupee cũng mạnh lên, giao dịch quanh 92,30 rupee đổi một USD — mức cao nhất trong 8 tháng. Giới chuyên gia nhận định nền tảng của Ấn Độ — tăng trưởng lợi nhuận doanh nghiệp quý II đạt 27% ở nhóm Nifty 50, dòng vốn ngoại kỷ lục và giá dầu thấp — giúp thị trường nước này chống chọi tốt hơn với biến động toàn cầu, dù rủi ro thuế quan từ Mỹ vẫn treo lơ lửng trên đầu cả khu vực."
+          ],
+          nguon: [
+            { ten: "The Week", link: "https://www.theweek.in/news/biz-tech/2026/11/25/indian-shares-rebound-sensex-surges.amp.html" },
+            { ten: "Free Press Journal", link: "https://www.freepressjournal.in/amp/business/sensex-on-a-2000-point-dream-run-foreign-investors-banking-giants-power-dalal-street-rally" },
+            { ten: "ET Now", link: "https://www.etnownews.com/markets/why-are-nifty-sensex-rising-today-here-are-key-reasons-behind-november-25-rally-article-156562781" }
+          ],
+          gio: "Chiều, Nov 25"
+        },
+
         {
           tieuDe: "G20 Miami: 20 nghị sĩ lưỡng đảng yêu cầu Trump thu hồi lời mời Putin — Điện Kremlin nói quyết định 'vẫn chưa được đưa ra'",
           baiViet: [
@@ -137,20 +154,6 @@ window.TIN_TUC = {
             { ten: "ANTARA News", link: "https://www.instagram.com/reel/DgB778BMRIa/" }
           ],
           gio: "Chiều, Nov 24"
-        },
-        {
-          tieuDe: "G20 Miami đếm ngược 3 tuần: Doral thành 'sự kiện an ninh đặc biệt quốc gia', họp Sherpa 10–12/12 chốt tuyên bố chung",
-          baiViet: [
-            "Hội nghị thượng đỉnh G20 sẽ diễn ra ngày 14–15/12/2026 tại khu nghỉ dưỡng Trump National Doral ở Miami — lần đầu tiên Mỹ đăng cai G20 kể từ năm 2009 — và công tác chuẩn bị đang bước vào giai đoạn nước rút. Hôm thứ Sáu tuần trước, Tổng thống Donald Trump tuyên bố trong buổi lễ vinh danh ban nhạc Thủy quân lục chiến Mỹ tại Nhà Trắng rằng ông kỳ vọng mọi nhà lãnh đạo hàng đầu thế giới sẽ có mặt, đồng thời thông báo thưởng 500.000 USD cho các thành viên ban nhạc 'The President's Own', đơn vị sẽ biểu diễn trước hàng chục nguyên thủ tại Doral. Cuộc họp Sherpa cuối cùng — phiên làm việc của các đại diện cá nhân của lãnh đạo, nơi soạn thảo tuyên bố chung — đã được ấn định vào ngày 10–12/12 tại Miami, và hội nghị đã được chỉ định là Sự kiện An ninh Đặc biệt Quốc gia, với Sở Mật vụ Mỹ chỉ huy, phối hợp cùng FBI, cơ quan quản lý khẩn cấp liên bang, bang Florida và chính quyền địa phương; báo chí Miami cho biết việc phong tỏa đường và lập chốt kiểm soát quanh Doral có thể bắt đầu từ ngày 10/12.",
-            "Danh sách khách mời vẫn là điểm gây chú ý nhất. Tổng thống Nga Vladimir Putin được mời chính thức từ tháng 9 nhưng tới nay chưa quyết định có tới Florida hay không; Tổng thống Ukraine Volodymyr Zelenskyy đã nói sẽ tham dự. Nam Phi — thành viên chính thức của G20 — không được mời, và Ba Lan tham dự với tư cách khách mời thay thế, theo trang web chính thức của G20. Bên cạnh đó, 12 nước khách mời khác gồm Armenia và Việt Nam cũng đã có tên. Theo các nguồn thạo tin, ông Trump muốn một thỏa thuận hòa bình Nga–Ukraine được ký ngay tại hội nghị, nhưng tới nay chưa có thỏa thuận nào tồn tại và cả Kyiv lẫn Moskva đều chưa xác nhận kế hoạch này. Chủ đề chính thức của hội nghị là 'Tăng trưởng thông qua bãi bỏ quy định, dồi dào năng lượng và đổi mới', với Bộ trưởng Tài chính Scott Bessent phụ trách chương trình nghị sự và Giám đốc Hội đồng Kinh tế Quốc gia Kevin Hassett làm đầu mối tổ chức.",
-            "Việc tổ chức hội nghị tại một khu nghỉ dưỡng thuộc sở hữu của tổng thống đương nhiệm tiếp tục gây tranh cãi. Nhà Trắng khẳng định Doral sẽ phục vụ hội nghị 'theo giá gốc' và không thu lợi từ Bộ Ngoại giao hay các chính phủ nước ngoài, nhưng các tổ chức giám sát đạo đức cho rằng cam kết này thiếu chi tiết công khai. Ông Trump mua lại Doral năm 2012 với giá 150 triệu USD; khu nghỉ dưỡng có 4 sân golf, spa 48.000 feet vuông và phòng khiêu vũ hơn 24.000 feet vuông, nằm cách sân bay quốc tế Miami khoảng 10 phút lái xe, với mỗi phái đoàn được bố trí một tòa nhà riêng. Hội nghị cũng trùng với dịp kỷ niệm 250 năm nước Mỹ, và là dấu chấm hết cho năm chủ tịch G20 của Mỹ bắt đầu từ 1/12/2025."
-          ],
-          nguon: [
-            { ten: "WarBrief", link: "https://warbrief.live/g20-summit-doral-december-2026-what-to-expect/" },
-            { ten: "Anadolu Agency (via UA.NEWS)", link: "https://ua.news/en/dovkolo-svitu/tramp-zaiaviv-shcho-ochikuie-vsikh-lideriv-g20-na-samiti-u-floridi-anadolu-agency" },
-            { ten: "Business Journal Florida", link: "https://www.businessjournalflorida.com/article/958182495-trump-expects-all-top-leaders-at-florida-g20-summit" }
-          ],
-          gio: "Sáng, Nov 24"
         },
       ]
     }
