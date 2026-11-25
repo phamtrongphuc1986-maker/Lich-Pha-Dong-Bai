@@ -16,6 +16,7 @@
     "Lịch chạy • Giá vé • Thủy triều • Thời tiết": "Schedule • Fares • Tides • Weather",
     "🌦️ Thời tiết": "🌦️ Weather",
     "🌦️ Thời tiết ở bến": "🌦️ Weather at the Terminal",
+    "Số liệu gió là dự báo theo mô hình Open-Meteo, không phải số đo tại bến — gió thực tế có thể chênh lệch.": "Wind figures are a forecast from the Open-Meteo model, not measurements taken at the terminal — actual wind may differ.",
     "👁️ Lượt xem": "👁️ Views",
     "Tổng số": "Total",
     "Hôm nay": "Today",

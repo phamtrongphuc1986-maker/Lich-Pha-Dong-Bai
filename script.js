@@ -381,7 +381,8 @@ function taiThoiTiet(lat, lon, tenNoi) {
     el.innerHTML = "<div class='ttDong1'><span class='ttIconM'>" + tt.icon + "</span>"
       + "<span class='ttNhietM'>" + Math.round(c.temperature_2m) + "°</span></div>"
       + "<div class='ttMoTaM'>" + tt.txt + " · 💨 " + dangMs(c.wind_speed_10m) + " m/s — gió cấp " + capGio(c.wind_speed_10m / 3.6) + " (giật " + dangMs(c.wind_gusts_10m) + " m/s)</div>"
-      + "<div class='ttNoiM'>📍 " + tenNoi + "</div>";
+      + "<div class='ttNoiM'>📍 " + tenNoi + "</div>"
+      + "<div class='ghiChuNho'>Số liệu gió là dự báo theo mô hình Open-Meteo, không phải số đo tại bến — gió thực tế có thể chênh lệch.</div>";
     // Chi danh gia dong bang tu dong theo so gio cua TRAM BEN mac dinh,
     // khong theo vi tri ca nhan cua khach.
     if (String(lat) === String(VI_TRI_BEN.lat) && String(lon) === String(VI_TRI_BEN.lon)) {
