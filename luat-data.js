@@ -7,7 +7,7 @@
 // nguon: [{ten, link}] — luôn ghi nguồn + link gốc ở cuối bài.
 // Lượt cập nhật hằng ngày CHỈ cần thêm bài vào mảng "bai" của file này (giữ nguyên cấu trúc).
 window.LUAT_QUOC_TE = {
-  capNhat: "24/11/2026",
+  capNhat: "25/11/2026",
   bai: [
     {
       id: "sg-ma-tuy-tu-hinh-chung-than",
@@ -374,6 +374,135 @@ window.LUAT_QUOC_TE = {
       nguon: [
         { ten: "Cannabis Act (Germany) — tóm tắt toàn văn Đạo luật Cần sa CanG 2024", link: "https://en.wikipedia.org/wiki/Cannabis_Act_(Germany)" },
         { ten: "WHO European Observatory on Health Systems — Recreational cannabis use legalized in Germany", link: "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/analyses//hspm//germany-2020//recreational-cannabis-legalized-in-germany" }
+      ]
+    },
+    {
+      id: "gb-lai-xe-uong-ruou-008",
+      nuoc: "gb",
+      tieuDe: "Anh: lái xe sau khi uống rượu — 0,08% ở Anh và xứ Wales, 0,05% ở Scotland; vượt là cấm lái tối thiểu 1 năm",
+      tomTat: "Vương quốc Anh không có một mức giới hạn nồng độ cồn thống nhất: Anh, xứ Wales và Bắc Ireland cho phép 80mg cồn/100ml máu (0,08%) — cao bậc nhất châu Âu — trong khi Scotland chỉ cho 50mg (0,05%). Dù ở đâu, vượt giới hạn cũng bị cấm lái tối thiểu 12 tháng, phạt tiền không giới hạn và tối đa 6 tháng tù; gây chết người khi say rượu có thể bị tù chung thân.",
+      ngay: "25/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tower_Bridge_London.jpg/960px-Tower_Bridge_London.jpg",
+      muc: [
+        {
+          h: "Hai mức giới hạn khác nhau trong cùng một nước",
+          p: [
+            "Đạo luật Giao thông Đường bộ 1988 (Road Traffic Act 1988, Điều 11) quy định giới hạn nồng độ cồn theo ba cách đo tương đương. Ở Anh, xứ Wales và Bắc Ireland, giới hạn là 80 miligam cồn trong 100 mililít máu (0,08% BAC), 35 microgam cồn trong 100 mililít hơi thở, hoặc 107 miligam trong 100 mililít nước tiểu.",
+            "Scotland thì khác: từ ngày 05/12/2014, Nghị viện Scotland hạ giới hạn xuống còn 50 miligam cồn/100ml máu (0,05% BAC), 22 microgam/100ml hơi thở và 67 miligam/100ml nước tiểu — ngang với chuẩn chung của châu Âu. Hệ quả thực tế: cùng một lượng rượu uống, một người có thể hợp pháp ở London nhưng đã vi phạm ở Edinburgh. Với mức 80mg, Anh và xứ Wales hiện giữ giới hạn lái xe khi uống rượu cao bậc nhất châu Âu."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bafometro.JPG/960px-Bafometro.JPG"
+        },
+        {
+          h: "Khung phạt: cấm lái tối thiểu 12 tháng, phạt tiền không giới hạn, tối đa 6 tháng tù",
+          p: [
+            "Lái xe hoặc có ý định lái xe khi vượt giới hạn (Điều 5) bị phạt tới 6 tháng tù, phạt tiền không giới hạn ở Anh và xứ Wales (Scotland giữ mức trần 5.000 bảng), và bắt buộc bị cấm lái tối thiểu 12 tháng. Nếu tái phạm lần hai trong vòng 10 năm, thời gian cấm lái tối thiểu tăng lên 3 năm. Người bị kết án còn mang mã vi phạm DR10 trên bằng lái, hiển thị trong 11 năm kể từ ngày kết án.",
+            "Ngồi trong xe với vai trò người trông xe (being in charge) khi vượt giới hạn cũng bị phạt tới 3 tháng tù và 2.500 bảng. Từ chối cung cấp mẫu hơi thở, máu hoặc nước tiểu để xét nghiệm bị xử như tội lái xe vượt giới hạn: tới 6 tháng tù, phạt tiền không giới hạn và cấm lái tối thiểu 12 tháng."
+          ]
+        },
+        {
+          h: "Gây chết người khi say rượu: tù chung thân",
+          p: [
+            "Mức nặng nhất dành cho hành vi lái xe cẩu thả gây chết người khi chịu ảnh hưởng của rượu hoặc ma túy (Điều 3A): tù chung thân, phạt tiền không giới hạn, cấm lái tối thiểu 5 năm và phải thi lại bài kiểm tra lái xe mở rộng mới được nhận lại bằng.",
+            "Đáng chú ý, Chính phủ Anh công bố Chiến lược An toàn Đường bộ tháng 01/2026 và đã lấy ý kiến (kết thúc 31/03/2026) về việc hạ giới hạn ở Anh và xứ Wales xuống ngang Scotland; tính đến cuối năm 2026 giới hạn vẫn chưa thay đổi, nhưng người lái xe nên theo dõi vì quy định này có thể đổi trong thời gian tới."
+          ]
+        },
+        {
+          h: "Người Việt ở Anh cần nhớ gì?",
+          p: [
+            "Thứ nhất, Anh không có giới hạn riêng thấp hơn cho tài xế mới như Pháp hay Hàn Quốc — cùng một mức 0,08% áp cho mọi người, nhưng điều đó không có nghĩa là \"uống một chút vẫn lái được\": cơ thể mỗi người chuyển hóa rượu khác nhau theo cân nặng, giới tính, thức ăn và thời gian, và chỉ một cốc bia cũng có thể đẩy người nhẹ cân qua ngưỡng. Thứ hai, nguy cơ \"sáng hôm sau\" rất thật: rượu uống tối hôm trước vẫn có thể còn trong máu vào buổi sáng. Thứ ba, người cầm bằng lái nước ngoài lái xe ở Anh chịu cùng giới hạn và cùng khung phạt — vi phạm là án hình sự, để lại tiền án và ảnh hưởng trực tiếp đến việc gia hạn thị thực."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Brake (tổ chức an toàn đường bộ Anh) — Drink driving: the law and the limits", link: "https://www.brake.org.uk/get-involved/take-action/mybrake/knowledge-centre/drink-driving" },
+        { ten: "Auto Express — What is the drink-drive limit? UK laws explained", link: "https://www.autoexpress.co.uk/car-news/92125/what-is-the-drink-drive-limit-uk-laws-explained" },
+        { ten: "Broadbents Solicitors — Drink Driving Penalties and Bans Explained (UK)", link: "https://www.broadbentssolicitors.co.uk/drink-driving-penalties-bans-explained/" }
+      ]
+    },
+    {
+      id: "fr-lai-xe-uong-ruou-005",
+      nuoc: "fr",
+      tieuDe: "Pháp: lái xe sau khi uống rượu — 0,5g/l đã phạt 135 euro, từ 0,8g/l là tội hình sự tới 3 năm tù",
+      tomTat: "Pháp chia vi phạm nồng độ cồn thành hai bậc rõ rệt: từ 0,5g/l máu là vi phạm hành chính — phạt cố định 135 euro, trừ 6 điểm bằng lái; từ 0,8g/l trở lên là tội hình sự, tối đa 3 năm tù và 9.000 euro. Tài xế mới trong thời gian thử việc chỉ được 0,2g/l — tức thực tế là không được uống giọt nào.",
+      ngay: "25/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/960px-Tour_Eiffel_Wikimedia_Commons.jpg",
+      muc: [
+        {
+          h: "Ngưỡng 0,5 g/l — và 0,2 g/l cho tài xế mới",
+          p: [
+            "Điều R234-1 Bộ luật Đường bộ Pháp (Code de la route) ấn định giới hạn nồng độ cồn trong máu là 0,5 gam/lít, tương đương 0,25 miligam/lít hơi thở — tức 0,05% BAC, mức chuẩn của phần lớn châu Âu. Cảnh sát Pháp được quyền dừng xe kiểm tra ngẫu nhiên trên đường mà không cần lý do nghi ngờ.",
+            "Từ tháng 07/2015, một ngưỡng riêng thấp hơn nhiều áp cho người đang trong thời gian thử việc (3 năm đầu sau khi thi đỗ bằng, rút còn 2 năm nếu học lái kèm người hướng dẫn) và tài xế xe buýt, xe khách: chỉ 0,2 g/l máu (0,10 mg/l hơi thở). Theo hướng dẫn sức khỏe cộng đồng của Pháp, một ly rượu vang tiêu chuẩn (khoảng 10cl, 12 độ) đã đẩy nồng độ cồn lên khoảng 0,20–0,25 g/l — nghĩa là với tài xế mới, chỉ một ly thôi cũng đã vượt ngưỡng. Hiểu đúng thì giới hạn của họ là con số 0."
+          ]
+        },
+        {
+          h: "Từ 0,5 đến 0,8 g/l: vi phạm hành chính — phạt 135 euro, trừ 6 điểm",
+          p: [
+            "Ở bậc này, vi phạm là contravention loại 4: phạt cố định 135 euro (giảm còn 90 euro nếu nộp nhanh trong 15 ngày, tăng lên 375 euro nếu nộp muộn), trừ 6 điểm trên bằng lái, xe có thể bị giữ lại, và tòa có thể đình chỉ bằng lái tới 3 năm.",
+            "Điểm nguy hiểm với tài xế mới: bằng thử việc chỉ có 6 điểm, nên một lần trừ 6 điểm là mất sạch — bằng bị vô hiệu và phải thi lại sau ít nhất 6 tháng. Đây là cái bẫy phổ biến với du học sinh và lao động trẻ người Việt mới lấy bằng ở Pháp."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bafometro.JPG/960px-Bafometro.JPG"
+        },
+        {
+          h: "Từ 0,8 g/l: tội hình sự — tối đa 3 năm tù và 9.000 euro",
+          p: [
+            "Từ 0,8 g/l máu (0,40 mg/l hơi thở) hoặc trong trạng thái say rõ rệt, hành vi trở thành délit theo Điều L234-1: tối đa 3 năm tù và phạt tiền tới 9.000 euro, trừ 6 điểm, kèm các hình phạt bổ sung như đình chỉ bằng tới 5 năm, hủy bằng và cấm thi lại tới 5 năm, bắt buộc lắp thiết bị khóa khởi động theo nồng độ cồn (éthylotest anti-démarrage), khóa học nâng cao nhận thức, lao động công ích hoặc tịch thu xe.",
+            "Mức trần 3 năm tù và 9.000 euro là kết quả đợt siết chặt gần đây của luật Pháp về bạo lực đường bộ (năm 2025–2026), thay cho mức cũ 2 năm tù và 4.500 euro — đồng thời luật mới còn tạo ra tội danh \"giết người trên đường\" (homicide routier) cho tai nạn chết người có yếu tố rượu hoặc ma túy. Từ chối thổi máy đo hoặc xét nghiệm máu bị xử như tội hình sự tương đương: tới 3 năm tù, 9.000 euro và trừ 6 điểm."
+          ]
+        },
+        {
+          h: "Người Việt ở Pháp cần nhớ gì?",
+          p: [
+            "Thứ nhất, không có mẹo nào làm giảm nồng độ cồn nhanh hơn: cà phê, nước lọc hay vận động đều vô ích — cơ thể chỉ đào thải rượu với tốc độ khoảng 0,10–0,15 g/l mỗi giờ, nên cách duy nhất là chờ đủ thời gian. Thứ hai, người cầm bằng lái nước ngoài lái xe ở Pháp chịu cùng ngưỡng 0,5 g/l. Thứ ba, Pháp áp dụng \"không khoan nhượng\" với ma túy khi lái xe: không có ngưỡng cho phép, chỉ cần xét nghiệm dương tính với chất cấm là thành tội; nếu kết hợp cả rượu và ma túy, khung phạt tăng lên 5 năm tù và 15.000 euro."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Service-public.gouv.fr — Alcohol behind the wheel (trang chính thức của Chính phủ Pháp)", link: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2881?lang=en&edit=1" },
+        { ten: "Jurilia — Drink-Driving in France: Legal Limits and Penalties", link: "https://www.jurilia.fr/en/blog/alcoolemie-au-volant-en-2024-taux-legaux-et-sanctions-en-france" },
+        { ten: "Visit French Wines — Drink Driving Limit in France: The Rules for Wine Tourists", link: "https://www.visitfrenchwines.com/drink-driving-limit-france/" }
+      ]
+    },
+    {
+      id: "ca-hop-phap-hoa-can-sa-2018",
+      nuoc: "ca",
+      tieuDe: "Canada hợp pháp hóa cần sa từ 2018: được cầm 30g, trồng 4 cây — nhưng mang qua biên giới là tội tới 14 năm tù",
+      tomTat: "Từ 17/10/2018, Canada là nước lớn đầu tiên hợp pháp hóa cần sa giải trí: người trưởng thành được cầm tối đa 30g nơi công cộng, chia sẻ 30g cho người trưởng thành khác và trồng tối đa 4 cây mỗi hộ. Nhưng \"hợp pháp\" có giới hạn chặt: mang cần sa qua biên giới quốc tế bị phạt tới 14 năm tù, và lái xe với THC trong máu từ 2 ng/ml trở lên đã là tội hình sự.",
+      ngay: "25/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Toronto_-_ON_-_Toronto_Skyline2.jpg/960px-Toronto_-_ON_-_Toronto_Skyline2.jpg",
+      muc: [
+        {
+          h: "Đạo luật Cần sa (Cannabis Act): được làm gì từ 17/10/2018?",
+          p: [
+            "Đạo luật Cần sa (S.C. 2018, c. 16) có hiệu lực ngày 17/10/2018, biến Canada thành quốc gia lớn đầu tiên trên thế giới hợp pháp hóa cần sa giải trí trên toàn quốc. Người từ 18 tuổi trở lên (mức liên bang; các tỉnh được đặt cao hơn — phần lớn là 19 tuổi, Quebec là 21 tuổi, Alberta giữ 18 tuổi) được phép: mang tối đa 30 gam cần sa khô nơi công cộng (hoặc lượng tương đương ở dạng khác — ví dụ 150g cần sa tươi, 15g thực phẩm chứa cần sa); chia sẻ tối đa 30g cho người trưởng thành khác; mua từ cửa hàng được cấp phép của tỉnh; trồng tối đa 4 cây mỗi hộ gia đình từ hạt hoặc cây giống được cấp phép; và tự làm sản phẩm cần sa tại nhà nếu không dùng dung môi hữu cơ để chiết xuất tinh chất.",
+            "Lưu ý: giới hạn 4 cây tính theo hộ gia đình, không tính theo đầu người — bốn người lớn sống chung một nhà vẫn chỉ được trồng tổng cộng 4 cây. Lệnh cấm trồng cần sa tại nhà của Quebec từng gây tranh cãi nhiều năm, nhưng đã bị Tòa án Tối cao Canada tuyên là vi hiến trong vụ Murray-Hall năm 2023."
+          ],
+          anh: "https://upload.wikimedia.org/wikipedia/commons/4/48/Marijuana.jpg"
+        },
+        {
+          h: "Vượt giới hạn: tới 5 năm tù; đưa cho trẻ vị thành niên tới 14 năm",
+          p: [
+            "Điều 8 của Đạo luật Cần sa quy định: mang nơi công cộng vượt 30g cần sa khô (hoặc tương đương), tàng trữ cần sa lậu, hoặc trồng quá 4 cây đều là tội. Nếu truy tố theo thủ tục trọng tội (indictable offence), mức tối đa là 5 năm tù trừ một ngày; nếu xử theo thủ tục tóm tắt thì tối đa 5.000 đô la Canada và/hoặc 6 tháng tù.",
+            "Nặng hơn nhiều là các tội liên quan đến trẻ vị thành niên và thị trường chợ đen: đưa hoặc bán cần sa cho người dưới tuổi quy định, dùng trẻ vị thành niên để phạm tội liên quan cần sa, phân phối hoặc bán trái phép, và mang cần sa qua biên giới Canada đều có thể bị phạt tới 14 năm tù. Đây là điểm chính phủ Canada nhấn mạnh nhất: hợp pháp hóa nhằm đưa cần sa ra khỏi tay trẻ em và tội phạm có tổ chức, không phải để tự do buôn bán."
+          ]
+        },
+        {
+          h: "Lái xe sau khi dùng cần sa: ngưỡng THC 2–5 ng/ml đã là tội",
+          p: [
+            "Lái xe khi suy giảm do ma túy là tội hình sự theo Bộ luật Hình sự Canada (Điều 320.14). Luật đặt ra ba ngưỡng nồng độ THC trong máu trong vòng 2 giờ sau khi lái xe: từ 2 đến dưới 5 nanogam/ml là tội xử tóm tắt, phạt tiền tối đa 1.000 đô la; từ 5 ng/ml trở lên là tội nặng hơn, phạt tiền tối thiểu 1.000 đô la; kết hợp 50mg cồn/100ml máu với từ 2,5 ng/ml THC trở lên cũng là tội.",
+            "Cảnh sát Canada được dùng thiết bị xét nghiệm nước bọt tại lề đường, kiểm tra tỉnh táo tiêu chuẩn (SFST) và chuyên gia nhận diện ma túy (DRE). Từ chối làm xét nghiệm bị xử như tội lái xe khi suy giảm. Người vi phạm còn đối mặt với đình chỉ bằng lái, tịch thu xe và các hình phạt hành chính của tỉnh — riêng phần hình sự đã đủ để ảnh hưởng đến tư cách lưu trú của người nước ngoài."
+          ]
+        },
+        {
+          h: "Người Việt ở Canada cần nhớ gì?",
+          p: [
+            "Thứ nhất, hợp pháp ở Canada không có nghĩa là mang được về nước: mang bất kỳ lượng cần sa nào qua biên giới quốc tế — kể cả sang Mỹ, nơi một số bang đã hợp pháp hóa — đều là tội hình sự ở Canada với mức tới 14 năm tù, và có thể bị từ chối nhập cảnh Mỹ vĩnh viễn. Thứ hai, mỗi tỉnh có quy định riêng về độ tuổi, nơi được hút và nơi được mua — ví dụ Quebec cấm hút ở nhiều nơi công cộng, còn Ontario cho phép hút ở nơi cho phép hút thuốc lá. Thứ ba, luật liên bang không giới hạn lượng cần sa cất ở nhà, nhưng quy định của tỉnh và của chủ nhà/chung cư có thể siết chặt hơn — thuê nhà thì hợp đồng thuê có thể cấm hẳn việc hút hoặc trồng cần sa."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Cannabis Act (S.C. 2018, c. 16) — Bộ Tư pháp Canada, Điều 8 (toàn văn luật chính thức)", link: "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-8.html?txthl=day+30" },
+        { ten: "Health Canada — Calculate public possession limits for cannabis (trang chính thức)", link: "https://sante.canada.ca/en/health-canada/services/drugs-medication/cannabis/possession-limit-calculator.html" },
+        { ten: "CrimLawCanada — Legalization of Cannabis in Canada: What You Should Know", link: "https://crimlawcanada.ca/legalization-of-cannabis-in-canada/" }
       ]
     }
   ]
