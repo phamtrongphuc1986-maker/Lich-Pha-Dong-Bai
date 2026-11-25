@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Tư 25/11/2026 — bản tin chiều",
+  capNhat: "Thứ Năm 26/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Kushner nói đàm phán Ukraine–Mỹ–Nga 'bế tắc' ở vấn đề lãnh thổ — đặc phái viên Mỹ gặp Putin ở Moskva, châu Âu vẫn chưa được mời vào bàn",
+          baiViet: [
+            "Tiến trình hòa bình Ukraine vừa nhận một đánh giá thẳng thắn từ chính người trong cuộc. Đặc phái viên Mỹ Jared Kushner ngày 25/11 nói rằng các cuộc đàm phán ba bên Ukraine–Mỹ–Nga đang bế tắc ở 'vấn đề lãnh thổ', trong cuộc phỏng vấn với podcast MD MEETS của Mathias Döpfner, giám đốc điều hành tập đoàn Axel Springer, mà báo Bild (Đức) đăng tải các ý chính. 'Theo quan điểm cá nhân của tôi — và đây là điều mà Steve [Witkoff] và tôi đã kết luận sau nhiều giờ làm việc với Tổng thống Putin và trao đổi với phía Nga — vấn đề lãnh thổ hiện đang ở một điểm bế tắc nhất định', Kushner nói. Vì bế tắc này, ông cho biết muốn thử đàm phán trước một thỏa thuận hậu chiến rồi mới quay lại bàn chuyện lãnh thổ. Cùng ngày, Kushner và đặc phái viên Steve Witkoff đã gặp Tổng thống Vladimir Putin tại Điện Kremlin sau các cuộc tham vấn với quan chức Ukraine và châu Âu; quan chức Nga Kirill Dmitriev ra sân bay Vnukovo đón phái đoàn Mỹ.",
+            "Vai trò của châu Âu trong vòng đàm phán tiếp theo vẫn là điểm gây tranh cãi công khai giữa các bên. Trợ lý Điện Kremlin Yury Ushakov ngày 25/11 nói với hãng tin Vesti rằng châu Âu 'chưa chính thức từ chối' lời mời cử đại diện tới Moskva để bàn về hòa bình, và lời mời vẫn còn hiệu lực — nhưng ông cũng khẳng định việc châu Âu tham gia đàm phán 'không nằm trong chương trình nghị sự', dù Nga vẫn giữ liên lạc với các đại diện EU. Điều này mâu thuẫn với tuyên bố trước đó của Witkoff và Kushner rằng đại diện châu Âu sẽ tham gia vòng đàm phán tới. Về phía Ukraine, Tổng thống Volodymyr Zelenskyy nói Kyiv sẵn sàng tham gia đàm phán bốn bên với châu Âu, Mỹ và Nga 'càng sớm càng tốt', các đối tác muốn tổ chức trước Giáng sinh, nhưng ngày giờ và địa điểm vẫn chưa được xác nhận. Chánh văn phòng tổng thống Ukraine Kyrylo Budanov cho biết giai đoạn đầu của một đợt trao đổi tù binh quy mô lớn mới với Nga có thể bắt đầu vào cuối tháng 11 hoặc đầu tháng 12.",
+            "Bối cảnh cho thấy khoảng cách giữa ngoại giao và thực địa vẫn rất lớn. Khung hòa bình cập nhật sau vòng Geneva tuần trước đã ghi nhận phần lớn ưu tiên của Kyiv, nhưng chưa có thỏa thuận nào được ký, và các đợt tấn công bằng drone vào hạ tầng năng lượng vẫn tiếp diễn — đêm 24 rạng sáng 25/11, Nga phóng 112 drone vào Ukraine, khiến 5 tỉnh mất điện. Trong khi đó, giới phân tích phương Tây cho rằng Putin chưa sẵn sàng đàm phán nghiêm túc và có thể tiếp tục chiến tranh ít nhất tới hết mùa đông. Vòng gặp gỡ ở Moskva lần này vì vậy được xem là phép thử: nếu các đặc phái viên Mỹ không gỡ được nút thắt lãnh thổ, tiến trình có thể phải chuyển sang hướng khác — đàm phán trước về các bảo đảm an ninh và tái thiết hậu chiến, như Kushner gợi ý — thay vì tiếp tục dồn vào vấn đề mà cả hai phía đều coi là không thể nhượng bộ."
+          ],
+          nguon: [
+            { ten: "The New Voice of Ukraine", link: "https://english.nv.ua/nation/ukraine-u-s-russia-talks-deadlocked-over-territory-50662635.html" },
+            { ten: "ANews", link: "https://www.anews.com.tr/world/2026/11/25/russia-yet-to-receive-any-refusal-from-europeans-to-visit-moscow-kremlin-aide-says" },
+            { ten: "RBC-Ukraine", link: "https://newsukraine.rbc.ua/news/kremlin-again-rejects-eu-participation-in-1795617940.html" }
+          ],
+          gio: "Sáng, Nov 26"
+        },
+
         {
           tieuDe: "Nga dội 112 drone vào lưới điện Ukraine đêm 24–25/11: 5 tỉnh mất điện, nhà máy Zaporizhzhia mất điện ngoài phải chạy máy phát diesel",
           baiViet: [
@@ -41,26 +56,27 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 25"
         },
 
-        {
-          tieuDe: "Geneva ngày 2: Mỹ–Ukraine ra tuyên bố chung — thỏa thuận tương lai 'phải bảo vệ toàn vẹn chủ quyền', Erdogan điện đàm với Putin",
-          baiViet: [
-            "Sau một ngày họp kín tại Geneva, Mỹ và Ukraine đã ra tuyên bố chung vào tối Chủ nhật 23/11, khẳng định mọi thỏa thuận tương lai nhằm chấm dứt chiến tranh với Nga 'phải bảo vệ toàn vẹn chủ quyền của Ukraine và mang lại một nền hòa bình bền vững, công bằng'. Tuyên bố cho biết hai bên đã soạn ra 'một khung hòa bình cập nhật và tinh chỉnh' sau các cuộc thảo luận mà cả hai phía đều mô tả là 'mang tính xây dựng, tập trung và tôn trọng lẫn nhau', đánh dấu 'tiến triển đáng kể' trong việc thu hẹp bất đồng và xác định các bước tiếp theo. Ngoại trưởng Mỹ Marco Rubio gọi đây là 'tiến triển to lớn' và nói những vấn đề còn mở 'không phải là không thể vượt qua', đồng thời cho biết Tổng thống Trump 'khá hài lòng' với báo cáo từ Geneva. Trưởng đoàn Ukraine Andriy Yermak cho biết bản dự thảo mới 'đã phản ánh hầu hết các ưu tiên then chốt của Ukraine'.",
-            "Bản khung mới ra đời sau khi kế hoạch 28 điểm ban đầu của Washington vấp phải chỉ trích là quá thiên về Moskva: văn bản gốc yêu cầu Ukraine nhượng lãnh thổ ở Donbas và Crimea, cắt giảm quân đội và cam kết không gia nhập NATO. Bản đối trọng 24 điểm do Anh, Đức và Pháp trình cùng ngày đã sửa những điểm này — đàm phán lãnh thổ xuất phát từ tuyến tiếp xúc hiện tại, quân đội thời bình giữ 800.000 người, giữ ngỏ khả năng gia nhập NATO — và theo các nguồn thạo tin, phần lớn đã được đưa vào bản khung cập nhật. Hạn chót 27/11 mà ông Trump đặt ra trước Lễ Tạ ơn cũng được nới lỏng: ông Rubio nói 'hạn chót là chúng tôi muốn hoàn thành càng sớm càng tốt', và một chuyến thăm Washington của Tổng thống Zelenskyy vào tuần tới đang được bàn để thảo luận chi tiết với ông Trump. Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan dự kiến điện đàm với Tổng thống Nga Vladimir Putin trong ngày thứ Ba 24/11 về nỗ lực hòa bình.",
-            "Trong lúc các nhà ngoại giao họp, chiến sự vẫn tiếp diễn: một vụ tập kích bằng máy bay không người lái của Nga vào thành phố Kharkiv đã khiến 4 người thiệt mạng, theo thị trưởng thành phố. Điện Kremlin tới nay vẫn chưa lên tiếng về cả bản kế hoạch gốc lẫn bản khung cập nhật, và Moskva vẫn chưa xác nhận có chấp nhận ngồi vào bàn hay không. Các nhà đàm phán châu Âu dự kiến tham gia vòng tiếp theo tại Abu Dhabi sau ngày 26/11, trong khi các lãnh đạo châu Âu và châu Phi đang họp thượng đỉnh tại Luanda, Angola — nơi vấn đề Ukraine cũng nằm trong chương trình nghị sự khẩn cấp. Giới quan sát nhận định Geneva đã cho Kyiv thêm thời gian và một văn bản bớt bất lợi hơn, nhưng nút thắt cuối cùng vẫn là Moskva, bên mà theo các nguồn thạo tin vẫn giữ nguyên yêu sách lãnh thổ."
-          ],
-          nguon: [
-            { ten: "MyRepublica (AFP)", link: "https://myrepublica.nagariknetwork.com/news/washington-kyiv-say-a-peace-deal-must-fully-uphold-ukraine-sovereignty-61-69.html" },
-            { ten: "Panorama (Reuters)", link: "https://en.panorama.com.al/diskutimet-ne-gjeneve-per-paqe-shba-propozimi-eshte-perditesuar-per-te-mbrojtur-plotesisht-sovranitetin-e-ukraines/" },
-            { ten: "Inquirer (AFP)", link: "https://globalnation.inquirer.net/299518/us-hails-significant-step-forward-in-ukraine-peace-framework-talks" }
-          ],
-          gio: "Chiều, Nov 24"
-        },
       ]
     },
     {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Phố Wall phiên 'tàu lượn' trước Lễ Tạ ơn: Dow rơi 1.100 điểm rồi lội ngược dòng đóng cửa trên 50.000 — PCE lõi nóng 3,3%, GDP quý III vọt lên 4,3%",
+          baiViet: [
+            "Phiên giao dịch cuối cùng trước kỳ nghỉ Lễ Tạ ơn của Phố Wall diễn ra như một chuyến tàu lượn. Chỉ số Dow Jones mở cửa giảm 548 điểm rồi lao dốc tới 1.104 điểm, xuống đáy 48.913 điểm trong phiên, trước khi lực mua bắt đáy xuất hiện vào buổi chiều và kéo chỉ số đóng cửa tăng 164 điểm, tương đương 0,33%, lên 50.182,95 điểm — phiên tăng thứ ba liên tiếp và vẫn giữ trên mốc 50.000 điểm. S&P 500 có lúc mất tới 3,2% nhưng thu hẹp đà giảm còn 0,25%, chốt ở 7.182,78 điểm; Nasdaq Composite từng rơi 4,6% rồi đóng cửa giảm 0,62% ở 23.585,80 điểm. Trái ngược, chỉ số vốn hóa nhỏ Russell 2000 tăng 0,71% lên 2.704,06 điểm, còn chỉ số đo nỗi sợ VIX vọt 7,32% lên 28,29. Khối lượng giao dịch trên Nasdaq cao hơn 40% so với phiên thứ Ba, cho thấy mức độ hoảng loạn buổi sáng lớn tới đâu.",
+            "Cú sốc buổi sáng đến từ hai số liệu kinh tế công bố lúc 8h30 sáng giờ miền Đông. Chỉ số giá chi tiêu tiêu dùng cá nhân (PCE) lõi tháng 10 — thước đo lạm phát mà Cục Dự trữ Liên bang Mỹ (Fed) theo dõi sát nhất — tăng 0,3% so với tháng trước và tăng 3,3% so với cùng kỳ năm ngoái, cao hơn mức dự báo 3,2%; PCE toàn phần tăng 3,8% so với cùng kỳ. Cùng lúc, ước tính lần hai cho thấy GDP quý III tăng trưởng 4,3%/năm, điều chỉnh mạnh từ mức 3,4% ban đầu và vượt xa dự báo 3,5% — mức tăng lớn nhất trong ba năm, nhờ đầu tư và tiêu dùng mạnh hơn. Nghịch lý là kinh tế tăng nóng đi cùng lạm phát cao lại khiến thị trường lo Fed sẽ tăng lãi suất 25 điểm cơ bản vào tháng 12 — xác suất được định giá gần 94%. Cú bồi thêm đến từ Nhà Trắng: Tổng thống Trump đề xuất áp thuế với 14 đối tác thương mại, trong đó có mức tăng thêm 20% với Trung Quốc và đề xuất thuế tới 20% với EU, khiến cổ phiếu chip và công nghệ — tâm điểm của đợt bán tháo — chịu áp lực nặng nhất, với Nvidia giảm 5,9% trong phiên.",
+            "Dù vậy, lực mua buổi chiều cho thấy nhà đầu tư vẫn chưa muốn rời bỏ thị trường trước kỳ nghỉ lễ. Một phần lực kéo được cho là nhờ nhà đầu tư Michael Burry đóng các vị thế bán khống chỉ số Nasdaq 100 và chuyển sang mua vào, trong bối cảnh thanh khoản mỏng trước lễ khiến các nhịp biến động bị khuếch đại cả hai chiều. Thị trường Mỹ đóng cửa thứ Năm 26/11 vì Lễ Tạ ơn và chỉ giao dịch tới 13h00 giờ miền Đông vào thứ Sáu. Tuần tới, tâm điểm sẽ là báo cáo việc làm tháng 11 công bố ngày 4/12 — phép thử tiếp theo cho câu hỏi mà phiên thứ Tư đặt ra: kinh tế Mỹ đang tăng trưởng mạnh, nhưng lạm phát vẫn nóng, và Fed sẽ chọn bên nào."
+          ],
+          nguon: [
+            { ten: "Investor's Business Daily", link: "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-inflation-data-nvidia-anthropic/" },
+            { ten: "TRT World", link: "https://www.trtworld.com/article/b594c3db4549" },
+            { ten: "FXStreet", link: "https://www.fxstreet.com/news/dow-jones-industrial-average-erases-its-drop-as-ai-stocks-fall-202611252139" }
+          ],
+          gio: "Sáng, Nov 26"
+        },
+
         {
           tieuDe: "Trump nói 'chưa quá muộn' để chính phủ Mỹ mua cổ phần Nvidia — Phố Wall chờ PCE và GDP quý III trước Lễ Tạ ơn",
           baiViet: [
@@ -91,26 +107,27 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 25"
         },
 
-        {
-          tieuDe: "Châu Á bật theo Phố Wall: Nikkei, Kospi hồi mạnh sau cú bật 6,5% của Nasdaq; HPE nâng triển vọng, Dell báo cáo tối nay",
-          baiViet: [
-            "Thị trường chứng khoán châu Á đã bật mạnh trong phiên thứ Ba 24/11, nối tiếp cú hồi lịch sử của Phố Wall đêm qua khi Nasdaq Composite tăng 6,5% và S&P 500 tăng 4,7% sau tin Jensen Huang trở lại ghế CEO của Nvidia. Theo Reuters, đà tăng lan khắp khu vực khi giới đầu tư quay lại nhóm cổ phiếu trí tuệ nhân tạo: chỉ số Nasdaq 100 — tập trung vào các hãng công nghệ vốn hóa lớn — đã tăng hơn 6%, còn các tên tuổi điện toán đám mây như CoreWeave, IREN và Nebius đều tăng hơn 20% trong phiên. Riêng Nvidia đã đóng góp hơn hai phần năm mức tăng của chỉ số tăng trưởng Russell 1000 và một phần tư mức tăng của Nasdaq 100 tính tới giữa phiên, cho thấy thị trường khó có thể hồi phục nếu thiếu các cổ phiếu vốn hóa lớn.",
-            "Dù vậy, tâm lý thận trọng vẫn hiện rõ. Hợp đồng tương lai S&P 500 đi ngang còn hợp đồng tương lai Nasdaq giảm nhẹ 0,2% vào đầu phiên thứ Ba, và chỉ số sợ hãi VIX dù đã giảm 26% trong ngày vẫn đóng cửa ở mức 26,6 — cao hơn nhiều so với vùng bình thường. Cú bật đêm qua mới chỉ bù lại một phần thiệt hại của tuần trước, khi Nasdaq mất 10% và vẫn thấp hơn 12,7% so với đỉnh ngày 6/10 tính tới lúc đóng cửa thứ Hai. Giới phân tích lưu ý khối lượng giao dịch trong phiên tăng điểm thấp hơn phiên bán tháo thứ Sáu, một dấu hiệu cho thấy đợt hồi phục có thể chỉ mang tính kỹ thuật nếu câu chuyện lợi nhuận từ đầu tư AI không được củng cố bằng kết quả kinh doanh thực tế.",
-            "Phép thử tiếp theo đến ngay trong đêm nay: Hewlett Packard Enterprise vừa vượt dự báo của chính mình và nâng triển vọng tài khóa 2027, còn Dell sẽ công bố kết quả sau giờ đóng cửa, đối chiếu với dự báo mà hãng tự đặt ra. Tại Australia, chỉ số ASX 200 được dự báo mở cửa tăng điểm theo đà New York. Với nhà đầu tư, câu hỏi lớn nhất lúc này không còn là liệu thị trường có bật lại được một phiên hay không — điều đã xảy ra — mà là liệu sự trở lại của Huang có đủ sức ổn định lại câu chuyện AI sau một tuần mà chính nỗi lo về tính bền vững của cơn sốt này đã thổi bay hàng nghìn tỉ USD vốn hóa."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/" },
-            { ten: "MarketIndex", link: "https://www.marketindex.com.au/news/morning-wrap-asx-200-to-rise-as-nasdaq-and-s-and-p-500-soar-on-jensen-huang" },
-            { ten: "The MidPoint News", link: "https://themidpointnews.com/podcast/" }
-          ],
-          gio: "Chiều, Nov 24"
-        },
       ]
     },
     {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "G20 Miami còn chưa đầy 3 tuần: Trump nói 'cả 20 lãnh đạo sẽ tới', Putin vẫn chưa quyết — Nam Phi không được mời, Sherpa họp 10–12/12 chốt tuyên bố chung",
+          baiViet: [
+            "Hội nghị thượng đỉnh G20 sẽ diễn ra ngày 14–15/12/2026 tại khu nghỉ dưỡng Trump National Doral ở Miami, bang Florida — lần đầu tiên Mỹ đăng cai G20 kể từ năm 2009, đúng vào năm kỷ niệm 250 năm thành lập nước Mỹ. Tại buổi lễ vinh danh ban nhạc Thủy quân lục chiến Mỹ ở Nhà Trắng ngày 21/11, Tổng thống Donald Trump tuyên bố 'cả 20 lãnh đạo hàng đầu thế giới sẽ tới', đồng thời công bố thưởng 500.000 USD cho các nhạc công sẽ biểu diễn phục vụ các nguyên thủ. Chủ đề của kỳ thượng đỉnh năm nay là 'Tăng trưởng nhờ bãi bỏ quy định, năng lượng dồi dào và đổi mới'. Tổng thống Hàn Quốc Lee Jae-myung đã xác nhận tham dự và sẽ có cuộc gặp song phương với Trump bên lề; giới chức Mỹ coi G20 là dịp tiếp theo có thể diễn ra cuộc gặp Trump–Tập Cận Bình sau cuộc gặp ba bên Mỹ–Trung–Nga ở Thâm Quyến ngày 19/11, trong bối cảnh lệnh đình chiến thương mại Mỹ–Trung đã được gia hạn tới 10/1/2027.",
+            "Câu hỏi lớn nhất vẫn là Tổng thống Nga Vladimir Putin có tới Miami hay không. Putin được Trump mời chính thức từ tháng 9 nhưng tới nay Điện Kremlin vẫn chưa xác nhận, và 20 nghị sĩ lưỡng đảng Mỹ đã yêu cầu Trump thu hồi lời mời. Nếu tới, đây sẽ là lần đầu tiên Putin dự trực tiếp một hội nghị G20 kể từ Osaka 2019. Một điểm bất thường khác: Nam Phi — thành viên đầy đủ của G20 — không được mời dự kỳ này, và Ba Lan sẽ tham gia thay thế với tư cách khách mời, theo trang web chính thức của G20. Tổng thống Ukraine Volodymyr Zelenskyy nói ông sẽ tới nếu được mời. Hội nghị Sherpa cuối cùng — cuộc họp của các đại diện cá nhân của lãnh đạo, nơi soạn thảo tuyên bố chung — được lên lịch ngày 10–12/12 tại Miami. Thượng đỉnh đã được chỉ định là 'sự kiện an ninh đặc biệt quốc gia', do Mật vụ Mỹ phụ trách, với các chốt kiểm soát và đóng đường quanh khu vực Doral từ ngày 10/12; Phòng Thương mại Latin (CAMACOL) đã phải dời chương trình phát giỏ Giáng sinh thường niên sang ngày 2/12 để tránh phong tỏa.",
+            "Không khí trước thềm hội nghị cho thấy một kỳ G20 khó đạt đồng thuận. Tại cuộc họp các ngoại trưởng G20 ở Atlanta ngày 30/10, chia rẽ về sự tham gia của Nga đã lộ rõ: Mỹ, với tư cách chủ tịch, đã hủy bức ảnh tập thể truyền thống sau khi nhiều nước từ chối chụp chung với Ngoại trưởng Nga Sergey Lavrov. Cả hai lộ trình bộ trưởng — tài chính và ngoại giao — đều không ra được tuyên bố chung trong năm nay, dấu hiệu cho thấy tuyên bố chung của các lãnh đạo tại Miami cũng khó khăn. Trump được cho là muốn một thỏa thuận hòa bình Ukraine–Nga được ký ngay tại hội nghị, nhưng tới nay chưa có thỏa thuận nào và cả Kyiv lẫn Moskva đều chưa xác nhận kế hoạch đó. Với chỉ còn chưa đầy ba tuần, G20 Miami đang được định hình không chỉ là một hội nghị kinh tế, mà là phép thử cho khả năng các cường quốc còn ngồi chung một bàn hay không."
+          ],
+          nguon: [
+            { ten: "ChosunBiz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" },
+            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" },
+            { ten: "WarBrief", link: "https://warbrief.live/g20-summit-doral-december-2026-what-to-expect/" }
+          ],
+          gio: "Sáng, Nov 26"
+        },
+
         {
           tieuDe: "Ấn Độ bùng nổ: Sensex vượt 84.000 điểm, vốn ngoại kỷ lục hơn 14 tỉ USD trong tháng 11 nhờ dầu rẻ",
           baiViet: [
@@ -141,20 +158,6 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 25"
         },
 
-        {
-          tieuDe: "Indonesia–EU ký hiệp định thương mại sau gần 10 năm đàm phán: 98,5% dòng thuế về 0, Prabowo sẽ tới G20 Miami",
-          baiViet: [
-            "Indonesia và Liên minh châu Âu đã chính thức ký Hiệp định Đối tác Kinh tế Toàn diện (IEU-CEPA) cùng Hiệp định Bảo hộ Đầu tư vào thứ Bảy 21/11 tại Brussels, khép lại gần một thập kỷ đàm phán. Bộ trưởng Điều phối Kinh tế Indonesia Airlangga Hartarto và Ủy viên Thương mại EU Maroš Šefčovič đã ký kết trước sự chứng kiến của Chủ tịch Ủy ban châu Âu Ursula von der Leyen, người sau đó đã điện đàm với Tổng thống Indonesia Prabowo Subianto để đánh dấu sự kiện. Bà von der Leyen gọi đây là một trong những thỏa thuận tham vọng nhất mà EU từng ký tại châu Á, nối 450 triệu dân EU với nền kinh tế lớn nhất Đông Nam Á và quốc gia đông dân thứ tư thế giới.",
-            "Theo thỏa thuận, hai bên sẽ xóa bỏ thuế nhập khẩu với khoảng 98,5% dòng thuế hàng hóa, giúp các nhà xuất khẩu EU tiết kiệm hơn 600 triệu euro mỗi năm; hơn 90% hàng hóa Indonesia sẽ được vào EU miễn thuế ngay khi hiệp định có hiệu lực. Indonesia đặt mục tiêu tăng xuất khẩu sang EU thêm 50% trong 5 năm đầu — xuất khẩu của nước này sang khối hiện ước đạt 19 tỉ USD trong năm 2026, với tổng kim ngạch song phương khoảng 30 tỉ USD mỗi năm. Các mặt hàng chủ lực của Indonesia như dầu cọ, cao su, dệt may, giày dép, thủy sản và đồ nội thất sẽ được mở rộng cửa vào thị trường châu Âu, trong khi các doanh nghiệp EU có thêm khung pháp lý ổn định để đầu tư vào nền kinh tế lớn nhất Đông Nam Á. Ước tính thỏa thuận sẽ giúp GDP của EU tăng thêm 16 tỉ euro và của Indonesia tăng 27 tỉ euro trong 15 năm.",
-            "Dù vậy, không phải ai cũng yên tâm: một số nhà xuất khẩu Indonesia lo ngại thuế có thể tăng vọt trong giai đoạn chuyển tiếp nếu các quy định trong nước chưa kịp điều chỉnh theo hiệp định. Chính phủ Indonesia đang đẩy nhanh phê chuẩn để hiệp định sớm có hiệu lực. Thỏa thuận này cũng nằm trong chuỗi ngoại giao thương mại dồn dập của EU: đàm phán hiệp định tự do thương mại với Ấn Độ đã kết thúc từ tháng 1/2026 và dự kiến được ký tại Brussels vào ngày 16/12, khi Thủ tướng Narendra Modi thăm châu Âu. Với Indonesia, bà von der Leyen cho biết sẽ đón Tổng thống Prabowo tại Brussels vào ngày 11/12, trước khi cả hai cùng tới Miami dự Hội nghị Thượng đỉnh G20 ngày 14–15/12."
-          ],
-          nguon: [
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/economy/trade/indonesia-eu-trade-deal-sparks-ambitious-hopes-and-transition-concerns" },
-            { ten: "SAGIRE", link: "https://sagire.online/topic/trade/" },
-            { ten: "ANTARA News", link: "https://www.instagram.com/reel/DgB778BMRIa/" }
-          ],
-          gio: "Chiều, Nov 24"
-        },
       ]
     }
   ]
