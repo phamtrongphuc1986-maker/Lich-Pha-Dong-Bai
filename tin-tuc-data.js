@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Năm 26/11/2026 — bản tin chiều",
+  capNhat: "Thứ Sáu 27/11/2026 — bản tin sáng",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Đặc phái viên Mỹ gặp Putin ở Moskva rồi bay sang Dublin gặp Zelenskyy: vòng đàm phán ba bên mới đã thống nhất, châu Âu sẽ có ghế",
+          baiViet: [
+            "Ngoại giao con thoi quanh cuộc chiến Ukraine vừa có một ngày bận rộn. Đặc phái viên Mỹ Steve Witkoff và Jared Kushner ngày 26/11 gặp Tổng thống Vladimir Putin tại Điện Kremlin trong khoảng hai giờ, một ngày sau khi vòng đàm phán ba bên Nga–Ukraine–Mỹ ở Abu Dhabi khép lại mà không có đột phá về lãnh thổ. Sau Moskva, hai đặc phái viên bay sang Dublin gặp Tổng thống Volodymyr Zelenskyy bên lề hội nghị thượng đỉnh Cộng đồng Chính trị châu Âu, nơi gần 50 nhà lãnh đạo châu Âu đang họp. Witkoff cho biết vòng đàm phán ba bên mới đã được thống nhất với Putin, và người châu Âu sẽ tham gia vòng tới — một thay đổi quan trọng so với định dạng ba bên mà Moskva lâu nay khăng khăng giữ.",
+            "Bối cảnh của chuyến đi là một đề xuất gây tranh cãi vừa được chính Zelenskyy tiết lộ. Theo lời tổng thống Ukraine, các nhà đàm phán Mỹ từng nêu ý tưởng Kyiv rút khỏi vùng Donbas để đổi lấy tư cách thành viên NATO — lần đầu tiên vấn đề lãnh thổ được gắn trực tiếp với NATO trong các cuộc đàm phán. Zelenskyy khẳng định Kyiv không sẵn sàng nhượng lãnh thổ, nhưng nói rằng nếu nhận được một gói toàn diện gồm bảo đảm an ninh, quyền duy trì quân đội mạnh và nguồn tài chính tái thiết, ông sẽ đưa vấn đề ra trưng cầu dân ý. Ông cũng bác đề xuất của Putin về một lệnh ngừng bắn nhân đạo cục bộ ở Kostiantynivka, cho rằng điều đó phản ánh việc Moskva không chiếm được thành phố bằng vũ lực. Dù bế tắc về lãnh thổ, vòng Abu Dhabi vẫn đạt được một thỏa thuận trao đổi tù binh quy mô hơn 1.000 người.",
+            "Song song với chuyến con thoi, Tổng thống Donald Trump và Tổng thư ký NATO Mark Rutte ngày 26/11 ra tuyên bố chung sau cuộc gặp ở Florida, kêu gọi Nga tránh mọi hành động làm mở rộng chiến tranh ở Ukraine và thúc đẩy một giải pháp hòa bình càng nhanh càng tốt. Hai bên cũng thảo luận về cuộc chiến của Mỹ và Israel với Iran, dù tuyên bố không nêu chi tiết nội dung này. Tại Dublin, các nhà lãnh đạo EU thống nhất đội ngũ châu Âu cho bất kỳ vòng đàm phán hòa bình nào sẽ gồm năm cường quốc quân sự — Anh cùng Pháp, Đức, Ý và Ba Lan — cộng với các quan chức EU. Với Moskva vẫn phản đối vai trò đầy đủ của châu Âu và Kyiv đòi châu Âu phải có mặt, vòng đàm phán tiếp theo sẽ là phép thử xem định dạng mở rộng này có thực sự thành hình hay không."
+          ],
+          nguon: [
+            { ten: "Nexus Europa", link: "https://nexuseuropa.eu/en/top-news/2026-11-26-1500" },
+            { ten: "Reuters", link: "https://www.reuters.com/world/china/trump-nato-chief-urge-russia-avoid-actions-that-widen-ukraine-war-2026-11-26/" },
+            { ten: "DailyFoxNews", link: "https://dailyfoxnews.com/news/38095/u-s-floated-idea-of-ukraine-ceding-donbas-for-nato-membership-zelenskyy-says" }
+          ],
+          gio: "Sáng, Nov 27"
+        },
+
         {
           tieuDe: "Abu Dhabi khép lại không đột phá: Nga bác nhượng bộ lãnh thổ, Kushner cảnh báo nguy cơ leo thang",
           baiViet: [
@@ -41,20 +56,6 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 26"
         },
 
-        {
-          tieuDe: "Nga dội 112 drone vào lưới điện Ukraine đêm 24–25/11: 5 tỉnh mất điện, nhà máy Zaporizhzhia mất điện ngoài phải chạy máy phát diesel",
-          baiViet: [
-            "Trong lúc các nhà ngoại giao còn đang bàn về khung hòa bình Geneva, chiến sự trên mặt đất vẫn tiếp diễn dữ dội. Đêm 24 rạng sáng 25/11, Nga đã phóng 112 máy bay không người lái tấn công vào Ukraine, trong đó phòng không Ukraine tuyên bố bắn hạ 88 chiếc. Các đòn đánh tập trung vào hạ tầng năng lượng và giao thông: một cơ sở năng lượng ở huyện Zhytomyr và một doanh nghiệp dân sự ở huyện Korosten trúng drone, khiến một người bị thương; một doanh nghiệp công nghiệp ở tỉnh Poltava cũng bị đánh trúng. Tổng thống Volodymyr Zelenskyy cho biết Nga đã tập trung đòn đánh vào tỉnh Zhytomyr trong đêm, nhắm vào hạ tầng phân phối và truyền tải điện.",
-            "Bộ Năng lượng Ukraine sáng thứ Tư xác nhận các nhà máy điện cùng nhiều trạm biến áp truyền tải và phân phối lại bị tấn công trong đêm và sáng sớm, gây mất điện mới tại 5 tỉnh: Dnipropetrovsk, Donetsk, Zaporizhzhia, Odesa và Kharkiv. Tình hình khó khăn nhất là ở Zaporizhzhia và Dnipropetrovsk, nơi nhiều cơ sở năng lượng then chốt bị hư hại và nhà chức trách phải áp thêm hạn chế lưới điện để tránh quá tải gây sự cố. Đáng chú ý, nhà máy điện hạt nhân Zaporizhzhia đang bị chiếm đóng đã mất nguồn điện ngoài và phải chuyển sang chạy máy phát diesel dự phòng. Tại Odesa, một cơ sở phát điện của DTEK bị đánh trúng tối 24/11, làm hư hại 16 xe chuyên dụng và khiến khoảng 9.000 hộ dân ở các huyện Odesa và Bolhrad mất điện.",
-            "Đợt tấn công này nối tiếp chuỗi đòn đánh vào lưới điện mà Nga duy trì suốt mùa thu, đúng vào thời điểm Ukraine bước vào mùa đông. Công việc sửa chữa đang diễn ra ở mọi khu vực bị ảnh hưởng, nhưng Bộ Năng lượng thừa nhận các đợt tấn công lặp lại cùng cảnh báo không kích liên tục đang làm chậm đáng kể tiến độ khôi phục. Trước đó một ngày, một vụ tập kích drone của Nga vào Kharkiv đã khiến 4 người thiệt mạng. Bối cảnh cho thấy nghịch lý của tiến trình ngoại giao hiện nay: Geneva đã cho ra một khung hòa bình được cập nhật, các đặc phái viên Mỹ vẫn đang thúc đẩy vòng đàm phán tiếp theo, nhưng trên thực địa Moskva vẫn leo thang đánh vào hạ tầng dân sự — và Kyiv coi đó là phép thử cho thiện chí thực sự của Nga trước bất kỳ thỏa thuận nào."
-          ],
-          nguon: [
-            { ten: "Ukrainska Pravda", link: "https://www.pravda.com.ua/eng/news/2026/11/25/8064543/" },
-            { ten: "LB.ua", link: "https://en.lb.ua/news/2026/11/25/51406_russia_strikes_energy_facilities.html" },
-            { ten: "Interfax-Ukraine", link: "https://en.interfax.com.ua/news/economic/1242061.html" }
-          ],
-          gio: "Chiều, Nov 25"
-        },
 
 
       ]
@@ -63,6 +64,21 @@ window.TIN_TUC = {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Ngân hàng Trung ương Nhật Bản được dự báo tăng lãi suất lên 1,5% vào tháng 12 — lần thứ ba trong năm, lần đầu sau 37 năm",
+          baiViet: [
+            "Ngân hàng Trung ương Nhật Bản (BOJ) nhiều khả năng sẽ tăng lãi suất lần thứ ba trong năm 2026 tại cuộc họp chính sách ngày 17–18/12, theo khảo sát của Reuters với 71 nhà kinh tế công bố tuần trước: 61 người, tương đương 86%, dự báo lãi suất qua đêm tăng 25 điểm cơ bản lên 1,5%. Nếu thành hiện thực, đây sẽ là lần đầu tiên sau 37 năm BOJ thắt chặt ba lần trong một năm dương lịch. Gần 60% số người được hỏi còn dự báo một đợt tăng nữa lên 1,75% vào cuối tháng 3/2027, sớm hơn ba tháng so với dự báo hồi tháng 10. Thống đốc Kazuo Ueda ngày 26/11 khẳng định ngân hàng trung ương nên tiếp tục tăng lãi suất, khi lạm phát lõi đã trở lại trên mục tiêu 2%.",
+            "Động lực thúc đẩy không phải tăng trưởng mà là giá cả và đồng yên. Kinh tế Nhật bất ngờ suy giảm trong quý III/2026, lần co lại đầu tiên sau một năm, nhưng lạm phát tiêu dùng toàn quốc tháng 10 tăng lên 2,3% so với cùng kỳ, từ mức 2,1% của tháng 9; lạm phát lõi (không tính thực phẩm tươi sống) là 2,2%, vượt mục tiêu 2% của BOJ tháng thứ hai liên tiếp. Đồng yên trở lại gần ngưỡng 160 yên đổi một đô la dù chính quyền đã chi gần 100 tỉ đô la dự trữ để can thiệp, và thị trường lao động mùa xuân tới được kỳ vọng tăng lương khoảng 5%, gần bằng mức 5,01% của năm nay. Các nhà kinh tế trong khảo sát nhận định BOJ lo ngại lạm phát vượt mục tiêu hơn là lo tăng trưởng chững lại trong ngắn hạn.",
+            "Nghịch lý là một đợt tăng lãi suất vào tháng 12 có thể vẫn chưa đủ để vực đồng yên, vì Cục Dự trữ Liên bang Mỹ (Fed) cũng được kỳ vọng tăng lãi suất trong cùng tháng, vào ngày 9/12, với xác suất trên 90% theo giá thị trường. Khoảng cách lãi suất Mỹ–Nhật hiện khoảng 2,6 điểm phần trăm và sẽ gần như không đổi sau cả hai cuộc họp nếu cả hai cùng tăng 25 điểm cơ bản. Giới giao dịch vì vậy chú ý nhiều hơn vào tín hiệu của Thống đốc Ueda về tốc độ tăng tiếp theo: một thông điệp diều hâu hơn mới có thể thu hẹp khoảng cách kỳ vọng, trong khi một quyết định giữ nguyên vào tháng 12 có nguy cơ đẩy đồng yên xuống sâu hơn và làm tăng thêm áp lực giá nhập khẩu."
+          ],
+          nguon: [
+            { ten: "LA Post (Reuters)", link: "https://www.lapost.com/content/bank-of-japan-to-raise-interest-rates-in-december-and-again-by-end-march-economists-say" },
+            { ten: "FXStreet", link: "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-cpi-data-reinforces-december-boj-rate-hike-expectations-202611200630" },
+            { ten: "FXStreet", link: "https://www.fxstreet.com/analysis/the-boj-is-priced-for-a-70-chance-of-a-december-hike-to-150-202611261806" }
+          ],
+          gio: "Sáng, Nov 27"
+        },
+
         {
           tieuDe: "Mỹ đề xuất thuế Section 301 với 14 đối tác vì 'dư thừa công suất': Trung Quốc thêm tối đa 20%, Việt Nam đối mặt mức cao nhất 35%",
           baiViet: [
@@ -93,20 +109,6 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 26"
         },
 
-        {
-          tieuDe: "Trump nói 'chưa quá muộn' để chính phủ Mỹ mua cổ phần Nvidia — Phố Wall chờ PCE và GDP quý III trước Lễ Tạ ơn",
-          baiViet: [
-            "Tổng thống Donald Trump cho biết ông từng nghĩ tới việc để chính phủ Mỹ mua cổ phần của Nvidia và tin rằng 'có lẽ vẫn chưa quá muộn' để làm điều đó. Trong cuộc phỏng vấn với tờ New York Post tại Phòng Bầu dục hôm thứ Ba 24/11, trước khi rời Washington đi Florida nghỉ Lễ Tạ ơn, ông Trump nói: 'Tôi đã nghĩ về chuyện đó. Tôi nói, anh biết đấy, có lẽ tôi nên làm vậy, nhưng lúc này tôi chưa nêu ra. Có lẽ vẫn chưa quá muộn.' Ông nhắc tới tiền lệ Intel: hồi tháng 8/2025 chính phủ Mỹ đã đầu tư 8,9 tỉ USD để đổi lấy gần 10% cổ phần Intel, không lâu sau khi ông yêu cầu CEO Lip-Bu Tan từ chức. Ông Trump cũng để ngỏ khả năng ân xá cho CEO Jensen Huang nếu cần, dù cho rằng biện pháp đó khó phải dùng tới.",
-            "Phát biểu này đến ngay sau cơn địa chấn nhân sự tại Nvidia: Huang được hội đồng quản trị tái bổ nhiệm làm CEO hôm thứ Hai 23/11, chưa đầy hai tuần sau khi rời ghế, và cổ phiếu Nvidia đã tăng 31,5% trong phiên đó, cộng thêm gần 1.000 tỉ USD vốn hóa. Nhưng đà tăng không giữ được lâu: phiên thứ Ba, Nvidia rơi 5,9%, kéo Nasdaq Composite giảm 1,48% xuống 23.733,54 điểm và S&P 500 giảm 0,50% xuống 7.201,09 điểm — phiên giảm thứ tám trong chín phiên của S&P 500. Dow Jones đi ngược dòng, tăng 0,85% lên 50.018,70 điểm nhờ nhóm bán lẻ và y tế, lần đầu đóng cửa trên mốc 50.000 điểm. Sáng thứ Tư, hợp đồng tương lai cả ba chỉ số đều đỏ: Nasdaq-100 giảm khoảng 1,4–2%, S&P 500 giảm 0,76–1% và Dow giảm khoảng 0,4%.",
-            "Tâm điểm của phiên thứ Tư là loạt dữ liệu kinh tế công bố trước giờ mở cửa: chỉ số giá tiêu dùng cá nhân (PCE) tháng 10 — thước đo lạm phát ưa thích của Cục Dự trữ Liên bang — cùng ước tính lần hai GDP quý III và số đơn xin trợ cấp thất nghiệp hằng tuần, vốn được công bố sớm một ngày vì thị trường đóng cửa thứ Năm nhân Lễ Tạ ơn. Giới kinh tế dự báo PCE lõi tăng 3,2% so với cùng kỳ năm trước, nhích lên từ tháng 9. Một điểm sáng trong ngày: niềm tin người tiêu dùng Mỹ nhảy lên 103,3 điểm, cao nhất gần hai năm. Thị trường sẽ giao dịch rút ngắn tới 13h chiều thứ Sáu, và giới đầu tư vẫn chờ xem liệu câu chuyện 'chính phủ làm cổ đông' có trở thành chính sách thật với Nvidia hay chỉ dừng ở một câu nói trong phỏng vấn."
-          ],
-          nguon: [
-            { ten: "Investor's Business Daily", link: "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/" },
-            { ten: "Moneycontrol", link: "https://www.moneycontrol.com/world/trump-says-pardon-for-nvidia-ceo-jensen-huang-is-always-an-option-urges-him-to-tell-congress-truth-article-14088382.html" },
-            { ten: "Times Now", link: "https://www.timesnownews.com/world/us/us-news/trump-says-it-is-not-too-late-for-an-us-equity-stake-in-nvidia-article-156561982" }
-          ],
-          gio: "Chiều, Nov 25"
-        },
 
 
       ]
@@ -115,6 +117,21 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Indonesia tăng trưởng 5,47% quý III — vượt mọi nền kinh tế G20, OECD dự báo cả năm 2026 đạt 5,4%",
+          baiViet: [
+            "Indonesia vừa ghi thêm một quý tăng trưởng mạnh. Bộ trưởng Điều phối Kinh tế Airlangga Hartarto ngày 25/11 cho biết kinh tế Indonesia tăng 5,47% trong quý III/2026, vượt mức 5,29% của quý II và cao hơn dự báo 5,18% trong khảo sát của Reuters. Động lực đến từ tiêu dùng hộ gia đình tăng 5,04%, xuất khẩu hàng hóa và dịch vụ tăng 4,59% trong khi nhập khẩu chậm lại, cùng hoạt động công nghiệp sôi động: chỉ số PMI sản xuất tháng 10 đạt 54 điểm, cao nhất 31 tháng. Lạm phát tháng 10 được kiểm soát ở 3,23%, tín dụng ngân hàng tăng 12,7% với cho vay đầu tư tăng tới 19,3%. Giới quan sát nhận định con số này tạm thời đưa Indonesia vượt mọi nền kinh tế G20 khác đã công bố số liệu quý III.",
+            "Tổ chức Hợp tác và Phát triển Kinh tế (OECD) trong báo cáo Khảo sát Kinh tế Indonesia 2026 công bố ngày 26/11 dự báo tăng trưởng thực của nước này đạt 5,4% trong cả năm 2026, so với 5,1% năm 2025, rồi hạ nhẹ xuống khoảng 5,3% trong giai đoạn 2027–2028. OECD cho rằng nhu cầu nội địa mạnh đã gánh tăng trưởng khoảng 5% trong giai đoạn 2023–2025. Ở chiều tiền tệ, Ngân hàng Trung ương Indonesia ngày 18/11 đã tăng lãi suất chuẩn 25 điểm cơ bản lên 6% để ổn định đồng rupiah, vốn đã mất giá 9,35% từ đầu năm trước áp lực từ rủi ro Fed tăng lãi suất và dòng vốn rút ra. Chính phủ cũng tung gói kích thích dịp Giáng sinh và Năm mới: 10 kg gạo mỗi tháng cho 33,24 triệu hộ gia đình, cùng khoản trợ cấp lương 900.000 rupiah cho khoảng 13,3 triệu lao động trong tháng 11–12.",
+            "Nhìn xa hơn, Jakarta đặt mục tiêu tăng trưởng 8% vào năm 2029, tập trung phát triển trí tuệ nhân tạo, công nghiệp bán dẫn và trung tâm dữ liệu. Tuy nhiên bức tranh không hoàn toàn một màu: lạm phát thực phẩm tháng 10 lên tới 5,81% dù lạm phát chung đã hạ nhiệt, chỉ số chứng khoán chính vẫn giảm gần 7% trong một tuần gần đây khi nhà đầu tư nước ngoài quay lưng, và đồng rupiah vẫn neo trên ngưỡng 18.000 rupiah đổi một đô la. Câu hỏi lớn cho những tháng cuối năm là liệu mức tăng trưởng 5,4% cả năm có chuyển thành thịnh vượng lan tỏa, hay chỉ là những con số ấn tượng trên giấy trong khi sức mua của hộ gia đình vẫn chịu sức ép từ giá thực phẩm."
+          ],
+          nguon: [
+            { ten: "Indonesia Observer", link: "https://observerid.com/government-steps-up-stimulus-and-business-role-to-drive-8-economic-growth" },
+            { ten: "ASEAN Coverage (OECD)", link: "https://finance.aseancoverage.com/news/indonesias-growth-forecast-at-5-4-percent-in-2026-easing-in-2027-2028/n6927" },
+            { ten: "Ashmore Group", link: "https://www.ashmoregroup.com/en-gb/document/weekly-23nov26" }
+          ],
+          gio: "Sáng, Nov 27"
+        },
+
         {
           tieuDe: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất lên 3,25% — cao nhất từ tháng 10/2024, nhờ bùng nổ chip AI",
           baiViet: [
@@ -145,20 +162,6 @@ window.TIN_TUC = {
           gio: "Sáng, Nov 26"
         },
 
-        {
-          tieuDe: "Ấn Độ bùng nổ: Sensex vượt 84.000 điểm, vốn ngoại kỷ lục hơn 14 tỉ USD trong tháng 11 nhờ dầu rẻ",
-          baiViet: [
-            "Thị trường chứng khoán Ấn Độ đã có phiên thứ Tư 25/11 bùng nổ sau một ngày nghỉ lễ. Chỉ số Sensex mở cửa tăng vọt, có lúc lên 83.997,43 điểm — tăng 1.561,44 điểm so với giá đóng cửa thứ Hai — rồi tới gần trưa vượt mốc 84.000 điểm, giao dịch quanh 84.468 điểm, tăng khoảng 2.030 điểm, tương đương 2,33%. Chỉ số Nifty 50 cũng vượt 25.900 điểm, tăng khoảng 558 điểm. Đà tăng lan rộng: 15 trong 16 nhóm ngành đi lên, dẫn đầu là ngân hàng tăng 2,5% và công nghệ thông tin tăng 2%, với các cổ phiếu dẫn dắt là Infosys, ICICI Bank, HDFC Bank, Bajaj Finserv và Bajaj Finance. Đây là cú hồi mạnh sau phiên thứ Hai giảm sâu, khi Sensex mất 1.483,72 điểm vì chốt lời ở nhóm tài chính và kim loại; thị trường đóng cửa thứ Ba nhân lễ Guru Nanak Jayanti, cho nhà đầu tư một ngày để bình tĩnh lại.",
-            "Động lực lớn nhất đến từ dòng vốn ngoại. Các nhà đầu tư tổ chức nước ngoài đã mua ròng 5.672,99 crore rupee cổ phiếu Ấn Độ ngay trong phiên thứ Hai dù thị trường giảm mạnh, và tổng vốn ngoại ròng đổ vào Ấn Độ trong tháng 11 đã lên tới khoảng 14,28 tỉ USD — mức kỷ lục theo tháng. Theo hãng Jefferies, đây là tháng mua ròng kỷ lục từ trước tới nay của khối ngoại, đảo ngược hai năm bán ròng liên tiếp; dòng tiền bắt đầu quay lại mạnh từ giữa tháng 10. Yếu tố thứ hai là giá dầu rẻ: dầu Brent giao dịch quanh 90,1 USD/thùng, giảm 1,4% trong phiên và đã mất hơn 20% trong tháng 11. Với Ấn Độ — nước nhập khẩu dầu lớn — dầu rẻ giúp giảm áp lực lạm phát, thâm hụt tài khoản vãng lai và chi phí nhập khẩu. Yếu tố thứ ba là đề xuất của cơ quan chứng khoán SEBI về việc bỏ thuế lãi vốn dài hạn (LTCG) 12,5% đối với nhà đầu tư nước ngoài, được giới phân tích đánh giá là bước đi tăng sức cạnh tranh cho cổ phiếu Ấn Độ.",
-            "Điểm đáng chú ý là Ấn Độ đi ngược cả khu vực trong phiên này: trong khi Sensex lập đỉnh, Kospi của Hàn Quốc giảm 5,3%, Nikkei 225 của Nhật Bản giảm 2,74% và chỉ số Thượng Hải giảm 1% vì lo ngại Mỹ áp thêm thuế quan và đà tăng của nhóm công nghệ chững lại. Đồng rupee cũng mạnh lên, giao dịch quanh 92,30 rupee đổi một USD — mức cao nhất trong 8 tháng. Giới chuyên gia nhận định nền tảng của Ấn Độ — tăng trưởng lợi nhuận doanh nghiệp quý II đạt 27% ở nhóm Nifty 50, dòng vốn ngoại kỷ lục và giá dầu thấp — giúp thị trường nước này chống chọi tốt hơn với biến động toàn cầu, dù rủi ro thuế quan từ Mỹ vẫn treo lơ lửng trên đầu cả khu vực."
-          ],
-          nguon: [
-            { ten: "The Week", link: "https://www.theweek.in/news/biz-tech/2026/11/25/indian-shares-rebound-sensex-surges.amp.html" },
-            { ten: "Free Press Journal", link: "https://www.freepressjournal.in/amp/business/sensex-on-a-2000-point-dream-run-foreign-investors-banking-giants-power-dalal-street-rally" },
-            { ten: "ET Now", link: "https://www.etnownews.com/markets/why-are-nifty-sensex-rising-today-here-are-key-reasons-behind-november-25-rally-article-156562781" }
-          ],
-          gio: "Chiều, Nov 25"
-        },
 
 
       ]
