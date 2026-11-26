@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Năm 26/11/2026 — bản tin sáng",
+  capNhat: "Thứ Năm 26/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Abu Dhabi khép lại không đột phá: Nga bác nhượng bộ lãnh thổ, Kushner cảnh báo nguy cơ leo thang",
+          baiViet: [
+            "Vòng đàm phán ba bên Nga–Ukraine–Mỹ tại Abu Dhabi vừa khép lại mà không có đột phá nào về chấm dứt chiến tranh, khi Moskva giữ nguyên lập trường không nhượng bộ lãnh thổ. Trưởng đoàn đàm phán Nga Vladimir Medinsky tuyên bố 'từng centimet đất của Nga sẽ được thu hồi, bằng cách này hay cách khác', theo tường thuật của các hãng tin châu Âu ngày 26/11. Phía Nga tiếp tục đòi Ukraine rút toàn bộ khỏi những phần còn lại của vùng Donbas, trong khi Kyiv từ chối nhượng bất kỳ vùng lãnh thổ nào chưa bị chiếm đóng. Các đề xuất về bảo đảm an ninh hậu chiến, trong đó có lực lượng gìn giữ hòa bình châu Âu, cũng bị phía Nga bác bỏ. Đây là vòng đàm phán trực tiếp ba bên đầu tiên kể từ tháng 2/2026, và kết quả của nó cho thấy nút thắt lãnh thổ vẫn nguyên vẹn như trước khi các đặc phái viên Mỹ tới Moskva.",
+            "Trong khi bàn đàm phán bế tắc, chiến sự trên thực địa vẫn tiếp diễn và nhắm thẳng vào hạ tầng năng lượng trước mùa đông. Đêm 25 rạng sáng 26/11, các đợt tấn công bằng drone và tên lửa của Nga đánh vào lưới điện Ukraine, khiến hàng trăm nghìn hộ dân ở tỉnh Dnipropetrovsk và Kharkiv mất điện. Trước đó một đêm, Nga đã phóng 112 drone vào Ukraine khiến 5 tỉnh mất điện. Phía Ukraine cho biết vòng đàm phán tiếp theo nên là đa phương, có châu Âu tham gia đầy đủ, thay vì chỉ ba bên như hiện nay. Giới phân tích nhận định Moskva đang có lợi thế trên chiến trường và chưa thấy lý do để nhượng bộ, trong khi Kyiv muốn tận dụng mọi kênh ngoại giao để giữ vấn đề lãnh thổ ngoài bàn thương lượng cho tới khi có bảo đảm an ninh đủ mạnh.",
+            "Đặc phái viên Mỹ Jared Kushner, người vừa cùng Steve Witkoff gặp Tổng thống Vladimir Putin tại Moskva, ngày 26/11 cảnh báo nguy cơ leo thang vẫn hiện hữu. Trong cuộc phỏng vấn với podcast MD MEETS của Đức, Kushner mô tả xung đột Ukraine là một cuộc 'chiến tranh ủy nhiệm', trong đó các nước châu Âu tài trợ và cung cấp vũ khí cho Kyiv để đối đầu Nga, và cho rằng chỉ một tính toán sai nhỏ cũng có thể châm ngòi cho leo thang lớn. Ông thừa nhận các cuộc trao đổi với phía Nga về vấn đề lãnh thổ 'không đạt tiến triển nào'. Sau Moskva, hai đặc phái viên Mỹ dự kiến tới Dublin gặp Tổng thống Volodymyr Zelenskyy bên lề hội nghị thượng đỉnh châu Âu. Với Abu Dhabi khép lại tay trắng và Moskva chưa nhúc nhích, tiến trình hòa bình bước vào giai đoạn khó khăn nhất kể từ khi vòng đàm phán ba bên được nối lại."
+          ],
+          nguon: [
+            { ten: "Nexus Europa", link: "https://nexuseuropa.eu/en/story/abu-dhabi-talks-end-without-breakthrough-as-russia-insists-on-territorial-claims-28556" },
+            { ten: "Nexus Europa", link: "https://nexuseuropa.eu/en/story/russian-negotiator-rules-out-territorial-compromise-following-abu-dhabi-peace-ta-28598" },
+            { ten: "SANA (AFP)", link: "https://sana.sy/en/international/2361981/" }
+          ],
+          gio: "Chiều, Nov 26"
+        },
+
         {
           tieuDe: "Kushner nói đàm phán Ukraine–Mỹ–Nga 'bế tắc' ở vấn đề lãnh thổ — đặc phái viên Mỹ gặp Putin ở Moskva, châu Âu vẫn chưa được mời vào bàn",
           baiViet: [
@@ -41,20 +56,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 25"
         },
 
-        {
-          tieuDe: "Sau Geneva: Điện Kremlin chê châu Âu 'chưa thấy giá trị gia tăng', Putin nói đề xuất của Mỹ 'về nguyên tắc' có thể làm cơ sở hòa bình",
-          baiViet: [
-            "Phản ứng đầu tiên từ Moskva sau tuyên bố chung Mỹ–Ukraine tại Geneva đã đến vào thứ Ba 24/11, và nó không mấy nồng ấm. Phát ngôn viên Điện Kremlin Dmitry Peskov nói Nga 'chưa hiểu rõ' châu Âu có thể đóng góp gì cho tiến trình đàm phán, dù các nước châu Âu khăng khăng vòng tiếp theo phải theo định dạng bốn bên gồm Mỹ, Ukraine, Nga và châu Âu. Ông Peskov đồng thời xác nhận chưa có ngày cụ thể cho vòng đàm phán mới — vốn được nhắc tới sẽ diễn ra tại Abu Dhabi — dù 'có sự hiểu biết rằng các cuộc đàm phán nên tiếp tục'. Một ngày trước đó, ông Peskov cho biết Nga vẫn chưa nhận được bất kỳ thông tin chính thức nào về kết quả Geneva và sẽ chờ xem diễn biến ra sao, thay vì bình luận dựa trên các bài báo.",
-            "Cùng ngày thứ Hai 24/11, Tổng thống Thổ Nhĩ Kỳ Recep Tayyip Erdogan đã điện đàm với Tổng thống Nga Vladimir Putin. Theo thông báo của Điện Kremlin, ông Putin nhận định các đề xuất hòa bình của Mỹ 'về nguyên tắc' có thể làm cơ sở cho một thỏa thuận hòa bình cuối cùng, và phù hợp với những gì đã thảo luận tại thượng đỉnh Nga–Mỹ ở Alaska. Ông Erdogan khẳng định Thổ Nhĩ Kỳ sẽ tiếp tục nỗ lực để cuộc chiến kết thúc bằng một nền hòa bình 'công bằng và bền vững', sẵn sàng hỗ trợ mọi sáng kiến ngoại giao và giữ Istanbul làm địa điểm cho các cuộc gặp trong tương lai. Trước cuộc gọi, ông Erdogan cho biết sẽ đề nghị ông Putin xem xét khôi phục thỏa thuận hành lang ngũ cốc Biển Đen năm 2022, vốn cho phép Ukraine xuất khẩu ngũ cốc an toàn trước khi sụp đổ một năm sau đó.",
-            "Phản ứng từ châu Âu cũng đến nhanh: Thủ tướng Đức Friedrich Merz hôm thứ Hai tuyên bố châu Âu sẵn sàng đàm phán và đề xuất một cuộc đàm phán bốn bên giữa Ukraine, Nga, châu Âu và Mỹ, với Abu Dhabi là địa điểm khả thi. Ngoại trưởng Đức Johann Wadephul đáp lại phát biểu của ông Peskov vào thứ Ba bằng câu nói thẳng: 'Người duy nhất chưa sẵn sàng đàm phán là ông Putin'. Trong ngày thứ Ba, nhóm 30 nước ủng hộ Kyiv — 'liên minh tự nguyện' — dự kiến họp trực tuyến để bàn các bước tiếp theo. Bối cảnh cho thấy nút thắt vẫn nằm ở Moskva: tại vòng Abu Dhabi ngày 10–11/11, đặc phái viên Mỹ Jared Kushner từng nói vòng sau sẽ có châu Âu tham gia, nhưng Nga từ trước đến nay luôn phản đối châu Âu ngồi vào bàn; tuần trước ông Putin còn mời đại diện EU tới Moskva để 'làm rõ lập trường', trong khi Ủy ban châu Âu khẳng định vẫn chỉ tập trung vào định dạng đa phương. Geneva đã cho Kyiv một văn bản bớt bất lợi hơn, nhưng khi chưa có ngày họp mới và chưa có phản hồi chính thức nào từ Moskva về bản khung cập nhật, hòa bình vẫn còn xa."
-          ],
-          nguon: [
-            { ten: "Ukrainska Pravda", link: "https://www.pravda.com.ua/eng/news/2026/11/24/8064380/" },
-            { ten: "ANews", link: "https://www.anews.com.tr/world/2026/11/24/russia-so-far-sees-no-added-value-in-europes-participation-in-ukraine-peace-talks-kremlin" },
-            { ten: "Xinhua", link: "http://www.china.org.cn/world/Off_the_Wire/2025-11/25/content_118193389.shtml" }
-          ],
-          gio: "Sáng, Nov 25"
-        },
 
       ]
     },
@@ -62,6 +63,21 @@ window.TIN_TUC = {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "Mỹ đề xuất thuế Section 301 với 14 đối tác vì 'dư thừa công suất': Trung Quốc thêm tối đa 20%, Việt Nam đối mặt mức cao nhất 35%",
+          baiViet: [
+            "Chính quyền Tổng thống Donald Trump ngày 25/11 đề xuất áp thuế mới lên 14 đối tác thương mại lớn với lý do chống 'dư thừa công suất công nghiệp mang tính cấu trúc', theo thông báo của Văn phòng Đại diện Thương mại Mỹ (USTR) sau cuộc điều tra kéo dài 8 tháng theo Mục 301 của Đạo luật Thương mại 1974. Đây là đợt thuế quan quy mô lớn đầu tiên được dựng lại sau khi Tòa án Tối cao Mỹ hồi tháng 2/2026 bác bỏ các mức thuế dựa trên Đạo luật Quyền hạn Kinh tế Khẩn cấp Quốc tế (IEEPA). USTR kết luận mỗi đối tác trong danh sách 'tạo ra, duy trì hoặc góp phần gây dư thừa công suất' thông qua các chính sách của chính phủ, làm tổn hại sản xuất, xuất khẩu và việc làm của Mỹ. Cuộc điều tra ban đầu nhắm vào 16 nền kinh tế; hai nước Mexico và Na Uy chưa có kết luận.",
+            "Mức thuế đề xuất khác nhau theo từng đối tác và phần lớn gắn với các thỏa thuận thương mại song phương đã đàm phán trước đó. Trung Quốc chịu thêm tối đa 20% — cộng với khoảng 25% thuế từ nhiệm kỳ đầu của ông Trump — với các mặt hàng trong danh mục phụ lục A chỉ chịu tối đa 10%. Liên minh châu Âu, Nhật Bản, Hàn Quốc, Thụy Sĩ và Đài Loan ở mức 15%; Bangladesh, Campuchia, Indonesia, Malaysia và Thái Lan tối đa 18%; Singapore tối đa 20%; Ấn Độ tối đa 25% nhưng có thể giảm xuống 17% nếu đạt thỏa thuận thương mại đáp ứng yêu cầu của Mỹ. Việt Nam đối mặt mức cao nhất trong danh sách, tới 35%, có thể giảm còn 20% nếu hai bên chốt được thỏa thuận. Các ngành bị nêu tên gồm ô tô, thép, bán dẫn, dược phẩm, hóa chất, điện tử, năng lượng mặt trời, dệt may, đóng tàu và pin.",
+            "Các mức thuế này chưa có hiệu lực ngay. USTR mở thời gian lấy ý kiến công chúng tới ngày 5/1/2027 và tổ chức điều trần công khai từ ngày 25/1/2027, nên việc thực thi có thể lùi sang tháng 1/2027 hoặc muộn hơn. Hàng hóa thuộc diện thuế Mục 232 — thép, nhôm, đồng, xe và phụ tùng, gỗ, dược phẩm có bằng sáng chế và bán dẫn — được miễn khỏi đợt thuế mới đối với các nước ngoài Trung Quốc. Phản ứng ban đầu từ giới doanh nghiệp cho thấy các nhà nhập khẩu và nhà sản xuất có chuỗi cung ứng xuyên biên giới cần rà soát lại ngay từ bây giờ, bởi phạm vi đề xuất bao trùm gần như toàn bộ hàng hóa của 14 nền kinh tế, từ may mặc Bangladesh tới ô tô và pin của Trung Quốc. Với các đồng minh thân cận như EU, Nhật Bản và Hàn Quốc cũng nằm trong danh sách, đợt thuế này được dự báo sẽ mở ra một vòng đàm phán thương mại căng thẳng mới ngay đầu năm 2027."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/" },
+            { ten: "Holland & Knight", link: "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301" },
+            { ten: "Thompson Coburn", link: "https://www.thompsoncoburn.com/insights/90-november-25-2026-ustr-finds-structural-excess-capacity-practices-in-14-economies-proposes-new-section-301-tariffs-from-15-25/" }
+          ],
+          gio: "Chiều, Nov 26"
+        },
+
         {
           tieuDe: "Phố Wall phiên 'tàu lượn' trước Lễ Tạ ơn: Dow rơi 1.100 điểm rồi lội ngược dòng đóng cửa trên 50.000 — PCE lõi nóng 3,3%, GDP quý III vọt lên 4,3%",
           baiViet: [
@@ -92,20 +108,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 25"
         },
 
-        {
-          tieuDe: "Phố Wall phân hóa sau cú bật lịch sử: Dow lần đầu vượt 50.000 điểm, Nasdaq rơi 1,5% khi cổ phiếu chip đảo chiều; Dell báo cáo kỷ lục sau giờ đóng cửa",
-          baiViet: [
-            "Thị trường chứng khoán Mỹ chia đôi trong phiên thứ Ba 24/11, chỉ một ngày sau cú bật mạnh nhất kể từ tháng 4/2025. Chỉ số Dow Jones tăng 0,9%, tương đương hơn 400 điểm, lên 50.018 điểm — lần đầu tiên trong lịch sử đóng cửa trên mốc 50.000. Ngược lại, S&P 500 giảm 0,5% còn 7.201 điểm, còn Nasdaq mất 1,5% xuống 23.733 điểm. Diễn biến này đảo ngược phần lớn đà hưng phấn của phiên thứ Hai, khi S&P 500 tăng gần 5% còn Nasdaq vọt 6,5% sau tin Jensen Huang trở lại ghế tổng giám đốc Nvidia. Chính Nvidia dẫn đầu đà đảo chiều: cổ phiếu giảm 6% sau khi tăng 31% hôm trước và cộng thêm hơn 900 tỷ USD vốn hóa chỉ trong một phiên, hiện vẫn thấp hơn 35% so với mức đỉnh đóng cửa ngày 6/10. Dòng tiền xoay sang các nhóm ngoài công nghệ, với Nike và hãng dược Amgen cùng tăng hơn 5%.",
-            "Nhóm cổ phiếu chip và máy chủ AI bị bán tháo mạnh nhất. Analog Devices lao dốc 17% dù doanh thu quý tăng 42% lên 4,37 tỷ USD; Micron giảm khoảng 11%, AMD, Intel và Marvell đều mất hơn 8%, còn quỹ ETF bán dẫn SOXX giảm 8%. Hewlett Packard Enterprise (HPE) sụt 16,3% xuống 40,19 USD, dù báo cáo quý IV vượt kỳ vọng với lợi nhuận điều chỉnh 1,43 USD/cổ phiếu so với mức dự báo 1,28 USD, doanh thu 14,55 tỷ USD tăng 50%, đồng thời nâng triển vọng cho tài khóa 2027. Nhà đầu tư thất vọng vì biên lợi nhuận gộp điều chỉnh của HPE giảm 2,2 điểm phần trăm và ban lãnh đạo cảnh báo biên lợi nhuận từ máy chủ AI sẽ tiếp tục mỏng đi. Dell cũng giảm 11,8% xuống 295,28 USD trong phiên, khi nhà đầu tư chờ báo cáo kết quả sau giờ đóng cửa.",
-            "Sau giờ giao dịch, Dell công bố một quý kỷ lục: doanh thu 54,94 tỷ USD, tăng 103% so với cùng kỳ và vượt xa mức dự báo 49,32 tỷ USD; lợi nhuận điều chỉnh 9,45 USD/cổ phiếu so với kỳ vọng 6,60 USD. Hãng nhận 60,2 tỷ USD đơn đặt hàng máy chủ AI mới trong quý, đưa lượng đơn tồn đọng lên kỷ lục 132,3 tỷ USD. Dell nâng dự báo doanh thu cả năm tài khóa 2027 lên 202 tỷ USD, từ mức 192 tỷ USD trước đó, và nâng dự báo lợi nhuận điều chỉnh lên 29,68 USD/cổ phiếu, từ 25,50 USD. Cổ phiếu Dell hồi phục hơn 2% trong giao dịch sau giờ. Một dấu mốc khác của phiên: cổ phiếu Anthropic giảm 6,5% xuống dưới 82 USD, thấp hơn giá chào bán 83 USD trong đợt IPO kỷ lục tuần trước. Giá vàng giảm 2,8% xuống 3.550 USD/ounce, dầu WTI tăng 1,6% lên 81,45 USD/thùng, lợi suất trái phiếu kho bạc Mỹ kỳ hạn 10 năm ở mức 4,91%. Thị trường Mỹ sẽ nghỉ lễ Tạ ơn vào thứ Năm, và giới đầu tư đang chờ loạt dữ liệu GDP cùng chỉ số lạm phát PCE công bố sáng thứ Tư."
-          ],
-          nguon: [
-            { ten: "Investopedia", link: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11242026-12275797" },
-            { ten: "Reuters", link: "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/" },
-            { ten: "Investor's Business Daily", link: "https://www.investors.com/news/technology/dell-stock-fiscal-q3-2027-earnings/" }
-          ],
-          gio: "Sáng, Nov 25"
-        },
 
       ]
     },
@@ -113,6 +115,21 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất lên 3,25% — cao nhất từ tháng 10/2024, nhờ bùng nổ chip AI",
+          baiViet: [
+            "Ngân hàng Trung ương Hàn Quốc (BOK) ngày 26/11 tăng lãi suất cơ bản thêm 0,25 điểm phần trăm lên 3,25%, nối lại chu kỳ thắt chặt tiền tệ sau ba tháng tạm dừng. Đây là lần tăng thứ ba trong năm 2026, sau các đợt tăng hồi tháng 7 và tháng 8, đưa lãi suất lên mức cao nhất kể từ tháng 10/2024. Quyết định được thông qua với tỉ lệ 5–2 trong Hội đồng Chính sách Tiền tệ; hai thành viên Hwang Kun-il và Lee Soo-hyung bỏ phiếu giữ nguyên ở 3%. Cùng với lãi suất cơ bản, BOK cũng nâng lãi suất của chương trình hỗ trợ cho vay qua ngân hàng trung gian từ 1,25% lên 1,50%.",
+            "Lý do BOK đưa ra là tăng trưởng mạnh hơn dự báo và lạm phát vẫn trên mục tiêu, cả hai đều gắn với cơn bùng nổ xuất khẩu chip nhớ phục vụ trí tuệ nhân tạo. Lạm phát giá tiêu dùng tháng 10 ở mức 2,8%, cao hơn mục tiêu 2% của ngân hàng trung ương, trong khi giá nhà ở Seoul và dư nợ vay hộ gia đình tiếp tục tăng. BOK đồng thời nâng mạnh dự báo tăng trưởng: GDP năm 2026 từ 3,3% lên 3,9%, và năm 2027 từ 2,9% lên 4,1%. Xuất khẩu chất bán dẫn là động lực chính — nhu cầu chip nhớ cho các trung tâm dữ liệu AI toàn cầu đang ở mức cao kỷ lục, kéo theo cả sản xuất, đầu tư và xuất khẩu của nền kinh tế lớn thứ tư châu Á.",
+            "Quyết định của Seoul đi ngược xu hướng nới lỏng ở nhiều ngân hàng trung ương lớn và cho thấy AI đang viết lại bản đồ chính sách tiền tệ châu Á. Trong khi Cục Dự trữ Liên bang Mỹ được thị trường kỳ vọng tăng lãi suất tại cuộc họp ngày 8–9/12, BOK đã đi trước một bước, chấp nhận đánh đổi tăng trưởng để kiềm chế lạm phát và ổn định thị trường nhà ở. Rủi ro phía trước là đồng won, lãi suất thế chấp tăng lên mức cao nhất hơn 14 năm, và khả năng nhu cầu chip AI chững lại nếu các tập đoàn công nghệ Mỹ cắt giảm đầu tư trung tâm dữ liệu. Nhưng với dự báo tăng trưởng 4,1% cho năm 2027, BOK tỏ ra tin rằng cơn sốt chip còn đủ sức gánh nền kinh tế Hàn Quốc qua giai đoạn lãi suất cao này."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/markets/asia/south-koreas-central-bank-resumes-tightening-with-quarter-point-hike-2026-11-26/" },
+            { ten: "Yonhap News Agency", link: "https://en.yna.co.kr/view/AEN20261126001253320" },
+            { ten: "Al Jazeera", link: "https://www.aljazeera.com/amp/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast" }
+          ],
+          gio: "Chiều, Nov 26"
+        },
+
         {
           tieuDe: "G20 Miami còn chưa đầy 3 tuần: Trump nói 'cả 20 lãnh đạo sẽ tới', Putin vẫn chưa quyết — Nam Phi không được mời, Sherpa họp 10–12/12 chốt tuyên bố chung",
           baiViet: [
@@ -143,20 +160,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 25"
         },
 
-        {
-          tieuDe: "G20 Miami: 20 nghị sĩ lưỡng đảng yêu cầu Trump thu hồi lời mời Putin — Điện Kremlin nói quyết định 'vẫn chưa được đưa ra'",
-          baiViet: [
-            "Hai mươi hạ nghị sĩ lưỡng đảng của Mỹ đang yêu cầu Tổng thống Donald Trump thu hồi lời mời Tổng thống Nga Vladimir Putin dự thượng đỉnh G20 tại Miami, cảnh báo việc đón tiếp nhà lãnh đạo Nga sẽ làm suy yếu an ninh quốc gia và binh sĩ Mỹ. Bức thư gửi Nhà Trắng đề ngày 19/11, được công bố ngày 24/11, do nghị sĩ Cộng hòa Don Bacon của Nebraska dẫn đầu cùng hai nghị sĩ Dân chủ Pat Ryan của New York và Gil Cisneros của California. Lý do chính được nêu là các báo cáo tình báo cho rằng Nga đã cung cấp ảnh vệ tinh và thông tin tình báo giúp Iran tấn công lực lượng Mỹ ở Trung Đông, trong đó có vụ tấn công căn cứ không quân Prince Sultan ở Saudi Arabia cuối tháng 3 làm 12 quân nhân Mỹ bị thương và phá hủy một máy bay cảnh báo sớm AWACS. Văn phòng của ông Cisneros cho biết tính đến tháng 11, ít nhất 23 quân nhân Mỹ đã thiệt mạng trong cuộc chiến với Iran. Ông Cisneros gọi lời mời dành cho ông Putin là 'sự phản bội đối với quân đội của chúng ta', còn ông Ryan nói Mỹ 'nên đứng về phía các đồng minh, chứ không trao thêm sức mạnh cho đối thủ của họ'.",
-            "Bức thư còn chỉ trích thỏa thuận Mỹ mua dầu diesel của Nga kèm theo việc miễn trừ trừng phạt — hơn 300.000 tấn trong đợt đầu, rồi 500.000 tấn trong tháng 11 và 1 triệu tấn sau đó — cho rằng thỏa thuận này gửi 'thông điệp sai' tới quân nhân Mỹ. Các nghị sĩ dẫn thêm các báo cáo rằng Moskva đang cung cấp cho Tehran chất nổ, linh kiện máy bay không người lái, đạn dược, đồng thời hỗ trợ Iran phát triển tên lửa hành trình siêu thanh tiên tiến. Họ lập luận rằng việc đón ông Putin tới một diễn đàn vốn dành cho hợp tác kinh tế toàn cầu sẽ làm suy yếu các lệnh trừng phạt mà phương Tây áp đặt sau cuộc xâm lược Ukraine năm 2022, và rằng 'đây không phải lúc bước vào hợp tác kinh tế hay thảo luận với Nga ngoài việc chấm dứt cuộc chiến phi nghĩa của họ, dù ở thượng đỉnh G20 hay bất cứ đâu'.",
-            "Về phía Nga, Điện Kremlin cho biết quyết định về việc ông Putin có tự mình tới Miami hay không 'vẫn chưa được đưa ra', theo phát ngôn viên Dmitry Peskov trả lời báo Izvestia; Moskva khẳng định Nga sẽ tham dự thượng đỉnh ở cấp cao. Bản thân ông Putin trước đó cảm ơn lời mời của ông Trump nhưng nói việc tham dự phụ thuộc vào các ưu tiên trong nước. Tranh cãi về lời mời diễn ra trong bối cảnh thượng đỉnh Miami vốn đã nhiều chia rẽ: các cuộc họp cấp bộ trưởng tài chính và ngoại giao trong năm đều không ra được tuyên bố chung, và câu hỏi ông Putin có xuất hiện trực tiếp tại một thượng đỉnh G20 lần đầu kể từ Osaka 2019 hay không vẫn bỏ ngỏ, chỉ còn ba tuần trước khi các nhà lãnh đạo nhóm họp ngày 14–15/12."
-          ],
-          nguon: [
-            { ten: "The Tribune (ANI)", link: "https://www.tribuneindia.com/news/usa-news/betrayal-of-our-troops-support-of-enemies-bipartisan-lawmakers-demand-trump-revoke-putins-g20-invite-over-ukraine-war-and-iran-intel-reports/" },
-            { ten: "Rep. Gil Cisneros (House.gov)", link: "http://cisneros.house.gov/media/press-releases/rep-cisneros-leads-bipartisan-letter-urging-president-trump-rescind-vladimir" },
-            { ten: "ChosunBiz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" }
-          ],
-          gio: "Sáng, Nov 25"
-        },
 
       ]
     }
