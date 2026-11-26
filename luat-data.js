@@ -7,7 +7,7 @@
 // nguon: [{ten, link}] — luôn ghi nguồn + link gốc ở cuối bài.
 // Lượt cập nhật hằng ngày CHỈ cần thêm bài vào mảng "bai" của file này (giữ nguyên cấu trúc).
 window.LUAT_QUOC_TE = {
-  capNhat: "25/11/2026",
+  capNhat: "26/11/2026",
   bai: [
     {
       id: "sg-ma-tuy-tu-hinh-chung-than",
@@ -503,6 +503,137 @@ window.LUAT_QUOC_TE = {
         { ten: "Cannabis Act (S.C. 2018, c. 16) — Bộ Tư pháp Canada, Điều 8 (toàn văn luật chính thức)", link: "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-8.html?txthl=day+30" },
         { ten: "Health Canada — Calculate public possession limits for cannabis (trang chính thức)", link: "https://sante.canada.ca/en/health-canada/services/drugs-medication/cannabis/possession-limit-calculator.html" },
         { ten: "CrimLawCanada — Legalization of Cannabis in Canada: What You Should Know", link: "https://crimlawcanada.ca/legalization-of-cannabis-in-canada/" }
+      ]
+    },
+    {
+      id: "nz-lai-xe-uong-ruou-005",
+      nuoc: "nz",
+      tieuDe: "New Zealand: lái xe sau khi uống rượu — 0,05% đã vi phạm, dưới 20 tuổi là 0 tuyệt đối",
+      tomTat: "New Zealand đặt giới hạn nồng độ cồn 0,05% cho người từ 20 tuổi trở lên và 0 tuyệt đối cho người dưới 20 tuổi. Vượt nhẹ (tới 0,08%) chỉ bị phạt tại chỗ 200 đô la New Zealand và 50 điểm phạt; vượt 0,08% là tội hình sự, cấm lái tối thiểu 6 tháng, tối đa 3 tháng tù và 4.500 đô la. Tái phạm hoặc đọc rất cao còn bị bắt gắn khóa liên động vào xe.",
+      ngay: "26/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Auckland_Skyline_as_seen_from_Devonport_100128_2.jpg/960px-Auckland_Skyline_as_seen_from_Devonport_100128_2.jpg",
+      muc: [
+        {
+          h: "Ngưỡng 0,05% và 0 tuyệt đối cho người dưới 20 tuổi",
+          p: [
+            "Đạo luật Giao thông Đường bộ 1998 của New Zealand (Land Transport Act 1998, Điều 11) quy định: người từ 20 tuổi trở lên không được lái xe khi nồng độ cồn trong máu vượt 50 miligam/100 mililít (0,05%) hoặc trong hơi thở vượt 250 microgam/lít. Với thể trạng trung bình, mức này tương đương khoảng hai ly bia hoặc hai ly rượu vang nhỏ — thấp hơn mức 0,08% của Anh và Mỹ.",
+            "Người dưới 20 tuổi chịu giới hạn 0 tuyệt đối: chỉ cần có bất kỳ lượng cồn nào trong hơi thở hoặc máu cũng đã vi phạm. Giới hạn 0 cũng áp dụng cho người đang mang bằng lái có khóa liên động (alcohol interlock licence) hoặc bằng lái 0 cồn (zero alcohol licence) — hai loại bằng đặc biệt mà tòa có thể áp dụng sau một vụ say rượu lái xe."
+          ]
+        },
+        {
+          h: "Hai tầng xử lý: phạt tại chỗ 200 NZD hay ra tòa, cấm lái tối thiểu 6 tháng",
+          p: [
+            "New Zealand chia vi phạm của người từ 20 tuổi trở lên thành hai tầng theo mức đọc. Tầng nhẹ — hơi thở từ 251 đến 400 microgam/lít hoặc máu từ 51 đến 80 miligam/100ml — chỉ là vi phạm hành chính (infringement): phạt tại chỗ 200 đô la New Zealand và 50 điểm phạt (demerit points), không ra tòa, không có án tích.",
+            "Vượt 400 microgam hơi thở hoặc 80 miligam máu là tội hình sự: lần đầu hoặc lần hai bị phạt tới 3 tháng tù hoặc phạt tiền tới 4.500 đô la, đồng thời tự động bị cấm lái tối thiểu 6 tháng. Lần thứ ba trở lên, khung tăng lên tới 2 năm tù hoặc phạt tiền tới 6.000 đô la và cấm lái hơn 1 năm. Người dưới 20 tuổi vượt 150 microgam hơi thở (30 miligam máu) cũng thành tội hình sự: tới 3 tháng tù hoặc phạt tiền tới 2.250 đô la, cấm lái tối thiểu 3 tháng.",
+            "Từ chối thổi máy đo hơi thở có chứng cứ (evidential breath test) không giúp thoát tội: cảnh sát sẽ yêu cầu lấy mẫu máu, và từ chối lấy máu cũng là tội hình sự với khung phạt ngang lần vi phạm đầu tiên ở mức cao. Lái xe khi say rượu mà gây chết người hoặc gây thương tích bị phạt tới 10 năm tù và 20.000 đô la, kèm cấm lái từ 1 năm trở lên."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bafometro.JPG/960px-Bafometro.JPG"
+        },
+        {
+          h: "Đọc rất cao hoặc tái phạm: bắt gắn khóa liên động vào xe",
+          p: [
+            "Một điểm đặc biệt của luật New Zealand là án khóa liên động (alcohol interlock sentence). Tòa bắt buộc áp dụng khi người vi phạm có nồng độ cồn từ 800 microgam hơi thở (160 miligam máu) trở lên — gấp đôi ngưỡng hình sự — hoặc khi bị kết án một tội cồn trong vòng 5 năm sau một tội cồn trước đó.",
+            "Người chịu án này bị cấm lái ít nhất 28 ngày, sau đó chỉ được lái xe đã gắn thiết bị khóa liên động: xe chỉ nổ máy khi tài xế thổi hơi thở đạt 0 cồn. Sau ít nhất 12 tháng lái xe có khóa liên động mà không vi phạm, người đó mới được xin cấp bằng lái 0 cồn. Đây là cách New Zealand xử lý nhóm tái phạm nguy hiểm mà không cần giam dài ngày."
+          ]
+        },
+        {
+          h: "Người Việt ở New Zealand cần nhớ gì?",
+          p: [
+            "Thứ nhất, giới hạn 0,05% của New Zealand thấp hơn nhiều nước, và cảnh sát được dừng xe kiểm tra hơi thở ngẫu nhiên (compulsory breath testing) mà không cần lý do — các chốt kiểm tra hơi thở là cảnh thường thấy vào tối cuối tuần. Thứ hai, 100 điểm phạt trong 2 năm sẽ bị đình chỉ bằng 3 tháng, nên một lần phạt 50 điểm vì vượt nhẹ đã đi nửa đường tới mất bằng. Thứ ba, luật còn đặt giới hạn cho 25 loại ma túy khi lái xe và đã triển khai xét nghiệm nước bọt tại lề đường từ năm 2023 — lái xe sau khi dùng cần sa hay thuốc kê đơn gây buồn ngủ cũng có thể bị xử như say rượu lái xe. Với du học sinh và lao động Việt Nam, một án hình sự về lái xe còn có thể ảnh hưởng đến việc gia hạn thị thực."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "NZ Transport Agency Waka Kotahi — Alcohol and drug limits (trang chính thức)", link: "https://www.nzta.govt.nz/driver-licences/driving-offences-and-penalties/alcohol-and-drug-affected-driving" },
+        { ten: "Community Law (New Zealand) — Alcohol: The drink-driving offences (đối chiếu Land Transport Act 1998)", link: "https://communitylaw.org.nz/community-law-manual/chapter-31-driving-and-traffic-law/drink-drug-driving/alcohol-the-drink-driving-offences/" },
+        { ten: "NZ Transport Agency Waka Kotahi — Alcohol and drugs limits (Road Code)", link: "https://www.nzta.govt.nz/roadcode/general-road-code/about-limits/alcohol-and-drugs-limits/" }
+      ]
+    },
+    {
+      id: "th-can-sa-y-te-2025",
+      nuoc: "th",
+      tieuDe: "Thái Lan siết lại cần sa từ 26/6/2025: chỉ dùng y tế, mua phải có đơn thuốc PT33",
+      tomTat: "Sau ba năm 'thả cửa' khiến hàng chục nghìn cửa hàng mọc lên khắp Thái Lan, Bộ Y tế nước này đã xếp lại hoa cần sa thành 'thảo dược kiểm soát' từ 26/6/2025: chỉ bán theo đơn thuốc y tế (mẫu PT33), tối đa 30 ngày dùng, cấm quảng cáo, bán online và máy bán hàng tự động. Du khách mua cần sa không đơn có thể bị phạt tù tới 1 năm.",
+      ngay: "26/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bangkok_skyline_at_sunset%2C_Bangkok%2C_Thailand.jpg/960px-Bangkok_skyline_at_sunset%2C_Bangkok%2C_Thailand.jpg",
+      muc: [
+        {
+          h: "Ba năm 'thả cửa' kết thúc: từ gỡ khỏi danh sách ma túy tới 'thảo dược kiểm soát'",
+          p: [
+            "Tháng 6/2022, Thái Lan trở thành nước châu Á đầu tiên gỡ cần sa khỏi danh sách ma túy, mở đường cho hàng chục nghìn cửa hàng và quán cà phê cần sa mọc lên khắp Bangkok, Phuket và các đảo du lịch. Nhưng vì Quốc hội không kịp ban hành luật quản lý, thị trường rơi vào khoảng trống pháp lý: mua bán gần như tự do, quảng cáo tràn lan, trẻ vị thành niên cũng tiếp cận được, và số người dùng giải trí tăng từ khoảng 350.000 người năm 2019 lên hơn 700.000 người năm 2024.",
+            "Ngày 24/6/2025, Bộ trưởng Y tế Somsak Thepsutin ký thông báo của Bộ Y tế, đăng Công báo Hoàng gia ngày 25/6/2025 và có hiệu lực từ ngày 26/6/2025: hoa cần sa được xếp thành \"thảo dược kiểm soát\" (controlled herb) theo luật y học cổ truyền Thái Lan. Cần sa không quay lại danh sách ma túy, nhưng việc bán ra thị trường bị siết chặt như thuốc kê đơn. Riêng chiết xuất cần sa có hàm lượng THC trên 0,2% vẫn nằm trong diện ma túy theo luật ma túy như trước."
+          ]
+        },
+        {
+          h: "Muốn mua hợp pháp: đơn thuốc PT33, tối đa 30 ngày dùng",
+          p: [
+            "Theo thông báo tháng 6/2025, các cửa hàng có giấy phép chỉ được bán hoa cần sa cho người có đơn thuốc PT33 (mẫu ภ.ท.33) do người hành nghề được cấp phép tại Thái Lan kê — gồm bác sĩ, nha sĩ, dược sĩ, thầy thuốc y học cổ truyền Thái, thầy thuốc y học Trung Hoa, bác sĩ dân gian đã đăng ký và thầy thuốc y học cổ truyền ứng dụng. Đơn ghi rõ chẩn đoán, liều dùng hằng ngày và tổng lượng, tối đa 30 ngày điều trị cho một đơn.",
+            "Đơn thuốc hay thẻ cần sa y tế của nước ngoài không có giá trị tại Thái Lan — du khách phải khám và lấy đơn tại Thái Lan. Người mua phải từ 20 tuổi trở lên và chỉ được mua trực tiếp tại cơ sở có giấy phép; bán hàng online, giao hàng tận nơi và máy bán hàng tự động đều bị cấm, quảng cáo cần sa cũng bị cấm hoàn toàn."
+          ],
+          anh: "https://upload.wikimedia.org/wikipedia/commons/4/48/Marijuana.jpg"
+        },
+        {
+          h: "Mức phạt và đợt kiểm tra: bán không đơn tới 1 năm tù, 20.000 baht",
+          p: [
+            "Bán, chế biến hoặc xuất khẩu hoa cần sa không có giấy phép, hoặc bán cho người không có đơn thuốc hợp lệ, bị phạt tới 1 năm tù và/hoặc phạt tiền tới 20.000 baht, đồng thời có thể bị thu hồi giấy phép. Hút cần sa nơi công cộng bị xử là gây rối trật tự công cộng, tới 3 tháng tù và phạt tiền tới 25.000 baht.",
+            "Từ khi bắt đầu siết chặt vào tháng 10/2025, cơ quan chức năng Thái Lan đã kiểm tra 1.326 cửa hàng cần sa trên cả nước, tịch thu 83 vụ, khởi tố 40 người hoặc doanh nghiệp, đình chỉ 84 giấy phép và thu hồi 4 giấy phép. Hơn 7.000 cửa hàng đã đóng cửa trong năm 2025 vì không gia hạn giấy phép. Ngày 22/9/2026, nội các Thái Lan đã thông qua dự thảo Đạo luật Kiểm soát Cần sa và Cây gai dầu (chỉ cho dùng y tế), hiện đang chờ Quốc hội thông qua — luật này có thể siết thêm nữa khi được ban hành."
+          ]
+        },
+        {
+          h: "Người Việt du lịch Thái Lan cần nhớ gì?",
+          p: [
+            "Thứ nhất, đừng tin các bài hướng dẫn du lịch cũ: Thái Lan không còn là nơi \"mua cần sa dễ như mua cà phê\" nữa — mua không có đơn thuốc PT33 của Thái Lan là mua hàng bất hợp pháp, và cửa hàng đang mở cửa không có nghĩa mọi giao dịch trong đó đều hợp pháp. Thứ hai, đừng mang cần sa qua biên giới: mang hoa cần sa ra khỏi Thái Lan sang nước khác — kể cả nước đã hợp pháp hóa — vẫn có thể bị xử buôn lậu ma túy ở cả hai đầu. Thứ ba, hút ở nơi công cộng, trước mặt trẻ em hay gần trường học, chùa chiền đều có thể bị phạt; muốn dùng vì lý do y tế thì phải khám tại cơ sở y tế Thái Lan để lấy đơn PT33 trước."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Bangkok Ganja — Thailand cannabis law in November 2026: what is legal right now", link: "https://bangkokganja.com/laws/" },
+        { ten: "Bangkok.biz — Cannabis in Bangkok 2026: What Is Legal and PT33 Rules", link: "https://bangkok.biz/guides/cannabis-rules-bangkok" },
+        { ten: "Cục Quan hệ Công chúng Chính phủ Thái Lan (PR Thai Government) — thông báo giới hạn cần sa chỉ dùng y tế", link: "https://www.facebook.com/thailandprd/posts/pfbid0L9EKkZ1qPk3jgu4sidqwxa4qM7Gw1ri2x68ebw5awqaJoR7o9VvJwBuHKuwigFsnl" }
+      ]
+    },
+    {
+      id: "my-bo-an-tu-hinh-bat-buoc-2023",
+      nuoc: "my",
+      tieuDe: "Malaysia bỏ án tử hình bắt buộc từ 2023: buôn ma túy vẫn có thể tử hình, nhưng thẩm phán được chọn án tù 30–40 năm",
+      tomTat: "Từ 4/7/2023, Malaysia bãi bỏ án tử hình bắt buộc với 11 tội, trong đó có buôn bán ma túy: thẩm phán được chọn giữa tử hình hoặc tù 30–40 năm kèm ít nhất 12 roi. Hàng trăm tử tù đã được xét lại án, đưa số người chờ thi hành án từ hơn 1.300 xuống còn khoảng 140. Nhưng buôn ma túy ở Malaysia vẫn là tội có thể tử hình — và cầm 200g cần sa đã bị suy đoán là buôn bán.",
+      ngay: "26/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Kuala_Lumpur_Malaysia_Skyline-03.jpg/960px-Kuala_Lumpur_Malaysia_Skyline-03.jpg",
+      muc: [
+        {
+          h: "Trước 2023: cầm 15g heroin là tử hình bắt buộc",
+          p: [
+            "Đạo luật Ma túy Nguy hiểm 1952 của Malaysia (Dangerous Drugs Act 1952, Điều 39B) đặt ra các ngưỡng suy đoán buôn bán rất thấp: cầm 15g heroin hoặc morphine trở lên, 1.000g thuốc phiện trở lên, 200g cần sa trở lên, hoặc 40g cocaine trở lên là mặc nhiên bị suy đoán buôn bán ma túy, và người bị buộc tội phải tự chứng minh ngược lại.",
+            "Từ năm 1983, án tử hình cho tội buôn bán ma túy là bắt buộc: thẩm phán không có quyền chọn án khác, dù bị cáo chỉ là người vận chuyển thuê, có bệnh tâm thần hay vai trò rất nhỏ. Một sửa đổi năm 2017 (có hiệu lực 15/3/2018) đã mở một lối thoát hẹp — tòa có thể tuyên chung thân thay cho tử hình nếu bị cáo chỉ là người vận chuyển và hợp tác phá án — nhưng điều kiện quá chặt nên rất ít người được hưởng."
+          ]
+        },
+        {
+          h: "Đạo luật 846 có hiệu lực 4/7/2023: thẩm phán được chọn",
+          p: [
+            "Ngày 3/4/2023, Hạ viện Malaysia nhất trí thông qua dự luật Bãi bỏ Án tử hình Bắt buộc 2023, và Đạo luật 846 (Abolition of Mandatory Death Penalty Act 2023) chính thức có hiệu lực từ ngày 4/7/2023. Đạo luật sửa đổi 7 đạo luật, bãi bỏ án tử hình bắt buộc với 11 tội — trong đó có buôn bán ma túy, giết người, bắt cóc, tàng trữ súng trái phép và phản quốc.",
+            "Với tội buôn bán ma túy, thẩm phán nay được chọn một trong hai: tử hình, hoặc tù từ 30 đến 40 năm kèm ít nhất 12 roi (số roi tối thiểu giảm từ 15 xuống 12 so với quy định cũ). Nói cách khác, án tử hình vẫn còn đó — chỉ không còn bắt buộc nữa. Tòa án được cân nhắc vai trò của bị cáo, mức độ hợp tác, tình trạng tâm thần và các tình tiết giảm nhẹ trước khi quyết định sinh mạng của một con người."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2016_Kuala_Lumpur%2C_Petronas_Towers_%2821%29.jpg/960px-2016_Kuala_Lumpur%2C_Petronas_Towers_%2821%29.jpg"
+        },
+        {
+          h: "Hệ quả: tử tù từ hơn 1.300 người xuống còn khoảng 140",
+          p: [
+            "Đi kèm Đạo luật 846 là Đạo luật 847, cho phép những người đã bị tuyên tử hình hoặc chung thân tự nhiên nộp đơn một lần lên Tòa án Liên bang để xét lại án. Hơn 900 tử tù đã nộp đơn; tới cuối năm 2024, số người trên hàng chờ tử hình của Malaysia giảm từ hơn 1.300 xuống còn khoảng 140 người.",
+            "Đa số những người từng chờ tử hình là phạm tội ma túy: trước cải cách, khoảng 65–70% tử tù Malaysia là tội phạm ma túy theo Điều 39B, và 95% nữ tử tù là phạm tội ma túy, phần lớn là người nước ngoài. Cải cách 2023 vì vậy tác động trực tiếp nhất tới chính nhóm người dễ tổn thương nhất trong hệ thống tư pháp Malaysia — những người vận chuyển thuê, lao động nghèo và người nước ngoài bị lừa mang hàng."
+          ]
+        },
+        {
+          h: "Người Việt ở Malaysia cần nhớ gì?",
+          p: [
+            "Thứ nhất, bỏ án tử hình bắt buộc không có nghĩa là Malaysia đã bỏ án tử hình: vẫn còn khoảng 30 tội có thể bị tử hình, và buôn bán ma túy vẫn nằm trong số đó. Thứ hai, ngưỡng suy đoán buôn bán rất thấp — 200g cần sa, 15g heroin — và gánh nặng chứng minh ngược lại đặt lên vai bị cáo, nên \"chỉ mang hộ một gói nhỏ\" cũng có thể đưa một người vào khung tử hình. Thứ ba, cần sa y tế và CBD vẫn bị cấm ở Malaysia; Bộ Y tế nước này xác nhận tới tháng 10/2024 vẫn không có kế hoạch sửa luật để hợp pháp hóa. Nguyên tắc an toàn tuyệt đối khi qua lại Malaysia: không mang hộ, không nhận giữ hộ bất kỳ gói đồ nào không rõ nội dung."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Wikipedia — Capital punishment in Malaysia (Abolition of Mandatory Death Penalty Act 2023, Act 846)", link: "https://en.wikipedia.org/wiki/Capital_punishment_in_Malaysia" },
+        { ten: "Legal 500 — Abolishment Of Mandatory Death Penalty In Malaysia", link: "https://www.legal500.com/intelligence/malaysia/litigation-mediation-arbitration/abolishment-of-mandatory-death-penalty-in-malaysia" },
+        { ten: "Aliran — Malaysia: State of death penalty (10/2026)", link: "https://aliran.com/civil-society-voices/malaysia-state-of-death-penalty" },
+        { ten: "Asian Cannabis — Cannabis Law in Malaysia (2026): Presumed Trafficking at 200 g (đối chiếu Dangerous Drugs Act 1952, bản cập nhật 4/7/2023)", link: "https://asiannabis.com/t/cannabis-law-in-malaysia-2026-presumed-trafficking-at-200-g-medicines-and-cbd-rules/2028" }
       ]
     }
   ]
