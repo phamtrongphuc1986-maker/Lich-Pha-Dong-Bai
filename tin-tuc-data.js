@@ -5,12 +5,27 @@
 // các lần sau CHỈ cần viết lại file này (giữ nguyên cấu trúc).
 // baiViet: mảng các đoạn văn. nguon: mảng {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thứ Sáu 27/11/2026 — bản tin sáng",
+  capNhat: "Thứ Sáu 27/11/2026 — bản tin chiều",
   nhom: [
     {
       id: "quoc-te",
       ten: "🌍 Tin quốc tế nổi bật",
       tin: [
+        {
+          tieuDe: "Drone tấn công cơ sở quân sự Kuwait, 2 kỹ thuật viên Ý thiệt mạng — Kuwait và Ý đổ lỗi cho Iran, Tehran phủ nhận và gọi là 'cái bẫy chiến tranh'",
+          baiViet: [
+            "Một vụ tấn công bằng drone vào một cơ sở quân sự ở Kuwait ngày 26/11 đã khiến hai kỹ thuật viên người Ý thiệt mạng, làm dấy lên một vòng cáo buộc mới trong cuộc chiến đang diễn ra giữa Mỹ và Iran. Theo Ngoại trưởng Ý Antonio Tajani, hai nạn nhân làm việc cho Rheinmetall Italia, chi nhánh Ý của tập đoàn quốc phòng Đức Rheinmetall, tại một trạm giám sát phòng không thì cơ sở bị drone tấn công và phát nổ. Bộ Quốc phòng Kuwait xác nhận hai người Ý đã tử vong vì vết thương, sau khi ban đầu báo cáo bốn người bị thương do mảnh vỡ rơi xuống khi một 'cơ sở trọng yếu' bị nhắm tới. Ngoài hai nạn nhân, một công dân Kuwait và một công dân Pakistan cũng bị thương. Kuwait và Ý cùng cho rằng vụ tấn công do Iran thực hiện, trong khi Tehran phủ nhận hoàn toàn.",
+            "Phản ứng của Iran vừa phủ nhận vừa cáo buộc ngược. Ngoại trưởng Abbas Araghchi gọi vụ việc là 'đáng ngờ' và 'giống như một công thức nấu sẵn cho chiến tranh', còn một cựu cố vấn đàm phán của Iran, Mohammad Marandi, cáo buộc Ukraine dàn dựng một vụ 'cờ giả' để đổ lỗi cho Tehran. Các nước vùng Vịnh phản ứng nhanh: Các Tiểu vương quốc Ả Rập Thống nhất lên án mạnh mẽ vụ tấn công, khẳng định đoàn kết với Kuwait. Trong khi đó, Tổng thống Mỹ Donald Trump nói với binh sĩ Mỹ đồn trú tại vùng Vịnh rằng 'chiến thắng đã trong tầm tay' trong cuộc chiến với Iran, đồng thời cho Tehran một cơ hội đàm phán. Ông cũng hạ thấp vai trò hỗ trợ tình báo của Nga và Trung Quốc cho Iran, và nói Mỹ không cần dầu Trung Đông.",
+            "Vụ Kuwait xảy ra trong bối cảnh chiến sự Mỹ–Iran đã bước sang một giai đoạn khốc liệt, với Washington phong tỏa xuất khẩu dầu của Iran bằng đường biển và doanh thu dầu mỏ của Tehran có nguy cơ về gần bằng 0 vào giữa tháng 12. Iran gắn việc mở lại eo biển Hormuz với việc Mỹ chấp nhận bảy điều kiện do Tehran đưa ra, trong khi các vụ tấn công vào tàu chở dầu và hạ tầng năng lượng quanh Hormuz vẫn tiếp diễn, đẩy giá dầu thế giới lên gần 97 USD/thùng. Song song, Tổng thống Ukraine Volodymyr Zelenskyy cảnh báo Nga đang chuẩn bị một đợt tấn công quy mô lớn mới vào lưới điện Ukraine, sau khi tên lửa đạn đạo Nga đánh vào Kyiv làm bảy người bị thương trong đêm. Trump cho biết ông đã yêu cầu Tổng thống Vladimir Putin kiềm chế leo thang quân sự ở châu Âu, với hy vọng mở đường cho một thỏa thuận nhanh chóng — nhưng trên thực địa, cả hai cuộc chiến đều chưa có dấu hiệu hạ nhiệt."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/asia-pacific/two-italians-killed-iranian-drone-attack-kuwait-italy-says-2026-11-26/" },
+            { ten: "Reuters", link: "https://www.reuters.com/world/middle-east/two-italian-workers-killed-iranian-strike-kuwait-source-says-2026-11-26/" },
+            { ten: "WION", link: "https://www.wionews.com/world/iran-marandi-zelensky-ukraine-false-flag-kuwait-drone-attack-1795757627756" }
+          ],
+          gio: "Chiều, Nov 27"
+        },
+
         {
           tieuDe: "Đặc phái viên Mỹ gặp Putin ở Moskva rồi bay sang Dublin gặp Zelenskyy: vòng đàm phán ba bên mới đã thống nhất, châu Âu sẽ có ghế",
           baiViet: [
@@ -41,20 +56,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 26"
         },
 
-        {
-          tieuDe: "Kushner nói đàm phán Ukraine–Mỹ–Nga 'bế tắc' ở vấn đề lãnh thổ — đặc phái viên Mỹ gặp Putin ở Moskva, châu Âu vẫn chưa được mời vào bàn",
-          baiViet: [
-            "Tiến trình hòa bình Ukraine vừa nhận một đánh giá thẳng thắn từ chính người trong cuộc. Đặc phái viên Mỹ Jared Kushner ngày 25/11 nói rằng các cuộc đàm phán ba bên Ukraine–Mỹ–Nga đang bế tắc ở 'vấn đề lãnh thổ', trong cuộc phỏng vấn với podcast MD MEETS của Mathias Döpfner, giám đốc điều hành tập đoàn Axel Springer, mà báo Bild (Đức) đăng tải các ý chính. 'Theo quan điểm cá nhân của tôi — và đây là điều mà Steve [Witkoff] và tôi đã kết luận sau nhiều giờ làm việc với Tổng thống Putin và trao đổi với phía Nga — vấn đề lãnh thổ hiện đang ở một điểm bế tắc nhất định', Kushner nói. Vì bế tắc này, ông cho biết muốn thử đàm phán trước một thỏa thuận hậu chiến rồi mới quay lại bàn chuyện lãnh thổ. Cùng ngày, Kushner và đặc phái viên Steve Witkoff đã gặp Tổng thống Vladimir Putin tại Điện Kremlin sau các cuộc tham vấn với quan chức Ukraine và châu Âu; quan chức Nga Kirill Dmitriev ra sân bay Vnukovo đón phái đoàn Mỹ.",
-            "Vai trò của châu Âu trong vòng đàm phán tiếp theo vẫn là điểm gây tranh cãi công khai giữa các bên. Trợ lý Điện Kremlin Yury Ushakov ngày 25/11 nói với hãng tin Vesti rằng châu Âu 'chưa chính thức từ chối' lời mời cử đại diện tới Moskva để bàn về hòa bình, và lời mời vẫn còn hiệu lực — nhưng ông cũng khẳng định việc châu Âu tham gia đàm phán 'không nằm trong chương trình nghị sự', dù Nga vẫn giữ liên lạc với các đại diện EU. Điều này mâu thuẫn với tuyên bố trước đó của Witkoff và Kushner rằng đại diện châu Âu sẽ tham gia vòng đàm phán tới. Về phía Ukraine, Tổng thống Volodymyr Zelenskyy nói Kyiv sẵn sàng tham gia đàm phán bốn bên với châu Âu, Mỹ và Nga 'càng sớm càng tốt', các đối tác muốn tổ chức trước Giáng sinh, nhưng ngày giờ và địa điểm vẫn chưa được xác nhận. Chánh văn phòng tổng thống Ukraine Kyrylo Budanov cho biết giai đoạn đầu của một đợt trao đổi tù binh quy mô lớn mới với Nga có thể bắt đầu vào cuối tháng 11 hoặc đầu tháng 12.",
-            "Bối cảnh cho thấy khoảng cách giữa ngoại giao và thực địa vẫn rất lớn. Khung hòa bình cập nhật sau vòng Geneva tuần trước đã ghi nhận phần lớn ưu tiên của Kyiv, nhưng chưa có thỏa thuận nào được ký, và các đợt tấn công bằng drone vào hạ tầng năng lượng vẫn tiếp diễn — đêm 24 rạng sáng 25/11, Nga phóng 112 drone vào Ukraine, khiến 5 tỉnh mất điện. Trong khi đó, giới phân tích phương Tây cho rằng Putin chưa sẵn sàng đàm phán nghiêm túc và có thể tiếp tục chiến tranh ít nhất tới hết mùa đông. Vòng gặp gỡ ở Moskva lần này vì vậy được xem là phép thử: nếu các đặc phái viên Mỹ không gỡ được nút thắt lãnh thổ, tiến trình có thể phải chuyển sang hướng khác — đàm phán trước về các bảo đảm an ninh và tái thiết hậu chiến, như Kushner gợi ý — thay vì tiếp tục dồn vào vấn đề mà cả hai phía đều coi là không thể nhượng bộ."
-          ],
-          nguon: [
-            { ten: "The New Voice of Ukraine", link: "https://english.nv.ua/nation/ukraine-u-s-russia-talks-deadlocked-over-territory-50662635.html" },
-            { ten: "ANews", link: "https://www.anews.com.tr/world/2026/11/25/russia-yet-to-receive-any-refusal-from-europeans-to-visit-moscow-kremlin-aide-says" },
-            { ten: "RBC-Ukraine", link: "https://newsukraine.rbc.ua/news/kremlin-again-rejects-eu-participation-in-1795617940.html" }
-          ],
-          gio: "Sáng, Nov 26"
-        },
 
 
 
@@ -64,6 +65,21 @@ window.TIN_TUC = {
       id: "g7",
       ten: "🔷 Tin G7",
       tin: [
+        {
+          tieuDe: "ECB có 'bộ ba' lãnh đạo mới: cựu Thống đốc Tây Ban Nha Hernández de Cos kế nhiệm Lagarde từ tháng 2/2027, Pháp và Đức chia hai ghế còn lại",
+          baiViet: [
+            "Các nhà lãnh đạo khu vực đồng euro ngày 26/11 đã chính thức chọn ông Pablo Hernández de Cos, cựu Thống đốc Ngân hàng Trung ương Tây Ban Nha và hiện là Tổng giám đốc Ngân hàng Thanh toán Quốc tế (BIS), làm Chủ tịch tiếp theo của Ngân hàng Trung ương châu Âu (ECB). Ông De Cos, 55 tuổi, sẽ kế nhiệm bà Christine Lagarde khi bà rời ghế sớm vào ngày 7/2/2027, trước gần chín tháng so với thời điểm mãn nhiệm kỳ vào tháng 10/2027. Đây là lần đầu tiên một người Tây Ban Nha lãnh đạo một trong những ngân hàng trung ương quyền lực nhất thế giới. Chủ tịch Hội đồng châu Âu António Costa công bố quyết định sau hội nghị thượng đỉnh ở Brussels, và ông De Cos dự kiến chủ trì cuộc họp chính sách đầu tiên vào ngày 18/3/2027.",
+            "Cùng với ghế chủ tịch, hai vị trí còn lại trong Ban điều hành ECB cũng được phân chia theo một 'thỏa thuận lớn' giữa Pháp và Đức. Bà Laurence Boone, người Pháp, sẽ phụ trách mảng thị trường của ECB từ ngày 4/1/2027, thay bà Isabel Schnabel của Đức; nhà kinh tế học người Đức Markus Brunnermeier sẽ trở thành kinh tế trưởng từ ngày 1/6/2027, thay ông Philip Lane của Ireland. Ông De Cos đã vượt qua đối thủ duy nhất là ông Klaas Knot, cựu Thống đốc Ngân hàng Trung ương Hà Lan, sau khi Hà Lan quyết định ủng hộ một quyết định đồng thuận thay vì tiếp tục tranh cử. Việc bổ nhiệm vẫn cần được Nghị viện châu Âu và Hội đồng điều hành ECB thông qua, nhưng các bước này được coi là thủ tục, và các nhà lãnh đạo EU dự kiến phê chuẩn cuối cùng tại hội nghị tháng 12.",
+            "Bộ ba mới tiếp quản ECB trong một thời điểm khó khăn: lạm phát khu vực đồng euro đang chịu sức ép từ cuộc chiến Mỹ–Iran và giá năng lượng tăng, thị trường trái phiếu châu Âu căng thẳng vì nợ công cao — đặc biệt ở Pháp, nơi sẽ bầu tổng thống mới chỉ hai tháng sau khi ông De Cos nhậm chức — và tăng trưởng khu vực vẫn ì ạch. Giới phân tích nhận định ông De Cos là một nhà kỹ trị theo đường lối continuity: một cựu thống đốc ngân hàng trung ương với nền tảng kinh tế học vững, từng điều hành Ngân hàng Tây Ban Nha giai đoạn 2018–2024 và BIS từ tháng 7/2025. Thách thức lớn nhất của ông sẽ là giữ lạm phát trong tầm kiểm soát mà không bóp nghẹt tăng trưởng, trong lúc các chính phủ châu Âu đối mặt với áp lực chi tiêu quốc phòng ngày càng lớn và một năm bầu cử dày đặc ở các nước lớn."
+          ],
+          nguon: [
+            { ten: "Le Monde", link: "https://www.lemonde.fr/en/economy/article/2026/11/26/ecb-the-new-trio-tasked-with-protecting-europe-from-inflation_6789598_19.html" },
+            { ten: "CNN", link: "https://www.cnn.com/2026/11/26/business/ecb-president-pablo-hernandez-de-cos-intl?cid=external-feeds_iluminar_meta" },
+            { ten: "South China Morning Post", link: "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief" }
+          ],
+          gio: "Chiều, Nov 27"
+        },
+
         {
           tieuDe: "Ngân hàng Trung ương Nhật Bản được dự báo tăng lãi suất lên 1,5% vào tháng 12 — lần thứ ba trong năm, lần đầu sau 37 năm",
           baiViet: [
@@ -94,20 +110,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 26"
         },
 
-        {
-          tieuDe: "Phố Wall phiên 'tàu lượn' trước Lễ Tạ ơn: Dow rơi 1.100 điểm rồi lội ngược dòng đóng cửa trên 50.000 — PCE lõi nóng 3,3%, GDP quý III vọt lên 4,3%",
-          baiViet: [
-            "Phiên giao dịch cuối cùng trước kỳ nghỉ Lễ Tạ ơn của Phố Wall diễn ra như một chuyến tàu lượn. Chỉ số Dow Jones mở cửa giảm 548 điểm rồi lao dốc tới 1.104 điểm, xuống đáy 48.913 điểm trong phiên, trước khi lực mua bắt đáy xuất hiện vào buổi chiều và kéo chỉ số đóng cửa tăng 164 điểm, tương đương 0,33%, lên 50.182,95 điểm — phiên tăng thứ ba liên tiếp và vẫn giữ trên mốc 50.000 điểm. S&P 500 có lúc mất tới 3,2% nhưng thu hẹp đà giảm còn 0,25%, chốt ở 7.182,78 điểm; Nasdaq Composite từng rơi 4,6% rồi đóng cửa giảm 0,62% ở 23.585,80 điểm. Trái ngược, chỉ số vốn hóa nhỏ Russell 2000 tăng 0,71% lên 2.704,06 điểm, còn chỉ số đo nỗi sợ VIX vọt 7,32% lên 28,29. Khối lượng giao dịch trên Nasdaq cao hơn 40% so với phiên thứ Ba, cho thấy mức độ hoảng loạn buổi sáng lớn tới đâu.",
-            "Cú sốc buổi sáng đến từ hai số liệu kinh tế công bố lúc 8h30 sáng giờ miền Đông. Chỉ số giá chi tiêu tiêu dùng cá nhân (PCE) lõi tháng 10 — thước đo lạm phát mà Cục Dự trữ Liên bang Mỹ (Fed) theo dõi sát nhất — tăng 0,3% so với tháng trước và tăng 3,3% so với cùng kỳ năm ngoái, cao hơn mức dự báo 3,2%; PCE toàn phần tăng 3,8% so với cùng kỳ. Cùng lúc, ước tính lần hai cho thấy GDP quý III tăng trưởng 4,3%/năm, điều chỉnh mạnh từ mức 3,4% ban đầu và vượt xa dự báo 3,5% — mức tăng lớn nhất trong ba năm, nhờ đầu tư và tiêu dùng mạnh hơn. Nghịch lý là kinh tế tăng nóng đi cùng lạm phát cao lại khiến thị trường lo Fed sẽ tăng lãi suất 25 điểm cơ bản vào tháng 12 — xác suất được định giá gần 94%. Cú bồi thêm đến từ Nhà Trắng: Tổng thống Trump đề xuất áp thuế với 14 đối tác thương mại, trong đó có mức tăng thêm 20% với Trung Quốc và đề xuất thuế tới 20% với EU, khiến cổ phiếu chip và công nghệ — tâm điểm của đợt bán tháo — chịu áp lực nặng nhất, với Nvidia giảm 5,9% trong phiên.",
-            "Dù vậy, lực mua buổi chiều cho thấy nhà đầu tư vẫn chưa muốn rời bỏ thị trường trước kỳ nghỉ lễ. Một phần lực kéo được cho là nhờ nhà đầu tư Michael Burry đóng các vị thế bán khống chỉ số Nasdaq 100 và chuyển sang mua vào, trong bối cảnh thanh khoản mỏng trước lễ khiến các nhịp biến động bị khuếch đại cả hai chiều. Thị trường Mỹ đóng cửa thứ Năm 26/11 vì Lễ Tạ ơn và chỉ giao dịch tới 13h00 giờ miền Đông vào thứ Sáu. Tuần tới, tâm điểm sẽ là báo cáo việc làm tháng 11 công bố ngày 4/12 — phép thử tiếp theo cho câu hỏi mà phiên thứ Tư đặt ra: kinh tế Mỹ đang tăng trưởng mạnh, nhưng lạm phát vẫn nóng, và Fed sẽ chọn bên nào."
-          ],
-          nguon: [
-            { ten: "Investor's Business Daily", link: "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-inflation-data-nvidia-anthropic/" },
-            { ten: "TRT World", link: "https://www.trtworld.com/article/b594c3db4549" },
-            { ten: "FXStreet", link: "https://www.fxstreet.com/news/dow-jones-industrial-average-erases-its-drop-as-ai-stocks-fall-202611252139" }
-          ],
-          gio: "Sáng, Nov 26"
-        },
 
 
 
@@ -117,6 +119,21 @@ window.TIN_TUC = {
       id: "g20",
       ten: "🟠 Tin G20",
       tin: [
+        {
+          tieuDe: "Goldman Sachs: Mỹ Latinh tăng trưởng ảm đạm 1,6% năm 2027 — Brazil chững lại còn 0,6%, Argentina bật lại 2,5%, Mexico giữ 2%",
+          baiViet: [
+            "Bảy nền kinh tế lớn nhất Mỹ Latinh sẽ tăng trưởng trung bình chỉ 1,6% trong năm 2027, năm thứ hai liên tiếp ở mức 'đáng thất vọng', theo dự báo mới của Goldman Sachs do ông Alberto Ramos, kinh tế trưởng khu vực Mỹ Latinh của ngân hàng, công bố ngày 26/11. Con số này bằng đúng mức tăng trưởng của năm nay, nhưng cơ cấu bên trong đã thay đổi rõ rệt. Brazil, nền kinh tế lớn nhất khu vực, được dự báo giảm tốc mạnh còn 0,6% trong năm 2027, từ mức 1,6% của năm nay, khi lãi suất cao bóp nghẹt hoạt động kinh tế. Ngược lại, Argentina được kỳ vọng bật lại 2,5% sau một năm 2026 ảm đạm, còn Mexico tăng 2% nhờ liên kết chặt với kinh tế Mỹ và làn sóng đầu tư vào trí tuệ nhân tạo. Peru và Chile được dự báo là hai nền kinh tế tăng nhanh nhất khu vực, khoảng 3% mỗi nước.",
+            "Bức tranh ảm đạm của Brazil được chính số liệu chính thức củng cố. Bộ Tài chính Brazil vừa hạ dự báo tăng trưởng GDP năm 2027 từ 2,3% xuống còn 1,8%, đồng thời nâng dự báo lạm phát từ 3,8% lên 4,5% — vượt xa mục tiêu chính thức 3%. Goldman Sachs còn bi quan hơn, cho rằng lạm phát Brazil sẽ tăng tốc lên 5,1% trong năm tới, trong khi lãi suất chuẩn Selic có thể giữ ở mức 13,75% trong thời gian dài, sau khi ngân hàng trung ương giữ nguyên lãi suất tại cuộc họp tháng này. Lạm phát toàn phần của Brazil đã lên 4,64% trong 12 tháng tới giữa tháng 11, dù chỉ số IPCA-15 giữa tháng chỉ tăng 0,22%, thấp hơn kỳ vọng 0,34% của các nhà kinh tế. Với lãi suất thực cao ngất và niềm tin tài khóa lung lay, các ngân hàng lớn gồm Goldman Sachs, Morgan Stanley, Itaú BBA, UBS và BTG Pactual đều đã giảm tỉ trọng Brazil trong danh mục đầu tư để chuyển sang Mexico.",
+            "Ở chiều ngược lại, Argentina là điểm sáng hiếm hoi của khu vực. Sau khi tăng trưởng 4,5% năm ngoái, kinh tế Argentina được Goldman Sachs dự báo chỉ tăng 0,8% trong năm 2026 rồi bật lại 2,5% vào năm 2027 — năm bầu cử — nhờ chính phủ đã 'dọn dẹp xong nhà cửa về mặt vĩ mô'. Mexico, nền kinh tế lớn thứ hai khu vực, được đánh giá có vị thế tốt hơn hẳn với 'lạm phát thấp hơn, lãi suất thấp hơn và tăng trưởng vững', hưởng lợi trực tiếp từ cơn bùng nổ chi tiêu cho AI của Mỹ. Nhìn chung, dự báo của Goldman Sachs cho thấy Mỹ Latinh đang bước vào một năm 2027 phân hóa sâu: những nước gắn với chuỗi cung ứng Mỹ và đầu tư công nghệ sẽ đi lên, trong khi Brazil — nền kinh tế lớn nhất khu vực — có nguy cơ rơi vào trạng thái gần như đình lạm, với tăng trưởng dưới 1% và lạm phát trên 5%."
+          ],
+          nguon: [
+            { ten: "LatinFinance", link: "https://latinfinance.com/daily-brief/2026/11/26/goldman-sachs-sees-more-lackluster-latam-growth-ahead/" },
+            { ten: "Reuters", link: "https://www.reuters.com/world/americas/brazil-mid-november-inflation-eases-comes-below-expectations-2026-11-26/" },
+            { ten: "Goldman Sachs", link: "https://www.instagram.com/p/Dfu4J__Fd7-/" }
+          ],
+          gio: "Chiều, Nov 27"
+        },
+
         {
           tieuDe: "Indonesia tăng trưởng 5,47% quý III — vượt mọi nền kinh tế G20, OECD dự báo cả năm 2026 đạt 5,4%",
           baiViet: [
@@ -147,20 +164,6 @@ window.TIN_TUC = {
           gio: "Chiều, Nov 26"
         },
 
-        {
-          tieuDe: "G20 Miami còn chưa đầy 3 tuần: Trump nói 'cả 20 lãnh đạo sẽ tới', Putin vẫn chưa quyết — Nam Phi không được mời, Sherpa họp 10–12/12 chốt tuyên bố chung",
-          baiViet: [
-            "Hội nghị thượng đỉnh G20 sẽ diễn ra ngày 14–15/12/2026 tại khu nghỉ dưỡng Trump National Doral ở Miami, bang Florida — lần đầu tiên Mỹ đăng cai G20 kể từ năm 2009, đúng vào năm kỷ niệm 250 năm thành lập nước Mỹ. Tại buổi lễ vinh danh ban nhạc Thủy quân lục chiến Mỹ ở Nhà Trắng ngày 21/11, Tổng thống Donald Trump tuyên bố 'cả 20 lãnh đạo hàng đầu thế giới sẽ tới', đồng thời công bố thưởng 500.000 USD cho các nhạc công sẽ biểu diễn phục vụ các nguyên thủ. Chủ đề của kỳ thượng đỉnh năm nay là 'Tăng trưởng nhờ bãi bỏ quy định, năng lượng dồi dào và đổi mới'. Tổng thống Hàn Quốc Lee Jae-myung đã xác nhận tham dự và sẽ có cuộc gặp song phương với Trump bên lề; giới chức Mỹ coi G20 là dịp tiếp theo có thể diễn ra cuộc gặp Trump–Tập Cận Bình sau cuộc gặp ba bên Mỹ–Trung–Nga ở Thâm Quyến ngày 19/11, trong bối cảnh lệnh đình chiến thương mại Mỹ–Trung đã được gia hạn tới 10/1/2027.",
-            "Câu hỏi lớn nhất vẫn là Tổng thống Nga Vladimir Putin có tới Miami hay không. Putin được Trump mời chính thức từ tháng 9 nhưng tới nay Điện Kremlin vẫn chưa xác nhận, và 20 nghị sĩ lưỡng đảng Mỹ đã yêu cầu Trump thu hồi lời mời. Nếu tới, đây sẽ là lần đầu tiên Putin dự trực tiếp một hội nghị G20 kể từ Osaka 2019. Một điểm bất thường khác: Nam Phi — thành viên đầy đủ của G20 — không được mời dự kỳ này, và Ba Lan sẽ tham gia thay thế với tư cách khách mời, theo trang web chính thức của G20. Tổng thống Ukraine Volodymyr Zelenskyy nói ông sẽ tới nếu được mời. Hội nghị Sherpa cuối cùng — cuộc họp của các đại diện cá nhân của lãnh đạo, nơi soạn thảo tuyên bố chung — được lên lịch ngày 10–12/12 tại Miami. Thượng đỉnh đã được chỉ định là 'sự kiện an ninh đặc biệt quốc gia', do Mật vụ Mỹ phụ trách, với các chốt kiểm soát và đóng đường quanh khu vực Doral từ ngày 10/12; Phòng Thương mại Latin (CAMACOL) đã phải dời chương trình phát giỏ Giáng sinh thường niên sang ngày 2/12 để tránh phong tỏa.",
-            "Không khí trước thềm hội nghị cho thấy một kỳ G20 khó đạt đồng thuận. Tại cuộc họp các ngoại trưởng G20 ở Atlanta ngày 30/10, chia rẽ về sự tham gia của Nga đã lộ rõ: Mỹ, với tư cách chủ tịch, đã hủy bức ảnh tập thể truyền thống sau khi nhiều nước từ chối chụp chung với Ngoại trưởng Nga Sergey Lavrov. Cả hai lộ trình bộ trưởng — tài chính và ngoại giao — đều không ra được tuyên bố chung trong năm nay, dấu hiệu cho thấy tuyên bố chung của các lãnh đạo tại Miami cũng khó khăn. Trump được cho là muốn một thỏa thuận hòa bình Ukraine–Nga được ký ngay tại hội nghị, nhưng tới nay chưa có thỏa thuận nào và cả Kyiv lẫn Moskva đều chưa xác nhận kế hoạch đó. Với chỉ còn chưa đầy ba tuần, G20 Miami đang được định hình không chỉ là một hội nghị kinh tế, mà là phép thử cho khả năng các cường quốc còn ngồi chung một bàn hay không."
-          ],
-          nguon: [
-            { ten: "ChosunBiz", link: "https://biz.chosun.com/en/en-international/2026/11/20/GE2PZF2QJ5HSPKWZNIL2VVA34E/" },
-            { ten: "World Today Journal", link: "https://world-today-journal.com/g20-summit-miami-2026-leaders-meet-december-14-15-at-trump-national-doral/" },
-            { ten: "WarBrief", link: "https://warbrief.live/g20-summit-doral-december-2026-what-to-expect/" }
-          ],
-          gio: "Sáng, Nov 26"
-        },
 
 
 
