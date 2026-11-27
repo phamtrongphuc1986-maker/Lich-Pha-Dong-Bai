@@ -7,7 +7,7 @@
 // nguon: [{ten, link}] — luôn ghi nguồn + link gốc ở cuối bài.
 // Lượt cập nhật hằng ngày CHỈ cần thêm bài vào mảng "bai" của file này (giữ nguyên cấu trúc).
 window.LUAT_QUOC_TE = {
-  capNhat: "26/11/2026",
+  capNhat: "27/11/2026",
   bai: [
     {
       id: "sg-ma-tuy-tu-hinh-chung-than",
@@ -634,6 +634,143 @@ window.LUAT_QUOC_TE = {
         { ten: "Legal 500 — Abolishment Of Mandatory Death Penalty In Malaysia", link: "https://www.legal500.com/intelligence/malaysia/litigation-mediation-arbitration/abolishment-of-mandatory-death-penalty-in-malaysia" },
         { ten: "Aliran — Malaysia: State of death penalty (10/2026)", link: "https://aliran.com/civil-society-voices/malaysia-state-of-death-penalty" },
         { ten: "Asian Cannabis — Cannabis Law in Malaysia (2026): Presumed Trafficking at 200 g (đối chiếu Dangerous Drugs Act 1952, bản cập nhật 4/7/2023)", link: "https://asiannabis.com/t/cannabis-law-in-malaysia-2026-presumed-trafficking-at-200-g-medicines-and-cbd-rules/2028" }
+      ]
+    },
+    {
+      id: "id-bo-luat-hinh-su-moi-2026",
+      nuoc: "id",
+      tieuDe: "Indonesia có Bộ luật Hình sự mới từ 02/01/2026: quan hệ ngoài hôn nhân tới 1 năm tù, sống chung chưa cưới tới 6 tháng",
+      tomTat: "Từ ngày 02/01/2026, Indonesia thay thế bộ luật hình sự thời thuộc địa Hà Lan (dùng từ năm 1918) bằng Bộ luật Hình sự mới (Luật số 1/2023): quan hệ tình dục ngoài hôn nhân bị phạt tới 1 năm tù, sống chung như vợ chồng mà chưa cưới tới 6 tháng tù. Cả hai đều là tội \"chỉ xử khi có đơn tố cáo\" — chỉ vợ/chồng, cha mẹ hoặc con của người vi phạm mới được tố cáo; khách sạn, hàng xóm hay cảnh sát không thể tự khởi tố. Luật áp dụng cho cả người Indonesia và người nước ngoài, kể cả du khách ở Bali.",
+      ngay: "27/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jakarta_skyline_2.jpg/960px-Jakarta_skyline_2.jpg",
+      muc: [
+        {
+          h: "Bộ luật mới: 624 điều, chấm dứt hơn 100 năm luật thuộc địa",
+          p: [
+            "Quốc hội Indonesia thông qua Bộ luật Hình sự mới (Kitab Undang-Undang Hukum Pidana — KUHP) ngày 06/12/2022, và bộ luật chính thức có hiệu lực từ ngày 02/01/2026, thay thế bộ luật hình sự gốc Hà Lan đã áp dụng tại Indonesia từ ngày 01/01/1918. Bộ luật mới gồm 624 điều, được chính phủ Indonesia trình bày như một bước \"phi thực dân hóa\" hệ thống pháp luật hình sự của nước này sau gần 80 năm độc lập vẫn dùng luật của nước cai trị cũ.",
+            "Bộ luật mới áp dụng cho mọi người trên lãnh thổ Indonesia — công dân Indonesia và người nước ngoài như nhau, kể cả du khách ngắn ngày. Đây là điểm khiến cộng đồng quốc tế chú ý nhiều nhất khi luật được thông qua, vì nhiều điều khoản liên quan đến đời sống riêng tư nay trở thành tội hình sự, trong đó gây tranh cãi nhất là hai điều về quan hệ ngoài hôn nhân."
+          ]
+        },
+        {
+          h: "Điều 411 và 412: quan hệ ngoài hôn nhân 1 năm tù, sống chung chưa cưới 6 tháng tù",
+          p: [
+            "Điều 411 quy định: người nào quan hệ tình dục với người không phải vợ/chồng hợp pháp của mình bị phạt tù tối đa 1 năm hoặc phạt tiền hạng II (mức trần 10 triệu rupiah, theo Điều 79 của bộ luật). Điều 412 quy định: sống chung như vợ chồng mà không có hôn nhân hợp pháp bị phạt tù tối đa 6 tháng hoặc phạt tiền hạng II tương tự.",
+            "Hai điều này không phải là tội mà cảnh sát có thể tự phát hiện và xử lý. Cả hai đều là \"delik aduan\" — tội chỉ được truy tố khi có đơn tố cáo của người đủ tư cách. Người được tố cáo là: vợ hoặc chồng của người đã kết hôn; cha mẹ hoặc con (con ruột từ 16 tuổi trở lên) của người chưa kết hôn. Khách sạn, chủ nhà, hàng xóm hay cảnh sát không có quyền tự tố cáo. Chính quyền Bali cũng đã khẳng định khách sạn không kiểm tra tình trạng hôn nhân của khách — nhưng điều đó không có nghĩa hành vi được hợp pháp hóa, mà chỉ là cơ chế tố cáo bị giới hạn trong phạm vi gia đình."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tanah_Lot%2C_Bali%2C_Indonesia.jpg/960px-Tanah_Lot%2C_Bali%2C_Indonesia.jpg"
+        },
+        {
+          h: "Những điều gây tranh cãi khác trong bộ luật mới",
+          p: [
+            "Ngoài hai điều về hôn nhân, bộ luật mới còn có một số điều khoản từng gây biểu tình lớn ở Indonesia năm 2019 và 2022. Điều 218: xúc phạm Tổng thống hoặc Phó Tổng thống nơi công cộng bị phạt tới 3 năm tù — nhưng cũng chỉ truy tố khi có đơn tố cáo bằng văn bản của chính Tổng thống. Điều 252: hành vi tự xưng có phép thuật, bùa ngải để gây bệnh, gây chết người cho người khác bị phạt tới 5 năm tù.",
+            "Chính phủ Indonesia cho rằng các điều khoản này phản ánh giá trị văn hóa, tôn giáo của đa số dân chúng và đã lấy ý kiến nhiều bên trước khi ban hành; các tổ chức nhân quyền quốc tế thì gọi đây là bước lùi về tự do cá nhân. Dù đánh giá thế nào, bộ luật đã có hiệu lực và đang được áp dụng trên toàn quốc từ đầu năm 2026."
+          ]
+        },
+        {
+          h: "Người Việt sang Indonesia cần nhớ gì?",
+          p: [
+            "Thứ nhất, luật áp dụng cho cả du khách: một cặp đôi chưa cưới đi du lịch Bali cùng nhau không tự động bị bắt — cảnh sát không được tự khởi tố khi không có đơn tố cáo của vợ/chồng, cha mẹ hoặc con của người trong cuộc — nhưng nếu người thân của một trong hai bên nộp đơn, vụ việc hoàn toàn có thể bị truy tố theo luật Indonesia. Thứ hai, đừng nhầm \"khách sạn không hỏi giấy đăng ký kết hôn\" với \"luật không cấm\": hai việc khác nhau. Thứ ba, bộ luật mới còn nhiều điều khoản khác có thể ảnh hưởng tới du khách và lao động nước ngoài, ví dụ quy định về xúc phạm nguyên thủ quốc gia hay về ma túy — nên tìm hiểu kỹ trước chuyến đi, đặc biệt khi ở lại dài ngày hoặc làm việc tại Indonesia."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Wikipedia — Indonesian Criminal Code (Luật số 1/2023, hiệu lực 02/01/2026; Điều 411, 412, 218, 252)", link: "https://en.wikipedia.org/wiki/Indonesian_Criminal_Code" },
+        { ten: "Livuma — Can Unmarried Couples Live Together in Bali? Law Explained (Điều 411/412, mức phạt hạng II 10 triệu rupiah, cơ chế tố cáo)", link: "https://livuma.com/blog/unmarried-couples-living-together-bali-law" },
+        { ten: "The New Indian Express — Indonesia's Parliament criminalises adultery, cohabitation of unmarried couples (bản tin AP, 06/12/2022)", link: "https://www.newindianexpress.com/world/2022/dec/06/indonesias-parliament-criminalisesadultery-cohabitation-of-unmarried-couples-2525600.html" }
+      ]
+    },
+    {
+      id: "ph-luat-ma-tuy-ra-9165",
+      nuoc: "ph",
+      tieuDe: "Philippines: luật ma túy RA 9165 — buôn bán, tàng trữ shabu từ 50g là chung thân, án tử hình đã bỏ từ 2006",
+      tomTat: "Đạo luật Ma túy Nguy hiểm Toàn diện 2002 (RA 9165) của Philippines phạt rất nặng: nhập khẩu, bán, vận chuyển, sản xuất hay trồng cây ma túy đều bị tù chung thân và phạt tiền 500.000–10.000.000 peso. Tàng trữ từ 50g shabu, 10g heroin/cocaine hay 500g cần sa cũng chung thân. Án tử hình trong luật đã được bãi bỏ từ năm 2006 (RA 9346) nên mức cao nhất hiện nay là tù chung thân không được ân xá. Cảnh báo sống còn cho lao động và du khách Việt Nam tại Philippines.",
+      ngay: "27/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Skyline_in_Manila_36.jpg/960px-Skyline_in_Manila_36.jpg",
+      muc: [
+        {
+          h: "RA 9165 là gì? Án tử hình đã bị bãi bỏ từ 2006",
+          p: [
+            "Đạo luật Ma túy Nguy hiểm Toàn diện năm 2002 (Republic Act No. 9165 — Comprehensive Dangerous Drugs Act of 2002), ban hành ngày 07/06/2002 và có hiệu lực từ ngày 04/07/2002, là khung pháp lý chính của Philippines về ma túy, thay thế Đạo luật Ma túy Nguy hiểm 1972 (RA 6425). Luật liệt kê các chất ma túy nguy hiểm gồm thuốc phiện, morphine, heroin, cocaine, methamphetamine hydrochloride (gọi là \"shabu\" — loại ma túy phổ biến nhất ở Philippines), cần sa, nhựa cần sa và các chất bị cấm khác, cùng các tiền chất dùng để sản xuất ma túy như ephedrine.",
+            "Điểm quan trọng cần hiểu đúng: văn bản gốc của RA 9165 viết khung hình phạt là \"tù chung thân đến tử hình\" cho nhiều tội nặng. Nhưng năm 2006, Đạo luật RA 9346 đã bãi bỏ án tử hình trên toàn Philippines. Từ đó, mọi mức \"tử hình\" trong RA 9165 được hiểu là tù chung thân (reclusion perpetua) — trong hầu hết các vụ ma túy là chung thân không được ân xá (không đủ điều kiện hưởng parole). Philippines vì vậy không còn tử hình tội ma túy, nhưng mức tù chung thân vẫn thuộc loại nặng nhất khu vực."
+          ]
+        },
+        {
+          h: "Buôn bán, vận chuyển, sản xuất: chung thân + phạt tới 10 triệu peso",
+          p: [
+            "Các Điều 4, 5, 6, 8 và 9 của RA 9165 áp cùng một khung nặng nhất — tù chung thân và phạt tiền từ 500.000 đến 10.000.000 peso — cho: nhập khẩu ma túy trái phép (Điều 4); bán, trao đổi, phân phối, vận chuyển ma túy hoặc làm môi giới (Điều 5); duy trì nơi chứa chấp ma túy — \"den, dive or resort\" (Điều 6); sản xuất ma túy và tiền chất (Điều 8); trồng cần sa, cây thuốc phiện hoặc cây nguồn ma túy khác (Điều 9).",
+            "Luật còn quy định các tình tiết tăng nặng buộc áp mức tối đa: bán cho trẻ vị thành niên, lợi dụng trẻ vị thành niên làm người chạy hàng, phạm tội trong vòng 100 mét quanh trường học, hoặc người phạm tội là công chức nhà nước. Âm mưu hoặc toan tính phạm các tội này (Điều 26) bị phạt như tội chính. Người làm việc hoặc lui tới ổ ma túy mà biết rõ bản chất của nơi đó (Điều 7) bị phạt 12 năm 1 ngày đến 20 năm tù và phạt tiền 100.000–500.000 peso."
+          ],
+          anh: "https://upload.wikimedia.org/wikipedia/commons/4/48/Marijuana.jpg"
+        },
+        {
+          h: "Tàng trữ (Điều 11): chỉ 50g shabu đã chung thân",
+          p: [
+            "Điều 11 chia khung phạt tàng trữ theo loại và lượng ma túy, không tính độ tinh khiết. Mức tối đa — tù chung thân và phạt tiền 500.000–10.000.000 peso — áp dụng khi tàng trữ từ 10g trở lên đối với thuốc phiện, morphine, heroin, cocaine, nhựa cần sa hoặc các chất quy định khác; từ 50g trở lên đối với shabu (methamphetamine hydrochloride); hoặc từ 500g trở lên đối với cần sa.",
+            "Ở lượng thấp hơn, khung phạt vẫn rất nặng: shabu từ 10g đến dưới 50g — tù chung thân và phạt tiền 400.000–500.000 peso; từ 5g đến dưới 10g các chất nhóm trên (hoặc cần sa từ 300g đến dưới 500g) — 20 năm 1 ngày đến chung thân và phạt tiền 400.000–500.000 peso; dưới 5g shabu hoặc dưới 300g cần sa — 12 năm 1 ngày đến 20 năm tù và phạt tiền 300.000–400.000 peso. Tàng trữ dụng cụ dùng ma túy (Điều 12) bị phạt 6 tháng 1 ngày đến 4 năm tù và phạt tiền 10.000–50.000 peso."
+          ]
+        },
+        {
+          h: "Sử dụng ma túy và con đường cai nghiện",
+          p: [
+            "Người sử dụng ma túy lần đầu bị phát hiện dương tính qua xét nghiệm (Điều 15) phải cai nghiện tối thiểu 6 tháng tại trung tâm của nhà nước; trách nhiệm hình sự được tạm đình chỉ trong thời gian cai nghiện. Tái phạm lần hai bị phạt 6 năm 1 ngày đến 12 năm tù. Người nghiện tự nguyện đăng ký cai nghiện (Điều 54) có thể được miễn trách nhiệm hình sự nếu hoàn thành chương trình và được chứng nhận.",
+            "Luật cũng bắt buộc xét nghiệm ma túy với người xin giấy phép súng, bằng lái xe, một số vị trí công chức, nhân viên văn phòng (xét nghiệm ngẫu nhiên), học sinh trung học và sinh viên, cùng người bị bắt giữ. Cơ quan thực thi chính là Cục Phòng chống Ma túy Philippines (PDEA), phối hợp với Hội đồng Ma túy Nguy hiểm (DDB) về chính sách."
+          ]
+        },
+        {
+          h: "Người Việt ở Philippines cần nhớ gì?",
+          p: [
+            "Thứ nhất, shabu là ma túy phổ biến nhất ở Philippines và cũng là cái bẫy lớn nhất: chỉ 50g đã đủ khung chung thân, và chỉ 5g thôi đã có thể nhận 12–20 năm tù. Thứ hai, \"mang hộ\", \"cầm hộ\", \"giữ hộ\" một gói đồ không rõ nội dung ở sân bay hay bến xe Philippines có thể đưa một người vào khung chung thân — luật không phân biệt người mang có biết bên trong là ma túy hay không khi lượng đã vượt ngưỡng. Thứ ba, khác với Singapore hay Malaysia, Philippines không còn án tử hình, nhưng tù chung thân không ân xá vẫn là bản án nặng nhất; và mọi tội ma túy ở Philippines đều được coi là tội ác nghiêm trọng, thường không được bảo lãnh tại ngoại trong quá trình xét xử."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Respicio & Co. Law Firm — RA 9165 Summary: Penalties and Provisions of the Comprehensive Dangerous Drugs Act (đối chiếu toàn văn RA 9165)", link: "https://www.respicio.ph/commentaries/ra-9165-summary-penalties-and-provisions-of-the-comprehensive-dangerous-drugs-act" },
+        { ten: "Respicio & Co. Law Firm — Penalties Under RA 9165 Section 5 Drug Trafficking", link: "https://www.respicio.ph/commentaries/penalties-under-ra-9165-section-5-drug-trafficking-1" },
+        { ten: "Digest.ph — Comprehensive Dangerous Drugs Act of 2002 (RA 9165, toàn văn tóm tắt các điều khoản)", link: "https://www.digest.ph/laws/comprehensive-dangerous-drugs-act-of-2002" }
+      ]
+    },
+    {
+      id: "kh-luat-ma-tuy-2012",
+      nuoc: "kh",
+      tieuDe: "Campuchia: luật ma túy 2012 — buôn ma túy đá từ 80g là chung thân, cần sa cũng là ma túy Bảng I",
+      tomTat: "Luật Kiểm soát Ma túy 2012 của Campuchia không có án tử hình — Hiến pháp cấm tử hình nên chung thân là mức cao nhất. Nhưng \"không tử hình\" không có nghĩa là nhẹ: tàng trữ, vận chuyển hay buôn bán ma túy đá, heroin từ 80g trở lên là chung thân; cần sa thuộc Bảng I, tàng trữ bất kỳ lượng nào cũng 2–5 năm tù, mang cần sa qua biên giới cũng bị xử từ 2 năm. Cảnh báo cho lao động và du khách Việt Nam hay qua lại Campuchia.",
+      ngay: "27/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Angkor_Wat_with_its_reflection_%28cropped%29.jpg/960px-Angkor_Wat_with_its_reflection_%28cropped%29.jpg",
+      muc: [
+        {
+          h: "Khung pháp lý: Luật Kiểm soát Ma túy 2012, không có án tử hình",
+          p: [
+            "Luật Kiểm soát Ma túy của Campuchia (Law on Drug Control) được ban hành theo Sắc lệnh Hoàng gia NS/RKM/0112/001 ngày 02/01/2012, thay thế luật cũ năm 1996/1997 và bản sửa đổi 2005. Luật chia mọi chất bị kiểm soát thành 4 bảng (Table I–IV) theo mức độ nguy hiểm; bảng chất quyết định trực tiếp mức phạt. Cần sa, nhựa cần sa, dầu cần sa và THC đều thuộc Bảng I — nhóm chất \"nguy hiểm nghiêm trọng, không có mục đích y tế được công nhận\".",
+            "Điểm khác biệt lớn nhất của Campuchia so với các nước láng giềng: Điều 32 Hiến pháp Campuchia (1993) quy định \"không có án tử hình\", nên tù chung thân là hình phạt cao nhất của luật ma túy nước này. Nhưng điều đó không làm Campuchia trở thành nơi \"dễ thở\" với ma túy — các khung tù vẫn rất dài, và người nước ngoài chịu cùng mức phạt như công dân Campuchia, không có cơ chế chuyển giao tù nhân về nước cho hầu hết các quốc gia."
+          ]
+        },
+        {
+          h: "Ngưỡng chung thân: 80g ma túy đá hoặc heroin",
+          p: [
+            "Theo Luật Kiểm soát Ma túy 2012, tàng trữ, vận chuyển, nhập khẩu, xuất khẩu hoặc buôn bán ma túy Bảng I và Bảng II (Điều 40) bị phạt 10–20 năm tù và phạt tiền 10.000.000–50.000.000 riel (khoảng 2.500–12.500 đô la Mỹ). Với ma túy đá và heroin, có một ngưỡng đặc biệt được áp dụng rộng rãi trong thực tiễn xét xử: tàng trữ từ 80g trở lên bị coi là buôn bán quy mô lớn và bị phạt tù chung thân.",
+            "Với cần sa, Điều 40 chia khung phạt theo lượng: tàng trữ, vận chuyển hoặc buôn bán bất kỳ lượng nào — 2–5 năm tù, có thể kèm phạt tiền 4.000.000–10.000.000 riel; cần sa khô từ 8kg đến dưới 20kg (hoặc nhựa từ 400g đến dưới 800g, dầu từ 200g đến dưới 400g) hoặc tái phạm — 5–10 năm tù và phạt tiền 10.000.000–20.000.000 riel; cần sa khô từ 20kg đến dưới 60kg — 10–20 năm tù và phạt tiền 20.000.000–40.000.000 riel; nhựa từ 1.600g trở lên hoặc dầu từ 800g trở lên — 20–30 năm tù hoặc tù chung thân và phạt tiền 40.000.000–100.000.000 riel."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Skyline_of_Phnom_Penh.jpg/960px-Skyline_of_Phnom_Penh.jpg"
+        },
+        {
+          h: "Sử dụng, trồng trọt và các tội liên quan",
+          p: [
+            "Sử dụng ma túy Bảng I hoặc Bảng II (Điều 45) bị phạt 1–6 tháng tù. Trồng cần sa không có giấy phép (Điều 38) bị phạt 6 tháng–2 năm tù và có thể kèm phạt tiền 1.000.000–4.000.000 riel; trồng để phân phối hoặc buôn bán tăng lên 2–5 năm tù và phạt tiền 4.000.000–10.000.000 riel. Cung cấp địa điểm cho người khác sử dụng ma túy (Điều 44) bị phạt 1–5 năm tù và phạt tiền 2.000.000–10.000.000 riel.",
+            "Cần sa ở Campuchia bị cấm tuyệt đối dù có tiếng đồn \"dễ dãi\" với du khách: mọi hành vi trồng, sản xuất, vận chuyển, tàng trữ, buôn bán và sử dụng cần sa Bảng I đều bị cấm trên toàn quốc, trừ giấy phép nghiên cứu y tế, khoa học hoặc giáo dục rất hạn hẹp do Bộ trưởng Y tế cấp. Mang cần sa vào Campuchia bị tính là vận chuyển xuyên biên giới và bị phạt từ 2 năm tù dù chỉ một lượng nhỏ."
+          ]
+        },
+        {
+          h: "Thực tế xét xử: người nước ngoài cũng chung thân",
+          p: [
+            "Campuchia đã tăng cường trấn áp ma túy trong những năm gần đây: riêng năm 2022, cảnh sát chống ma túy nước này bắt gần 15.000 nghi phạm liên quan ma túy và thu giữ 14,5 tấn ma túy các loại; tháng 6/2024, nhà chức trách công khai tiêu hủy hơn 7 tấn ma túy và tiền chất trị giá khoảng 70 triệu đô la. Tháng 6/2024, ba người nước ngoài bị tuyên chung thân vì âm mưu buôn 101kg ma túy; một vụ khác, hai người nước ngoài (một người Mỹ, một người Nigeria) bị tuyên 25 năm tù vì buôn 1,31kg ma túy đá.",
+            "Với người Việt Nam hay qua lại Campuchia làm ăn, du lịch hay thăm thân, nguyên tắc an toàn là tuyệt đối: không mang hộ, không nhận giữ hộ, không ký nhận hộ bất kỳ gói đồ nào không rõ nội dung — đặc biệt ở các cửa khẩu đường bộ, nơi kiểm tra hành lý ngày càng chặt. Một gói nhỏ ma túy đá vượt 80g cũng đủ đưa người mang vào khung chung thân trong nhà tù Campuchia, nơi không có cơ chế chuyển giao về Việt Nam."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "LegalClarity — Cambodia Drug Laws: Penalties for Possession and Trafficking (đối chiếu Law on Drug Control 2012, NACD)", link: "https://legalclarity.org/cambodia-drug-laws-and-penalties-for-foreign-nationals/" },
+        { ten: "Asian Cannabis — Cannabis Law in Cambodia (2026): Table I Drug, Penalties and No Medical Route (Điều 38, 40, 44, 45)", link: "https://asiannabis.com/t/cannabis-law-in-cambodia-2026-table-i-drug-penalties-and-no-medical-route/2020" },
+        { ten: "Xinhua — Cambodia arrests over 16,000 drug-related suspects in 2018 (ngưỡng 80g = chung thân)", link: "http://www.xinhuanet.com/english/2019-01/01/c_137712275.htm" }
       ]
     }
   ]
