@@ -75,7 +75,26 @@ tr.sapChay td { background: #fff3c4; font-weight: bold; }
 
 /* Khung chia se trong muc Thong bao khi chua co thong bao moi */
 .khungChiaSe { text-align: center; padding: 4px 0 2px; }
-.khungChiaSe .dongChiaSe { font-size: 16px; font-weight: bold; color: #075985; margin: 2px 0 12px; }
+.khungChiaSe .dongChiaSe { font-size: 16px; font-weight: bold; color: #3a3f44; margin: 2px 0 12px; }
+/* Chu chia se mau xam den sang lap lanh: vet sang chay lien tuc tu trai qua phai */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .khungChiaSe .dongChiaSe {
+    background: linear-gradient(100deg, #33383d 0%, #33383d 35%, #98a1a8 46%, #ffffff 50%, #98a1a8 54%, #33383d 65%, #33383d 100%);
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: chiaSeLapLanh 3.2s linear infinite;
+  }
+}
+@keyframes chiaSeLapLanh {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .khungChiaSe .dongChiaSe { animation: none; }
+}
 .hangChiaSe { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 a.nutChiaSe {
   width: 46px; height: 46px; border-radius: 50%;
