@@ -233,7 +233,23 @@
 <script src="./script.js"></script>
 <script src="./dich-en.js"></script>
 <script>
-if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js"); }
+// Dang ky Service Worker: ep kiem tra ban moi thang tu mang (bo qua cache HTTP
+// cua chinh file sw.js) + khi mot ban SW moi tiep quan trang dang mo thi tu tai
+// lai trang dung 1 lan, de khach nhan ngay code moi thay vi ket o ban cu trong
+// phien trang/app da mo san (dung truong hop ket khung Thong bao cu 28/11/2026).
+if ("serviceWorker" in navigator) {
+  var daCoSWCu = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
+  if (daCoSWCu) {
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      try {
+        if (sessionStorage.getItem("phaDaTaiLaiSW")) return;
+        sessionStorage.setItem("phaDaTaiLaiSW", "1");
+      } catch (e) {}
+      location.reload();
+    });
+  }
+}
 </script>
 <script src="https://shop.hialo.vn/fx-asia.js" defer></script>
 <div id="nutDown" style="position:fixed;right:12px;top:12px;z-index:9999">
