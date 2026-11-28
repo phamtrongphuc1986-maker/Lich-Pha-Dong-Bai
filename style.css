@@ -73,6 +73,25 @@ tr.sapChay td { background: #fff3c4; font-weight: bold; }
 .theThongBao .tieuDe { font-weight: bold; margin-bottom: 4px; }
 .theThongBao .ngay { font-size: 12px; color: #777; }
 
+/* Khung chia se trong muc Thong bao khi chua co thong bao moi */
+.khungChiaSe { text-align: center; padding: 4px 0 2px; }
+.khungChiaSe .dongChiaSe { font-size: 16px; font-weight: bold; color: #075985; margin: 2px 0 12px; }
+.hangChiaSe { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+a.nutChiaSe {
+  width: 46px; height: 46px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,.25); text-decoration: none;
+}
+a.nutChiaSe svg { width: 25px; height: 25px; fill: #fff; display: block; }
+a.nutChiaSe:active { transform: scale(.94); }
+.csZalo { background: #0068ff; }
+.csFacebook { background: #1877f2; }
+.csX { background: #000000; }
+.csInstagram { background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fd5949 45%, #d6249f 62%, #285aeb 100%); }
+.csTikTok { background: #010101; }
+.csWeibo { background: #e6162d; }
+.csQQ { background: #12b7f5; }
+
 .theGia {
   display: flex; justify-content: space-between; align-items: baseline;
   gap: 10px;
