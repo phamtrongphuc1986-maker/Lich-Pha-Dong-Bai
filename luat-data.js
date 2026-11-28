@@ -7,7 +7,7 @@
 // nguon: [{ten, link}] — luôn ghi nguồn + link gốc ở cuối bài.
 // Lượt cập nhật hằng ngày CHỈ cần thêm bài vào mảng "bai" của file này (giữ nguyên cấu trúc).
 window.LUAT_QUOC_TE = {
-  capNhat: "27/11/2026",
+  capNhat: "28/11/2026",
   bai: [
     {
       id: "sg-ma-tuy-tu-hinh-chung-than",
@@ -771,6 +771,161 @@ window.LUAT_QUOC_TE = {
         { ten: "LegalClarity — Cambodia Drug Laws: Penalties for Possession and Trafficking (đối chiếu Law on Drug Control 2012, NACD)", link: "https://legalclarity.org/cambodia-drug-laws-and-penalties-for-foreign-nationals/" },
         { ten: "Asian Cannabis — Cannabis Law in Cambodia (2026): Table I Drug, Penalties and No Medical Route (Điều 38, 40, 44, 45)", link: "https://asiannabis.com/t/cannabis-law-in-cambodia-2026-table-i-drug-penalties-and-no-medical-route/2020" },
         { ten: "Xinhua — Cambodia arrests over 16,000 drug-related suspects in 2018 (ngưỡng 80g = chung thân)", link: "http://www.xinhuanet.com/english/2019-01/01/c_137712275.htm" }
+      ]
+    },
+    {
+      id: "cn-ma-tuy-dieu-347-tu-hinh",
+      nuoc: "cn",
+      tieuDe: "Trung Quốc: buôn ma túy từ 50g heroin đã có thể tử hình — toàn bộ ngưỡng Điều 347",
+      tomTat: "Bộ luật Hình sự Trung Quốc phạt buôn bán ma túy theo lượng: từ 50g heroin hoặc ma túy đá, hoặc 1.000g thuốc phiện, đã vào khung 15 năm tù đến tử hình. Chỉ tàng trữ từ 50g cũng từ 7 năm tù trở lên. Cần sa bị cấm tuyệt đối, không có cần sa y tế; từ 01/7/2025, cả nhóm chất nitazene và 12 chất hướng thần mới bị đưa vào danh mục kiểm soát.",
+      ngay: "28/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg/960px-Skyline_of_Beijing_CBD_with_B-5906_approaching_%2820211016171955%29_%281%29.jpg",
+      muc: [
+        {
+          h: "Điều 347: buôn bán ma túy là tội hình sự bất kể số lượng",
+          p: [
+            "Điều 347 Bộ luật Hình sự Trung Quốc quy định: buôn lậu, buôn bán, vận chuyển hoặc sản xuất ma túy là tội hình sự bất kể số lượng — không có mức tối thiểu \"quá nhỏ để truy tố\". Khung phạt chia theo 3 bậc lượng, tính theo tổng khối lượng hỗn hợp chứ không tính theo độ tinh khiết — một gói 50g chứa 10% ma túy đá vẫn bị tính là 50g.",
+            "Bậc cao nhất: thuốc phiện từ 1.000g trở lên, heroin hoặc ma túy đá (methylaniline/methamphetamine) từ 50g trở lên, hoặc các loại ma túy khác với số lượng lớn — phạt tù 15 năm, tù chung thân hoặc tử hình, đồng thời tịch thu toàn bộ tài sản. Bậc giữa: thuốc phiện 200–1.000g, heroin hoặc ma túy đá 10–50g — tù từ 7 năm trở lên kèm phạt tiền. Bậc thấp: dưới các mức trên — tù tới 3 năm, giam giữ hình sự hoặc quản chế, kèm phạt tiền; tình tiết nghiêm trọng thì 3–7 năm tù.",
+            "Để dễ hình dung: 50g heroin chỉ nặng bằng một quả trứng gà. Đây là ngưỡng tử hình thấp bậc nhất thế giới, và Trung Quốc là một trong số ít nước còn thi hành án tử hình với tội ma túy phi bạo lực."
+          ]
+        },
+        {
+          h: "Không chỉ tính theo gam: 4 con đường khác dẫn vào khung tử hình",
+          p: [
+            "Ngoài ngưỡng khối lượng, Điều 347 còn liệt kê 4 tình tiết khác cũng đưa vụ án vào khung 15 năm đến tử hình: cầm đầu đường dây buôn bán ma túy; vận chuyển ma túy có vũ trang hộ tống; chống cự việc bắt giữ bằng bạo lực trong tình tiết nghiêm trọng; và tham gia buôn bán ma túy quốc tế có tổ chức. Nói cách khác, dù lượng ma túy không lớn, vai trò tổ chức hoặc yếu tố bạo lực vẫn có thể đẩy bị cáo lên khung cao nhất.",
+            "Một điểm khác biệt quan trọng với nhiều nước: mọi bản án tử hình ở Trung Quốc — kể cả tử hình hoãn thi hành — đều phải được Tòa án Nhân dân Tối cao phúc thẩm và phê chuẩn mới được thi hành, theo quy định áp dụng từ năm 2007. Trung Quốc còn có chế độ \"tử hình hoãn thi hành 2 năm\": bị cáo nhận án tử nhưng được hoãn 2 năm, và nếu trong thời gian đó không phạm tội mới thì án được giảm xuống tù chung thân — trên thực tế, phần lớn các án tử hoãn thi hành không bao giờ bị thi hành."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_%2820315852831%29-_cropped.jpg/960px-%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD_%2820315852831%29-_cropped.jpg"
+        },
+        {
+          h: "Tàng trữ (Điều 348) và sử dụng: khung riêng, vẫn rất nặng",
+          p: [
+            "Điều 348 xử riêng tội tàng trữ trái phép: tàng trữ thuốc phiện từ 1.000g, heroin hoặc ma túy đá từ 50g trở lên — tù từ 7 năm hoặc tù chung thân kèm phạt tiền; tàng trữ 200–1.000g thuốc phiện hoặc 10–50g heroin/ma túy đá — tù tới 3 năm, giam giữ hoặc quản chế, kèm phạt tiền, tình tiết nghiêm trọng thì 3–7 năm.",
+            "Riêng hành vi sử dụng ma túy không bị xử hình sự như buôn bán hay tàng trữ, nhưng vẫn bị xử lý hành chính nghiêm khắc: người sử dụng bị giam giữ hành chính và đưa đi cai nghiện bắt buộc tại cơ sở, sau khi ra khỏi cơ sở còn có thể bị quản lý cai nghiện tại cộng đồng tối đa 3 năm theo Luật Phòng chống Ma túy. Với người nước ngoài, một vụ ma túy dù nhỏ cũng thường kết thúc bằng trục xuất và cấm nhập cảnh sau khi chấp hành xong hình phạt."
+          ]
+        },
+        {
+          h: "Cần sa và chất mới: cấm tuyệt đối, danh mục kiểm soát mở rộng liên tục",
+          p: [
+            "Luật Phòng chống Ma túy Trung Quốc (có hiệu lực từ 01/6/2008) liệt kê cần sa (marijuana) là ma túy, cùng nhóm với thuốc phiện, heroin, morphine và cocaine. Trung Quốc không có cần sa y tế, không có giới hạn THC cho phép nào ở cấp quốc gia; trồng cây cần sa trái phép cũng bị cấm. CBD bị cấm đưa vào mỹ phẩm từ tháng 5/2021 và từ 01/9/2024 bị quản lý như tiền chất loại 2 — mọi khâu sản xuất, mua bán, vận chuyển đều cần giấy phép tiền chất.",
+            "Trung Quốc siết danh mục chất kiểm soát theo từng đợt: toàn bộ nhóm chất fentanyl từ năm 2019, toàn bộ nhóm cần sa tổng hợp từ năm 2021, và mới nhất — từ ngày 01/7/2025 — toàn bộ nhóm nitazene (opioid tổng hợp cực mạnh) cùng 12 chất hướng thần mới khác, trong đó có HHC, được đưa vào danh mục kiểm soát. Thông điệp của Bắc Kinh rất rõ: danh mục chất cấm sẽ còn mở rộng theo tốc độ xuất hiện của chất mới, và \"chất mới chưa nghe tên\" không có nghĩa là hợp pháp."
+          ],
+          anh: "https://upload.wikimedia.org/wikipedia/commons/4/48/Marijuana.jpg"
+        },
+        {
+          h: "Người Việt ở Trung Quốc cần nhớ gì?",
+          p: [
+            "Thứ nhất, ngưỡng 50g quá thấp so với tưởng tượng của nhiều người: một gói hàng \"nhờ mang hộ\" qua cửa khẩu, một bưu kiện nhận thay người quen, hay ma túy giấu trong hành lý mà người mang không biết — đều có thể đưa người mang vào khung 15 năm đến tử hình, vì luật tính theo khối lượng và không miễn trừ cho người \"không biết bên trong có gì\" khi đã tham gia vận chuyển. Thứ hai, đừng mang bất kỳ sản phẩm cần sa, CBD hay thuốc lá điện tử chứa tinh dầu cần sa nào vào Trung Quốc — dù mua hợp pháp ở Thái Lan, Canada hay Mỹ, vào tới Trung Quốc vẫn là ma túy. Thứ ba, các vụ án ma túy của người nước ngoài ở Trung Quốc thường được xét xử nhanh và công khai, và án tử hình với người nước ngoài đã từng được thi hành — đây không phải rủi ro lý thuyết."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Tòa án Nhân dân Tối cao Trung Quốc — Criminal Law of the People's Republic of China, Điều 347–348 (bản tiếng Anh chính thức)", link: "https://english.court.gov.cn/2015-12/01/c_766158_31.htm" },
+        { ten: "LegalClarity — China Drug Trafficking Laws: Article 347 and Detention", link: "https://legalclarity.org/china-drug-trafficking-laws-article-347-and-detention/" },
+        { ten: "Asian Cannabis — Cannabis Law in China (2026): No Medical Use, CBD Controls and Criminal Thresholds", link: "https://asiannabis.com/t/cannabis-law-in-china-2026-no-medical-use-cbd-controls-and-criminal-thresholds/2014" },
+        { ten: "UNODC — China: Announcement of class scheduling of 'nitazene' analogues (07/2025)", link: "https://www.unodc.org/LSS/Announcement/Details/7e29daf9-1d49-45e6-95e7-8ce932bc94e1" }
+      ]
+    },
+    {
+      id: "in-bo-luat-hinh-su-moi-bns-2024",
+      nuoc: "in",
+      tieuDe: "Ấn Độ thay toàn bộ Bộ luật Hình sự từ 01/7/2024: bỏ luật thuộc địa 1860, gây tai nạn bỏ chạy tới 10 năm tù",
+      tomTat: "Từ 01/7/2024, Ấn Độ thay Bộ luật Hình sự 1860 thời thuộc địa Anh bằng Bharatiya Nyaya Sanhita (BNS): 511 điều còn 358 điều, thêm tội giết người theo nhóm (đám đông hành hung), tội phạm có tổ chức và khủng bố; gây tai nạn chết người rồi bỏ chạy tăng từ 2 năm lên 10 năm tù; tội phản loạn (sedition) bị bãi bỏ, thay bằng điều khoản về hành vi đe dọa chủ quyền, thống nhất và toàn vẹn lãnh thổ.",
+      ngay: "28/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/India_Gate_front.jpg/960px-India_Gate_front.jpg",
+      muc: [
+        {
+          h: "Từ IPC 1860 sang BNS 2023: cải cách hình sự lớn nhất từ khi độc lập",
+          p: [
+            "Ngày 01/7/2024, Ấn Độ thực hiện cuộc cải cách hệ thống pháp luật hình sự lớn nhất kể từ khi độc lập: Bộ luật Hình sự Ấn Độ (Indian Penal Code — IPC) năm 1860, do người Anh soạn thảo dưới thời thuộc địa, được thay thế bằng Bharatiya Nyaya Sanhita 2023 (BNS — tạm dịch: Bộ luật Công lý Ấn Độ). BNS được Tổng thống Ấn Độ phê chuẩn ngày 25/12/2023 và có hiệu lực cùng ngày với hai bộ luật đi kèm: Bharatiya Nagarik Suraksha Sanhita (BNSS, thay Bộ luật Tố tụng Hình sự 1973) và Bharatiya Sakshya Adhiniyam (BSA, thay Đạo luật Chứng cứ 1872).",
+            "Về cấu trúc, BNS gọn hơn hẳn IPC: 358 điều trong 20 chương, so với 511 điều trong 23 chương của IPC — khoảng 175 điều được giữ nguyên nội dung, khoảng 75 điều được viết lại và khoảng 25 tội danh hoàn toàn mới được bổ sung. Nguyên tắc chuyển đổi: tội phạm trước ngày 01/7/2024 vẫn xét xử theo IPC cũ, tội phạm từ ngày đó trở đi áp dụng BNS; mọi đơn tố cáo (FIR) lập từ 01/7/2024 phải trích dẫn điều khoản BNS."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/India_Gate_from_Rajpath.jpg/960px-India_Gate_from_Rajpath.jpg"
+        },
+        {
+          h: "Gây tai nạn chết người rồi bỏ chạy: từ 2 năm lên 10 năm (Điều 106)",
+          p: [
+            "Thay đổi được chú ý nhất với người tham gia giao thông là Điều 106 BNS. Gây chết người do hành vi cẩu thả hoặc bất cẩn (Điều 106(1)) tăng từ tối đa 2 năm tù theo IPC 304A lên tối đa 5 năm tù kèm phạt tiền. Nếu tài xế gây tai nạn chết người rồi bỏ trốn mà không báo ngay cho cảnh sát hoặc thẩm phán (Điều 106(2) — tội \"hit-and-run\"), khung phạt tăng vọt lên tối đa 10 năm tù kèm phạt tiền nặng.",
+            "Điều khoản này từng gây tranh cãi lớn khi BNS mới ban hành: giới tài xế xe tải Ấn Độ đã đình công phản đối đầu năm 2024 vì cho rằng mức 10 năm quá nặng, nhưng chính phủ giữ nguyên quy định. Với người Việt lái xe ở Ấn Độ, đây là điểm phải nhớ kỹ: gây tai nạn rồi rời hiện trường — dù vì hoảng sợ — cũng biến một vụ tai nạn giao thông thành tội hình sự nặng."
+          ]
+        },
+        {
+          h: "Tội mới: giết người theo nhóm, tội phạm có tổ chức, khủng bố",
+          p: [
+            "Lần đầu tiên trong bộ luật hình sự chung của Ấn Độ, tội giết người do đám đông hành hung (mob lynching) được ghi nhận riêng: Điều 103(2) quy định giết người do một nhóm từ 5 người trở lên cùng thực hiện vì lý do chủng tộc, đẳng cấp, cộng đồng, giới tính hoặc nơi sinh — bị phạt tử hình hoặc tù chung thân.",
+            "BNS cũng bổ sung hai tội danh lớn chưa từng có trong IPC: tội phạm có tổ chức (Điều 111) — tù chung thân hoặc tử hình, phạt tiền tối thiểu 500.000 rupee; và hành vi khủng bố (Điều 113) — tù chung thân hoặc tử hình, phạt tiền tối thiểu 1.000.000 rupee. Ngoài ra, BNS lần đầu tiên đưa \"lao động công ích\" (community service) vào làm một hình thức xử phạt cho các tội nhẹ — điều chưa từng có trong lịch sử pháp luật hình sự Ấn Độ."
+          ]
+        },
+        {
+          h: "Bãi bỏ tội phản loạn, thay bằng điều khoản bảo vệ chủ quyền",
+          p: [
+            "Một thay đổi mang tính biểu tượng: BNS bãi bỏ Điều 124A IPC — tội \"phản loạn\" (sedition) thời thuộc địa, từng bị dùng để bỏ tù những người chỉ trích chính quyền, trong đó có cả Mahatma Gandhi năm 1922. Thay vào đó, Điều 152 BNS trừng phạt hành vi đe dọa chủ quyền, thống nhất và toàn vẹn lãnh thổ của Ấn Độ — phạm vi hẹp hơn tội phản loạn cũ, tập trung vào hành vi ly khai và chống phá nhà nước thay vì lời chỉ trích chung chung.",
+            "Chính phủ Ấn Độ trình bày toàn bộ cải cách như bước \"phi thực dân hóa\" pháp luật: chuyển trọng tâm từ trừng phạt sang công lý, hiện đại hóa định nghĩa tội phạm và siết các tội nghiêm trọng. Các tổ chức nhân quyền thì lưu ý rằng nhiều điều khoản mới — đặc biệt là Điều 152 và các tội khủng bố — vẫn để lại khoảng diễn giải rộng cho cơ quan thực thi."
+          ]
+        },
+        {
+          h: "Người Việt ở Ấn Độ cần nhớ gì?",
+          p: [
+            "Thứ nhất, nếu không may dính tai nạn giao thông ở Ấn Độ: tuyệt đối không rời hiện trường — ở lại, gọi cảnh sát và báo cáo ngay; bỏ chạy có thể biến vụ việc thành án 10 năm tù. Thứ hai, mọi vụ việc hình sự từ 01/7/2024 đều trích dẫn điều khoản BNS, nên khi đọc biên bản hay đơn tố cáo, các số điều sẽ khác hẳn luật cũ (ví dụ giết người không còn là Điều 302 IPC). Thứ ba, Ấn Độ đông dân, giao thông hỗn loạn và đám đông dễ kích động — tránh xa mọi vụ xô xát tập thể, vì luật mới xử tội giết người theo nhóm ở khung cao nhất."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Aashayein Judiciary — BNS vs IPC: Section Mapping & Key Changes", link: "https://aashayeinjudiciary.com/posts/bns-vs-ipc-section-mapping" },
+        { ten: "Juris Altus — BNS vs IPC: Complete Comparison Guide 2026", link: "https://jurisaltus.com/bns-vs-ipc-complete-comparison-guide-2026-every-major-change-explained/" },
+        { ten: "Bar Kachahri — BNS vs IPC: A Practical Guide for Criminal Advocates", link: "https://www.barkachahri.com/blog/bns-vs-ipc-guide-for-advocates" }
+      ]
+    },
+    {
+      id: "ae-luat-giao-thong-moi-2025",
+      nuoc: "ae",
+      tieuDe: "UAE có luật giao thông mới từ 29/3/2025: đi bộ sang đường sai chỗ gây tai nạn phạt tới 10.000 dirham, có thể ngồi tù",
+      tomTat: "Nghị định-Luật liên bang số 14/2024 của UAE có hiệu lực từ 29/3/2025, thay luật giao thông 1995: đi bộ sang đường sai chỗ gây tai nạn bị tù và phạt 5.000–10.000 dirham; sang đường cao tốc (giới hạn từ 80 km/h) tối thiểu 3 tháng tù và 10.000 dirham; tuổi lấy bằng lái hạ xuống 17; lái xe không bằng phạt 5.000–50.000 dirham; xe scooter điện từ 16 tuổi, đội mũ bảo hiểm, tối đa 20 km/h.",
+      ngay: "28/11/2026",
+      anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg/960px-Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg",
+      muc: [
+        {
+          h: "Luật mới là gì: Nghị định-Luật liên bang số 14/2024",
+          p: [
+            "Nghị định-Luật liên bang số 14 năm 2024 về quy định giao thông (Federal Decree-Law No. 14 of 2024) được công bố ngày 30/9/2024 và có hiệu lực từ ngày 29/3/2025 trên toàn UAE, thay thế luật giao thông liên bang cũ từ năm 1995. Đây là lần đại tu toàn diện nhất của luật giao thông UAE trong 30 năm: luật mới bao quát cả xe tự lái, hệ thống xử phạt bằng công nghệ (camera, cảm biến), xe điện và phương tiện di chuyển cá nhân như xe scooter điện, đồng thời thành lập Hội đồng Giao thông Liên bang để thống nhất quy định giữa các tiểu vương quốc.",
+            "Các mức phạt tiền thông thường và điểm đen (black points) vẫn theo bảng phạt của Nghị quyết Bộ trưởng số 178/2017; luật mới chủ yếu siết các hình phạt do tòa án quyết định với các vi phạm nghiêm trọng. Từ 01/01/2027, Nghị quyết Nội các số 174/2026 (quy định thi hành của luật) sẽ bổ sung thêm nhiều quy định chi tiết — trong đó có giấy phép riêng cho xe scooter điện và xe đạp điện."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c7/Burj_Khalifa_2021.jpg/960px-Burj_Khalifa_2021.jpg"
+        },
+        {
+          h: "Đi bộ sang đường sai chỗ: từ 400 dirham lên tới 10.000 dirham + tù",
+          p: [
+            "Điểm thay đổi ảnh hưởng trực tiếp nhất tới người đi bộ là Điều 7 của luật mới về \"kiểm soát việc sử dụng đường\": người đi bộ, người đi xe đạp, xe scooter điện hay bất kỳ phương tiện di chuyển cá nhân nào cũng không được dừng giữa đường hay sang đường từ vị trí không được chỉ định — chỉ được qua đường ở vạch sang đường, cầu vượt hoặc hầm đi bộ.",
+            "Mức phạt cơ bản khi sang đường sai chỗ vẫn là 400 dirham như trước. Nhưng nếu hành vi đó gây ra tai nạn giao thông, người đi bộ có thể bị phạt tù kèm phạt tiền 5.000–10.000 dirham. Nặng nhất là sang đường trên tuyến đường có giới hạn tốc độ từ 80 km/h trở lên: người vi phạm chịu toàn bộ trách nhiệm dân sự và hình sự phát sinh, có thể bị tối thiểu 3 tháng tù và phạt tiền tối thiểu 10.000 dirham — hoặc cả hai. Luật còn quy định: nếu bị xe đâm khi đang sang đường sai chỗ trên đường 80 km/h trở lên mà xe đi đúng tốc độ cho phép, người đi bộ không được hưởng bất kỳ khoản bồi thường thiệt hại nào."
+          ]
+        },
+        {
+          h: "Lái xe: tuổi lấy bằng hạ xuống 17, không bằng phạt tới 50.000 dirham",
+          p: [
+            "Luật mới hạ độ tuổi tối thiểu được nộp đơn xin bằng lái từ 18 xuống 17 tuổi (Điều 10) — thay đổi được nhiều gia đình có con tuổi teen quan tâm, dù bằng lái cho người 17 tuổi vẫn chịu một số hạn chế. Song song đó, hình phạt do tòa quyết định với các vi phạm nghiêm trọng tăng mạnh: lái xe không có bằng, hoặc bằng sai hạng — phạt tiền 5.000–50.000 dirham và/hoặc tối đa 3 tháng tù; tái phạm thì tối thiểu 20.000 dirham và tối thiểu 3 tháng tù. Lái xe khi bằng đã bị đình chỉ — tối thiểu 10.000 dirham và/hoặc tối đa 3 tháng tù.",
+            "Lái xe khi chịu ảnh hưởng của ma túy: phạt tiền 30.000–200.000 dirham và/hoặc tù giam, bằng lái bị đình chỉ tối thiểu 6 tháng ngay từ lần vi phạm đầu tiên. Lái xe khi say rượu vẫn là một trong những tội nặng nhất ở UAE — theo tổng hợp của các hãng luật UAE, mức phạt có thể lên tới 100.000 dirham kèm tù bắt buộc và tước bằng tối thiểu 1 năm. Gây chết người do vượt đèn đỏ, lái xe khi say, lái xe qua thung lũng ngập nước hoặc lái xe khi bằng bị đình chỉ — tối thiểu 100.000 dirham và/hoặc tối thiểu 1 năm tù. Sau khi bị kết án, tòa có thể đình chỉ bằng lái tới 3 năm và cấm làm mới hoặc xin bằng mới thêm tới 2 năm."
+          ],
+          anh: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/960px-Dubai_Marina_Skyline.jpg"
+        },
+        {
+          h: "Xe scooter điện và xe đạp điện: từ 16 tuổi, đội mũ, tối đa 20 km/h",
+          p: [
+            "Lần đầu tiên, luật giao thông liên bang UAE quy định khung pháp lý đầy đủ cho xe scooter điện và xe đạp điện: người lái phải từ 16 tuổi trở lên, bắt buộc đội mũ bảo hiểm và mặc quần áo phản quang (đặc biệt vào ban đêm), tốc độ tối đa 20 km/h và chỉ được đi trên làn đường hoặc tuyến đường được phép. Vi phạm bị phạt 300–1.000 dirham; tái phạm nhiều lần có thể bị tịch thu xe hoặc cấm lái phương tiện này.",
+            "Từ 01/01/2027, quy định thi hành mới sẽ yêu cầu đăng ký và giấy phép lái riêng cho xe scooter điện và xe đạp điện (người xin phép phải từ 15 tuổi, giấy phép có hiệu lực 3 năm), xe phải có đèn trước/sau, phanh và chuông — và chỉ được chạy trên tuyến đường do cơ quan chức năng từng tiểu vương quốc chỉ định. Người Việt hay dùng scooter điện để đi làm ở Dubai, Abu Dhabi nên cập nhật sớm các quy định này trước khi chúng có hiệu lực."
+          ]
+        },
+        {
+          h: "Người Việt ở UAE cần nhớ gì?",
+          p: [
+            "Thứ nhất, sang đường sai chỗ là cái bẫy thường ngày nhất: ở UAE, đường phố rộng, nhiều tuyến có giới hạn 80 km/h trở lên, và người đi bộ sang đường tắt qua dải phân cách là cảnh bị phạt hàng nghìn vụ mỗi tháng — tuyệt đối chỉ qua đường ở vạch sang đường, cầu vượt hoặc hầm đi bộ, dù phải đi bộ thêm vài trăm mét. Thứ hai, UAE không có \"mức cồn cho phép\" khi lái xe: uống rượu rồi lái xe là tội hình sự nặng, không có ngưỡng an toàn nào. Thứ ba, lao động Việt Nam sang UAE làm việc nên kiểm tra kỹ hạng bằng lái và tình trạng bằng trước khi lái xe — lái xe không bằng hoặc sai hạng có thể bị phạt tới 50.000 dirham và ngồi tù."
+          ]
+        }
+      ],
+      nguon: [
+        { ten: "Gulf News — UAE Jaywalking Law: Fines Up to Dh10,000, Jail and Liability Under UAE's Traffic Law", link: "https://gulfnews.com/living-in-uae/transport/caught-jaywalking-in-uae-you-could-be-fined-up-to-dh10000-1.500091540" },
+        { ten: "Gulf News — UAE: Stricter fines, potential jail time for crossing the road from non-designated areas", link: "https://gulfnews.com/living-in-uae/transport/uae-stricter-fines-potential-jail-time-for-crossing-the-road-from-non-designated-areas-1.1730381813582" },
+        { ten: "Gulf Driving Prep — UAE Traffic Law 2025: Changes and Court Penalties", link: "https://gulfdrivingprep.com/en/uae/guides/new-traffic-law-2025/" },
+        { ten: "Bộ Nội vụ UAE — New Traffic Regulations in the UAE to Take Effect on January 1, 2027", link: "https://moi.gov.ae/en/media-center/news/110926n01" }
       ]
     }
   ]
